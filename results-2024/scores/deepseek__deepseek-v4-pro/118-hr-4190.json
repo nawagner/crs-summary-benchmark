@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-4190",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the amendment, predecease payment rule, section 5121 mechanism (correctly noting it covers estate, surviving spouse, children, and other eligible recipients), fiduciary prohibition, and redesignation."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims. The description of section 5121's coverage of estate, surviving spouse, and children is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the amendment to section 6107 of title 38."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the prohibition on paying the misusing fiduciary."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No internal effective date specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All key provisions captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Statutory references correct."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No dollar amounts or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

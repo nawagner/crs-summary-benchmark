@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hr-3821",
+  "congress": 118,
+  "type": "hr",
+  "number": "3821",
+  "title": "Firefighter Cancer Registry Reauthorization Act of 2023",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-bill/3821",
+  "crs_summary": "Firefighter Cancer Registry Reauthorization Act of 2023\nThis act reauthorizes through FY2028 the National Firefighter Registry for Cancer. This is a voluntary registry maintained by the National Institute of Occupational Safety & Health that collects relevant health and occupational information to better understand and reduce cancers among firefighters.",
+  "crs_version_code": "49",
+  "crs_action_date": "2024-12-12",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 147]\n[From the U.S. Government Publishing Office]\n\n[[Page 138 STAT. 1674]]\n\nPublic Law 118-147\n118th Congress\n\n An Act\n\nTo reauthorize the Firefighter Cancer Registry Act of 2018. <<NOTE: Dec. \n 12, 2024 - [H.R. 3821]>> \n\n Be it enacted by the Senate and House of Representatives of the \nUnited States of America in Congress assembled, <<NOTE: Firefighter \nCancer Registry Reauthorization Act of 2023.>> \nSECTION 1. <<NOTE: 42 USC 201 note.>> SHORT TITLE.\n\n This Act may be cited as the ``Firefighter Cancer Registry \nReauthorization Act of 2023''.\nSEC. 2. <<NOTE: Time periods.>> REAUTHORIZATION OF VOLUNTARY \n REGISTRY FOR FIREFIGHTER CANCER INCIDENCE.\n\n Section 2(h) of the Firefighter Cancer Registry Act of 2018 (42 \nU.S.C. 280e-5(h)) is amended by striking ``$2,500,000 for each of the \nfiscal years 2018 through 2022'' and inserting ``$5,500,000 for each of \nfiscal years 2024 through 2028''.\n\n Approved December 12, 2024.\n\nLEGISLATIVE HISTORY--H.R. 3821:\n---------------------------------------------------------------------------\n\nHOUSE REPORTS: No. 118-247 (Comm. on Energy and Commerce).\nCONGRESSIONAL RECORD, Vol. 170 (2024):\n Mar. 5, 6, considered and passed House.\n Dec. 4, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 1252,
+  "bill_text_tokens_est": 313,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ147/PLAW-118publ147.htm",
+  "actions_count": 31,
+  "summary_versions": 1
+}

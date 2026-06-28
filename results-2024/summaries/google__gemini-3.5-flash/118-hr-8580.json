@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 8580, the Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2025, provides funding for military construction, the Department of Veterans Affairs (VA), and related agencies for the fiscal year ending September 30, 2025. \n\nThe bill allocates funds for military construction, family housing, and base closures across all military branches, the National Guard, Reserves, and the NATO Security Investment Program, with most construction funds remaining available until September 30, 2029. It prohibits using funds to close or realign the Naval Station at Guantanamo Bay, Cuba, or to construct or renovate facilities in the United States to house Guantanamo detainees.\n\nFor the VA, the bill funds medical services, prosthetic research, information technology, and veterans' benefits, including advance appropriations for fiscal year 2026. It mandates that the VA prioritize medical care for veterans with service-connected disabilities, lower incomes, or special needs. \n\nAdditionally, the bill places several restrictions on the use of funds, including:\n- Prohibiting funding for abortions, except in cases of rape, incest, or life-endangering physical conditions, and blocking the implementation of the VA's September 9, 2022 interim final rule on abortion.\n- Banning funds for gender-affirming surgical procedures or hormone therapies.\n- Prohibiting the enforcement of COVID-19 vaccine mandates for VA healthcare personnel.\n- Requiring the VA to implement a plan to eliminate research on canines, felines, or non-human primates by March 9, 2026, with strict interim approval and reporting conditions.\n- Preventing the VA from reporting mentally incapacitated veterans to the National Instant Criminal Background Check System without a judicial finding that they pose a danger.\n- Prohibiting funds for diversity, equity, and inclusion (DEI) training, Critical Race Theory, and several executive orders related to climate change and environmental justice.\n- Restricting the procurement of office IT equipment from entities with Chinese ownership or ties to the Chinese military.",
+  "prompt_tokens": 29631,
+  "completion_tokens": 2442,
+  "total_tokens": 32073,
+  "cost_usd": 0.066424,
+  "latency_s": 11.666,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Utah State Parks Adjustment Act (Public Law 118-181) requires the federal government to convey certain federal lands to the State of Utah for inclusion in three state parks. \n\nSpecifically, within 180 days of the law's enactment on December 23, 2024, the Secretary of the Interior must convey designated Bureau of Land Management lands to Utah for inclusion in Antelope Island State Park and Wasatch Mountain State Park. These conveyances will be made by quitclaim deed, without consideration, and subject to valid existing rights. The State of Utah is responsible for all associated administrative and survey costs.\n\nAdditionally, within the same 180-day timeframe, the Secretary of Agriculture must convey specified National Forest System land and improvements to Utah for inclusion in Fremont Indian State Park. This conveyance is subject to several conditions:\n* The Secretary of Agriculture must reserve easements for all National Forest System roads and trails traversing the land.\n* Only specific water rights (identified as 63-44, 63-1607, and 63-2817) that supply the Castle Rock Campground and Belknap Historic Guard Station will be transferred.\n* Utah must pay for any necessary land surveys.\n* The Secretary of Agriculture may enter into agreements with Utah regarding the management of the Belknap Historic Guard Station, road and trail maintenance, permitted livestock grazing, and retained federal water rights.\n\nThe Secretaries of the Interior and Agriculture may make minor modifications to the maps depicting these lands. Under the Act, Utah must use all conveyed lands for public purposes, such as parks, campgrounds, recreation, and permitted livestock grazing. If any parcel ceases to be used for these public purposes, it may revert to the United States at the discretion of the respective Secretary.",
+  "prompt_tokens": 1804,
+  "completion_tokens": 2088,
+  "total_tokens": 3892,
+  "cost_usd": 0.021498,
+  "latency_s": 8.366,
+  "ok": true
+}

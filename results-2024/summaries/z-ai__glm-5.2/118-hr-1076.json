@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Preventing the Financing of Illegal Synthetic Drugs Act requires the Comptroller General of the United States to conduct and report on a study regarding the illicit financing of synthetic drug trafficking into the United States. \n\nUnder the Act, the Comptroller General must examine the business of trafficking synthetic drugs—including fentanyl, methamphetamine, related substances, Captagon, and their precursors—and the associated illicit finance. The study must analyze the involvement of transnational criminal organizations and terror syndicates, their trafficking corridors, and their business models, covering the full supply chain from precursor purchase and production to the manufacture, marketing, distribution, and sale of the drugs, as well as the return of proceeds. It also requires an examination of the overlap between synthetic drug trafficking and human trafficking, along with the use of online illicit markets, social media platforms (such as Snapchat, Discord, and Facebook), and payment applications (like CashApp) in facilitating these transactions, particularly among young people. Additionally, the study must evaluate the financial methods used by these organizations, including payment, money laundering, and the repatriation of proceeds. \n\nThe Act further directs the study to review U.S. Government efforts to combat this illicit finance, assessing interagency, intergovernmental, and private sector collaboration, while identifying any gaps or resource deficiencies in these coordination activities. \n\nThe Comptroller General is required to submit a report containing all findings and determinations to Congress no later than one year after the Act's date of enactment, which was September 13, 2024. The legislation does not establish new criminal laws or regulatory mandates but requires this specific study and reporting to inform Congress on the financial mechanisms of synthetic drug trafficking.",
+  "prompt_tokens": 1391,
+  "completion_tokens": 1087,
+  "total_tokens": 2478,
+  "cost_usd": 0.004582,
+  "latency_s": 19.654,
+  "ok": true
+}

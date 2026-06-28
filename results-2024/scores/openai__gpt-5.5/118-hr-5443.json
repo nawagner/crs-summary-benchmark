@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-5443",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all content grounded in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as establishing rules for Interior Department appraisal services."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes that preexisting laws requiring state-specific licensure are overridden for Interior transactions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the three conditions for using out-of-state appraisers."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 90-day public availability deadline and annual reporting starting one year after enactment for at least four more years."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major provisions including one-state licensing, preference for local appraisers, reporting, and public availability."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Secretary of the Interior and Department of the Interior."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "90-day deadline and annual reporting timeline correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

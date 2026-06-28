@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific federal rule that redefined “waters of the United States” for regulatory purposes. The rule in question was issued jointly by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency and was published in the Federal Register on January 18, 2023. Under the resolution, Congress exercises its authority under the Congressional Review Act to disapprove the rule and declares that it shall have no force or effect. The resolution does not replace the rule with a new definition or direct the agencies to take any further action. It simply cancels the 2023 revised definition, which means the rule would be treated as if it had never taken effect. The resolution applies only to this specific rulemaking and does not amend the underlying Clean Water Act or other statutes. The measure passed the House of Representatives on March 9, 2023, and was received in the Senate on March 14, 2023.",
+  "prompt_tokens": 410,
+  "completion_tokens": 196,
+  "total_tokens": 606,
+  "cost_usd": 0.000349,
+  "latency_s": 3.708,
+  "ok": true
+}

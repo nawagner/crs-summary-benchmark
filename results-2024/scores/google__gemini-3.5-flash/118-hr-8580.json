@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8580",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims about the bill's provisions are consistent with the bill text and known content of this appropriations act."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; policy riders described are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Appropriations bill."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key policy riders (abortion exception, gender-affirming care ban, COVID mandate prohibition, canine research phase-out, NICS reporting restriction)."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY ending September 30, 2025, and construction funds available through September 30, 2029."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits Title III related agencies (American Battle Monuments Commission, U.S. Court of Appeals for Veterans Claims, etc.) and the advance VA appropriations for FY2026."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Reasonably concise while covering major provisions."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names VA, DOD, and Guantanamo Bay."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies FY2025 and September 30, 2029 availability and March 9, 2026 canine research deadline."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

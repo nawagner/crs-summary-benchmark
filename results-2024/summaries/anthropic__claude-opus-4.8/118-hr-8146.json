@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Police Our Border Act (H.R. 8146) would require the Attorney General to prepare and submit a report to Congress on how border-related issues affect law enforcement officers at the federal, state, local, and Tribal levels.\n\nThe bill begins with congressional findings concerning the dangers faced by law enforcement officers, the number of officers who died in the line of duty in 2023, and the burdens the bill attributes to what it describes as the \"Biden border crisis,\" including the influx of fentanyl. The findings also state that Congress should pass border security legislation and that the President should use existing authorities, including section 212(f) of the Immigration and Nationality Act, to secure the southern border.\n\nThe bill's operative provision directs the Attorney General to submit the report no later than 180 days after the date of enactment. The report must address:\n\n- The estimated dollar amount of resources devoted to addressing the border crisis and the extent to which those resources are unavailable to law enforcement agencies;\n- The exposure of law enforcement officers to fentanyl from encounters with individuals described as \"illegal aliens\" at the border and within the United States, including the nationality of each such individual;\n- Injuries to officers connected to the border crisis or fentanyl exposure;\n- The morale of law enforcement officers;\n- The effect on recruiting and hiring;\n- The estimated amount states have spent on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the border, including the full evidence lifecycle (collection, analysis, storage, and destruction); and\n- The number of officers reassigned and local resources reallocated for those fentanyl-related efforts.\n\nThe bill creates a reporting requirement only; it does not establish new funding, programs, or enforcement authorities. It passed the House of Representatives on May 16, 2024, and was received in the Senate and referred to the Committee on the Judiciary on May 20, 2024.",
+  "prompt_tokens": 1601,
+  "completion_tokens": 617,
+  "total_tokens": 2218,
+  "cost_usd": 0.02343,
+  "latency_s": 8.314,
+  "ok": true
+}

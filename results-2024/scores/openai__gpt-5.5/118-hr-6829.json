@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6829",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All provisions, deadlines, agencies, and the no-additional-funds clause accurately described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose across education, research, and school preparedness."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the bill amends the Public Health Service Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes grant eligibility limited to local educational agencies consulting qualified health care entities, and no additional appropriations."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states 18-month and 30-month deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All four major provisions thoroughly and accurately covered."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, comprehensive, and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Extremely detailed for a summary; essentially restates the bill in prose form, including granular specifics like individual syndrome names and evidence lifecycle details."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "HHS Secretary, CDC, NIH, local educational agencies, and qualified health care entities correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "18-month and 30-month deadlines correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

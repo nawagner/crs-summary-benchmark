@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6249",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text; the description of report and review requirements is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "States 'GAO' as the reviewing entity, but the bill text specifies the Comptroller General—the head of GAO—alongside FEMA. While GAO is technically correct as the Comptroller General's agency, this is a minor but acceptable characterization. More precisely, the bill says the Comptroller General, not 'GAO' as an institution."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as requiring FEMA and GAO to study and report on disability disaster assistance."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill does not amend existing law, and the summary correctly notes this."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions apply."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies 120-day and one-year deadlines with approximate calendar dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the FEMA report and the broader review, including the physical disabilities expansion."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without excessive repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FEMA Administrator, Comptroller General, and relevant committees are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "120-day and one-year deadlines are accurate; approximate calendar dates derived from the November 2024 enactment are reasonable."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

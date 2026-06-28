@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This act directs the Department of Homeland Security’s Science and Technology Directorate, in coordination with the Drug Enforcement Administration, to expand its capacity to detect illicit drugs such as fentanyl and xylazine in very low concentrations. It amends the Homeland Security Act of 2002 by adding a new function to the Directorate’s responsibilities: researching, developing, testing, evaluating, and performing cost-benefit analyses to improve detection equipment and reference libraries used by federal, state, local, Tribal, and territorial law enforcement. The focus includes portable devices that can identify drugs with minimal or no sample handling, equipment that can break down complex mixtures where drugs are present in low concentrations amid high concentrations of cutting agents, and technologies that use machine learning or artificial intelligence to predict whether a substance is a controlled substance analogue or a new psychoactive substance not yet in reference libraries.\n\nIn carrying out this new function, the Under Secretary for Science and Technology must follow the National Institute of Standards and Technology’s Artificial Intelligence Risk Management Framework (or any successor document) and set research and development priorities based on the latest available information on drug threats. Specifically, priorities must be informed by the most recent Homeland Threat Assessment published by the Department of Homeland Security, the most recent State and Territory Report on Enduring and Emerging Threats from the Drug Enforcement Administration, or any successor documents. The act includes a rule of construction stating that nothing in it limits the existing authority of agencies that currently manage, oversee, or are otherwise involved with drug detection equipment and reference libraries. The law took effect upon its approval on December 23, 2024.",
+  "prompt_tokens": 1104,
+  "completion_tokens": 891,
+  "total_tokens": 1995,
+  "cost_usd": 0.001255,
+  "latency_s": 11.615,
+  "ok": true
+}

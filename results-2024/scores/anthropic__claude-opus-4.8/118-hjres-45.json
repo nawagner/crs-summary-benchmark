@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-45",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text; the description of the CRA process and the GAO letter are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; the statement about Senate passage requiring presidential signature is accurate real-world context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution uses CRA to overturn the DOE student loan waiver rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains the rule shall have no force or effect, which is the operative legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this simple disapproval resolution."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the resolution has no separate effective date beyond its enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the CRA mechanism, the targeted rule, the GAO letter, and the operative nullification language."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough without padding; length is appropriate to the detail provided."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Department of Education, GAO, Congressional Review Act all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "87 Fed. Reg. 61512, Oct. 12, 2022, March 17 and 22, 2023 dates, pages S903-S906 all correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

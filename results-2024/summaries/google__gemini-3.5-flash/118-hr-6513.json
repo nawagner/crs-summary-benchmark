@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Confirmation Of Congressional Observer Access Act of 2024\" (or \"COCOA Act of 2024\") amends the Help America Vote Act of 2002 to require states and U.S. territories to provide designated congressional election observers with full access to observe election administration procedures during federal elections. \n\nThe bill establishes a statutory reference for Congress's constitutional authority to send observers to polling places and any location where ballots are cast, processed, scanned, tabulated, canvassed, recounted, audited, or certified. A \"designated congressional election observer\" is defined as a House or Senate employee designated in writing by the chair or ranking minority member of the House Committee on House Administration or the Senate Committee on Rules and Administration. \n\nUnder the law, observers are permitted to ask questions of election officials and workers. However, they are strictly prohibited from handling ballots or election equipment, advocating for candidates or positions, compromising voter privacy, or interfering with voters or election administrators. \n\nA state or local election official may remove an observer if there is a reasonable basis to believe the observer is disrupting procedures or engaging in illegal intimidation or deceptive practices; however, the mere presence of an observer is not a valid reason for removal. If an observer is removed, the election official must notify the relevant congressional committee's chair and ranking minority member in writing within 24 hours, detailing the reasons for the removal. The committee leadership may then send a replacement observer for the remainder of the election observation.",
+  "prompt_tokens": 1938,
+  "completion_tokens": 1883,
+  "total_tokens": 3821,
+  "cost_usd": 0.019854,
+  "latency_s": 8.188,
+  "ok": true
+}

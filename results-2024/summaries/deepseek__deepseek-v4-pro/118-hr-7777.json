@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Veterans’ Compensation Cost-of-Living Adjustment Act of 2024 requires the Secretary of Veterans Affairs to increase certain veterans’ disability compensation and survivor benefit payments, effective December 1, 2024, to match the annual cost‑of‑living adjustment made for Social Security benefits under title II of the Social Security Act.\n\nThe bill directs the Secretary to raise the dollar amounts in effect on November 30, 2024, for the following categories of benefits: wartime disability compensation (38 U.S.C. § 1114), additional compensation for dependents (38 U.S.C. § 1115(1)), the clothing allowance (38 U.S.C. § 1162), dependency and indemnity compensation for surviving spouses (38 U.S.C. § 1311(a)–(d)), and dependency and indemnity compensation for children (38 U.S.C. §§ 1313(a) and 1314). Each increase is set at the same percentage by which benefits under title II of the Social Security Act are increased effective December 1, 2024, as determined under section 215(i) of that Act.\n\nThe bill also contains a special rule permitting the Secretary to make corresponding administrative adjustments to disability compensation payable under section 10 of Public Law 85‑857 for certain persons who are not receiving compensation under chapter 11 of title 38.\n\nTo provide transparency, the Secretary must publish the adjusted dollar amounts in the Federal Register no later than the date on which the Social Security Administration is required to publish the related COLA determination under section 215(i)(2)(D) of the Social Security Act during fiscal year 2025. No other changes to eligibility or benefit structure are made; the law solely implements an automatic annual cost‑of‑living increase consistent with Social Security adjustments.",
+  "prompt_tokens": 1044,
+  "completion_tokens": 740,
+  "total_tokens": 1784,
+  "cost_usd": 0.001098,
+  "latency_s": 11.361,
+  "ok": true
+}

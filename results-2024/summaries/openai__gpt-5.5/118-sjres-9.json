@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution provides for congressional disapproval, under the Congressional Review Act in chapter 8 of title 5 of the United States Code, of a rule issued by the U.S. Fish and Wildlife Service.\n\nThe rule being disapproved is titled “Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment,” published in the Federal Register on November 25, 2022, at 87 Fed. Reg. 72674. That rule classified the northern distinct population segment of the lesser prairie-chicken as threatened and established a related section 4(d) rule, and classified the southern distinct population segment as endangered.\n\nThe resolution states that Congress disapproves the rule and that the rule shall have no force or effect. It does not include additional exceptions, conditions, deadlines, or implementation provisions.",
+  "prompt_tokens": 530,
+  "completion_tokens": 324,
+  "total_tokens": 854,
+  "cost_usd": 0.01237,
+  "latency_s": 6.281,
+  "ok": true
+}

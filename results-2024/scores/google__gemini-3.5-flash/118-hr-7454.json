@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7454",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts, percentages, and program descriptions match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act temporarily extends FAA programs and aviation trust fund taxes and expenditure authority."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the act extends expiring authorities, amending prior statutory expiration dates."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the AIP obligation period through September 30, 2024, and the 39% apportionment reduction."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the May 10-11, 2024, extension dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers AIP funding and apportionment conditions, program extensions, aviation revenue, and counter-UAS extension."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by topic with clear bullet points."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Strikes a good balance — covers major categories without exhaustively listing every individual program."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FAA, Airport Improvement Program, Airport and Airway Trust Fund, and DHS counter-UAS correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "AIP ($2,041,120,218), FAA ops ($7,259,685,792), facilities ($1,794,357,923), R&D ($155,368,852), EAS ($216,192,407), and 39% figure all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

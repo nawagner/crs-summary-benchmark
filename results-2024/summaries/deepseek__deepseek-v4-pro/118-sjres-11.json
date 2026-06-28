@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution would nullify a specific Environmental Protection Agency (EPA) rule on air pollution from heavy-duty vehicles. Under the Congressional Review Act (chapter 8 of title 5, U.S. Code), Congress can pass a resolution of disapproval to prevent a recently finalized agency rule from taking effect or continuing. This resolution targets the EPA rule titled “Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,” published at 88 Federal Register 4296 on January 24, 2023.\n\nThe resolution’s sole operative provision states that Congress disapproves that rule, and that the rule “shall have no force or effect.” If enacted, the resolution would unwind the EPA’s regulatory action, meaning the standards and requirements established by the rule could not be enforced or applied. The text does not contain exceptions, conditions, or delayed effective dates. As a joint resolution, it requires passage by both the Senate and the House of Representatives and approval by the President—or a congressional override of a presidential veto—to become effective. The resolution does not amend other statutes; it simply cancels the identified rule.",
+  "prompt_tokens": 444,
+  "completion_tokens": 882,
+  "total_tokens": 1326,
+  "cost_usd": 0.00096,
+  "latency_s": 11.38,
+  "ok": true
+}

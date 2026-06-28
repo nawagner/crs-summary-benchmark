@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-9",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text and the FWS rule."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; description of the rule's dual classification is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution's purpose as disapproving the FWS lesser prairie-chicken rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "CRA disapproval does not amend existing statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No separate effective date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision: disapproval and nullification of the FWS rule."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the U.S. Fish and Wildlife Service and the rule's Federal Register citation."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites 87 Fed. Reg. 72674, November 25, 2022, and May 3, 2023 Senate passage date."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

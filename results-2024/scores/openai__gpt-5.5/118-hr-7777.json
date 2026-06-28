@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7777",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies purpose as increasing VA benefit rates effective December 1, 2024 tied to Social Security COLA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the COLA-linked increases to specific Title 38 benefit amounts."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the special rule for Public Law 85-857 persons and the administrative adjustment authority."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes December 1, 2024 effective date and FY2025 Federal Register publication deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major provisions including benefit categories, COLA linkage, special rule, and Federal Register publication requirement."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "VA, Title 38 sections, Social Security Act all correctly cited."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "December 1, 2024 and November 30, 2024 reference dates correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

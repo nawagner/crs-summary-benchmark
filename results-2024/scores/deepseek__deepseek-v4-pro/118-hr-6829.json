@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6829",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The partial summary accurately describes the bill so far, correctly naming the HHS Secretary and the 18-month deadline."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims in the text that was produced."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the purpose of four sections on cardiomyopathy and AED/CPR."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence and does not fully describe the changes made to the Public Health Service Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Truncated summary omits the no-additional-funds provision and grant eligibility conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Summary is cut off before the 30-month dissemination deadline and other deadlines can be described."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Summary is visibly truncated mid-sentence, omitting the CDC activities, NIH research, and school AED/CPR grant provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "What was written is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence, making it incoherent and incomplete."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The truncated portion is efficiently written."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "HHS Secretary correctly identified in the text that was produced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "18-month deadline correctly stated in the text produced."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

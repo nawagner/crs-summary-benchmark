@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7377",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; the description of interim payment rules and the interest waiver condition is correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all claims trace to the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as setting procedures and deadlines for royalty reporting when allocation is undetermined."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Implicitly describes the amendment to the Federal Oil and Gas Royalty Management Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the Indian lands exclusion and the interest waiver condition."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective date stated; the bill simply says 'Approved September 20, 2024' and the summary correctly notes no separate effective date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all key elements: 120-day deadline, interim reporting, correction window, interest waiver, and Indian lands exclusion."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and technical throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise for the bill's complexity."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Oil and Gas Royalty Management Act and Secretary of the Interior correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "120-day deadline and third-month correction window are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Cardiomyopathy Health Education, Awareness, and Research, and AED Training in the Schools Act of 2024\" (or \"HEARTS Act of 2024\") amends the Public Health Service Act to expand education, research, and school-based training related to cardiomyopathy and other high-risk cardiac conditions.\n\nUnder the Act, the Secretary of Health and Human Services (HHS), in consultation with the Centers for Disease Control and Prevention (CDC), must develop public education materials on the symptoms and risk factors of high-risk cardiac conditions, guidelines for placing automated external defibrillators (AEDs) in schools and childcare centers, and recommendations for cardiac emergency response plans. These materials must be developed within 18 months of enactment and disseminated to state educational agencies, health departments, and the public within 30 months.\n\nAdditionally, the Act requires the Secretary to:\n- Submit a report to Congress within 18 months on CDC findings regarding the prevalence and epidemiology of cardiomyopathy.\n- Develop a publicly available cardiomyopathy risk assessment worksheet and screening guidelines for healthcare providers and individuals, incorporating stakeholder input.\n- Submit an NIH report to Congress within 18 months outlining ongoing and future cardiomyopathy research.\n\nThe Act also permits the Secretary to expand NIH research on cardiomyopathy and award grants to local educational agencies, in consultation with qualified healthcare entities, to establish AED and cardiopulmonary resuscitation (CPR) programs, purchase and maintain AED equipment, and train public school students and staff. \n\nFinally, the Act specifies that no additional funds are authorized to be appropriated to carry out these new provisions.",
+  "prompt_tokens": 3695,
+  "completion_tokens": 2379,
+  "total_tokens": 6074,
+  "cost_usd": 0.026953,
+  "latency_s": 11.035,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Preventing the Financing of Illegal Synthetic Drugs Act\" (Public Law 118-79) requires the Comptroller General of the United States to conduct a study on illicit financing associated with the trafficking of synthetic drugs into the United States and to report the findings to Congress. \n\nThe study must focus on the trafficking of synthetic drugs—including fentanyl, methamphetamine, Captagon, and their precursors—and analyze the business models and financial methods used by transnational criminal organizations and terror syndicates. Specifically, the Comptroller General must examine how these groups handle precursor purchases, product manufacturing, distribution, sales, and the repatriation of proceeds. \n\nAdditionally, the study must investigate:\n* The overlap between the business models of human trafficking and synthetic drug trafficking.\n* The use of online illicit drug markets and social media platforms (such as Snapchat, Discord, and Facebook) and payment applications (such as CashApp) to facilitate transactions, particularly among youth.\n* Financial methods such as payment, money laundering, and repatriation of proceeds.\n* Current U.S. government efforts to combat this illicit finance, including interagency, intergovernmental, and private-sector collaboration, as well as any coordination gaps or resource deficiencies.\n\nThe Comptroller General is required to submit a report containing all findings and determinations from the study to Congress no later than one year after the enactment of the Act, which was approved on September 13, 2024.",
+  "prompt_tokens": 1543,
+  "completion_tokens": 1316,
+  "total_tokens": 2859,
+  "cost_usd": 0.014159,
+  "latency_s": 6.583,
+  "ok": true
+}

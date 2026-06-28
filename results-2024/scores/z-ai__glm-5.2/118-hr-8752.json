@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8752",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes funding allocation, policy riders, and restrictions; correctly identifies major conditions and prohibitions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all cited provisions are in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 DHS appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes specific policy prohibitions and conditions that change how funds may be used."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes ICE detention bed minimum, GPS monitoring requirement, and other key conditions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Does not specify the contraceptive provision effective dates but also does not misstate them; criterion is marginally applicable."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers major funding components, policy restrictions, reporting requirements, and rescissions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Good balance of detail without excessive length."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DHS components, CBP One app, and specific programs correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$600 million CBP barrier rescission and $154 million Nonrecurring Expenses Fund rescission correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

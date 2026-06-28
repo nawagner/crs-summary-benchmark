@@ -1,7 +1,32 @@
 /* CRS Summary Benchmark — static site logic. Reads docs/data/results.json. */
 "use strict";
 
-const DATA_URL = "data/results.json";
+/* Two datasets; users switch between them. The choice persists in localStorage. */
+const DATASETS = [
+  { id: "119", file: "data/results.json", short: "119th Congress",
+    label: "119th Congress · 2025–26", desc: "Recent bills (mixed activity)." },
+  { id: "2024", file: "data/results-2024.json", short: "2024 · high-activity",
+    label: "2024 · 118th · high-activity", desc: "The 50 most legislatively-active 2024 bills whose full text fits the model input (omnibus bills excluded)." },
+];
+function currentDataset() {
+  const id = localStorage.getItem("crs_dataset") || "119";
+  return DATASETS.find((d) => d.id === id) || DATASETS[0];
+}
+function setDataset(id) {
+  localStorage.setItem("crs_dataset", id);
+  location.reload();
+}
+function renderDatasetToggle(elId) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  const cur = currentDataset().id;
+  el.innerHTML = `<div class="ds-toggle">` +
+    DATASETS.map((d) => `<button class="${d.id === cur ? "active" : ""}" data-ds="${d.id}">${esc(d.label)}</button>`).join("") +
+    `</div><p class="ds-desc">${esc(currentDataset().desc)}</p>`;
+  el.querySelectorAll("[data-ds]").forEach((b) =>
+    b.addEventListener("click", () => { if (b.dataset.ds !== cur) setDataset(b.dataset.ds); }));
+}
+
 const pct = (x) => (x == null ? "—" : Math.round(x * 100) + "%");
 const money = (x) => (x == null ? "—" : "$" + x.toFixed(4));
 const secs = (x) => (x == null ? "—" : x.toFixed(1) + "s");
@@ -17,8 +42,8 @@ function heatColor(rate) {
 }
 
 async function loadData() {
-  const res = await fetch(DATA_URL, { cache: "no-store" });
-  if (!res.ok) throw new Error("results.json not found (run report.py first)");
+  const res = await fetch(currentDataset().file, { cache: "no-store" });
+  if (!res.ok) throw new Error(currentDataset().file + " not found (run report.py for this dataset)");
   return res.json();
 }
 
@@ -28,12 +53,13 @@ function fail(el, err) {
 
 /* ----------------------------------------------------------- index / leaderboard */
 async function initIndex() {
+  renderDatasetToggle("dataset-toggle");
   const root = document.getElementById("leaderboard");
   let data;
   try { data = await loadData(); } catch (e) { return fail(root, e); }
 
   document.getElementById("run-meta").textContent =
-    `${data.bills.length} bills · 119th Congress · judged by ${data.judge_model} · generated ${data.generated_at}`;
+    `${data.bills.length} bills · ${data.congress}th Congress · judged by ${data.judge_model} · generated ${data.generated_at}`;
 
   const rows = data.leaderboard;
   // headline leaderboard (sortable)
@@ -108,6 +134,7 @@ function renderPavement(data) {
 
 /* --------------------------------------------------------------- bills explorer */
 async function initBills() {
+  renderDatasetToggle("dataset-toggle");
   const root = document.getElementById("bill-list");
   let data;
   try { data = await loadData(); } catch (e) { return fail(root, e); }
@@ -173,9 +200,11 @@ async function initBills() {
         if (!c) return "";
         return `<span class="dot ${c.meets_standard ? "pass" : "fail"}" title="${esc(candLabel[m])}: ${c.meets_standard ? "passed all criteria" : "missed one or more"}"></span>`;
       }).join("");
+      const acts = b.actions_count != null
+        ? `<span class="actions-badge" title="legislative actions — the activity signal used to pick this set">${b.actions_count} actions</span>` : "";
       return `<div class="bill-row" data-id="${esc(b.bill_id)}">
         <div class="meta">
-          <div class="bnum">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th</div>
+          <div class="bnum">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th${acts}</div>
           <div class="btitle">${esc(b.title || "(untitled)")}</div>
         </div>
         <div class="mini">${dots}</div>
@@ -213,7 +242,7 @@ async function initBills() {
     detail.innerHTML = `
       <button class="detail-back">← Back to all bills</button>
       <div class="card" style="margin-top:14px">
-        <div class="bnum" style="color:var(--accent);font-weight:700;font-size:13px">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th Congress</div>
+        <div class="bnum" style="color:var(--accent);font-weight:700;font-size:13px">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th Congress${b.actions_count != null ? `<span class="actions-badge">${b.actions_count} actions</span>` : ""}</div>
         <h2 style="margin:4px 0 8px">${esc(b.title || "(untitled)")}</h2>
         <p class="lede" style="margin:0">
           <a href="${esc(b.congress_gov_url)}" target="_blank" rel="noopener">View full bill text on congress.gov →</a>

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-2365",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; agencies mentioned and deadlines are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose — creating the National Parkinson's Project to prevent, diagnose, treat, and cure Parkinson's."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Implicitly covers the new statutory section; does not explicitly name the Public Health Service Act but adequately describes what was established."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 2035 sunset and key deadlines."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states 24-month deadline for first annual assessment, 18-month deadline for first Advisory Council report, and 2035 sunset."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the National Parkinson's Project, Secretary's duties, Advisory Council structure and reporting, information sharing, and sunset."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Quite detailed and lengthy, though less so than some other candidates; provides more granularity than needed for a summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "NIH, CDC, VA and other agencies correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All deadlines and the 2035 sunset correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

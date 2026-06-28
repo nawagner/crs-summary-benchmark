@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 24 is a joint resolution of the 118th Congress designed to exercise congressional disapproval of a specific federal agency rule. The primary purpose of the resolution is to overturn a regulation submitted by the United States Fish and Wildlife Service concerning the conservation status of the northern long-eared bat.\n\nSpecifically, the resolution targets the rule titled \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,\" which was published in the Federal Register on November 30, 2022 (87 Fed. Reg. 73488). \n\nUnder the authority of chapter 8 of title 5 of the United States Code, the resolution declares that Congress disapproves of this rule. The major provision of the resolution dictates that, upon enactment, the Fish and Wildlife Service's rule shall have no force or effect, thereby preventing its implementation or enforcement. \n\nThe text of the resolution does not establish any exceptions, conditions, or specific deadlines, nor does it outline alternative regulatory actions. The measure passed the United States Senate on May 11, 2023.",
+  "prompt_tokens": 500,
+  "completion_tokens": 2000,
+  "total_tokens": 2500,
+  "cost_usd": 0.01875,
+  "latency_s": 9.191,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-5302",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States Agent Maceda became a Marine Interdiction Agent 'In May 2021' but the bill text only says 'in 2021'; 'May' is not in the bill and appears fabricated."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "The specific month 'May 2021' for when Maceda joined Air and Marine Operations in Mayaguez is not in the bill text and is a hallucinated detail."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as naming the Cabo Rojo marine unit in honor of Agent Maceda."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the references provision requiring all legal references to be updated."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the Act went into effect upon approval December 11, 2024."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers designation, findings, and references provision."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual language throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No significant padding; appropriate detail."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CBP, Air and Marine Operations correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "'May 2021' is stated as the month Maceda joined in Mayaguez, but the bill text only says '2021'; the specific month is not supported."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

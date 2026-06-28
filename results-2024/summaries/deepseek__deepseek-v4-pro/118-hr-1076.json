@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, the Preventing the Financing of Illegal Synthetic Drugs Act, directs the Comptroller General of the United States to conduct a study and report to Congress on the financial networks that support synthetic drug trafficking. The study must examine the trafficking of fentanyl, methamphetamine, related substances, Captagon, and their precursor chemicals.\n\nThe study is required to cover several specific areas: the role of transnational criminal organizations and terror groups, including their trafficking routes and source and transit countries; the business models these groups use for precursor acquisition, production, supply chain movement, manufacturing, marketing, distribution, sales, and the return of proceeds; and any overlap between the business models of human trafficking and synthetic drug trafficking and their related illicit finance. It must also look at the use of online illicit drug markets and social media for marketing, sales, and payment; the financial methods used by these organizations, including payment, money laundering, and repatriation of proceeds; and the use of social media applications such as Snapchat, Discord, and Facebook, as well as payment applications like CashApp, to facilitate financial transactions for synthetic drug trafficking, especially among young people.\n\nAdditionally, the study must examine U.S. government activities to combat illicit finance tied to synthetic drug trafficking, including interagency collaboration (such as personnel detailed to other agencies), intergovernmental collaboration, and collaboration with the private sector and non-governmental communities. It must also identify any gaps or resource deficiencies in these coordination and collaboration efforts.\n\nThe Comptroller General is required to issue a report containing all findings and determinations to Congress no later than one year after the date of enactment, which was September 13, 2024.",
+  "prompt_tokens": 1372,
+  "completion_tokens": 333,
+  "total_tokens": 1705,
+  "cost_usd": 0.000887,
+  "latency_s": 8.804,
+  "ok": true
+}

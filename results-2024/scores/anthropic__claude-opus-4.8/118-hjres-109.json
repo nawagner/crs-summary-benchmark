@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-109",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match bill text; the statement that CRA would prevent reissuing a substantially similar rule is accurate real-world context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; the April 11, 2022 Fed. Reg. date and Oct. 31, 2023 GAO letter are correctly cited."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution as a CRA disapproval of SEC SAB 121."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the rule would have no force or effect, correctly describing the operative legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No separate effective date specified in the bill text."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the disapproval of SAB 121, the Fed. Reg. cite, and the GAO opinion; all essential provisions captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language throughout; no advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough but not padded; level of detail is appropriate."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "SEC, GAO, and Congressional Review Act correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Fed. Reg. cite 87 Fed. Reg. 21015, April 11, 2022 and Oct. 31, 2023 GAO letter all match bill text."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

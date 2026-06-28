@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Prove It Act of 2024 amends Title 5 of the United States Code to increase transparency in federal regulatory decisions affecting small businesses. \n\nThe bill requires agencies to include, where feasible, reasonably foreseeable indirect costs on small entities in their initial regulatory flexibility analyses for proposed rules. This includes costs on small entities that do business with directly regulated entities or are indirectly affected by the rule. It also mandates that agencies publish certifications regarding a rule's economic impact within 10 days of completion.\n\nThe legislation establishes a new review process allowing small entities or their representatives to petition the Small Business Administration’s Chief Counsel for Advocacy to review an agency's certification that a proposed rule will not significantly impact small businesses. The Chief Counsel must conduct an initial review within 10 days and, if warranted, a full review within 30 days, which includes a meeting with the petitioning entity, the agency, and the Office of Information and Regulatory Affairs. If an agency fails to participate in this review, the final rule will not apply to small entities. The bill also makes such certifications subject to judicial review.\n\nAdditionally, the bill requires agencies to publish guidance documents for rules significantly impacting small entities on regulations.gov and allow public comment. \n\nFinally, it modifies the 10-year periodic review of existing rules to include indirect costs. If an agency fails to complete this review, the rule ceases to be effective, and the agency must solicit public comments on whether to reinstate it. If reinstated, the agency has 180 days to complete the review, and the rule is reinstated without standard notice-and-comment rulemaking procedures. This provision applies to final rules issued within five years before the Act's enactment or on or after the date of enactment.",
+  "prompt_tokens": 3006,
+  "completion_tokens": 1278,
+  "total_tokens": 4284,
+  "cost_usd": 0.00669,
+  "latency_s": 20.689,
+  "ok": true
+}

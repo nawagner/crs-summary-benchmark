@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution exercises Congress's authority under the Congressional Review Act to overturn a federal regulation issued by the executive branch.\n\nSpecifically, the resolution disapproves a rule submitted by the Department of Commerce titled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,\" which was published in the Federal Register at 87 Fed. Reg. 56868. Under the resolution, this rule \"shall have no force or effect,\" meaning it would be nullified and treated as though it had never taken effect.\n\nThe Congressional Review Act allows Congress to disapprove agency rules through a joint resolution that, if enacted into law, prevents the rule from being implemented or enforced.\n\nThe text indicates that the resolution passed the House of Representatives on April 28, 2023, and was received in the Senate on May 1, 2023. For the resolution to take effect, it would need to be passed by the Senate and either signed by the President or enacted over a presidential veto.\n\nThe bill text itself does not describe the substantive content of the underlying Commerce Department rule beyond its title and Federal Register citation, nor does it specify additional conditions, exceptions, or effective dates.",
+  "prompt_tokens": 666,
+  "completion_tokens": 402,
+  "total_tokens": 1068,
+  "cost_usd": 0.01338,
+  "latency_s": 6.867,
+  "ok": true
+}

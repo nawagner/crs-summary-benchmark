@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "openai/gpt-5.5",
+  "summary": "The Accelerating Appraisals and Conservation Efforts Act establishes rules for appraisal and valuation services for real property transactions under the jurisdiction of the Secretary of the Interior.\n\nThe Act provides that a state-licensed or state-certified real property appraiser needs to be licensed or certified in only one state to perform appraisal or valuation services in any state for a transaction over which the Secretary has jurisdiction. It limits the effect of preexisting federal or state laws or regulations that would otherwise require an appraiser to be licensed or certified in the particular state where the property is located, but only for such Interior Department transactions. The Act does not otherwise change the application of federal or state laws and regulations to non-federal appraisers, and it does not authorize appraisers to work outside their licensed state except for transactions under the Secretary’s jurisdiction.\n\nWhen the Secretary uses a non-federal appraiser, the Secretary must, to the maximum extent practicable, use a certified general real property appraiser licensed in the state where the property is located. The Secretary may use a certified general appraiser licensed in another state only if an in-state appraiser is determined to be unavailable within a reasonable time, not qualified for the assignment, or not cost competitive.\n\nWithin one year after enactment, and annually for at least the next four years, the Secretary must report to Congress on appraisal and valuation request volumes and completion times, the impact of the new licensing flexibility, any recommended congressional actions, workforce and contractor information, and cases in which the Act’s authority was used.\n\nWithin 90 days after enactment, the Department of the Interior must make publicly available online, and provide upon request, all policies and related materials governing the scoping, contracting, and review of appraisals performed for the Department.",
+  "prompt_tokens": 1605,
+  "completion_tokens": 491,
+  "total_tokens": 2096,
+  "cost_usd": 0.022755,
+  "latency_s": 7.886,
+  "ok": true
+}

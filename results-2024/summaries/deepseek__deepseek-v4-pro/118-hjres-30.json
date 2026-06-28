@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a Department of Labor rule titled “Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,” published in the Federal Register on December 1, 2022. The resolution is a legislative action under the Congressional Review Act, which allows Congress to overturn recently issued agency regulations. If enacted, the rule would have no force or effect—meaning it would be treated as though it never took effect.\n\nThe resolution does not amend the rule or replace it with new standards; it simply disapproves the rule in its entirety. No exceptions, conditions, or delayed effective dates are included. The resolution passed the House of Representatives on February 28, 2023, and was received in the Senate on March 1, 2023.",
+  "prompt_tokens": 389,
+  "completion_tokens": 547,
+  "total_tokens": 936,
+  "cost_usd": 0.000645,
+  "latency_s": 7.778,
+  "ok": true
+}

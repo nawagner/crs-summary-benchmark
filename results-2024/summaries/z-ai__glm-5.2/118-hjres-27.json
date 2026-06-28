@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution provides for congressional disapproval of a specific administrative rule under chapter 8 of title 5, United States Code. The rule in question was submitted by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency, and relates to the \"Revised Definition of 'Waters of the United States'.\" The rule was published in the Federal Register on January 18, 2023.\n\nThe primary purpose of the resolution is to formally express Congress's disapproval of this rule. Its major provision declares that the aforementioned rule shall have no force or effect, effectively blocking its implementation and enforcement. \n\nThe resolution was passed by the House of Representatives on March 9, 2023, and was subsequently received in the Senate on March 14, 2023. The text does not include any additional material exceptions, conditions, or alternative effective dates beyond the immediate nullification of the specified rule upon enactment.",
+  "prompt_tokens": 419,
+  "completion_tokens": 972,
+  "total_tokens": 1391,
+  "cost_usd": 0.003314,
+  "latency_s": 13.006,
+  "ok": true
+}

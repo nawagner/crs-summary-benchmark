@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1042",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text including quantities, dates, and agency roles."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; summary is fully grounded in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill amends the USEC Privatization Act to ban Russian low-enriched uranium imports."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendment to USEC Privatization Act with conforming amendments described."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately covers DOE national security/nonproliferation exceptions, non-uranium isotopes, and waiver conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 90-day effective date, waiver termination Jan 1 2028, and prohibition sunset Dec 31 2040."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major provisions: ban, anti-circumvention, waiver, caps, enforcement, congressional notification."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and informational throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding; all content adds value."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies and statutes correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All kilogram quantities and dates match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Think Differently About Emergencies Act\" (Public Law 118-123) requires the Federal Emergency Management Agency (FEMA) and the Comptroller General of the United States to review and report on the disaster assistance and resources provided to individuals with disabilities and their families.\n\nUnder the Act, the FEMA Administrator must submit a report to Congress within 120 days of enactment. This report must detail the assistance, resources, and best practices provided to states, localities, nonprofit organizations, and directly to individuals with intellectual and developmental disabilities and their families following major disasters. Specifically, the report must describe FEMA's personnel training and deployment processes, list the number of programs supporting disaster preparation and recovery, outline outreach efforts to experts, and identify areas for improvement.\n\nAdditionally, within one year of enactment, both the FEMA Administrator and the Comptroller General must independently conduct reviews of the assistance and resources provided to individuals with intellectual, developmental, or physical disabilities and their families. These reviews must identify potential legal impediments to delivering aid. Finally, both entities must submit recommendations to Congress on how to improve resources, enhance coordination with state, local, and nonprofit entities, streamline the application and delivery processes, and identify any necessary legislative reforms.",
+  "prompt_tokens": 1313,
+  "completion_tokens": 1926,
+  "total_tokens": 3239,
+  "cost_usd": 0.019303,
+  "latency_s": 8.701,
+  "ok": true
+}

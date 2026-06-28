@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific rule issued by the U.S. Fish and Wildlife Service concerning the lesser prairie-chicken. The rule, published in the Federal Register on November 25, 2022, listed the Northern Distinct Population Segment of the bird as threatened with a tailored protective rule under section 4(d) of the Endangered Species Act, and listed the Southern Distinct Population Segment as endangered.\n\nUnder the resolution, Congress uses its authority under the Congressional Review Act to disapprove the entire rule. As a result, the rule would have no legal force or effect. The resolution does not amend the Endangered Species Act itself or direct any alternative regulatory action; it simply cancels the specific listing and protective measures finalized in that 2022 rule. The resolution passed the Senate on May 3, 2023.",
+  "prompt_tokens": 518,
+  "completion_tokens": 164,
+  "total_tokens": 682,
+  "cost_usd": 0.000368,
+  "latency_s": 19.538,
+  "ok": true
+}

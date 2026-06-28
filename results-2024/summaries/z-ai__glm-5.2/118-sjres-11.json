@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 11 is a joint resolution that provides for congressional disapproval of a specific Environmental Protection Agency (EPA) rule under chapter 8 of title 5 of the United States Code, also known as the Congressional Review Act. The primary purpose of the resolution is to nullify the EPA rule titled \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,\" which was published in the Federal Register on January 24, 2023.\n\nThe resolution's sole provision is a formal declaration that Congress disapproves of the aforementioned EPA rule. Consequently, the resolution stipulates that the rule \"shall have no force or effect.\" If enacted into law, this action would repeal the EPA's standards for heavy-duty engines and vehicles and prevent the rule from being implemented or enforced. The joint resolution was passed by the Senate on April 26, 2023.",
+  "prompt_tokens": 447,
+  "completion_tokens": 800,
+  "total_tokens": 1247,
+  "cost_usd": 0.002825,
+  "latency_s": 14.998,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-7",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are consistent with the bill text and accurate real-world context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all references and dates match."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is terminating the national emergency declared via Proclamation 9994."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies section 202 of the National Emergencies Act as the authority used."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the approval date of April 10, 2023."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the sole operative provision—termination of the emergency."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual tone throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Somewhat verbose for a one-clause resolution; restates dates and details unnecessarily."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All entity and statutory references are correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All cited figures and dates match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

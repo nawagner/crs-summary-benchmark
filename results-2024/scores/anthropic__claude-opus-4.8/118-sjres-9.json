@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-9",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the CRA disapproval, the rule's content (northern = threatened with 4(d) rule, southern = endangered), and the Federal Register citation."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the rule's content is accurate context consistent with the actual FWS rule."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution as using CRA authority to nullify the FWS lesser prairie-chicken listing rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "CRA disapproval resolutions nullify a rule rather than amending statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this disapproval resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No explicit effective date beyond enactment; the rule is immediately nullified upon enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision: disapproval and nullification of the specified rule."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "More detailed than necessary for a single-provision disapproval resolution; includes procedural context about CRA effects that pads the summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the U.S. Fish and Wildlife Service and the rule's full title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites 87 Fed. Reg. 72674 and the November 25, 2022 publication date; May 3, 2023 Senate passage date matches."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

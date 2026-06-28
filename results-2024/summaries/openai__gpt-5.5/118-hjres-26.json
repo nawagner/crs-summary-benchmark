@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves the District of Columbia Council’s approval of the Revised Criminal Code Act of 2022, designated D.C. Act 24-789. The D.C. Council enacted that act on January 17, 2023, and transmitted it to Congress on January 27, 2023, under section 602(c)(1) of the District of Columbia Home Rule Act.\n\nThe resolution’s sole operative provision states that Congress disapproves of the Council action approving that D.C. act. It does not amend the text of any federal statute, create new federal programs, impose reporting requirements, or include exceptions or conditions. The resolution was approved on March 20, 2023, after passage by the House on February 9, 2023, and by the Senate on March 8, 2023.",
+  "prompt_tokens": 409,
+  "completion_tokens": 536,
+  "total_tokens": 945,
+  "cost_usd": 0.018125,
+  "latency_s": 10.295,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-3334",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies purpose as imposing sanctions on CCP Central Committee members for specified conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes property blocking and visa sanctions imposed under IEEPA."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes UN HQ Agreement exception, intelligence/law enforcement exception, and goods importation exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 30-day implementation deadline and 2-year waiver authority expiration."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers main provisions including sanction targets, types, exceptions, waiver, and termination conditions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive without unnecessary padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IEEPA and relevant entities correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "30-day, 60-day, and 2-year figures correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

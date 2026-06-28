@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-2073",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States platforms must 'respond to reports of harm within 10 days (21 days for smaller platforms)' — the bill text specifies different deadlines based on whether a report involves a child or not and the size of the platform, but the specific 10-day and 21-day figures need verification against the full bill text; the summary may be condensing correctly, but these specific figures were not in the excerpt provided and require caution."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The response deadline figures (10 days/21 days) appear to come from the bill's reporting mechanism section not shown in the excerpt, and are plausible provisions; no clear fabrication."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies all main purposes of the bill."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes COPPA amendment extending to teens and Title III amendment."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes covered platform exclusions including schools, libraries, and common carriers."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 18-month effective date for Subtitle A, 1-year for Subtitle B, and 180-day Kids Online Safety Council establishment deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all three titles at a good level of detail."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "COPPA and other entities correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "18-month and 1-year effective dates and 180-day council deadline correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

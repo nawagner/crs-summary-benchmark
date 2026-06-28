@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act (Public Law 118-124) authorizes the Secretary of Veterans Affairs to carry out 11 major medical facility projects during fiscal year 2024. \n\nThe Act specifies maximum spending limits for each authorized project:\n*   **American Lake, Washington:** Specialty care building construction, renovation, and parking expansion (up to $155,600,000).\n*   **Dallas, Texas:** Mental health clinical space expansion, parking, and land acquisition (up to $93,100,000).\n*   **El Paso, Texas:** Health care center and utility plant construction (up to $759,200,000).\n*   **Perry Point, Maryland:** Community living center replacement and parking expansion (up to $274,310,000).\n*   **Portland, Oregon:** Seismic retrofit, renovations, roadway improvements, specialty care facility construction, demolition, and parking expansion (up to $613,000,000).\n*   **Reno, Nevada:** Medical center replacement initiation, land acquisition, and preliminary site work (up to $223,800,000).\n*   **San Diego, California:** Spinal cord injury building construction, renovations, parking, utility upgrades, and seismic retrofitting (up to $311,700,000).\n*   **San Francisco, California:** Research facility construction, parking, and demolition (up to $264,500,000).\n*   **San Juan, Puerto Rico:** Seismic corrections, administrative building construction, and outpatient clinic and parking expansion (up to $370,370,000).\n*   **St. Louis, Missouri:** Bed tower replacement (Phase 1), clinical building expansion, administrative and warehouse consolidation, water tower, utility plant, and parking (up to $135,340,000).\n*   **West Haven, Connecticut:** Surgical and clinical space tower construction, renovations, and demolition (up to $153,128,000).\n\nTo fund these projects, the Act authorizes a total appropriation of $3,354,048,000 to the Department of Veterans Affairs for the \"Construction, Major Projects\" account. This authorization applies to fiscal year 2024 or the year in which the funds are appropriated.",
+  "prompt_tokens": 1287,
+  "completion_tokens": 2578,
+  "total_tokens": 3865,
+  "cost_usd": 0.025133,
+  "latency_s": 10.68,
+  "ok": true
+}

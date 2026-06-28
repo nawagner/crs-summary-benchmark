@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would use the Congressional Review Act, chapter 8 of title 5 of the United States Code, to disapprove a Securities and Exchange Commission rule relating to “Staff Accounting Bulletin No. 121.”\n\nThe resolution identifies the SEC action as Staff Accounting Bulletin No. 121, published in the Federal Register on April 11, 2022, at 87 Fed. Reg. 21015. It also references an October 31, 2023, Government Accountability Office letter, printed in the Congressional Record on November 1, 2023, concluding that the bulletin is a “rule” for purposes of the Congressional Review Act.\n\nIf enacted, the resolution would declare congressional disapproval of that SEC rule. As a result, Staff Accounting Bulletin No. 121 would have no force or effect. The resolution does not amend other statutory text, create replacement requirements, or specify a separate effective date or deadline.",
+  "prompt_tokens": 448,
+  "completion_tokens": 396,
+  "total_tokens": 844,
+  "cost_usd": 0.01412,
+  "latency_s": 7.724,
+  "ok": true
+}

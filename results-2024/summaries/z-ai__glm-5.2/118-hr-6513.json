@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Confirmation Of Congressional Observer Access Act of 2024 amends the Help America Vote Act of 2002 to require states to allow designated congressional election observers access to observe election administration procedures in federal elections. The Act adds a new Section 304 to Title III of the Help America Vote Act, which affirms Congress's constitutional authority to send observers to polling locations and other areas where election processes occur.\n\nUnder the Act, states must provide designated observers with full access to clearly observe all elements of election administration, including ballot casting, processing, scanning, tabulating, canvassing, recounting, auditing, and certifying, as well as pre- and post-election procedures. Observers are prohibited from handling ballots or election equipment, advocating for candidates or positions, compromising voter privacy, or interfering with voters or election administrators. However, observers are permitted to ask questions of election officials.\n\nState or local election officials may remove an observer if they have a reasonable basis to believe the observer has engaged in or will imminently engage in intimidation, deceptive practices prohibited by federal law, or disruption of election processes. The mere presence of an observer is not sufficient grounds for removal. If an observer is removed, the election official must notify the chair and ranking minority member of the relevant House or Senate committee within 24 hours and provide written reasons for the removal. The relevant committee may then send a replacement observer.\n\nA \"designated congressional election observer\" is defined as a House or Senate employee designated in writing by the chair or ranking minority member of the Committee on House Administration or the Committee on Rules and Administration. The Act was approved on October 4, 2024.",
+  "prompt_tokens": 1711,
+  "completion_tokens": 1082,
+  "total_tokens": 2793,
+  "cost_usd": 0.004871,
+  "latency_s": 6.747,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution disapproves a rule issued by the U.S. Fish and Wildlife Service that reclassified the northern long-eared bat as an endangered species under the Endangered Species Act. The rule, titled “Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,” was published at 87 Federal Register 73488 on November 30, 2022. Under the terms of the resolution, Congress declares that the rule is not approved and it shall have no force or effect. The effect of enactment would be to nullify the rule, thereby removing the endangered species listing established by it. The resolution does not include any exceptions, conditions, or delayed effective dates. As a joint resolution under the Congressional Review Act, it was passed by the Senate on May 11, 2023.",
+  "prompt_tokens": 449,
+  "completion_tokens": 1229,
+  "total_tokens": 1678,
+  "cost_usd": 0.001265,
+  "latency_s": 22.773,
+  "ok": true
+}

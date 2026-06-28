@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-2365",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text including agency listings, deadlines, and Advisory Council requirements."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose — establishing a National Parkinson's Project within the Public Health Service Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the act establishes a new section within the Public Health Service Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 2035 termination and agency information-sharing obligation; covers key deadlines."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes 24-month deadline for first assessment, 18-month deadline for first Advisory Council report, and 2035 sunset."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensively covers all major provisions including Project duties, Advisory Council, information sharing, and sunset."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very long and granular; reads more like a section-by-section analysis than a concise summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies and program names correctly stated."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All deadlines and dates correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

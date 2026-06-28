@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-42",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The description of the D.C. act's provisions (neck restraints, body cameras, disciplinary records) is consistent with the known content of the Comprehensive Policing and Justice Reform Amendment Act of 2022."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The substantive provisions described are accurate real-world context about the D.C. act; they are not in the H.J.Res. 42 bill text but are accurate facts about the underlying D.C. act."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution nullifies the D.C. policing and justice reform act."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "No amendment to existing federal law in this disapproval resolution."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions present."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific effective date beyond enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the disapproval purpose and includes accurate context about the underlying D.C. act's content."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the D.C. Council and the act being nullified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific figures cited."
+    }
+  },
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

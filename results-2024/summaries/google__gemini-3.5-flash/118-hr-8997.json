@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 8997, the Energy and Water Development and Related Agencies Appropriations Act, 2025, provides fiscal year 2025 funding for federal water resources, energy research, and national security programs. \n\nFor civil works, the bill funds the Army Corps of Engineers, including $3.01 billion for construction and $5.714 billion for operations and maintenance. It prohibits the Corps from enforcing regulations that ban firearms at water resources development projects if possession complies with state law. Within the Department of the Interior, the bill allocates $1.773 billion to the Bureau of Reclamation, extends authorizations under the Calfed Bay-Delta Authorization Act and the Reclamation States Emergency Drought Relief Act through 2025, and mandates operating the Central Valley and California State Water Projects under specific 2019 biological opinions.\n\nThe Department of Energy receives funding for energy programs, nuclear security, and environmental cleanup, including $20.338 billion for atomic weapons activities and $8.39 billion for science. The bill amends the Natural Gas Act to grant the Federal Energy Regulatory Commission exclusive authority over natural gas export and import facilities. It also bars Strategic Petroleum Reserve sales to Chinese Communist Party-controlled entities, blocks funding for the Justice40 initiative, and transfers certain unobligated balances to nuclear energy programs. Additionally, the bill funds independent agencies, including $955.3 million for the Nuclear Regulatory Commission.\n\nGeneral provisions prohibit funding for COVID-19 mask or vaccine mandates, the Wuhan Institute of Virology, promoting Critical Race Theory, implementing specific federal equity executive orders, or taking discriminatory actions against individuals based on religious beliefs regarding marriage. It also blocks the finalization or enforcement of several Department of Energy conservation standards.",
+  "prompt_tokens": 25340,
+  "completion_tokens": 2755,
+  "total_tokens": 28095,
+  "cost_usd": 0.062805,
+  "latency_s": 13.9,
+  "ok": true
+}

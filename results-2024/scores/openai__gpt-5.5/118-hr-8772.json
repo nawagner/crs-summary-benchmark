@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8772",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All identified appropriations and provisions are accurately described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all content traceable to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 legislative branch appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendments including child care center fund telecommunications, Capitol Police Board approval requirement, and fiduciary relationship clarification."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes vehicle lease cap, waiver authority for telecom ban, and exceptions for law enforcement for computer network restriction."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 applicability and phase-in dates for telecom ban."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers House appropriations, joint committees, Capitol Police, CBO, Architect, Library, GPO, GAO, and key policy riders."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual; no advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with systematic coverage."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive but appropriately so for a large appropriations bill."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names all relevant agencies and entities including Capitol Police Board."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1.93 billion, $174,000 widow payment, Capitol Police figures, and $500,000 CBO transparency item accurately stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

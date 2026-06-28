@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 45 is a joint resolution that states congressional disapproval of a Department of Education rule concerning federal student loans. Under the authority of the Congressional Review Act, the primary purpose of the resolution is to nullify this rule, declaring that it shall have no force or effect. \n\nSpecifically, the resolution disapproves the Department of Education's rule relating to \"Waivers and Modifications of Federal Student Loans.\" The text explicitly defines this rule to include:\n* The website announcement titled \"One-Time Federal Student Loan Debt Relief\"; and\n* The Federal Register document published on October 12, 2022, titled \"Federal Student Aid Programs (Federal Perkins Loan Program, Federal Family Education Loan Program, and William D. Ford Federal Direct Loan Program)\" (87 Fed. Reg. 61512).\n\nThe resolution references a March 17, 2023, letter of opinion from the Government Accountability Office (GAO), which was printed in the Congressional Record on March 22, 2023 (pages S903–S906). This GAO opinion concluded that the Department of Education's waivers and modifications qualify as a rule under the Congressional Review Act. \n\nThe resolution passed the House of Representatives on May 24, 2023, and was received in the Senate on May 30, 2023. The text contains no material exceptions, conditions, or future effective dates.",
+  "prompt_tokens": 567,
+  "completion_tokens": 1692,
+  "total_tokens": 2259,
+  "cost_usd": 0.016078,
+  "latency_s": 7.665,
+  "ok": true
+}

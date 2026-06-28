@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Accelerating Appraisals and Conservation Efforts Act\" (AACE Act) establishes a new policy for real property appraisal and valuation services for transactions under the jurisdiction of the Secretary of the Interior. Under the Act, a State-licensed or -certified appraiser needs to be licensed in only one State to perform appraisal or valuation services in any State for these transactions. This provision supersedes any prior Federal or State laws requiring local state licensure for such transactions, though it does not authorize out-of-state appraisals for transactions outside the Secretary's jurisdiction.\n\nWhen hiring non-Federal appraisers, the Secretary must, to the maximum extent practicable, use a certified general appraiser licensed in the state where the property is located. Out-of-state appraisers may only be used if an in-state appraiser is determined by the Secretary to be unavailable within a reasonable timeframe, not assignment qualified, or not cost-competitive.\n\nThe Act requires the Department of the Interior to make all appraisal policies, manuals, and guidance documents publicly available online within 90 days of enactment. Additionally, the Secretary must submit an annual report to Congress, beginning one year after enactment and continuing for at least four subsequent years. This report must include quantitative data comparing appraisal request volumes and processing times before and after the Act's enactment, a qualitative assessment of the policy's impact, workforce staffing overviews, and a list of cases where this new authority was utilized.",
+  "prompt_tokens": 1755,
+  "completion_tokens": 1895,
+  "total_tokens": 3650,
+  "cost_usd": 0.019688,
+  "latency_s": 9.852,
+  "ok": true
+}

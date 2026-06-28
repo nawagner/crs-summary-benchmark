@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution terminates the national emergency that was declared by the President on March 13, 2020, in Proclamation 9994. The declaration had been made in response to the COVID-19 pandemic. The resolution exercises the authority granted to Congress under section 202 of the National Emergencies Act, which provides a legislative mechanism to end a national emergency. Upon enactment on April 10, 2023, the emergency declared in Proclamation 9994 was immediately ended. The measure does not contain any exceptions, conditions, or delayed effective dates.",
+  "prompt_tokens": 380,
+  "completion_tokens": 260,
+  "total_tokens": 640,
+  "cost_usd": 0.000392,
+  "latency_s": 5.0,
+  "ok": true
+}

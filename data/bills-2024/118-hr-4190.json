@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hr-4190",
+  "congress": 118,
+  "type": "hr",
+  "number": "4190",
+  "title": "Restoring Benefits to Defrauded Veterans Act",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-bill/4190",
+  "crs_summary": "Restoring Benefits to Defrauded Veterans Act\nThis act requires the Department of Veterans Affairs (VA) to pay certain reissued benefits (i.e., benefits that were misused by a fiduciary) to a beneficiary's estate in situations where a beneficiary predeceases a payment.\nThe VA must pay such benefits to an individual or entity in the existing manner that other VA benefits are paid after the death of a beneficiary.",
+  "crs_version_code": "49",
+  "crs_action_date": "2024-11-25",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 114]\n[From the U.S. Government Publishing Office]\n\n[[Page 138 STAT. 1605]]\n\nPublic Law 118-114\n118th Congress\n\n An Act\n\n To amend title 38, United States Code, to direct the Secretary of \n Veterans Affairs to repay the estates of deceased beneficiaries for \n certain benefits paid by the Secretary and misused by fiduciaries of \n such beneficiaries. <<NOTE: Nov. 25, 2024 - [H.R. 4190]>> \n\n Be it enacted by the Senate and House of Representatives of the \nUnited States of America in Congress assembled, <<NOTE: Restoring \nBenefits to Defrauded Veterans Act.>> \nSECTION 1. <<NOTE: 38 USC 101 note.>> SHORT TITLE.\n\n This Act may be cited as the ``Restoring Benefits to Defrauded \nVeterans Act''.\nSEC. 2. REISSUANCE BY THE SECRETARY OF VETERANS AFFAIRS OF ESTATES \n OF DECEASED BENEFICIARIES FOR CERTAIN BENEFITS \n PAID BY THE SECRETARY AND MISUSED BY \n FIDUCIARIES.\n\n Section 6107 of title 38, United States Code, is amended--\n (1) by redesignating subsections (c) and (d) as subsections \n (d) and (e), respectively;\n (2) by inserting after subsection (b) the following new \n subsection (c):\n\n ``(c) Reissuance of Amounts in the Case of a Deceased Beneficiary.--\n(1) If a beneficiary described in subsection (a) predeceases a payment \nunder subsection (a) or (b), the Secretary shall pay such benefits, \nsubject to paragraph (2), to an individual or entity in accordance with \nsection 5121 of this title.\n ``(2) The Secretary may not make a payment under this subsection to \na fiduciary who misused benefits of the beneficiary.''; and\n (3) in subsection (e), as redesdignated, by striking \n ``subsection (a) or (b)'' and inserting ``this section''.\n\n Approved November 25, 2024.\n\nLEGISLATIVE HISTORY--H.R. 4190:\n---------------------------------------------------------------------------\n\nHOUSE REPORTS: No. 118-655 (Comm. on Veterans' Affairs).\nCONGRESSIONAL RECORD, Vol. 170 (2024):\n Sept. 17, considered and passed House.\n Sept. 25, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 1999,
+  "bill_text_tokens_est": 499,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ114/PLAW-118publ114.htm",
+  "actions_count": 27,
+  "summary_versions": 3
+}

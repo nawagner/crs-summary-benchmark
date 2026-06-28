@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Swanson and Hugh Butler Reservoirs Land Conveyances Act directs the Secretary of the Interior to convey certain federal lands at the Swanson Reservoir and Hugh Butler Reservoir to Hitchcock County and Frontier County, Nebraska. \n\nUnder the Act, the Secretary must make good faith efforts to negotiate and enter into title transfer agreements with the counties within three years of the bill's December 23, 2024 enactment. As a condition of conveyance, the lands must be transferred in whole, cannot be subdivided, and must be managed for their current uses or for public recreation, public access, wildlife habitat, or natural preservation. The counties must pay fair market value for the land—excluding any improvements made by permit holders—and cover all administrative and survey costs. Additionally, the counties must demonstrate the capability to manage the land and comply with state safety and health codes within two years of the transfer.\n\nThe counties are generally prohibited from reconveying the land, except to a Nebraska public or governmental entity at no cost, provided specific conditions are met. All conveyances remain subject to existing rights, reservoir operations, flowage easements, and deed restrictions that prohibit constructing new permanent structures below specified elevations (2,785 feet at Swanson Reservoir and 2,628 feet at Hugh Butler Reservoir). The United States is exempt from liability for flood damage, and the counties must indemnify the federal government.\n\nDuring the transition, existing management agreements and permits remain in effect. If a county fails to enter into a title transfer agreement within the three-year deadline, the Secretary will continue to manage the respective lands under applicable law.",
+  "prompt_tokens": 4855,
+  "completion_tokens": 1868,
+  "total_tokens": 6723,
+  "cost_usd": 0.024095,
+  "latency_s": 10.036,
+  "ok": true
+}

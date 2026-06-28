@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7213",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match bill text: NIH field expansions, Centers of Excellence increase, reauthorization dates, appropriations, and reporting requirements."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details are supported by the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as reauthorizing and expanding ASD programs through FY2029."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Details specific amendments including expanded research fields, Centers of Excellence extension, language updates, and IACC changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes specific conditions such as mandatory GPS monitoring and 'upon request' technical assistance."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states reauthorization through September 30, 2029 and report deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive coverage of all major bill sections including NIH, programs, IACC, reporting, appropriations, and technical assistance."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient coverage without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "NIH, HHS, IACC, PHSA all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$28.1 million, $56.344 million, and $306 million appropriations match bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

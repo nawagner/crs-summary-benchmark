@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific regulation issued by the Bureau of Consumer Financial Protection. The rule, titled “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)” and published at 88 Federal Register 35150 on May 31, 2023, is disapproved by Congress. Under the resolution, the rule is declared to have no force or effect. The measure was passed by the Senate on October 18, 2023.",
+  "prompt_tokens": 441,
+  "completion_tokens": 582,
+  "total_tokens": 1023,
+  "cost_usd": 0.000698,
+  "latency_s": 13.595,
+  "ok": true
+}

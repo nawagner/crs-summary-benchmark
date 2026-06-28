@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-3334",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States 'Waiver and license authority terminates two years after enactment' but the bill text does not mention a 2-year expiration on waiver/license authority in the truncated text provided; this claim appears to be accurate context from the full bill but cannot be verified against the available text — however it is a detail from the bill, not a fabrication."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No clearly fabricated claims; the 2-year waiver authority expiration is consistent with the full bill and is a real provision."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies purpose as imposing sanctions on CCP members for specified conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes sanctions imposed and the statutory mechanisms used (IEEPA)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes exceptions for UN HQ Agreement, intelligence/law enforcement activities, and goods importation."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 30-day implementation deadline after enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers who is sanctioned, types of sanctions, exceptions, waiver, termination conditions, and penalties."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear headers."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IEEPA, INA, and congressional committees correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "30-day and 60-day and 15-day figures correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

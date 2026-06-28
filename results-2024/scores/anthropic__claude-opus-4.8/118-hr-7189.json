@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7189",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text, including the two-year report deadline and one-year strategy deadline."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose as reauthorizing the CHD program and adding reporting/strategic planning requirements."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the three amendments to Section 399V-2 of the Public Health Service Act, including redesignation, new subsection (f), and authorization extension."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions beyond the standard consultation requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the 2-year deadline for report, 1-year deadline for strategy after report, and FY2025-2029 reauthorization."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major provisions: report requirements, strategy requirements, consultation, and authorization extension."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very detailed and long; includes subsection redesignation details that are minor technical housekeeping not essential to a summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies Section 399V-2 of the Public Health Service Act, the two committees, CDC, NIH, and HRSA."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the 2-year and 1-year deadlines and FY2025-2029 authorization period; approval date November 21, 2024 matches."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

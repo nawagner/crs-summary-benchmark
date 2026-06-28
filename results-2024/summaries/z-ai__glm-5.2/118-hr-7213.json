@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Autism Collaboration, Accountability, Research, Education, and Support Act of 2024 amends the Public Health Service Act to enhance and reauthorize federal activities and programs related to autism spectrum disorder through fiscal year 2029.\n\nThe Act expands National Institutes of Health (NIH) research activities to include fields such as psychiatry, psychology, developmental behavioral pediatrics, audiology, and gerontology. It requires research to examine supports for caregivers and reflect the entire autism population, including those with co-occurring conditions and a full range of support needs. It increases the number of Autism Centers of Excellence from five to seven and directs the NIH Director to facilitate public input and submit annual budget estimates for fiscal years 2026 through 2029.\n\nThe legislation reauthorizes the Developmental Disabilities Surveillance and Research Program, autism education and intervention programs, and the Interagency Autism Coordinating Committee through September 30, 2029. It updates terminology, replacing \"culturally competent\" with \"culturally and linguistically appropriate\" and \"higher risk\" with \"increased likelihood.\" It also requires the Secretary of Health and Human Services to submit a report within two years of enactment on the feasibility of expanding developmental-behavioral pediatrician training programs, and an update within two years on the transition challenges faced by young adults with autism. A broader progress report on autism activities is due within four years of September 30, 2024. The Act renames a report on \"Health and Well-Being\" to focus on \"Mental Health Needs.\"\n\nAdditionally, the Act authorizes the HHS Secretary to provide technical assistance to states, Indian Tribes, localities, and territories on using federal funding for evidence-based communication tools for individuals with autism, accompanied by an annual report to Congress. It reauthorizes appropriations for these programs for fiscal years 2025 through 2029, increasing authorized funding levels.",
+  "prompt_tokens": 4112,
+  "completion_tokens": 1475,
+  "total_tokens": 5587,
+  "cost_usd": 0.008331,
+  "latency_s": 18.8,
+  "ok": true
+}

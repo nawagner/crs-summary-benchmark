@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7198",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; OIRA identification and procedural details are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as expanding RFA requirements and creating a petition review process for small business regulatory impacts."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes amendments to sections 603, 605, 605A, 609, and 610 of title 5."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 'where feasible' condition, petition content requirements, and limits on Chief Counsel assistance."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 5-year lookback for Section 610 amendments and House passage on December 5, 2024."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major sections: indirect cost analysis, 10-day certification publication, petition process, guidance publication, periodic review reforms."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with logical flow through each section."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive but not padded; length reflects the bill's complexity."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "SBA Chief Counsel for Advocacy, OIRA Administrator, regulations.gov all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "10-day, 30-day, 180-day, 5-year timelines all correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

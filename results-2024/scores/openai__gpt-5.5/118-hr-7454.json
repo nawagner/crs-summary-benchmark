@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7454",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts, extension dates, and program descriptions match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act temporarily extends FAA programs, aviation authorities, and trust fund taxes."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes amendments to title 49 and the Internal Revenue Code."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the obligation authority through September 30, 2024, and the 39% apportionment reduction condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies May 10 and May 11, 2024, extension dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major provisions including AIP, FAA operations, facilities, EAS, trust fund, aviation taxes, and counter-UAS."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Extremely detailed, listing every individual program extension; more comprehensive than a summary requires."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FAA, DOT, Airport and Airway Trust Fund, Essential Air Service, and DHS counter-UAS all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts and dates match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

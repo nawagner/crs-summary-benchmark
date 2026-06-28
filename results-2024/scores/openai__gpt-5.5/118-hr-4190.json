@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-4190",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the amendment, the predecease payment rule, the section 5121 mechanism, the fiduciary prohibition, and the conforming changes."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill's purpose of ensuring benefits reach survivors when a beneficiary predeceases a reissuance payment."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the amendment to title 38 and the new provision being added."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the prohibition on paying the misusing fiduciary and conforming changes."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No separate effective date specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All key operative provisions captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "VA, title 38 statutes correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No dollar amounts or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

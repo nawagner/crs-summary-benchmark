@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "openai/gpt-5.5",
+  "summary": "The FAFSA Deadline Act amends the Higher Education Act of 1965 to require an earlier and firm annual processing timeline for the Free Application for Federal Student Aid (FAFSA).\n\nUnder prior law, the Secretary of Education was required to make FAFSA processing available “not later than January 1” of an applicant’s planned year of enrollment and, to the maximum extent practicable, on or around October 1 before that year. This Act replaces that language with a requirement that FAFSA processing be available “not later than October 1” before the applicant’s planned year of enrollment.\n\nThe Act also adds oversight requirements for each FAFSA application processing cycle. Before each cycle begins, the Secretary of Education must, by September 1, certify to the authorizing congressional committees either that the Department of Education will meet the October 1 deadline or that it will not meet the deadline. If the Secretary certifies that the Department will not meet the deadline, the Secretary must testify before the authorizing committees by September 30 about the anticipated failure to meet the deadline and the financial impact that failure will have on students and families.\n\nThe Act was approved on December 11, 2024, and contains no separate effective date provision.",
+  "prompt_tokens": 765,
+  "completion_tokens": 353,
+  "total_tokens": 1118,
+  "cost_usd": 0.014415,
+  "latency_s": 5.998,
+  "ok": true
+}

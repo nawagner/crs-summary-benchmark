@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8580",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All listed appropriations categories are accurate and consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Appropriations bill."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Mentions that the bill sets forth requirements and restrictions for using funds, though without specifying the major policy riders."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "High-level summary appropriately omits granular effective date details."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major appropriations categories at the structural level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear bulleted categories."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief and structured."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names all agencies, programs, and funds listed."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific dollar figures cited."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7213",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies expanded NIH fields, Centers of Excellence increase from five to seven, reauthorization through 2029, and appropriation figures."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; appropriation figures and provisions match bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies reauthorization and expansion of ASD programs through FY2029."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes specific changes: NIH field expansions, Centers of Excellence increase, updated language, HHS technical assistance authority."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes reporting deadlines and specific conditions like the 'upon request' nature of technical assistance."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states reporting deadlines: within 2 years, within 4 years of Sept. 30, 2024, and annual reports."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers NIH expansion, program reauthorizations, appropriations, technical assistance, and reporting deadlines."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Bullet points for appropriations are efficient; no unnecessary padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "NIH, HHS, PHSA, Indian Tribes correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$28.1 million, $56.344 million, $306 million, and $22.74 billion FEMA figure are not present here; appropriation figures match bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

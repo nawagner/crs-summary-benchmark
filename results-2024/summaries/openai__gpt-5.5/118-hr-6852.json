@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "openai/gpt-5.5",
+  "summary": "The Holcombe Rucker Park National Commemorative Site Act designates Holcombe Rucker Park in Harlem, New York, as the “Holcombe Rucker Park National Commemorative Site.”\n\nThe Act authorizes the Secretary of the Interior to enter into cooperative agreements with appropriate public or private entities, including the Mayor of New York City or the Mayor’s designee, for interpretive and educational purposes related to the site. These purposes may include installing a plaque, interpretive exhibit, or other marker at the park, with the written consent of the site’s owner. Such recognition is intended to memorialize the achievements of Holcombe Rucker and acknowledge the historic role of Holcombe Rucker Park in the development of basketball and of many notable players.\n\nThe Act specifies that the commemorative site is not a unit of the National Park System. It also limits the effect of the designation: it does not authorize the Secretary of the Interior to interfere with private property rights, local zoning ordinances, or land use plans of New York State or its political subdivisions; it does not prohibit actions otherwise available to property owners, including the owner of the site; it does not affect administration of the park by New York City or New York State; and it does not authorize the Secretary to acquire land or interests in land, whether by condemnation or otherwise.\n\nThe Act was approved on January 4, 2025.",
+  "prompt_tokens": 792,
+  "completion_tokens": 369,
+  "total_tokens": 1161,
+  "cost_usd": 0.01503,
+  "latency_s": 5.379,
+  "ok": true
+}

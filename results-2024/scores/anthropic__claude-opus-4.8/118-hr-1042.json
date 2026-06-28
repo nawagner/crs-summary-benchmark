@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1042",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text including quantities, dates, agency roles, and definitions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; all details traceable to the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as banning importation of Russian-origin low-enriched uranium."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the bill amends Section 3112A of the USEC Privatization Act with conforming amendments described."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes DOE for national security/nonproliferation and non-uranium isotopes exceptions, plus waiver conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States 90-day effective date, waiver termination by Jan 1 2028, and prohibition sunset Dec 31 2040."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers ban, anti-circumvention, waiver authority, quantity caps, congressional notification, and sunset."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with logical flow from ban to exceptions to sunset."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough but not padded; all content substantive."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Secretary of Energy, State, Commerce, and the USEC Privatization Act."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All kilogram quantities and dates accurately reproduced from bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7454",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts, percentages, and program descriptions match the bill text accurately."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; the contextual description of counter-UAS authority is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act extends expiring FAA authorizations and aviation taxes through May 10-11, 2024."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes that the act amends title 49, the Internal Revenue Code, and the Homeland Security Act of 2002."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the obligation authority extending through September 30, 2024, and the 39% apportionment reduction condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the May 10 and May 11, 2024, extension dates and the October 1, 2023, period start."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers AIP funding, apportionment methodology, FAA operations, facilities, R&D, EAS, trust fund expenditure authority, aviation taxes, and counter-UAS extension."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title with logical structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very detailed; lists numerous specific programs and dollar figures that exceed what a summary requires."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FAA, DOT, Homeland Security Act of 2002, Airport and Airway Trust Fund, Essential Air Service correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "AIP amount ($2.04B), FAA operations ($7.26B), facilities ($1.79B), R&D ($155M), EAS ($216M), 39% reduction, and dates all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

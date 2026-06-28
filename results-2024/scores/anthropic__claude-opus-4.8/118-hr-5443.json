@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-5443",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and consistent with the bill text including reporting requirements and public availability deadline."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details grounded in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as establishing a policy on appraisal services for Interior Department transactions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes preexisting state/federal licensing laws no longer apply to covered transactions under this Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately covers the three conditions for using out-of-state appraisers (unavailability, qualification, cost)."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 90-day deadline for public availability and annual reporting starting one year after enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers one-state licensing rule, preference for in-state appraisers, out-of-state conditions, reporting, and public availability."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and informational throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with logical structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough without unnecessary padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies Secretary of the Interior and Department of the Interior."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states 90-day deadline and annual reporting for at least four more years after first year."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

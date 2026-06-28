@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act authorizes the Secretary of Veterans Affairs to carry out 11 major medical facility projects across the United States and Puerto Rico during fiscal year 2024. \n\nFor eachproject, the bill specifies the location and the types of construction, renovation, or expansion activities permitted, along with a maximum funding amount. The authorized projects include:\n- Construction, renovation, and parking expansion in American Lake, Washington (up to $155.6 million).\n- Mental health clinical space and parking expansion, plus land acquisition, in Dallas, Texas (up to $93.1 million).\n- Construction of a new health care center and utility plant in El Paso, Texas (up to $759.2 million).\n- Replacement of a community living center and parking expansion in Perry Point, Maryland (up to $274.31 million).\n- Seismic retrofit, renovation, and new facility construction in Portland, Oregon (up to $613 million).\n- Initiation of a medical center replacement, including land acquisition and site work, in Reno, Nevada (up to $223.8 million).\n- Construction of a new spinal cord injury building, renovations, and utility upgrades in San Diego, California (up to $311.7 million).\n- Construction of a new research facility and parking structure in San Francisco, California (up to $264.5 million).\n- Seismic corrections, new administrative building construction, and clinic expansion in San Juan, Puerto Rico (up to $370.37 million).\n- Phase 1 replacement of a bed tower, building expansions, and utility plant construction in St. Louis, Missouri (up to $135.34 million).\n- Construction of a new surgical and clinical space tower, renovations, and demolition in West Haven, Connecticut (up to $153.128 million).\n\nAdditionally, the bill authorizes the appropriation of $3,354,048,000 to the Department of Veterans Affairs' Construction, Major Projects account for fiscal year 2024 or the year in which the funds are appropriated. The Act was approved on November 25, 2024.",
+  "prompt_tokens": 1101,
+  "completion_tokens": 1208,
+  "total_tokens": 2309,
+  "cost_usd": 0.00467,
+  "latency_s": 11.456,
+  "ok": true
+}

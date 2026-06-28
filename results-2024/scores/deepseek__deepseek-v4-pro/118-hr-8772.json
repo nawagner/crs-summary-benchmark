@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8772",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and consistent with the bill text, with specific figures traceable to the text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all provisions traceable to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 legislative branch appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendments to Energy Policy Act, child care center fund, fiduciary clarification, and other statutory changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes exceptions for national security on Chinese drone ban, waiver for telecom ban, and contractor bonus exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 and subsequent year applicability and phased telecom ban."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major funding recipients and key policy riders in detail."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual; no advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with logical structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately comprehensive for a complex appropriations bill."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names all agencies, committees, and companies referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$619.3M Capitol Police salaries, $213.2M general expenses, $500,000 CBO transparency, and other figures accurately stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

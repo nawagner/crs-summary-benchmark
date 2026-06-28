@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8997",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar figures cited ($159M, $3.01B, $370M, $5.714B for Corps; $1.773B Reclamation; $1.96B EERE, $8.39B Science) match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "Claims it 'rescinds a total of $8.98 billion in previously appropriated unobligated funds to instead support nuclear energy projects' — the bill text excerpt mentions transferring balances but the exact $8.98B rescission figure cannot be verified from the provided bill text excerpt, and this specific claim appears to go beyond what the truncated text supports."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 appropriations for energy and water development agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Natural Gas Act amendment, CALFED extension, and drought relief extension."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes reprogramming rules, work plan requirements, and policy restrictions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 period through September 30, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers Corps, Interior, DOE, and independent agencies with specific figures."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Quite detailed; the level of specificity with dollar amounts makes it lengthy."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Army Corps, Bureau of Reclamation, DOE, FERC correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Corps figures ($159M, $3.01B, $370M, $5.714B), Reclamation ($1.773B), and DOE figures ($1.96B EERE, $8.39B Science) all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

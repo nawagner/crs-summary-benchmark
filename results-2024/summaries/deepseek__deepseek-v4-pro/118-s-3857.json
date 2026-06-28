@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill directs the United States to take certain lands in San Diego County, California, into federal trust for the benefit of the Jamul Indian Village of California. The primary purpose is to make these lands part of the Tribe’s reservation and subject them to the laws and regulations governing trust property held for an Indian Tribe.\n\nThe bill places approximately 172.10 acres into trust immediately upon enactment. This land consists of four parcels already owned in fee by the Jamul Indian Village, ranging in size from roughly 0.84 acres to 161.23 acres, as identified by specific recorded documents in the San Diego County Recorder’s Office dated between 1998 and 2022.\n\nThe bill also requires the Secretary of the Interior to accept and place into trust an additional parcel of about 1.1 acres, depicted on a specified map from the California Department of Fish and Wildlife, if that land is conveyed to the United States by or on behalf of the Tribe.\n\nAll lands taken into trust under the Act become part of the Jamul Indian Village reservation and are to be administered under generally applicable federal trust laws. The Act expressly prohibits the use of any land described in it for class II or class III gaming as defined by the Indian Gaming Regulatory Act.",
+  "prompt_tokens": 1103,
+  "completion_tokens": 254,
+  "total_tokens": 1357,
+  "cost_usd": 0.000701,
+  "latency_s": 5.012,
+  "ok": true
+}

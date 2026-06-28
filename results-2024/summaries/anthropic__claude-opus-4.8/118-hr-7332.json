@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Utah State Parks Adjustment Act (Public Law 118-181), enacted December 23, 2024, requires the federal government to transfer certain federal lands to the State of Utah for inclusion in three state parks.\n\nThe Act directs three conveyances, each to occur within 180 days of enactment, made subject to valid existing rights, without payment (no consideration), and by quitclaim deed:\n\n1. **Antelope Island State Park:** The Secretary of the Interior must convey Bureau of Land Management (BLM) land identified on a map dated February 28, 2023.\n\n2. **Wasatch Mountain State Park:** The Secretary of the Interior must convey BLM land identified on a map dated May 3, 2024.\n\n3. **Fremont Indian State Park:** The Secretary of Agriculture must convey National Forest System land identified on a map dated September 12, 2023, along with any improvements on that land.\n\nFor all three conveyances, Utah must pay the associated costs, including surveys and other administrative expenses.\n\nThe Fremont Indian conveyance carries additional conditions. The Secretary of Agriculture must reserve easements for all National Forest System roads and trails that originate at, terminate at, or cross the conveyed land. The Secretary must convey only three specified water rights (numbered 63-44, 63-1607, and 63-2817) that serve the Castle Rock Campground and the Belknap Historic Guard Station interpretive site. If deemed necessary, the exact acreage and legal description will be set by a survey approved by the Secretary, with the State paying reasonable survey costs. The Secretary of Agriculture may enter agreements with the State on further terms, such as managing the Belknap site, roads and trails, continued livestock grazing, Forest Service access to retained water rights, and other management matters.\n\nEither Secretary may make minor modifications to the applicable maps. The State must use all conveyed land for public purposes—including parks, campgrounds, recreation, and permitted livestock grazing. If any parcel ceases to be used for such purposes, it may, at the relevant Secretary's discretion, revert to the United States.",
+  "prompt_tokens": 2790,
+  "completion_tokens": 693,
+  "total_tokens": 3483,
+  "cost_usd": 0.031275,
+  "latency_s": 8.628,
+  "ok": true
+}

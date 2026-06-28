@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6062",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and supported by the bill text; the description of Executive Order 10264 and its effect is correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the prior restriction (requiring Congressional action) is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: repealing the restriction on amendments to the Constitution of American Samoa."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the repeal of Section 12 of Public Law 98-213 (48 U.S.C. 1662a)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the continuing subject to Congress's Territorial Clause authority."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the January 4, 2025 effective date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the single operative provision: repeal of Section 12 of P.L. 98-213."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed for a bill that has a complex long title and single operative provision."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies Public Law 98-213, 48 U.S.C. 1662a, and Executive Order 10264."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Executive Order date (June 29, 1951) and enactment date (January 4, 2025) are both correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

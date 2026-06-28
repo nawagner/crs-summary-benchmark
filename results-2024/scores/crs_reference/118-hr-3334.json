@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-3334",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and supported by the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies purpose as imposing sanctions on CCP Central Committee members for specified conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes visa and property-blocking sanctions and termination conditions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the material exceptions for the UN HQ Agreement, intelligence/law enforcement activities, and goods importation, as well as the fentanyl-enterprise sanction category."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Does not mention the 30-day implementation deadline, 60-day waiver periods, or 2-year expiration of waiver authority."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the fentanyl state-owned enterprise sanction category, the election interference sanctionable conduct, the Tibet cessation condition for termination, and the exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief given its high-level scope."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All entities correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "States waiver is for 'renewable periods of up to 60 days' (correct) but omits the 15-day advance notice requirement; not a figure error but the summary is incomplete on key numeric details."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "z-ai/glm-5.2",
+  "summary": "The DETECT Fentanyl and Xylazine Act of 2024 requires the Department of Homeland Security’s Science and Technology Directorate to enhance its capacity to detect and identify illicit substances, such as fentanyl and xylazine, in very low concentrations. \n\nTo achieve this, the Act amends Section 302 of the Homeland Security Act of 2002 by adding a new directive for the Under Secretary for Science and Technology. In coordination with the Drug Enforcement Administration, the Under Secretary must conduct research, development, testing, evaluation, and cost-benefit analyses to improve the safety, effectiveness, and efficiency of detection equipment and reference libraries used by Federal, State, local, Tribal, and territorial law enforcement agencies. \n\nThe research specifically targets three areas: portable equipment that can detect drugs with minimal or no sample handling; equipment capable of separating complex mixtures with low drug concentrations and high concentrations of cutting agents for field identification; and technologies using artificial intelligence or machine learning to predict whether substances are controlled substance analogues or new psychoactive substances not yet included in available reference libraries.\n\nAdditionally, the Act establishes requirements for carrying out these activities. The Under Secretary must follow the National Institute of Standards and Technology’s Artificial Intelligence Risk Management Framework or any successor document. Research priorities must be based on the latest available threat information, specifically the DHS Homeland Threat Assessment, the DEA State and Territory Report on Enduring and Emerging Threats, or any successor documents. \n\nThe Act includes a rule of construction stating that it does not limit the authority of agencies currently managing or involved in drug equipment and reference libraries. The legislation was approved on December 23, 2024.",
+  "prompt_tokens": 1112,
+  "completion_tokens": 1026,
+  "total_tokens": 2138,
+  "cost_usd": 0.004134,
+  "latency_s": 20.05,
+  "ok": true
+}

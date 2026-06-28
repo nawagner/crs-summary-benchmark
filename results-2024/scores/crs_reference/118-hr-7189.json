@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7189",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the reauthorization through FY2029 and that CDC administers the program; the report and strategy requirements are accurately summarized."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; CDC administration of the program is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the Act as reauthorizing the CHD program through FY2029."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the reauthorization and new reporting/strategy requirements."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes reauthorization through FY2029, which captures the key temporal element."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the reauthorization, report, and strategy requirements at a high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies CDC as the administering agency and HHS for the report/strategy."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "FY2029 reauthorization matches the bill text (2025-2029)."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

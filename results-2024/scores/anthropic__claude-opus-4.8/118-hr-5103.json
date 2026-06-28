@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-5103",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text including the 120-day, 10-day, and 90-day timelines and OMB role."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; identification of this as amending Magnuson-Stevens is correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as establishing deadlines for spend plan processing tied to fishery disaster funding."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the specific amendments to Section 312(a)(6) of the Magnuson-Stevens Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 'if applicable' conditional for spend plan content requirements."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the Act took effect January 4, 2025 upon approval."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all key provisions: 120-day submission deadline, 10-day review, incomplete plan notice, 90-day funding, OMB concurrent review constraint."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, logically structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without unnecessary repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Magnuson-Stevens Act, OMB Director correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "120-day, 10-day, 90-day timelines all correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

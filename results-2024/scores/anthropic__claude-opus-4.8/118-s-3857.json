@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-3857",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states 172.10 total acres, describes all four parcels with their sizes and recording dates, notes the 1.1-acre conditional parcel, the gaming prohibition under IGRA, that lands become part of the Tribe's reservation, and Dec 23, 2024 approval."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims. All parcel details, recording dates, and figures match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as taking land into trust for the Jamul Indian Village."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the new trust acquisition and reservation expansion."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the class II and class III gaming prohibition under IGRA and the conditional 1.1-acre parcel."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No internal effective date beyond enactment specified; trust acquisition occurs upon enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All major provisions covered: four parcels, totals, 1.1-acre conditional, gaming prohibition, reservation status, standard trust administration."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Jamul Indian Village of California, Secretary of Interior, San Diego County, IGRA all correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "172.10 acres total, all individual parcel sizes (161.23, 6, 4.03, 0.84), 1.1-acre conditional, all recording dates are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

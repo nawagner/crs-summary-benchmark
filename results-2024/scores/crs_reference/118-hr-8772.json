@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8772",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the appropriations bill and its recipients."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the listed entities match those in the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 legislative branch appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "At the high-level summary level, not specifying statutory amendments is appropriate for an appropriations bill."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Does not note key restrictions in the bill such as the vehicle lease cap, the telecom equipment ban, DEI training restrictions, or the COLA freeze for Members."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary's high-level scope doesn't require specific effective dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary only covers funding recipients and omits the significant policy riders (telecom ban, DEI restrictions, marriage beliefs protection, COLA freeze, vehicle lease cap) that are major operative provisions of the bill."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names all funded entities including CRS, Copyright Office, Stennis Center, etc."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated in the summary."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

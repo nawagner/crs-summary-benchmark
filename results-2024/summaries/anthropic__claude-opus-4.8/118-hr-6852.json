@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Holcombe Rucker Park National Commemorative Site Act (Public Law 118-235) designates Holcombe Rucker Park in Harlem, New York, as the \"Holcombe Rucker Park National Commemorative Site.\" The purpose of the designation is to memorialize the achievements of Holcombe Rucker and to recognize the historic role of the park in the development of the game of basketball and many of its players.\n\nThe law authorizes the Secretary of the Interior to enter into cooperative agreements with appropriate public or private entities—including the Mayor of New York City or the Mayor's designee—for interpretive and educational purposes related to the site. These activities may include installing a plaque, interpretive exhibit, or other marker, but only with the written consent of the property's owner.\n\nThe Act establishes several limitations. The Commemorative Site is not made a unit of the National Park System. Nothing in the law authorizes the Secretary of the Interior to interfere with private property rights or with any local zoning ordinance or land use plan of New York State or its political subdivisions, including actions a property owner may otherwise take. The law does not affect the administration of the site by New York City or New York State, and it does not authorize the Secretary to acquire land or interests in land through condemnation or any other means.\n\nThe Act was approved on January 4, 2025. It originated as H.R. 6852, passed the House on September 24, 2024, and passed the Senate on December 20, 2024.",
+  "prompt_tokens": 1338,
+  "completion_tokens": 466,
+  "total_tokens": 1804,
+  "cost_usd": 0.01834,
+  "latency_s": 5.916,
+  "ok": true
+}

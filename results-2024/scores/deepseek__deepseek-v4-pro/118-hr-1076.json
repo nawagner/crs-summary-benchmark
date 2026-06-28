@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1076",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text; no contradictions found."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; reference to Congressional Review Act is not made here and the September 13, 2024 date is correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: Comptroller General study and report on financial networks supporting synthetic drug trafficking."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Bill does not amend existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the one-year report deadline and the September 13, 2024 enactment date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major study topics including U.S. government activities, interagency collaboration, and gap identification."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Reproduces nearly all study subtopics at considerable length beyond what a summary requires."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Comptroller General and relevant entities."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "One-year deadline and September 13, 2024 date are correctly stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Kids Online Safety and Privacy Act\" (S. 2073) aims to protect minors online, enhance user control over internet algorithms, and eliminate redundant federal agency reports.\n\nTo keep kids safe online, the bill establishes a \"duty of care\" requiring covered internet platforms to prevent and mitigate specific harms to minors (under age 17), including mental health disorders, addiction-like behaviors, physical violence, and sexual exploitation. Platforms must provide minors with default high-protection privacy settings, parental monitoring tools, and options to limit compulsive design features. Platforms with over 10 million monthly active U.S. users must respond to reports of harm within 10 days (21 days for smaller platforms) and publish annual independent audit reports. Additionally, platforms using opaque recommendation algorithms must notify users and allow them to switch to an \"input-transparent\" algorithm.\n\nThe bill also amends the Children's Online Privacy Protection Act (COPPA) to extend privacy protections to teens (ages 13 to 16). It prohibits individual-specific advertising to minors, requires verifiable consent before collecting personal data, and grants minors and parents the right to delete collected information. Finally, the bill requires federal agencies to identify outdated or duplicative recurring congressional reports in their annual budget justifications.\n\nCovered platforms exclude schools, libraries, non-profits, and common carriers. The bill does not require platforms to collect new age data or implement age-verification systems. Subtitle A (Kids Online Safety) takes effect 18 months after enactment, while Subtitle B (Filter Bubble Transparency) takes effect one year after enactment. The Kids Online Safety Council must be established within 180 days of enactment.",
+  "prompt_tokens": 26754,
+  "completion_tokens": 2793,
+  "total_tokens": 29547,
+  "cost_usd": 0.065268,
+  "latency_s": 14.125,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Improving Federal Building Security Act of 2024\" (Public Law 118-157) requires Facility Security Committees to formally respond to security recommendations issued by the Federal Protective Service (FPS). \n\nUnder the law, within 90 days of receiving an FPS security recommendation, the head of a Facility Security Committee must submit a response to the Secretary of Homeland Security. This response must indicate whether the committee will adopt or reject the recommendation, detail the financial implications (including whether the benefits outweigh the costs), and provide a justification for accepting the security risk if the recommendation is rejected. The Secretary of Homeland Security is tasked with monitoring these recommendations and responses, and taking reasonable action to ensure compliance.\n\nThe Act also mandates that the Secretary submit an annual report to Congress, beginning within 270 days of enactment, summarizing the recommendations, acceptance and rejection rates, committee response times, justifications for rejections, financial impacts, and risk mitigation steps. Additionally, within 180 days of enactment, the Secretary must submit an unredacted report on all surveillance technology recommended by the FPS and its intended use.\n\nThe Act applies exclusively to General Services Administration (GSA) facilities protected by the FPS and non-GSA facilities that pay the FPS for protection. No additional funds are authorized to carry out the Act. The law will sunset five years after its enactment on December 17, 2024, by which time the Comptroller General of the United States must submit a report to Congress evaluating the Act's effectiveness.",
+  "prompt_tokens": 1680,
+  "completion_tokens": 1933,
+  "total_tokens": 3613,
+  "cost_usd": 0.019917,
+  "latency_s": 10.025,
+  "ok": true
+}

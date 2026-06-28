@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-5443",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; accurate description of the licensing change and conditions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as relaxing Interior Department appraiser licensing requirements."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the prior rule (in-state licensure required) and how the Act changes it."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the three conditions for using out-of-state appraisers."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective dates or deadlines mentioned in the summary, but the bill has a 90-day public availability deadline; omitting this is acceptable at a high-level summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the annual reporting requirement to Congress (a substantive obligation described over several subsections) and the 90-day public availability deadline."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of the Interior."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated in the summary."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

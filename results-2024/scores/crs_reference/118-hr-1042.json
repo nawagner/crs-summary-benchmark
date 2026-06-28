@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1042",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate and consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; accurately describes the ban and waiver conditions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill limits uranium importation from Russia."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "Does not mention that the bill amends the USEC Privatization Act, omitting the legislative mechanism."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes waiver conditions and the two grounds for waiver."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States waiver termination by Jan 1 2028 and ban termination Dec 31 2040."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the anti-circumvention provision (uranium swapped to evade ban), the annual import caps under waivers, the congressional notification requirement, and the exceptions for DOE national security and non-uranium isotopes."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and appropriately succinct."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Department of Energy."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates stated are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

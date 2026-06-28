@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Improving Federal Building Security Act of 2024 requires Facility Security Committees (FSCs) to formally respond to security recommendations issued by the Federal Protective Service (FPS). \n\nUnder the Act, within 90 days of receiving an FPS security recommendation, the head of an FSC or a designee must respond to the Secretary of Homeland Security indicating whether the committee will adopt or reject the recommendation. The response must describe the financial implications of the decision, including whether the benefits outweigh the costs. If the recommendation is rejected, the FSC must provide a justification for accepting the associated risk. The Secretary must develop a method to monitor these recommendations and responses and take reasonable action to ensure FSC compliance.\n\nThe Act requires the Secretary to submit an annual report to specified congressional committees beginning 270 days after enactment. This report must summarize FPS recommendations, acceptance and rejection rates, non-response rates, justifications for rejections, financial implications, risk mitigation steps, and trend analyses. The report must be unclassified but may include a classified annex, and the Secretary must brief the committees annually on the findings. Additionally, within 180 days of enactment, the Secretary must submit an unredacted report to Congress on all surveillance technology recommended by FPS and its intended use.\n\nThe Act applies only to General Services Administration facilities under FPS protection and non-GSA facilities that pay FPS fees for protection. No additional funds are authorized to carry out the Act. The Act ceases to be effective five years after its enactment, and the Comptroller General must submit a report to Congress on the Act's effectiveness by that time.",
+  "prompt_tokens": 1513,
+  "completion_tokens": 1052,
+  "total_tokens": 2565,
+  "cost_usd": 0.004593,
+  "latency_s": 10.31,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1240",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the trust transfer and gaming prohibition; 'lands in Iowa' is accurate per the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all stated facts match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act takes specified lands into trust for the Winnebago Tribe."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes lands are taken into trust and made part of the reservation."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the gaming prohibition, which is the key condition."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective date stated; omitting is acceptable for a high-level summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers trust transfer, reservation status, and gaming prohibition."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concisely covers the essential provisions."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Winnebago Tribe of Nebraska correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated in this summary."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6324",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "High-level description accurately reflects the act's content."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary is brief but accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the act authorizes specified VA major medical facility projects during FY2024."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The act provides new project-specific authorization rather than amending existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes that the act indicates maximum spending amounts for each project."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2024 as the authorization period."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both major elements: project authorization and maximum spending limits. Does not list projects individually but that is acceptable at this level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Very concise; captures the essence in two sentences."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Department of Veterans Affairs correctly named."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific dollar amounts stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses the procedure established under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a rule issued by the Department of Education.\n\nThe targeted rule, titled \"Waivers and Modifications of Federal Student Loans,\" includes the Department's website announcement of \"One-Time Federal Student Loan Debt Relief\" and a related Federal Register document concerning the Federal Perkins Loan Program, the Federal Family Education Loan Program, and the William D. Ford Federal Direct Loan Program (published at 87 Fed. Reg. 61512 on October 12, 2022). The resolution references the rule as printed in the Congressional Record on March 22, 2023, along with a Government Accountability Office letter dated March 17, 2023, which concluded that the waivers and modifications constitute a \"rule\" subject to the Congressional Review Act.\n\nUnder the operative language, Congress disapproves this rule, and the resolution states that the rule \"shall have no force or effect.\" This is the standard effect of a Congressional Review Act disapproval resolution: if enacted, it nullifies the agency action and prevents the rule from being implemented.\n\nThe document text indicates that the resolution passed the House of Representatives on May 24, 2023, and was received in the Senate on May 30, 2023. The resolution contains no additional provisions, exceptions, or separate effective dates; its sole function is to disapprove and void the identified student loan relief rule. To take effect, the resolution would need to be passed by the Senate and either signed by the President or enacted over a veto.",
+  "prompt_tokens": 871,
+  "completion_tokens": 514,
+  "total_tokens": 1385,
+  "cost_usd": 0.017205,
+  "latency_s": 8.499,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-2365",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; the description of Parkinson's as 'a progressive brain disorder that causes unintended or uncontrollable movements' is correct real-world context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as directing HHS to address Parkinson's disease and related conditions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Implies the act creates new requirements for HHS; could be more explicit about the Public Health Service Act amendment but the framing is acceptable."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 2035 termination explicitly."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 2035 sunset; omits interim deadlines (24 months, 18 months) but these are not the bill's primary features."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the National Parkinson's Project, national plan requirement, annual assessment, Advisory Council, and sunset provision at appropriate high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief; captures the essence without unnecessary detail."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "HHS correctly named; Advisory Council described accurately."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "2035 termination year correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

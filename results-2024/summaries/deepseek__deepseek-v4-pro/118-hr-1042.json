@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Prohibiting Russian Uranium Imports Act amends the USEC Privatization Act to ban the importation of unirradiated low-enriched uranium produced in the Russian Federation or by a Russian entity. The prohibition takes effect 90 days after the law’s enactment on May 13, 2024, and also covers uranium that is swapped or otherwise obtained in a manner designed to circumvent the ban.\n\nThe Secretary of Energy, in consultation with the Secretaries of State and Commerce, may waive the prohibition if it is determined that no alternative viable source of low-enriched uranium is available to sustain the continued operation of a nuclear reactor or a U.S. nuclear energy company, or that importation is in the national interest. Any waiver is subject to annual import limits: 476,536 kilograms in 2024, 470,376 kilograms in 2025, 464,183 kilograms in 2026, and 459,083 kilograms in 2027. The Secretary of Commerce administers and enforces these limits consistent with the existing Suspension Agreement and with minimal burden on the commercial nuclear industry. All waivers terminate no later than January 1, 2028. When a waiver is issued, the Secretary of Energy must notify specified congressional committees and identify the recipient.\n\nThe ban does not apply to imports by or under contract to the Department of Energy for national security or nonproliferation purposes, or to imports of non-uranium isotopes. The entire prohibition section sunsets on December 31, 2040. The bill defines a “Russian entity” as one organized under the laws of or otherwise subject to the jurisdiction of the Russian government.\n\nThe legislation also makes conforming amendments to existing law, striking previous provisions that set out Russian uranium import limits under the Suspension Agreement and updating cross-references. The amendment removing those prior limits takes effect 90 days after enactment.",
+  "prompt_tokens": 1913,
+  "completion_tokens": 1296,
+  "total_tokens": 3209,
+  "cost_usd": 0.00196,
+  "latency_s": 14.748,
+  "ok": true
+}

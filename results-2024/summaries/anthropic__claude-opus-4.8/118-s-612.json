@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-612",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Lake Tahoe Restoration Reauthorization Act (Public Law 118-94), enacted October 1, 2024, extends the timeframes for two provisions of the existing Lake Tahoe Restoration Act (Public Law 106-506).\n\nFirst, it amends the cooperative authorities provision in Section 4(f) of the Lake Tahoe Restoration Act. Previously, that authority applied for \"4 fiscal years following the date of enactment of the Water Resources Development Act of 2016.\" The new law replaces this with a period beginning on the date the subsection was enacted and ending on the date described in Section 10(a) of the Act.\n\nSecond, it amends the authorization of appropriations in Section 10(a) of the Lake Tahoe Restoration Act. The prior language specifying the period during which funds were authorized is struck and replaced with language directing that the appropriations \"remain available until September 30, 2034.\"\n\nThe Act makes no other changes. Its effect is to reauthorize and extend the funding availability and cooperative authorities under the Lake Tahoe Restoration Act through the new September 30, 2034 deadline.",
+  "prompt_tokens": 947,
+  "completion_tokens": 367,
+  "total_tokens": 1314,
+  "cost_usd": 0.01391,
+  "latency_s": 6.067,
+  "ok": true
+}

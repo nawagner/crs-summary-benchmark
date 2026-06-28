@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Firefighter Cancer Registry Reauthorization Act of 2023, enacted as Public Law 118-147 on December 12, 2024, has the primary purpose of reauthorizing the Firefighter Cancer Registry Act of 2018. This legislation specifically extends the authorization for the voluntary registry used to monitor and track cancer incidence among firefighters.\n\nThe major provision of the Act amends Section 2(h) of the Firefighter Cancer Registry Act of 2018 (codified at 42 U.S.C. 280e-5(h)) to change the authorized funding levels and the applicable timeframes. Under the prior law, the registry was authorized to receive appropriations of $2,500,000 for each of the fiscal years 2018 through 2022. The newly enacted law strikes this previous funding provision and replaces it, authorizing an increased appropriation of $5,500,000 for each of the fiscal years 2024 through 2028. \n\nThis reauthorization establishes a new five-year period for the specified funding, beginning in fiscal year 2024 and running through fiscal year 2028. The Act contains no other amendments or provisions beyond this adjustment to the funding authorization levels and dates.",
+  "prompt_tokens": 595,
+  "completion_tokens": 2047,
+  "total_tokens": 2642,
+  "cost_usd": 0.019316,
+  "latency_s": 10.184,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 38 is a joint resolution of the 118th Congress that states congressional disapproval of a specific federal agency rule. The primary purpose of the resolution is to nullify the rule submitted by the Federal Highway Administration titled \"Waiver of Buy America Requirements for Electric Vehicle Chargers,\" which was published in the Federal Register on February 21, 2023 (88 Fed. Reg. 10619).\n\nThe resolution is proposed under chapter 8 of title 5 of the United States Code, which outlines the process for congressional disapproval of agency rules. The major provision of the resolution is the explicit declaration that Congress disapproves of the Federal Highway Administration's rule. Consequently, the resolution mandates that the rule shall have no force or effect. \n\nThe resolution passed the Senate on November 8, 2023. The text contains no material exceptions, conditions, or specific effective dates, meaning the disapproval and nullification of the rule would apply immediately upon the resolution's enactment into law.",
+  "prompt_tokens": 470,
+  "completion_tokens": 1598,
+  "total_tokens": 2068,
+  "cost_usd": 0.015087,
+  "latency_s": 8.139,
+  "ok": true
+}

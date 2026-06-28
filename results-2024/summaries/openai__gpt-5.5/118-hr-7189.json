@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "openai/gpt-5.5",
+  "summary": "The Congenital Heart Futures Reauthorization Act of 2024 amends the Public Health Service Act to reauthorize the national congenital heart disease research, surveillance, and awareness program through fiscal years 2025 through 2029.\n\nThe Act adds new reporting and planning requirements for the Secretary of Health and Human Services. Within two years of enactment, the Secretary must submit a report to the House Committee on Energy and Commerce and the Senate Committee on Health, Education, Labor, and Pensions. The report must describe past and current Department of Health and Human Services activities to increase public awareness and knowledge of congenital heart disease, including efforts addressing the lifelong needs of patients. It must also assess past and current Department activities to improve education and training of health care providers on congenital heart disease, including lifelong patient needs, and describe the current U.S. workforce capacity of providers who treat adults living with congenital heart disease.\n\nWithin one year after submitting that report, the Secretary must develop and submit to Congress a strategy to improve public awareness and knowledge, and provider education and training, related to congenital heart disease. The strategy must include findings and recommendations addressing public awareness and research gaps and opportunities related to lifelong patient needs, including long-term health outcomes, quality of life, mental health, and health care utilization. It must also address shortages in the workforce treating adult congenital heart disease patients, which may include ways to enhance fellowship training or continuing education, and promote collaboration and information sharing among federal agencies, health care providers, researchers, and patient organizations.\n\nIn developing the strategy, the Secretary must consult, as appropriate, with qualified stakeholders, including patient organizations, health care professionals, research entities, health insurers, accrediting organizations, and relevant federal agencies such as CDC, NIH, and HRSA.",
+  "prompt_tokens": 1083,
+  "completion_tokens": 357,
+  "total_tokens": 1440,
+  "cost_usd": 0.016125,
+  "latency_s": 5.362,
+  "ok": true
+}

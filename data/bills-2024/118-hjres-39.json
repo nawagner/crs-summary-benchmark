@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hjres-39",
+  "congress": 118,
+  "type": "hjres",
+  "number": "39",
+  "title": "Disapproving the rule submitted by the Department of Commerce relating to \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414\".",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/39",
+  "crs_summary": "This joint resolution nullifies the final rule submitted by the Department of Commerce titled Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414 and published on September 16, 2022. The rule allows for the suspension of duties on certain crystalline silicon photovoltaic cells and modules (i.e., solar panels) that are completed in Cambodia, Malaysia, Thailand, or Vietnam using parts and components manufactured in China that are not already subject to an antidumping or countervailing duty order.",
+  "crs_version_code": "55",
+  "crs_action_date": "2023-05-03",
+  "crs_action_desc": "Passed Senate",
+  "bill_text": "[Congressional Bills 118th Congress]\n[From the U.S. Government Publishing Office]\n[H.J. Res. 39 Received in Senate (RDS)]\n\n<DOC>\n118th CONGRESS\n 1st Session\nH. J. RES. 39\n\n_______________________________________________________________________\n\n IN THE SENATE OF THE UNITED STATES\n\n May 1, 2023\n\n Received\n\n_______________________________________________________________________\n\n JOINT RESOLUTION\n\nDisapproving the rule submitted by the Department of Commerce relating \n to ``Procedures Covering Suspension of Liquidation, Duties and \n Estimated Duties in Accord With Presidential Proclamation 10414''.\n\n Resolved by the Senate and House of Representatives of the United \nStates of America in Congress assembled, That Congress disapproves the \nrule submitted by the\n\n Department of Commerce relating to ``Procedures Covering Suspension of \nLiquidation, Duties and Estimated Duties in Accord With Presidential \nProclamation 10414'' (87 Fed. Reg. 56868), and such rule shall have no \nforce or effect.\n\n Passed the House of Representatives April 28, 2023.\n\n Attest:\n\n CHERYL L. JOHNSON,\n\n Clerk.",
+  "bill_text_chars": 1093,
+  "bill_text_tokens_est": 273,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/bills/hjres39/BILLS-118hjres39rds.htm",
+  "actions_count": 37,
+  "summary_versions": 4
+}

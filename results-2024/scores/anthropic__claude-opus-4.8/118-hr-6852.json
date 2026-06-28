@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6852",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the designation, cooperative agreement authority, written consent requirement, not-NPS-unit status, private property protections, no condemnation authority, and no interference with NYC/NY administration."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims. All legislative history details are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as designating Holcombe Rucker Park as a National Commemorative Site to memorialize Rucker and basketball history."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the new commemorative designation being created."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes all key limitations: written consent requirement, not a NPS unit, private property rights protections, no condemnation authority, no interference with NYC/NY administration."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the January 4, 2025 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All operative provisions captured comprehensively."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thorough but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Secretary of Interior, NYC Mayor, Harlem, NY all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No dollar amounts or quantities to verify."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 30 (H.J. Res. 30), received in the Senate on March 1, 2023, after passing the House of Representatives on February 28, 2023, is a joint resolution aimed at nullifying a specific federal regulation. \n\nThe primary purpose of the resolution is to express congressional disapproval of a rule submitted by the Department of Labor. This disapproval is exercised under the authority of chapter 8 of title 5 of the United States Code, which governs the congressional review of agency rulemaking. \n\nSpecifically, the resolution targets the Department of Labor rule titled \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,\" which was published in the Federal Register on December 1, 2022 (87 Fed. Reg. 73822). The major provision of this resolution is that the specified rule shall have no force or effect, thereby stripping it of any legal authority. \n\nThe text of the resolution does not establish any material exceptions, conditions, or specific future deadlines.",
+  "prompt_tokens": 429,
+  "completion_tokens": 1562,
+  "total_tokens": 1991,
+  "cost_usd": 0.014702,
+  "latency_s": 8.292,
+  "ok": true
+}

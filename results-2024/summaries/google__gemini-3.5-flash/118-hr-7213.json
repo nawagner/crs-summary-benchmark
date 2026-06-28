@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Autism Collaboration, Accountability, Research, Education, and Support (CARES) Act of 2024 amends the Public Health Service Act to reauthorize and expand federal programs, research, and education related to autism spectrum disorder (ASD) through September 30, 2029. \n\nThe bill expands National Institutes of Health (NIH) research to cover additional fields—including psychiatry, psychology, developmental behavioral pediatrics, audiology, and gerontology—and increases the number of NIH Centers of Excellence from five to seven. It directs the NIH to investigate co-occurring conditions, caregiver support, and the full range of needs for the entire ASD population. Additionally, the NIH Director must submit annual budget estimates directly to the President for fiscal years 2026 through 2029.\n\nThe legislation updates education, early detection, and intervention programs to emphasize culturally and linguistically appropriate services, community-based research, and diagnostic tools. It increases annual authorized appropriations for fiscal years 2025 through 2029 to:\n* $28.1 million for developmental disabilities surveillance and research;\n* $56.344 million for autism education, early detection, and intervention; and\n* $306 million for NIH autism activities.\n\nThe bill also authorizes the Department of Health and Human Services (HHS) to provide technical assistance to states, Indian Tribes, Tribal organizations, and local jurisdictions to help individuals with ASD access communication tools. \n\nFinally, the bill establishes several reporting deadlines:\n* Within two years of enactment, HHS must submit a report on the feasibility of expanding developmental-behavioral pediatrician training and an update on young adults transitioning to adulthood.\n* Within four years of September 30, 2024, HHS must submit a progress report on ASD activities and research.\n* HHS must submit annual reports to Congress summarizing any communication-related technical assistance provided in the preceding fiscal year.",
+  "prompt_tokens": 4605,
+  "completion_tokens": 2336,
+  "total_tokens": 6941,
+  "cost_usd": 0.027932,
+  "latency_s": 12.526,
+  "ok": true
+}

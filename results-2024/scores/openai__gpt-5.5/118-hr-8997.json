@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8997",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims match the bill text; high-level description of all titles and key provisions is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; coverage of the bill's programs and restrictions is consistent with the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 appropriations for energy and water development agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendments to CALFED, drought relief, WIIN Act, Infrastructure Investment and Jobs Act, and Natural Gas Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes numerous restrictions on fund use, including CRT, COVID mandates, Chinese-controlled entities."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 period through September 30, 2025 and various 'remain available until expended' provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all four titles and major provisions at an appropriate level of detail."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive; policy riders listed factually."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very lengthy, listing nearly every program and provision; could be condensed considerably."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Army Corps, Bureau of Reclamation, DOE, FERC, NRC all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific dollar amounts cited that could be checked for errors; appropriately omits most figures."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

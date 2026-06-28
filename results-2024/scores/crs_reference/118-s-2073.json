@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-2073",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "The CRS summary is titled 'Eliminate Useless Reports Act of 2023' and describes only the agency-reporting provisions — but S. 2073 as enacted is the Kids Online Safety and Privacy Act, which replaced that bill's content entirely with three titles covering online safety, privacy, and agency reports; the CRS summary describes only a small part of the enacted bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary's content is accurate for what it describes (the agency reporting provisions of Title III), but it is the summary of the original S. 2073 before the Senate amendment replaced its content."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": false,
+      "why": "Describes only the Title III agency-reporting purpose; fails to identify the bill's primary purposes of online safety and children's privacy."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "Describes only Title 31 amendments; omits HAVA/COPPA-like amendments that are the bill's primary changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Describes only agency-report conditions; omits all major conditions in Titles I and II."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective dates specified in the portion summarized."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Covers only Title III (one of three titles); completely omits Titles I and II which are the primary subject of the bill."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual for what it covers."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable for what it covers."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief for what it covers."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Office of Management and Budget and relevant agencies correctly named for Title III."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 5,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

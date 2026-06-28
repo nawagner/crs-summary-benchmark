@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act amends Section 6107 of title 38, United States Code, to direct the Secretary of Veterans Affairs to reissue certain misused benefits to the estates of deceased beneficiaries. \n\nSpecifically, the Act adds a new subsection (c) to Section 6107 providing that if a beneficiary predeceases a payment made under subsection (a) or (b) of that section, the Secretary shall pay the benefits to an individual or entity in accordance with section 5121 of title 38. However, the Secretary is prohibited from making such a payment to a fiduciary who misused the beneficiary's benefits. \n\nAdditionally, the Act redesignates existing subsections (c) and (d) of Section 6107 as subsections (d) and (e), respectively. It also makes a conforming amendment in the newly redesignated subsection (e) by replacing the phrase \"subsection (a) or (b)\" with \"this section.\" The Act was approved on November 25, 2024.",
+  "prompt_tokens": 685,
+  "completion_tokens": 693,
+  "total_tokens": 1378,
+  "cost_usd": 0.00273,
+  "latency_s": 33.859,
+  "ok": true
+}

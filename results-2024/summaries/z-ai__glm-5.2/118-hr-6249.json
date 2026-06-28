@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Think Differently About Emergencies Act requires the Federal Emergency Management Agency (FEMA) and the Comptroller General of the United States to review and report on the assistance and resources provided to individuals with disabilities and their families impacted by major disasters. \n\nUnder the Act, the FEMA Administrator must submit a report to the House Committee on Transportation and Infrastructure and the Senate Committee on Homeland Security and Governmental Affairs no later than 120 days after enactment. This report must describe the assistance and resources FEMA provides to states, localities, nonprofit organizations, and directly to individuals with intellectual and developmental disabilities and their families following major disasters declared under the Robert T. Stafford Disaster Relief and Emergency Assistance Act. The report must include descriptions of available resources and best practices, the process for training and deploying personnel to coordinate disaster assistance, a list of programs supporting these individuals, outreach activities to relevant experts, and areas for improvement in disaster preparation and recovery support.\n\nAdditionally, no later than one year after enactment, both the Comptroller General and the FEMA Administrator must each conduct a review of the assistance and resources provided to states, localities, nonprofits, and individuals to assist individuals with intellectual and developmental disabilities, individuals with physical disabilities, and their families. This review must identify potential legal impediments to providing assistance and resources. Both officials must also provide Congress with recommendations on how FEMA can improve its assistance and resources, enhance coordination with states, localities, and nonprofits, streamline the application and delivery process, and any legislative reforms necessary to achieve these improvements. The Act was enacted on November 25, 2024.",
+  "prompt_tokens": 1188,
+  "completion_tokens": 1058,
+  "total_tokens": 2246,
+  "cost_usd": 0.004303,
+  "latency_s": 11.478,
+  "ok": true
+}

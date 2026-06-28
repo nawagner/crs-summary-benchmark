@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1240",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the transfer from Army Corps of Engineers to Bureau of Indian Affairs (from the bill's title), and correctly describes trust arrangement."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all specific claims trace to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as transferring land into trust for the Winnebago Tribe."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the trust arrangement and reservation declaration under 1865 treaty terms."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the gaming prohibition and valid existing rights condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the approval date of July 12, 2024."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all three tracts, trust holding, reservation declaration, and gaming prohibition."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without excessive padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Army Corps of Engineers, Bureau of Indian Affairs, Winnebago Tribe of Nebraska, and Indian Gaming Regulatory Act all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "1865 treaty and July 12, 2024 approval date are accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

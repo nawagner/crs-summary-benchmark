@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7213",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match bill text; correctly identifies expanded research fields, Centers of Excellence extension, reauthorization dates, and appropriations."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details are supported by the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as reauthorizing and revising autism programs through FY2029."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Details specific amendments: expanded research fields, Centers of Excellence extension from 5 to 7 years, IACC strategic plan updates."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes conditions such as the HHS technical assistance being 'upon request.'"
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states reauthorization through September 30, 2029 and NIH budget estimates for FY2026-2029."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive coverage of NIH activities, program extensions, IACC, reporting requirements, appropriations, and HHS technical assistance."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but not padded; each sentence conveys meaningful information."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "NIH, HHS, IACC, PHSA all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$28.1 million, $56.344 million, and $306 million appropriations, and 4-year progress report deadline match bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

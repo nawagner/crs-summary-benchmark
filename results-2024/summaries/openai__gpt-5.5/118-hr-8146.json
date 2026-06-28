@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill, titled the “Police Our Border Act,” would require the Attorney General to submit a report to Congress on the impact of what the bill refers to as the “Biden border crisis” on law enforcement officers at the federal, state, local, and Tribal levels.\n\nThe report would be due no later than 180 days after enactment. It would have to address several topics, including the estimated dollar amount of resources devoted to addressing the border situation and the extent to which those resources are unavailable to law enforcement agencies; law enforcement officers’ exposure to fentanyl resulting from encounters with “illegal aliens” at the border and within the United States, including the nationality of each such person; injuries to law enforcement officers connected to the border situation or fentanyl exposure; officer morale; and the effect on recruiting and hiring law enforcement personnel.\n\nThe report would also have to estimate how much states have spent on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the U.S. border, including the full evidence lifecycle from collection and analysis through storage and final destruction. It would also have to state how many law enforcement officers have been reassigned and how many local resources have been reallocated for those purposes.\n\nThe bill does not amend existing law. Its findings state Congress’s views on law enforcement, border security, fentanyl, and the President’s authority under section 212(f) of the Immigration and Nationality Act, but the operative provision is the reporting requirement.",
+  "prompt_tokens": 946,
+  "completion_tokens": 373,
+  "total_tokens": 1319,
+  "cost_usd": 0.01592,
+  "latency_s": 6.273,
+  "ok": true
+}

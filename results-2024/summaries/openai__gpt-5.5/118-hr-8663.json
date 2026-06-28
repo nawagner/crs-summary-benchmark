@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "openai/gpt-5.5",
+  "summary": "The DETECT Fentanyl and Xylazine Act of 2024 amends the Homeland Security Act of 2002 to require the Department of Homeland Security’s Science and Technology Directorate to expand work on technologies for detecting and identifying illicit drugs, including fentanyl and xylazine, especially in complex or low-concentration samples.\n\nThe Act adds a new responsibility for the Directorate to carry out, in coordination with the Drug Enforcement Administration, research, development, testing, evaluation, and cost-benefit analyses aimed at improving the safety, effectiveness, and efficiency of drug-detection equipment and reference libraries used by Federal, State, local, Tribal, and territorial law enforcement agencies. The covered technologies include portable equipment that can detect and identify drugs with minimal or no handling of samples; equipment that can separate complex mixtures containing low concentrations of drugs and high concentrations of cutting agents into component parts for field identification and detection; and technologies using machine learning, artificial intelligence, or other techniques to predict whether substances are controlled substance analogues or other new psychoactive substances not yet included in available reference libraries.\n\nIn carrying out these activities, the Under Secretary for Science and Technology must follow the recommendations, guidelines, and best practices in the National Institute of Standards and Technology’s Artificial Intelligence Risk Management Framework, or any successor document. The Directorate must set its research, testing, evaluation, and cost-benefit priorities based on the latest available information, including drug threats identified in the Department of Homeland Security’s Homeland Threat Assessment, the Drug Enforcement Administration’s State and Territory Report on Enduring and Emerging Threats, or successor documents.\n\nThe Act states that it does not limit the authority of agencies already managing, overseeing, or otherwise involved in drug-detection equipment and reference libraries. It was approved on December 23, 2024.",
+  "prompt_tokens": 1102,
+  "completion_tokens": 395,
+  "total_tokens": 1497,
+  "cost_usd": 0.01736,
+  "latency_s": 5.483,
+  "ok": true
+}

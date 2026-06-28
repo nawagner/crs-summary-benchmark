@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-11",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; CRA mechanism and rule details correctly described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The description of CRA requirements (passage by both chambers, presidential approval) is accurate real-world context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution as nullifying the EPA heavy-duty vehicle standards rule via the CRA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the rule shall have no force or effect."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions; correctly noted."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No separate effective date; correctly notes no delayed effective dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the targeted rule, CRA mechanism, Fed. Reg. citation, and operative nullification."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and logical."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without unnecessary padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "EPA Administrator correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "88 Fed. Reg. 4296, January 24, 2023 correctly stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

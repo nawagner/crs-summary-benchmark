@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Prohibiting Russian Uranium Imports Act (Public Law 118-62) prohibits the importation of unirradiated low-enriched uranium into the United States if it was produced in the Russian Federation or by a Russian entity. This prohibition, which amends the USEC Privatization Act, also applies to uranium obtained through swaps or exchanges designed to circumvent the restriction. The ban takes effect 90 days after the law's enactment and terminates on December 31, 2040.\n\nThe Act includes specific exceptions and waiver provisions. The import ban does not apply to non-uranium isotopes, nor does it apply to imports by or under contract to the Department of Energy for national security or nonproliferation purposes. Additionally, the Secretary of Energy, in consultation with the Secretaries of State and Commerce, may waive the prohibition if no alternative viable source of low-enriched uranium is available to sustain the operation of a nuclear reactor or a U.S. nuclear energy company, or if the importation is determined to be in the national interest. \n\nAny waiver granted is subject to strict annual import limits, capping imports at 476,536 kilograms in 2024; 470,376 kilograms in 2025; 464,183 kilograms in 2026; and 459,083 kilograms in 2027. All waivers must terminate no later than January 1, 2028. Upon issuing a waiver, the Secretary of Energy must notify specified congressional committees and identify the waiver recipient. The Secretary of Commerce is responsible for enforcing these import limitations in a manner that minimizes the burden on the commercial nuclear industry.",
+  "prompt_tokens": 2125,
+  "completion_tokens": 1635,
+  "total_tokens": 3760,
+  "cost_usd": 0.017903,
+  "latency_s": 7.99,
+  "ok": true
+}

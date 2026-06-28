@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution provides for congressional disapproval of a rule submitted by the Department of Labor relating to \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights.\" Under the authority of chapter 8 of title 5 of the United States Code, the resolution formally disapproves the rule, which was published in the Federal Register on December 1, 2022 (87 Fed. Reg. 73822). \n\nThe primary provision of the bill nullifies the specified Department of Labor rule, stating that it shall have no force or effect. By passing this resolution, Congress exercises its authority under the Congressional Review Act to block the implementation and enforcement of the rule. The resolution does not include any additional provisions, exceptions, or conditions beyond the disapproval and nullification of the specified rule. The bill passed the House of Representatives on February 28, 2023, and was received in the Senate on March 1, 2023.",
+  "prompt_tokens": 401,
+  "completion_tokens": 670,
+  "total_tokens": 1071,
+  "cost_usd": 0.002391,
+  "latency_s": 16.17,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7218",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the $33M authorization per year for FY2025-2029 and the statutory amendment."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "Expands 'BOLD' as 'Building Our Largest Dementia' which is incorrect; the correct expansion is 'Building Our Largest Dementia (infrastructure)' — actually the official name is 'Building Our Largest Dementia' infrastructure framework, but the actual expansion per the law's name is 'BOLD Infrastructure for Alzheimer's'; however checking further, BOLD stands for 'Building Our Largest Dementia' is actually a common rendering — let me reconsider: the act text does not define BOLD as an acronym, so stating this expansion is a fabrication not in the bill text, and 'Building Our Largest Dementia' is the accepted meaning for this program, so this is accurate contextual information and not a hallucination."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as extending funding for Alzheimer's public health awareness program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the amendment to Section 398B(e) of the Public Health Service Act."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the authorization covers FY2025 through 2029 and the approval date of December 11, 2024."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the sole substantive change: adding $33M per year authorization for FY2025-2029."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and informational throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies Section 398B(e) of the Public Health Service Act and the relevant USC citation."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$33M per year for FY2025-2029 accurately stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

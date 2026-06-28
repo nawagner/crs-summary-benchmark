@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8413",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurate description of all key provisions including five parcels, payment terms, management requirements, reconveyance restrictions, and elevation deed restrictions (2,785 ft and 2,628 ft from the full enacted law)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims. Elevation figures are from the actual enacted law."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the conveyance from federal to county ownership."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes reconveyance restrictions, existing rights, elevation deed restrictions, and indemnification."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 3-year and 2-year deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All major provisions covered."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concise and focused."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All entities correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Elevations and deadlines are accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

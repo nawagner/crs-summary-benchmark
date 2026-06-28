@@ -1,0 +1,36 @@
+# Second dataset: 50 high-activity bills from 2024 (118th Congress, 2nd session).
+# Run with:  CRS_DATASET=2024 CRS_CONFIG=config-2024.yaml python src/<stage>.py
+# Bills are ranked by number of legislative actions (a signal of how consequential/active
+# a bill was) before selecting the 50 with a CRS summary + retrievable text.
+
+congress: 118
+bill_types: [hr, s, hjres, sjres]
+target_bills: 50
+text_char_cap: 180000
+summary_from_date: "2024-01-01T00:00:00Z"     # focus on bills active in 2024
+summary_to_date: "2025-01-03T23:59:59Z"       # end of the 118th Congress
+select_by_activity: true                       # rank candidates by action count
+activity_pool_cap: 320                          # how many candidates to fetch action counts for
+
+# --- same models, judge, and criteria as the main run, for an apples-to-apples comparison ---
+models:
+  - anthropic/claude-opus-4.8
+  - openai/gpt-5.5
+  - google/gemini-3.5-flash
+  - z-ai/glm-5.2
+  - deepseek/deepseek-v4-pro
+
+# This dataset was judged by Sonnet running as parallel Claude Code subagents (free, fast),
+# NOT by Opus via OpenRouter like the 119th set. Same 12-criteria rubric; different judge model,
+# so cross-dataset comparisons carry that caveat (disclosed on the site).
+judge_model: claude-sonnet-4-6 (parallel Claude Code subagents)
+judge_temperature: 0
+judge_web_search: true
+judge_web_max_results: 3
+
+summarize_temperature: 0.3
+max_output_tokens: 4000
+
+prompts:
+  summarize: prompts/summarize.txt
+  judge: prompts/judge.txt

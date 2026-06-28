@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-7",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text; the legislative history dates and statutory references are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the assertion about immediate termination on the date of approval is consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as terminating the March 13, 2020 national emergency."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the National Emergencies Act section 202 authority."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States approval date of April 10, 2023."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision of termination."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual tone throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Somewhat verbose for a one-sentence bill, with redundant legislative history details and formal references that add length without adding insight."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All entity references (National Emergencies Act, Proclamation 9994, etc.) are correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Vol. 85 Fed. Reg. 15337, dates, and USC citations all match."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

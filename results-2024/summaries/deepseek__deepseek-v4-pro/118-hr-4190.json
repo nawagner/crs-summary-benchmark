@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act, enacted on November 25, 2024, amends federal veterans’ benefits law to ensure that when a VA beneficiary dies before receiving restitution for misused benefits, the amount owed is passed on to the beneficiary’s estate or survivors. Under the existing law (38 U.S.C. § 6107), the Department of Veterans Affairs must pay a beneficiary an amount equal to the benefits misused by a fiduciary and then seek to recover that sum from the fiduciary. This Act adds a new provision to address cases in which the beneficiary dies before that payment is made.\n\nThe new subsection directs the VA, when a beneficiary entitled to such a payment dies before receiving it, to pay those benefits in accordance with the standard rules for distributing accrued benefits upon a veteran’s death (section 5121 of title 38). This means the misused benefits may go to the estate, surviving spouse, children, or other eligible recipients under that general framework. Importantly, the law explicitly bars the VA from making that payment to the fiduciary who committed the misuse. The Act also includes a technical conforming amendment to align a cross-reference in the existing statute with these changes. There is no separate effective date or deadline; the law took effect upon its approval.",
+  "prompt_tokens": 680,
+  "completion_tokens": 1116,
+  "total_tokens": 1796,
+  "cost_usd": 0.001267,
+  "latency_s": 15.804,
+  "ok": true
+}

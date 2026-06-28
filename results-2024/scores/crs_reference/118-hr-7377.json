@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7377",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes both the prior law and the change; the description of payment rules under the new law is correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "The description of 'current law' states 'the first leaseholder to drill must pay any royalties due to Interior for all oil and gas production on the land' — this characterization of prior law is not found in the bill text and may be an oversimplification; however, it is a description of prior law context, not the amended text, and is not contradicted by the bill. Marginal pass issue; no clear hallucination."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is modifying the royalty payment process for joint drilling agreement leaseholders."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explicitly contrasts the current law with the new law, correctly describing the change."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the Indian lands exclusion and the interest waiver condition."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific effective date mentioned; acceptable for a summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the 120-day deadline, payment per proposed allocation, correction window, and interest waiver."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and technical."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear contrast of old vs. new law."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without excessive padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Oil and Gas Royalty Management Act of 1982 and Department of the Interior correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "120-day deadline and third-month correction window are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

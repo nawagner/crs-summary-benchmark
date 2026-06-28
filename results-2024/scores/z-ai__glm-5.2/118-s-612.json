@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-612",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes both amendments; correctly identifies the prior law as the Lake Tahoe Restoration Act of 2000."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; calling it 'Lake Tahoe Restoration Act of 2000' is accurate (Public Law 106-506 was enacted in 2000)."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as extending authorization for programs under the Lake Tahoe Restoration Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes amendments to Section 4(f) and Section 10(a) of the prior act."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the September 30, 2034, availability date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both operative amendments — cooperative authorities and appropriations availability."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Lake Tahoe Restoration Act and Water Resources Development Act of 2016 correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "September 30, 2034, deadline correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6852",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "What the summary states is accurate: the designation and cooperative agreement authority with public/private entities and NYC for interpretive/educational purposes are correctly described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the designation purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the new designation."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits multiple material limitations: the site is NOT a unit of the National Park System; the Secretary cannot acquire land through condemnation; the Secretary cannot interfere with private property rights, local zoning, or NYC/NY administration; and cooperative agreements require the written consent of the property owner. These are significant conditions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No internal effective date beyond enactment specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The designation and cooperative agreement authority are the core operative provisions and are covered. The omitted limitations are secondary to the primary designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Secretary of Interior, NYC Mayor, Harlem correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No dollar amounts or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The FISHES Act (Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act), enacted as Public Law 118-229 on January 4, 2025, amends the Magnuson-Stevens Fishery Conservation and Management Act to establish deadlines for processing \"spend plans\" tied to fishery resource disaster funding.\n\nUnder the amended law, a requester that has received an affirmative fishery resource disaster determination must, in order to obtain an allocation of available funds, submit a spend plan to the Secretary within 120 days after being notified that funds are available. The spend plan must include, where applicable: objectives and outcomes (emphasizing the factors contributing to the disaster and minimizing future uninsured losses), a statement of work, and budget details.\n\nThe bill sets timelines for review. The Secretary must review each submitted spend plan to determine whether it is complete and provide notice within 10 days. If the Secretary finds a plan incomplete, that notice must include a detailed description of the information needed to make the plan complete.\n\nThe bill also revises the funding availability provision. Funds must be made available to grantees no later than 90 days after the Secretary receives a complete spend plan. If requested, the Director of the Office of Management and Budget may review a completed spend plan at the same time as the Secretary, but the Director may not delay the 90-day timeline.\n\nThe Act took effect upon its approval on January 4, 2025.",
+  "prompt_tokens": 1492,
+  "completion_tokens": 471,
+  "total_tokens": 1963,
+  "cost_usd": 0.019235,
+  "latency_s": 6.105,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Sanctioning Tyrannical and Oppressive People within the Chinese Communist Party Act\" (STOP CCP Act) requires the President to impose sanctions on members of the Central Committee of the Chinese Communist Party (CCP) and related entities. Within 30 days of enactment, the President must block U.S.-based property transactions and restrict U.S. entry—including revoking existing visas—for Central Committee members (and successor organizations) determined to have played a significant role in violating Hong Kong's autonomy, aggressing against Taiwan, violating human rights in China (including of Uyghur Muslims), or interfering in U.S. elections. These sanctions also apply to their adult family members and spouses, as well as Chinese state-owned enterprises that manufacture or distribute fentanyl or its precursor chemicals.\n\nThe bill exempts authorized U.S. intelligence, law enforcement, and national security activities, as well as admissions required under the United Nations Headquarters Agreement. Sanctions do not apply to the importation of goods.\n\nThe President must issue implementing regulations within 30 days of enactment. The President may waive sanctions for up to 60 days if vital to U.S. national security, though this waiver and licensing authority expires two years after enactment. Sanctions may be terminated if the President certifies that China has ceased its genocide of Uyghurs, stopped aggression against Taiwan, respected Hong Kong's autonomy, ceased Tibetan oppression, and ended intellectual property theft. Alternatively, individual sanctions can be lifted if the person renounces CCP membership and remediates their conduct, or if the enterprise halts fentanyl operations.",
+  "prompt_tokens": 3807,
+  "completion_tokens": 2037,
+  "total_tokens": 5844,
+  "cost_usd": 0.024044,
+  "latency_s": 11.225,
+  "ok": true
+}

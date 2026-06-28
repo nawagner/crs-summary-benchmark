@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7454",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar amounts, percentages, and program descriptions match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the act as extending federal aviation programs and trust fund authorities through May 2024."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the act extends prior statutory expiration dates."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the obligation authority through September 30, 2024, and the 39% apportionment reduction condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies May 10 and May 11, 2024, extension dates and March 8, 2024, enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers AIP, FAA operations, facilities, research, trust fund expenditure authority, aviation taxes, and counter-UAS."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers major categories concisely without exhaustively listing every program."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FAA, Airport Improvement Program, Internal Revenue Code, Airport and Airway Trust Fund, and Homeland Security Act correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts, the 39% reduction figure, and dates match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

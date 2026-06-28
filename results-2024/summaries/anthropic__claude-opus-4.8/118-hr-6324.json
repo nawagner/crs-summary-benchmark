@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law, titled the \"Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act\" (Public Law 118-124), authorizes the Secretary of Veterans Affairs to carry out a specified set of major medical facility construction and renovation projects during fiscal year 2024. It also authorizes funding for those projects.\n\nThe law identifies eleven specific projects, each at a named location with a maximum dollar amount that cannot be exceeded:\n\n- American Lake, Washington — new specialty care building, renovation, and parking: up to $155.6 million.\n- Dallas, Texas — mental health clinical space, parking, and land acquisition: up to $93.1 million.\n- El Paso, Texas — new health care center and utility plant: up to $759.2 million.\n- Perry Point, Maryland — community living center replacement and parking: up to $274.31 million.\n- Portland, Oregon — seismic retrofit, renovations, new specialty care facility, and parking: up to $613 million.\n- Reno, Nevada — initiation of medical center replacement, including land acquisition: up to $223.8 million.\n- San Diego, California — new spinal cord injury building, renovations, parking, and seismic retrofit: up to $311.7 million.\n- San Francisco, California — new research facility, parking, and demolition: up to $264.5 million.\n- San Juan, Puerto Rico — seismic corrections, new administrative building, and outpatient clinic expansion: up to $370.37 million.\n- St. Louis, Missouri — Phase 1 of bed tower replacement and related work: up to $135.34 million.\n- West Haven, Connecticut — new surgical and clinical tower, renovations, and demolition: up to $153.128 million.\n\nThe law authorizes appropriations of $3,354,048,000 to the Secretary for fiscal year 2024 (or the year in which funds are appropriated) under the Construction, Major Projects account, to fund these authorized projects.\n\nThe Act was approved on November 25, 2024.",
+  "prompt_tokens": 1868,
+  "completion_tokens": 667,
+  "total_tokens": 2535,
+  "cost_usd": 0.026015,
+  "latency_s": 7.294,
+  "ok": true
+}

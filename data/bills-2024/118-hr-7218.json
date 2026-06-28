@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hr-7218",
+  "congress": 118,
+  "type": "hr",
+  "number": "7218",
+  "title": "BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-bill/7218",
+  "crs_summary": "BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024\nThis act reauthorizes through FY2029 several programs that are administered by the Department of Health and Human Services to support research and resources related to Alzheimer's disease and related dementias.\nSpecifically, the act reauthorizes (1) cooperative agreements with state, local, and tribal health departments to address Alzheimer's disease and related dementias through education, early detection, caregiver support, and other avenues; (2) regional centers that raise awareness and support research regarding these conditions; and (3) data collection on the incidence and prevalence of these conditions.",
+  "crs_version_code": "49",
+  "crs_action_date": "2024-12-11",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 142]\n[From the U.S. Government Publishing Office]\n\n[[Page 138 STAT. 1662]]\n\nPublic Law 118-142\n118th Congress\n\n An Act\n\n To amend title III of the Public Health Service Act to extend the \n program for promotion of public health knowledge and awareness of \n Alzheimer's disease and related dementias, and for other \n purposes. <<NOTE: Dec. 11, 2024 - [H.R. 7218]>> \n\n Be it enacted by the Senate and House of Representatives of the \nUnited States of America in Congress assembled, <<NOTE: BOLD \nInfrastructure for Alzheimer's Reauthorization Act of 2024.>> \nSECTION 1. <<NOTE: 42 USC 201 note.>> SHORT TITLE.\n\n This Act may be cited as the ``BOLD Infrastructure for Alzheimer's \nReauthorization Act of 2024''.\nSEC. 2. EXTENSION OF PROGRAM FOR PROMOTION OF PUBLIC HEALTH \n KNOWLEDGE AND AWARENESS OF ALZHEIMER'S DISEASE \n AND RELATED DEMENTIAS.\n\n Section 398B(e) of the Public Health Service Act (42 U.S.C. 280c-\n5(e)) is amended by inserting ``and $33,000,000 for each of fiscal years \n2025 through 2029'' before the period at the end.\n\n Approved December 11, 2024.\n\nLEGISLATIVE HISTORY--H.R. 7218 (S. 3775):\n---------------------------------------------------------------------------\n\nHOUSE REPORTS: No. 118-515 (Comm. on Energy and Commerce).\nCONGRESSIONAL RECORD, Vol. 170 (2024):\n Sept. 17, considered and passed House.\n Nov. 20, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 1397,
+  "bill_text_tokens_est": 349,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ142/PLAW-118publ142.htm",
+  "actions_count": 27,
+  "summary_versions": 4
+}

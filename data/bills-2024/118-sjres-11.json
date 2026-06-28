@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-sjres-11",
+  "congress": 118,
+  "type": "sjres",
+  "number": "11",
+  "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\".",
+  "origin_chamber": "Senate",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/senate-joint-resolution/11",
+  "crs_summary": "This joint resolution nullifies the Environmental Protection Agency rule relating to Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards (88 Fed. Reg. 4296) and published on January 24, 2023. The rule modifies emission standards to reduce air pollution, including ozone and particulate matter, from heavy-duty engines and vehicles.",
+  "crs_version_code": "53",
+  "crs_action_date": "2023-05-23",
+  "crs_action_desc": "Passed House",
+  "bill_text": "[Congressional Bills 118th Congress]\n[From the U.S. Government Publishing Office]\n[S.J. Res. 11 Engrossed in Senate (ES)]\n\n<DOC>\n118th CONGRESS\n 1st Session\nS. J. RES. 11\n\n_______________________________________________________________________\n\n JOINT RESOLUTION\n\n Providing for congressional disapproval under chapter 8 of title 5, \n United States Code, of the rule submitted by the Environmental \nProtection Agency relating to ``Control of Air Pollution From New Motor \n Vehicles: Heavy-Duty Engine and Vehicle Standards''.\n\n Resolved by the Senate and House of Representatives of the United \nStates of America in Congress assembled, That Congress disapproves the \nrule submitted by the Administrator of the Environmental Protection \nAgency relating to ``Control of Air Pollution From New Motor Vehicles: \nHeavy-Duty Engine and Vehicle Standards'' (88 Fed. Reg. 4296 (January \n24, 2023)), and such rule shall have no force or effect.\n\n Passed the Senate April 26, 2023.\n\n Attest:\n\n Secretary.\n118th CONGRESS\n\n 1st Session\n\n S. J. RES. 11\n\n_______________________________________________________________________\n\n JOINT RESOLUTION\n\n Providing for congressional disapproval under chapter 8 of title 5, \n United States Code, of the rule submitted by the Environmental \nProtection Agency relating to ``Control of Air Pollution From New Motor \n Vehicles: Heavy-Duty Engine and Vehicle Standards''.",
+  "bill_text_chars": 1394,
+  "bill_text_tokens_est": 348,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/bills/sjres11/BILLS-118sjres11es.htm",
+  "actions_count": 28,
+  "summary_versions": 3
+}

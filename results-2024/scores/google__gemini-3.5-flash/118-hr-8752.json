@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8752",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Major provisions accurately described; the contraceptive provisions' effective dates and content appear correctly characterized based on standard DHS appropriations bill structure."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; provisions including detention beds, GPS monitoring, and CBP One prohibition are in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 DHS appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes specific policy restrictions and operational changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes abortion exceptions, detention bed minimums, and other key conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes 30-day and 180-day effective dates for contraceptive provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding areas, enforcement mandates, policy restrictions, and rescissions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by topic."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "More selective than other candidates; captures major provisions efficiently."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DHS components, CBP One app, Disinformation Governance Board correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$600 million for barriers, $22.74 billion for Disaster Relief Fund, 50,000 detention beds, and rescissions correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

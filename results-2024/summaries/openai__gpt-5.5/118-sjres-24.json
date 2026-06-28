@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would use the Congressional Review Act, chapter 8 of title 5 of the United States Code, to disapprove a rule submitted by the United States Fish and Wildlife Service titled “Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,” published in the Federal Register on November 30, 2022, at 87 Fed. Reg. 73488.\n\nThe resolution’s sole substantive effect would be that Congress disapproves the Fish and Wildlife Service rule, and the rule would have no force or effect. The text does not amend the underlying Endangered Species Act or any other statute directly, and it does not establish replacement standards or procedures for the northern long-eared bat. It also does not include exceptions, conditions, deadlines, or a separate effective date beyond the consequence stated in the resolution that the disapproved rule shall have no force or effect.",
+  "prompt_tokens": 457,
+  "completion_tokens": 427,
+  "total_tokens": 884,
+  "cost_usd": 0.015095,
+  "latency_s": 7.616,
+  "ok": true
+}

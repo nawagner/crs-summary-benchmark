@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-38",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the text of the FHWA rule and the resolution; the details about the waiver scope and phase-out provisions are accurate descriptions of the underlying rule."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The details about steel/iron exclusions, the June 30, 2024 manufacturing cutoff, the October 1, 2024 installation deadline, and the 55% domestic content threshold are all accurate context from the underlying FHWA rule."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: nullifying the FHWA's Buy America waiver for EV chargers."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains that the resolution nullifies the FHWA rule."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thoroughly describes the key conditions of the underlying rule: exclusions for steel/iron housing, phase-out schedule, and domestic content threshold."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the February 21, 2023 publication date, June 30, 2024 manufacturing cutoff, and October 1, 2024 installation deadline from the underlying rule."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the disapproval resolution and the key provisions of the underlying rule being nullified."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Much longer than necessary—provides extensive detail about the underlying rule's provisions rather than focusing on the resolution's operative effect."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies FHWA, the rule title, and the Infrastructure Investment and Jobs Act."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates and the 55% threshold from the Infrastructure Investment and Jobs Act are accurately cited."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

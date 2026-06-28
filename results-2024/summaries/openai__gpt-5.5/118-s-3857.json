@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "openai/gpt-5.5",
+  "summary": "The Jamul Indian Village Land Transfer Act places specified land in San Diego County, California, into trust by the United States for the benefit of the Jamul Indian Village of California.\n\nThe Act provides that approximately 172.10 acres are held in trust for the Tribe. These lands consist of four parcels identified by legal descriptions in San Diego County recorder documents: approximately 161.23 acres held in fee by the Tribe and recorded January 7, 2022; approximately 6 acres held in fee by the Tribe and recorded July 29, 2021; approximately 4.03 acres recorded January 15, 1998; and approximately 0.84 acres recorded September 7, 2017.\n\nThe Act also requires the Secretary of the Interior to accept title to, and place into trust for the Tribe, an additional parcel depicted as “Proposed 1.1 acres” on a May 2023 California Department of Fish and Wildlife map titled “Amended Acres Proposal,” if that land is conveyed or otherwise transferred to the United States by or on behalf of the Tribe.\n\nAll land taken into trust under the Act becomes part of the Jamul Indian Village reservation and must be administered under the laws and regulations generally applicable to property held in trust by the United States for an Indian Tribe. The Act prohibits the described lands, including the potential additional parcel, from being used for class II or class III gaming under the Indian Gaming Regulatory Act. The Act was approved on December 23, 2024.",
+  "prompt_tokens": 1092,
+  "completion_tokens": 502,
+  "total_tokens": 1594,
+  "cost_usd": 0.02052,
+  "latency_s": 8.041,
+  "ok": true
+}

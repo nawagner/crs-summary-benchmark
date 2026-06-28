@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7213",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies reauthorization through FY2029, CDC administration of the surveillance program, HHS administration of education/intervention activities, and IACC."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "CDC as administrator of the Developmental Disabilities Surveillance and Research Program is accurate real-world context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as reauthorizing autism education, research, and resources programs."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the three programs reauthorized through FY2029 and the reporting requirement updates."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "High-level summary appropriately omits granular conditions; no material exceptions to note at this level."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States reauthorization through FY2029."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the NIH activities expansion (Section 2), the appropriations increases, the communication tools section, and the youth transition report; these are significant operative provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and informative."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief at high level."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CDC, HHS, and IACC correctly identified as administrators."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific dollar amounts or dates beyond FY2029 stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act\" (or \"FISHES Act\") amends the Magnuson-Stevens Fishery Conservation and Management Act to establish specific timelines and requirements for the submission, review, and funding of fishery resource disaster assistance spend plans.\n\nUnder the Act, a requester with an affirmative fishery resource disaster determination must submit a spend plan to the Secretary within 120 days of being notified that funds are available. This spend plan must outline objectives and outcomes—specifically focusing on addressing the disaster's causes and minimizing future uninsured losses—along with a statement of work and budget details.\n\nUpon receiving a spend plan, the Secretary has 10 days to review it for completeness and notify the requester. If the plan is deemed incomplete, the Secretary must provide a detailed description of the information needed to complete it.\n\nOnce a complete spend plan is received, funds must be made available to grantees within 90 days. Additionally, the Director of the Office of Management and Budget (OMB) may review a completed spend plan concurrently with the Secretary if requested, but the OMB Director is explicitly prohibited from delaying the 90-day timeline for distributing the funds.",
+  "prompt_tokens": 984,
+  "completion_tokens": 1521,
+  "total_tokens": 2505,
+  "cost_usd": 0.015165,
+  "latency_s": 7.262,
+  "ok": true
+}

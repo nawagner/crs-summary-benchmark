@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8997",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar figures cited ($3.01B construction, $5.714B O&M, $1.773B Bureau of Reclamation, $20.338B weapons, $8.39B science, $955.3M NRC) all match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; specific provisions described match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 appropriations for water resources, energy research, and national security programs."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the Natural Gas Act amendment granting FERC exclusive authority over LNG facilities, and Calfed authorization extensions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes prohibitions on firearms regulations, Justice40, Strategic Petroleum Reserve sales to CCP-entities, and COVID mandates."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No explicit effective date discussion needed for appropriations bills; FY2025 period is implied."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers Corps of Engineers, Interior, DOE, and independent agencies with key figures."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by agency/title."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Reasonably concise while covering the key provisions of a complex bill."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Army Corps, Bureau of Reclamation, DOE, FERC, NRC all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All cited figures match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

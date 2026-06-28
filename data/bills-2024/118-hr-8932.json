@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hr-8932",
+  "congress": 118,
+  "type": "hr",
+  "number": "8932",
+  "title": "FAFSA Deadline Act",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-bill/8932",
+  "crs_summary": "FAFSA Deadline Act\nThis act requires the Department of Education (ED) to make the Free Application for Federal Student Aid (FAFSA) available by October 1 of each year. (Students apply for federal student aid by completing the FAFSA.)\nUnder current law, ED must enable applicants to submit the and initiate the processing of submitted by January 1 of the applicant's planned year of enrollment, and to the maximum extent practicable, on or around October 1 prior to the applicant's planned year of enrollment. This act removes the January 1 flexibility and imposes a statutory deadline for release of the as October 1.\nThe act also requires ED to certify to Congress by September 1 whether or not the FAFSA will be ready on October 1. If the FAFSA will not be ready by October 1, then the act requires the Secretary of Education to testify to Congress on (1) the anticipated failure to meet the deadline, and (2) the financial impact on students and families.",
+  "crs_version_code": "49",
+  "crs_action_date": "2024-12-11",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 145]\n[From the U.S. Government Publishing Office]\n\n[[Page 138 STAT. 1671]]\n\nPublic Law 118-145\n118th Congress\n\n An Act\n\n To establish an earlier application processing cycle for the \n FAFSA. <<NOTE: Dec. 11, 2024 - [H.R. 8932]>> \n\n Be it enacted by the Senate and House of Representatives of the \nUnited States of America in Congress assembled, <<NOTE: FAFSA Deadline \nAct.>> \nSECTION 1. <<NOTE: 20 USC 1001 note.>> SHORT TITLE.\n\n This Act may be cited as the ``FAFSA Deadline Act''.\nSEC. 2. ESTABLISHMENT OF EARLIER APPLICATION PROCESSING CYCLE.\n\n Section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. \n1090(d)(4)) is amended by striking ``not later than January 1 of the \napplicant's planned year of enrollment, to the maximum extent \npracticable, on or around October 1 prior to the applicant's planned \nyear of enrollment'' and inserting ``not later than October 1 prior to \nthe applicant's planned year of enrollment''.\nSEC. 3. CERTIFICATION AND TESTIMONY REQUIREMENTS.\n\n Section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. \n1090(d)(4)) is further amended--\n (1) by striking ``The Secretary'' and inserting the \n following:\n ``(A) In general.--The Secretary''; and\n (2) by adding at the end the following:\n ``(B) Certification and testimony requirements.--The \n Secretary shall, with respect to each application \n processing cycle, prior to the initiation of such \n processing cycle--\n ``(i) on a date that is not later than \n September 1--\n ``(I) certify to the authorizing \n committees that the Department will meet \n the October 1 deadline specified in \n subparagraph (A) for such processing \n cycle; or\n ``(II) certify to such committees \n that the Department will not meet such \n deadline; and\n ``(ii) in the case of a certification \n described in clause (i)(II), on a date that is not \n later than September 30, testify before the \n authorizing committees on--\n ``(I) the anticipated failure to \n meet such deadline; and\n\n[[Page 138 STAT. 1672]]\n\n ``(II) the financial impact such \n failure will have on students and \n families.''.\n\n Approved December 11, 2024.\n\nLEGISLATIVE HISTORY--H.R. 8932:\n---------------------------------------------------------------------------\n\nHOUSE REPORTS: No. 118-695 (Comm. on Education and the Workforce).\nCONGRESSIONAL RECORD, Vol. 170 (2024):\n Nov. 15, considered and passed House.\n Nov. 20, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 2426,
+  "bill_text_tokens_est": 606,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ145/PLAW-118publ145.htm",
+  "actions_count": 27,
+  "summary_versions": 3
+}

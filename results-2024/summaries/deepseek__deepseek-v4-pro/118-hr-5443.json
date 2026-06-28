@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Accelerating Appraisals and Conservation Efforts Act (AACE Act) allows a state-licensed or -certified real property appraiser to perform appraisal or valuation services for real property in any state for transactions over which the Secretary of the Interior has jurisdiction, provided the appraiser holds a license or certification in at least one state. This overrides any pre-existing federal or state law requiring licensure in the specific state where the property is located, but only for such Interior Department transactions.\n\nWhen the Secretary uses a non-federal appraiser, the Act requires the Secretary to prioritize appraisers who are certified general real property appraisers licensed in the state where the property is located. An appraiser licensed in a different state may be used only if the Secretary determines that a local appraiser is unavailable within a reasonable time, not qualified for the assignment, or not cost competitive.\n\nThe Act imposes several administrative requirements. Within 90 days of enactment (January 4, 2025), the Department of the Interior must make publicly available online all policies, manuals, guidance, and procedures related to scoping, contracting, and reviewing appraisals performed for the Department. Within one year, and annually for at least the next four years, the Secretary must report to Congress on appraisal request volumes and completion times compared to the five prior years, a qualitative assessment of the new flexibility, any recommendations for improving efficiency while maintaining impartiality, an overview of the Department’s appraisal workforce, and a list of cases where the out-of-state appraiser authority was used along with the specific criteria applied.\n\nThe Act clarifies that it does not otherwise affect the application of federal or state laws to non-federal appraisers, and it does not authorize appraisers to work in states where they are not licensed except for these covered Interior transactions.",
+  "prompt_tokens": 1599,
+  "completion_tokens": 1938,
+  "total_tokens": 3537,
+  "cost_usd": 0.002382,
+  "latency_s": 19.048,
+  "ok": true
+}

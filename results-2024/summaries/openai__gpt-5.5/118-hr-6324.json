@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "openai/gpt-5.5",
+  "summary": "This Act authorizes the Department of Veterans Affairs to carry out specified major medical facility construction and renovation projects for fiscal year 2024, subject to project-specific funding limits.\n\nThe Act permits the VA Secretary to undertake 11 projects: a new specialty care building, renovation, and parking expansion in American Lake, Washington, up to $155.6 million; mental health clinical space and parking expansion and land acquisition in Dallas, Texas, up to $93.1 million; a new health care center and utility plant in El Paso, Texas, up to $759.2 million; replacement of a community living center and parking expansion in Perry Point, Maryland, up to $274.31 million; seismic retrofits, renovations, site improvements, a new specialty care facility, demolition, and parking expansion in Portland, Oregon, up to $613 million; initial replacement work for the Sierra Nevada VA medical center, including land acquisition and preliminary site work, in Reno, Nevada, up to $223.8 million; spinal cord injury, renovation, parking, utility plant, and seismic work in San Diego, California, up to $311.7 million; a new research facility, parking structure, and demolition in San Francisco, California, up to $264.5 million; seismic corrections, a new administrative building, and outpatient clinic and parking expansion in San Juan, Puerto Rico, up to $370.37 million; phase 1 replacement and expansion work, including utility and parking facilities, in St. Louis, Missouri, up to $135.34 million; and surgical and clinical space, renovation, and demolition work in West Haven, Connecticut, up to $153.128 million.\n\nThe Act authorizes $3,354,048,000 to be appropriated to the VA Secretary for these projects for fiscal year 2024 or for the year in which funds are appropriated to the Construction, Major Projects account.",
+  "prompt_tokens": 1089,
+  "completion_tokens": 553,
+  "total_tokens": 1642,
+  "cost_usd": 0.022035,
+  "latency_s": 7.93,
+  "ok": true
+}

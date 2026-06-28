@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-39",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Description of the rule as concerning suspension of liquidation and collection of duties is accurate based on the rule's title and subject matter. Statement about the rule becoming void upon enactment is a reasonable characterization."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The characterization of the rule's subject matter (tariff liquidation procedures, duties on imports under Proclamation 10414) is accurate contextual description derivable from the rule title."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution as disapproving and voiding the named Commerce rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the rule would become void upon enactment, capturing the regulatory nullification."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this joint resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No explicit effective date specified in the bill text."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the resolution's operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Department of Commerce correctly named; Presidential Proclamation 10414 correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures stated are accurate."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law reauthorizes the voluntary Firefighter Cancer Registry, a program originally created in 2018 to collect data on cancer incidence among firefighters. The bill amends the Firefighter Cancer Registry Act of 2018 by updating its funding authorization. Previously, the law provided $2.5 million per year for fiscal years 2018 through 2022. The new provision replaces that with an authorization of $5.5 million for each fiscal year from 2024 through 2028. The change took effect upon the bill’s enactment on December 12, 2024. No other changes to the registry’s operations or requirements are included in the text.",
+  "prompt_tokens": 508,
+  "completion_tokens": 466,
+  "total_tokens": 974,
+  "cost_usd": 0.000626,
+  "latency_s": 6.51,
+  "ok": true
+}

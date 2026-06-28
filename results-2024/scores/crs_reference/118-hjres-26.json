@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-26",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The description of the D.C. Revised Criminal Code Act's contents (definitions, sentencing, jury trial rights) is accurate real-world context supported by public record."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately describes what the nullified D.C. act contained based on public legislative record."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution nullifies the D.C. Revised Criminal Code Act of 2022."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "A disapproval resolution does not amend federal law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective dates or deadlines are specified in the resolution text itself."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential effect — nullification of the D.C. act — and adds valuable context about the act's contents."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "D.C. Council and the D.C. Revised Criminal Code Act of 2022 correctly named."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific figures stated."
+    }
+  },
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

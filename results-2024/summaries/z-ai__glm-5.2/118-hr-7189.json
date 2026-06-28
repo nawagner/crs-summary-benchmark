@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Congenital Heart Futures Reauthorization Act of 2024 amends the Public Health Service Act to reauthorize a national congenital heart disease research, surveillance, and awareness program. The Act requires the Secretary of Health and Human Services (HHS), no later than two years after enactment, to submit a report to the House Committee on Energy and Commerce and the Senate Committee on Health, Education, Labor, and Pensions. This report must describe and assess past and present HHS activities to increase public awareness and provider education regarding congenital heart disease, including efforts to address patients' lifelong needs. It must also describe the current U.S. workforce capacity of health care providers treating adult congenital heart disease patients. \n\nWithin one year of submitting the report, the Secretary must develop and submit to Congress a strategy to improve public awareness and provider education. This strategy must include recommendations to address public awareness and research gaps related to lifelong patient needs, such as long-term health outcomes, mental health, and health care utilization. It must also address workforce shortages, potentially through enhanced fellowship or continuing education programs, and foster collaboration and information dissemination among federal agencies, health care providers, researchers, and patient organizations. In developing this strategy, the Secretary must consult with relevant stakeholders, including patient organizations, health care professionals, research entities, insurers, accrediting organizations, and federal agencies such as the CDC, NIH, and HRSA. \n\nFinally, the Act extends the program's authorization of appropriations from the period of 2020 through 2024 to 2025 through 2029. The law was enacted on November 21, 2024.",
+  "prompt_tokens": 1089,
+  "completion_tokens": 1677,
+  "total_tokens": 2766,
+  "cost_usd": 0.006066,
+  "latency_s": 26.458,
+  "ok": true
+}

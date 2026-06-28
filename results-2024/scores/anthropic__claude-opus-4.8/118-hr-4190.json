@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-4190",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are accurate: amendment to 38 USC 6107, new subsection (c) for predecease situations, reference to section 5121 for payment to individual or entity, prohibition on paying the misusing fiduciary, redesignation of subsections, and conforming cross-reference amendment are all correctly described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims. Description of section 5121 as governing payment of benefits due but unpaid at death is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose: ensuring misused VA benefits reach beneficiaries' survivors when the beneficiary predeceases a reissuance payment."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the amendment to 38 USC 6107, including new subsection (c), redesignation of (c)→(d) and (d)→(e), and conforming amendment to cross-reference."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the key prohibition: the Secretary may not make payment under the new subsection to the fiduciary who misused the benefits."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No separate effective date specified; summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All operative provisions captured: predecease payment rule, section 5121 mechanism, fiduciary prohibition, redesignation, conforming amendment."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but appropriately so given bill complexity; no padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "38 USC 6107, 38 USC 5121, VA/Secretary of Veterans Affairs all correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No dollar amounts or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7332",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text; the description of conditions and requirements is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; BLM and Forest Service are correctly identified as the conveying agencies."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: conveying federal lands to Utah for three state parks."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Bill does not amend existing statutory law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers key conditions: easements, specific water rights for Fremont Indian, cost responsibility for other parks."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Does not mention the 180-day deadlines, but omitting figures is acceptable for a high-level summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all three conveyances and their essential conditions including reversionary interest."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise while hitting all key provisions."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies BLM, Forest Service, and all three state parks."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific figures stated in the summary."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

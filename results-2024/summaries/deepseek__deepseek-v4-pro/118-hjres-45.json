@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a Department of Education rule that established a one-time federal student loan debt relief program. Using the expedited process under the Congressional Review Act, Congress disapproves the rule in its entirety, including the agency’s website announcement titled “One-Time Federal Student Loan Debt Relief” and the related Federal Register notice (87 Fed. Reg. 61512, October 12, 2022). The resolution declares that the rule “shall have no force or effect,” meaning it is void and unenforceable as if it had never taken effect.\n\nThe resolution incorporates a Government Accountability Office opinion dated March 17, 2023, which determined that the waivers and modifications constitute a “rule” subject to congressional review. By enacting this disapproval, Congress not only eliminates the current debt relief program but also bars the Department of Education from issuing a substantially similar rule in the future without new statutory authorization.\n\nThe measure does not contain exceptions or a delayed effective date. It takes effect upon enactment. The House of Representatives passed the resolution on May 24, 2023, and it was received in the Senate on May 30, 2023. If the Senate passes it and the President signs it (or Congress overrides a veto), the underlying student loan debt relief rule is immediately revoked.",
+  "prompt_tokens": 503,
+  "completion_tokens": 967,
+  "total_tokens": 1470,
+  "cost_usd": 0.00106,
+  "latency_s": 13.733,
+  "ok": true
+}

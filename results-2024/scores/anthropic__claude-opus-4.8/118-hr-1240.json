@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-1240",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text; the 1865 treaty description and court case details are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all specific references to tracts, court cases, and treaty terms match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is transferring federal lands into trust for the Winnebago Tribe."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains that lands are declared part of the reservation and held in trust per 1865 treaty terms."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the gaming prohibition and the 'subject to all valid existing rights' condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the July 12, 2024 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all three tracts, the trust status, reservation declaration, and gaming prohibition."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual language throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and logically structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "The detailed recitation of court case names and legal descriptions adds length beyond what is needed for a functional summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Winnebago Tribe of Nebraska, Indian Gaming Regulatory Act, and treaty reference are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Treaty year (1865), approval date (July 12, 2024), and statutory citation (25 U.S.C. 2701) are all accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

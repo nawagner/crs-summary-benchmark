@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6062",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the repeal and the prior restriction (requiring an act of Congress)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: repealing the statute preventing amendment of the American Samoa constitution."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the repeal of the prior restriction."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "Summary does not mention the Territorial Clause caveat, but that is present in the bill's long title context rather than operative text conditions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective dates stated, which is acceptable for a high-level summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential provision: repeal of the restriction on amending the American Samoa constitution."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific entities named beyond 'people of American Samoa,' which is correct."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated."
+    }
+  },
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

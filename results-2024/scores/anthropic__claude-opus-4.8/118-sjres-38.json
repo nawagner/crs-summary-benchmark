@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-38",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the resolution text; description of the Congressional Review Act mechanism is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of Buy America requirements as applying to federally funded projects is accurate real-world context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: disapproving the FHWA's waiver of Buy America requirements for EV chargers."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains that the resolution would nullify the FHWA rule under the Congressional Review Act."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution itself has no material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the Senate passage date of November 8, 2023, and explains the resolution has not yet become law."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision: disapproving the FHWA rule and rendering it of no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed for a simple joint resolution."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies FHWA and the Federal Register citation (88 Fed. Reg. 10619)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register citation (88 Fed. Reg. 10619) and February 21, 2023 publication date are correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

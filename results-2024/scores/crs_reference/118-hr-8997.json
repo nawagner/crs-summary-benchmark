@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8997",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The list of programs and agencies matches the bill's structure; all named programs are accurately identified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary accurately lists the programs covered."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 appropriations for Corps, Interior, DOE, and independent agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary appropriately focuses on the appropriations structure rather than legislative amendments, which is standard for CRS appropriations summaries."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes requirements and restrictions for using funds."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "FY2025 period is implicit in the title; no need to state explicitly."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major titles and agencies funded by the bill."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Strictly neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by agency."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise given the bill's scope; uses a list format efficiently."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies (Corps, Bureau of Reclamation, DOE, FERC, NRC) correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated in this summary."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

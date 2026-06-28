@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill extends the funding and legal authorities for several Federal Aviation Administration (FAA) programs and the aviation taxes that support them. It continues these programs from their previous expiration in early March 2024 through May 10, 2024, or in some cases May 11, 2024.\n\nThe legislation amends authorizations for the Airport Improvement Program, setting its funding at approximately $2.04 billion for the period from October 1, 2023, through May 10, 2024. The bill directs the FAA to calculate funding apportionments for this period as if a full year’s total were $3.35 billion, then to reduce all state and grant apportionment amounts by 39 percent. These funds may be obligated through September 30, 2024. The law also provides specific funding amounts for FAA operations, air navigation facilities and equipment, and research and engineering, all for the same October-to-May period. Funding for essential air service and assistance for airports with insufficient service is similarly extended and increased to cover the longer timeframe.\n\nA broad range of other aviation-related authorities are extended to the new May expiration dates. These include the FAA’s authority to provide aviation insurance, rules for unmanned aircraft test ranges and special unmanned aircraft systems, the competitive access reporting requirement, the Midway Island Airport provision, and various pilot programs and advisory committees, including those concerning aviation consumer protection, air travel for passengers with disabilities, and airport property redevelopment.\n\nOn the revenue side, the bill extends the authority to spend from the Airport and Airway Trust Fund and extends the aviation excise taxes that finance the fund. This includes taxes on aviation fuel, passenger tickets, and provisions related to fractional ownership programs. Additionally, the legislation extends the Department of Homeland Security’s counter-unmanned aircraft systems (Counter-UAS) authorities.",
+  "prompt_tokens": 3693,
+  "completion_tokens": 939,
+  "total_tokens": 4632,
+  "cost_usd": 0.002423,
+  "latency_s": 13.087,
+  "ok": true
+}

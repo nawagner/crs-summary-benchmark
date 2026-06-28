@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8932",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text; the description of current law and the amendment is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; note that 'submit the' and 'processing of submitted' appear to have typos (missing 'FAFSA') in the CRS text but these are formatting artifacts, not hallucinations."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: requiring ED to make FAFSA available by October 1 each year."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the amendment: removing January 1 flexibility and imposing statutory October 1 deadline."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly covers the certification requirement and the testimony requirement if deadline will not be met."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No enactment date stated, but this is acceptable for a high-level summary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the deadline change and the certification/testimony requirements."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-organized despite apparent text artifacts."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Department of Education (ED), Secretary of Education, FAFSA, and Congress."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "October 1, September 1 dates are correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

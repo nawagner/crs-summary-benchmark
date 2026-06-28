@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-42",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims present."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution's purpose as disapproving the D.C. policing reform act."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "No amendment to existing federal law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions present."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific effective date in the bill beyond enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision of disapproval."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Somewhat longer than needed, reiterating procedural details for a straightforward disapproval resolution."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the D.C. act, its number, and the relevant committees."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates January 19, January 26, April 19, and April 20 all match the bill text."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

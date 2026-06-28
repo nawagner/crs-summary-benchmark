@@ -119,6 +119,15 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .scorebadge.meets { color: var(--pass); background: var(--pass-bg); }
 .scorebadge.misses { color: #8a5a00; background: #fcf2dd; }
 
+/* dataset toggle */
+.ds-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: #fff; box-shadow: var(--shadow); }
+.ds-toggle button { font: inherit; font-size: 13.5px; font-weight: 600; padding: 8px 16px; border: 0; background: #fff; color: var(--muted); cursor: pointer; border-right: 1px solid var(--line); }
+.ds-toggle button:last-child { border-right: 0; }
+.ds-toggle button.active { background: var(--accent); color: #fff; }
+.ds-toggle button:not(.active):hover { background: var(--accent-soft); color: var(--accent); }
+.ds-desc { color: var(--muted); font-size: 13px; margin: 8px 0 4px; }
+.actions-badge { display: inline-block; font-size: 11px; font-weight: 700; color: #8a5a00; background: #fcf2dd; padding: 1px 8px; border-radius: 99px; margin-left: 8px; }
+
 .hidden { display: none !important; }
 .loading, .empty { color: var(--muted); padding: 30px 0; text-align: center; }
 

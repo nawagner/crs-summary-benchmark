@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Think Differently About Emergencies Act requires the Federal Emergency Management Agency (FEMA) and the Government Accountability Office (GAO) to study and report on disaster assistance for individuals with disabilities. It does not alter existing programs or authorize new spending; it mandates assessments and recommendations.\n\nWithin 120 days of enactment (by late March 2025), the FEMA Administrator must submit a report to the House Transportation and Infrastructure Committee and the Senate Homeland Security and Governmental Affairs Committee. That report must describe the assistance and resources FEMA provides—to states, localities, nonprofit organizations, and directly to individuals—for people with intellectual and developmental disabilities and their families affected by major disasters declared under the Stafford Act. The report must cover best practices, the process for training and deploying personnel to coordinate with partners, a list of relevant FEMA programs (including accommodations), outreach to experts, and areas for improvement.\n\nWithin one year of enactment (by November 2025), both the Comptroller General and the FEMA Administrator must each conduct a broader review. This review covers assistance and resources for individuals with intellectual and developmental disabilities, individuals with physical disabilities, and the families of both groups. Each must identify legal impediments to providing assistance, and deliver recommendations to Congress on improving assistance, enhancing coordination with states and nonprofits, streamlining application and delivery processes, and any necessary legislative reforms.",
+  "prompt_tokens": 1179,
+  "completion_tokens": 1259,
+  "total_tokens": 2438,
+  "cost_usd": 0.001608,
+  "latency_s": 15.203,
+  "ok": true
+}

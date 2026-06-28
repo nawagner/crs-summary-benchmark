@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Prohibiting Russian Uranium Imports Act (Public Law 118-62), enacted May 13, 2024, bans the importation into the United States of certain low-enriched uranium connected to Russia.\n\nThe bill amends the USEC Privatization Act to prohibit, beginning 90 days after enactment, the importation of unirradiated low-enriched uranium that is produced in the Russian Federation or by a Russian entity. The prohibition also covers uranium determined to have been exchanged, swapped, or otherwise obtained in place of such Russian uranium in a manner designed to circumvent the restrictions. A \"Russian entity\" is defined as an entity organized under or subject to the jurisdiction of the Russian government.\n\nThe law allows the Secretary of Energy, in consultation with the Secretaries of State and Commerce, to waive the prohibition if the Secretary determines that no alternative viable source of low-enriched uranium is available to sustain operation of a nuclear reactor or U.S. nuclear energy company, or that importation is in the national interest. Imports allowed under a waiver are subject to annual quantity limits: 476,536 kilograms in 2024, 470,376 in 2025, 464,183 in 2026, and 459,083 in 2027. The Secretary of Commerce administers and enforces these limits in a manner imposing minimal burden on the commercial nuclear industry. Any waiver must terminate no later than January 1, 2028, and the Secretary of Energy must notify specified congressional committees when a waiver is issued, identifying the recipient.\n\nThe prohibition does not apply to imports by or under contract to the Department of Energy for national security or nonproliferation purposes, or to imports of non-uranium isotopes.\n\nThe prohibition provisions terminate on December 31, 2040. The bill also makes conforming amendments to the USEC Privatization Act, including striking and renumbering certain provisions; one related amendment takes effect 90 days after enactment.",
+  "prompt_tokens": 3206,
+  "completion_tokens": 645,
+  "total_tokens": 3851,
+  "cost_usd": 0.032155,
+  "latency_s": 8.162,
+  "ok": true
+}

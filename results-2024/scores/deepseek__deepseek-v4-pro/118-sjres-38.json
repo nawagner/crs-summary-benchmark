@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-sjres-38",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the resolution text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the waiver as 'temporary' is consistent with the CRS context of the underlying FHWA rule."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: disapproving the FHWA's Buy America waiver for EV chargers."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains that the resolution renders the FHWA rule of no force or effect."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution has no material exceptions or conditions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific effective date stated in the summary, which is acceptable."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision: disapproval of the FHWA rule."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief for a simple joint resolution."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies FHWA and the Federal Register citation."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "88 Fed. Reg. 10619 and February 21, 2023 are correctly stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7454",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All program descriptions, dollar amounts, and percentages match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act extends FAA programs and aviation taxes from early March through May 10, 2024."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the act amends prior statutory expiration dates across multiple statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the obligation authority through September 30, 2024, and the 39% apportionment reduction condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies May 10, 2024, extension dates and the October-to-May period."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers AIP funding, apportionment methodology, FAA operations, facilities, R&D, EAS, aviation taxes, and counter-UAS extension."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with logical flow."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers major categories without exhaustively listing every individual program."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FAA, Airport and Airway Trust Fund, Essential Air Service, Department of Homeland Security correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "AIP (~$2.04B), $3.35B annualized basis, 39% reduction, and other amounts match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

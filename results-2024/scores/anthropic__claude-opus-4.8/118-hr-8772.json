@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8772",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All identified appropriations and provisions are accurately described and consistent with the bill text provided."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims traceable to the bill text; specific dollar figures and provisions match the text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as providing FY2025 legislative branch appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendments to Energy Policy Act, child care center fund, cybersecurity requirements, and other provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers vehicle lease cap, waiver authority for telecom ban, and DEI training restrictions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 applicability of various provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers major appropriation recipients and key rider provisions including DEI, marriage definition, telecom ban, and COLA freeze."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual; lists provisions without advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear structure separating appropriations from provisions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive but appropriately detailed for a complex appropriations bill."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names House offices, committees, and relevant statutory references."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1.93 billion for House salaries and $174,000 widow payment are accurate per the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

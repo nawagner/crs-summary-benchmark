@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 42, introduced during the first session of the 118th Congress, is a joint resolution of the United States Congress. The primary purpose of this resolution is to formally disapprove of a specific legislative action taken by the Council of the District of Columbia. Specifically, the resolution states congressional disapproval of the Comprehensive Policing and Justice Reform Amendment Act of 2022, which is also identified as D.C. Act 24-781. \n\nAccording to the text, the District of Columbia Council enacted the Comprehensive Policing and Justice Reform Amendment Act of 2022 on January 19, 2023. Following its local enactment, the measure was transmitted to Congress on January 26, 2023, in accordance with the procedures established under section 602(c)(1) of the District of Columbia Home Rule Act. By passing this joint resolution, the House of Representatives and the Senate resolve that Congress disapproves of the District of Columbia Council's approval of the policing and justice reform act. \n\nRegarding its legislative timeline and status, the joint resolution passed the House of Representatives on April 19, 2023, attested by Clerk Cheryl L. Johnson. It was received in the Senate on April 20, 2023, where it was read twice and referred to the Committee on Homeland Security and Governmental Affairs. The text of the resolution does not contain any material exceptions, conditions, or specific implementation deadlines.",
+  "prompt_tokens": 473,
+  "completion_tokens": 1992,
+  "total_tokens": 2465,
+  "cost_usd": 0.018638,
+  "latency_s": 10.277,
+  "ok": true
+}

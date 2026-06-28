@@ -216,11 +216,13 @@ def main() -> None:
             "crs_version_code": bill.get("crs_version_code", ""),
             "bill_text_chars": bill.get("bill_text_chars"),
             "text_truncated": bill.get("text_truncated", False),
+            "actions_count": bill.get("actions_count"),
             "candidates": cand_out,
         })
 
     results = {
         "generated_at": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
+        "dataset_id": C.DATASET or "119",
         "judge_model": cfg["judge_model"],
         "congress": cfg["congress"],
         "model_ids": model_ids,
@@ -234,9 +236,9 @@ def main() -> None:
             "judge": C.read_prompt(cfg["prompts"]["judge"]),
         },
     }
-    C.write_json(C.DOCS_DATA / "results.json", results)
+    C.write_json(C.RESULTS_JSON, results)
 
-    print("Wrote results/leaderboard.md, results/scores.csv, docs/data/results.json")
+    print(f"Wrote {C.RESULTS / 'leaderboard.md'}, {C.RESULTS / 'scores.csv'}, {C.RESULTS_JSON}")
     print()
     print((C.RESULTS / "leaderboard.md").read_text())
 

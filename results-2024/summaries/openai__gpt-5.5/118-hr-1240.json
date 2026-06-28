@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "openai/gpt-5.5",
+  "summary": "The Winnebago Land Transfer Act of 2023 transfers specified federal lands into trust for the benefit of the Winnebago Tribe of Nebraska and makes those lands part of the Winnebago Reservation.\n\nThe Act applies, subject to all valid existing rights, to all U.S. right, title, and interest, including improvements and appurtenances, in three described tracts of federal land. These include portions of Tract No. 119 in Woodbury County, Iowa, lying east of the Nebraska/Iowa state line and south of the easterly extension of the north line of the Winnebago Reservation; Tract No. 210 as described in a federal court declaration and judgment in the Northern District of Iowa; and Tract No. 113 as described in a federal court judgment in the District of Nebraska.\n\nFor these lands, the Act declares them to be part of the Winnebago Reservation created by the 1865 treaty between the United States and the Winnebago Tribe. It also requires that the United States hold the lands in trust for the Winnebago Tribe of Nebraska under the same terms and conditions as lands described in that 1865 treaty.\n\nThe Act prohibits class II and class III gaming, as defined under the Indian Gaming Regulatory Act, on the lands taken into trust under the Act at any time. The Act was approved on July 12, 2024.",
+  "prompt_tokens": 920,
+  "completion_tokens": 287,
+  "total_tokens": 1207,
+  "cost_usd": 0.01321,
+  "latency_s": 4.029,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8146",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All provisions accurately described; the bill text does use 'Biden border crisis' and 'illegal aliens' and those are accurately quoted/paraphrased; the 180-day deadline and all report elements are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details traceable to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as requiring an AG report on border-related impacts on law enforcement."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the bill creates a reporting requirement only and does not amend existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions beyond the report requirement itself."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the 180-day deadline for the report."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All seven report elements and the congressional findings are thoroughly covered."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Presents partisan language in the bill (e.g., 'Biden border crisis') in quotes or with attribution, maintaining neutrality."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and comprehensive."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very detailed; includes the full evidence lifecycle language from the bill verbatim, which is excessive for a summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Attorney General, Congress, and section 212(f) of the INA correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "180-day deadline and 136 officers figure from the findings are correctly cited."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

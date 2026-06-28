@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Airport and Airway Extension Act of 2024 extends federal aviation programs, funding authorities, and related taxes that were previously set to expire in March 2024. The Act primarily extends these provisions through May 10, 2024, or May 11, 2024, depending on the specific statute.\n\nUnder Title I, the Act authorizes specific funding levels for the Airport Improvement Program (AIP), Federal Aviation Administration (FAA) operations, air navigation facilities and equipment, and aviation research for the period of October 1, 2023, through May 10, 2024. For the AIP, it authorizes over $2 billion and directs the FAA Administrator to calculate funding apportionments on an annualized basis as if $3.35 billion were available for fiscal year 2024, followed by a 39 percent reduction. The Act also extends the authority to obligate these funds through September 30, 2024. Additionally, it extends various miscellaneous aviation authorities, including aircraft insurance, unmanned aircraft systems testing, and small community air service programs, to May 10 or 11, 2024, and provides corresponding funding extensions for these programs.\n\nTitle II amends the Internal Revenue Code to extend the expenditure authority of the Airport and Airway Trust Fund through May 11, 2024. It also extends the collection of aviation fuel taxes, ticket taxes, and taxes related to fractional ownership programs that fund the trust fund through May 10 or 11, 2024.\n\nTitle III extends counter-unmanned aircraft systems (Counter-UAS) authorities under the Homeland Security Act of 2002 through May 11, 2024. \n\nThe Act was approved on March 8, 2024, and serves as a short-term extension of existing aviation laws and revenue measures.",
+  "prompt_tokens": 3734,
+  "completion_tokens": 1233,
+  "total_tokens": 4967,
+  "cost_usd": 0.007246,
+  "latency_s": 5.06,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution’s primary purpose is to disapprove an Environmental Protection Agency rule under chapter 8 of title 5 of the United States Code, the congressional review process for federal agency rules.\n\nThe resolution applies to the EPA rule titled “Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,” published in the Federal Register at 88 Fed. Reg. 4296 on January 24, 2023. The rule concerns air pollution controls for new motor vehicles, specifically heavy-duty engine and vehicle standards.\n\nIf enacted, the resolution would provide that Congress disapproves the EPA rule and that the rule “shall have no force or effect.” This would nullify the rule identified in the resolution. The text does not amend any other statutory provisions, establish replacement standards, or direct the EPA to take further action. It also does not include exceptions, conditions, implementation procedures, or a separate effective date beyond the legal effect of the resolution itself.",
+  "prompt_tokens": 442,
+  "completion_tokens": 537,
+  "total_tokens": 979,
+  "cost_usd": 0.01832,
+  "latency_s": 9.784,
+  "ok": true
+}

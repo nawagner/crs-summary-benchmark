@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-612",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the two amendments to the Lake Tahoe Restoration Act; correctly identifies the prior language replaced and the new language inserted."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; the description of the two amendments matches the bill text precisely."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as extending timeframes under the Lake Tahoe Restoration Act (Public Law 106-506)."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes both amendments — to Section 4(f) and Section 10(a) — and the prior language that was replaced."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this brief reauthorization act."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the September 30, 2034, availability date and October 1, 2024, enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both operative amendments: the cooperative authorities extension and the appropriations availability extension."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Somewhat verbose for a two-provision act; quotes statutory language when a plain-English description would suffice."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Lake Tahoe Restoration Act (Public Law 106-506), Water Resources Development Act of 2016 correctly cited."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "September 30, 2034, deadline correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Preventing the Financing of Illegal Synthetic Drugs Act (Public Law 118-79) directs the Comptroller General of the United States (head of the Government Accountability Office) to conduct a study on illicit financing connected to the trafficking of synthetic drugs into the United States.\n\nThe bill begins with congressional findings citing statistics on drug overdose deaths, the growth in the number of synthetic substances, the profitability of fentanyl trafficking, and the role of financing in sustaining criminal organizations.\n\nThe study must examine illicit financing tied to trafficking of synthetic drugs, including fentanyl, methamphetamine, related substances, Captagon, and precursor chemicals. Specifically, the study is required to address: the business of synthetic drug trafficking and related illicit finance, including the involvement of transnational criminal organizations and terror syndicates and their trafficking corridors (source and transit countries); the business models these organizations use across the supply chain, from precursor purchase or production through manufacture, marketing, distribution, sales, and return of proceeds; the overlap between human trafficking and synthetic drug trafficking; the use of online drug markets and social media for marketing, sale, and payment; financial methods such as payment, money laundering, and repatriation of proceeds; the use of social media applications (such as Snapchat, Discord, and Facebook) and payment applications (such as CashApp) to facilitate transactions, particularly among young people; and U.S. government efforts to combat related illicit finance, including interagency, intergovernmental, and private-sector collaboration, as well as identified gaps or resource deficiencies.\n\nThe Comptroller General must issue a report to Congress containing all findings and determinations from the study no later than one year after the date of enactment.\n\nThe Act was approved September 13, 2024. It establishes a study and reporting requirement and does not, by its text, alter existing substantive law.",
+  "prompt_tokens": 2357,
+  "completion_tokens": 620,
+  "total_tokens": 2977,
+  "cost_usd": 0.027285,
+  "latency_s": 7.377,
+  "ok": true
+}

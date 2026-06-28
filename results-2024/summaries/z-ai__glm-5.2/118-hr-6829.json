@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "z-ai/glm-5.2",
+  "summary": "The HEARTS Act of 2024 amends the Public Health Service Act to increase education, awareness, and research regarding cardiomyopathy and to promote student access to automated external defibrillators (AEDs) and cardiopulmonary resuscitation (CPR) in schools. \n\nUnder new Section 312A, the Secretary of Health and Human Services (HHS), consulting with the CDC Director, must develop public education materials within 18 months. These materials cover high-risk cardiac conditions, AED placement guidelines, CPR and AED training, and cardiac emergency response plans. Within 30 months, the Secretary must disseminate these materials to state educational agencies, health departments, and professionals, and post them on the CDC website.\n\nNew Section 312B requires the CDC Director to submit a report to Congress within 18 months on existing activities related to cardiomyopathy prevalence and epidemiology. The Secretary must also develop a publicly available cardiomyopathy risk assessment for health care providers and individuals, seeking input from external stakeholders such as patient advocacy organizations and medical societies.\n\nNew Section 312C authorizes the Secretary, in consultation with the NIH Director, to expand and coordinate cardiomyopathy research, ensuring no duplication of existing efforts. Within 18 months, the Secretary must report to Congress on ongoing NIH research and identify areas of greatest need.\n\nNew Section 312D authorizes the Secretary to award grants to local educational agencies, in consultation with qualified health care entities, to develop and implement programs promoting student access to AEDs and CPR in public elementary and secondary schools. Grant funds may be used for training, developing emergency response plans, and purchasing or maintaining FDA-approved AEDs and related equipment.\n\nThe Act specifies that no additional funds are authorized to be appropriated to carry out these new provisions.",
+  "prompt_tokens": 3362,
+  "completion_tokens": 1282,
+  "total_tokens": 4644,
+  "cost_usd": 0.00704,
+  "latency_s": 7.751,
+  "ok": true
+}

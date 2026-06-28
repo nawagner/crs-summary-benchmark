@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "openai/gpt-5.5",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act amends title 38 of the United States Code to address cases in which Department of Veterans Affairs benefits were misused by a fiduciary and the affected beneficiary dies before the VA reissues the misused amount.\n\nUnder existing section 6107, the Secretary of Veterans Affairs may reissue benefits in certain cases when a fiduciary has misused benefits paid on behalf of a beneficiary. This Act adds a new provision requiring that, if the beneficiary dies before a payment is made under those reissuance authorities, the Secretary must pay the benefits to an individual or entity in accordance with section 5121 of title 38, which governs payment of certain accrued benefits after a beneficiary’s death.\n\nThe Act includes an exception: the Secretary may not make such a payment to a fiduciary who misused the beneficiary’s benefits. It also makes conforming organizational and wording changes to section 6107 so that its provisions apply to the section as amended.\n\nThe Act does not establish a separate deadline or effective date beyond its enactment.",
+  "prompt_tokens": 674,
+  "completion_tokens": 432,
+  "total_tokens": 1106,
+  "cost_usd": 0.01633,
+  "latency_s": 8.519,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 24 is a joint resolution providing for congressional disapproval of a rule submitted by the United States Fish and Wildlife Service. The resolution invokes the authority granted to Congress under chapter 8 of title 5 of the United States Code, commonly known as the Congressional Review Act, to nullify a specific federal regulation. The targeted rule was published in the Federal Register on November 30, 2022 (87 Fed. Reg. 73488), and relates to \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat.\" \n\nUnder the resolution, Congress formally disapproves of this rule. The primary provision of the bill declares that the aforementioned rule shall have no force or effect, effectively blocking the regulation from being implemented or enforced. This action would reverse the Fish and Wildlife Service's decision to grant endangered species status to the northern long-eared bat. The resolution was passed by the Senate on May 11, 2023, and requires approval by the House of Representatives and the President to become effective.",
+  "prompt_tokens": 462,
+  "completion_tokens": 887,
+  "total_tokens": 1349,
+  "cost_usd": 0.0031,
+  "latency_s": 102.248,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-7",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text; the observation that no new programs or requirements are created is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all specific references match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies termination of the March 13, 2020 national emergency via Proclamation 9994."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes that it operates under section 202 of the National Emergencies Act to end the emergency."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the approval date of April 10, 2023."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the sole operative provision; also accurately notes what the resolution does not do."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Strictly neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding; efficiently covers the bill's content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "National Emergencies Act section 202, Proclamation 9994, and Fed. Reg. citation are all correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "85 Federal Register 15337 and April 10, 2023 are both accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

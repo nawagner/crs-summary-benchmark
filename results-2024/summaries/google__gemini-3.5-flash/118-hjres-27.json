@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 27 is a joint resolution that states congressional disapproval of a specific federal rule concerning environmental regulations. The primary purpose of the resolution is to nullify the rule titled \"Revised Definition of 'Waters of the United States,'\" which was jointly submitted by the Department of the Army, Corps of Engineers, the Department of Defense, and the Environmental Protection Agency. This rule was published in the Federal Register on January 18, 2023 (88 Fed. Reg. 3004).\n\nUnder the authority of chapter 8 of title 5 of the United States Code, the major provision of this resolution is to declare that Congress disapproves of the rule and that the rule shall have no force or effect. The resolution does not establish any material exceptions, conditions, or specific future deadlines; its sole legal effect is the immediate invalidation of the specified administrative rule. The resolution passed the House of Representatives on March 9, 2023, and was received in the Senate on March 14, 2023.",
+  "prompt_tokens": 454,
+  "completion_tokens": 1342,
+  "total_tokens": 1796,
+  "cost_usd": 0.012759,
+  "latency_s": 8.797,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Congenital Heart Futures Reauthorization Act of 2024 amends the Public Health Service Act to reauthorize the national congenital heart disease research, surveillance, and awareness program. Specifically, the Act extends the program's funding authorization from the period of fiscal years 2020 through 2024 to the period of fiscal years 2025 through 2029.\n\nThe Act also establishes new reporting and strategic planning requirements. Within two years of the bill's enactment, the Secretary of Health and Human Services (HHS) must submit a report to the House Committee on Energy and Commerce and the Senate Committee on Health, Education, Labor, and Pensions. This report must describe HHS activities to increase public awareness and healthcare provider education regarding congenital heart disease, particularly concerning patients' lifelong needs, and assess the current U.S. workforce capacity of healthcare providers who treat adult patients living with the condition.\n\nFurthermore, within one year of submitting the report, the Secretary must develop and submit a strategy to Congress to improve public awareness and provider training. This strategy must include findings and recommendations to address research gaps regarding patients' lifelong needs (such as long-term outcomes, quality of life, mental health, and healthcare utilization), address workforce shortages in adult care (including potential enhancements to fellowship or continuing education programs), and foster collaboration and information sharing across federal agencies, providers, researchers, and patient organizations. In developing the strategy, the Secretary is required to consult with qualified stakeholders, including patient organizations, healthcare professionals, research entities, health insurance providers, accrediting organizations, and relevant federal agencies such as the Centers for Disease Control and Prevention, the National Institutes of Health, and the Health Resources and Services Administration.",
+  "prompt_tokens": 1226,
+  "completion_tokens": 1448,
+  "total_tokens": 2674,
+  "cost_usd": 0.014871,
+  "latency_s": 6.761,
+  "ok": true
+}

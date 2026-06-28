@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act (Public Law 118-114) amends title 38 of the United States Code to address situations in which a beneficiary of veterans' benefits dies before receiving a repayment owed to them for benefits that were misused by their fiduciary.\n\nUnder existing law (section 6107 of title 38), the Secretary of Veterans Affairs is required to repay beneficiaries whose benefits were misused by a fiduciary appointed to manage them. This bill adds a new provision specifying what happens when such a beneficiary dies before receiving that repayment.\n\nThe new subsection (c) directs the Secretary to pay the owed benefits, in the case of a deceased beneficiary, to an individual or entity in accordance with section 5121 of title 38 (the provision governing payment of benefits due but unpaid at the time of a beneficiary's death). The law explicitly prohibits the Secretary from making such a payment to a fiduciary who misused the beneficiary's benefits.\n\nTo accommodate this addition, the bill makes technical changes: it redesignates the existing subsections (c) and (d) as (d) and (e), and updates a cross-reference in the redesignated subsection (e) so that it refers to the entire section rather than only subsections (a) or (b).\n\nThe Act was approved on November 25, 2024. It contains no separate effective date or deadline provisions.",
+  "prompt_tokens": 1141,
+  "completion_tokens": 453,
+  "total_tokens": 1594,
+  "cost_usd": 0.01703,
+  "latency_s": 6.857,
+  "ok": true
+}

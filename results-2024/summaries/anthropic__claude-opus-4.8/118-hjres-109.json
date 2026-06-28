@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a rule issued by the Securities and Exchange Commission (SEC).\n\nSpecifically, the resolution targets the SEC's \"Staff Accounting Bulletin No. 121,\" published in the Federal Register on April 11, 2022. The resolution references a Government Accountability Office opinion letter dated October 31, 2023, which concluded that this Staff Accounting Bulletin qualifies as a \"rule\" subject to the Congressional Review Act, thereby making it eligible for congressional disapproval through this process.\n\nIf enacted, the resolution states that the SEC rule \"shall have no force or effect.\" Under the Congressional Review Act, this would invalidate the bulletin and generally prevent the agency from reissuing a substantially similar rule unless authorized by subsequent legislation.\n\nThe resolution passed the House of Representatives on May 8, 2024, and was received in the Senate on May 9, 2024.\n\nThe text contains only the disapproval provision and does not specify additional conditions, exceptions, or effective dates beyond the standard operation of the Congressional Review Act.",
+  "prompt_tokens": 751,
+  "completion_tokens": 397,
+  "total_tokens": 1148,
+  "cost_usd": 0.01368,
+  "latency_s": 7.212,
+  "ok": true
+}

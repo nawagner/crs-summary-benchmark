@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution disapproves a specific rule issued by the Federal Highway Administration (FHWA) under the Congressional Review Act (chapter 8 of title 5, U.S. Code). The rule in question, published in the Federal Register on February 21, 2023, as 88 Fed. Reg. 10619, temporarily waived certain “Buy America” requirements for electric vehicle chargers. The resolution states that Congress disapproves the rule, and the rule will have no force or effect.",
+  "prompt_tokens": 423,
+  "completion_tokens": 591,
+  "total_tokens": 1014,
+  "cost_usd": 0.000698,
+  "latency_s": 9.096,
+  "ok": true
+}

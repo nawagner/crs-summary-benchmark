@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, titled the “Police Our Border Act,” requires the Attorney General to submit a report to Congress on how the situation at the southwest border is affecting law enforcement at the federal, state, local, and tribal levels. The report is due no later than 180 days after the bill becomes law.\n\nThe report must cover seven specific areas: (1) the estimated dollar amount of resources devoted to addressing the border situation and the extent to which those resources are unavailable to law enforcement agencies; (2) law enforcement officers’ exposure to fentanyl resulting from encounters with noncitizens at the border and inside the United States, including the nationality of each such noncitizen; (3) injuries to law enforcement officers connected to the border situation or fentanyl exposure; (4) officer morale; (5) the impact on recruiting and hiring law enforcement personnel; (6) the estimated dollar amount states have spent on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the U.S. border, covering the entire evidence lifecycle from collection and analysis through storage and final destruction; and (7) the number of law enforcement officers reassigned and local resources reallocated for those same fentanyl-related activities.\n\nThe bill includes a series of congressional findings that describe the border situation as a crisis, attribute it to the current administration, and state that it has burdened law enforcement agencies, exposed officers to fentanyl, and made every state a border state. The findings also express support for passing border security legislation and for the President to use existing authorities to secure the southern border. The bill does not itself enact any new border security measures, authorize funding, or change immigration law; it solely mandates the production of the described report.",
+  "prompt_tokens": 944,
+  "completion_tokens": 350,
+  "total_tokens": 1294,
+  "cost_usd": 0.000715,
+  "latency_s": 3.06,
+  "ok": true
+}

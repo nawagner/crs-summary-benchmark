@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024\" (or \"DETECT Fentanyl and Xylazine Act of 2024\") requires the Science and Technology Directorate within the Department of Homeland Security (DHS) to develop an enhanced capacity to detect and identify illicit substances in very low concentrations. \n\nTo accomplish this, the Act amends Section 302 of the Homeland Security Act of 2002. It directs the Directorate, in coordination with the Drug Enforcement Administration (DEA), to carry out research, development, testing, evaluation, and cost-benefit analyses to improve the safety, effectiveness, and efficiency of drug detection equipment and reference libraries used by Federal, State, local, Tribal, and territorial law enforcement. This research must specifically focus on:\n* Portable equipment that can detect and identify drugs with minimal or no handling of the sample;\n* Equipment capable of separating complex mixtures containing low concentrations of drugs and high concentrations of cutting agents to enable field identification; and\n* Technologies utilizing machine learning or artificial intelligence to predict whether substances in a sample are controlled substance analogues or new psychoactive substances not yet listed in reference libraries.\n\nIn implementing these provisions, the Under Secretary for Science and Technology must follow the guidelines and best practices of the National Institute of Standards and Technology (NIST) Artificial Intelligence Risk Management Framework. Furthermore, the Directorate's research and development priorities must be established using the latest available information from the DHS Homeland Threat Assessment, the DEA State and Territory Report on Enduring and Emerging Threats, or successor documents. \n\nFinally, the Act contains a rule of construction specifying that nothing in its text limits the existing authority of agencies currently involved in managing or overseeing drug equipment and reference libraries.",
+  "prompt_tokens": 1262,
+  "completion_tokens": 1701,
+  "total_tokens": 2963,
+  "cost_usd": 0.017202,
+  "latency_s": 9.041,
+  "ok": true
+}

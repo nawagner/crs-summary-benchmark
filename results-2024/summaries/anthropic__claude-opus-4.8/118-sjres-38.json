@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation.\n\nSpecifically, the resolution disapproves a rule issued by the Federal Highway Administration titled \"Waiver of Buy America Requirements for Electric Vehicle Chargers,\" which was published in the Federal Register on February 21, 2023 (88 Fed. Reg. 10619). Under the Congressional Review Act, Congress can nullify recently issued agency rules by passing a joint resolution of disapproval.\n\nThe resolution states that the identified rule \"shall have no force or effect,\" meaning the Federal Highway Administration's waiver of Buy America requirements for electric vehicle chargers would be rescinded if the resolution becomes law. Buy America requirements generally mandate that certain federally funded projects use domestically produced materials and products; the waiver being targeted had relaxed those requirements as applied to electric vehicle chargers.\n\nThe text notes that the resolution passed the Senate on November 8, 2023. For the measure to take effect, it would also need to pass the House of Representatives and be signed by the President (or have a presidential veto overridden).\n\nThe resolution contains no other provisions, exceptions, or conditions beyond disapproving the specified rule.",
+  "prompt_tokens": 743,
+  "completion_tokens": 429,
+  "total_tokens": 1172,
+  "cost_usd": 0.01444,
+  "latency_s": 5.995,
+  "ok": true
+}

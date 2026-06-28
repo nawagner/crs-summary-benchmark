@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-3 is a joint resolution enacted by the 118th United States Congress to terminate a national emergency previously declared by the President. The primary purpose of the law is to end the national emergency that was declared on March 13, 2020, through Proclamation 9994. \n\nTo achieve this, the resolution invokes section 202 of the National Emergencies Act, codified at 50 U.S.C. 1622, which grants Congress the authority to terminate a national emergency. By enacting this resolution, Congress formally ends the emergency status that had been in place since March 2020. The text of the law does not specify any material exceptions, conditions, or phased deadlines; it provides for the direct and immediate termination of the declared emergency. \n\nThe legislative history of the resolution indicates that it was considered and passed by the House of Representatives on February 1, 2023, and subsequently considered and passed by the Senate on March 29, 2023. The resolution was approved and signed into law on April 10, 2023. As a result of this enactment, the national emergency declared in Proclamation 9994 is terminated as of the date of approval.",
+  "prompt_tokens": 386,
+  "completion_tokens": 885,
+  "total_tokens": 1271,
+  "cost_usd": 0.003022,
+  "latency_s": 8.871,
+  "ok": true
+}

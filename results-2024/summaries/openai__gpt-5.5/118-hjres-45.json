@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would use the Congressional Review Act to disapprove a Department of Education rule relating to “Waivers and Modifications of Federal Student Loans.” The disapproved rule includes the Department’s website announcement titled “One-Time Federal Student Loan Debt Relief” and the Federal Register document titled “Federal Student Aid Programs (Federal Perkins Loan Program, Federal Family Education Loan Program, and William D. Ford Federal Direct Loan Program),” published on October 12, 2022.\n\nThe resolution states that the rule was printed in the Congressional Record on March 22, 2023, along with a March 17, 2023, Government Accountability Office opinion letter concluding that the waivers and modifications constitute a rule under the Congressional Review Act. If enacted, the resolution would provide that the Department of Education rule has no force or effect. The measure contains no additional exceptions, conditions, implementation procedures, or separate effective date.",
+  "prompt_tokens": 505,
+  "completion_tokens": 262,
+  "total_tokens": 767,
+  "cost_usd": 0.010385,
+  "latency_s": 15.477,
+  "ok": true
+}

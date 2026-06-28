@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Utah State Parks Adjustment Act directs the secretaries of the Interior and Agriculture to transfer specific federal lands to the State of Utah for incorporation into three state parks. All transfers must be completed within 180 days of the law’s December 23, 2024, enactment.\n\nFor Antelope Island State Park and Wasatch Mountain State Park, the Secretary of the Interior must convey, without cost and by quitclaim deed, all U.S. interest in designated Bureau of Land Management parcels as depicted on referenced maps. The land is subject to valid existing rights, and Utah must cover all administrative and survey costs.\n\nFor Fremont Indian State Park, the Secretary of Agriculture must convey, also without cost and by quitclaim deed, all rights to specified National Forest System land, including any improvements on that land. This transfer comes with several conditions. The Secretary must reserve easements for all National Forest System roads and trails that cross or lead to the parcel. Only three specific water rights, identified by their numbers in the Utah State Engineer’s database and serving the Castle Rock Campground and Belknap Historic Guard Station, are included in the conveyance. If a survey is required, Utah pays the reasonable costs. Additionally, the Secretary of Agriculture may negotiate an agreement with Utah on supplementary terms, which can address management of the Belknap interpretive site, road and trail use, permitted livestock grazing, and continued federal access to any retained water rights.\n\nThe law permits minor modifications to the official maps for surveying purposes. It requires Utah to use all conveyed land for public purposes such as parks, campgrounds, recreation, and permitted livestock grazing. If the land ceases to be used for these purposes, it can, at the discretion of the relevant Secretary, revert to the United States.",
+  "prompt_tokens": 1634,
+  "completion_tokens": 860,
+  "total_tokens": 2494,
+  "cost_usd": 0.001459,
+  "latency_s": 12.798,
+  "ok": true
+}

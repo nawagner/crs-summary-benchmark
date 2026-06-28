@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Dr. Emmanuel Bilirakis and Honorable Jennifer Wexton National Plan to End Parkinson's Act\" (Public Law 118-66) amends the Public Health Service Act to direct the Secretary of Health and Human Services (HHS) to establish and carry out the National Parkinson's Project. The project's primary purpose is to prevent, diagnose, treat, and cure Parkinson's, which the bill defines to include Parkinson's disease and other neurodegenerative Parkinsonisms, such as multiple system atrophy, progressive supranuclear palsy, and Parkinson's-related dementia.\n\nUnder the Act, the Secretary must create and maintain an integrated national plan to address Parkinson's, coordinate related research and services across federal agencies, and encourage the development of safe and effective treatments. Additionally, the Secretary must conduct an annual assessment of the nation's progress in managing the disease, with the first assessment due within 24 months of enactment. \n\nThe bill also establishes the Advisory Council on Parkinson's Research, Care, and Services, which will consist of appointed federal officials and ten non-federal experts, including patient advocates, caregivers, health care providers, and researchers. The Advisory Council is required to meet quarterly for its first two years, host an annual public research meeting starting within 24 months of enactment, and submit an annual report to Congress and the Secretary beginning within 18 months of enactment. Federal agencies are required to share relevant information with the Secretary to support these reports. Both the Advisory Council and the provisions of this Act are scheduled to terminate at the end of calendar year 2035.",
+  "prompt_tokens": 2819,
+  "completion_tokens": 2063,
+  "total_tokens": 4882,
+  "cost_usd": 0.022795,
+  "latency_s": 10.205,
+  "ok": true
+}

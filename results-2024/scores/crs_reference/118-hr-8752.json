@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8752",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately lists all DHS components receiving appropriations; the high-level description is supported by the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all named components appear in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 DHS appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Appropriations bills primarily provide funding rather than amend existing law; the summary appropriately describes what is funded."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The bill contains numerous material conditions, restrictions, and policy riders (detention beds, border barriers, CBP One prohibition, etc.) but the summary says only that 'requirements and restrictions' exist without identifying any."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "High-level summary appropriately omits specific effective dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits all significant policy riders and conditions (50,000 detention beds, $600M barrier mandate, CBP One prohibition, rescissions) that are major operative provisions of this appropriations act."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized enumeration of funded components."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All DHS components correctly named."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No specific figures stated."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

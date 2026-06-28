@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, a Department of Labor rule titled “Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,” published in the Federal Register on December 1, 2022, at 87 Fed. Reg. 73822.\n\nThe resolution provides that Congress disapproves the rule and that the rule shall have no force or effect. The text does not amend other statutory provisions, include exceptions or conditions, or set any separate effective date or deadline.",
+  "prompt_tokens": 392,
+  "completion_tokens": 109,
+  "total_tokens": 501,
+  "cost_usd": 0.00523,
+  "latency_s": 3.554,
+  "ok": true
+}

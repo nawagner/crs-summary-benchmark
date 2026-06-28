@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The FAFSA Deadline Act amends the Higher Education Act of 1965 to create a firm annual deadline for making the Free Application for Federal Student Aid (FAFSA) available. Under prior law, the Department of Education was required to make the FAFSA available no later than January 1 of the applicant’s planned enrollment year, with a goal of releasing it on or around the preceding October 1 “to the maximum extent practicable.” This Act removes that flexibility and requires that the FAFSA be made available by October 1 prior to the applicant’s planned enrollment year, with no later fallback.\n\nThe Act also imposes new accountability and transparency measures on the Secretary of Education for each application processing cycle. No later than September 1, before the cycle begins, the Secretary must certify to the congressional authorizing committees either that the Department will meet the October 1 deadline or that it will not. If the certification states the deadline will not be met, the Secretary must testify before those committees no later than September 30. That testimony must address the anticipated failure to meet the deadline and describe the financial impact it will have on students and families.\n\nThe law contains no exceptions and took effect upon its approval on December 11, 2024.",
+  "prompt_tokens": 770,
+  "completion_tokens": 788,
+  "total_tokens": 1558,
+  "cost_usd": 0.001021,
+  "latency_s": 10.487,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a specific federal regulation.\n\nThe resolution targets a rule issued by the Administrator of the Environmental Protection Agency (EPA) titled \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,\" which was published in the Federal Register at 88 Fed. Reg. 4296 on January 24, 2023.\n\nUnder the resolution, Congress formally disapproves of this EPA rule. As a result, the rule \"shall have no force or effect,\" meaning it would not be implemented or enforced.\n\nThe Congressional Review Act provides a mechanism by which Congress can nullify recently issued federal agency regulations by passing a joint resolution of disapproval, which must then be signed by the President or have a presidential veto overridden.\n\nThe text notes that the resolution passed the Senate on April 26, 2023. The document itself contains no additional provisions, exceptions, or effective dates beyond the disapproval of the named rule.",
+  "prompt_tokens": 792,
+  "completion_tokens": 362,
+  "total_tokens": 1154,
+  "cost_usd": 0.01301,
+  "latency_s": 5.807,
+  "ok": true
+}

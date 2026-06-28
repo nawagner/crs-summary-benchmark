@@ -13,11 +13,18 @@ import yaml
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_BILLS = ROOT / "data" / "bills"
-RESULTS = ROOT / "results"
+
+# Optional dataset suffix so a second corpus (e.g. 2024/118th) can live alongside the
+# default (119th) without disturbing it. Set CRS_DATASET=2024 to use data/bills-2024,
+# results-2024/, and docs/data/results-2024.json.
+DATASET = os.environ.get("CRS_DATASET", "").strip()
+_SFX = f"-{DATASET}" if DATASET else ""
+DATA_BILLS = ROOT / "data" / f"bills{_SFX}"
+RESULTS = ROOT / f"results{_SFX}"
 SUMMARIES_DIR = RESULTS / "summaries"
 SCORES_DIR = RESULTS / "scores"
 DOCS_DATA = ROOT / "docs" / "data"
+RESULTS_JSON = DOCS_DATA / f"results{_SFX}.json"
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 CRS_REFERENCE = "crs_reference"  # pseudo-model id for the human-authored CRS summary
@@ -53,7 +60,8 @@ def require_congress_key() -> str:
 
 # ------------------------------------------------------------------------- config
 def load_config() -> dict[str, Any]:
-    with open(ROOT / "config.yaml") as f:
+    cfg_path = os.environ.get("CRS_CONFIG", "config.yaml")
+    with open(ROOT / cfg_path) as f:
         return yaml.safe_load(f)
 
 

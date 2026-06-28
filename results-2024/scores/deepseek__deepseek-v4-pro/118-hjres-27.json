@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-27",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Claims the rule 'would be treated as if it had never taken effect' — CRA disapproval bars reissuance of a substantially similar rule but does not retroactively erase the rule; this overstates the legal effect."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "The characterization of CRA disapproval as treating the rule 'as if it had never taken effect' is a legal overstatement not supported by the bill text or CRA mechanics."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies purpose as nullifying the WOTUS rule under the CRA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the rule shall have no force or effect."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions in the resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective date specified beyond enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the main operative provision."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual tone overall."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and readable."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without excessive padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and statute correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register citation and date are correct."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

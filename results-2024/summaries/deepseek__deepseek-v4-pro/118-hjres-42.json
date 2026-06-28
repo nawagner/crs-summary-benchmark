@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution expresses congressional disapproval of a District of Columbia law known as the Comprehensive Policing and Justice Reform Amendment Act of 2022 (D.C. Act 24–781). The resolution states that Congress disapproves the action of the D.C. Council in approving that act. The Council enacted the measure on January 19, 2023, and transmitted it to Congress on January 26, 2023, as required by the District of Columbia Home Rule Act.\n\nUnder the Home Rule Act, legislation passed by the D.C. Council undergoes a congressional review period during which Congress may pass a joint resolution of disapproval. If enacted, such a resolution blocks the D.C. law from taking effect. The resolution does not amend the D.C. act or modify any federal statute; it simply exercises Congress’s oversight authority by nullifying the local legislation. The resolution contains no substantive exceptions, conditions, or additional provisions. Once approved by both chambers and signed by the President (or enacted over a veto), it would prevent the Comprehensive Policing and Justice Reform Amendment Act of 2022 from going into force. The House of Representatives passed the resolution on April 19, 2023, after which it was referred to the Senate Committee on Homeland Security and Governmental Affairs.",
+  "prompt_tokens": 418,
+  "completion_tokens": 1350,
+  "total_tokens": 1768,
+  "cost_usd": 0.001356,
+  "latency_s": 20.037,
+  "ok": true
+}

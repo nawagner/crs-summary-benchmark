@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 9 (S.J. Res. 9) is a joint resolution from the 118th Congress. Its primary purpose is to formally disapprove a federal regulation issued by the United States Fish and Wildlife Service concerning the conservation status of the lesser prairie-chicken. \n\nSpecifically, the resolution invokes Chapter 8 of Title 5 of the United States Code to reject the rule titled \"Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment.\" This rule was published in the Federal Register on November 25, 2022 (87 Fed. Reg. 72674). \n\nThe major provision of S.J. Res. 9 is its declaration that this specific Fish and Wildlife Service rule shall have no force or effect. By disapproving the regulation, the resolution would nullify the agency's dual classification of the lesser prairie-chicken, which had established threatened status with a Section 4(d) rule for the northern distinct population segment and endangered status for the southern distinct population segment. \n\nThe text of the resolution does not contain any material exceptions, conditions, or specific future deadlines. The resolution passed the Senate on May 3, 2023.",
+  "prompt_tokens": 568,
+  "completion_tokens": 1658,
+  "total_tokens": 2226,
+  "cost_usd": 0.015774,
+  "latency_s": 7.933,
+  "ok": true
+}

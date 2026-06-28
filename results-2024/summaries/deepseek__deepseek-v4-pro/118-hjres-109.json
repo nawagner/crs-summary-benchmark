@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a Securities and Exchange Commission (SEC) rule known as Staff Accounting Bulletin No. 121 (SAB 121). Under the resolution, the rule would have no force or effect.\n\nSAB 121 was published in the Federal Register on April 11, 2022. The resolution also references a Government Accountability Office opinion, dated October 31, 2023, which concluded that the bulletin qualifies as a rule under the Congressional Review Act. The resolution exercises Congress’s authority under that Act to disapprove the rule.\n\nThe resolution does not amend the text of existing statutes or create new regulatory requirements. Its sole function is to disapprove SAB 121, thereby preventing it from having any legal effect. The resolution passed the House of Representatives on May 8, 2024, and was received in the Senate on May 9, 2024. It does not specify any additional effective dates, exceptions, or conditions beyond the disapproval itself.",
+  "prompt_tokens": 444,
+  "completion_tokens": 198,
+  "total_tokens": 642,
+  "cost_usd": 0.000365,
+  "latency_s": 5.769,
+  "ok": true
+}

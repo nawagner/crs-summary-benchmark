@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a Department of Commerce rule titled “Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,” which was published at 87 Federal Register 56868. The resolution states that Congress disapproves the rule and that the rule “shall have no force or effect.” The rule addressed procedures for suspending the final calculation and assessment of tariffs (liquidation) and for collecting duties and estimated duties on certain imports, consistent with Presidential Proclamation 10414. The House of Representatives passed the resolution on April 28, 2023, and it was received in the Senate on May 1, 2023. To become law, the resolution would need to be approved by the Senate and either signed by the President or enacted over a presidential veto. The text does not include exceptions, conditions, or an internal effective date; if enacted, it would immediately void the targeted rule.",
+  "prompt_tokens": 386,
+  "completion_tokens": 1246,
+  "total_tokens": 1632,
+  "cost_usd": 0.001252,
+  "latency_s": 16.008,
+  "ok": true
+}

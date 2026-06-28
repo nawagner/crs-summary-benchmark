@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-45",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "The output is incoherent gibberish with no meaningful content accurately reflecting the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "The output contains garbled text that does not represent any factual claims about the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": false,
+      "why": "No coherent statement of the bill's purpose is provided; the output is unreadable."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "No description of legal changes; the output is gibberish."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions in the bill; not applicable."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "No effective date information is coherently presented."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "No major provisions are covered; the output is entirely incoherent."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": false,
+      "why": "The output is garbled text and cannot be considered to have any tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The output is completely incoherent, consisting of random characters and backticks."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "The output is extremely long gibberish with no informational content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": false,
+      "why": "No entities are correctly identified; output is not readable."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "No figures are stated in any coherent manner."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 0,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

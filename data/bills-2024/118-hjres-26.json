@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hjres-26",
+  "congress": 118,
+  "type": "hjres",
+  "number": "26",
+  "title": "Disapproving the action of the District of Columbia Council in approving the Revised Criminal Code Act of 2022.",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/26",
+  "crs_summary": "This joint resolution nullifies the Revised Criminal Code Act of 2022, enacted by the council of the District of Columbia (DC). The act makes a variety of changes to DC criminal laws, including by providing statutory definitions for various elements of criminal offenses, modifying sentencing guidelines and penalties, and expanding the right to a jury trial for certain misdemeanor crimes.",
+  "crs_version_code": "49",
+  "crs_action_date": "2023-03-20",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 1]\n[From the U.S. Government Publishing Office]\n\n[[Page 137 STAT. 3]]\n\nPublic Law 118-1\n118th Congress\n\n Joint Resolution\n\nDisapproving the action of the District of Columbia Council in approving \n the Revised Criminal Code Act of 2022. <<NOTE: Mar. 20, 2023 - [H.J. \n Res. 26]>> \n\n Resolved by the Senate and House of Representatives of the United \nStates of America in Congress assembled, That the Congress disapproves \nof the action of the District of Columbia Council described as follows: \nThe Revised Criminal Code Act of 2022 (D.C. Act 24-789), enacted by the \nCouncil of the District of Columbia on January 17, 2023, and transmitted \nto Congress pursuant to section 602(c)(1) of the District of Columbia \nHome Rule Act on January 27, 2023.\n\n Approved March 20, 2023.\n\nLEGISLATIVE HISTORY--H.J. Res. 26:\n---------------------------------------------------------------------------\n\nCONGRESSIONAL RECORD, Vol. 169 (2023):\n Feb. 9, considered and passed House.\n Mar. 8, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 1038,
+  "bill_text_tokens_est": 259,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ1/PLAW-118publ1.htm",
+  "actions_count": 27,
+  "summary_versions": 4
+}

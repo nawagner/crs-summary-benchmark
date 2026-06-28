@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7218",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary states the Act reauthorizes programs including 'cooperative agreements with state, local, and tribal health departments,' 'regional centers,' and 'data collection' but the bill text only amends one provision (Section 398B(e)) to add a funding authorization; these program descriptions go beyond what the bill text specifies, though they may reflect the underlying program's activities under that section."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary describes three specific program categories (cooperative agreements, regional centers, data collection) that are not in the bill text; while these may reflect the underlying BOLD Infrastructure for Alzheimer's Act programs funded under Section 398B, the bill only amends the authorization amount, and these specific characterizations are not verifiable from the bill text alone and exceed what the legislation actually does textually."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the bill as reauthorizing programs for Alzheimer's disease and related dementias."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Implies the reauthorization extends the statutory program through FY2029."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States reauthorization through FY2029."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary describes program activities not in the bill text (cooperative agreements, regional centers, data collection) while omitting the specific dollar amount ($33M/year) that is the bill's only operative change."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual in tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and focused."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names HHS as the administering department, which is accurate context."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated in this summary."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

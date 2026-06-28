@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would disapprove and nullify a Department of Commerce rule titled “Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,” published at 87 Federal Register 56868. The resolution provides that Congress disapproves the rule and that the rule “shall have no force or effect.”\n\nThe bill does not amend statutory text directly, create new programs, impose new duties, or specify replacement procedures. Its sole legal effect would be to prevent the identified Commerce Department rule from having effect. The resolution contains no stated exceptions, conditions, implementation deadlines, or separate effective date.",
+  "prompt_tokens": 382,
+  "completion_tokens": 274,
+  "total_tokens": 656,
+  "cost_usd": 0.01013,
+  "latency_s": 6.57,
+  "ok": true
+}

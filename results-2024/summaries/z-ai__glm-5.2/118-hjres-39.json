@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution, passed by the House of Representatives and received in the Senate, disapproves a rule issued by the Department of Commerce titled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414\" (published at 87 Federal Register 56868). Under the resolution, the disapproved rule shall have no force or effect. The resolution was passed by the House on April 28, 2023, and received in the Senate on May 1, 2023.",
+  "prompt_tokens": 392,
+  "completion_tokens": 130,
+  "total_tokens": 522,
+  "cost_usd": 0.000762,
+  "latency_s": 7.161,
+  "ok": true
+}

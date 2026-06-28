@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 8146, the \"Police Our Border Act,\" requires the Attorney General to submit a report to Congress on the impact of the border crisis—referred to in the text as the \"Biden border crisis\"—on Federal, State, local, and Tribal law enforcement. The report must be submitted no later than 180 days after the date of the bill's enactment.\n\nThe required report must include:\n* The estimated dollar amount of resources dedicated to addressing the border crisis and the extent to which these resources are consequently unavailable to law enforcement agencies;\n* Information on law enforcement officers' exposure to fentanyl during encounters with illegal aliens, including the nationality of those aliens, and any resulting injuries;\n* The impact of the border crisis on officer morale and recruitment;\n* The estimated dollar amounts expended by States on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the U.S. border, including the entire evidence lifecycle from collection to destruction; and\n* The number of officers reassigned and local resources reallocated to these fentanyl-related efforts.\n\nAdditionally, the bill outlines congressional findings stating that the border crisis has strained critical law enforcement resources, placed officers in life-threatening situations, and increased their exposure to fentanyl. The findings also express support for law enforcement officers and advocate for strong border security legislation and executive action to secure the southern border.",
+  "prompt_tokens": 1049,
+  "completion_tokens": 1833,
+  "total_tokens": 2882,
+  "cost_usd": 0.01807,
+  "latency_s": 9.007,
+  "ok": true
+}

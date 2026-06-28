@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8752",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes funding, policy riders, detention requirements, and rescissions; no contradictions with bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all provisions are in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies this as FY2025 DHS appropriations with specific funding and policy restrictions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes specific policy conditions and prohibitions restricting use of funds."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes abortion exceptions (rape, incest, life), narrow circumstances for gender-affirming care, and detention minimum."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Does not specifically mention the 30/180-day contraceptive effective dates; does not misstate them."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding components, border security provisions, ICE requirements, policy prohibitions, and rescissions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by topic."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately selective; captures major provisions without excessive detail."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CBP, ICE, FEMA, CISA, and CBP One app correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$600 million for steel bollard barriers, 50,000 detention beds, $154 million rescission correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

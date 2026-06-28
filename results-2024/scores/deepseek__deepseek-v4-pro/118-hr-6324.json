@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6324",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Project descriptions and highlighted dollar amounts match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; selectively highlights three projects and summarizes others without error."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the act authorizes 11 VA major medical facility projects for FY2024 with a cost ceiling for each."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The act provides new project-specific authorization rather than amending existing law; correctly notes this."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes per-project cost ceilings and the flexible appropriation timing provision."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2024 authorization and November 25, 2024, enactment date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all 11 project locations by name, describes scope, and notes the total appropriation authorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized; highlights key projects while summarizing others."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "More concise than other candidates; highlights major projects and summarizes the rest efficiently."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Department of Veterans Affairs and all project locations correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Highlighted dollar amounts ($759.2M, $613M, $370.37M) and total ~$3.35B match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-7218",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the amendment, authorization amount, and effective dates."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; legislative history details are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as extending funding for Alzheimer's public health awareness."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 398B(e) of the Public Health Service Act at 42 U.S.C. 280c-5(e)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States authorization covers FY2025-2029 and approval date December 11, 2024."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the single substantive change: $33M per year for five years."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Includes unnecessary legislative history details (committee reports, Senate companion bill number, House/Senate passage dates) that add length without informational value for understanding the bill's effect."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Section 398B(e) of the Public Health Service Act and House Committee on Energy and Commerce."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$33M per year for FY2025-2029 accurately stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

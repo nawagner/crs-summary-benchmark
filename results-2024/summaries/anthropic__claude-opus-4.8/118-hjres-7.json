@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution terminates the national emergency that President declared on March 13, 2020, in response to the COVID-19 pandemic. The emergency was originally established through Proclamation 9994, published in the Federal Register at 85 Fed. Reg. 15337.\n\nActing under the authority of Section 202 of the National Emergencies Act (50 U.S.C. 1622), which allows Congress to end a national emergency by passing a joint resolution, this measure formally ends that declared emergency.\n\nThe resolution was passed by the House of Representatives on February 1, 2023, and by the Senate on March 29, 2023. It was approved and became Public Law 118-3 on April 10, 2023.",
+  "prompt_tokens": 616,
+  "completion_tokens": 224,
+  "total_tokens": 840,
+  "cost_usd": 0.00868,
+  "latency_s": 3.979,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hjres-42",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate real-world context about the Home Rule Act process."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the congressional review process under the Home Rule Act is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution as disapproving the D.C. Comprehensive Policing and Justice Reform Amendment Act of 2022."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution does not amend federal law; it exercises oversight to nullify a D.C. act."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions or conditions in this simple disapproval resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No explicit effective date beyond enactment is specified in the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the single operative provision: congressional disapproval of D.C. Act 24-781."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout, no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, logically structured explanation of the resolution and its legal context."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Considerably longer than necessary for a simple one-provision disapproval resolution; includes extensive procedural detail that pads the summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies D.C. Act 24-781, the Home Rule Act section 602(c)(1), and the Senate committee."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates (January 19, January 26, April 19, April 20, 2023) match the bill text."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

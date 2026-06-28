@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Swanson and Hugh Butler Reservoirs Land Conveyances Act directs the Secretary of the Interior to convey certain federal lands at the Swanson and Hugh Butler Reservoirs in Nebraska to Hitchcock County and Frontier County. \n\nWithin three years of enactment (December 23, 2024), the Secretary must make good-faith efforts to negotiate and enter into title transfer agreements with the applicable counties for designated permitted cabin and concession lands. The lands must be conveyed in whole and not subdivided. As a condition of conveyance, the counties must demonstrate the technical and financial capacity to permanently manage the lands and comply with state fire, safety, and health codes within two years of the transfer. \n\nThe counties must pay the fair market value of the land, determined by a third-party appraisal that excludes permit-holder improvements but considers future federal revenue streams. The counties must also cover all survey and administrative costs. The lands must be managed for existing purposes, public recreation, public access, wildlife habitat, or natural preservation. Counties are generally prohibited from reconveying the land, except at no cost to other Nebraska governmental entities under specific conditions, such as demonstrating impending adverse impacts and maintaining public access.\n\nConveyances are subject to existing rights, flowage easements, mineral rights, management agreements, and deed restrictions prohibiting new permanent structures below specified elevations (2,785 feet at Swanson Reservoir and 2,628 feet at Hugh Butler Reservoir). The United States is not liable for flood damage, and counties must indemnify the federal government against related claims. Until conveyances are completed or the three-year deadline expires, existing management agreements remain in effect. If no agreement is reached, the Secretary will manage the lands under applicable law.",
+  "prompt_tokens": 4509,
+  "completion_tokens": 2007,
+  "total_tokens": 6516,
+  "cost_usd": 0.010305,
+  "latency_s": 43.738,
+  "ok": true
+}

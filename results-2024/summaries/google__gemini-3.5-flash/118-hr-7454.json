@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Airport and Airway Extension Act of 2024 temporarily extends the authorization of Federal Aviation Administration (FAA) programs and the taxes and expenditure authority that fund the Airport and Airway Trust Fund. The Act generally shifts the expiration dates of various expiring aviation programs, authorities, and taxes from March 8 or 9, 2024, to May 10 or 11, 2024.\n\nMajor provisions of the Act include:\n* **Federal Aviation Funding:** Authorizes specific funding levels for the period beginning October 1, 2023, and ending May 10, 2024, including $2,041,120,218 for the Airport Improvement Program (AIP), $7,259,685,792 for FAA operations, $1,794,357,923 for air navigation facilities and equipment, and $155,368,852 for research, engineering, and development.\n* **AIP Apportionment Conditions:** Requires the FAA to calculate AIP funding apportionments on an annualized basis of $3.35 billion and then reduce those calculated amounts by 39 percent for the designated period. AIP sums may be obligated through September 30, 2024.\n* **Program Extensions:** Extends project grant authority, aviation insurance, unmanned aircraft systems (UAS) test ranges, and several advisory committees to May 10, 2024. It also increases funding for the Essential Air Service to $216,192,407 for the same period.\n* **Aviation Revenue:** Extends the expenditure authority of the Airport and Airway Trust Fund to May 11, 2024, and extends associated fuel, ticket, and fractional ownership taxes to May 10 or 11, 2024.\n* **Counter-UAS Authorities:** Extends the Department of Homeland Security's counter-UAS authorities to May 11, 2024.",
+  "prompt_tokens": 4439,
+  "completion_tokens": 2675,
+  "total_tokens": 7114,
+  "cost_usd": 0.030734,
+  "latency_s": 11.921,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill authorizes the Department of Veterans Affairs to carry out 11 major medical facility construction and renovation projects during fiscal year 2024. It sets a specific cost ceiling for each project and authorizes a total of approximately $3.35 billion in appropriations for the Construction, Major Projects account.\n\nThe authorized projects are located across the United States and Puerto Rico. They include constructing a new health care center and utility plant in El Paso, Texas (up to $759.2 million); seismic retrofits, renovations, and new construction in Portland, Oregon (up to $613 million); and seismic corrections, a new administrative building, and clinic expansion in San Juan, Puerto Rico (up to $370.37 million). Other projects involve new specialty care, spinal cord injury, surgical, and research facilities; mental health space expansion; community living center replacement; medical center replacement initiation; and various parking, utility, and demolition work. Specific locations are American Lake, Washington; Dallas, Texas; Perry Point, Maryland; Reno, Nevada; San Diego and San Francisco, California; St. Louis, Missouri; and West Haven, Connecticut.\n\nThe bill does not amend existing law; it provides new authorization for these specific projects and their funding. The appropriation authorization is for fiscal year 2024 or the year in which funds are actually appropriated. The bill was enacted on November 25, 2024.",
+  "prompt_tokens": 1089,
+  "completion_tokens": 283,
+  "total_tokens": 1372,
+  "cost_usd": 0.00072,
+  "latency_s": 6.818,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 39 (H.J. Res. 39) is a joint resolution of Congress with the primary purpose of disapproving a specific federal rule issued by the Department of Commerce. Specifically, the resolution targets the rule titled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,\" which was published in the Federal Register at 87 Fed. Reg. 56868.\n\nThe major provision of this resolution is the explicit disapproval of this Department of Commerce rule. By enacting this joint resolution, Congress would nullify the rule, declaring that it shall have no force or effect under the law. This action would prevent the rule's provisions regarding the suspension of liquidation, duties, and estimated duties from being implemented or maintained. \n\nThe resolution contains no material exceptions, conditions, or specific effective dates or deadlines within its text. In terms of its legislative status as of the provided text, the resolution was passed by the House of Representatives on April 28, 2023, and was subsequently received in the Senate on May 1, 2023.",
+  "prompt_tokens": 425,
+  "completion_tokens": 1527,
+  "total_tokens": 1952,
+  "cost_usd": 0.014381,
+  "latency_s": 8.073,
+  "ok": true
+}

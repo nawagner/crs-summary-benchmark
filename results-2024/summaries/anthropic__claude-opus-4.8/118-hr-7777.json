@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Veterans' Compensation Cost-of-Living Adjustment Act of 2024 (Public Law 118-130) directs the Secretary of Veterans Affairs to increase the rates of certain benefits paid to veterans with service-connected disabilities and to survivors of certain disabled veterans, effective December 1, 2024.\n\nThe bill requires the Secretary to raise the dollar amounts that were in effect on November 30, 2024, for the following benefits:\n- Wartime disability compensation (under section 1114 of title 38, U.S. Code);\n- Additional compensation for dependents (section 1115(1));\n- The clothing allowance (section 1162);\n- Dependency and indemnity compensation paid to surviving spouses (section 1311, subsections (a) through (d)); and\n- Dependency and indemnity compensation paid to children (sections 1313(a) and 1314).\n\nThe size of the increase is tied to the cost-of-living adjustment applied to Social Security benefits. Specifically, each covered amount is to be increased by the same percentage as the increase in Social Security benefits under title II of the Social Security Act that takes effect December 1, 2024, as determined under section 215(i) of that Act.\n\nThe Act also permits the Secretary to administratively adjust, consistent with these increases, the disability compensation rates payable to certain persons under section 10 of Public Law 85-857 who have not received compensation under chapter 11 of title 38.\n\nThe Secretary is required to publish the adjusted amounts in the Federal Register no later than the date by which the corresponding Social Security cost-of-living figures must be published for fiscal year 2025.\n\nThe law does not specify a fixed percentage increase itself; it links the increase to the Social Security adjustment. It was approved November 25, 2024.",
+  "prompt_tokens": 1718,
+  "completion_tokens": 582,
+  "total_tokens": 2300,
+  "cost_usd": 0.02314,
+  "latency_s": 7.269,
+  "ok": true
+}

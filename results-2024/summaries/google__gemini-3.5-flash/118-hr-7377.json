@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Royalty Resiliency Act (Public Law 118-81) amends the Federal Oil and Gas Royalty Management Act of 1982 to establish clear timelines and procedures for managing royalties from oil and gas leases under unit or communitization agreements. \n\nUnder the Act, the Secretary is required to issue all determinations of production allocations for these agreements within 120 days of receiving a request. Until the Secretary issues this determination, the lessee or their designee must report and pay royalties on oil and gas production for each month based on the terms of the proposed allocation. \n\nOnce the Secretary's determination is issued, the lessee or designee must correct their reports and royalty payments as necessary. This correction must be completed no later than the end of the third month following the month in which they receive the determination. \n\nAdditionally, the Act requires the Secretary to waive any interest due on obligations subject to the determination until the end of the third month after the lessee or designee receives the determination. This interest waiver is strictly conditional upon the lessee making full and timely monthly royalty payments to all parties in accordance with the proposed allocation terms. \n\nThe Act explicitly excludes any unit or communitization agreements that contain Indian lands from these requirements and provisions.",
+  "prompt_tokens": 854,
+  "completion_tokens": 1237,
+  "total_tokens": 2091,
+  "cost_usd": 0.012414,
+  "latency_s": 6.361,
+  "ok": true
+}

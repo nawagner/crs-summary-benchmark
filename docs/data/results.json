@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-06-28 15:39:15 UTC",
+  "generated_at": "2026-06-28 17:02:54 UTC",
+  "dataset_id": "119",
   "judge_model": "anthropic/claude-opus-4.8",
   "congress": 119,
   "model_ids": [
@@ -253,6 +254,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1226,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -698,6 +700,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1190,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -1143,6 +1146,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1188,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -1588,6 +1592,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1218,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -2033,6 +2038,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1365,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -2478,6 +2484,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1031,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -2923,6 +2930,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1373,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -3368,6 +3376,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1441,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -3813,6 +3822,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1471,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -4258,6 +4268,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 4477,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -4703,6 +4714,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1133,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -5148,6 +5160,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 3236,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -5593,6 +5606,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 5076,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -6038,6 +6052,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 10934,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -6483,6 +6498,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1232,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -6928,6 +6944,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 4406,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -7373,6 +7390,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1767,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -7818,6 +7836,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 2007,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -8263,6 +8282,7 @@
       "crs_version_code": "07",
       "bill_text_chars": 7308,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -8708,6 +8728,7 @@
       "crs_version_code": "07",
       "bill_text_chars": 2844,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -9153,6 +9174,7 @@
       "crs_version_code": "07",
       "bill_text_chars": 6653,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -9598,6 +9620,7 @@
       "crs_version_code": "07",
       "bill_text_chars": 6853,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -10043,6 +10066,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 81173,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -10488,6 +10512,7 @@
       "crs_version_code": "07",
       "bill_text_chars": 4099,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -10933,6 +10958,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 3359,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -11378,6 +11404,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 12191,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -11823,6 +11850,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 2144,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -12268,6 +12296,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 4947,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -12713,6 +12742,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 3586,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -13158,6 +13188,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 3046,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -13603,6 +13634,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1435,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -14048,6 +14080,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 2861,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -14493,6 +14526,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1960,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -14938,6 +14972,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1129,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -15383,6 +15418,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 10668,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -15828,6 +15864,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 2873,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -16273,6 +16310,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1507,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -16718,6 +16756,7 @@
       "crs_version_code": "55",
       "bill_text_chars": 11719,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -17163,6 +17202,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1024,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -17608,6 +17648,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 1553,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -18053,6 +18094,7 @@
       "crs_version_code": "49",
       "bill_text_chars": 1347,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -18498,6 +18540,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 3637,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -18943,6 +18986,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 5431,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -19388,6 +19432,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 5426,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -19833,6 +19878,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 4993,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -20278,6 +20324,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 7119,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -20723,6 +20770,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 5790,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -21168,6 +21216,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 5573,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -21613,6 +21662,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 4331,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",
@@ -22058,6 +22108,7 @@
       "crs_version_code": "00",
       "bill_text_chars": 2228,
       "text_truncated": false,
+      "actions_count": null,
       "candidates": {
         "anthropic__claude-opus-4.8": {
           "label": "anthropic/claude-opus-4.8",

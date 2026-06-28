@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill repeals a federal restriction on how the Constitution of American Samoa may be amended. Its primary purpose is to restore the ability of the people of American Samoa to approve amendments to their territorial constitution by majority rule, without requiring further congressional action.\n\nThe bill eliminates Section 12 of Public Law 98-213, which had imposed a limitation on amendments or modifications to the Constitution of American Samoa. By striking that provision, the bill removes the prior federal restriction and returns authority over constitutional amendments to the territory’s residents, acting through a democratic process of self-determination.\n\nThe bill explicitly recognizes that this authority is exercised under an existing delegation of federal territorial law administration to the President and the Secretary of the Interior, as established by Executive Order 10264 in 1951. It also acknowledges that Congress retains ultimate authority over the territory under the Territorial Clause of the United States Constitution. The bill does not create new procedures or impose new conditions; it simply repeals the prior statutory restriction. The repeal took effect upon the bill’s enactment on January 4, 2025.",
+  "prompt_tokens": 502,
+  "completion_tokens": 216,
+  "total_tokens": 718,
+  "cost_usd": 0.000406,
+  "latency_s": 3.981,
+  "ok": true
+}

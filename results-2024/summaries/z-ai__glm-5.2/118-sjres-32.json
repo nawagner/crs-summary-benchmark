@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 32 is a joint resolution introduced in the 118th Congress that provides for congressional disapproval of a specific rule submitted by the Bureau of Consumer Financial Protection. The rule in question, published in the Federal Register on May 31, 2023, relates to \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B).\" \n\nThe resolution exercises Congress's authority under chapter 8 of title 5 of the United States Code, commonly known as the Congressional Review Act, to review and reject federal agency rules. The primary provision of the bill is a formal declaration that Congress disapproves the aforementioned Bureau of Consumer Financial Protection rule. Furthermore, the resolution stipulates that the disapproved rule shall have no force or effect, effectively nullifying the regulation. \n\nThe Senate passed the joint resolution on October 18, 2023. The bill contains no additional provisions, exceptions, or conditions beyond the direct disapproval and nullification of the specified rule.",
+  "prompt_tokens": 448,
+  "completion_tokens": 849,
+  "total_tokens": 1297,
+  "cost_usd": 0.002973,
+  "latency_s": 13.197,
+  "ok": true
+}

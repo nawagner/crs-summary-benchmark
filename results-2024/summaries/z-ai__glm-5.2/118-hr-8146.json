@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Police Our Border Act requires the Attorney General to submit a report to Congress detailing the impact of the border crisis on Federal, State, local, and Tribal law enforcement officers. No later than 180 days after the date of enactment, the Attorney General must provide a report that addresses several specific areas. \n\nThe report must include the estimated dollar amount of resources devoted to addressing the border crisis that are consequently unavailable to law enforcement agencies. It must also cover the exposure of law enforcement officers to fentanyl resulting from encounters with illegal aliens at the border and within the United States, including the nationality of each such alien, as well as any injuries to officers connected to the crisis or fentanyl exposure. \n\nAdditionally, the report must assess the morale of law enforcement officers and the impact of the border crisis on law enforcement recruiting and hiring. It must provide the estimated dollar amount that states have expended on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the United States border, covering the entire evidence lifecycle from collection and analysis to storage and final destruction. Finally, the report must state how many law enforcement officers have been reassigned and how many local resources have been reallocated for these fentanyl-related efforts. The Act also includes congressional findings regarding the strain on law enforcement resources and officer safety due to the border crisis.",
+  "prompt_tokens": 949,
+  "completion_tokens": 1021,
+  "total_tokens": 1970,
+  "cost_usd": 0.003965,
+  "latency_s": 26.184,
+  "ok": true
+}

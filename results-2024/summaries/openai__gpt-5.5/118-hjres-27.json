@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, a rule issued by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency titled “Revised Definition of ‘Waters of the United States’,” published in the Federal Register on January 18, 2023, at 88 Fed. Reg. 3004.\n\nThe resolution’s effect is to nullify that rule, providing that it shall have no force or effect. The bill text does not include additional provisions, exceptions, conditions, deadlines, or separate effective dates.",
+  "prompt_tokens": 414,
+  "completion_tokens": 121,
+  "total_tokens": 535,
+  "cost_usd": 0.0057,
+  "latency_s": 2.39,
+  "ok": true
+}

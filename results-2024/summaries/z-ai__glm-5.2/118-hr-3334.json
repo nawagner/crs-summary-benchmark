@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill requires the President to impose sanctions on certain members of the Chinese Communist Party (CCP) and related individuals and entities. Within 30 days of enactment, the President must block the property and revoke the U.S. visas of members of the CCP Central Committee, including alternate members, whom the President determines play a significant role in developing or implementing policies designed to violate Hong Kong's autonomy, increase aggression toward Taiwan, contribute to human rights violations within China (including against Uyghur Muslims), or interfere with U.S. elections. Sanctions also apply to adult family members of these individuals, members of any successor organization to the Central Committee, and Chinese state-owned enterprises involved in the illegal manufacture or distribution of fentanyl or its precursor chemicals.\n\nSanctions involve blocking property transactions under the International Emergency Economic Powers Act and rendering targeted aliens ineligible for U.S. visas, admission, or parole, with existing visas revoked immediately. \n\nThe bill includes several exceptions. Sanctions do not apply to actions necessary for U.S. compliance with the United Nations Headquarters Agreement, authorized U.S. intelligence or law enforcement activities, or the importation of goods. The President may waive sanctions for up to 60 days if certifying to Congress at least 15 days in advance that the waiver is vital to U.S. national security; this waiver authority expires two years after enactment. The President may terminate sanctions after providing a 15-day prior notice to Congress and publishing the certification, either if the PRC and CCP cease specified actions—including ending the genocide of Uyghurs, ceasing oppression of Tibetans, stopping aggression toward Taiwan, restoring Hong Kong's autonomy, and ending intellectual property theft—or if the sanctioned individual renounces CCP membership and remediates their conduct, or if a sanctioned enterprise ceases fentanyl-related activities.",
+  "prompt_tokens": 3485,
+  "completion_tokens": 1651,
+  "total_tokens": 5136,
+  "cost_usd": 0.008264,
+  "latency_s": 58.053,
+  "ok": true
+}

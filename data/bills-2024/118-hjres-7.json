@@ -1,0 +1,20 @@
+{
+  "bill_id": "118-hjres-7",
+  "congress": 118,
+  "type": "hjres",
+  "number": "7",
+  "title": "Relating to a national emergency declared by the President on March 13, 2020.",
+  "origin_chamber": "House",
+  "congress_gov_url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/7",
+  "crs_summary": "This joint resolution terminates the national emergency concerning COVID-19 declared by the President on March 13, 2020.",
+  "crs_version_code": "49",
+  "crs_action_date": "2023-04-10",
+  "crs_action_desc": "Public Law",
+  "bill_text": "[118th Congress Public Law 3]\n[From the U.S. Government Publishing Office]\n\nPublic Law 118-3\n118th Congress\n\n Joint Resolution\n\nRelating to a national emergency declared by the President on March 13, \n 2020. <<NOTE: Apr. 10, 2023 - [H.J. Res. 7]>> \n\n Resolved by the Senate and House of Representatives of the United \nStates of America in Congress assembled, <<NOTE: 50 USC 1621 note.>> \nThat, pursuant to section 202 of the National Emergencies Act (50 U.S.C. \n1622), the national emergency declared by the finding of the President \non March 13, 2020, in Proclamation 9994 (85 Fed. Reg. 15337) is hereby \nterminated.\n\n Approved April 10, 2023.\n\nLEGISLATIVE HISTORY--H.J. Res. 7:\n---------------------------------------------------------------------------\n\nCONGRESSIONAL RECORD, Vol. 169 (2023):\n Feb. 1, considered and passed House.\n Mar. 29, considered and passed Senate.\n\n <all>",
+  "bill_text_chars": 881,
+  "bill_text_tokens_est": 220,
+  "text_truncated": false,
+  "text_url": "https://www.congress.gov/118/plaws/publ3/PLAW-118publ3.htm",
+  "actions_count": 28,
+  "summary_versions": 4
+}

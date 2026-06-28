@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-3, a joint resolution designated as H.J. Res. 7 of the 118th Congress, was enacted to terminate the national emergency originally declared by the President of the United States on March 13, 2020. \n\nSpecifically, the resolution exercises authority under section 202 of the National Emergencies Act, which is codified at section 1622 of title 50, United States Code. By invoking this statutory provision, the joint resolution officially terminates the national emergency that was established under Proclamation 9994, published in volume 85 of the Federal Register at page 15337. \n\nThe legislative history of the joint resolution indicates that it was considered and passed by the House of Representatives on February 1, 2023, and subsequently considered and passed by the Senate on March 29, 2023. The resolution officially became law upon receiving presidential approval on April 10, 2023. The text of the law does not contain any exceptions, conditions, or transitional periods, resulting in the immediate termination of the specified national emergency on the date of its approval.",
+  "prompt_tokens": 444,
+  "completion_tokens": 1622,
+  "total_tokens": 2066,
+  "cost_usd": 0.015264,
+  "latency_s": 7.537,
+  "ok": true
+}

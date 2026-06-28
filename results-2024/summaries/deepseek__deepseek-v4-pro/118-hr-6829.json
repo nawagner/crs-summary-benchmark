@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The HEARTS Act of 2024 amends the Public Health Service Act to add four sections focused on cardiomyopathy education, awareness, research, and school access to automated external defibrillators (AEDs) and cardiopulmonary resuscitation (CPR). The Act requires the Secretary of Health and Human Services, within 18 months, to develop public",
+  "prompt_tokens": 3316,
+  "completion_tokens": 4000,
+  "total_tokens": 7316,
+  "cost_usd": 0.004922,
+  "latency_s": 68.308,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution terminates the national emergency declared by the President on March 13, 2020, in Proclamation 9994, as published at 85 Federal Register 15337.\n\nThe resolution acts under section 202 of the National Emergencies Act, which provides a mechanism for ending a national emergency. By operation of this law, the specified national emergency is ended. The resolution does not create a replacement emergency declaration, establish new programs, impose new requirements, or amend other statutory provisions beyond recording the termination of that emergency under the National Emergencies Act.\n\nThe law contains no stated exceptions, transition rules, or delayed implementation provisions. It was approved on April 10, 2023, and the termination applies pursuant to the enacted resolution.",
+  "prompt_tokens": 381,
+  "completion_tokens": 505,
+  "total_tokens": 886,
+  "cost_usd": 0.017055,
+  "latency_s": 11.605,
+  "ok": true
+}

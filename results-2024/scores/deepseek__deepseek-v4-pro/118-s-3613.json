@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-s-3613",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All provisions, deadlines, and scope limitations accurately described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: FSC response requirement for FPS recommendations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes new requirements for FSCs and DHS."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes scope limitation to GSA/fee-paying facilities, no-additional-funds, and 5-year sunset."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "All major deadlines correctly stated: 90 days, 270 days, 180 days, and 5-year sunset."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All major provisions covered: FSC response, DHS monitoring, annual reports, surveillance tech report, scope, sunset, GAO report."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and comprehensive."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very detailed; enumerates all seven annual report content elements which adds length beyond what a summary typically requires."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FPS, DHS, GSA, and Comptroller General correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All deadlines correctly stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

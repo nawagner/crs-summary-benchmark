@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a specific federal regulation.\n\nThe rule being targeted was issued by the United States Fish and Wildlife Service and is titled \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,\" published in the Federal Register at 87 Fed. Reg. 73488 on November 30, 2022. That rule reclassified the northern long-eared bat's status under the Endangered Species Act, listing it as an endangered species.\n\nUnder this resolution, Congress formally disapproves of that rule. As a result, the rule \"shall have no force or effect,\" meaning it would not be implemented or enforced. The Congressional Review Act mechanism allows Congress to nullify recently finalized agency regulations through a joint resolution of disapproval; if such a resolution is enacted, the underlying rule is treated as though it had never taken effect.\n\nThe resolution contains no other provisions, exceptions, or conditions, and it specifies no separate effective date. To take legal effect, the resolution would need to pass both chambers of Congress and be signed by the President (or have a veto overridden). The text indicates that it passed the Senate on May 11, 2023.",
+  "prompt_tokens": 795,
+  "completion_tokens": 427,
+  "total_tokens": 1222,
+  "cost_usd": 0.01465,
+  "latency_s": 7.464,
+  "ok": true
+}

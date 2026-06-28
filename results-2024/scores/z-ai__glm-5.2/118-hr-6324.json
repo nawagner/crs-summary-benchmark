@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-6324",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All project descriptions, locations, and dollar amounts match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; minor typo ('eachproject') is a formatting issue not a factual error."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the act as authorizing 11 VA major medical facility projects for FY2024."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The act provides new project-specific authorization rather than amending existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes per-project spending caps for all 11 projects."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2024 authorization and November 25, 2024, approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all 11 projects and the $3,354,048,000 appropriation authorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized; the minor typo does not impair readability."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Itemizes all 11 projects individually with full descriptions; more detailed than needed for a summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "VA Secretary and all project locations correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All per-project amounts and the total $3,354,048,000 match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law repeals an existing restriction on how the Constitution of American Samoa may be amended.\n\nSpecifically, the Act repeals Section 12 of Public Law 98-213 (codified at 48 U.S.C. 1662a). Under that prior provision, amendments to or modifications of the American Samoa constitution were subject to a restriction requiring congressional action. By removing this provision, the law restores the process under which the American Samoa constitution—originally approved and amendable through authority delegated to the President and the Secretary of the Interior pursuant to Executive Order 10264 (dated June 29, 1951)—may be amended without requiring further action by Congress. As stated in the bill's title, the stated aim is to allow the people of American Samoa to approve constitutional amendments based on majority rule as an act of self-determination, while noting that this remains subject to Congress's authority under the Territorial Clause (Article IV, Section 3, Clause 2 of the U.S. Constitution).\n\nThe Act consists of a single operative provision and contains no additional conditions or exceptions. It was approved and became effective on January 4, 2025.",
+  "prompt_tokens": 858,
+  "completion_tokens": 362,
+  "total_tokens": 1220,
+  "cost_usd": 0.01334,
+  "latency_s": 5.58,
+  "ok": true
+}

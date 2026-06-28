@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "openai/gpt-5.5",
+  "summary": "The Think Differently About Emergencies Act requires federal review and reporting on how the Federal Emergency Management Agency assists people with disabilities and their families in connection with major disasters.\n\nWithin 120 days of enactment, the FEMA Administrator must report to the House Committee on Transportation and Infrastructure and the Senate Committee on Homeland Security and Governmental Affairs on assistance and resources provided to states, localities, nonprofit organizations, and directly to individuals with intellectual and developmental disabilities and their families who are affected by major disasters declared under the Robert T. Stafford Disaster Relief and Emergency Assistance Act. The report must describe available resources and best practices; explain how FEMA trains and deploys personnel to coordinate with states, localities, and nonprofits after disasters; list FEMA-administered programs that support disaster preparedness and recovery for these individuals, including accommodations; describe outreach to state, local, and nonprofit experts; and identify areas for improvement in supporting preparedness and recovery.\n\nWithin one year of enactment, both the Comptroller General of the United States and the FEMA Administrator must separately review FEMA assistance and resources provided to states, localities, nonprofits, and individuals to assist people with intellectual and developmental disabilities, people with physical disabilities, and their families. Each must identify potential legal impediments and provide Congress with recommendations to improve assistance and resources, enhance coordination with states, localities, and nonprofit organizations, streamline applications and delivery of assistance, and identify any needed legislative reforms.\n\nThe Act does not amend the Stafford Act or other existing statutes; it establishes reporting, review, and recommendation requirements.",
+  "prompt_tokens": 1176,
+  "completion_tokens": 368,
+  "total_tokens": 1544,
+  "cost_usd": 0.01692,
+  "latency_s": 6.389,
+  "ok": true
+}

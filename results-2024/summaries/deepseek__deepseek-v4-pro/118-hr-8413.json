@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Swanson and Hugh Butler Reservoirs Land Conveyances Act directs the Secretary of the Interior to negotiate the transfer of certain federal lands at Swanson Reservoir and Hugh Butler Reservoir in Nebraska to Hitchcock County and Frontier County, respectively. The lands include designated cabin and concession areas at each reservoir. Within three years of enactment, the Secretary must make good faith efforts to enter into title transfer agreements with each county. The agreements must convey the land in whole without subdivision and require the counties to demonstrate the technical and financial capability to permanently operate and maintain the land, as well as a plan to meet state fire, safety, and health codes within two years after conveyance.\n\nAs consideration, the counties must pay fair market value determined by an independent appraisal that excludes permit-holder improvements and accounts for future federal revenue streams. The counties also bear all survey and administrative transfer costs. Conveyed land must be managed for substantially the same purposes as on the date of enactment, or for public recreation, public access, fish and wildlife habitat, or natural preservation. The counties generally may not reconvey the land, except to another Nebraska governmental entity if certain conditions are met, including continued public access and management for the same purposes.\n\nAll conveyances are subject to existing rights, Pick-Sloan Missouri Basin Program operational requirements, flowage easements, mineral reservations, and deed restrictions prohibiting new permanent structures below specified elevations. The United States retains no liability for flood damage or other claims arising after enactment, and the counties must indemnify the federal government for claims related to the dams, reservoirs, or conveyance process. Temporary flooding is not considered a taking. Existing management agreements and permits remain in effect until the later of three years or the date of conveyance; if no agreement is reached within three years, the Secretary manages the lands under existing law.",
+  "prompt_tokens": 4411,
+  "completion_tokens": 1596,
+  "total_tokens": 6007,
+  "cost_usd": 0.003307,
+  "latency_s": 23.551,
+  "ok": true
+}

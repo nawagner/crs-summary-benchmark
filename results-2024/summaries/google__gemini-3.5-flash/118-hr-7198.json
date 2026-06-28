@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Prove It Act of 2024\" (H.R. 7198) amends federal law to increase transparency and oversight regarding how federal regulations impact small businesses. \n\nUnder the Act, agencies must analyze and disclose reasonably foreseeable indirect costs that proposed rules may impose on small entities. The bill establishes a new process allowing small entities to petition the Chief Counsel for Advocacy of the Small Business Administration (SBA) to review an agency’s certification that a proposed rule will not have a significant economic impact on a substantial number of small entities. The Chief Counsel must make an initial determination on a petition within 10 days. If a full review is warranted, the Chief Counsel must convene a meeting with the agency, the petitioner, and the Office of Information and Regulatory Affairs, and publish the results within 30 days. If the Chief Counsel finds a significant impact, the agency must perform initial and final regulatory flexibility analyses. If an agency fails to participate in this review, the final rule will not apply to small entities.\n\nAdditionally, agencies must publish all guidance documents and accept public comments on regulations.gov for rules with significant small-entity impacts. Finally, the Act requires agencies to consider indirect costs during periodic 10-year reviews of existing rules. If an agency fails to conduct this 10-year review, the rule ceases to be effective. To reinstate the rule, the agency must publish a notice, solicit public comments, and complete the review within 180 days. This review penalty applies to rules issued within five years prior to, or on or after, the bill's enactment.",
+  "prompt_tokens": 3306,
+  "completion_tokens": 2176,
+  "total_tokens": 5482,
+  "cost_usd": 0.024543,
+  "latency_s": 10.18,
+  "ok": true
+}

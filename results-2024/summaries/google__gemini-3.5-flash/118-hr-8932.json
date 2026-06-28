@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The FAFSA Deadline Act (Public Law 118-145) establishes an earlier, fixed deadline for the annual Free Application for Federal Student Aid (FAFSA) application processing cycle and introduces new congressional oversight requirements for the Department of Education. \n\nSpecifically, the Act amends the Higher Education Act of 1965 by changing the start date of the FAFSA application processing cycle. Under previous law, the cycle was required to begin no later than January 1 of the applicant's planned year of enrollment, with a goal of starting on or around October 1 to the maximum extent practicable. The Act replaces this flexible timeline with a strict requirement that the processing cycle must begin not later than October 1 prior to the applicant's planned year of enrollment.\n\nAdditionally, the Act establishes certification and testimony requirements for the Secretary of Education prior to the start of each processing cycle. No later than September 1 of each year, the Secretary must certify to the authorizing congressional committees whether the Department of Education will or will not meet the October 1 deadline. If the Secretary certifies that the Department will fail to meet the deadline, the Secretary must testify before the authorizing committees no later than September 30. This testimony must address the anticipated failure to meet the deadline as well as the expected financial impact of the delay on students and families.",
+  "prompt_tokens": 885,
+  "completion_tokens": 1313,
+  "total_tokens": 2198,
+  "cost_usd": 0.013145,
+  "latency_s": 6.548,
+  "ok": true
+}

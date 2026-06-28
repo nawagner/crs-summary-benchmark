@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution invokes the Congressional Review Act (chapter 8 of title 5, United States Code), which allows Congress to overturn federal agency rules.\n\nThe resolution expresses Congress's formal disapproval of a rule issued by the Department of Labor titled \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,\" published in the Federal Register on December 1, 2022 (87 Fed. Reg. 73822). If enacted, the resolution provides that this rule \"shall have no force or effect,\" meaning the rule would be nullified and could not be implemented.\n\nThe text notes that the resolution passed the House of Representatives on February 28, 2023, and was received in the Senate on March 1, 2023.\n\nThe resolution itself contains no additional provisions, exceptions, conditions, or effective dates beyond the disapproval of the specified rule. It does not describe the substance of the Department of Labor rule it targets.",
+  "prompt_tokens": 674,
+  "completion_tokens": 312,
+  "total_tokens": 986,
+  "cost_usd": 0.01117,
+  "latency_s": 4.921,
+  "ok": true
+}

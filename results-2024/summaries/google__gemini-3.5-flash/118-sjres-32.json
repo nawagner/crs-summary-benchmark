@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 32 is a joint resolution introduced in the 118th Congress that provides for congressional disapproval of a specific federal regulation. The primary purpose of the resolution is to nullify the rule submitted by the Bureau of Consumer Financial Protection (CFPB) regarding \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B),\" which was published in the Federal Register on May 31, 2023 (88 Fed. Reg. 35150).\n\nThe resolution is brought under chapter 8 of title 5 of the United States Code, which outlines the process for congressional disapproval of agency rules. The major provision of the resolution states that Congress disapproves of the CFPB's small business lending rule and declares that the rule shall have no force or effect. By passing this resolution, Congress would prevent the rule from being implemented or enforced under existing law.\n\nThe joint resolution is resolved by both the Senate and the House of Representatives of the United States of America in Congress assembled. The text indicates that the resolution passed the Senate on October 18, 2023, and was attested by the Secretary of the Senate. The bill text does not contain any material exceptions, conditions, or specific future deadlines for its provisions.",
+  "prompt_tokens": 483,
+  "completion_tokens": 1616,
+  "total_tokens": 2099,
+  "cost_usd": 0.015268,
+  "latency_s": 8.189,
+  "ok": true
+}

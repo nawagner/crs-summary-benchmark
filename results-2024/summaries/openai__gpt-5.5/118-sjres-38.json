@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would exercise Congress’s authority under chapter 8 of title 5, United States Code, commonly known as the Congressional Review Act, to disapprove a rule submitted by the Federal Highway Administration.\n\nThe rule at issue is titled “Waiver of Buy America Requirements for Electric Vehicle Chargers” and was published in the Federal Register on February 21, 2023, at 88 Fed. Reg. 10619. That rule concerned a waiver of Buy America requirements for electric vehicle chargers.\n\nThe resolution provides that Congress disapproves the Federal Highway Administration rule and that the rule “shall have no force or effect.” If enacted, the resolution would nullify that rule rather than amend the underlying Buy America statutes directly. The text does not include additional exceptions, transition provisions, deadlines, or delayed effective dates.",
+  "prompt_tokens": 422,
+  "completion_tokens": 363,
+  "total_tokens": 785,
+  "cost_usd": 0.013,
+  "latency_s": 15.795,
+  "ok": true
+}

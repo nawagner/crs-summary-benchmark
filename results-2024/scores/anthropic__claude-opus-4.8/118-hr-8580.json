@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8580",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims about bill provisions appear consistent with the bill text excerpt and the known content of this appropriations bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The specific policy riders mentioned (gender-affirming care ban, abortion restrictions, DEI prohibition, CRT, COVID mandates) are consistent with known provisions of this bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Appropriations bills set spending levels rather than making permanent law changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key conditions like notification requirements, caps on planning/design funds, and major policy riders."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 coverage, construction funds available through September 30, 2029, and VA medical accounts available October 1, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major titles (I, II, III, IV) and key appropriations categories with notable conditions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": false,
+      "why": "Uses a markdown header format and bullet structure appropriate for reference but includes detailed policy rider descriptions; however the substance is factual without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear title-by-title structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Very long and detailed, covering granular provisions that go well beyond a high-level summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names VA, DOD, and related agencies."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies FY2025 and September 30, 2029 availability dates for construction funds, consistent with the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

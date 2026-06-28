@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Accelerating Appraisals and Conservation Efforts Act (AACE Act), Public Law 118-230, establishes a policy on appraisal and valuation services for real property in transactions under the jurisdiction of the Secretary of the Interior.\n\nThe bill's central provision allows a \"covered appraiser\" (a state-licensed or state-certified real property appraiser) to be licensed or certified in only one state in order to perform appraisal or valuation services for real property in any state, provided the work is for a transaction over which the Secretary of the Interior has jurisdiction. This changes prior law: any federal or state law enacted before this Act that requires an appraiser to be licensed in a specific state to work in that state no longer applies to such transactions. Outside of these transactions, existing licensing requirements continue to apply, and the Act does not otherwise alter the application of federal or state laws to non-federal appraisers.\n\nWhen the Secretary uses a non-federal appraiser, the Secretary must, to the maximum extent practicable, use a certified general real property appraiser licensed in the state where the property is located. An appraiser licensed in another state may be used only if the Secretary determines that an in-state appraiser is unavailable within a reasonable time, not qualified for the assignment, or not cost competitive.\n\nThe Act requires the Secretary to submit a report to Congress within one year of enactment and annually for at least four more years. Each report must compare the number of appraisal requests and completion times before and after enactment, assess the impact of the new flexibility, offer recommendations, provide an overview of the Department's appraisal workforce, and list all cases where this authority was used and the criteria applied.\n\nWithin 90 days of enactment, the Department must make publicly available online all policies, manuals, guidance, handbooks, and procedures related to scoping, contracting, and reviewing appraisals.\n\nThe Act was approved January 4, 2025.",
+  "prompt_tokens": 2694,
+  "completion_tokens": 613,
+  "total_tokens": 3307,
+  "cost_usd": 0.028795,
+  "latency_s": 9.478,
+  "ok": true
+}

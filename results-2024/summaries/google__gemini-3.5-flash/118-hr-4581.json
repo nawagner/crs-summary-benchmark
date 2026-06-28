@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Maternal and Child Health Stillbirth Prevention Act of 2024, enacted on July 12, 2024, amends Title V of the Social Security Act to support stillbirth prevention and research. The primary purpose of the Act is to clarify that federal maternal and child health funds may be used for activities and research aimed at reducing the incidence of stillbirth.\n\nSpecifically, the Act amends Section 501(a) of the Social Security Act by adding stillbirth reduction to the authorized purposes of the program. It also explicitly permits the use of funds for evidence-based programs, activities, and outcome research. Under the amended law, permissible activities include:\n* Tracking and raising awareness of fetal movements;\n* Improving birth timing for pregnancies with risk factors;\n* Encouraging safe sleeping positions during pregnancy;\n* Screening and surveillance for fetal growth restriction;\n* Supporting smoking cessation efforts during pregnancy;\n* Providing community-based programs, such as home visits or other support; and\n* Conducting other research or evidence-based programming designed to prevent stillbirths.\n\nThe Act does not contain any material exceptions, special conditions, or specific effective dates or deadlines beyond its enactment.",
+  "prompt_tokens": 717,
+  "completion_tokens": 1499,
+  "total_tokens": 2216,
+  "cost_usd": 0.014566,
+  "latency_s": 6.961,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Department of Homeland Security Appropriations Act, 2025, provides funding for the Department of Homeland Security (DHS) and its component agencies for the fiscal year ending September 30, 2025. \n\nThe bill allocates funding across several major areas. For security and enforcement, it funds U.S. Customs and Border Protection (CBP), U.S. Immigration and Customs Enforcement (ICE), the Transportation Security Administration, the Coast Guard, and the Secret Service. Notably, it mandates maintaining at least 50,000 ICE detention beds, requires physical barrier construction ($600 million) to begin within 120 days of enactment, and requires mandatory GPS monitoring for all individuals on ICE's non-detained docket. For preparedness and recovery, it funds the Cybersecurity and Infrastructure Security Agency and the Federal Emergency Management Agency, including $22.74 billion for the Disaster Relief Fund. It also funds USCIS E-Verify operations, the Federal Law Enforcement Training Centers, and the Science and Technology Directorate.\n\nThe bill introduces significant policy restrictions and changes to existing operations. It prohibits funds from being used to dismantle existing border barriers, utilize the CBP One application for alien parole, or implement specific civil immigration enforcement guidelines. It also blocks funding for abortions (except in cases of rape, incest, or threat to the mother's life), gender-affirming care for ICE detainees, the DHS Equity Action Plan, several climate-related Executive Orders, and a Disinformation Governance Board. Additionally, it defunds the salary of the DHS Secretary and reduces the salary of a specific USCIS officer to $1.\n\nMaterial conditions and effective dates include prohibiting cost-sharing for prescription contraceptives for Coast Guard members and dependents (effective 30 days after enactment) and mandating 365-day contraceptive supply coverage (effective 180 days after enactment). Finally, the bill rescinds $600 million in prior border barrier funding and $154 million from the DHS Nonrecurring Expenses Fund.",
+  "prompt_tokens": 32226,
+  "completion_tokens": 2958,
+  "total_tokens": 35184,
+  "cost_usd": 0.074961,
+  "latency_s": 13.799,
+  "ok": true
+}

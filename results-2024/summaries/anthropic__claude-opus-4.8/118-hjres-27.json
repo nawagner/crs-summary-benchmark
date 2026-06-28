@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a specific federal rule.\n\nThe rule in question is the \"Revised Definition of 'Waters of the United States,'\" which was jointly issued by the Department of the Army, Corps of Engineers, the Department of Defense, and the Environmental Protection Agency. This rule was published in the Federal Register at 88 Fed. Reg. 3004 on January 18, 2023, and it establishes how the term \"waters of the United States\" is defined for regulatory purposes (a definition that determines the scope of federal authority over various bodies of water).\n\nUnder the resolution, Congress formally disapproves this rule, and the rule \"shall have no force or effect.\" In practical terms, if enacted, the resolution would block the rule from being implemented or enforced.\n\nThe document indicates that the resolution passed the House of Representatives on March 9, 2023, and was received in the Senate on March 14, 2023. The text itself contains no other provisions, exceptions, conditions, or effective dates beyond the disapproval of the identified rule.",
+  "prompt_tokens": 700,
+  "completion_tokens": 373,
+  "total_tokens": 1073,
+  "cost_usd": 0.012825,
+  "latency_s": 5.301,
+  "ok": true
+}

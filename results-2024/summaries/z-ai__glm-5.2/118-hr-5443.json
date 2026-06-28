@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Accelerating Appraisals and Conservation Efforts Act establishes a policy for appraisal and valuation services for real property transactions under the jurisdiction of the Secretary of the Interior. The Act's primary provision allows a covered appraiser to perform services for any such transaction if they are licensed or certified in at least one state, regardless of where the property is located. This changes existing law by superseding prior Federal or State requirements that an appraiser must be licensed in the specific state where the property is situated for these transactions.\n\nWhen using a non-Federal appraiser, the Secretary must, to the maximum extent practicable, use one licensed in the state where the property is located. The Secretary may only use an appraiser licensed in another state if a local appraiser is unavailable within a reasonable time, not qualified for the assignment, or not cost competitive. The Act clarifies that it does not authorize appraisers to perform services in states where they are unlicensed, except for these specific federal transactions, and it does not otherwise affect the application of other state or federal laws to appraisers.\n\nThe Act requires the Secretary to submit a report to Congress within one year of enactment and annually for the following four years. These reports must compare the volume and completion times of appraisal requests before and after the Act, assess the impact of the new flexibility, offer efficiency recommendations, detail the Department of the Interior's appraisal workforce, and list all cases where the Act's cross-state licensing authority was used. Additionally, within 90 days of enactment, the Department must make all relevant appraisal policies, manuals, and guidance documents publicly available online and upon request.",
+  "prompt_tokens": 1627,
+  "completion_tokens": 1160,
+  "total_tokens": 2787,
+  "cost_usd": 0.005026,
+  "latency_s": 9.031,
+  "ok": true
+}

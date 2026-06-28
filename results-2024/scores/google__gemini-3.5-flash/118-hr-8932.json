@@ -1,0 +1,72 @@
+{
+  "bill_id": "118-hr-8932",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary repeatedly says 'initiate the processing cycle' rather than make FAFSA 'available,' and describes the change as setting the 'start date of the FAFSA application processing cycle,' which slightly misconstrues the amendment; however the core substance (the October 1 deadline replacing January 1 flexibility) is correct, so this is borderline. The bigger issue is saying 'processing cycle must begin' rather than 'FAFSA must be available'—the bill text says the Secretary must make the application available and initiate processing, but the summary's framing is close enough to pass on accuracy overall."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the purpose: establishing an earlier fixed FAFSA deadline and adding congressional oversight."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the amendment to the Higher Education Act of 1965 replacing the flexible January 1 deadline with a firm October 1 requirement."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly covers the certification and testimony requirements."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies October 1 as the new FAFSA deadline and September 1 for certification."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the deadline change and the certification/testimony requirements."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Secretary of Education, Department of Education, and Higher Education Act."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "October 1, September 1, September 30 dates are all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+}

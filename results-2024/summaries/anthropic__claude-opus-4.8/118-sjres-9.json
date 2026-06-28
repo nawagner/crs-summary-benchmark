@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation issued by the United States Fish and Wildlife Service.\n\nThe targeted rule, titled \"Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment,\" was published in the Federal Register on November 25, 2022 (87 Fed. Reg. 72674). That rule provided protections under the Endangered Species Act for the lesser prairie-chicken, designating the species' northern population segment as \"threatened\" (with an accompanying section 4(d) rule governing prohibited activities) and its southern population segment as \"endangered.\"\n\nThe resolution states that Congress disapproves of this rule and that the rule \"shall have no force or effect.\" Under the Congressional Review Act, this means the regulation would be nullified and the agency would generally be barred from issuing a substantially similar rule unless specifically authorized by a subsequent law.\n\nThe resolution does not contain additional provisions, exceptions, or effective dates beyond its disapproval of the specified rule.\n\nThe document notes that the resolution passed the Senate on May 3, 2023. For a Congressional Review Act resolution to take effect, it must also pass the House of Representatives and be signed by the President (or have a presidential veto overridden).",
+  "prompt_tokens": 944,
+  "completion_tokens": 493,
+  "total_tokens": 1437,
+  "cost_usd": 0.017045,
+  "latency_s": 8.528,
+  "ok": true
+}

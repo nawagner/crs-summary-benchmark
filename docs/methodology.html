@@ -47,17 +47,30 @@
   <h2>4. The judge</h2>
   <div class="card">A single strong model, <span id="m-judge">…</span>, scores each summary against the bill
   text (the ground truth) and returns a pass/fail plus a one-line reason per criterion.
+  <p><strong>Known limitation — not validated against human judgments.</strong> The pass/fail verdicts here are
+  the LLM judge's alone. They have <em>not</em> yet been compared against human experts applying the same criteria
+  to the same summaries, so there is no measure of how often the judge and a human would agree on what counts as a
+  pass or a fail. Where a criterion is a close call, the judge's boundary may differ from a human's, and some
+  verdicts are genuinely contestable. Treat the scores as one consistent automated rater's opinion, not ground
+  truth. A human-agreement study (inter-rater reliability on a sample of bills) is the most important next step.</p>
   <p><strong>Known limitation — self-preference.</strong> This judge (Opus 4.8) is also one of the contestants,
   so some bias toward the Claude summaries is possible. The grading of the human CRS summaries on the same
-  rubric is the safeguard: if the judge were badly miscalibrated, the human baseline would not score sensibly.
+  rubric is a partial safeguard: if the judge were badly miscalibrated, the human baseline would not score sensibly.
   The judge is a single configuration line to swap, and a multi-judge panel is a natural extension.</p>
-  <p style="margin-bottom:0"><strong>Disclosure — judge access path.</strong> The judge model is
-  <code>anthropic/claude-opus-4.8</code> with live web search throughout. Because the OpenRouter account's credits
-  were exhausted at points during the run, some judgments were made via the OpenRouter web plugin and others by the
-  same model (Opus 4.8) running in Claude Code with live web search — same model and same web-verified-context
-  method, a different access path. Roughly 206 model summaries and 6 CRS summaries were judged via OpenRouter; the
-  44 re-generated model summaries (see the re-run note below) and 44 CRS summaries via Claude Code. Minor
-  judge-instance variation is possible; every per-bill verdict and reason is published so anyone can check them.</p>
+  <p><strong>Per-dataset judge.</strong> The two datasets were graded by different judges (shown in the row
+  above for whichever dataset is selected). The <strong>119th Congress</strong> set used
+  <code>anthropic/claude-opus-4.8</code> with live web search. The <strong>2024 high-activity</strong> set used
+  <code>claude-sonnet-4-6</code> running as ten parallel Claude Code subagents (free and fast) — the same
+  12-criteria rubric, but a different judge model. Within each dataset the judging is consistent; comparing
+  scores <em>across</em> the two datasets carries this judge-model caveat on top of the not-validated-against-humans
+  caveat above. (The Sonnet judge applies <code>concise</code> more strictly, which is a large part of why the
+  verbose models score lower on the 2024 set.)</p>
+  <p style="margin-bottom:0"><strong>Disclosure — judge access path (119th set).</strong> Because the OpenRouter
+  account's credits were exhausted at points, some 119th-set judgments were made via the OpenRouter web plugin and
+  others by the same model (Opus 4.8) running in Claude Code with live web search — same model and method, a
+  different access path. Roughly 206 model summaries and 6 CRS summaries via OpenRouter; the 44 re-generated model
+  summaries and 44 CRS summaries via Claude Code. Every per-bill verdict and reason is published so anyone can
+  check them.</p>
 
   <h2>5. Re-runs &amp; corrections</h2>
   <div class="card">In the spirit of full transparency, the substantive changes made after the first run:

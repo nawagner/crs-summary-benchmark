@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a specific federal regulation.\n\nThe resolution disapproves a rule issued by the Bureau of Consumer Financial Protection (commonly known as the Consumer Financial Protection Bureau, or CFPB) titled \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B),\" which was published in the Federal Register at 88 Fed. Reg. 35150 on May 31, 2023.\n\nUnder the resolution's single operative provision, the identified rule \"shall have no force or effect.\" In other words, if the resolution is enacted, the CFPB's small business lending rule would be nullified and could not be implemented or enforced.\n\nThe text notes that the resolution passed the Senate on October 18, 2023. To take effect, a joint resolution of disapproval under the Congressional Review Act must also pass the House of Representatives and be signed by the President (or enacted over a veto).\n\nThe resolution itself contains no other substantive provisions, exceptions, conditions, or effective dates beyond the disapproval of the specified rule.",
+  "prompt_tokens": 774,
+  "completion_tokens": 382,
+  "total_tokens": 1156,
+  "cost_usd": 0.01342,
+  "latency_s": 6.061,
+  "ok": true
+}

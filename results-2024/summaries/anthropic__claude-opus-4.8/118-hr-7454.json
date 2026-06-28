@@ -1,0 +1,11 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Airport and Airway Extension Act of 2024 (Public Law 118-41) is a short-term measure that extends expiring Federal Aviation Administration (FAA) authorizations, aviation-related funding, and certain taxes. Its primary purpose is to continue these programs for a brief period—generally through May 10 or May 11, 2024—pending longer-term reauthorization. Most provisions accomplish this by replacing prior expiration dates (commonly March 8 or March 9, 2024) with the new dates.\n\nTitle I addresses FAA programs. It authorizes approximately $2.04 billion for the airport improvement program for the period from October 1, 2023, through May 10, 2024, with obligation authority extending through September 30, 2024. For calculating funding apportionments during this period, the FAA Administrator must first compute amounts on an annualized basis as if $3.35 billion were available for fiscal year 2024, then reduce all apportionments and certain other amounts by 39 percent. Title I also extends project grant authority and numerous other authorities, including insurance authority, unmanned aircraft (UAS) test ranges and special UAS authorities, airport safety provisions, weather reporting programs, remote tower and other pilot programs, and various advisory committees. It sets new funding levels for FAA operations (about $7.26 billion), facilities and equipment (about $1.79 billion), research and development (about $155 million), and small community air service programs, including Essential Air Service (about $216 million).\n\nTitle II extends, through May 11, 2024, the authority to make expenditures from the Airport and Airway Trust Fund, and extends through May 10 or May 11, 2024, the taxes that fund it, including aviation fuel taxes, ticket taxes on persons and property, and taxes related to fractional ownership programs.\n\nTitle III extends, through May 11, 2024, counter-UAS authorities under the Homeland Security Act of 2002.\n\nThe Act was approved on March 8, 2024.",
+  "prompt_tokens": 5742,
+  "completion_tokens": 648,
+  "total_tokens": 6390,
+  "cost_usd": 0.04491,
+  "latency_s": 9.529,
+  "ok": true
+}

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate: the rule's title is correct, the publication date of September 16, 2022 matches 87 Fed. Reg. 56868, and the description of the rule's content (solar panels from Cambodia/Malaysia/Thailand/Vietnam using Chinese components not subject to AD/CVD orders) is accurate real-world context supported by the underlying rule."
+      "why": "date (Sep 16 2022) and solar-panel substance are accurate real-world context for 87 FR 56868"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims. The description of the rule's solar panel content is accurate external context."
+      "why": "solar-panel/country details are accurate context, not fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution nullifies the named Commerce rule."
+      "why": "states it nullifies the rule"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes nullification of the rule, which is the change to the existing regulatory regime."
+      "why": "CRA disapproval; does not amend existing statutory law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this joint resolution."
+      "why": "none"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No explicit effective date specified in the bill text."
+      "why": "resolution specifies no internal effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both the nullification and provides accurate context about what the rule does."
+      "why": "captures nullification and rule substance"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and informational."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Concise while providing relevant context."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Commerce correctly named; countries (Cambodia, Malaysia, Thailand, Vietnam) correct."
+      "why": "Commerce and country list correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "September 16, 2022 publication date is accurate for 87 Fed. Reg. 56868."
+      "why": "date accurate for the Fed Reg citation"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

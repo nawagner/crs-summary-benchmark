@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; procedural timelines and requirements correctly described."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as expanding RFA transparency and procedures for small entity regulatory impacts."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes amendments across sections 603, 605, 605A, 609, and 610."
+      "why": "describes amendments to ch.6 title 5 (RFA): secs 603, 605, 605A, 609, 610"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the 'where feasible' condition for indirect costs and conditions for rule reinstatement."
+      "why": "notes 'where feasible' indirect costs, agency-nonparticipation penalty, reinstatement conditions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the 5-year lookback provision for Section 610 amendments."
+      "why": "notes 10/30/180-day deadlines and 5-year-lookback application"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major provisions including the indirect cost requirement, petition process, guidance publication, and periodic review reform."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with logical flow."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive without padding; appropriate length for bill complexity."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "SBA Chief Counsel for Advocacy, OIRA Administrator, regulations.gov correctly identified."
+      "why": "Chief Counsel for Advocacy/SBA, OIRA, regulations.gov correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "10-day, 30-day, 180-day, 5-year timelines all correctly stated."
+      "why": "10/30/180-day, 10-year, 5-year figures correct"
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

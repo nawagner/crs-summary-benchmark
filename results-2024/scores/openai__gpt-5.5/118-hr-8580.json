@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims about the bill's provisions and policy riders are consistent with the bill text and known content of this appropriations act."
+      "why": "Guantanamo prohibition, Bakersfield clinic by Sept 30 2025, animal research elimination by March 9 2026, EHR before July 1 2025 all verified in text"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; policy rider descriptions match known provisions of the bill."
+      "why": "specific riders (fertility/adoption, SSN authentication, flag display, first-class) all confirmed present"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+      "why": "states FY2025 MilCon/VA/related appropriations"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Appropriations bills set spending levels; no permanent law changes."
+      "why": "appropriations act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes key conditions including notification requirements, advance appropriations, and policy riders on abortion, gender-affirming care, and COVID mandates."
+      "why": "abortion exceptions, EHR conditioning, Guantanamo and other restrictions noted"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2025 generally, construction funds through September 30, 2029, and advance FY2026 appropriations for VA."
+      "why": "Sept 30 2029, July 1 2025, March 9 2026, Sept 30 2025 deadlines correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major titles and key appropriations categories including VA, military construction, related agencies, and general provisions."
+      "why": "thorough coverage of titles and riders"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Very long with granular detail about specific provisions such as the Bakersfield clinic and canine research that are minor sub-provisions."
+      "pass": true,
+      "why": "dense but no padding"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names VA, DOD, American Battle Monuments Commission, U.S. Court of Appeals for Veterans Claims, Arlington National Cemetery, and the Armed Forces Retirement Home."
+      "why": "agencies and accounts correct; advance approps referenced as FY2026"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FY2025, the September 30, 2029 construction fund availability, and advance FY2026 appropriations."
+      "why": "25%, July 1 2025, March 9 2026, Sept 30 2025/2029 all correct"
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

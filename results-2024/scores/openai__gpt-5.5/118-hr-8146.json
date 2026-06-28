@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All provisions, deadlines, and report elements accurately described."
+      "why": "accurate report description"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the bill requires an AG report on border crisis impacts on law enforcement."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Correctly notes the operative provision is a reporting requirement, not an amendment to existing law."
+      "why": "does not amend existing law; report-only"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states the 180-day deadline."
+      "why": "180-day deadline correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All seven report elements accurately described."
+      "why": "covers report elements"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Uses quotation marks for partisan bill language; neutral framing maintained."
+      "why": "neutrally attributes loaded terms to the bill"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clearly written."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without excessive verbosity."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Attorney General, Congress, and section 212(f) of the INA correctly identified."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "180-day deadline correctly stated."
+      "why": "180-day deadline correct"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

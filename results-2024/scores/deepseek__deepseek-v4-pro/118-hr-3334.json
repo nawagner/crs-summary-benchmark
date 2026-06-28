@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate across sanctions, exceptions, waiver, and termination."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,58 +15,58 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as imposing sanctions on CCP members for specified conduct."
+      "why": "States primary purpose explicitly."
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes property blocking and visa sanctions under IEEPA."
+      "why": "New authority."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes exceptions for UN HQ Agreement, intelligence/law enforcement, and goods importation."
+      "why": "Covers exceptions and termination conditions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 30-day implementation deadline, 60-day waiver periods, 15-day notice requirement, and 2-year waiver authority expiration."
+      "why": "Notes 30 days, 60-day waivers, 2-year sunset."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly covers all key provisions."
+      "why": "All major provisions covered."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive without unnecessary padding."
+      "why": "Dense but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "IEEPA and all entities correctly named."
+      "why": "Entities correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All figures correctly stated."
+      "why": "Figures correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

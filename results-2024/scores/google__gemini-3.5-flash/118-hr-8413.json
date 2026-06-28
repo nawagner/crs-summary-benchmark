@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate description of all key provisions. Specific elevation figures cited (2,785 ft at Swanson, 2,628 ft at Hugh Butler) are from the full enacted law and are accurate."
+      "why": "accurate; elevations and deadlines correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims. Elevation figures are from the actual enacted law."
+      "why": "no fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the conveyance."
+      "why": "directs conveyance of federal land; does not amend general statutory law (operates under existing authorities)"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reconveyance restrictions, existing rights, deed restrictions below specified elevations, indemnification."
+      "why": "notes conveyance conditions, reconveyance restrictions/exceptions, and reservations"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 3-year and 2-year deadlines."
+      "why": "notes 3-year negotiation deadline and 2-year compliance deadline"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All key provisions covered."
+      "why": "covers conveyance, consideration, management, reconveyance, reservations, liability"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All entities correctly named."
+      "why": "Interior, counties correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Elevations (2,785 ft and 2,628 ft) and deadlines are accurate."
+      "why": "elevations 2785/2628 ft and deadlines correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

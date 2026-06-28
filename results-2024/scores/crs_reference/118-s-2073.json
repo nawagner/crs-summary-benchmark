@@ -4,58 +4,58 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The CRS summary is titled 'Eliminate Useless Reports Act of 2023' and describes only the agency-reporting provisions — but S. 2073 as enacted is the Kids Online Safety and Privacy Act, which replaced that bill's content entirely with three titles covering online safety, privacy, and agency reports; the CRS summary describes only a small part of the enacted bill."
+      "pass": true,
+      "why": "What it says about the reports/OMB provision is accurate, but it summarizes only Title III of the enacted bill text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The summary's content is accurate for what it describes (the agency reporting provisions of Title III), but it is the summary of the original S. 2073 before the Senate amendment replaced its content."
+      "why": "No fabricated claims, though it omits the bill's main content."
     },
     "states_purpose": {
       "applicable": true,
       "pass": false,
-      "why": "Describes only the Title III agency-reporting purpose; fails to identify the bill's primary purposes of online safety and children's privacy."
+      "why": "States only the reports-reduction purpose; misses the bill's primary kids-online-safety/privacy purpose entirely."
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "Describes only Title 31 amendments; omits HAVA/COPPA-like amendments that are the bill's primary changes."
+      "pass": true,
+      "why": "Accurately describes the title 31 budget-justification changes it covers."
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "Describes only agency-report conditions; omits all major conditions in Titles I and II."
+      "pass": true,
+      "why": "Notes the two-agency/OMB condition for the reports provision."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective dates specified in the portion summarized."
+      "why": "No dates stated for the covered provision."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": false,
-      "why": "Covers only Title III (one of three titles); completely omits Titles I and II which are the primary subject of the bill."
+      "why": "Omits Titles I and II (kids online safety, COPPA expansion), the bill's core; covers only Title III."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual for what it covers."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable for what it covers."
+      "why": "Internally clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief for what it covers."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Office of Management and Budget and relevant agencies correctly named for Title III."
+      "why": "OMB and agencies correct."
     },
     "correct_figures": {
       "applicable": false,
@@ -64,9 +64,9 @@
     }
   },
   "n_applicable": 10,
-  "n_passed": 5,
+  "n_passed": 8,
   "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

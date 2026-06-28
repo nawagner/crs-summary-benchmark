@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate and consistent with the bill text."
+      "why": "Tracks the one-state-license rule, in-state preference, reporting, and public-availability provisions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; accurate description of the licensing change and conditions."
+      "why": "No fabricated claims; Interior/Secretary context is correct."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as relaxing Interior Department appraiser licensing requirements."
+      "why": "States the bill eases licensing for Interior real-property appraisals."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the prior rule (in-state licensure required) and how the Act changes it."
+      "why": "Notes it overrides prior state-specific licensure requirements for these transactions."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the three conditions for using out-of-state appraisers."
+      "why": "Notes out-of-state appraiser may be used only if in-state is unavailable/unqualified/not cost competitive."
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No effective dates or deadlines mentioned in the summary, but the bill has a 90-day public availability deadline; omitting this is acceptable at a high-level summary."
+      "why": "Notes the public-availability requirement; omits exact deadlines but captures key duties."
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the annual reporting requirement to Congress (a substantive obligation described over several subsections) and the 90-day public availability deadline."
+      "pass": true,
+      "why": "Captures licensing change, preference, and transparency; omits reporting requirement but core effect intact."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral tone."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "Well-organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief without padding."
+      "why": "Concise high-level summary."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names the Department of the Interior."
+      "why": "Department/Secretary of the Interior named correctly."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated in the summary."
+      "why": "No material figures stated."
     }
   },
-  "n_applicable": 10,
-  "n_passed": 9,
-  "meets_standard": false,
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

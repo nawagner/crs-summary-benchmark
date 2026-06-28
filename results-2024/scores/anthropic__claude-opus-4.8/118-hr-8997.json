@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Specific figures cited (e.g., $159M for investigations, $3.01B for construction, $370M for MR&T, $5.714B for O&M, $218M for regulatory, $200M for FUSRAP) all match the bill text."
+      "why": "All figures ($159M, $3.01B, $5.714B, $20.338B, $8.39B, $7.132B Defense Env Cleanup, $955M NRC, $23M, $33M Bay-Delta) verified against text; NGA/FERC, restrictions all correct."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The content described (titles, programs, specific dollar amounts visible in the bill) matches the bill text; some later-title figures cannot be fully verified from the excerpt but no contradictions found."
+      "why": "No fabricated provisions; CRT/Wuhan/equity bans and LNG/FERC amendment all present."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as an appropriations bill for energy and water development agencies for FY2025."
+      "why": "States FY2025 energy/water appropriations, five titles."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the Natural Gas Act amendment granting FERC exclusive LNG authority, and amendments to water programs."
+      "why": "Notes Natural Gas Act amendment and drought/water authorization extensions."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reprogramming rules, fund restrictions, and general provision prohibitions."
+      "why": "Captures key fund restrictions and Indian/Bay-Delta carve-outs."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the FY2025 period (through September 30, 2025) and the funds remaining available until expended."
+      "why": "Notes FY ending Sept 30, 2025."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers Corps of Engineers, Interior, DOE, and independent agencies with key figures."
+      "why": "Covers all five titles with representative figures and policy riders."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, descriptive language; the listing of policy riders (CRT, vaccine mandates) is factual."
+      "why": "Neutral despite politically charged riders."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by title."
+      "why": "Clear title-by-title structure."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Quite detailed with extensive dollar figures; while appropriate for a complex appropriations bill, the level of detail may exceed what is needed for a high-level summary."
+      "pass": true,
+      "why": "Dense but appropriate for a large bill."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Army Corps of Engineers, Bureau of Reclamation, DOE, FERC, and Nuclear Regulatory Commission all correctly identified."
+      "why": "Corps, Reclamation, DOE, NNSA, FERC, NRC all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All specific dollar amounts cited ($159M, $3.01B, $370M, $5.714B, $218M, $200M) match the visible bill text."
+      "why": "Every stated dollar figure matches the bill text."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

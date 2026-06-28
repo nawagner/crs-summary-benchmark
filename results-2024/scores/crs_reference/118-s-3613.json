@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill; the definition of Facility Security Committee and key requirements are correctly described."
+      "why": "accurate; describes definition, response duty, monitoring, reporting"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: requiring FSCs to respond to FPS security recommendations."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Accurately describes the new obligations placed on FSCs and DHS."
+      "why": "new standalone requirements"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes scope limitation to GSA/fee-paying facilities and the 5-year sunset."
+      "why": "notes application limited to GSA/fee-paying facilities"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 90-day FSC response deadline, 270-day first report deadline, and 5-year sunset."
+      "why": "90-day, 270-day, and 5-yr sunset correct"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the surveillance technology report requirement (180-day deadline per Section 2(d)), which is a distinct material provision."
+      "pass": true,
+      "why": "captures core duties; omits surveillance/GAO report but high-level OK"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed and efficient."
+      "why": "focused summary"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FPS, DHS, GSA correctly named."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "90-day, 270-day deadlines and 5-year sunset correctly stated."
+      "why": "no figures; 90/270-day and 5-yr correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

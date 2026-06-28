@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the bill text; all conditions described accurately."
+      "why": "Correctly describes three land conveyances and their conditions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "BLM/Forest Service attributions accurate; no fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: transferring federal lands to Utah for three state parks."
+      "why": "States purpose: convey federal land to Utah for three state parks."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Bill does not amend existing statutory law."
+      "why": "Bill directs conveyances; amends no existing statute."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately covers all conditions including easements, water rights, reversionary interest, and cost allocation."
+      "why": "Notes easements, water-rights limits, reversion, valid existing rights."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the 180-day deadlines and December 11 enactment; wait—actually December 23, 2024 is the enactment date, which is not cited but also not wrong since the summary says 'no separate effective date provision' rather than a wrong date."
+      "why": "Notes 180-day conveyance deadline."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three conveyances and their conditions comprehensively."
+      "why": "Covers all three conveyances, costs, conditions, reversion."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Well-structured."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Very detailed, listing nearly all sub-provisions and conditions at excessive length."
+      "pass": true,
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies all relevant agencies, parks, and land designations."
+      "why": "Interior/Agriculture, BLM, NFS, park names correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "180-day deadline and all specific provisions are accurately represented."
+      "why": "180 days correct; water-right IDs referenced generally."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

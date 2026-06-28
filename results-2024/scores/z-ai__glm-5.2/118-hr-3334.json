@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate including 15-day notice and full termination conditions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "IEEPA context accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as imposing sanctions on CCP members for specified conduct."
+      "why": "States purpose."
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes property blocking and visa sanctions under IEEPA."
+      "why": "New authority."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes all key exceptions including UN HQ Agreement, intelligence/law enforcement, and goods importation."
+      "why": "Covers all exceptions and conditions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 30-day implementation deadline, 60-day waiver periods, 15-day notice, and 2-year waiver authority expiration."
+      "why": "Notes 30 days, 60-day waiver with 15-day notice, 2-year sunset."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly covers sanction targets, types, exceptions, waiver, and termination conditions including fentanyl enterprises."
+      "why": "All major provisions covered."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive without unnecessary padding."
+      "why": "Detailed but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "IEEPA and all entities correctly named."
+      "why": "IEEPA, UN agreement correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All figures correctly stated."
+      "why": "Figures correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

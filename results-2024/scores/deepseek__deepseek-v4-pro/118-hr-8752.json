@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes funding, policy riders, detention requirements, and rescissions; no contradictions with bill text."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all provisions are in the bill."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 DHS appropriations with specific funding and policy restrictions."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes specific policy conditions and prohibitions restricting use of funds."
+      "why": "describes funding levels and policy riders restricting/directing fund use"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes abortion exceptions (rape, incest, life), narrow circumstances for gender-affirming care, and detention minimum."
+      "why": "notes carve-outs/exceptions (e.g., abortion exceptions for rape/incest/life)"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "Does not specifically mention the 30/180-day contraceptive effective dates; does not misstate them."
+      "why": "notes notification requirements; appropriations FY2025"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers funding components, border security provisions, ICE requirements, policy prohibitions, and rescissions."
+      "why": "captures funding and major riders"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by topic."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately selective; captures major provisions without excessive detail."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "CBP, ICE, FEMA, CISA, and CBP One app correctly named."
+      "why": "CNMI/PRC parole, Border Security Improvement Plan 2020, components correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$600 million for steel bollard barriers, 50,000 detention beds, $154 million rescission correctly stated."
+      "why": "$600M bollard barriers, $600M/$154M rescissions, 50,000 beds verified"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 12,
+  "n_passed": 12,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

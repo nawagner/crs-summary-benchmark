@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "NOAA is accurate real-world context as the agency administering Magnuson-Stevens; all procedural claims match the bill."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": false,
-      "why": "The bill does not explicitly state 'NOAA must notify a requester when the spend plan has been determined to be complete' — this notification requirement is not in the bill text as written."
+      "pass": true,
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as establishing spend plan review procedures for fishery disaster funding."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately notes the existing 90-day disbursement rule and the new OMB concurrent review provision."
+      "why": "notes change to current-law disbursement procedures"
     },
     "exceptions_conditions": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No material exceptions in the bill."
+      "why": "notes completeness condition and OMB no-delay proviso"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No explicit effective date beyond enactment; omission appropriate."
+      "why": "notes 10-day and 90-day timelines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the 10-day review, completeness notification, OMB concurrent review, and 90-day funding timeline."
+      "why": "captures review-completeness and OMB concurrent-review essence; high-level"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "NOAA and OMB correctly identified."
+      "why": "NOAA is the administering agency under Magnuson-Stevens — accurate context; OMB correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "10-day and 90-day timelines correctly stated."
+      "why": "10/90 day figures correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 9,
-  "meets_standard": false,
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

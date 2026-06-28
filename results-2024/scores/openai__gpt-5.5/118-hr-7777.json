@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate with correct U.S.C. citations and SS linkage."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,58 +15,58 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as increasing VA benefit rates effective December 1, 2024 tied to Social Security COLA."
+      "why": "States purpose clearly."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the COLA-linked increases to specific Title 38 benefit amounts."
+      "why": "Describes benefit-amount increases."
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the special rule for Public Law 85-857 persons and the administrative adjustment authority."
+      "why": "No material exceptions; special rule noted."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes December 1, 2024 effective date and FY2025 Federal Register publication deadline."
+      "why": "Notes Dec 1 2024 and publication deadline."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major provisions including benefit categories, COLA linkage, special rule, and Federal Register publication requirement."
+      "why": "All provisions covered."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA, Title 38 sections, Social Security Act all correctly cited."
+      "why": "Citations correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "December 1, 2024 and November 30, 2024 reference dates correctly stated."
+      "why": "Sections and dates correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

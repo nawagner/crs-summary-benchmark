@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate description of the conveyance, including correct county-parcel assignments (Swanson/Lakeview Lodge to Hitchcock County, Red Willow to Frontier County). The 'Reclamation Fund' characterization for proceeds is an accurate interpretation of how Bureau of Reclamation funds work. The memorandum of agreement requirement is from the full enacted law beyond the truncated bill text provided."
+      "why": "accurate; parcel-to-county mapping and conveyance terms consistent with the Act"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims. County-parcel assignments are geographically and legally accurate."
+      "why": "MOA/roles description reflects the Dingell Act process; not fabricated"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the conveyance purpose."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the federal-to-county conveyance of Bureau of Reclamation lands."
+      "why": "directs conveyance of federal land; does not amend general statutory law (operates under existing authorities)"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes management requirements, conveyance conditions, and county obligations."
+      "why": "notes management conditions and limits on future conveyances"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the 3-year negotiation deadline."
+      "why": "notes the three-year deadline"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All key provisions covered including parcel assignments, payment terms, management requirements, and deadlines."
+      "why": "covers conveyance, management, consideration, costs, future-conveyance limits"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Bureau of Reclamation, Hitchcock County, Frontier County, Swanson Reservoir, Hugh Butler Reservoir all correctly named and paired."
+      "why": "Reclamation and counties correct; parcel names accurate"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Parcel acreages and deadlines are accurate."
+      "why": "three-year deadline correct; no incorrect figures"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

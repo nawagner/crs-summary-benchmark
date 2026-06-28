@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately identifies the designation and location; omits details that are not essential to the bill's primary effect."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the brief summary is accurate."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the bill designates the Cabo Rojo marine unit as the Michel O. Maceda Marine Unit."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "This is a commemorative designation with no changes to substantive law; criterion not applicable."
+      "why": "describes designation and the reference-deeming provision"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date specified beyond enactment."
+      "why": "does not state approval date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the primary operative provision: the designation of the marine unit."
+      "why": "captures the core designation"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Brief but internally consistent and readable."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief for a simple designation bill."
+      "why": "brief and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "U.S. Customs and Border Protection correctly identified."
+      "why": "CBP, AMO, Cabo Rojo PR correct"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific figures stated in this summary."
+      "why": "no figures stated"
     }
   },
-  "n_applicable": 8,
-  "n_passed": 8,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text across all three titles."
+      "why": "Accurate across all titles; COPPA 1998, teens 13-16, conflict-preemption all match text."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,52 +15,52 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies all main purposes of the bill."
+      "why": "States purpose."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes COPPA amendment extending to teens and Title 31 amendment."
+      "why": "Notes COPPA and budget-justification amendments."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes covered platform exceptions including ISPs, email services, schools, and libraries."
+      "why": "Notes platform exceptions and conflict-only preemption."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 18-month effective date for Title I and 1-year effective date for filter bubble provision."
+      "why": "Notes 18-month effective date."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly covers all three titles including duty of care, safeguards, transparency reports, COPPA extension, filter bubble, and reports elimination."
+      "why": "Covers all three titles."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive without unnecessary padding."
+      "why": "Thorough but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FTC, COPPA, and other entities correctly referenced."
+      "why": "COPPA 1998, FTC correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "18-month and 1-year effective dates correctly stated."
+      "why": "13-16, 18 months correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

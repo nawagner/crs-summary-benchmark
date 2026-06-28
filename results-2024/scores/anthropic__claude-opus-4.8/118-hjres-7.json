@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the bill text or accurate context (COVID-19 reason for the emergency is well-known real-world context)."
+      "why": "Termination, NEA sec 202, Proclamation 9994, dates all match; COVID context correct."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; proclamation number, Fed. Reg. cite, dates, and statutory reference all match the bill text."
+      "why": "No fabricated claims; COVID/Proclamation 9994 are accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the joint resolution terminates the COVID-19 national emergency declared March 13, 2020."
+      "why": "Clearly states it terminates the March 13, 2020 national emergency."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes invocation of Section 202 of the National Emergencies Act as the mechanism, and that the resolution terminates the existing emergency."
+      "why": "Notes it ends the emergency under NEA sec 202 (50 U.S.C. 1622)."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill has no material exceptions or conditions."
+      "why": "Bill has no material exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the approval date of April 10, 2023."
+      "why": "Gives passage and approval dates accurately."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the single operative provision: termination of the emergency via Proclamation 9994."
+      "why": "Captures the sole operative effect: termination."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, descriptive language throughout with no advocacy."
+      "why": "Neutral and factual."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized, flows logically from context to authority to legislative history."
+      "why": "Well-organized and readable."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed for the bill's scope; no padding."
+      "why": "Brief with no filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "National Emergencies Act, Proclamation 9994, and statutory citations are all correct."
+      "why": "NEA, Proclamation 9994, Public Law 118-3 all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "85 Fed. Reg. 15337, 50 U.S.C. 1622, and all dates match the bill text."
+      "why": "Fed. Reg. cite and all dates correct."
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

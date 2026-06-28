@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate description of all key provisions including designation, cooperative agreements, limitations, not-NPS-unit status, and property protections."
+      "why": "accurately describes designation, cooperative agreements, and limitations"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose."
+      "why": "states purpose of designation"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the new designation."
+      "why": "creates a designation; does not amend existing statutory law"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes material limitations."
+      "why": "notes limitations: not NPS unit, no condemnation, no interference with property/zoning, written-consent condition"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes enactment date."
+      "why": "notes approval Jan 4 2025"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All major provisions covered."
+      "why": "covers designation, agreements, and all limitations"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Concise and focused."
+      "why": "acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Secretary of Interior, NYC, Harlem correctly identified."
+      "why": "Secretary of the Interior, NYC Mayor, NY State correct"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No dollar amounts or quantities to verify."
+      "why": "no figures stated"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

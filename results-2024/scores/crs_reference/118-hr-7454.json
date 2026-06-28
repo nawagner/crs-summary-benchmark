@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All program descriptions and contextual information are accurate; the summary correctly describes what each extended program does."
+      "why": "Accurately describes each section's extension; rich correct context on each program."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims; contextual descriptions of programs (e.g., EAS history, remote tower definition) are accurate."
+      "why": "No fabrications; program descriptions are accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the act temporarily extends specific FAA programs and activities through May 10, 2024."
+      "why": "States it temporarily extends FAA programs through May 10, 2024."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes all sections as extending prior statutory authorities, correctly characterizing the act as amending existing law."
+      "why": "Describes the extensions section by section."
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes section-specific conditions and program requirements throughout."
+      "why": "Extension dates noted; no separate carve-outs emphasized at this altitude."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Consistently notes May 10, 2024, extension dates and May 11 where applicable."
+      "why": "Notes May 10, 2024 (and May 11 for the learning period) expiration dates."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensively covers all three titles and virtually all individual provisions with section-by-section analysis."
+      "why": "Thoroughly covers all titles and sections."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by section with clear structure."
+      "why": "Organized by section."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Extremely detailed section-by-section analysis; comprehensive but far longer than necessary for a summary — more appropriate as a full CRS analysis than a brief summary."
+      "pass": true,
+      "why": "Long but section-by-section without filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All agencies, programs, and statutes correctly named throughout."
+      "why": "FAA, DOT, DHS/DOJ, AATF all correct."
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "Does not state specific dollar amounts in this summary."
+      "why": "Dominant May 10, 2024 date correct; the high-level treatment of the May 11 IRC dates is acceptable for a faithful summary."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": false,
-      "why": "The output is incoherent gibberish with no meaningful content accurately reflecting the bill."
+      "why": "output is degenerate gibberish with no coherent claims"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": false,
-      "why": "The output contains garbled text that does not represent any factual claims about the bill."
+      "why": "garbled non-text, not a valid summary"
     },
     "states_purpose": {
       "applicable": true,
       "pass": false,
-      "why": "No coherent statement of the bill's purpose is provided; the output is unreadable."
+      "why": "fails to state any purpose; degenerate output"
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "No description of legal changes; the output is gibberish."
+      "applicable": false,
+      "pass": true,
+      "why": "not applicable / disapproval resolution"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the bill; not applicable."
+      "why": "not applicable"
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "No effective date information is coherently presented."
+      "applicable": false,
+      "pass": true,
+      "why": "not applicable; no usable content"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": false,
-      "why": "No major provisions are covered; the output is entirely incoherent."
+      "why": "no provisions conveyed; gibberish"
     },
     "objective_tone": {
       "applicable": true,
       "pass": false,
-      "why": "The output is garbled text and cannot be considered to have any tone."
+      "why": "not coherent text"
     },
     "coherent": {
       "applicable": true,
       "pass": false,
-      "why": "The output is completely incoherent, consisting of random characters and backticks."
+      "why": "completely incoherent repeated tokens"
     },
     "concise": {
       "applicable": true,
       "pass": false,
-      "why": "The output is extremely long gibberish with no informational content."
+      "why": "massive degenerate repetition"
     },
     "correct_entities": {
-      "applicable": true,
-      "pass": false,
-      "why": "No entities are correctly identified; output is not readable."
+      "applicable": false,
+      "pass": true,
+      "why": "no entities stated"
     },
     "correct_figures": {
-      "applicable": true,
-      "pass": false,
-      "why": "No figures are stated in any coherent manner."
+      "applicable": false,
+      "pass": true,
+      "why": "no figures stated"
     }
   },
-  "n_applicable": 11,
+  "n_applicable": 7,
   "n_passed": 0,
   "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

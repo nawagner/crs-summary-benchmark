@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "Describes the special rule as applying to persons 'who have not received compensation for service-connected disability or death' — the bill text says persons who 'have not received compensation under chapter 11 of title 38'; the CRS paraphrase may slightly mischaracterize eligibility but this is minor paraphrasing of the same concept and not clearly inaccurate."
+      "pass": true,
+      "why": "Accurate; characterizes special rule as for persons not receiving service-connected disability/death compensation (correct context)."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the slight paraphrase of the special rule is not a hallucination."
+      "why": "No fabricated claims."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as increasing VA benefit rates matching Social Security COLA."
+      "why": "States purpose to COLA-increase VA benefits."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the COLA-linked increases and Federal Register publication requirement."
+      "why": "Describes increases to benefit amounts."
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the special rule for certain persons."
+      "why": "No material exceptions; special rule noted."
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "Does not mention the December 1, 2024 effective date, which is a material date specified in the bill."
+      "pass": true,
+      "why": "Notes Dec 1 2024 effective date."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the main provisions at a high level, including benefit categories, COLA linkage, special rule, and publication requirement."
+      "why": "Captures essential effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA and Social Security correctly referenced."
+      "why": "VA correct."
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific figures stated in this summary."
+      "why": "Dec 1 2024 date correct."
     }
   },
   "n_applicable": 11,
-  "n_passed": 9,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

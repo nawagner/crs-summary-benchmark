@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": true,
-      "why": "Correctly identifies expanded NIH fields, Centers of Excellence increase from five to seven, reauthorization through 2029, and appropriation figures."
+      "pass": false,
+      "why": "claims it 'increases the number of NIH Centers of Excellence from five to seven'; the 5->7 change is the support-period years, not the number of centers"
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": true,
-      "why": "No fabricated claims; appropriation figures and provisions match bill text."
+      "pass": false,
+      "why": "misrepresents the period-of-support amendment as an increase in number of centers"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies reauthorization and expansion of ASD programs through FY2029."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes specific changes: NIH field expansions, Centers of Excellence increase, updated language, HHS technical assistance authority."
+      "why": "describes amendments to the Public Health Service Act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reporting deadlines and specific conditions like the 'upon request' nature of technical assistance."
+      "why": "notes conditions/eligibility e.g. tribal, community-based, request-based TA"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states reporting deadlines: within 2 years, within 4 years of Sept. 30, 2024, and annual reports."
+      "why": "notes FY2029/Sept 30 2029 reauthorization and reporting deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers NIH expansion, program reauthorizations, appropriations, technical assistance, and reporting deadlines."
+      "why": "otherwise captures funding and reporting provisions"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, descriptive language throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear structure."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Bullet points for appropriations are efficient; no unnecessary padding."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "NIH, HHS, PHSA, Indian Tribes correctly identified."
+      "why": "NIH, HHS, IACC named correctly"
     },
     "correct_figures": {
       "applicable": true,
-      "pass": true,
-      "why": "$28.1 million, $56.344 million, $306 million, and $22.74 billion FEMA figure are not present here; appropriation figures match bill."
+      "pass": false,
+      "why": "5->7 applied to wrong subject (number of centers vs. support period years)"
     }
   },
   "n_applicable": 12,
-  "n_passed": 12,
-  "meets_standard": true,
+  "n_passed": 9,
+  "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

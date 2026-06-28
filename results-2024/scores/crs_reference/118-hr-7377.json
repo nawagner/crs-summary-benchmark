@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes both the prior law and the change; the description of payment rules under the new law is correct."
+      "why": "Describes prior law and the amendment accurately; Interior, FOGRMA, deadlines correct."
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": false,
-      "why": "The description of 'current law' states 'the first leaseholder to drill must pay any royalties due to Interior for all oil and gas production on the land' — this characterization of prior law is not found in the bill text and may be an oversimplification; however, it is a description of prior law context, not the amended text, and is not contradicted by the bill. Marginal pass issue; no clear hallucination."
+      "pass": true,
+      "why": "'First leaseholder to drill' and prior-law description are accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose is modifying the royalty payment process for joint drilling agreement leaseholders."
+      "why": "States it modifies the royalty-payment process under joint agreements."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Explicitly contrasts the current law with the new law, correctly describing the change."
+      "why": "Contrasts current law vs new requirements clearly."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the Indian lands exclusion and the interest waiver condition."
+      "why": "Notes Indian-lands exception and waiver condition."
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific effective date mentioned; acceptable for a summary."
+      "why": "120-day and third-month deadlines correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the 120-day deadline, payment per proposed allocation, correction window, and interest waiver."
+      "why": "Covers deadline, interim payment, correction, waiver."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and technical."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear contrast of old vs. new law."
+      "why": "Well-structured."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without excessive padding."
+      "why": "Some detail but no filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Oil and Gas Royalty Management Act of 1982 and Department of the Interior correctly identified."
+      "why": "Interior, FOGRMA correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "120-day deadline and third-month correction window are accurate."
+      "why": "120 days, third month correct."
     }
   },
-  "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

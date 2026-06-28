@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate description of increase, categories, and special rule."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,58 +15,58 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as increasing veterans' benefit rates."
+      "why": "States purpose."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the COLA-linked increases to specific Title 38 amounts."
+      "why": "Describes title 38 increases."
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the special rule for Public Law 85-857 persons."
+      "why": "No material exceptions; special rule noted."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes December 1, 2024 effective date and Federal Register publication deadline."
+      "why": "Notes Dec 1 2024 and publication deadline."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all key provisions including benefit categories, COLA linkage, special rule, and publication requirement."
+      "why": "All provisions covered."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA, Title 38, and Social Security Act correctly referenced."
+      "why": "Title 38, SS Act, PL 85-857 correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "December 1, 2024 effective date correctly stated."
+      "why": "Dates correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

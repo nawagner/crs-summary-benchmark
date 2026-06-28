@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the act as expanding the scope of the MCH Block Grant to include stillbirth prevention research and activities."
+      "why": "accurate: expands MCH Services Block Grant scope to stillbirth prevention"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; MCH Services Block Grant is the accurate name for the program under Title V."
+      "why": "'Maternal and Child Health Services Block Grant' is correct name for Title V program"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the act's purpose as expanding the MCH Block Grant for stillbirth prevention."
+      "why": "states the core effect concisely"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "States that the act expands the scope of the block grant, capturing the statutory change."
+      "why": "describes expanding the block grant's scope"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date was specified; omitting it is fine."
+      "why": "no dates needed"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential effect at a high level."
+      "why": "high-level capture of essential effect is acceptable"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "very concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the Maternal and Child Health Services Block Grant."
+      "why": "MCH Services Block Grant correct"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific figures cited."
+      "why": "no figures"
     }
   },
   "n_applicable": 9,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

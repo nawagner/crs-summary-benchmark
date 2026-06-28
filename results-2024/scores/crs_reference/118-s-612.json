@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately states the act reauthorizes through September 30, 2034; the description of Lake Tahoe as a large freshwater lake on the California-Nevada border is accurate real-world context."
+      "why": "Accurately states reauthorization through 2034; the CA/NV border context is correct."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "No fabrications."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the act reauthorizes activities to restore Lake Tahoe and its surrounding basin."
+      "why": "States it reauthorizes Lake Tahoe restoration activities."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Implicit — states the act 'reauthorizes' the prior law, which is an adequate description of the amendment."
+      "why": "Conveys the reauthorization/extension of the existing Act."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "No material exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes September 30, 2034, as the reauthorization endpoint."
+      "why": "Notes the September 30, 2034 reauthorization date."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential effect at an appropriate high level — reauthorization through 2034."
+      "why": "Captures the essential effect: extending the Act through 2034."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief for a simple reauthorization act."
+      "why": "Very concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Lake Tahoe Restoration Act correctly referenced; Lake Tahoe correctly described."
+      "why": "Lake Tahoe Restoration Act correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "September 30, 2034, correctly stated."
+      "why": "September 30, 2034 correct."
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; the note that it does not amend the Stafford Act is accurate."
+      "why": "All claims match the text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all specific provisions match the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as requiring federal review and reporting on FEMA disability assistance."
+      "why": "States review/reporting on FEMA disability assistance."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the Act does not amend existing statutes."
+      "why": "Notes it does not amend the Stafford Act."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions apply."
+      "why": "No material exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies 120-day and one-year deadlines."
+      "why": "120-day and 1-year deadlines correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both reporting requirements with their specific content, including the physical disabilities scope in the review."
+      "why": "Covers report and review fully."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Quite detailed, nearly restating the full bill text rather than summarizing."
+      "pass": true,
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FEMA, Comptroller General, House Transportation and Infrastructure Committee, and Senate Homeland Security Committee all correctly identified."
+      "why": "FEMA, Comptroller General, committees, Stafford Act correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "120-day and one-year deadlines are accurate."
+      "why": "Deadlines correct."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

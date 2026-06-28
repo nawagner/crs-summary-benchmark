@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate and supported by the bill text."
+      "why": "Accurate; condenses sanctionable conduct and termination conditions correctly."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,58 +15,58 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as imposing sanctions on CCP Central Committee members for specified conduct."
+      "why": "States purpose to impose sanctions."
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes visa and property-blocking sanctions and termination conditions."
+      "why": "New authority."
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the material exceptions for the UN HQ Agreement, intelligence/law enforcement activities, and goods importation, as well as the fentanyl-enterprise sanction category."
+      "pass": true,
+      "why": "Covers waiver and termination conditions (omits goods/UN exceptions but high-level fine)."
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "Does not mention the 30-day implementation deadline, 60-day waiver periods, or 2-year expiration of waiver authority."
+      "pass": true,
+      "why": "Notes 60-day renewable waivers."
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the fentanyl state-owned enterprise sanction category, the election interference sanctionable conduct, the Tibet cessation condition for termination, and the exceptions."
+      "pass": true,
+      "why": "Captures essential effect; omits fentanyl SOE prong but high-level acceptable."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear list format."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief given its high-level scope."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All entities correctly named."
+      "why": "CCP Central Committee correct."
     },
     "correct_figures": {
       "applicable": true,
-      "pass": false,
-      "why": "States waiver is for 'renewable periods of up to 60 days' (correct) but omits the 15-day advance notice requirement; not a figure error but the summary is incomplete on key numeric details."
+      "pass": true,
+      "why": "60-day periods correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 8,
-  "meets_standard": false,
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

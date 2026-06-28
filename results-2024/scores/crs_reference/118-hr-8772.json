@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the appropriations bill and its recipients."
+      "why": "Appropriations totals and policy riders match the bill text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the listed entities match those in the bill text."
+      "why": "No fabricated provisions; entities and riders are in the text."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 legislative branch appropriations."
+      "why": "States it provides FY2025 legislative-branch appropriations."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "At the high-level summary level, not specifying statutory amendments is appropriate for an appropriations bill."
+      "why": "High-level summary; does not detail amendments but notes funding requirements/restrictions."
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "Does not note key restrictions in the bill such as the vehicle lease cap, the telecom equipment ban, DEI training restrictions, or the COLA freeze for Members."
-    },
-    "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The summary's high-level scope doesn't require specific effective dates."
+      "why": "Notes restrictions exist generally; no specific carve-outs required at this altitude."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2025 scope."
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary only covers funding recipients and omits the significant policy riders (telecom ban, DEI restrictions, marriage beliefs protection, COLA freeze, vehicle lease cap) that are major operative provisions of the bill."
+      "pass": true,
+      "why": "Lists all funded entities and notes use restrictions; faithful high-level coverage."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral; describes DEI/marriage riders without editorializing."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "Well-organized by agency and provision."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "Dense but no padding given the bill's length."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names all funded entities including CRS, Copyright Office, Stennis Center, etc."
+      "why": "Agencies (Capitol Police, AOC, LOC, GPO, GAO, CBO) named correctly."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated in the summary."
+      "why": "No figures stated."
     }
   },
   "n_applicable": 9,
-  "n_passed": 7,
-  "meets_standard": false,
+  "n_passed": 9,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

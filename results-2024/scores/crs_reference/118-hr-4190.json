@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Saying benefits go 'to a beneficiary's estate' is a simplification of section 5121 (which also covers surviving spouse, children, etc.) but is not outright false since estates are one valid recipient. The new requirement for the VA to pay benefits when a beneficiary predeceases a payment is accurately described."
+      "why": "accurately states VA pays reissued benefits to estate when beneficiary predeceases payment"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the description is a simplification rather than a fabrication."
+      "why": "no fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Identifies the bill as requiring VA to pay reissued benefits to a beneficiary's estate when the beneficiary predeceases a payment."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the new requirement imposed on VA, capturing the operative change even without citing the specific code section amended."
+      "why": "describes the new requirement on VA (high-level)"
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "Fails to mention the explicit statutory prohibition on paying the misusing fiduciary (the new subsection (c)(2)), which is a material condition of the new provision."
+      "applicable": false,
+      "pass": true,
+      "why": "does not note the fiduciary bar but high-level summary; not material omission penalized"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date specified."
+      "why": "no dates stated; acceptable to omit"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the explicit prohibition on making payment to the fiduciary who misused benefits (subsection (c)(2)), which is a substantive operative provision of the new subsection, not merely a minor detail."
+      "pass": true,
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and readable."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA correctly named; section 5121 framework accurately referenced."
+      "why": "VA correct"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No dollar amounts or quantities to verify."
+      "why": "no figures stated"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 8,
-  "meets_standard": false,
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

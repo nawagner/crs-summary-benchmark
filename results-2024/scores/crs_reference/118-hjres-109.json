@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "States issuance date of March 31, 2022 (vs April 11, 2022 Fed. Reg. publication), which is factually accurate as SAB 121 was issued March 31, 2022; the additional context about cryptoasset guidance is accurate."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "Description of SAB 121 as providing cryptoasset safeguarding guidance is accurate real-world context, not fabricated."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution nullifies SAB 121."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "States the rule is nullified, capturing the operative legal change."
+      "why": "CRA disapproval nullifies an agency rule; does not amend a statute"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in the resolution."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date specified."
+      "why": "no effective date provision"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers disapproval, SAB 121 content, and the GAO opinion; essential provisions captured."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and informative throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief while capturing essential information."
+      "why": "brief and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "SEC and GAO correctly identified."
+      "why": "SEC, GAO, CRA and SAB121 subject matter correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Uses issuance date March 31, 2022, which is accurate; Oct. 31, 2023 GAO letter date is correct."
+      "why": "March 31, 2022 issuance and Oct 31, 2023 GAO date are accurate context"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

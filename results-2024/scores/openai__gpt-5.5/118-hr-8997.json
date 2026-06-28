@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims match the bill text; high-level description of all titles and key provisions is accurate."
+      "why": "All claims match; WOTUS 15-day guidance, 60-day baseline, IRA (PL 117-169) reductions, NGA/FERC amendment, SPR-China ban all verified."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; coverage of the bill's programs and restrictions is consistent with the bill text."
+      "why": "No fabrication; 'entities of concern' and procurement restrictions present in text."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 appropriations for energy and water development agencies."
+      "why": "States FY2025 energy/water appropriations."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes amendments to CALFED, drought relief, WIIN Act, Infrastructure Investment and Jobs Act, and Natural Gas Act."
+      "why": "Details CALFED/drought extensions, WIIN, IIJA, NGA amendment, IRA reductions."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes numerous restrictions on fund use, including CRT, COVID mandates, Chinese-controlled entities."
+      "why": "Lists fund restrictions and carve-outs comprehensively."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2025 period through September 30, 2025 and various 'remain available until expended' provisions."
+      "why": "Notes Sept 30, 2025 and 2026 availability, 15-day and 60-day deadlines."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all four titles and major provisions at an appropriate level of detail."
+      "why": "Covers all titles, agencies, riders, and amendments."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive; policy riders listed factually."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "Organized and comprehensive."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Very lengthy, listing nearly every program and provision; could be condensed considerably."
+      "pass": true,
+      "why": "Dense but no filler given bill size."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Army Corps, Bureau of Reclamation, DOE, FERC, NRC all correctly identified."
+      "why": "All agencies and statutes named correctly."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific dollar amounts cited that could be checked for errors; appropriately omits most figures."
+      "why": "States few dollar figures; those (dates/deadlines) are correct."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

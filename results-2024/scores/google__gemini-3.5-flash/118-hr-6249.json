@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text; the description of reporting and review requirements is accurate."
+      "why": "All claims match; correctly notes FEMA and Comptroller General."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all content traces to the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as requiring FEMA and Comptroller General to review and report on disability disaster assistance."
+      "why": "States review/report on disability disaster assistance."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The bill does not amend existing law, and the summary does not claim to address this."
+      "why": "Reporting-only bill; no amendment to describe."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in this bill."
+      "why": "No material exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the 120-day and one-year deadlines."
+      "why": "120-day and 1-year deadlines correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both the FEMA report requirement and the joint review, including the physical disabilities expansion in the review."
+      "why": "Covers report and review; omits committee names but high-level fine."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Organized and clear."
+      "why": "Organized and readable."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise while covering the essential provisions."
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FEMA Administrator and Comptroller General correctly identified."
+      "why": "FEMA, Comptroller General correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "120-day and one-year deadlines are accurate."
+      "why": "Deadlines correct."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

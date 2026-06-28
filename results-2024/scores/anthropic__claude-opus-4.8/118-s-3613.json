@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All provisions, deadlines (90 days, 270 days, 180 days, 5-year sunset), reporting requirements, and scope limitations accurately described."
+      "why": "accurate across all provisions"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all details traceable to the bill text."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: requiring Facility Security Committees to respond to FPS security recommendations."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Accurately describes new statutory requirements imposed on Facility Security Committees and DHS."
+      "why": "new standalone requirements; not amending a statute"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the scope limitation to GSA/non-GSA fee-paying facilities, the no-additional-funds clause, and the 5-year sunset."
+      "why": "notes application limits and no additional funds"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states all deadlines: 90 days (FSC response), 270 days (first annual report), 180 days (surveillance tech report), 5-year sunset, and December 17, 2024 enactment."
+      "why": "deadlines and 5-year sunset correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All major provisions covered: FSC response requirement, DHS monitoring, annual reports, surveillance tech report, scope limitation, sunset, and GAO report."
+      "why": "covers response duty, reports, surveillance report, sunset, application"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and comprehensive."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Very detailed for a summary; includes granular report content elements that add length beyond what a summary requires."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FPS, DHS Secretary, GSA, Comptroller General, and correct congressional committees all accurately named."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "90-day, 270-day, 180-day, and 5-year deadlines all correctly stated."
+      "why": "no dollar figures; 90/180/270-day and 5-yr correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

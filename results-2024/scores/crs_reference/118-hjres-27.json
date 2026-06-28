@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate; the description of the 2023 rule's content and its replacement of the 2020 Navigable Waters Protection Rule is factually correct."
+      "why": "Accurate; CWA jurisdiction, wetlands/ephemeral waters, and 2020 Navigable Waters rule are correct real-world context."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; contextual information about the Clean Water Act and rule history is accurate."
+      "why": "Context about the 2023 rule replacing the 2020 rule is factually accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as nullifying the WOTUS rule."
+      "why": "States the resolution nullifies the rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Explains the rule's nullification and the regulatory context."
+      "why": "Describes nullification effect."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in this resolution."
+      "why": "No exceptions."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date beyond enactment."
+      "why": "No effective dates in resolution."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the resolution's sole operative effect with helpful context."
+      "why": "Captures the operative effect with helpful context."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and informative."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief with useful context."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Agencies and rule correctly named."
+      "why": "Army Corps, EPA, CWA correct (omits DoD/Army but not inaccurate)."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Date of January 18, 2023 is correct."
+      "why": "January 18, 2023 date correct."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

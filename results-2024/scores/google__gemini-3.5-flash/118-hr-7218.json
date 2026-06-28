@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the amendment, authorization amount, and effective dates."
+      "why": "Correctly states the bill amends PHSA 398B(e) to authorize $33M/yr FY2025-2029."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; legislative history details are accurate."
+      "why": "BOLD program context (HHS/CDC public-health awareness) is accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as extending funding for Alzheimer's public health awareness."
+      "why": "States the bill reauthorizes/extends the Alzheimer's public-health awareness program."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the amendment to Section 398B(e) of the Public Health Service Act at 42 U.S.C. 280c-5(e)."
+      "why": "Notes the amendment to Section 398B(e) of the Public Health Service Act."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this bill."
+      "why": "No material exceptions or conditions in this short bill."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "States authorization covers FY2025-2029 and approval date December 11, 2024."
+      "why": "Notes the FY2025-2029 authorization period."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the single substantive change: $33M per year for five years."
+      "why": "Captures the sole operative effect: the five-year funding authorization."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral tone."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and consistent."
+      "why": "Clear and consistent."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Includes unnecessary legislative history details (committee reports, Senate companion bill number, House/Senate passage dates) that add length without informational value for understanding the bill's effect."
+      "pass": true,
+      "why": "Includes legislative-history detail but not improper padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names Section 398B(e) of the Public Health Service Act and House Committee on Energy and Commerce."
+      "why": "PHSA / 42 U.S.C. 280c-5(e) cited correctly."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$33M per year for FY2025-2029 accurately stated."
+      "why": "$33,000,000 and FY2025-2029 stated correctly."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

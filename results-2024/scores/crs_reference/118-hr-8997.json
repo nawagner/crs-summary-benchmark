@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The list of programs and agencies matches the bill's structure; all named programs are accurately identified."
+      "why": "Accurately enumerates the appropriations accounts and agencies funded by the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the summary accurately lists the programs covered."
+      "why": "All listed accounts (WIFIA, SPR, ARPA-E, etc.) appear in the text."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 appropriations for Corps, Interior, DOE, and independent agencies."
+      "why": "States FY2025 energy/water appropriations purpose."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The summary appropriately focuses on the appropriations structure rather than legislative amendments, which is standard for CRS appropriations summaries."
+      "why": "High-level account list; does not detail amendments but notes restrictions generally."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes requirements and restrictions for using funds."
+      "why": "Notes the bill sets requirements and restrictions on fund use."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "FY2025 period is implicit in the title; no need to state explicitly."
+      "why": "Omits dates; acceptable for high-level appropriations summary."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major titles and agencies funded by the bill."
+      "why": "Comprehensively lists the funded accounts and agencies."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Strictly neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by agency."
+      "why": "Organized as a structured account list."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise given the bill's scope; uses a list format efficiently."
+      "why": "List form is appropriate, no filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All agencies (Corps, Bureau of Reclamation, DOE, FERC, NRC) correctly identified."
+      "why": "Corps, Reclamation, DOE, FERC, NRC and all accounts named correctly."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated in this summary."
+      "why": "No dollar figures stated."
     }
   },
   "n_applicable": 9,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

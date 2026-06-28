@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the trust transfer and gaming prohibition; 'lands in Iowa' is accurate per the bill."
+      "why": "Trust transfer, reservation inclusion, gaming ban all correct."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all stated facts match the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the act takes specified lands into trust for the Winnebago Tribe."
+      "why": "States lands taken into trust for the Tribe."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes lands are taken into trust and made part of the reservation."
+      "why": "Notes land made part of reservation."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the gaming prohibition, which is the key condition."
+      "why": "Notes gaming prohibition."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date stated; omitting is acceptable for a high-level summary."
+      "why": "Omits date; acceptable for high-level summary."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers trust transfer, reservation status, and gaming prohibition."
+      "why": "Captures trust and gaming ban."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Concisely covers the essential provisions."
+      "why": "Maximally concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Winnebago Tribe of Nebraska correctly identified."
+      "why": "Tribe named correctly."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated in this summary."
+      "why": "No figures stated."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

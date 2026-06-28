@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate and supported by the bill text; the description of Executive Order 10264 and its effect is correct."
+      "why": "Correctly describes repeal of Sec 12 of PL 98-213 (48 USC 1662a)."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the description of the prior restriction (requiring Congressional action) is accurate."
+      "why": "Context on EO 10264 and Territorial Clause is accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: repealing the restriction on amendments to the Constitution of American Samoa."
+      "why": "States purpose: restore Samoa's ability to amend its constitution."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the repeal of Section 12 of Public Law 98-213 (48 U.S.C. 1662a)."
+      "why": "Describes the repeal of the prior statutory restriction."
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the continuing subject to Congress's Territorial Clause authority."
+      "why": "Single repeal provision; no material exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the January 4, 2025 effective date."
+      "why": "Notes enactment/effective date Jan 4, 2025."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the single operative provision: repeal of Section 12 of P.L. 98-213."
+      "why": "Captures the sole operative repeal."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear and consistent."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed for a bill that has a complex long title and single operative provision."
+      "why": "Appropriately brief."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies Public Law 98-213, 48 U.S.C. 1662a, and Executive Order 10264."
+      "why": "PL 98-213, 48 USC 1662a, EO 10264 correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Executive Order date (June 29, 1951) and enactment date (January 4, 2025) are both correct."
+      "why": "Citations and dates correct."
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

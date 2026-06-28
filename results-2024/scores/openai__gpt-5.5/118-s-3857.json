@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes all four parcels with recording dates, total of 172.10 acres, the 1.1-acre conditional parcel, gaming prohibition, reservation status, and Dec 23, 2024 enactment."
+      "why": "accurately states 172.10 acres into trust, conditional 1.1 acres, reservation status, gaming bar"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims; parcel details match text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the trust acquisition and reservation expansion."
+      "why": "takes land into trust; does not amend general statutory law"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes gaming prohibition and conditional 1.1-acre parcel."
+      "why": "notes gaming prohibition and conditional acceptance of the additional 1.1-acre parcel"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No internal effective date beyond enactment."
+      "why": "notes approval Dec 23 2024"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All major provisions covered."
+      "why": "covers trust acquisition, additional parcel, reservation, gaming prohibition"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed."
+      "why": "acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Jamul Indian Village, Secretary of Interior, IGRA all correctly referenced."
+      "why": "Jamul Indian Village, Interior, IGRA, CDFW correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All acreages and dates accurate."
+      "why": "172.10 / 161.23 / 6 / 4.03 / 0.84 / 1.1 acres and dates correct"
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text; description of the three tracts and trust terms is accurate."
+      "why": "All claims match the operative text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; 1865 treaty, tract descriptions, and gaming prohibition are all in the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose is taking lands into trust for the Winnebago Tribe and making them part of the reservation."
+      "why": "States trust transfer and reservation inclusion."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes how lands are declared part of the reservation and held in trust under 1865 treaty terms."
+      "why": "Notes lands declared part of reservation under treaty terms."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the gaming prohibition, existing rights condition, and Indian lands carve-out is not applicable here."
+      "why": "Notes gaming prohibition and valid existing rights."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes approval on July 12, 2024."
+      "why": "Gives approval date July 12, 2024."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three tracts, reservation declaration, trust holding, and gaming prohibition."
+      "why": "Covers all operative provisions."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Overly detailed recitation of specific court descriptions adds unnecessary length."
+      "pass": true,
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All entities (Winnebago Tribe, Indian Gaming Regulatory Act) correctly named."
+      "why": "Tribe, IGRA, courts, treaty correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "1865 treaty and July 12, 2024 approval date are both accurate."
+      "why": "Date and tract numbers correct."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The characterization of the rule as suspending payments and discharging debt is accurate real-world context about what the DOE rule did."
+      "why": "describes the one-time relief rule (suspends payments/discharges debt) — accurate characterization"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The description of the rule's content is accurate real-world context not fabricated."
+      "why": "no fabrication; rule context correct"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution nullifies the DOE student loan rule."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "States the rule is nullified, which is the operative legal effect."
+      "why": "CRA disapproval, not amendment"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the bill."
+      "why": "no material exceptions"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No separate effective date specified; omission is appropriate."
+      "why": "notes Oct 12 2022 issuance date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential effect: nullifying the identified DOE rule."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and readable single sentence summary."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Very concise one-sentence summary appropriate for a brief CRS note."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Education correctly identified."
+      "why": "entities named correctly"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "October 12, 2022 date correctly stated."
+      "why": "Oct 12 2022 date correct"
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

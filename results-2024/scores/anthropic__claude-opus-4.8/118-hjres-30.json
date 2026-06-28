@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match bill text; citing the CRA, 87 Fed. Reg. 73822, dates, and 'no force or effect' language are all correct."
+      "why": "correctly describes CRA disapproval of DOL rule; citation correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the summary accurately reflects only what is in the bill text."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution disapproves a specific DOL rule under the CRA."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the rule would be nullified and have no force or effect, which is the operative change."
+      "why": "CRA disapproval; does not amend statutory text"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this resolution."
+      "why": "no material exceptions/conditions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date is specified in the bill beyond enactment."
+      "why": "no effective date/sunset specified"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the sole operative provision: nullification of the named DOL rule."
+      "why": "captures nullification; notes it omits rule substance"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout; describes the resolution's mechanism without advocacy."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Somewhat verbose; includes procedural details (passage dates, Senate receipt) that add length without adding material substance to the summary."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Labor and the rule title are correctly named."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Fed. Reg. citation 87 Fed. Reg. 73822 and dates are correct."
+      "why": "no dollar figures; Fed Reg citation correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 9,
-  "meets_standard": false,
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

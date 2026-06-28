@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the Congressional Review Act disapproval of the CFPB small business lending rule."
+      "why": "Correctly describes CRA disapproval of the CFPB small-business-lending (Reg B) rule."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all content grounded in the bill text."
+      "why": "CRA/CFPB context and 88 Fed. Reg. 35150 citation are accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution as overturning the CFPB's small business lending rule under the CRA."
+      "why": "States the resolution nullifies the specified CFPB rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the CRA mechanism and the effect of nullifying the rule."
+      "why": "Notes the rule will have no force or effect (the CRA mechanism)."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this resolution."
+      "why": "No exceptions or conditions in this one-sentence resolution."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No specific effective dates in the resolution beyond enactment."
+      "why": "No effective dates/deadlines specified."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the single operative provision: disapproval and nullification of the specified CFPB rule."
+      "why": "Captures the sole operative effect: disapproval of the rule."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral tone."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and logically structured."
+      "why": "Clear and consistent."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names the Bureau of Consumer Financial Protection (CFPB) and the Equal Credit Opportunity Act."
+      "why": "CFPB/Bureau, Reg B, and the Equal Credit Opportunity Act named correctly."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "88 Fed. Reg. 35150 and October 18, 2023 Senate passage date are accurate."
+      "why": "88 Fed. Reg. 35150 and May 31 2023 stated correctly."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

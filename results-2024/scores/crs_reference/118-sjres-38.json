@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the text of the FHWA rule and the resolution; the details about the waiver scope and phase-out provisions are accurate descriptions of the underlying rule."
+      "why": "Correctly describes CRA disapproval of FHWA Buy America EV charger waiver rule."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The details about steel/iron exclusions, the June 30, 2024 manufacturing cutoff, the October 1, 2024 installation deadline, and the 55% domestic content threshold are all accurate context from the underlying FHWA rule."
+      "why": "CRA, Fed Reg cite, and Buy America context accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: nullifying the FHWA's Buy America waiver for EV chargers."
+      "why": "States purpose: nullify the specified FHWA rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly explains that the resolution nullifies the FHWA rule."
+      "why": "Describes nullification of the agency rule (no force or effect)."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly describes the key conditions of the underlying rule: exclusions for steel/iron housing, phase-out schedule, and domestic content threshold."
+      "why": "Describes rule's carve-outs (steel/iron housing excluded, 55% phase-out) as accurate context."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the February 21, 2023 publication date, June 30, 2024 manufacturing cutoff, and October 1, 2024 installation deadline from the underlying rule."
+      "why": "Cites rule's own dates (waiver through June 30 2024, install by Oct 1 2024); accurate context."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both the disapproval resolution and the key provisions of the underlying rule being nullified."
+      "why": "Captures the single operative disapproval."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Much longer than necessary—provides extensive detail about the underlying rule's provisions rather than focusing on the resolution's operative effect."
+      "pass": true,
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FHWA, the rule title, and the Infrastructure Investment and Jobs Act."
+      "why": "FHWA, CRA, Federal Register citation correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All dates and the 55% threshold from the Infrastructure Investment and Jobs Act are accurately cited."
+      "why": "88 Fed. Reg. 10619 and Feb 21, 2023 correct."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

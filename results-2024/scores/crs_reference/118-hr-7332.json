@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the bill text; the description of conditions and requirements is accurate."
+      "why": "Correctly describes three land conveyances and their conditions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; BLM and Forest Service are correctly identified as the conveying agencies."
+      "why": "BLM/Forest Service attributions accurate; no fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: conveying federal lands to Utah for three state parks."
+      "why": "States purpose: convey federal land to Utah for three state parks."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Bill does not amend existing statutory law."
+      "why": "Bill directs conveyances; amends no existing statute."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Covers key conditions: easements, specific water rights for Fremont Indian, cost responsibility for other parks."
+      "why": "Notes easements, water-rights limits, reversion, valid existing rights."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "Does not mention the 180-day deadlines, but omitting figures is acceptable for a high-level summary."
+      "why": "CRS omits 180-day deadline; high-level summary."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three conveyances and their essential conditions including reversionary interest."
+      "why": "Covers all three conveyances, costs, conditions, reversion."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "Well-structured."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise while hitting all key provisions."
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies BLM, Forest Service, and all three state parks."
+      "why": "Interior/Agriculture, BLM, NFS, park names correct."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific figures stated in the summary."
+      "why": "No specific figures stated."
     }
   },
   "n_applicable": 9,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

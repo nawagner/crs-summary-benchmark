@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All provisions, deadlines, and scope limitations accurately described."
+      "why": "accurate across provisions"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: FSC response requirement for FPS recommendations."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Accurately describes new requirements for FSCs and DHS."
+      "why": "new standalone requirements"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes scope limitation to GSA/fee-paying facilities, no-additional-funds, and 5-year sunset."
+      "why": "notes application scope and no funds"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "All major deadlines correctly stated: 90 days, 270 days, 180 days, and 5-year sunset."
+      "why": "deadlines and sunset correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All major provisions covered: FSC response, DHS monitoring, annual reports, surveillance tech report, scope, sunset, GAO report."
+      "why": "covers all major provisions"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and comprehensive."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Very detailed; enumerates all seven annual report content elements which adds length beyond what a summary typically requires."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FPS, DHS, GSA, and Comptroller General correctly identified."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "All deadlines correctly stated."
+      "why": "deadlines correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

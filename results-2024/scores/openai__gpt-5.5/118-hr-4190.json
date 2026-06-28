@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the amendment, the predecease payment rule, the section 5121 mechanism, the fiduciary prohibition, and the conforming changes."
+      "why": "accurately describes reissuance to deceased beneficiary's estate via section 5121 and the fiduciary bar"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the bill's purpose of ensuring benefits reach survivors when a beneficiary predeceases a reissuance payment."
+      "why": "states purpose clearly"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the amendment to title 38 and the new provision being added."
+      "why": "describes amendment to 38 USC 6107 incl. new subsection and redesignations"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the prohibition on paying the misusing fiduciary and conforming changes."
+      "why": "notes bar on paying a fiduciary who misused benefits"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No separate effective date specified."
+      "why": "notes approval Nov 25 2024; no separate effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All key operative provisions captured."
+      "why": "covers new subsection, 5121 payment, fiduciary bar, conforming changes"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA, title 38 statutes correctly referenced."
+      "why": "VA, sections 6107 and 5121 correct"
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No dollar amounts or quantities to verify."
+      "why": "date and section numbers correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 12,
+  "n_passed": 12,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

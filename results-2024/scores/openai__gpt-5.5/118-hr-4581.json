@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurately supported by the bill text."
+      "why": "accurate; correctly notes no new grant program or funding"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "examples list matches statutory text; 'block grant' is accurate context for Title V MCH"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as clarifying that MCH funds may be used for stillbirth prevention."
+      "why": "states purpose to clarify funds may be used for stillbirth prevention"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes changes to section 501(a) of the Social Security Act."
+      "why": "describes amendments to Section 501(a) of the Social Security Act"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in the bill."
+      "why": "no material exceptions in this clarifying amendment"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "Bill has no explicit separate effective date; the summary correctly notes no separate deadline."
+      "why": "notes no separate effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both statutory changes and all listed permissible activities."
+      "why": "covers both amendments and the example activities"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "focused; example list justified"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies section 501(a) of the Social Security Act."
+      "why": "Title V Social Security Act, Sec 501(a), MCH Block Grant correct"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific figures cited beyond the enactment context."
+      "why": "no figures stated"
     }
   },
   "n_applicable": 9,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

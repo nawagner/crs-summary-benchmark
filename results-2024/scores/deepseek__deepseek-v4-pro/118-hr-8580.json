@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims about the bill's provisions and policy riders are consistent with the bill text and known content of the act."
+      "why": "Guantanamo, abortion exceptions, gender-affirming, NICS judicial finding, China IT, Cost of War Toxic Exposures Fund, first-class travel all verified"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all described provisions are real."
+      "why": "cost-plus contract, land purchase, US-firm preference, ineligible-alien restrictions all confirmed in text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+      "why": "states FY2025 MilCon/VA/related appropriations"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Appropriations bill."
+      "why": "appropriations act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes key conditions including notification requirements, policy riders on abortion, gender-affirming care, COVID mandates, DEI, CRT, and Guantanamo restrictions."
+      "why": "abortion exceptions, contract/land restrictions, transfer authorities noted"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2025, construction funds through September 30, 2029, and extended VA medical care availability."
+      "why": "Sept 30 2029 and Oct 1 2025 availability correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all four titles and major appropriations categories with key conditions."
+      "why": "covers all four titles and key riders thoroughly"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "organized by title"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed for a complex multi-title appropriations bill."
+      "why": "dense but no filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names VA, DOD, American Battle Monuments Commission, U.S. Court of Appeals for Veterans Claims, and the Armed Forces Retirement Home."
+      "why": "agencies, accounts, Cost of War Toxic Exposures Fund correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FY2025 and September 30, 2029 availability for construction funds."
+      "why": "dates and availability periods correct"
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

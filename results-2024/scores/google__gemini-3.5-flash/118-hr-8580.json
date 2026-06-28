@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims about the bill's provisions are consistent with the bill text and known content of this appropriations act."
+      "why": "Guantanamo, abortion + Sept 9 2022 IFR, COVID mandate, animal research March 9 2026, NICS judicial finding, DEI/CRT, China IT all verified"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; policy riders described are accurate."
+      "why": "all listed restrictions confirmed in text including Sept 9 2022 abortion rule"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+      "why": "states FY2025 MilCon/VA/related appropriations"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Appropriations bill."
+      "why": "appropriations act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes key policy riders (abortion exception, gender-affirming care ban, COVID mandate prohibition, canine research phase-out, NICS reporting restriction)."
+      "why": "abortion exceptions, animal research interim conditions, NICS judicial finding noted"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY ending September 30, 2025, and construction funds available through September 30, 2029."
+      "why": "Sept 30 2029 and March 9 2026 deadlines correct"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits Title III related agencies (American Battle Monuments Commission, U.S. Court of Appeals for Veterans Claims, etc.) and the advance VA appropriations for FY2026."
+      "pass": true,
+      "why": "covers MilCon, VA, and major riders; lighter on related agencies but acceptable"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Reasonably concise while covering major provisions."
+      "why": "focused list; no filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names VA, DOD, and Guantanamo Bay."
+      "why": "VA, NICS, Guantanamo, agencies correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FY2025 and September 30, 2029 availability and March 9, 2026 canine research deadline."
+      "why": "dates correct"
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text; correctly describes the amendment and its operational requirements."
+      "why": "All claims match; 'effective Sept 20, 2024' is reasonable as approval date."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all content traces to the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose is amending the Federal Oil and Gas Royalty Management Act to improve royalty management."
+      "why": "States it modifies the allocation-determination process."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the amendment to the 1982 Act."
+      "why": "Notes amendment of FOGRMA 1982."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the Indian lands exclusion and the interest waiver condition."
+      "why": "Notes waiver condition and Indian-lands exception."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes September 20, 2024 as the effective date."
+      "why": "120-day and third-month deadlines and approval date correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all key provisions including the 120-day deadline, interim payment rules, correction window, and interest waiver."
+      "why": "Covers all operative elements."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise for the bill's complexity."
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Oil and Gas Royalty Management Act of 1982 and Secretary correctly identified."
+      "why": "Secretary, FOGRMA correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "120-day deadline and third-month correction window are accurate."
+      "why": "Deadlines and date correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

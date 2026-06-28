@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The description of the D.C. Revised Criminal Code Act's contents (definitions, sentencing, jury trial rights) is accurate real-world context supported by public record."
+      "why": "Accurately states it nullifies the RCCA; the described RCCA changes (definitions, sentencing, jury trial) are correct real-world context."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The summary accurately describes what the nullified D.C. act contained based on public legislative record."
+      "why": "The added context about the RCCA's content is factually accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution nullifies the D.C. Revised Criminal Code Act of 2022."
+      "why": "States it nullifies the Revised Criminal Code Act."
     },
     "changes_to_existing_law": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "A disapproval resolution does not amend federal law."
+      "why": "Describes the effect of nullifying the DC act."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "No material exceptions."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective dates or deadlines are specified in the resolution text itself."
+      "why": "No dates emphasized; not required at this altitude."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential effect — nullification of the D.C. act — and adds valuable context about the act's contents."
+      "why": "Captures the operative effect plus context on the act being blocked."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "Very concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "D.C. Council and the D.C. Revised Criminal Code Act of 2022 correctly named."
+      "why": "DC Council and RCCA correct."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific figures stated."
+      "why": "No figures stated."
     }
   },
-  "n_applicable": 8,
-  "n_passed": 8,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

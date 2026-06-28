@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "High-level description accurately reflects the act's content."
+      "why": "Accurately states it authorizes specified VA projects with maximum amounts."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the summary is brief but accurate."
+      "why": "No fabrications."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "States the act authorizes specified VA major medical facility projects during FY2024."
+      "why": "States the authorization purpose."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The act provides new project-specific authorization rather than amending existing law."
+      "why": "New authorization, not an amendment."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes that the act indicates maximum spending amounts for each project."
+      "why": "Notes maximum-amount caps per project."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2024 as the authorization period."
+      "why": "Notes FY2024 timeframe."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures both major elements: project authorization and maximum spending limits. Does not list projects individually but that is acceptable at this level."
+      "why": "Captures the essential effect: authorizing projects with spending caps, at a high level."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Very concise; captures the essence in two sentences."
+      "why": "Very concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Veterans Affairs correctly named."
+      "why": "VA correct."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific dollar amounts stated."
+      "why": "No specific figures stated; omission is acceptable."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

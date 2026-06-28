@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate across all provisions including effective-on-enactment note."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; states 'took effect upon enactment on October 4, 2024' which is accurate."
+      "why": "No fabricated claims."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as requiring states to provide observer access during federal elections."
+      "why": "States purpose."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes amendment to HAVA adding Section 304 and conforming amendments."
+      "why": "Notes amendments and conforming/table-of-contents changes."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes observer prohibitions and removal conditions thoroughly."
+      "why": "Covers restrictions and removal conditions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes effective upon enactment on October 4, 2024."
+      "why": "Notes 24-hour deadline and enactment date."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly covers all major provisions including access, prohibitions, removal process, replacement, definitions, and conforming amendments."
+      "why": "All provisions covered, most thorough."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Well-organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive but not padded."
+      "why": "Thorough but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All committees and statutes correctly named."
+      "why": "HAVA, committees correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "24-hour notification deadline correctly stated."
+      "why": "24 hours, date correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

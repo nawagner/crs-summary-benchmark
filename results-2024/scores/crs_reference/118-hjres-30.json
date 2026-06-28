@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate; the description of ESG/climate factors in the DOL rule is correct real-world context about the rule's content."
+      "why": "accurate context: rule concerns ESG factors in fiduciary decisions"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The ESG and fiduciary duty context accurately describes the substance of the DOL rule (87 Fed. Reg. 73822)."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies nullification of a DOL rule on fiduciary duties for employee benefit plans."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "States the rule is nullified, which is the operative legal change."
+      "why": "CRA disapproval; does not amend statutory text"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this resolution."
+      "why": "no material exceptions/conditions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date specified."
+      "why": "no effective date/sunset specified"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the operative effect and describes the substance of the underlying rule being nullified."
+      "why": "captures nullification plus accurate rule-substance context"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive without advocacy."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Concise and well-structured."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Brief and to the point."
+      "why": "brief and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Labor correctly named; ESG and fiduciary context is accurate."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "December 1, 2022 issuance date for the rule is correct."
+      "why": "no dollar figures; Fed Reg citation correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 8,
+  "n_passed": 8,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes major funding amounts, policy conditions, and restrictions including the detention bed requirement and contraceptive provisions."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all provisions are in the bill."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 DHS appropriations legislation."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Details specific policy riders, conditions, and restrictions on existing authorities."
+      "why": "describes funding levels and policy riders restricting/directing fund use"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes abortion funding exceptions and key conditions throughout."
+      "why": "notes carve-outs/exceptions (e.g., abortion exceptions for rape/incest/life)"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 30-day and 180-day effective dates for Coast Guard contraceptive provisions."
+      "why": "notes FY ending Sept 30 2025, 120-day obligation, report deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive coverage of funding accounts, policy riders, conditions, and rescissions."
+      "why": "thoroughly captures funding and riders"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout; lists restrictions without advocacy."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Extremely detailed; many granular provisions could be condensed for a summary."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All DHS components, CBP One app, TRICARE, and other entities correctly named."
+      "why": "DHS components, 287(g), Safe Mobility Offices, CBP One correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$22.741 billion Disaster Relief Fund, $600 million for barriers, $300 million for technology, 50,000 beds, and rescission amounts correctly cited."
+      "why": "$22.741B DRF, $600M barriers, $300M tech, $154M rescission verified"
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

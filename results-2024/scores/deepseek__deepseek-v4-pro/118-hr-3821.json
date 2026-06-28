@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All figures, years, and statutory information match the bill text."
+      "why": "accurate; enactment date correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as reauthorizing the voluntary firefighter cancer registry."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the amendment to the 2018 Act with correct figures."
+      "why": "describes amendment to existing law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions/conditions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes December 12, 2024 enactment and FY2024-2028 period."
+      "why": "notes relevant dates/deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the sole operative provision accurately."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Firefighter Cancer Registry Act of 2018 correctly named."
+      "why": "entities named correctly"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$2.5M and $5.5M figures and FY ranges are correct."
+      "why": "figures correct"
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

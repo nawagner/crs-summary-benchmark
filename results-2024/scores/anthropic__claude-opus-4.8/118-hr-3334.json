@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "States 'Waiver and license authority terminates two years after enactment' but the bill text does not mention a 2-year expiration on waiver/license authority in the truncated text provided; this claim appears to be accurate context from the full bill but cannot be verified against the available text — however it is a detail from the bill, not a fabrication."
+      "pass": true,
+      "why": "All claims match: who is sanctioned, conduct, sanctions, exceptions, waiver/termination."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No clearly fabricated claims; the 2-year waiver authority expiration is consistent with the full bill and is a real provision."
+      "why": "IEEPA naming and details are accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as imposing sanctions on CCP members for specified conduct."
+      "why": "Clearly states purpose to mandate sanctions on CCP members and related parties."
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes sanctions imposed and the statutory mechanisms used (IEEPA)."
+      "why": "Bill creates new sanctions authority rather than amending existing law."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes exceptions for UN HQ Agreement, intelligence/law enforcement activities, and goods importation."
+      "why": "Covers UN Headquarters, intel/LE/national security, and goods-importation exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 30-day implementation deadline after enactment."
+      "why": "Notes 30-day deadline, 60-day waivers, 2-year sunset of waiver authority."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers who is sanctioned, types of sanctions, exceptions, waiver, termination conditions, and penalties."
+      "why": "Comprehensive coverage of all operative provisions."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "Neutral despite charged subject."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear headers."
+      "why": "Well-structured with headings."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive but not padded."
+      "why": "Detailed but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "IEEPA, INA, and congressional committees correctly named."
+      "why": "IEEPA, committees, Central Committee all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "30-day and 60-day and 15-day figures correctly stated."
+      "why": "30 days, 60 days, 2 years all correct."
     }
   },
-  "n_applicable": 12,
+  "n_applicable": 11,
   "n_passed": 11,
-  "meets_standard": false,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

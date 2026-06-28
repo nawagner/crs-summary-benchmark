@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately states the resolution terminates the COVID-19 national emergency declared March 13, 2020."
+      "why": "Correctly states termination of the COVID-19 emergency."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; COVID-19 is accurate real-world context for the emergency."
+      "why": "COVID-19 is accurate context for Proclamation 9994."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Directly and clearly states the purpose."
+      "why": "Clearly states the purpose."
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Implicitly addresses the change by stating the emergency is terminated, which is the operative legal effect."
+      "why": "Terse summary; termination under NEA implied, no amendment to describe."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in this bill."
+      "why": "No exceptions exist."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date is mentioned but the bill has immediate effect on approval; omitting is acceptable for a high-level summary."
+      "why": "Brief summary omits dates; acceptable for high-level."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "The single provision (termination) is fully captured."
+      "why": "Captures the sole operative effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear, single sentence is internally consistent."
+      "why": "Clear one-sentence summary."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Maximally concise for the bill's scope."
+      "why": "Maximally concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the President and the March 13, 2020 declaration."
+      "why": "Reference to the President/emergency correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "March 13, 2020 date is correct."
+      "why": "Date March 13, 2020 correct."
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

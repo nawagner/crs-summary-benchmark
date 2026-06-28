@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All identified appropriations and provisions are accurately described."
+      "why": "Appropriations totals and policy riders match the bill text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all content traceable to the bill text."
+      "why": "No fabricated provisions; entities and riders are in the text."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 legislative branch appropriations."
+      "why": "States it provides FY2025 legislative-branch appropriations."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes amendments including child care center fund telecommunications, Capitol Police Board approval requirement, and fiduciary relationship clarification."
+      "why": "Notes amendments (Energy Policy Act, child care fund, title 5 fiduciary, Capitol Police training)."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes vehicle lease cap, waiver authority for telecom ban, and exceptions for law enforcement for computer network restriction."
+      "why": "Notes waivers, national-security drone carve-out, and rider exceptions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2025 applicability and phase-in dates for telecom ban."
+      "why": "Notes FY2025 scope and phased telecom effective dates."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers House appropriations, joint committees, Capitol Police, CBO, Architect, Library, GPO, GAO, and key policy riders."
+      "why": "Covers major appropriations and key policy riders."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual; no advocacy."
+      "why": "Neutral; describes DEI/marriage riders without editorializing."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with systematic coverage."
+      "why": "Well-organized by agency and provision."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive but appropriately so for a large appropriations bill."
+      "why": "Dense but no padding given the bill's length."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names all relevant agencies and entities including Capitol Police Board."
+      "why": "Agencies (Capitol Police, AOC, LOC, GPO, GAO, CBO) named correctly."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$1.93 billion, $174,000 widow payment, Capitol Police figures, and $500,000 CBO transparency item accurately stated."
+      "why": "Stated dollar figures (e.g., $1.93B House, $619.3M/$213.2M Capitol Police, $896.7M GAO, $174,000) are correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

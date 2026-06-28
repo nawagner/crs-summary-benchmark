@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; key provisions and requirements correctly described."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as directing DHS S&T Directorate to expand drug detection capabilities."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the new function added to Section 302 of the Homeland Security Act."
+      "why": "describes amendment to sec.302 of Homeland Security Act of 2002"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the rule of construction preserving existing agency authority."
+      "why": "notes rule of construction preserving existing agency authority"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes December 23, 2024 approval date."
+      "why": "notes Dec 23, 2024 approval"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three technology areas, DEA coordination, NIST AI RMF, threat assessment prioritization, and rule of construction."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and logical."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "DHS, DEA, NIST AI RMF, Homeland Threat Assessment, State and Territory Report all correctly identified."
+      "why": "DHS S&T Directorate, DEA, NIST, Under Secretary correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "December 23, 2024 correctly stated."
+      "why": "no incorrect figures; statutory cites correct"
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

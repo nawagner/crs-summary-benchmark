@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text across all three titles."
+      "why": "Accurately describes all three titles; minor under 17, child under 13, teen 13-16, 10M threshold, duty of care all match text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; statement that Subtitle A takes effect 18 months after enactment and filter bubble provision one year after enactment are correct."
+      "why": "COPPA naming and details are accurate; no fabrications."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's primary purposes across all three titles."
+      "why": "States overall purpose and titles clearly."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes amendments to COPPA (Title II) and Title 31 (Title III) and new duties under Title I."
+      "why": "Notes COPPA amendments and title 31 amendments."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes key exceptions to covered platform definition and duty of care limitations."
+      "why": "Lists covered-platform exceptions and non-preemption of stronger state law."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 18-month effective date for Subtitle A, 1-year for Subtitle B, and 180-day Kids Online Safety Council deadline."
+      "why": "Notes 18-month and 1-year effective dates."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Thoroughly covers all three titles including duty of care, safeguards, COPPA extension to teens, filter bubble transparency, and reports elimination."
+      "why": "Covers all three titles comprehensively."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear title-by-title structure."
+      "why": "Well-organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive but not padded."
+      "why": "Thorough but not padded."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FTC, COPPA, National Academy of Sciences all correctly referenced."
+      "why": "COPPA, FTC, NAS, Kids Online Safety Council correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "10 million monthly user threshold, 18-month and 1-year effective dates, 180-day council deadline all correctly stated."
+      "why": "Under 17/13, 10M, 18 months, 1 year all correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text and correct contextual information about the Home Rule Act review process."
+      "why": "All claims match the resolution and accurately describe Home Rule Act review mechanics."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims; the description of the disapproval mechanism is accurate real-world context."
+      "why": "No fabricated claims; the review-period context is correct."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies that the resolution disapproves the D.C. Revised Criminal Code Act of 2022."
+      "why": "Clearly states it disapproves the DC Revised Criminal Code Act."
     },
     "changes_to_existing_law": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "A disapproval resolution does not amend or repeal existing federal law; it simply nullifies the D.C. act."
+      "why": "Explains it blocks the DC act from taking effect under the Home Rule Act."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this simple disapproval resolution."
+      "why": "No material exceptions or conditions in this resolution."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes passage dates (Feb. 9, Mar. 8, 2023) and approval date (Mar. 20, 2023)."
+      "why": "Correctly states House, Senate, and approval dates."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the single operative provision — congressional disapproval blocking the D.C. act — fully."
+      "why": "Captures the sole operative effect: disapproval blocking the act."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout; no advocacy or editorializing."
+      "why": "Neutral, non-partisan description."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Well organized and consistent."
     },
     "concise": {
       "applicable": true,
       "pass": false,
-      "why": "Somewhat verbose; the last paragraph restating there are no conditions is unnecessary padding."
+      "why": "Somewhat padded with repeated explanation of the review mechanism."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "D.C. Council, D.C. Home Rule Act section 602(c)(1), D.C. Act 24-789 all correctly identified."
+      "why": "DC Council, Home Rule Act, D.C. Act 24-789 all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All dates stated (Jan. 17, Jan. 27, Feb. 9, Mar. 8, Mar. 20, 2023) match the bill text."
+      "why": "Dates and act numbers are correct."
     }
   },
-  "n_applicable": 10,
-  "n_passed": 9,
+  "n_applicable": 11,
+  "n_passed": 10,
   "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

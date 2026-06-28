@@ -5,7 +5,7 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "Accurate across access, restrictions, removal, and definitions."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -15,58 +15,58 @@
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as requiring states to provide observer access during federal elections."
+      "why": "States purpose clearly."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes amendment to the Help America Vote Act."
+      "why": "Notes new section 304 and conforming amendments."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes restrictions on observer conduct and conditions for removal."
+      "why": "Covers restrictions and removal conditions."
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific effective date clause; the Act took effect upon enactment and no sunset is specified."
+      "why": "Notes 24-hour notice deadline."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major provisions including access requirements, observer restrictions, removal, definitions, and conforming amendments."
+      "why": "All provisions covered."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Thorough without unnecessary padding."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All committees and statutes correctly named."
+      "why": "HAVA and committees correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "24-hour notification deadline correctly stated."
+      "why": "24 hours correct."
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 12,
+  "n_passed": 12,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

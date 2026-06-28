@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the conveyance of approximately 77 acres across five parcels to Frontier and Hitchcock Counties, the 3-year negotiation deadline, 2-year code compliance requirement, fair market value payment, reconveyance restrictions, flood liability disclaimer, indemnification requirement, and the fallback provision if no agreement is reached."
+      "why": "accurately summarizes conveyance terms; ~77 acre total matches parcel sums"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims. Total acreage (~77.2 acres) and all other figures are accurate."
+      "why": "no fabricated claims; details supported by text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose: conveying federal reclamation lands at Swanson and Hugh Butler Reservoirs to the Nebraska counties."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the conveyance from federal to county ownership, the change in land management authority."
+      "why": "directs conveyance of federal land; does not amend general statutory law (operates under existing authorities)"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reconveyance restrictions (only to NE public/governmental entity), existing rights, flood liability disclaimer, indemnification requirement, and land must be conveyed whole."
+      "why": "notes conveyance conditions, reconveyance restrictions/exceptions, and reservations"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 3-year negotiation deadline, 2-year code compliance deadline, and Dec 23, 2024 approval date."
+      "why": "notes 3-year negotiation deadline and 2-year compliance deadline"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All key operative provisions covered including the five parcels, payment terms, management requirements, existing agreements, and fallback."
+      "why": "covers conveyance, consideration, management, reconveyance, reservations, liability, interim"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "well organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Thorough but not padded."
+      "why": "thorough but not padded"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Bureau of Reclamation, Secretary of Interior, Hitchcock County, Frontier County, Nebraska, Swanson Reservoir, Hugh Butler Reservoir, John D. Dingell Jr. Act all correctly referenced."
+      "why": "Interior/Reclamation, counties, USPAP, Dingell Act correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "~77 acres total, 3-year deadline, 2-year compliance, Dec 23, 2024 all accurate."
+      "why": "~77 acres, elevations 2785/2628 ft, 3-yr/2-yr deadlines correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

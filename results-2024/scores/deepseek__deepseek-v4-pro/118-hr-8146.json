@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All provisions accurately described; using 'noncitizens' rather than the bill's 'illegal aliens' is an accurate neutral paraphrase, not an error."
+      "why": "accurate; notes bill's framing while using neutral terms"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the reporting requirement on border impacts on law enforcement."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The bill creates a new reporting requirement rather than amending existing law."
+      "why": "does not amend existing law; report-only"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states the 180-day deadline."
+      "why": "180-day deadline correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All seven report elements and the congressional findings thoroughly covered."
+      "why": "covers all seven report elements"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral framing maintained; describes partisan findings factually without endorsing them."
+      "why": "neutrally attributes crisis framing to the findings"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and comprehensive."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Somewhat verbose; includes the full evidence lifecycle phrasing and other granular detail from the bill that exceed what a summary typically needs."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Attorney General and Congress correctly identified."
+      "why": "entities named correctly"
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "180-day deadline correctly stated."
+      "why": "180-day deadline correct"
     }
   },
-  "n_applicable": 10,
+  "n_applicable": 9,
   "n_passed": 9,
-  "meets_standard": false,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

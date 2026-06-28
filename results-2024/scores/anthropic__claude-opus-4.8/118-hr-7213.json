@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": true,
-      "why": "Key claims match bill text: NIH fields expanded, Centers of Excellence period extended, reauthorization through FY2029, appropriation figures all consistent with bill text."
+      "pass": false,
+      "why": "says it 'expands the number of authorized Centers of Excellence reviews'; the 5->7 change is the centers' support period in years, not reviews"
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": true,
-      "why": "No fabricated claims; appropriation figures and statutory details are supported by the bill."
+      "pass": false,
+      "why": "'Centers of Excellence reviews' mischaracterizes the period-of-support amendment"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as reauthorizing and expanding autism research and programs under the PHSA."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Details specific amendments to PHSA sections including expanded research fields, Centers of Excellence period, and reauthorization dates."
+      "why": "describes amendments to the Public Health Service Act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes conditions such as NIH consulting with federal agencies and budget estimates being tied to strategic plan."
+      "why": "notes conditions/eligibility e.g. tribal, community-based, request-based TA"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reauthorization through September 30, 2029 and NIH budget estimates for FY2026-2029."
+      "why": "notes FY2029/Sept 30 2029 reauthorization and reporting deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers NIH activities, program reauthorizations, IACC reforms, reporting requirements, appropriations, and communication tools section."
+      "why": "thoroughly captures the operative provisions"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by bill section with clear structure."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Bold headers and granular amendment-level details make this more verbose than necessary for a summary; some repetition of information across sections."
+      "pass": true,
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "NIH, PHSA, HHS, Interagency Autism Coordinating Committee all correctly identified."
+      "why": "NIH, HHS, IACC, PHSA correctly named"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriation amounts $28,100,000, $56,344,000, $306,000,000 and FY2025-2029 authorization period match bill."
+      "why": "$28.1M/$56.344M/$306M FY2025-2029 figures correct"
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
+  "n_passed": 10,
   "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

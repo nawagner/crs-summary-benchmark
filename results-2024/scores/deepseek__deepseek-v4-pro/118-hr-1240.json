@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text; the description of trust arrangement and gaming prohibition is accurate."
+      "why": "Army Corps-to-BIA from title; all claims match text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all references to tracts and legal authority match the bill."
+      "why": "No fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose is transferring lands into trust for the Winnebago Tribe."
+      "why": "States trust transfer for the Tribe."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Describes the trust holding and reservation declaration."
+      "why": "Notes inclusion in reservation under 1865 treaty."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the gaming prohibition and valid existing rights condition."
+      "why": "Notes permanent gaming prohibition and valid existing rights."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "States the July 12, 2024 approval date."
+      "why": "Notes effect on approval July 12, 2024."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three tracts, trust holding, reservation status, gaming prohibition."
+      "why": "Covers trust, tracts, gaming ban."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, factual tone."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-structured and logical."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise without omitting key elements."
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Army Corps of Engineers, Bureau of Indian Affairs, Winnebago Tribe, and Indian Gaming Regulatory Act all correct."
+      "why": "Army Corps, BIA, Tribe, IGRA correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "1865 treaty and September 20, 2024 approval date—wait, bill says July 12, 2024 for 118-hr-1240. Summary says July 12, 2024 which matches."
+      "why": "Date and tracts correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

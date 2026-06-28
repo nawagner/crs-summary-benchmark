@@ -15,7 +15,7 @@ import common as C
 
 BATCHES = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 OUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("/tmp/crs_judge_packets")
-TEXT_EXCERPT = 14000  # plenty for these (median bill is ~3.5k chars)
+TEXT_EXCERPT = 200000  # give judges the FULL bill text (this set's bills are all <180k)
 
 
 def main() -> None:

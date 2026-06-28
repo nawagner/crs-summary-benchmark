@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; agencies mentioned and deadlines are correct."
+      "why": "All claims match the new PHS Act Part W provisions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "No fabricated claims; details track the statute."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose — creating the National Parkinson's Project to prevent, diagnose, treat, and cure Parkinson's."
+      "why": "States the National Parkinson's Project purpose to prevent, diagnose, treat, cure Parkinson's."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Implicitly covers the new statutory section; does not explicitly name the Public Health Service Act but adequately describes what was established."
+      "why": "Notes the bill amends the Public Health Service Act by adding a new part/section."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the 2035 sunset and key deadlines."
+      "why": "Notes Advisory Council membership requirements and information-sharing conditions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states 24-month deadline for first annual assessment, 18-month deadline for first Advisory Council report, and 2035 sunset."
+      "why": "Notes the 24-month/18-month deadlines and the end-of-2035 sunset."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the National Parkinson's Project, Secretary's duties, Advisory Council structure and reporting, information sharing, and sunset."
+      "why": "Captures Project, national plan, annual assessment, Advisory Council, and 2035 sunset."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Well organized."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Quite detailed and lengthy, though less so than some other candidates; provides more granularity than needed for a summary."
+      "pass": true,
+      "why": "Detailed but no filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "NIH, CDC, VA and other agencies correctly named."
+      "why": "HHS Secretary, named agencies, and Advisory Council all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All deadlines and the 2035 sunset correctly stated."
+      "why": "Deadlines (24/18 months), member counts (10), and 2035 sunset are correct."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

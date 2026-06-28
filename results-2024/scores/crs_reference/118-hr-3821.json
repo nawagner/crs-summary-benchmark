@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Reauthorization through FY2028 is correct; identifying NIOSH as the administrator is accurate real-world context not in the bill text but factually correct."
+      "why": "accurate context: NIOSH maintains the registry"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "NIOSH administering the National Firefighter Registry for Cancer is accurate context; no fabrications."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states reauthorization through FY2028 and describes the registry's purpose."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reauthorization through FY2028, capturing the operative change at a high level."
+      "why": "describes amendment to existing law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions/conditions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reauthorization through FY2028."
+      "why": "notes relevant dates/deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential operative effect; omits specific dollar figures, which is acceptable per the rules."
+      "why": "captures reauthorization through FY2028"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and concise."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "brief and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "NIOSH and the National Firefighter Registry for Cancer are correctly identified."
+      "why": "NIOSH correctly identified as registry maintainer"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No dollar figures stated in this summary; omission is acceptable."
+      "why": "omits figures, which is acceptable"
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

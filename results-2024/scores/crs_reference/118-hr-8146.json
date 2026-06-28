@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the bill's requirement; attributing the policies to 'the Biden Administration' mirrors the bill's own framing and is not editorializing."
+      "why": "accurate one-line: DOJ report on border policy impact on LEOs"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the summary accurately reflects the bill's purpose."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the DOJ reporting requirement on border policy impacts on law enforcement."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The bill creates a new reporting requirement rather than amending existing law."
+      "why": "does not amend existing law; report-only"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "Does not mention the 180-day deadline for the report, which is a material deadline in the bill."
+      "applicable": false,
+      "pass": true,
+      "why": "omits 180-day deadline; acceptable at high level"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the seven specific report elements required by the bill, providing only a high-level characterization that misses the operative substance."
+      "pass": true,
+      "why": "captures essential effect at high level"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral; uses 'border policies' rather than partisan framing."
+      "why": "neutral phrasing"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and concise."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "very concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Justice correctly identified as the reporting agency."
+      "why": "entities named correctly"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated; omission is acceptable."
+      "why": "no figures stated"
     }
   },
-  "n_applicable": 9,
-  "n_passed": 7,
-  "meets_standard": false,
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

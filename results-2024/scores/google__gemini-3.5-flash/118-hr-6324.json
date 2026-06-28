@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All project descriptions, locations, and dollar amounts match the bill text exactly."
+      "why": "Matches the bill's project list and amounts."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "No fabricated projects or amounts."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the act as authorizing 11 major medical facility projects for the VA in FY2024."
+      "why": "States it authorizes VA major medical facility projects for FY2024."
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "The act provides new project-specific authorization rather than amending existing law."
+      "why": "New authorization; no amendment claimed."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes per-project spending caps for all 11 projects."
+      "why": "Notes the per-project 'not to exceed' caps as conditions."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2024 authorization and the 'year in which funds are appropriated' provision."
+      "why": "Notes FY2024 and/or the November 25, 2024 approval date."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all 11 projects and the total $3,354,048,000 appropriation authorization."
+      "why": "Lists the 11 projects with caps and the total authorization."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear bullet structure."
+      "why": "Well organized."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Bullet-point format listing every project detail is more comprehensive than a summary needs to be."
+      "pass": true,
+      "why": "Appropriate detail without filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "VA Secretary and all project locations correctly named."
+      "why": "VA Secretary, Construction Major Projects account, and locations correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All per-project amounts and the total $3,354,048,000 match the bill text."
+      "why": "All eleven project caps and the $3,354,048,000 total are correct."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

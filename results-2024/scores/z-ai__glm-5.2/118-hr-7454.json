@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Dollar amounts, percentages, and program descriptions match the bill text."
+      "why": "Claims match the title 49 / IRC amendments and dates."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "No fabricated provisions."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the act as extending federal aviation programs and trust fund authorities through May 2024."
+      "why": "States it temporarily extends FAA programs, authorities, and trust fund taxes."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the act extends prior statutory expiration dates."
+      "why": "Describes amending title 49 and the Internal Revenue Code to extend expiration dates."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the obligation authority through September 30, 2024, and the 39% apportionment reduction condition."
+      "why": "Notes the 39% apportionment reduction and obligation-through-Sept-30 condition."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies May 10 and May 11, 2024, extension dates and March 8, 2024, enactment."
+      "why": "Notes the new May 10/May 11, 2024 expiration dates and Oct 1 2023 start."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers AIP, FAA operations, facilities, research, trust fund expenditure authority, aviation taxes, and counter-UAS."
+      "why": "Covers AIP funding/apportionment, program extensions, trust fund taxes/expenditure authority, and counter-UAS."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by title."
+      "why": "Well organized by title."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Covers major categories concisely without exhaustively listing every program."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FAA, Airport Improvement Program, Internal Revenue Code, Airport and Airway Trust Fund, and Homeland Security Act correctly referenced."
+      "why": "FAA, Airport and Airway Trust Fund, DHS counter-UAS all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All dollar amounts, the 39% reduction figure, and dates match the bill text."
+      "why": "AIP $2.04B, $3.35B annualized, 39% reduction, and other amounts/dates correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

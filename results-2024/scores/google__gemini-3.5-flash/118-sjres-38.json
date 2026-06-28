@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the resolution text."
+      "why": "Correctly describes CRA disapproval of FHWA Buy America EV charger waiver rule."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; description of the Congressional Review Act process is accurate."
+      "why": "CRA, Fed Reg cite, and Buy America context accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: nullifying the FHWA's Buy America waiver rule for EV chargers."
+      "why": "States purpose: nullify the specified FHWA rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly explains the resolution would render the FHWA rule of no force or effect."
+      "why": "Describes nullification of the agency rule (no force or effect)."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The resolution has no material exceptions."
+      "why": "Resolution has no exceptions; sole disapproval provision."
     },
     "effective_dates": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Correctly notes the Senate passage date (November 8, 2023) and notes disapproval would apply immediately upon enactment."
+      "why": "Resolution specifies no effective date; not applicable."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the single operative provision: disapproval and nullification of the FHWA rule."
+      "why": "Captures the single operative disapproval."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "No filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FHWA, the Federal Register citation, and chapter 8 of title 5."
+      "why": "FHWA, CRA, Federal Register citation correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "88 Fed. Reg. 10619 and February 21, 2023 are correctly stated."
+      "why": "88 Fed. Reg. 10619 and Feb 21, 2023 correct."
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

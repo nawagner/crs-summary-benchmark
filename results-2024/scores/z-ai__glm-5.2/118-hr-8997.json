@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims match the bill text; the description of titles and key provisions is accurate."
+      "why": "Lake Erie, Wolf Creek, firearms, CALFED, NGA/FERC, Russia/China nuclear-facility (Sec 310), flag/marriage riders all verified against text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all described provisions trace to the bill text."
+      "why": "No fabrication; all named restrictions present."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 appropriations for federal energy and water programs."
+      "why": "States FY2025 energy/water appropriations by title."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes amendments to Calfed Bay-Delta Authorization Act, Reclamation States Emergency Drought Relief Act, and Natural Gas Act."
+      "why": "Notes CALFED/drought amendments and Natural Gas Act amendment."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes prohibitions on firearms regulations, entities of concern, Russian/Chinese citizens at nuclear facilities, and COVID mandates."
+      "why": "Captures fund restrictions and conditions thoroughly."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes FY2025 period and 'remain available until expended or September 30, 2026' provisions."
+      "why": "Notes FY ending Sept 30, 2025 and 2026 availability."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all five titles and major provisions."
+      "why": "Covers all five titles and major riders."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized by title."
+      "why": "Clear title-by-title structure."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Quite detailed with numerous specific provisions listed; could be more condensed."
+      "pass": true,
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Army Corps, Bureau of Reclamation, DOE, FERC, NRC all correctly identified."
+      "why": "All agencies and statutes correct."
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific dollar figures cited in this summary, so nothing to check."
+      "why": "States few figures; availability dates correct."
     }
   },
   "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

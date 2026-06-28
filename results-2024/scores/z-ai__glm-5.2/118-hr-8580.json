@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims about the bill's provisions and riders are consistent with the bill text and known content of the act."
+      "why": "Guantanamo, animal research March 9 2026, gender-affirming, abortion exceptions, EHR certification, religious-belief marriage rider all verified"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; policy rider descriptions are accurate."
+      "why": "'sincerely held religious beliefs regarding marriage' rider confirmed present in text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 appropriations for DOD, VA, and related agencies."
+      "why": "states FY2025 DOD/VA/related appropriations"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Appropriations bill."
+      "why": "appropriations act"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes key policy riders including Guantanamo restrictions, abortion exceptions, gender-affirming care ban, animal research restrictions, DEI prohibitions, and COVID mandate prohibitions."
+      "why": "abortion exceptions, EHR contingency, animal research phase-out noted"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes general FY2025 availability, construction funds through 2029, and some accounts through 2026 or until expended."
+      "why": "FY2025/2026/2029 availability and March 9 2026 correct"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all four titles including related agencies and general provisions."
+      "why": "covers all four titles and key riders"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear title-by-title structure."
+      "why": "organized by title"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Reasonably detailed without excessive padding."
+      "why": "no padding"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names VA, DOD, American Battle Monuments Commission, U.S. Court of Appeals for Veterans Claims, and the Armed Forces Retirement Home."
+      "why": "agencies, NATO program, related agencies correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies FY2025, construction funds through 2029, and March 9, 2026 animal research phase-out deadline."
+      "why": "dates and availability periods correct"
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

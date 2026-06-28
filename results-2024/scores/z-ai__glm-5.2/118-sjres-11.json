@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; CRA identification and rule citation correct."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution as a CRA disapproval of the EPA heavy-duty vehicle standards rule."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "States the rule shall have no force or effect."
+      "why": "CRA disapproval nullifies a rule; not a statutory amendment"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the bill."
+      "why": "no material exceptions in a disapproval resolution"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes Senate passage on April 26, 2023."
+      "why": "notes Senate passage Apr 26, 2023 and Jan 24, 2023 rule date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the targeted rule, CRA mechanism, and operative nullification."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise without padding."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "EPA correctly identified."
+      "why": "EPA / EPA Administrator correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "January 24, 2023 and April 26, 2023 correctly stated."
+      "why": "88 FR 4296, Jan 24 2023, Apr 26 2023 correct"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

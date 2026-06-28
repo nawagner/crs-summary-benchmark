@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate description of key provisions including five-parcel conveyance, fair market value payment, management requirements, reconveyance restrictions, existing rights, and deadlines."
+      "why": "accurate; county/reservoir mapping consistent with the Act's structure"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the federal-to-county conveyance."
+      "why": "directs conveyance of federal land; does not amend general statutory law (operates under existing authorities)"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes reconveyance restrictions, existing rights, deed restrictions on structures below specified elevations, indemnification."
+      "why": "notes conveyance conditions, reconveyance restrictions/exceptions, and reservations"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 3-year and 2-year deadlines."
+      "why": "notes 3-year negotiation deadline and 2-year compliance deadline"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All key provisions captured."
+      "why": "covers all major provisions"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Detailed but not padded."
+      "why": "acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Bureau of Reclamation, Hitchcock and Frontier Counties, Nebraska reservoirs all correctly named."
+      "why": "Interior, Pick-Sloan, counties correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Acreages, deadlines, and other figures are accurate."
+      "why": "deadlines and elevations correct"
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

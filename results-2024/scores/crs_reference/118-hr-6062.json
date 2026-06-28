@@ -5,47 +5,47 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the repeal and the prior restriction (requiring an act of Congress)."
+      "why": "Correctly describes repeal of Sec 12 of PL 98-213 (48 USC 1662a)."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "Context on EO 10264 and Territorial Clause is accurate."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: repealing the statute preventing amendment of the American Samoa constitution."
+      "why": "States purpose: restore Samoa's ability to amend its constitution."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly describes the repeal of the prior restriction."
+      "why": "Describes the repeal of the prior statutory restriction."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "Summary does not mention the Territorial Clause caveat, but that is present in the bill's long title context rather than operative text conditions."
+      "why": "Single repeal provision; no material exceptions."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective dates stated, which is acceptable for a high-level summary."
+      "why": "No date stated; high-level summary."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential provision: repeal of the restriction on amending the American Samoa constitution."
+      "why": "Captures the sole operative repeal."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-organized."
+      "why": "Clear and consistent."
     },
     "concise": {
       "applicable": true,
@@ -53,9 +53,9 @@
       "why": "Appropriately brief."
     },
     "correct_entities": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific entities named beyond 'people of American Samoa,' which is correct."
+      "why": "PL 98-213, 48 USC 1662a, EO 10264 correct."
     },
     "correct_figures": {
       "applicable": false,
@@ -63,10 +63,10 @@
       "why": "No figures stated."
     }
   },
-  "n_applicable": 8,
-  "n_passed": 8,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

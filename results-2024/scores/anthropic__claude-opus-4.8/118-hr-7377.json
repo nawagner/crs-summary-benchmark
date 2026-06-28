@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; the description of the amended provision and its operation is correct."
+      "why": "Sec 111(j) amendment, 120-day deadline, third-month correction/waiver, Indian-lands exclusion all match."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all references to the Federal Oil and Gas Royalty Management Act and the specific provisions match."
+      "why": "No fabrication; units/communitization explanation accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as revising royalty management for units and communitization agreements under the 1982 Act."
+      "why": "States it revises royalty management for units/communitization agreements."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Explains that section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982 is amended."
+      "why": "Notes amendment of Sec 111(j) of FOGRMA 1982."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the Indian lands exclusion and the condition for interest waiver (full and timely payment)."
+      "why": "Notes interest-waiver condition and Indian-lands exclusion."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the September 20, 2024 approval date."
+      "why": "120-day and third-month deadlines and approval date correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the 120-day deadline, interim reporting per proposed allocation, correction deadline, interest waiver, and Indian lands exclusion."
+      "why": "Covers deadline, interim payment, correction, waiver."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and technical language throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Well-organized."
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Somewhat verbose for the single-provision bill; some structural explanatory material could be condensed."
+      "pass": true,
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Oil and Gas Royalty Management Act of 1982 and Secretary of the Interior correctly identified."
+      "why": "Secretary of Interior, FOGRMA correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "120-day deadline and 'end of third month' correction window match the bill text."
+      "why": "120 days, third month, date correct."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

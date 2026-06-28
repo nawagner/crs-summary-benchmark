@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The bill does not say the agency must provide certification 'within 10 days to the Office of Advocacy' — the amendment says the agency must act 'not later than 10 days after completing the certification' (implying publication/notice) but the bill text amends section 605(b) without specifying it goes to the Office of Advocacy specifically."
+      "pass": true,
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The description of SBA Office of Advocacy's role is accurate real-world context; no fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as expanding RFA requirements for small businesses."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the expansion of initial regulatory flexibility analysis requirements and petition process."
+      "why": "describes RFA amendments to analysis/certification/petition requirements"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the specified petition content requirements and agency non-participation penalty."
+      "why": "notes where-feasible and nonparticipation penalty"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific effective date stated; omission appropriate."
+      "why": "notes 10-day certification deadline"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The CRS summary omits the Section 609 guidance publication requirement and the Section 610 periodic review reforms, which are significant provisions."
+      "pass": true,
+      "why": "covers indirect-cost, petition, and guidance provisions; omits sec.610 sunset but high-level effect captured"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "SBA Office of Advocacy and Chief Counsel correctly identified."
+      "why": "Office of Advocacy/SBA correct"
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific figures stated in the CRS summary."
+      "why": "10-day figure correct; no incorrect figures"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 8,
-  "meets_standard": false,
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

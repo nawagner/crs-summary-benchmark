@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; contextual note about regulatory scope is accurate."
+      "why": "Correctly describes CRA disapproval of the WOTUS rule; all claims match the text and context."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims; procedural dates are from the bill text itself."
+      "why": "CRA/chapter 8 identification and rule purpose are accurate context, nothing fabricated."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states purpose is to disapprove and nullify the WOTUS rule under the CRA."
+      "why": "Clearly states the resolution nullifies the WOTUS rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the rule shall have no force or effect, which is the operative legal change."
+      "why": "Explains the rule is given no force or effect."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The resolution has no material exceptions or conditions."
+      "why": "Resolution has no material exceptions."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date or sunset in the bill beyond enactment."
+      "why": "No effective date beyond enactment; passage dates noted correctly."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the sole operative provision: disapproval of the WOTUS rule."
+      "why": "Captures the sole operative effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, descriptive language throughout."
+      "why": "Neutral throughout."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Well-organized and readable."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "Slightly verbose but no real padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All agencies and statutory references are correctly named."
+      "why": "Agencies, CRA, Federal Register cite all correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Register citation 88 Fed. Reg. 3004 and date January 18, 2023 are correct."
+      "why": "88 Fed. Reg. 3004 and dates correct."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

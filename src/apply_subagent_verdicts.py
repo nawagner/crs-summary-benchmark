@@ -14,7 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C
 
-JUDGED_VIA = "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+JUDGED_VIA = "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 
 
 def main(indir: str) -> None:

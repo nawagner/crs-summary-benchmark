@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "accurate; report/strategy/consultation and FY2025-2029 all correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "CDC/NIH/HRSA and committees match text; no fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as reauthorizing the CHD program through FY2025-2029 with new reporting requirements."
+      "why": "states reauthorization of the congenital heart disease program"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the new report and strategy requirements added to the Public Health Service Act."
+      "why": "describes amendments to PHSA Section 399V-2 (42 USC 280g-13)"
     },
     "exceptions_conditions": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No material exceptions beyond the consultation requirement noted."
+      "why": "notes consultation 'as appropriate' / conditions on strategy"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the 2-year deadline for report and 1-year for strategy after the report."
+      "why": "notes 2-year report and 1-year strategy deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the reauthorization, report requirements, strategy requirements, and stakeholder consultation."
+      "why": "covers report, strategy, consultation, and reauthorization"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Quite detailed and lengthy for a summary; the granular enumeration of all strategy sub-elements makes it overly long."
+      "pass": true,
+      "why": "detailed but no filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the committees, CDC, NIH, HRSA, and the Public Health Service Act."
+      "why": "PHSA, HHS Secretary, E&C and HELP committees, CDC/NIH/HRSA correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states FY2025-2029 authorization and the 2-year and 1-year deadlines."
+      "why": "FY2025-2029 and deadlines correct"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 10,
-  "meets_standard": false,
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

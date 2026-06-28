@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Describing payment to 'estates or eligible survivors' is accurate as section 5121 covers both estates and surviving family members. The amendment to Section 6107 of Title 38 is correctly identified. Fiduciary prohibition correctly noted."
+      "why": "accurate; reissuance via 5121 and fiduciary bar correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabrication"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Mentions amendment to Section 6107 of Title 38 USC."
+      "why": "describes amendment to section 6107 (omits redesignation detail, acceptable)"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the prohibition on paying the misusing fiduciary."
+      "why": "notes bar on paying a fiduciary who misused benefits"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "Notes enactment date but no internal effective date applies."
+      "why": "notes Nov 25 2024 enactment"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All major provisions captured."
+      "why": "captures essential effect; minor conforming change omitted is fine"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Section 6107 of Title 38, VA, section 5121 all correctly referenced."
+      "why": "VA, 6107, 5121 correct"
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No dollar amounts or quantities to verify."
+      "why": "date correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 12,
+  "n_passed": 12,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

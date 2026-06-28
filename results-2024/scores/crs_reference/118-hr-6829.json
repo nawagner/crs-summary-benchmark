@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill; the definition of cardiomyopathy as heart muscle conditions is accurate and consistent with the bill's own definition."
+      "why": "accurate high-level summary of programs"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies cardiomyopathy education, awareness, research, and school AED/CPR programs as the purpose."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the bill establishes programs and requirements, accurately capturing the operative change at a high level."
+      "why": "describes amendment to existing law"
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "Omits the no-additional-funds provision and grant eligibility conditions, which are material provisions of the bill."
+      "applicable": false,
+      "pass": true,
+      "why": "high-level; no material exception omitted that changes effect"
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "Does not mention any of the deadlines (18 months, 30 months) specified in the bill."
+      "applicable": false,
+      "pass": true,
+      "why": "omits deadlines; acceptable at high level"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "All four major provisions (education dissemination, risk assessment, CDC/NIH reports, grant program) captured at a high level."
+      "why": "captures HHS dissemination, CDC/NIH reports, grant program"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief high-level summary."
+      "why": "concise overview"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "HHS, CDC, NIH, and public schools correctly identified."
+      "why": "entities named correctly"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No figures stated; omission is acceptable."
+      "why": "no figures; appropriately high-level"
     }
   },
-  "n_applicable": 11,
+  "n_applicable": 9,
   "n_passed": 9,
-  "meets_standard": false,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

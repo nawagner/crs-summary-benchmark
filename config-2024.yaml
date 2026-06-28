@@ -20,10 +20,10 @@ models:
   - z-ai/glm-5.2
   - deepseek/deepseek-v4-pro
 
-# This dataset was judged by Sonnet running as parallel Claude Code subagents (free, fast),
-# NOT by Opus via OpenRouter like the 119th set. Same 12-criteria rubric; different judge model,
-# so cross-dataset comparisons carry that caveat (disclosed on the site).
-judge_model: claude-sonnet-4-6 (parallel Claude Code subagents)
+# Judged by Opus 4.8 running as 10 parallel Claude Code subagents (free), with the FULL
+# bill text and a verify-before-failing rule — same judge model as the 119th set.
+# (An earlier Sonnet-subagent pass was discarded after it made accuracy errors.)
+judge_model: claude-opus-4-8 (parallel Claude Code subagents)
 judge_temperature: 0
 judge_web_search: true
 judge_web_max_results: 3

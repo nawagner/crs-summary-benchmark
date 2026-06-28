@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The CRS states 167.23 acres are 'taken into trust' and 4.87 acres (parcels 3 and 4: 4.03 + 0.84) are 'reaffirmed,' totaling 172.10 acres consistent with the bill. The 'reaffirmation' characterization reflects an accurate legal distinction about prior trust status of older parcels (recorded 1998 and 2017), treated as accurate external context. The 1.1-acre conditional parcel and gaming prohibition are also correctly noted."
+      "why": "167.23 new + 4.87 reaffirmed reflects that parcels 3&4 were already in trust; accurate context, not contradicting the 172.10 total"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The 167.23/4.87 split is accurate external context about prior trust status rather than fabrication; totals match the bill. Gaming prohibition and conditional parcel are accurately described."
+      "why": "reaffirmation dates and acreage split are accurate context from the legislative record"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Identifies the bill as taking land into trust and reaffirming trust status for the Jamul Indian Village."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the new trust acquisition and reaffirmation."
+      "why": "takes land into trust; does not amend general statutory law"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the gaming prohibition on trust lands and the conditional 1.1-acre parcel."
+      "why": "notes additional 1.1 acres and gaming prohibition"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No internal effective date beyond enactment."
+      "why": "no internal effective date; acceptable"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers trust acquisition, reservation status, gaming prohibition, and conditional parcel."
+      "why": "covers trust land, reaffirmation, additional parcel, gaming bar"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and readable."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Jamul Indian Village of California, Secretary of Interior, IGRA correctly referenced."
+      "why": "Jamul Indian Village, Interior correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "167.23 + 4.87 = 172.10 total, consistent with the bill's stated total. Individual parcel figures underlying the split are accurate."
+      "why": "167.23 + 4.87 + 1.1 acres consistent with the parcel breakdown"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

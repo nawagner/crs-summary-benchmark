@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "Claims the rule 'would be treated as if it had never taken effect' — CRA disapproval bars reissuance of a substantially similar rule but does not retroactively erase the rule; this overstates the legal effect."
+      "pass": true,
+      "why": "Accurate; ties rule to Clean Water Act jurisdiction (correct context) and notes it does not amend underlying statutes."
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": false,
-      "why": "The characterization of CRA disapproval as treating the rule 'as if it had never taken effect' is a legal overstatement not supported by the bill text or CRA mechanics."
+      "pass": true,
+      "why": "CWA context and 'treated as if it never took effect' are accurate CRA characterizations."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as nullifying the WOTUS rule under the CRA."
+      "why": "States purpose to nullify the WOTUS rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "States the rule shall have no force or effect."
+      "why": "Correctly notes it cancels the rule without amending the CWA."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the resolution."
+      "why": "No exceptions; correctly noted no further action directed."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date specified beyond enactment."
+      "why": "No effective dates; passage dates correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the main operative provision."
+      "why": "Captures sole effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual tone overall."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without excessive padding."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Agencies and statute correctly named."
+      "why": "Agencies and CWA correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Register citation and date are correct."
+      "why": "Dates correct."
     }
   },
   "n_applicable": 10,
-  "n_passed": 8,
-  "meets_standard": false,
+  "n_passed": 10,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

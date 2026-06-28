@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes funding allocation, policy riders, and restrictions; correctly identifies major conditions and prohibitions."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all cited provisions are in the bill."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies this as FY2025 DHS appropriations."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes specific policy prohibitions and conditions that change how funds may be used."
+      "why": "describes funding levels and policy riders restricting/directing fund use"
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes ICE detention bed minimum, GPS monitoring requirement, and other key conditions."
+      "why": "notes restrictions and carve-outs on fund use"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "Does not specify the contraceptive provision effective dates but also does not misstate them; criterion is marginally applicable."
+      "why": "notes FY ending Sept 30 2025, 120-day obligation, report deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers major funding components, policy restrictions, reporting requirements, and rescissions."
+      "why": "captures appropriations and major riders"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Good balance of detail without excessive length."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "DHS components, CBP One app, and specific programs correctly named."
+      "why": "Circumvention of Lawful Pathways, Public Charge rules, CBP One, components correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "$600 million CBP barrier rescission and $154 million Nonrecurring Expenses Fund rescission correctly stated."
+      "why": "$600M barrier rescission, $154M Nonrecurring rescission verified"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 12,
+  "n_passed": 12,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

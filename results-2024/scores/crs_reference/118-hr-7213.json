@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies reauthorization through FY2029, CDC administration of the surveillance program, HHS administration of education/intervention activities, and IACC."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "CDC as administrator of the Developmental Disabilities Surveillance and Research Program is accurate real-world context."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as reauthorizing autism education, research, and resources programs."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Identifies the three programs reauthorized through FY2029 and the reporting requirement updates."
+      "why": "describes amendments to the Public Health Service Act"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "High-level summary appropriately omits granular conditions; no material exceptions to note at this level."
+      "why": "high-level summary, no material exceptions omitted"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "States reauthorization through FY2029."
+      "why": "notes reauthorization through FY2029"
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Omits the NIH activities expansion (Section 2), the appropriations increases, the communication tools section, and the youth transition report; these are significant operative provisions."
+      "pass": true,
+      "why": "captures essential reauthorization and reporting effect at high level"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and informative."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief at high level."
+      "why": "concise and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "CDC, HHS, and IACC correctly identified as administrators."
+      "why": "CDC administering the surveillance program is accurate context; HHS, IACC correct"
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No specific dollar amounts or dates beyond FY2029 stated."
+      "why": "FY2029 reauthorization correct; no other figures stated"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 9,
-  "meets_standard": false,
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text."
+      "why": "accurate description of disapproval and review process"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; procedural description is accurate."
+      "why": "all details match text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution disapproves the D.C. policing and justice reform act."
+      "why": "states disapproval purpose clearly"
     },
     "changes_to_existing_law": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No amendment to existing federal law."
+      "why": "notes it does not amend federal law beyond disapproval"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions present."
+      "why": "notes no exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No explicit effective date beyond enactment."
+      "why": "notes no delayed effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the single operative disapproval provision accurately."
+      "why": "captures the one operative provision"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise for the scope of the resolution."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies D.C. Act 24-781, section 602(c)(1) of the Home Rule Act, and the committee."
+      "why": "D.C. Act 24-781, Home Rule Act, committee correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All dates and references match the bill text."
+      "why": "dates correct"
     }
   },
-  "n_applicable": 9,
-  "n_passed": 9,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

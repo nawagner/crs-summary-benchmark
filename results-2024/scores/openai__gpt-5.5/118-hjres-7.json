@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text; the observation that no new programs or requirements are created is accurate."
+      "why": "All claims match the text; correctly notes no new programs created."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated content; all specific references match the bill text."
+      "why": "Nothing fabricated."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies termination of the March 13, 2020 national emergency via Proclamation 9994."
+      "why": "States it terminates the declared emergency."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes that it operates under section 202 of the National Emergencies Act to end the emergency."
+      "why": "Notes action under NEA sec 202 and no amendments to other statutes."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in this bill."
+      "why": "Correctly notes no exceptions exist."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "States the approval date of April 10, 2023."
+      "why": "Notes approval April 10, 2023."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the sole operative provision; also accurately notes what the resolution does not do."
+      "why": "Captures the termination fully."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Strictly neutral and factual."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and well-structured."
+      "why": "Clear and organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "No padding; efficiently covers the bill's content."
+      "why": "Slightly verbose on negatives but no real filler."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "National Emergencies Act section 202, Proclamation 9994, and Fed. Reg. citation are all correct."
+      "why": "NEA, Proclamation 9994 correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "85 Federal Register 15337 and April 10, 2023 are both accurate."
+      "why": "Fed. Reg. and date correct."
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

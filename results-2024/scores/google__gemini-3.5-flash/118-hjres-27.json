@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill; contextual description of environmental regulation is accurate."
+      "why": "Accurate description of disapproval of WOTUS rule."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all information traceable to bill text."
+      "why": "Characterizing the rule as environmental regulation is accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies purpose as nullifying the WOTUS rule."
+      "why": "Clearly states purpose to nullify the rule."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "States the rule shall have no force or effect."
+      "why": "States rule shall have no force or effect."
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in this resolution."
+      "why": "Notes no material exceptions."
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No effective date or sunset specified beyond enactment."
+      "why": "Notes no future deadlines; passage dates correct."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the sole operative provision of the resolution."
+      "why": "Captures sole effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Readable and organized."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately thorough without unnecessary padding."
+      "why": "No significant padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Agencies correctly named; statutory citation correct."
+      "why": "Agencies and cite correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Federal Register citation 88 Fed. Reg. 3004 and date correct."
+      "why": "Federal Register cite and dates correct."
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

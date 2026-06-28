@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the bill text."
+      "why": "accurate; dates and process correct"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims present."
+      "why": "Clerk name and details match text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution's purpose as disapproving the D.C. policing reform act."
+      "why": "states disapproval purpose"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "No amendment to existing federal law."
+      "why": "no federal law amended; nature of action described"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions present."
+      "why": "notes no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No specific effective date in the bill beyond enactment."
+      "why": "notes no deadlines"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the single operative provision of disapproval."
+      "why": "captures operative disapproval"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "Somewhat longer than needed, reiterating procedural details for a straightforward disapproval resolution."
+      "pass": true,
+      "why": "minor procedural detail but acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names the D.C. act, its number, and the relevant committees."
+      "why": "Council, Home Rule Act, committee, Clerk Cheryl L. Johnson correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Dates January 19, January 26, April 19, and April 20 all match the bill text."
+      "why": "dates correct"
     }
   },
   "n_applicable": 9,
-  "n_passed": 8,
-  "meets_standard": false,
+  "n_passed": 9,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Description of the rule as concerning suspension of liquidation and collection of duties is accurate based on the rule's title and subject matter. Statement about the rule becoming void upon enactment is a reasonable characterization."
+      "why": "adds accurate context on what the rule addressed (suspension of liquidation/duties per Proc 10414)"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The characterization of the rule's subject matter (tariff liquidation procedures, duties on imports under Proclamation 10414) is accurate contextual description derivable from the rule title."
+      "why": "rule-substance description is accurate real-world context, not fabricated"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution as disapproving and voiding the named Commerce rule."
+      "why": "states purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the rule would become void upon enactment, capturing the regulatory nullification."
+      "why": "CRA disapproval; does not amend existing statutory law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this joint resolution."
+      "why": "none"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No explicit effective date specified in the bill text."
+      "why": "resolution specifies no internal effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the resolution's operative effect."
+      "why": "captures operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief."
+      "why": "acceptable"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Commerce correctly named; Presidential Proclamation 10414 correctly referenced."
+      "why": "correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Figures stated are accurate."
+      "why": "cite and dates correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

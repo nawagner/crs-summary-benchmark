@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The description of the rule's content (modifying emission standards to reduce ozone and particulate matter) is accurate real-world context about what the EPA rule does."
+      "why": "accurate; ozone/particulate-matter detail is correct real-world context for the rule"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The description of the rule's effect is accurate real-world context; the EPA heavy-duty vehicle rule (88 Fed. Reg. 4296) did address ozone and particulate matter standards."
+      "why": "rule-content context is accurate, not fabricated"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution nullifies the identified EPA rule."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "States the rule is nullified."
+      "why": "CRA disapproval, not amendment"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the bill."
+      "why": "no material exceptions"
     },
     "effective_dates": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No separate effective date; omission appropriate."
+      "why": "notes Jan 24, 2023 publication date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential effect: nullifying the identified EPA rule, with helpful real-world context about the rule's content."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Clear and readable."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Very concise summary appropriate for a brief CRS note."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "EPA correctly identified."
+      "why": "EPA correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "88 Fed. Reg. 4296 and January 24, 2023 correctly stated."
+      "why": "88 FR 4296, Jan 24 2023 correct"
     }
   },
   "n_applicable": 10,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

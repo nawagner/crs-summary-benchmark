@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurate description of the resolution's effect. No incorrect claims."
+      "why": "accurate description of disapproval and its sole legal effect"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution disapproves the named Commerce rule and voids it."
+      "why": "states purpose clearly"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Describes the rule being rendered void or without effect."
+      "why": "CRA disapproval; does not amend existing statutory law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this joint resolution."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No explicit effective date specified in the bill text."
+      "why": "resolution specifies no internal effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the resolution's sole operative effect accurately."
+      "why": "captures operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "clear"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Very tight and direct."
+      "why": "tight"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Commerce correctly named."
+      "why": "Commerce and Fed Reg cite correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Fed Reg citation and any dates stated are accurate."
+      "why": "87 FR 56868 correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

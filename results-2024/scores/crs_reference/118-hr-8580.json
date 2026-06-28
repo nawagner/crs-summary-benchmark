@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All listed appropriations categories are accurate and consistent with the bill text."
+      "why": "accurate high-level account-by-account listing matching the bill"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "all accounts listed appear in the bill; 'Cemeterial Expenses of the Army' is correct account name"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as FY2025 appropriations for military construction, VA, and related agencies."
+      "why": "states FY2025 MilCon/VA/related appropriations"
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "Appropriations bill."
+      "why": "appropriations act"
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Mentions that the bill sets forth requirements and restrictions for using funds, though without specifying the major policy riders."
+      "why": "notes general 'requirements and restrictions' at high level; acceptable for this altitude"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "High-level summary appropriately omits granular effective date details."
+      "why": "omitting specific dates is acceptable for a high-level summary"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major appropriations categories at the structural level."
+      "why": "comprehensive account listing; high-level is acceptable"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with clear bulleted categories."
+      "why": "well-organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief and structured."
+      "why": "structured list; no filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names all agencies, programs, and funds listed."
+      "why": "all DOD/VA/related agency accounts named correctly"
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "No specific dollar figures cited."
+      "why": "no specific figures stated"
     }
   },
-  "n_applicable": 9,
-  "n_passed": 9,
+  "n_applicable": 8,
+  "n_passed": 8,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

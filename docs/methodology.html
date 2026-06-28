@@ -57,14 +57,18 @@
   so some bias toward the Claude summaries is possible. The grading of the human CRS summaries on the same
   rubric is a partial safeguard: if the judge were badly miscalibrated, the human baseline would not score sensibly.
   The judge is a single configuration line to swap, and a multi-judge panel is a natural extension.</p>
-  <p><strong>Per-dataset judge.</strong> The two datasets were graded by different judges (shown in the row
-  above for whichever dataset is selected). The <strong>119th Congress</strong> set used
-  <code>anthropic/claude-opus-4.8</code> with live web search. The <strong>2024 high-activity</strong> set used
-  <code>claude-sonnet-4-6</code> running as ten parallel Claude Code subagents (free and fast) — the same
-  12-criteria rubric, but a different judge model. Within each dataset the judging is consistent; comparing
-  scores <em>across</em> the two datasets carries this judge-model caveat on top of the not-validated-against-humans
-  caveat above. (The Sonnet judge applies <code>concise</code> more strictly, which is a large part of why the
-  verbose models score lower on the 2024 set.)</p>
+  <p><strong>Both datasets judged by Opus 4.8.</strong> The <strong>119th Congress</strong> set was graded by
+  <code>anthropic/claude-opus-4.8</code> via OpenRouter (with the Claude Code fallback noted below); the
+  <strong>2024 high-activity</strong> set by the same model running as ten parallel Claude Code subagents, given
+  the full bill text and a verify-before-failing rule.</p>
+  <p><strong>A discarded judge pass — why the judge matters.</strong> The 2024 set was first graded by a faster,
+  cheaper model (<code>claude-sonnet-4-6</code>) as subagents. That pass produced a dramatic, very different
+  ranking — but it contained real errors (e.g. it failed the CRS summary of the FISHES Act for "hallucinating" a
+  notice requirement that is plainly in the bill text) and an over-strict conciseness bias that pushed the more
+  verbose models down. We discarded it and re-judged with Opus, after which the field clustered at 96–100% much
+  like the 119th set. This is the <em>not-validated-against-humans</em> caveat made concrete: a weaker judge gave
+  a confidently wrong leaderboard. Treat all scores as one automated rater's opinion, and read the published
+  per-bill reasons rather than the headline alone.</p>
   <p style="margin-bottom:0"><strong>Disclosure — judge access path (119th set).</strong> Because the OpenRouter
   account's credits were exhausted at points, some 119th-set judgments were made via the OpenRouter web plugin and
   others by the same model (Opus 4.8) running in Claude Code with live web search — same model and method, a

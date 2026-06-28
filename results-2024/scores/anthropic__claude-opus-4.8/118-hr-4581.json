@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text, including both amendments to Section 501(a) and the approval date."
+      "why": "accurately describes the two amendments to sec 501(a)"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the description of the Maternal and Child Health Block Grant is accurate context."
+      "why": "examples list matches statutory text; 'block grant' is accurate context for Title V MCH"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as clarifying permissible uses of MCH block grant funds for stillbirth prevention."
+      "why": "states purpose to clarify funds may be used for stillbirth prevention"
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes both amendments to Section 501(a) of the Social Security Act."
+      "why": "describes amendments to Section 501(a) of the Social Security Act"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or eligibility conditions in this bill."
+      "why": "no material exceptions in this clarifying amendment"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the approval date of July 12, 2024."
+      "why": "notes approval July 12, 2024"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all major provisions including both statutory amendments and the list of permissible activities."
+      "why": "covers both amendments and the example activities"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Thorough without unnecessary padding."
+      "why": "focused; example list justified"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies Section 501(a) of the Social Security Act (42 U.S.C. 701(a))."
+      "why": "Title V Social Security Act, Sec 501(a), MCH Block Grant correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The approval date of July 12, 2024 matches the bill text."
+      "why": "approval date July 12, 2024 correct"
     }
   },
   "n_applicable": 11,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

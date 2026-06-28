@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text across all three titles."
+      "why": "Accurate; Section 230 non-alteration and exemptions confirmed in text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; mentions Section 230 non-alteration which is an accurate fact about the bill not explicitly in the excerpt but is a real provision."
+      "why": "Section 230 and COPPA references are accurate context."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies all main purposes of the bill."
+      "why": "States purpose."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes COPPA amendment extending to teens and Title 31 amendment."
+      "why": "Notes COPPA amendment and Section 230 non-alteration."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes covered platform exceptions, duty of care limitations, and that Section 230 is not altered."
+      "why": "Notes exemptions and non-preemption of stronger state law."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Notes 18-month effective date for Title I algorithm provisions take effect after one year."
+      "why": "Notes 18-month and 1-year effective dates."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers all three titles including duty of care, safeguards, COPPA extension, filter bubble, and reports elimination."
+      "why": "Covers all three titles."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Comprehensive without unnecessary padding."
+      "why": "Concise."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FTC, COPPA, and other entities correctly referenced."
+      "why": "COPPA, Section 230, Council correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "18-month effective date and 1-year algorithm provision date correctly stated."
+      "why": "13-16, 18 months, 1 year correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

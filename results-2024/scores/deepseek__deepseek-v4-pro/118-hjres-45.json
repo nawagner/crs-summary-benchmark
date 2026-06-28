@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill; the note about future substantially similar rules being barred is accurate CRA real-world context."
+      "why": "accurate; CRA bar on substantially-similar reissuance is correct real-world context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The claim about future rulemaking bar is accurate CRA law; no fabricated claims."
+      "why": "future-rule bar is a genuine CRA effect (5 USC 801(b)(2))"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the purpose as nullifying the DOE student loan debt relief rule via CRA."
+      "why": "clearly states primary purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Explains the rule is voided and unenforceable."
+      "why": "CRA disapproval, not statutory amendment"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions in the bill."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states the resolution takes effect upon enactment with no separate effective date."
+      "why": "notes passage May 24 and receipt May 30, 2023"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the CRA mechanism, the targeted rule, the GAO opinion, and operative effect."
+      "why": "captures essential operative effect"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "neutral, non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and readable."
+      "why": "well-organized and readable"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately detailed without padding."
+      "why": "no padding or filler"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "DOE, GAO correctly identified; program names are accurate."
+      "why": "entities named correctly"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "87 Fed. Reg. 61512, Oct. 12, 2022, March 17, 2023, May 24 and 30, 2023 all correctly stated."
+      "why": "87 FR 61512, dates correct"
     }
   },
-  "n_applicable": 11,
-  "n_passed": 11,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

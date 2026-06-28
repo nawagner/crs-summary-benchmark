@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text including quantities, dates, agency roles, and definitions."
+      "why": "All claims match the bill text on the LEU import ban, waiver, and termination dates."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims; all details traceable to the bill."
+      "why": "No fabricated claims; details track the USEC Privatization Act amendment."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill as banning importation of Russian-origin low-enriched uranium."
+      "why": "Clearly states the ban on Russian unirradiated low-enriched uranium imports."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the bill amends Section 3112A of the USEC Privatization Act with conforming amendments described."
+      "why": "Notes the bill amends the USEC Privatization Act."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Notes DOE for national security/nonproliferation and non-uranium isotopes exceptions, plus waiver conditions."
+      "why": "Describes the DOE waiver and exemptions for DOE national-security imports / non-uranium isotopes."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "States 90-day effective date, waiver termination by Jan 1 2028, and prohibition sunset Dec 31 2040."
+      "why": "Notes 90-day effective date, Jan 1 2028 waiver termination, and Dec 31 2040 sunset."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers ban, anti-circumvention, waiver authority, quantity caps, congressional notification, and sunset."
+      "why": "Captures prohibition, waiver, and sunset; the essential operative effect."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual throughout with no advocacy or editorializing."
+      "why": "Neutral, descriptive tone."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized with logical flow from ban to exceptions to sunset."
+      "why": "Well-organized and readable."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Thorough but not padded; all content substantive."
+      "why": "Detailed but no padding or repetition."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names Secretary of Energy, State, Commerce, and the USEC Privatization Act."
+      "why": "DOE, Secretaries of Energy/State/Commerce, and committees named correctly."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "All kilogram quantities and dates accurately reproduced from bill text."
+      "why": "Annual kilogram limits (476,536/470,376/464,183/459,083) stated correctly."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

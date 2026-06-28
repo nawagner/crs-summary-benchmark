@@ -4,69 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary repeatedly says 'initiate the processing cycle' rather than make FAFSA 'available,' and describes the change as setting the 'start date of the FAFSA application processing cycle,' which slightly misconstrues the amendment; however the core substance (the October 1 deadline replacing January 1 flexibility) is correct, so this is borderline. The bigger issue is saying 'processing cycle must begin' rather than 'FAFSA must be available'—the bill text says the Secretary must make the application available and initiate processing, but the summary's framing is close enough to pass on accuracy overall."
+      "pass": true,
+      "why": "Correctly describes Oct 1 deadline and certification/testimony requirements."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims."
+      "why": "ED/Secretary attribution accurate; no fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Identifies the purpose: establishing an earlier fixed FAFSA deadline and adding congressional oversight."
+      "why": "States purpose: earlier firm FAFSA availability deadline."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly describes the amendment to the Higher Education Act of 1965 replacing the flexible January 1 deadline with a firm October 1 requirement."
+      "why": "Describes amendment to Sec 483(d)(4) of the HEA."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly covers the certification and testimony requirements."
+      "why": "Notes the certify/testify condition triggered by anticipated failure."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies October 1 as the new FAFSA deadline and September 1 for certification."
+      "why": "Notes Oct 1, Sept 1, Sept 30 deadlines."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both the deadline change and the certification/testimony requirements."
+      "why": "Covers deadline change and oversight requirements."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the Secretary of Education, Department of Education, and Higher Education Act."
+      "why": "HEA, ED/Secretary, authorizing committees correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "October 1, September 1, September 30 dates are all correct."
+      "why": "Dates Oct 1/Sept 1/Sept 30 and enactment date correct."
     }
   },
   "n_applicable": 12,
-  "n_passed": 11,
-  "meets_standard": false,
+  "n_passed": 12,
+  "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

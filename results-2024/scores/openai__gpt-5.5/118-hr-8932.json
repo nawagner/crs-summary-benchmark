@@ -5,62 +5,62 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are supported by the bill text; the description of prior law and the amendment is accurate."
+      "why": "Correctly describes Oct 1 deadline and certification/testimony requirements."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the note that there is no separate effective date provision is accurate."
+      "why": "ED/Secretary attribution accurate; no fabrication."
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose: establishing a firm October 1 FAFSA deadline."
+      "why": "States purpose: earlier firm FAFSA availability deadline."
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly describes the amendment to the Higher Education Act of 1965, replacing the 'not later than January 1' language with a firm October 1 deadline."
+      "why": "Describes amendment to Sec 483(d)(4) of the HEA."
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the oversight requirements: certification by September 1 and testimony by September 30 if deadline will not be met."
+      "why": "Notes the certify/testify condition triggered by anticipated failure."
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the December 11, 2024 approval date."
+      "why": "Notes Oct 1, Sept 1, Sept 30 deadlines."
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers both the deadline change and the certification/testimony requirements."
+      "why": "Covers deadline change and oversight requirements."
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and non-partisan throughout."
+      "why": "Neutral."
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "Clear."
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise while covering all key provisions."
+      "why": "No padding."
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the Secretary of Education, FAFSA, and Higher Education Act of 1965."
+      "why": "HEA, ED/Secretary, authorizing committees correct."
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "October 1, September 1, September 30, and December 11, 2024 dates are all correct."
+      "why": "Dates Oct 1/Sept 1/Sept 30 and enactment date correct."
     }
   },
   "n_applicable": 12,
@@ -68,5 +68,5 @@
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

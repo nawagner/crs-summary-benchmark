@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Accurately describes the rule's content (reclassification from threatened to endangered) and the species-specific rule removal; both are accurate real-world context about what the FWS rule actually did."
+      "why": "all claims supported by bill text or accurate context"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The reclassification from threatened to endangered and the species-specific rule removal are accurate context about the FWS rule, not fabricated."
+      "why": "no fabricated or incorrect claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states this nullifies the FWS rule reclassifying the northern long-eared bat."
+      "why": "clearly identifies the bill's purpose"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the rule is nullified, and adds context about what that rule did."
+      "why": "CRA disapproval nullifies an agency rule; does not amend a statute"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date specified."
+      "why": "no effective date provision"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers nullification and provides context about the rule's content including the species-specific rule removal."
+      "why": "captures nullification and the threatened->endangered reclassification"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and informative throughout."
+      "why": "neutral and non-partisan"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well-organized and consistent"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately brief while capturing essential information."
+      "why": "concise and focused"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "U.S. Fish and Wildlife Service and Endangered Species Act correctly identified."
+      "why": "USFWS, ESA, Myotis septentrionalis correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "November 30, 2022 publication date matches bill text."
+      "why": "Nov 30 2022 publication date correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

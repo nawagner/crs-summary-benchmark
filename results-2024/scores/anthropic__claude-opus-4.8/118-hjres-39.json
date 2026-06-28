@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are accurate: CRA reference is correct context, Fed Reg citation 87 Fed. Reg. 56868 is correct, legislative dates (House April 28, Senate May 1) are accurate, and the statement that the bill text itself does not describe substantive rule content is correct."
+      "why": "accurately describes CRA disapproval of the named Commerce rule and Fed Reg cite"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims. CRA context is accurate real-world context."
+      "why": "CRA framing is accurate real-world context; no fabricated claims"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution as disapproving the named Commerce Department rule and rendering it without force or effect."
+      "why": "clearly states purpose is to disapprove/nullify the rule"
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Explains that the rule shall have no force or effect, capturing the regulatory nullification."
+      "why": "CRA disapproval; does not amend existing statutory law"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions or conditions in this joint resolution."
+      "why": "no material exceptions in the resolution"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No explicit effective date specified in the bill text."
+      "why": "resolution specifies no internal effective date"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the resolution's sole operative effect: nullifying the named Commerce rule."
+      "why": "captures the sole operative effect (rule has no force or effect)"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and descriptive throughout."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": "well organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Some elaboration on CRA but not padded or repetitive."
+      "why": "slightly long but no real padding"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Department of Commerce correctly named; CRA correctly identified."
+      "why": "Commerce, CRA, Fed Reg cite correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "87 Fed. Reg. 56868 cited correctly; legislative dates correct."
+      "why": "87 Fed. Reg. 56868 and dates correct"
     }
   },
-  "n_applicable": 10,
-  "n_passed": 10,
+  "n_applicable": 9,
+  "n_passed": 9,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

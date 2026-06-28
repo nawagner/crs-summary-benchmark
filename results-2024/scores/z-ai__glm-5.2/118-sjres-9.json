@@ -5,68 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims accurately reflect the bill text and the FWS rule."
+      "why": "accurate; CRA disapproval and protections described correctly"
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the rule's classifications are described accurately."
+      "why": "CRA/chapter 8 title 5 and ESA context are accurate; 87 Fed. Reg. 72674 matches text"
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the resolution as nullifying the FWS lesser prairie-chicken listing rule under the CRA."
+      "why": "states purpose to disapprove/nullify the FWS rule"
     },
     "changes_to_existing_law": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "CRA disapproval does not amend existing statutes."
+      "why": "explains rule 'shall have no force or effect'"
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "No material exceptions."
+      "why": "no material exceptions"
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "No separate effective date."
+      "why": "no effective date specified"
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the single operative disapproval provision and its legal effect."
+      "why": "captures the operative disapproval"
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral and factual."
+      "why": "neutral"
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and clear."
+      "why": "organized"
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Appropriately concise."
+      "why": "concise"
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the U.S. Fish and Wildlife Service and the rule's title and Federal Register citation."
+      "why": "US Fish and Wildlife Service, CRA, ESA correct"
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly cites November 25, 2022 and May 3, 2023."
+      "why": "87 Fed. Reg. 72674 and Nov 25, 2022 correct"
     }
   },
-  "n_applicable": 9,
-  "n_passed": 9,
+  "n_applicable": 10,
+  "n_passed": 10,
   "meets_standard": true,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-sonnet-4-6 via parallel Claude Code subagents (web/knowledge-verified context)"
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 }

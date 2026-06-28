@@ -38,7 +38,7 @@ async function initIndex() {
   const rows = data.leaderboard;
   // headline leaderboard (sortable)
   const cols = [
-    { key: "label", label: "Candidate", num: false },
+    { key: "label", label: "Summarizer", num: false },
     { key: "meets_standard_rate", label: "Meets CRS standard", num: true, bar: true },
     { key: "mean_cost_usd", label: "Mean cost / summary", num: true, fmt: money },
     { key: "mean_latency_s", label: "Mean latency", num: true, fmt: secs },
@@ -82,7 +82,7 @@ async function initIndex() {
   // per-criterion heatmap
   const heat = document.getElementById("heatmap");
   const crits = data.criteria;
-  const hhead = `<th>Candidate</th>` + crits.map((c) => `<th class="num" title="${esc(c.description)}">${esc(c.name)}</th>`).join("");
+  const hhead = `<th>Summarizer</th>` + crits.map((c) => `<th class="num" title="${esc(c.description)}">${esc(c.name)}</th>`).join("");
   const hbody = rows.map((r) => {
     const cells = crits.map((c) => {
       const v = r.per_criterion[c.id];
@@ -105,7 +105,7 @@ async function initBills() {
 
   // populate filter controls
   const modelSel = document.getElementById("f-model");
-  modelSel.innerHTML = `<option value="">All candidates</option>` +
+  modelSel.innerHTML = `<option value="">All summarizers</option>` +
     data.leaderboard.map((r) => `<option value="${r.id}">${esc(r.label)}</option>`).join("");
   const critSel = document.getElementById("f-criterion");
   critSel.innerHTML = `<option value="">Any criterion</option>` +

@@ -22,13 +22,12 @@
 <main><div class="wrap">
   <div id="list-wrap">
     <h1>Every bill in the benchmark</h1>
-    <p class="lede">Filter by candidate, by a single criterion's pass/fail, by outcome, or search by title or
-    bill number. Each colored dot is one candidate's overall verdict on that bill (green = met every applicable
-    criterion). Click a bill to read all summaries with the judge's reasoning.</p>
+    <p class="lede">Filter by summarizer, by a single criterion's pass/fail, by outcome, or search by title or
+    bill number. Click a bill to read all summaries with the judge's reasoning.</p>
 
     <div class="card">
       <div class="filters">
-        <div class="field"><label for="f-model">Candidate</label><select id="f-model"></select></div>
+        <div class="field"><label for="f-model">Summarizer</label><select id="f-model"></select></div>
         <div class="field"><label for="f-criterion">Criterion</label><select id="f-criterion"></select></div>
         <div class="field"><label for="f-outcome">Outcome</label>
           <select id="f-outcome">
@@ -42,7 +41,14 @@
       </div>
     </div>
 
-    <p class="count" id="bill-count">Loading…</p>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:14px 0 6px">
+      <p class="count" id="bill-count" style="margin:0">Loading…</p>
+      <div style="display:flex;align-items:center;gap:14px;font-size:13px;color:var(--muted)">
+        <span>Each dot is one summarizer's verdict (hover for its name):</span>
+        <span style="display:inline-flex;align-items:center;gap:5px"><span class="dot pass"></span>met all applicable criteria</span>
+        <span style="display:inline-flex;align-items:center;gap:5px"><span class="dot fail"></span>missed one or more</span>
+      </div>
+    </div>
     <div id="bill-list"><div class="loading">Loading bills…</div></div>
   </div>
 

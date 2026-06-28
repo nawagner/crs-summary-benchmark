@@ -26,10 +26,25 @@
 
   <h2>1. The baseline: real CRS summaries</h2>
   <div class="card">CRS legislative analysts write the official plain-language summaries served by the
-  <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a>. We collect bills from
-  the 119th Congress that have both a CRS summary and retrievable full text. The bill text is the input given
-  to models; the CRS summary is the human reference. Crucially, the CRS summaries are <strong>also graded</strong>
-  on the identical criteria (shown as the <em>CRS (human)</em> row) — a calibration check on the judge.</div>
+  <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a>. We collect bills that
+  have both a CRS summary and retrievable full text. The bill text is the input given to models; the CRS summary
+  is the human reference. Crucially, the CRS summaries are <strong>also graded</strong> on the identical criteria
+  (shown as the <em>CRS (human)</em> row) — a calibration check on the judge.
+
+  <p><strong>Two datasets</strong> (switch between them with the toggle on the leaderboard):</p>
+  <ul>
+    <li><strong>119th Congress</strong> — 50 recent bills (2025–26), sampled by most-recently-updated and
+    interleaved across chambers (House/Senate bills and joint resolutions). A mix of activity levels.</li>
+    <li><strong>2024 · high-activity</strong> — 50 bills from the 118th Congress (2024). Here
+    <strong>"high activity" means the number of legislative actions a bill accumulated</strong> — every step
+    recorded on Congress.gov (introduction, committee referrals and markups, floor votes, chamber passage,
+    enrollment, signing, etc.), read from the bill's <code>/actions</code> endpoint. More actions is a proxy for
+    how far a bill advanced and how consequential it was, so this set skews toward substantive, contested
+    legislation rather than routine measures. The selected bills range from <strong>27 to 76 actions</strong>
+    each (shown as an "<em>N actions</em>" badge on every bill). One filter is applied: bills whose full text
+    exceeds the model input budget (~180k characters) are skipped, so every summary is graded on text the models
+    read in full — this excludes the largest omnibus appropriations bills, which would otherwise top the list.</li>
+  </ul></div>
 
   <h2>2. Models under test</h2>
   <div class="card">Each model receives the same neutral summarization prompt and the bill text, with no

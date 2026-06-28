@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-2336",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Halting the Epidemic of Addiction and Loss Act of 2025\" (S. 2336) aims to ensure that Department of Health and Human Services (HHS) grant programs addressing opioid misuse do not limit their references to opioid overdose reversal agents solely",
+  "summary": "The \"Halting the Epidemic of Addiction and Loss Act of 2025\" (S. 2336) aims to ensure that Department of Health and Human Services (HHS) grant programs addressing opioid misuse do not limit their references to opioid overdose reversal agents to naloxone. \n\nUnder the bill, the Secretary of HHS must ensure that any future regulations or guidance issued for grant programs addressing opioid misuse and use disorders refer inclusively to any opioid overdose reversal drug approved by the Food and Drug Administration (FDA) for the emergency treatment of known or suspected opioid overdoses, rather than referencing only a specific drug. \n\nAdditionally, the bill establishes a deadline for updating existing materials. Within one year of the bill's enactment, the Secretary of HHS must update all regulations and guidance issued prior to enactment to ensure their references are inclusive of any FDA-approved or authorized opioid overdose reversal drug. This retroactive update requirement applies specifically to references within two federal grant programs:\n1. The State and Tribal response to opioid use disorders grant program (commonly known as State Opioid Response Grants and Tribal Opioid Response Grants) under the 21st Century Cures Act.\n2. The grant program for priority substance use disorder prevention needs of regional and national significance under the Public Health Service Act.",
   "prompt_tokens": 866,
-  "completion_tokens": 1496,
-  "total_tokens": 2362,
-  "cost_usd": 0.014763,
-  "latency_s": 7.08,
+  "completion_tokens": 1539,
+  "total_tokens": 2405,
+  "cost_usd": 0.01515,
+  "latency_s": 7.716,
   "ok": true
 }

@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-3424",
   "model": "google/gemini-3.5-flash",
-  "summary": "The Bankruptcy Administration Improvement Act of 2025 modifies the compensation of Chapter 7 bankruptcy trustees, adjusts bankruptcy fees to support the self-funded bankruptcy system, and extends the terms of several temporary bankruptcy judgeships. \n\nTo increase trustee compensation, the Act amends existing law to raise the",
+  "summary": "The Bankruptcy Administration Improvement Act of 2025 modifies the compensation paid to Chapter 7 bankruptcy trustees, adjusts certain bankruptcy fees, and extends temporary bankruptcy judgeships.\n\nSpecifically, the Act increases the case-by-case compensation for Chapter 7 trustees from $45 to $105. It replaces percentage-based allocations with specific dollar amounts for depositing the remainder of filing fees into the Treasury, the Deficit Reduction Act special fund, and the United States Trustee System Fund. \n\nAdditionally, the Act extends certain quarterly fee provisions and deposit periods from five to ten years (through 2031) and adjusts quarterly fee rates. For fiscal years 2026 through 2031, it directs $5.4 million of collected quarterly fees annually to the general fund of the Treasury. The Act also extends the terms of various temporary bankruptcy judgeships, originally established under previous legislation, from 5 years to 10 years.\n\nGenerally, the Act takes effect on the first day of the first calendar quarter occurring on or after its enactment. However, the trustee compensation changes apply to Chapter 7 cases (including cases converted from other chapters to Chapter 7) commenced on or after the first October 1st following enactment. The fee adjustments apply to Chapter 11 cases pending or commenced on the first day of the first calendar quarter after enactment, as well as to quarterly fees for disbursements made in any calendar quarter beginning on or after enactment.",
   "prompt_tokens": 3304,
-  "completion_tokens": 1496,
-  "total_tokens": 4800,
-  "cost_usd": 0.01842,
-  "latency_s": 7.119,
+  "completion_tokens": 2427,
+  "total_tokens": 5731,
+  "cost_usd": 0.026799,
+  "latency_s": 10.987,
   "ok": true
 }

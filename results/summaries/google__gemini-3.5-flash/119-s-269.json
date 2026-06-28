@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-269",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Ending Improper Payments to Deceased People Act\" (Public Law 119-77) aims to improve coordination between federal and state agencies and the federal \"Do Not Pay\" working system to prevent and recover improper payments made to deceased individuals. \n\nTo achieve this, the Act amends the Social Security Act to require the Commissioner of Social Security, to the extent feasible, to share",
+  "summary": "The \"Ending Improper Payments to Deceased People Act\" (Public Law 119-77) aims to improve coordination between federal and state agencies and the \"Do Not Pay\" working system to prevent and recover improper payments made to deceased individuals. \n\nTo achieve this, the Act amends the Social Security Act to direct the Commissioner of Social Security, to the extent feasible, to share collected death information with the agency operating the Do Not Pay working system. This sharing must occur through a cooperative arrangement that meets existing statutory requirements. Under this arrangement, the Commissioner and the Do Not Pay agency must enter into an agreement based on an agreed-upon methodology to cover the proportional share of State death data costs, which they may periodically review. \n\nThe Act also establishes strict conditions for recording deaths. The Commissioner is prohibited from recording a death on any record shared under this section unless there is clear and convincing evidence to support the presumption that the individual is deceased. Furthermore, if an individual is incorrectly identified as deceased, the Commissioner is required to notify any agency that has a cooperative data-sharing arrangement with the Social Security Administration of the error. \n\nThese provisions and amendments are scheduled to take effect on December 27, 2026.",
   "prompt_tokens": 1162,
-  "completion_tokens": 1496,
-  "total_tokens": 2658,
-  "cost_usd": 0.015207,
-  "latency_s": 6.667,
+  "completion_tokens": 1607,
+  "total_tokens": 2769,
+  "cost_usd": 0.016206,
+  "latency_s": 6.881,
   "ok": true
 }

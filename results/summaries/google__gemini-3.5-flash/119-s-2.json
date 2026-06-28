@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-2",
   "model": "google/gemini-3.5-flash",
-  "summary": "The Secure America Act (Public Law 119-98) appropriates supplemental funds for fiscal year 2026, remaining available until September 30, 2029, to support border security, technology, and immigration enforcement. \n\nUnder Title I, the",
+  "summary": "The Secure America Act (Public Law 119-98) appropriates supplemental funds for fiscal year 2026, remaining available until September 30, 2029, to the Department of Homeland Security (DHS) for border security, technology, personnel, and immigration enforcement. \n\nUnder Title I, the Act provides funding for activities other than immigration and customs enforcement. This includes $9.55 billion to U.S. Customs and Border Protection (CBP) for Border Patrol personnel, with a restriction prohibiting the use of these funds for processing coordinators after October 31, 2028. It allocates $7.45 billion to U.S. Immigration and Customs Enforcement (ICE) for Homeland Security Investigations, including $108.5 million specifically for child exploitation investigations and victim identification. Additionally, CBP receives $3.45 billion for border security technology, screening, and drug interdiction, with a restriction prohibiting funds for southwest or northern border surveillance towers unless they are certified as \"autonomous.\" The Secretary of DHS receives an additional $2.5 billion for Title I purposes.\n\nUnder Title II, the Act funds direct immigration enforcement activities. It appropriates $13.02 billion to CBP and $31.075 billion to ICE. ICE’s funding supports personnel, removal operations, information technology, facility and fleet maintenance, and the expansion of 287(g) coordination agreements with state and local authorities. Notably, at least $350 million of ICE's funding must be used to arrest and manage \"covered unlawful aliens\" in jurisdictions that do not cooperate with federal immigration authorities, with a strict prohibition on using these funds to release such individuals. Finally, the Act appropriates an additional $2.5 billion to the Secretary of DHS for Title II or other specified purposes.",
   "prompt_tokens": 3321,
-  "completion_tokens": 1496,
-  "total_tokens": 4817,
-  "cost_usd": 0.018446,
-  "latency_s": 6.599,
+  "completion_tokens": 2323,
+  "total_tokens": 5644,
+  "cost_usd": 0.025889,
+  "latency_s": 10.716,
   "ok": true
 }

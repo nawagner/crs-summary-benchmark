@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hjres-20",
   "model": "google/gemini-3.5-flash",
-  "summary": "Public Law 119-6, enacted as House Joint Resolution 20 on May 9, 2025, is a joint resolution of Congress that disapproves a specific federal regulation issued by the Department of Energy. The primary purpose of the legislation is to nullify the rule",
+  "summary": "Public Law 119-6 (House Joint Resolution 20) is a joint resolution of Congress that provides for the formal disapproval of a specific federal regulation under chapter 8 of title 5 of the United States Code. Specifically, the resolution targets the rule submitted by the Department of Energy titled \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters,\" which was published in the Federal Register (89 Fed. Reg. 105188) on December 26, 2024.\n\nThe primary purpose and effect of this measure is to nullify the Department of Energy's rule. By declaring congressional disapproval, the resolution mandates that the specified rule shall have no force or effect under the law. This action prevents the energy conservation standards detailed in the December 2024 rule from being implemented or enforced.\n\nThe joint resolution was considered and passed by the House of Representatives on February 27, 2025, and by the Senate on April 9 and 10, 2025. It was signed into law and became effective upon approval on May 9, 2025. The text of the resolution does not contain any exceptions, conditions, or further administrative deadlines.",
   "prompt_tokens": 498,
-  "completion_tokens": 1496,
-  "total_tokens": 1994,
-  "cost_usd": 0.014211,
-  "latency_s": 7.195,
+  "completion_tokens": 1814,
+  "total_tokens": 2312,
+  "cost_usd": 0.017073,
+  "latency_s": 8.597,
   "ok": true
 }

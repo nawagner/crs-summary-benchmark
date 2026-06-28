@@ -88,7 +88,7 @@ def main() -> None:
     judged_n = max((a["n_bills"] for a in ordered), default=0)
     lines = ["# Leaderboard", "",
              f"Bills judged: {judged_n}  |  Judge: `{cfg['judge_model']}`", "",
-             "| Candidate | Meets CRS standard | Mean cost/summary | Mean latency |",
+             "| Summarizer | Passes all criteria | Mean cost/summary | Mean latency |",
              "|---|---|---|---|"]
     for a in ordered:
         cost = f"${a['mean_cost_usd']:.4f}" if a["mean_cost_usd"] is not None else "—"
@@ -96,7 +96,7 @@ def main() -> None:
         lines.append(f"| {a['label']} | {a['meets_standard_rate']*100:.0f}% "
                      f"({a['meets_standard_count']}/{a['n_bills']}) | {cost} | {lat} |")
     lines += ["", "## Per-criterion pass rate", "",
-              "| Candidate | " + " | ".join(c["name"] for c in criteria) + " |",
+              "| Summarizer | " + " | ".join(c["name"] for c in criteria) + " |",
               "|---|" + "---|" * len(criteria)]
     for a in ordered:
         cells = []

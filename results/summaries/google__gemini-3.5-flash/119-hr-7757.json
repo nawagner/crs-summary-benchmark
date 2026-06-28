@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-7757",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Kids Internet and Digital Safety Act\" (KIDS Act) aims to protect minors under age 17 online, empower parents, and regulate digital platforms, online games, and artificial intelligence (AI) chatbots. \n\nThe bill establishes several major requirements across different digital sectors:\n*",
+  "summary": "The Kids Internet and Digital Safety Act (KIDS Act) aims to protect minors under age 17 from online harms, restrict their access to harmful content, and provide parents with tools to manage their children's digital interactions. \n\nTo achieve this, the bill establishes several new requirements for online platforms. Platforms where more than one-third of the content is sexually explicit must use age-verification technologies to block minors. The bill also bans ephemeral messaging for all minors, prohibits direct messaging for children under 13, and requires parental consent and controls for teen direct messaging. Additionally, covered platforms and online video game providers must offer high-protection default privacy settings, parental monitoring tools, and options to restrict purchases, track screen time, and opt out of personalized recommendation algorithms. Platforms must also undergo annual independent safety audits.\n\nFurthermore, the bill prohibits market research on minors, with exceptions for research used solely to improve platform safety or comply with laws. AI chatbot providers must disclose that they are not human, provide crisis hotline resources when prompted about suicide, and advise users to take a break after three hours of continuous use. The bill also amends the Protecting Children in the 21st Century Act to mandate a public online safety campaign, establishes the Kids Internet Safety Partnership, and orders federal studies on the impacts of social media, fentanyl access, and chatbots on minors.\n\nThe Federal Trade Commission and state attorneys general will enforce the Act. Most provisions take effect one year after enactment, though the market research ban takes effect in 90 days and messaging restrictions in 180 days. Any constitutional challenges to the Act must be filed in the D.C. Circuit Court of Appeals within 90 days of enactment.",
   "prompt_tokens": 19709,
-  "completion_tokens": 1496,
-  "total_tokens": 21205,
-  "cost_usd": 0.043027,
-  "latency_s": 8.606,
+  "completion_tokens": 2952,
+  "total_tokens": 22661,
+  "cost_usd": 0.056132,
+  "latency_s": 14.325,
   "ok": true
 }

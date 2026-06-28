@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text and the contextual statute references are correct."
+      "why": "Accurate account of requiring HHS opioid-reversal references to include any FDA-approved drug, with the one-year update for the named grant programs."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; program names and statute references are accurate context."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose of broadening references beyond naloxone."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Names the 21st Century Cures Act and Public Health Service Act programs affected."
+      "why": ""
     },
     "exceptions_conditions": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the update requirement applies only to pre-enactment references in the two specified grant programs."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states the one-year update deadline after enactment."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures both the prospective and existing-reference update requirements."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Summary is neutral and descriptive without editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent."
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "No padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "HHS, FDA, the FFDCA, and the two grant programs are correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The one-year deadline is stated correctly."
+      "why": ""
     }
   },
-  "n_applicable": 12,
-  "n_passed": 12,
+  "n_applicable": 11,
+  "n_passed": 11,
   "meets_standard": true,
-  "judge_cost_usd": 0.04301,
-  "judge_latency_s": 7.056
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-172",
   "model": "google/gemini-3.5-flash",
-  "summary": "S.J. Res. 172 is a joint resolution that directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, unless Congress explicitly authorizes such action through a declaration of war or a specific authorization for the use of military force. \n\nThe",
+  "summary": "Senate Joint Resolution 172 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. The resolution states that Congress has not declared war or authorized military force against Iran, despite the launch of Operation Epic Fury on February 28, 2026, and a subsequent United States blockade of the Strait of Hormuz following an April 8, 2026 ceasefire. \n\nPursuant to federal law governing the removal of forces from unauthorized hostilities, the resolution mandates that the President withdraw U.S. forces from hostilities within or against Iran unless Congress explicitly enacts a declaration of war or a specific authorization for the use of military force. \n\nThe resolution establishes several exceptions, clarifying that the directive does not prevent the United States from:\n* Defending against attacks on the United States, its personnel, or its facilities in other nations;\n* Collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies with international organizations and partner nations, such as Israel;\n* Assisting partner countries attacked by Iran since February 28, 2026, by supporting defensive measures or providing defensive materiel; and\n* Assisting with the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
   "prompt_tokens": 1484,
-  "completion_tokens": 1496,
-  "total_tokens": 2980,
-  "cost_usd": 0.01569,
-  "latency_s": 6.853,
+  "completion_tokens": 1679,
+  "total_tokens": 3163,
+  "cost_usd": 0.017337,
+  "latency_s": 9.378,
   "ok": true
 }

@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-8884",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Removing Barriers to Work for Disabled Americans Act\" (H.R. 8884) temporarily reauthorizes the Social Security Administration's authority to conduct demonstration projects and experiments for the disability insurance program under Title II of the Social Security Act. \n\nSpecifically, the bill extends the deadline to initiate these demonstration projects to December 31, 203",
+  "summary": "The \"Removing Barriers to Work for Disabled Americans Act\" (H.R. 8884) temporarily reauthorizes the Social Security Administration's authority to conduct experiments and demonstration projects under the disability insurance program. \n\nSpecifically, the bill extends the deadline to initiate these projects to December 31, 2030, and extends the termination date for carrying them out to December 31, 2031. It also extends the authority to waive compliance with certain benefit requirements to December 31, 2030, increases a related statutory timeline from 90 days to 120 days, and requires the inclusion of specific evaluation metrics for each project. \n\nUnder the bill, administrative expenditures for these experiments and demonstration projects must be paid from funds made available for administering Title II of the Social Security Act. Benefits payable to participants must be paid from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner of Social Security. \n\nAdditionally, the bill introduces a protective limitation, ensuring that an individual's total income will not be reduced as a result of participating in an experiment or demonstration project. It also makes technical amendments, including striking subsection (f) of Section 234 of the Social Security Act. \n\nThe amendments made by this Act are set to take effect on January 1, 2027.",
   "prompt_tokens": 1280,
-  "completion_tokens": 1496,
-  "total_tokens": 2776,
-  "cost_usd": 0.015384,
-  "latency_s": 6.521,
+  "completion_tokens": 2112,
+  "total_tokens": 3392,
+  "cost_usd": 0.020928,
+  "latency_s": 9.447,
   "ok": true
 }

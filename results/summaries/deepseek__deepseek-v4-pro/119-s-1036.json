@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-1036",
   "model": "deepseek/deepseek-v4-pro",
-  "summary": "This bill amends the Public Health Service Act to expand the Minority Fellowship Program so that it can support training for professionals in addiction medicine. It makes two specific changes to Section 597 of that Act (42 U.S.C. 290ll). First, it inserts the word “diagnosis” into subsection (a)(1) immediately after the phrase “related to.” Second, it adds “addiction medicine” to the list of professional fields in subsection (b), placing it after “psychiatry.” These changes mean that the program’s fellowships may now be awarded for education and training that includes diagnosis, and that addiction medicine is explicitly recognized as an eligible specialty alongside other mental and behavioral health disciplines. The bill does not contain any additional conditions, exceptions, or specified effective dates; the amendments would take effect upon enactment. The short title is the “Improving Access to Addiction Medicine Providers Act.”",
+  "summary": "The bill, titled the “Improving Access to Addiction Medicine Providers Act,” amends the Public Health Service Act to expand the Minority Fellowship Program so that it can support training for professionals in addiction medicine. The program, administered under Section 597 of the Act, currently provides fellowships to individuals pursuing careers in mental health and substance use disorder fields. The legislation makes two specific changes to that section.\n\nFirst, it amends subsection (a)(1) by inserting the word “diagnosis,” after the phrase “related to.” This broadens the scope of activities for which fellowships may be awarded to explicitly include diagnosis, alongside the existing authorized purposes.\n\nSecond, it amends subsection (b) by inserting “addiction medicine,” after “psychiatry,”. This adds addiction medicine to the list of professional specialties eligible for fellowship support, ensuring that the program can directly fund training for addiction medicine providers.\n\nThe bill does not contain any additional provisions, exceptions, or conditions. It specifies no effective date, meaning the amendments would take effect upon enactment. The legislation does not authorize new funding or alter existing appropriations; it solely modifies the categories of training and professional fields covered by the Minority Fellowship Program.",
   "prompt_tokens": 459,
-  "completion_tokens": 918,
-  "total_tokens": 1377,
-  "cost_usd": 0.000998,
-  "latency_s": 12.072,
+  "completion_tokens": 978,
+  "total_tokens": 1437,
+  "cost_usd": 0.001051,
+  "latency_s": 31.234,
   "ok": true
 }

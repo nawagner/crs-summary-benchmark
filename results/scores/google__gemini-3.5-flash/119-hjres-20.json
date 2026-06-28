@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All stated claims (Public Law 119-6, H.J. Res. 20, enacted May 9, 2025, DOE rule disapproval) match the bill text and factual record."
+      "why": "Accurately describes nullifying the named DOE/IRS/CFTC rule with correct Fed. Reg. citation and dates."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the truncated text."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the purpose as nullifying a Department of Energy regulation."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary does not name the specific rule (Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters, 89 Fed. Reg. 105188) being nullified because it is cut off."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "This simple CRA disapproval resolution contains no material exceptions or carve-outs."
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "While the enactment date is given, the truncated summary fails to identify the rule's December 26, 2024 submission date that frames the disapproval."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence and never identifies which specific DOE rule is being nullified, omitting the bill's essential operative content."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and contains no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('to nullify the rule'), making it incomplete and not internally finished."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text is free of padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The Department of Energy and identifiers (Public Law 119-6, H.J. Res. 20) are correctly named."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figures stated—Public Law 119-6 and the May 9, 2025 enactment date—are correct."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.134825,
-  "judge_latency_s": 13.159
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

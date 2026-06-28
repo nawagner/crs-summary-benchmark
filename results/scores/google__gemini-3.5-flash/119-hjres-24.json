@@ -4,68 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary contains no substantive content about the bill, only leftover drafting notes that make no verifiable claims."
+      "pass": true,
+      "why": "Accurately describes nullifying the named DOE/IRS/CFTC rule with correct Fed. Reg. citation and dates."
     },
     "no_hallucinations": {
       "applicable": true,
-      "pass": false,
-      "why": "The text is meta-commentary/drafting scaffolding rather than an actual summary, failing to convey any factual content about the resolution."
+      "pass": true,
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary never states that the bill disapproves a DOE rule on walk-in cooler/freezer energy conservation standards."
+      "pass": true,
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "It fails to mention the Congressional Review Act disapproval that nullifies the DOE rule."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill contains no material exceptions or conditions to summarize."
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary omits the May 9, 2025 approval date and the rule's nullification timing."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "No operative provision is described; the summary contains only drafting notes."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The text contains no partisan advocacy or editorializing about the bill."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The text is fragmentary drafting scaffolding, not a coherent summary of the bill."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
-      "pass": false,
-      "why": "The content is entirely irrelevant meta-commentary rather than substantive summary."
+      "pass": true,
+      "why": ""
     },
     "correct_entities": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No agencies, programs, or statutes are actually named in the summary."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "No figures or dates from the bill are stated, so none can be misstated."
+      "why": ""
     }
   },
-  "n_applicable": 9,
-  "n_passed": 1,
-  "meets_standard": false,
-  "judge_cost_usd": 0.040615,
-  "judge_latency_s": 7.978
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

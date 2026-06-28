@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "Claims about reauthorizing first responder training grants under the PHSA and funding figures match the bill text and verified record."
+      "why": "Accurate; the program expansion and the $36M->$57M (FY2026-2030) reauthorization match the bill text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the SAMHSA-administered FR-CARA program context and amounts are accurate."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose as reauthorizing/expanding the first responder training grant program."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly states the bill amends the Public Health Service Act and changes the prior authorization level."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill contains no material exceptions or eligibility carve-outs requiring mention."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the FY2026–2030 authorization period as the relevant timing provision."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated and fails to fully describe the key operative change broadening the program beyond opioids to general drug/overdose training and the 'otherwise legally marketed' device language."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The tone is neutral and non-partisan throughout."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('In addition to increasing funding, the'), leaving it incomplete and not internally finished."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text is free of padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names the Public Health Service Act and the bill title and number."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Both the new $57,000,000 (FY2026–2030) and prior $36,000,000 (FY2019–2023) figures match the bill text."
+      "why": ""
     }
   },
   "n_applicable": 11,
-  "n_passed": 9,
-  "meets_standard": false,
-  "judge_cost_usd": 0.153525,
-  "judge_latency_s": 16.314
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

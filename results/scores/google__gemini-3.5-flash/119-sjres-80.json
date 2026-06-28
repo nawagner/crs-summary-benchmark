@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims (PL 119-47, S.J. Res. 80, Dec. 5 2025 approval, BLM rule title, CRA = ch. 8 title 5) match the bill text and verified record."
+      "why": "Accurately describes nullifying the BLM NPR-A plan, with the April 25 2022 ROD and the GAO opinion correctly cited."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "Identifying chapter 8 of title 5 as the Congressional Review Act is accurate context, and no claims are fabricated or false."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the resolution disapproves the BLM NPR-A IAP Record of Decision rule so it has no force or effect."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly explains the resolution nullifies the BLM rule under the Congressional Review Act (ch. 8 of title 5)."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "This is a simple CRA disapproval resolution with no material exceptions or carve-outs to note."
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the December 5, 2025 approval date and the April 25 issuance date of the underlying rule, though the latter is cut off mid-sentence."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the essential operative effect—the rule shall have no force or effect—though it omits the GAO opinion detail, which is minor."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated, ending abruptly mid-sentence ('issued by the Bureau of Land Management on April 25,'), breaking organization and readability."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text is appropriately tight without padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Bureau of Land Management, the rule title, and the Congressional Review Act are all correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The dates and citation (PL 119-47, S.J. Res. 80, Dec. 5 2025, April 25) stated are all correct."
+      "why": ""
     }
   },
-  "n_applicable": 11,
+  "n_applicable": 10,
   "n_passed": 10,
-  "meets_standard": false,
-  "judge_cost_usd": 0.212035,
-  "judge_latency_s": 15.291
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

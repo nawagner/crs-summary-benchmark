@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary's claims accurately reflect the bill's purpose and prohibition on price gouging during declared disasters."
+      "why": "Thorough, accurate account of the price-gouging caps, exceptions, enforcement, and penalties."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the truncated summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's purpose of prohibiting price gouging during declared disasters or emergencies."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary does not mention the bill's reliance on the Stafford Act, FTC Act enforcement, or treatment as unfair/deceptive practices."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off before describing any of the bill's material exceptions (cost pass-through, tariffs, seasonal/contractual rate adjustments)."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary omits the bill's timing provisions (30-day and 180-day periods, 2-year limitations period)."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence and fails to cover FTC/state enforcement, private right of action, civil penalties, and disaster-zone fund."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan in tone."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('by more than'), making it incomplete and not internally complete."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present contains no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The bill title and number (H.R. 2427) are stated correctly."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The summary states no figures, as it is cut off before reaching them."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.05886,
-  "judge_latency_s": 8.967
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

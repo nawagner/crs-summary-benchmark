@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary's claims match the bill text accurately, correctly identifying the law number, date, and the request to the Secretary of the Interior."
+      "why": "Accurate and notably complete (Washington Monument projections, 5-night window, transmittal of enrolled copies)."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims; the summary is cut off but contains no false statements."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence ('The primary purpose of these displays is') and never completes the statement of purpose regarding the 250th anniversary commemoration."
+      "pass": true,
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "This joint resolution makes a non-binding request and does not amend, repeal, or add to existing law."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The resolution contains no material exceptions or eligibility conditions to summarize."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary fails to note the key display window of December 31, 2025 to January 5, 2026 specified by the bill."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the essential context (250th anniversary/semiquincentennial), the 5-night display period, and the transmittal request to the Semiquincentennial Commission, ending abruptly."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and factual with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is incomplete, ending mid-sentence, which breaks its coherence."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary contains no padding or filler in the text provided."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The Secretary of the Interior, Public Law 119-46, National Mall, and Washington Monument are all correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The enactment date of December 2, 2025 and the law number are stated correctly."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.047705,
-  "judge_latency_s": 9.349
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

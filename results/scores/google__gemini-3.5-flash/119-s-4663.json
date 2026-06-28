@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All stated claims (title, $3.5B, FY2027, USDA Office of the Secretary, block grants to states) match the bill text."
+      "why": "Accurate; $3.5B (FY2027) USDA block grants, the March 4 2026 designation limit, emergency designation, and reporting all match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; identifying USDA as the Department of Agriculture is accurate context."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's purpose of appropriating funds for freeze-related agricultural block grants to states."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": false,
       "pass": true,
-      "why": "This is an appropriations bill that does not amend existing law, so this criterion does not apply."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "The summary fails to mention key conditions like the March 4, 2026 disaster designation limit and multi-year crop compensation, but it is cut off mid-sentence before reaching them."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "The summary correctly notes the FY ending September 30, 2027 and that funds remain available until expended, though it omits the 120-day reporting deadline."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence and omits major provisions including the county disaster-designation eligibility limit, multi-year crop compensation, state-request mechanism, and emergency designation."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('losses of revenue, quality, or'), rendering it incomplete and not reading clearly."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary avoids padding and filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The Department of Agriculture, Office of the Secretary, and Secretary of Agriculture are all correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The $3.5 billion figure and September 30, 2027 date are both stated correctly."
+      "why": ""
     }
   },
   "n_applicable": 11,
-  "n_passed": 9,
-  "meets_standard": false,
-  "judge_cost_usd": 0.046215,
-  "judge_latency_s": 8.987
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

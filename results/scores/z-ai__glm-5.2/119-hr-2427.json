@@ -4,68 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary misstates the 50% rule as 'exceeds 50 percent of their cost' when the bill prohibits charging 'more than 50 percent greater than the cost,' contradicting the bill text."
+      "pass": true,
+      "why": "Thorough, accurate account of the price-gouging caps, exceptions, FTC/state/private enforcement, penalties, and fund."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; agency (FTC) and statute (Stafford Act, FTC Act) are correctly identified."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose: prohibiting price gouging during a declared major disaster or emergency."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Correctly notes enforcement via the FTC Act and reference to the Stafford Act declarations."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the key exceptions: supplier/labor cost increases with markup limit, tariffs/trade policies, seasonal hotel rates, and rental repair/contractual exceptions."
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "Notes the 30-day and 180-day windows and the two-year statute of limitations for private actions."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Covers the prohibition, exceptions, FTC and state enforcement, private right of action, and penalties, capturing the bill's essential effects."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and descriptive with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence at the end ('subject to'), leaving it incomplete and the inflation-adjustment and disaster-fund provisions truncated."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary avoids padding and filler, stating provisions efficiently."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "FTC, FTC Act, and the Stafford Act are all named correctly."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
-      "pass": false,
-      "why": "Misstates the 50% threshold as 'exceeds 50 percent of their cost' rather than 'more than 50 percent greater than the cost'; other figures (10%, 30/180 days, $25,000, 2 years) are correct."
+      "pass": true,
+      "why": ""
     }
   },
-  "n_applicable": 12,
-  "n_passed": 9,
-  "meets_standard": false,
-  "judge_cost_usd": 0.15328,
-  "judge_latency_s": 13.833
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

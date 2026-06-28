@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text—added organizations, podiatric medicine integration, schools of pharmacy, and retroactive effective date are correctly described."
+      "why": "Accurate; CSA sec. 303 amendment, the added training organizations, podiatric/pharmacy additions, and retroactive Dec 29 2022 effect all match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; all listed organizations appear in the bill text and amendment is to the Controlled Substances Act as stated."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Summary clearly states the bill clarifies and expands training requirements for prescribers of controlled substances."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Summary correctly identifies the amendment of Section 303 of the Controlled Substances Act and the changes to recognized organizations and pathways."
+      "why": ""
     },
     "exceptions_conditions": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The bill is a list-expansion amendment with no material exceptions or carve-outs to note."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Summary notes the retroactive effective date but is cut off mid-sentence before stating it takes effect as if enacted December 29, 2022."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Summary captures all essential operative effects: added organizations, podiatric medicine inclusion, schools of pharmacy, and retroactive effective date."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Summary is neutral and descriptive with no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Summary is well-organized and clear, though it ends abruptly mid-sentence on the effective date."
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Summary is focused and free of padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "All named organizations and the Controlled Substances Act/Section 303 are correctly identified per the bill text."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "The summary states no specific figures incorrectly; the effective date sentence is truncated before any date is stated."
+      "why": ""
     }
   },
   "n_applicable": 11,
   "n_passed": 11,
   "meets_standard": true,
-  "judge_cost_usd": 0.154045,
-  "judge_latency_s": 12.951
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

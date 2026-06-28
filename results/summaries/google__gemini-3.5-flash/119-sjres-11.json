@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-11",
   "model": "google/gemini-3.5-flash",
-  "summary": "Public Law 119-3 (Senate Joint Resolution 11), approved on March 14, 2025, is a joint resolution of Congress that disapproves a specific federal regulation. The primary purpose of this measure is to nullify the rule submitted by the",
+  "summary": "Public Law 119-3 (Senate Joint Resolution 11), approved on March 14, 2025, is a joint resolution of Congress that states its disapproval of a specific federal rule. \n\nThe primary purpose of the resolution is to nullify the rule submitted by the Bureau of Ocean Energy Management relating to the \"Protection of Marine Archaeological Resources.\" This rule was originally published in the Federal Register on September 3, 2024, at 89 Fed. Reg. 71160. \n\nUnder the provisions of Chapter 8 of Title 5 of the United States Code, the resolution declares that this specific rule shall have no force or effect. The resolution does not establish any exceptions, conditions, or future deadlines; its sole action is the disapproval and nullification of the specified rule. \n\nThe legislative history shows that the Senate considered and passed the joint resolution on February 25, 2025, and the House of Representatives considered and passed it on March 6, 2025, prior to its final approval on March 14, 2025.",
   "prompt_tokens": 440,
-  "completion_tokens": 1496,
-  "total_tokens": 1936,
-  "cost_usd": 0.014124,
-  "latency_s": 6.848,
+  "completion_tokens": 1730,
+  "total_tokens": 2170,
+  "cost_usd": 0.01623,
+  "latency_s": 11.572,
   "ok": true
 }

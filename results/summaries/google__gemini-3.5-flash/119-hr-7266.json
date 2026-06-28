@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-7266",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Rural and Municipal Utility Cybersecurity Act\" (H.R. 7266) amends the Infrastructure Investment and Jobs Act to reauthorize the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program. Under the bill, the Secretary is directed to maintain this program to provide technical assistance",
+  "summary": "The Rural and Municipal Utility Cybersecurity Act (H.R. 7266) amends the Infrastructure Investment and Jobs Act to reauthorize and modify the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program. The bill's primary purpose is to maintain a federal program that provides technical assistance and funding—including grants, cooperative agreements, and prizes—to help eligible electric utilities protect against, detect, respond to, and recover from cybersecurity threats. \n\nEligible entities under the program include rural electric cooperatives, municipally owned electric utilities, other utilities owned by political subdivisions, certain not-for-profit partnerships, and investor-owned electric utilities that sell less than 4,000,000 megawatt hours of electricity per year. The program's core objectives are to deploy advanced cybersecurity technologies and increase utility participation in threat information sharing programs.\n\nIn administering the program, the Secretary must establish a process to inform eligible entities of available opportunities. The bill directs the Secretary to prioritize entities that have limited cybersecurity resources, own assets critical to the bulk-power system's reliability, or own or operate defense critical electric infrastructure. \n\nAdditionally, the bill mandates that any information shared with or by federal, state, tribal, or local governments under the program is considered voluntarily shared. Consequently, this information is exempt from disclosure under the Freedom of Information Act (FOIA) and any equivalent state, tribal, or local open records, open meetings, or sunshine laws. \n\nTo fund these initiatives, the bill authorizes $250,000,000 for the period of fiscal years 2026 through 2030.",
   "prompt_tokens": 1738,
-  "completion_tokens": 1496,
-  "total_tokens": 3234,
-  "cost_usd": 0.016071,
-  "latency_s": 6.85,
+  "completion_tokens": 1517,
+  "total_tokens": 3255,
+  "cost_usd": 0.01626,
+  "latency_s": 6.867,
   "ok": true
 }

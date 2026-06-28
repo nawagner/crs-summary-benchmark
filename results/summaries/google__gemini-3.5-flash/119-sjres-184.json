@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-184",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 184 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nThe resolution notes that the President notified Congress on March 2, 2026, of military operations initiated against Iran on February 28, 2026. Under the War Powers Resolution,",
+  "summary": "Senate Joint Resolution 184 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. The resolution references a presidential notification from March 2, 2026, regarding military actions initiated against Iran on February 28, 2026. Under the War Powers Resolution, the 60-day statutory limit for unauthorized military force expires on May 1, 2026. Accordingly, this resolution mandates the removal of U.S. forces unless Congress explicitly declares war or provides specific statutory authorization for the use of military force. \n\nHowever, the resolution outlines several key exceptions. It does not prevent the United States from defending itself, its personnel, or its facilities in other nations from attack. Additionally, the U.S. may continue to collect, analyze, and share intelligence—including with Israel, international organizations, and other partners—concerning threats from Iran or its proxies. The bill also permits the U.S. to assist Israel and other nations by providing defensive materiel and supporting defensive measures against retaliatory attacks by Iran or its proxies. Finally, the directive does not restrict the U.S. from providing security, departure, and evacuation assistance to American citizens affected by the hostilities.",
   "prompt_tokens": 1518,
-  "completion_tokens": 1496,
-  "total_tokens": 3014,
-  "cost_usd": 0.015741,
-  "latency_s": 6.83,
+  "completion_tokens": 1633,
+  "total_tokens": 3151,
+  "cost_usd": 0.016974,
+  "latency_s": 8.549,
   "ok": true
 }

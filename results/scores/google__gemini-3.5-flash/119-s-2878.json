@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text (amends 16 U.S.C. 941h(d), strikes 2025 inserts 2030) and the contextual statutory citation is verified correct."
+      "why": "Accurately describes reauthorizing the Great Lakes Basin research through 2030 via the named appropriations-act amendment."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the statute and date details are accurate per the bill and verified records."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the purpose as reauthorizing funding for Great Lakes Basin monitoring, assessment, and research."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the amendment to Section 201(d) of the Further Consolidated Appropriations Act, 2020 (16 U.S.C. 941h(d))."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill is a simple date change with no material exceptions or conditions to summarize."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly notes the extension from 2025 to 2030, the key timing provision of the bill."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the sole operative provision—striking 2025 and inserting 2030 to extend authorization five years."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "Neutral, factual description without advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('...the bill'), leaving it incomplete and not fully coherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is appropriately brief without padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The statute and codification (Further Consolidated Appropriations Act, 2020; 16 U.S.C. 941h(d)) are correctly identified."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "The years 2025 and 2030 and the Senate (Nov. 19) and House (Dec. 15) passage dates are all correct."
+      "why": ""
     }
   },
-  "n_applicable": 11,
+  "n_applicable": 10,
   "n_passed": 10,
-  "meets_standard": false,
-  "judge_cost_usd": 0.153125,
-  "judge_latency_s": 13.728
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

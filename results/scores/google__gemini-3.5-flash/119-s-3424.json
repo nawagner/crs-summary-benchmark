@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The claims present (compensation changes, fee adjustments, judgeship extensions) are accurate to the bill text."
+      "why": "Accurate, detailed account of the Chapter 7 trustee compensation increase, the extended fees/judgeships, and the effective-date rules."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the partial summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's primary purposes in the opening sentence."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off mid-sentence and fails to describe the specific amendments to title 11 section 330, title 28, and prior judgeship acts."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits material conditions such as preservation of fee waivers for indigent filers and application/commencement conditions."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the effective date provisions and the fiscal years 2026-2031 timing the bill specifies."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated and does not complete coverage of trustee compensation increase, fee allocations, or quarterly fee changes."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The tone is neutral and non-partisan throughout."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('raise the'), making it incomplete and not fully coherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present is concise with no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Chapter 7 trustees, bankruptcy fees, and temporary judgeships are correctly identified."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The truncated summary states no figures to evaluate."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.06144,
-  "judge_latency_s": 9.44
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

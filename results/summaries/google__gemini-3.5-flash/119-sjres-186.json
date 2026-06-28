@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-186",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 186 proposes an amendment to the United States Constitution to establish a fundamental right to vote. Under the proposed amendment, every U.S. citizen of legal voting age would have the fundamental right to vote in any public election held in the jurisdiction where they reside.\n\nThe resolution prohibits the United",
+  "summary": "Senate Joint Resolution 186 proposes an amendment to the United States Constitution to establish a fundamental right to vote for U.S. citizens. For the proposed amendment to become a valid part of the Constitution, it must be ratified by the legislatures of three-fourths of the states. \n\nThe proposed amendment consists of four sections:\n\n* **Section 1** guarantees that every United States citizen of legal voting age has the fundamental right to vote in any public election held in the jurisdiction where they reside.\n* **Section 2** prohibits the federal government, states, or local political subdivisions from denying or abridging this fundamental right to vote, unless the restriction is in furtherance of a compelling governmental interest and is the least restrictive means of achieving that interest.\n* **Section 3** amends existing constitutional law by repealing the phrase \"or other crime,\" from Section 2 of the Fourteenth Amendment to the Constitution.\n* **Section 4** explicitly grants Congress the power to enforce the amendment and protect against any denial or abridgment of the fundamental right to vote through legislation.",
   "prompt_tokens": 675,
-  "completion_tokens": 1496,
-  "total_tokens": 2171,
-  "cost_usd": 0.014476,
-  "latency_s": 6.809,
+  "completion_tokens": 1299,
+  "total_tokens": 1974,
+  "cost_usd": 0.012703,
+  "latency_s": 6.39,
   "ok": true
 }

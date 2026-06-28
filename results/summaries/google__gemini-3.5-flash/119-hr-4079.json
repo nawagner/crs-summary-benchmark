@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-4079",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Safer Response Act of 2025\" (H.R. 4079) amends the Public Health Service Act to reauthorize and expand the federal grant program for first responder training. \n\nThe bill’s primary purpose is to extend funding for these grants while broadening the scope of the training program. It increases the authorized funding to $57,000,000 for each of the fiscal years 2026 through 2030, raising it from the previous authorization of $36,000,000 annually for fiscal years 2019 through 2023.\n\nIn addition to increasing funding, the",
+  "summary": "The Safer Response Act of 2025 (H.R. 4079) amends Section 546 of the Public Health Service Act to reauthorize and expand the scope of federal grants for first responder training. \n\nThe bill’s major provisions modify existing law to broaden the focus of the training program beyond opioids to a wider range of substances. It removes the word \"opioid\" from several parts of the existing statute and updates references to \"opioid and heroin\" to encompass \"opioid, heroin, and other drug\" use. Similarly, the bill changes references to \"opioid overdose\" to \"overdose\" generally, thereby expanding the training to address a broader category of drug-related emergencies. \n\nAdditionally, the bill updates the language regarding eligible medical devices used in the training, changing the phrase \"approved or cleared\" to \"approved, cleared, or otherwise legally marketed\" devices. It also makes a technical correction to capitalize references to Native American \"Tribes and Tribal\" entities.\n\nFinally, the bill increases and extends the program's funding. It replaces the previous authorization of $36,000,000 for each of fiscal years 2019 through 2023 with an authorized appropriation of $57,000,000 for each of fiscal years 2026 through 2030.",
   "prompt_tokens": 730,
-  "completion_tokens": 1496,
-  "total_tokens": 2226,
-  "cost_usd": 0.014559,
-  "latency_s": 6.954,
+  "completion_tokens": 1525,
+  "total_tokens": 2255,
+  "cost_usd": 0.01482,
+  "latency_s": 8.209,
   "ok": true
 }

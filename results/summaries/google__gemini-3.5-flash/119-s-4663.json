@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-4663",
   "model": "google/gemini-3.5-flash",
-  "summary": "The Florida Freeze Disaster Assistance Act (S. 4663) appropriates $3.5 billion for the fiscal year ending September 30, 2027, to the Department of Agriculture's Office of the Secretary. These funds, which remain available until expended, are designated for the Secretary of Agriculture to provide block grants to states. The grants are intended to compensate for losses of revenue, quality, or",
+  "summary": "The Florida Freeze Disaster Assistance Act (S. 4663) appropriates $3.5 billion for the fiscal year ending September 30, 2027, to the Office of the Secretary of Agriculture. The primary purpose of this funding, which remains available until expended, is to provide block grants to states for losses of revenue, quality, or crop production—including crops prevented from planting, trees, bushes, and vines—resulting from freeze or cold weather conditions. \n\nUnder the bill, these block grants must include compensation to producers for losses of multi-year crops. However, the funding is subject to strict eligibility conditions: it is available exclusively for losses that occurred in counties receiving a federal freeze and cold weather disaster designation on March 4, 2026. To receive the funds, a state department of agriculture or another appropriate state agency must submit a request to the Secretary of Agriculture. \n\nAdditionally, the bill designates the $3.5 billion appropriation as an emergency requirement under the Balanced Budget and Emergency Deficit Control Act of 1985. It also establishes a reporting deadline, requiring the Secretary of Agriculture to submit an implementation report to the House and Senate Committees on Appropriations within 120 days of enactment, and quarterly thereafter until all funds are fully expended.",
   "prompt_tokens": 822,
-  "completion_tokens": 1496,
-  "total_tokens": 2318,
-  "cost_usd": 0.014697,
-  "latency_s": 7.891,
+  "completion_tokens": 1782,
+  "total_tokens": 2604,
+  "cost_usd": 0.017271,
+  "latency_s": 9.225,
   "ok": true
 }

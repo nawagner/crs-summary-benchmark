@@ -4,8 +4,8 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": true,
-      "why": "Accurately describes SBIC leverage changes (300%->200%), expanded private-capital definition, and rural/tech/manufacturer exclusions; matches the amendments to the Small Business Investment Act."
+      "pass": false,
+      "why": "Misstates the commonly-controlled quarterly leverage cap as $450M (bill: $475M)."
     },
     "no_hallucinations": {
       "applicable": true,
@@ -59,14 +59,14 @@
     },
     "correct_figures": {
       "applicable": true,
-      "pass": true,
-      "why": "300%->200% matches the text; dollar figures consistent with the bill's leverage provisions."
+      "pass": false,
+      "why": "States the commonly-controlled quarterly cap as $450M; the bill text says $475,000,000."
     }
   },
   "n_applicable": 11,
-  "n_passed": 11,
-  "meets_standard": true,
+  "n_passed": 9,
+  "meets_standard": false,
   "judge_cost_usd": 0.0,
   "judge_latency_s": 0.0,
-  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted | corrected: figure error caught vs bill text"
 }

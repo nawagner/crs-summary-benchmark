@@ -39,7 +39,8 @@ async function initIndex() {
   // headline leaderboard (sortable)
   const cols = [
     { key: "label", label: "Summarizer", num: false },
-    { key: "meets_standard_rate", label: "Meets CRS standard", num: true, bar: true },
+    { key: "meets_standard_rate", label: "Passes all criteria", num: true, bar: true,
+      hint: "Share of summaries that pass every applicable criterion in this project's CRS-derived rubric. This is our rubric, not an official CRS determination." },
     { key: "mean_cost_usd", label: "Mean cost / summary", num: true, fmt: money },
     { key: "mean_latency_s", label: "Mean latency", num: true, fmt: secs },
   ];
@@ -54,7 +55,7 @@ async function initIndex() {
       return 0;
     });
     const head = cols.map((c) =>
-      `<th class="sortable ${c.num ? "num" : ""} ${c.key === sortKey ? "sorted " + (sortAsc ? "asc" : "") : ""}" data-k="${c.key}">${c.label}</th>`
+      `<th class="sortable ${c.num ? "num" : ""} ${c.key === sortKey ? "sorted " + (sortAsc ? "asc" : "") : ""}" data-k="${c.key}"${c.hint ? ` title="${esc(c.hint)}"` : ""}>${c.label}</th>`
     ).join("");
     const body = sorted.map((r) => {
       const cells = cols.map((c) => {
@@ -158,7 +159,7 @@ async function initBills() {
       const dots = candIds.map((m) => {
         const c = b.candidates[m];
         if (!c) return "";
-        return `<span class="dot ${c.meets_standard ? "pass" : "fail"}" title="${esc(candLabel[m])}: ${c.meets_standard ? "meets" : "misses"}"></span>`;
+        return `<span class="dot ${c.meets_standard ? "pass" : "fail"}" title="${esc(candLabel[m])}: ${c.meets_standard ? "passed all criteria" : "missed one or more"}"></span>`;
       }).join("");
       return `<div class="bill-row" data-id="${esc(b.bill_id)}">
         <div class="meta">
@@ -191,7 +192,7 @@ async function initBills() {
       return `<div class="summary-card ${c.is_human ? "human" : ""}">
         <header>
           <h4>${esc(c.label)}</h4>
-          <span class="scorebadge ${c.meets_standard ? "meets" : "misses"}">${c.meets_standard ? "Meets standard" : c.n_passed + "/" + c.n_applicable}</span>
+          <span class="scorebadge ${c.meets_standard ? "meets" : "misses"}">${c.meets_standard ? "Passed all" : c.n_passed + "/" + c.n_applicable}</span>
         </header>
         <div class="body">${esc(c.summary)}</div>
         <div class="verdicts">${verdicts}<div style="margin-top:8px;color:var(--muted);font-size:12px">${meta}</div></div>

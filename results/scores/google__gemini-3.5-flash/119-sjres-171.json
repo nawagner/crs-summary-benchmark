@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims align with the bill text and accurate context; this resolution invokes War Powers Resolution procedures correctly."
+      "why": "Accurately states the War Powers removal directive, the relevant exceptions, and this resolution's specific findings."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims; statements about executive characterizations match the findings."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose of directing removal of U.S. forces from unauthorized hostilities against Iran."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "Summary omits the War Powers Resolution framework and expedited procedures under which the resolution operates, despite citing the 'war' characterization context."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "Summary lists only one of four exceptions and is cut off, omitting intelligence-sharing, assistance to Israel/allies, and evacuation carve-outs."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates, sunsets, or deadlines."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated and fails to fully cover the Rule of Construction exceptions, a material operative part of the bill."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral, attributing the 'war' characterization to the executive branch without editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-list after one exception, breaking organization and completeness."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary avoids padding and filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Named entities such as the President, Congress, and Iran are correctly identified."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The summary states no specific dollar amounts, dates, or quantities to verify."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.05014,
-  "judge_latency_s": 9.497
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

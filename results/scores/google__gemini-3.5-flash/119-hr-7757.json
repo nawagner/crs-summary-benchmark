@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The claims present (purpose, minor under 17, scope over platforms, games, AI chatbots) are accurate and consistent with the bill text."
+      "why": "Accurate, well-organized summary of all major KIDS Act duties, thresholds, effective dates, and the D.C. Circuit review provision."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradicting claims appear in the truncated summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's purpose to protect minors online, empower parents, and regulate platforms, games, and AI chatbots."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary does not mention amendments to existing law such as the Protecting Children in the 21st Century Act, COPPA, or the FTC Act enforcement framework."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off before describing any material exceptions, conditions, or carve-outs like encryption protections or state-law preemption."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The bill specifies numerous effective dates and deadlines (e.g., 1 year general, 180 days, 90 days) but the summary mentions none."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated after announcing major requirements and fails to actually describe any of the bill's operative provisions."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan in tone."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence with a dangling bullet point, rendering it incomplete and incoherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present avoids padding and filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Entities referenced (platforms, online games, AI chatbots) are identified correctly."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figure stated, age under 17 for minors, matches the bill's definition."
+      "why": ""
     }
   },
   "n_applicable": 12,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.18643,
-  "judge_latency_s": 9.141
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

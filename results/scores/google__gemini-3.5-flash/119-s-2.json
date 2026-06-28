@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The opening claims about the Secure America Act, FY2026 supplemental appropriations, and availability through September 30, 2029 are accurate and supported by the bill text."
+      "why": "Accurate, detailed section-by-section account; the per-agency appropriations sum to ~$70B and match the bill text."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the truncated summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary identifies the bill's purpose as supplemental funding for border security, technology, and immigration enforcement."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The bill references statutes like INA section 287(g) and IIRIRA, but the summary (cut off) does not describe these."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "Material conditions such as restrictions on processing coordinators, qualified cooperating jurisdictions, and surveillance tower limits are not covered in the truncated summary."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
       "pass": true,
-      "why": "The summary correctly notes funds remain available until September 30, 2029, though it omits the October 31, 2028 restriction."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated at 'Under Title I, the' and fails to cover the major appropriations provisions of both titles."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence ('Under Title I, the'), making it incomplete and not coherent as a finished text."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present is free of padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The named entity, the Secure America Act and PL 119-98, is correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figures stated—FY2026 and September 30, 2029—are correct."
+      "why": ""
     }
   },
-  "n_applicable": 12,
-  "n_passed": 8,
-  "meets_standard": false,
-  "judge_cost_usd": 0.063605,
-  "judge_latency_s": 8.874
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

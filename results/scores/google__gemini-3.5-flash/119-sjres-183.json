@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary's claims align with the bill text regarding removal of forces and lack of congressional authorization."
+      "why": "Accurately states the War Powers removal directive, the relevant exceptions, and this resolution's specific findings."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or false claims; content matches the bill text."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's purpose to remove U.S. forces from unauthorized hostilities against Iran."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off and fails to mention the War Powers Resolution framework and expedited procedures under which the directive operates."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the material Rule of Construction carve-outs (self-defense, intelligence sharing, defensive assistance to Israel and partners)."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or deadlines for removal."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence and omits the key Rule of Construction exceptions, a major operative component."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan in tone."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence at 'the ongoing \"Operation', making it incomplete and incoherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present contains no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Entities named (President, Islamic Republic of Iran, Congress) are correctly identified."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The summary states no dollar amounts, dates, or quantities to verify."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.049215,
-  "judge_latency_s": 8.398
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

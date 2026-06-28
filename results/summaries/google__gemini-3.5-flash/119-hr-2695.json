@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-2695",
   "model": "google/gemini-3.5-flash",
-  "summary": "Introduced in the House of Representatives on April 7, 2025, by Representative Pettersen and Representative Nunn, H.R. 2695, known as the \"Communities of Recovery Reauthorization Act of 2025,\" proposes to amend the Public Health Service Act. The primary purpose of the bill is to reauthorize and increase funding for federal grants dedicated to building communities of recovery.\n\nThe bill's major provision modifies Section 547(f) of the Public Health Service Act (codified at 42 U.S.C. 290ee-2(f)). Under the existing law, the program was authorized to receive appropriations of $5,000,000 for each fiscal year from 2019 through 2023. The proposed amendment strikes this outdated funding structure and replaces it with an authorized appropriation of $17,000,000 for each fiscal year from 202",
+  "summary": "Introduced in the House of Representatives on April 7, 2025, by Representative Pettersen and co-sponsored by Representative Nunn of Iowa, H.R. 2695, titled the \"Communities of Recovery Reauthorization Act of 2025,\" has been referred to the House Committee on Energy and Commerce. \n\nThe primary purpose of the bill is to amend the Public Health Service Act to reauthorize federal grants that support building communities of recovery. To achieve this, the legislation proposes a specific modification to Section 547(f) of the Public Health Service Act, which is codified under Title 42 of the United States Code, Section 290ee-2(f). \n\nUnder the existing statutory language, the grant program was authorized to receive appropriations of $5,000,000 for each fiscal year from 2019 through 2023. The bill would strike this previous funding provision and replace it with a new authorization of $17,000,000 for each fiscal year from 2026 through 2030. This change increases the annual authorized funding level for the grant program and establishes the new five-year period for these appropriations.",
   "prompt_tokens": 497,
-  "completion_tokens": 1496,
-  "total_tokens": 1993,
-  "cost_usd": 0.014209,
-  "latency_s": 7.245,
+  "completion_tokens": 1480,
+  "total_tokens": 1977,
+  "cost_usd": 0.014065,
+  "latency_s": 7.1,
   "ok": true
 }

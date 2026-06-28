@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hjres-147",
   "model": "google/gemini-3.5-flash",
-  "summary": "House Joint Resolution 147, introduced in the House of Representatives on February 2, 2026, by Representative Gregory Meeks and six co-sponsors, seeks to terminate a previously declared national emergency concerning trade with Brazil. \n\nThe primary purpose of this joint resolution is to end the national emergency that was declared to impose import duties on articles coming from Brazil. Under its major provision, the resolution explicitly terminates the national emergency declared by the President on July 30, 2025, in Executive Order 14323 (90 Fed. Reg. 37739). This action is taken pursuant to section 202 of the National Emergencies Act, which is codified at 50 U.S.C. 1622. \n\nThe resolution has been referred to the House Committee on Foreign Affairs for consideration. The text of the resolution does not outline any material exceptions, conditions, or specific effective",
+  "summary": "House Joint Resolution 147 is a joint resolution introduced in the United States House of Representatives on February 2, 2026. The primary purpose of the resolution is to terminate the national emergency that was declared to impose duties on articles imported into the United States from Brazil. \n\nTo achieve this, the resolution's sole major provision states that, pursuant to section 202 of the National Emergencies Act (50 U.S.C. 1622), the national emergency declared by the President on July 30, 2025, in Executive Order 14323 (90 Fed. Reg. 37739) is officially terminated. By ending this emergency declaration, the resolution would remove the legal framework established under that executive order for levying tariffs on Brazilian imports. \n\nThe resolution was introduced by Representative Gregory Meeks, along with co-sponsors Representatives Kamlager-Dove, Castro of Texas, Titus, Stanton, Amo, and Casar, and has been referred to the House Committee on Foreign Affairs. The text of the resolution does not outline any material exceptions, conditions, or specific future effective dates, indicating that the termination of the declared national emergency would take effect immediately upon the enactment of the joint resolution.",
   "prompt_tokens": 456,
-  "completion_tokens": 1496,
-  "total_tokens": 1952,
-  "cost_usd": 0.014148,
-  "latency_s": 6.582,
+  "completion_tokens": 1720,
+  "total_tokens": 2176,
+  "cost_usd": 0.016164,
+  "latency_s": 8.533,
   "ok": true
 }

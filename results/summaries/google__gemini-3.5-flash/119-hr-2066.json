@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-2066",
   "model": "google/gemini-3.5-flash",
-  "summary": "*   *Let's refine the flow and ensure exactness:*\n        \"The \"Investing in All of America Act of 2025\" amends the Small Business Investment Act of 1958 to adjust leverage limits and exclusions for Small Business",
+  "summary": "The \"Investing in All of America Act of 2025\" amends the Small Business Investment Act of 1958 to modify leverage limits and capital definitions for Small Business Investment Companies (SBICs). \n\nFirst, the Act updates the definition of private capital. It includes college or university foundations, endowments, or trusts under certain funding provisions and removes an age restriction on eligible pension plans. It also specifies that private capital does not include funds obtained directly or indirectly from federal, state, or local government entities, except for certain designated funds.\n\nSecond, the Act adjusts maximum leverage limits. It reduces a key leverage multiplier from 300 percent to 200 percent of private capital. It sets the maximum leverage for a single company at $250 million if the company makes quarterly or semiannual interest payments, and $175 million for other licensed companies. For commonly controlled companies, the maximum leverage is capped at $475 million for those making quarterly or semiannual interest payments, and $350 million for others.\n\nThird, the bill allows SBICs to exclude certain investments from their outstanding leverage calculations. This exclusion applies to investments made in small businesses located in low-income geographic or rural areas, small businesses operating primarily in covered technology categories, and small manufacturers. \n\nThis leverage exclusion is subject to specific conditions. The aggregate excluded amount for a company or companies cannot exceed the lesser of 50 percent of their private capital or $125 million. Additionally, this exclusion applies prospectively, meaning it only covers eligible investments made after the bill's enactment on May 19, 2026.",
   "prompt_tokens": 1723,
-  "completion_tokens": 1496,
-  "total_tokens": 3219,
-  "cost_usd": 0.016049,
-  "latency_s": 7.076,
+  "completion_tokens": 2063,
+  "total_tokens": 3786,
+  "cost_usd": 0.021152,
+  "latency_s": 9.02,
   "ok": true
 }

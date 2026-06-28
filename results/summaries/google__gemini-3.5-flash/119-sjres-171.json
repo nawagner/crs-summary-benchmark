@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-171",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 171 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution states that Congress has the sole power to declare war and has not declared war or enacted a specific statutory authorization for military force against Iran, despite executive branch statements characterizing ongoing military operations as a \"war.\" \n\nUnder the resolution, the President must remove U.S. forces from these hostilities unless Congress explicitly authorizes the action through a declaration of war or a specific authorization for the use of military force. \n\nThe resolution establishes several exceptions to this mandate. It does not prevent the United States from:\n* Defending against attacks on the United States, its personnel, or its facilities in other nations;",
+  "summary": "Senate Joint Resolution 171 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. The resolution asserts that Congress holds the sole constitutional power to declare war and has not authorized military force against Iran, despite executive branch statements characterizing the ongoing conflict as a war. It notes that as of April 10, 2026, these hostilities have resulted in 13 U.S. servicemember deaths and at least 350 wounded. \n\nUnder the resolution, the President must remove U.S. forces from these hostilities unless Congress enacts a declaration of war or a specific authorization for the use of military force. However, the resolution establishes several explicit exceptions. It does not prevent the United States from defending itself, its personnel, or its facilities abroad from attack. It also permits the U.S. to collect, analyze, and share intelligence regarding threats from Iran or its proxies with allies, partners, international organizations, and the State of Israel. Furthermore, the U.S. may assist Israel and other nations by providing defensive materiel and support to protect their territory from retaliatory attacks by Iran or its proxies. Finally, the resolution allows the U.S. to provide security, departure, and evacuation assistance to American citizens affected by the hostilities.",
   "prompt_tokens": 1548,
-  "completion_tokens": 1496,
-  "total_tokens": 3044,
-  "cost_usd": 0.015786,
-  "latency_s": 6.708,
+  "completion_tokens": 1691,
+  "total_tokens": 3239,
+  "cost_usd": 0.017541,
+  "latency_s": 9.006,
   "ok": true
 }

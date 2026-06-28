@@ -4,68 +4,69 @@
   "verdicts": {
     "accurate": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is a truncated fragment of dollar figures and makes no coherent claim about the bill; it omits the bill's actual purpose entirely."
+      "pass": true,
+      "why": "Accurate; SUPPORT Act sec. 7102(c)(9) amendment and the $10M-$15M FY2026-2030 ladder match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The partial figures present ($12M FY2027, $13M FY2028) match the bill text and nothing false is asserted."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary never identifies the bill's purpose of reauthorizing a youth prevention and recovery initiative under the SUPPORT Act."
+      "pass": true,
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary fails to mention that the bill amends Section 7102 of the SUPPORT for Patients and Communities Act."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill contains no material exceptions or carve-outs to summarize."
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary fragmentarily lists some fiscal years but omits FY2029 and FY2030 and provides no coherent timing context."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary misses the essential operative effect (reauthorizing the youth prevention/recovery program) and only fragmentarily lists appropriation figures."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The fragment contains no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is a truncated, incoherent fragment beginning mid-number ('00,000') with no sentence structure."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The fragment is brief with no padding or boilerplate."
+      "why": ""
     },
     "correct_entities": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The summary names no agencies, programs, or statutes to evaluate."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The figures shown ($12,000,000 FY2027 and $13,000,000 FY2028) are correct per the bill text."
+      "why": ""
     }
   },
-  "n_applicable": 10,
-  "n_passed": 4,
-  "meets_standard": false,
-  "judge_cost_usd": 0.043595,
-  "judge_latency_s": 8.632
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

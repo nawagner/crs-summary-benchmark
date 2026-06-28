@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The partial summary's claims (bill title, S. 2336, HHS grant programs, broadening beyond naloxone) are all accurate and consistent with the bill text."
+      "why": "Accurate account of the FDA-inclusive opioid-reversal reference requirement and the one-year update for the two named grant programs."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or incorrect claims appear in the summary fragment; HHS and the bill title are correctly identified."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's primary purpose of ensuring HHS opioid grant program references are not limited to naloxone."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The truncated summary never reaches the bill's amendments to existing programs (21st Century Cures Act, Public Health Service Act, State/Tribal Opioid Response Grants)."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary fails to mention the 'as appropriate' qualifier or the FDA-approval condition under section 505 limiting which reversal drugs qualify."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the one-year deadline for HHS to update existing references."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Being cut off mid-sentence, the summary misses the operative requirement to update existing references in named grant programs within one year."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary fragment is neutral and free of advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('...reversal agents solely'), making it incomplete and not a finished, coherent text."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The fragment contains no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "HHS and the bill title/number are correctly identified in the summary fragment."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The truncated summary states no dollar amounts, dates, or quantities to evaluate."
+      "why": ""
     }
   },
   "n_applicable": 11,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.115975,
-  "judge_latency_s": 13.631
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

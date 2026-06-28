@@ -12,3 +12,6 @@ venv/
 .DS_Store
 
 # The raw bill corpus (data/bills/) IS committed as a frozen, reproducible snapshot.
+
+# local feedback exports
+crs-feedback*.json

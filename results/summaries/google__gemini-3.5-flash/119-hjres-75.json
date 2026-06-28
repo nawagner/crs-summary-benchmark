@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hjres-75",
   "model": "google/gemini-3.5-flash",
-  "summary": "Public Law 119-9 (House Joint Resolution 75), enacted on May 9, 2025, is a joint resolution of Congress with the primary purpose of disapproving a specific federal regulation. Under the authority of chapter 8 of title 5 of the United States Code, Congress formally disappro",
+  "summary": "Public Law 119-9 (H.J. Res. 75), approved on May 9, 2025, is a joint resolution of Congress. Its primary purpose is to formally disapprove a federal rule submitted by the Office of Energy Efficiency and Renewable Energy, a division of the Department of Energy. \n\nThe specific rule targeted by this resolution is titled \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers,\" which was published in the Federal Register on January 21, 2025 (90 Fed. Reg. 7464). \n\nUnder the authority of chapter 8 of title 5, United States Code, the major provision of this joint resolution is the explicit disapproval of this rule. By enacting this resolution, Congress changes the status of the law by rendering the Department of Energy's rule entirely void, declaring that the rule shall have no force or effect. \n\nThe resolution contains no material exceptions, conditions, or future deadlines. Its mandate is absolute and took effect immediately upon its approval on May 9, 2025, preventing the energy conservation standards detailed in the rule from having any legal standing or enforcement power.",
   "prompt_tokens": 526,
-  "completion_tokens": 1496,
-  "total_tokens": 2022,
-  "cost_usd": 0.014253,
-  "latency_s": 7.018,
+  "completion_tokens": 1907,
+  "total_tokens": 2433,
+  "cost_usd": 0.017952,
+  "latency_s": 8.503,
   "ok": true
 }

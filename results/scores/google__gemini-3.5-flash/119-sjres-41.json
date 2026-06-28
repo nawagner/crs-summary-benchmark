@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims are consistent with the bill text and accurately describe the resolution's purpose."
+      "why": "Accurate and complete: $1M+ Category I USML export, Transmittal DDTC 23-077, the 20,000 Colt carbines, and the Israel National Police end-user all match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or false claims are present in the summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the purpose as disapproving and prohibiting a proposed defense export to Israel."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The bill invokes the Arms Export Control Act review mechanism (22 U.S.C. 2776(c)), but the summary omits this statutory basis."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary omits material conditions such as the $1,000,000-or-more threshold and the specific Category I firearms covered."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or timing provisions beyond introduction date."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the essential operative detail of what is prohibited—20,000 Colt 5.56mm carbines for the Israel National Police under Transmittal No. DDTC 23-077."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and contains no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is well-organized and internally consistent."
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is brief and free of padding."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The named entities (Senate, Israel) are correct, though the summary names few specifics."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figure stated, the March 27, 2025 introduction date, is correct."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 8,
-  "meets_standard": false,
-  "judge_cost_usd": 0.041285,
-  "judge_latency_s": 7.792
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

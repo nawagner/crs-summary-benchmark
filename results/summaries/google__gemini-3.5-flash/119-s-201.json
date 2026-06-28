@@ -1,11 +1,11 @@
 {
   "bill_id": "119-s-201",
   "model": "google/gemini-3.5-flash",
-  "summary": "The ACES Act of 2025 directs the Secretary of Veterans Affairs to seek an agreement with the National Academies of Sciences, Engineering, and Medicine to conduct a study on cancer prevalence and mortality among military aircrew members. \n\nUnder the Act, the Secretary must seek this agreement within 30 days of enactment and finalize it within 60 days of starting negotiations. If the Secretary fails to meet this 60-day deadline, they must submit an explanatory report and estimated completion date to the House and Senate Committees on Veterans' Affairs, followed by progress briefings at least every 60 days until the agreement is finalized.\n\nThe study will focus on \"covered individuals,\" defined as active duty veterans of the Army, Navy, Air Force, or Marine Corps who served as aircrew members of fixed",
+  "summary": "The \"ACES Act of 2025\" directs the Secretary of Veterans Affairs to seek an agreement with the National Academies of Sciences, Engineering, and Medicine to conduct a study on cancer prevalence and mortality among active duty aircrew members. \n\nUnder the Act, the Secretary must seek this agreement within 30 days of enactment and finalize it within 60 days of starting negotiations. If the Secretary fails to meet this 60-day finalization deadline, they must submit an explanatory report and an estimated completion date to the House and Senate Committees on Veterans' Affairs, followed by progress briefings every 60 days until the agreement is finalized. \n\nThe study will focus on \"covered individuals,\" defined as individuals who served on active duty in the Army, Navy, Air Force, or Marine Corps as aircrew members of fixed-wing aircraft, including pilots, navigators, weapons or aircraft system operators, and other regular crew members. The study must identify occupational exposures—such as chemicals, compounds, and other agents—and review literature to determine associations between these exposures and overall cancer morbidity and mortality. Specifically, the study will analyze brain, colon and rectal, kidney, lung, melanoma, non-Hodgkin lymphoma, pancreatic, prostate, testicular, thyroid, and urinary bladder cancers, alongside any other cancers designated by the Secretary. \n\nTo determine cancer prevalence and mortality, the National Academies will utilize available data from the Department of Veterans Affairs, the Department of Defense, the National Center for Health Statistics' national death index, and a previous study conducted under the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021. Upon concluding the study, the National Academies must submit a report containing the results to the Secretary of Veterans Affairs and the House and Senate Committees on Veterans' Affairs.",
   "prompt_tokens": 1424,
-  "completion_tokens": 1496,
-  "total_tokens": 2920,
-  "cost_usd": 0.0156,
-  "latency_s": 6.776,
+  "completion_tokens": 1930,
+  "total_tokens": 3354,
+  "cost_usd": 0.019506,
+  "latency_s": 8.5,
   "ok": true
 }

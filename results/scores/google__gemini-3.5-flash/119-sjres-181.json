@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The two claims present (the directive and the Operation Epic Fury launch date) match the bill text."
+      "why": "Accurately states the War Powers removal directive, the relevant exceptions, and this resolution's specific findings."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the partial summary reflects bill content accurately."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly states the bill directs removal of Armed Forces from unauthorized hostilities with Iran."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary omits the War Powers Resolution basis and the expedited-procedure statutes invoked by the bill."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary fails to mention the Rule of Construction carve-outs for self-defense, intelligence sharing, and assisting Israel/partners."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or deadlines for the operative removal directive."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off and omits the key operative exceptions and the unless-authorized condition framing, failing to capture essential effect fully."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and merely restates the bill's directive and a finding."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence, leaving it incomplete and not fully coherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary contains no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Operation Epic Fury, the Trump Administration, and Iran are named correctly per the bill."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only date stated, February 28, 2026, matches the bill text."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.05198,
-  "judge_latency_s": 8.872
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

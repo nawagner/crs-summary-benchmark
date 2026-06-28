@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-3689",
   "model": "google/gemini-3.5-flash",
-  "summary": "00,000 for fiscal year 2026;\n    - $12,000,000 for fiscal year 2027;\n    - $13,000,000 for fiscal year 2028",
+  "summary": "Introduced in the House of Representatives on June 3, 2025, H.R. 3689, titled the \"Treatment, Recovery, Education, Awareness, and Training for Youth Act\" or the \"TREAT Youth Act,\" has the primary purpose of reauthorizing a youth prevention and recovery initiative. The bill was introduced by Representative Lee of Nevada and Representative Kiggans of Virginia, and it was referred to the House Committee on Energy and Commerce and the House Committee on Education and the Workforce.\n\nTo achieve its purpose, the bill amends existing law by modifying Section 7102(c)(9) of the SUPPORT for Patients and Communities Act (42 U.S.C. 290bb-7a(c)(9)). Specifically, the legislation replaces the previous authorization of appropriations with newly specified funding levels for five consecutive fiscal years. \n\nThe bill authorizes the following appropriation amounts to carry out the youth prevention and recovery initiative:\n* $10,000,000 for fiscal year 2026;\n* $12,000,000 for fiscal year 2027;\n* $13,000,000 for fiscal year 2028;\n* $14,000,000 for fiscal year 2029; and\n* $15,000,000 for fiscal year 2030.\n\nThe bill does not contain any other provisions, exceptions, or administrative deadlines beyond these specified funding authorizations.",
   "prompt_tokens": 660,
-  "completion_tokens": 1496,
-  "total_tokens": 2156,
-  "cost_usd": 0.014454,
-  "latency_s": 7.74,
+  "completion_tokens": 2453,
+  "total_tokens": 3113,
+  "cost_usd": 0.023067,
+  "latency_s": 10.55,
   "ok": true
 }

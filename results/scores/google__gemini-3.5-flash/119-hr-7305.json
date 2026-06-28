@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary's claims accurately reflect the bill: it amends IIJA to reauthorize the DOE Energy Sector Operational Support for Cyberresilience Program."
+      "why": "Accurate, detailed account of the cyber-resilience program reauthorization (FY2027-2031), the Energy Threat Analysis Center, and the disclosure exemptions."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the Department of Energy and IIJA references are correct context consistent with the bill."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly states the bill's purpose to reauthorize and expand the cyberresilience program."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence and never describes the key amendments (ETAC, FACA nonapplicability, disclosure exemption, transaction authority)."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The truncated summary omits material conditions like the sole-discretion provision, no-right-or-benefit clause, and disclosure exemptions."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The bill extends authorization to fiscal years 2027 through 2031, but the summary is cut off before stating this timing provision."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is incomplete and fails to cover major provisions such as establishing the Energy Threat Analysis Center and the new authorities."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The tone is neutral and non-partisan throughout the partial summary."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('extends the program's'), making it incomplete and not fully coherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present contains no padding or filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The named entities—Department of Energy and the Infrastructure Investment and Jobs Act—are correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "The truncated summary states no figures, so this criterion does not apply."
+      "why": ""
     }
   },
   "n_applicable": 11,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.053235,
-  "judge_latency_s": 10.542
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

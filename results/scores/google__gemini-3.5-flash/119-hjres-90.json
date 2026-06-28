@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The claims present (HJ Res 90, introduced April 3, 2025, by Rep. Bice, disapproving a CFTC rule) are all accurate per the bill text."
+      "why": "Accurately describes nullifying the named DOE/IRS/CFTC rule with correct Fed. Reg. citation and dates."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradicting claims appear in the partial summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary identifies the purpose as congressional disapproval and invalidation of a federal agency rule."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off before identifying the CFTC's voluntary carbon credit derivative guidance being disapproved under chapter 8 of title 5 (CRA)."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill is a simple disapproval resolution with no material exceptions or conditions."
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or deadlines beyond the disapproval itself."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary truncates before naming the CFTC guidance and stating the rule shall have no force or effect, omitting the essential operative content."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The partial summary is neutral and non-partisan."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends mid-sentence ('issued by the'), making it incomplete and not internally complete."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text present is concise without padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Entities named (HJ Res 90, Rep. Bice, the federal agency rule) are correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figures stated (HJ Res 90, April 3, 2025) are correct per the bill text."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.13125,
-  "judge_latency_s": 12.093
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

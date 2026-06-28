@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-180",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 180 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. Citing the War Powers Resolution and the Department of State Authorization Act, Fiscal Years 1984",
+  "summary": "Senate Joint Resolution 180 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution notes that while the President has a constitutional responsibility to defend the nation, Congress has the sole power to declare war and has not authorized military force against Iran. It references \"Operation Epic Fury,\" initiated on February 28, 2026, as an unauthorized introduction of U.S. forces into hostilities.\n\nPursuant to existing statutory authorities regarding the War Powers Resolution, the bill requires the President to withdraw U.S. forces from these hostilities unless Congress explicitly issues a declaration of war or a specific authorization for the use of military force. \n\nThe resolution specifies that this mandate does not prevent the United States from:\n- Defending against attacks on the U.S., its personnel, or its facilities in other nations;\n- Collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies, including with partner countries attacked by Iran since February 28, 2026;\n- Assisting partner countries attacked by Iran since February 28, 2026, by intercepting retaliatory attacks or providing defensive materiel support; and\n- Providing assistance for the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
   "prompt_tokens": 1378,
-  "completion_tokens": 1496,
-  "total_tokens": 2874,
-  "cost_usd": 0.015531,
-  "latency_s": 6.722,
+  "completion_tokens": 2046,
+  "total_tokens": 3424,
+  "cost_usd": 0.020481,
+  "latency_s": 10.134,
   "ok": true
 }

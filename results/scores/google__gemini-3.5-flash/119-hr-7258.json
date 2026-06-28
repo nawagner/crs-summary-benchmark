@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary correctly states the bill amends the DOE Organization Act to assign energy emergency and security functions to an Assistant Secretary."
+      "why": "Accurately describes adding energy emergency/security functions for DOE Assistant Secretaries."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the description aligns with the bill text."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly identifies the bill's purpose of assigning energy emergency and security functions to Assistant Secretaries."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Notes the bill amends the Department of Energy Organization Act by adding a new paragraph, though the sentence is cut off."
+      "why": ""
     },
     "exceptions_conditions": {
-      "applicable": true,
-      "pass": false,
-      "why": "Omits the material condition that technical assistance is provided upon request of State, local, Tribal, or energy sector entities."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or deadlines."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated mid-sentence and omits the substantive functions (cybersecurity, resilience, technical assistance, coordination)."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('a new paragraph to the'), making it incomplete and not internally complete."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "No padding or filler present."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly names the Department of Energy Organization Act, the Department of Energy, and Assistant Secretaries."
+      "why": ""
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "The summary states no figures or dates to verify."
+      "why": ""
     }
   },
-  "n_applicable": 10,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.043905,
-  "judge_latency_s": 7.363
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

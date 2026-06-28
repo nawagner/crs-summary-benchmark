@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The claims made (short title, purpose, Title I one-third threshold, technology verification measures, one-year timeline, state preemption) are all supported by the bill text."
+      "why": "Accurate, well-organized summary of all five titles of the KIDS Act including effective dates and rules of construction."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly states the bill aims to protect minors online and empower parents."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The bill amends the Protecting Children in the 21st Century Act and references COPPA, but the summary (which cuts off) does not describe these amendments."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated and fails to cover material conditions like the rule against requiring government ID or age-gating, and other carve-outs."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary notes the one-year Title I date but omits other timing provisions (180-day, 90-day, general 1-year effective date) due to truncation."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence at Title II and omits Titles II-VI operative provisions (KOSA safeguards, messaging restrictions, gaming, chatbots, research, enforcement)."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and descriptive with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('Title II regulates covered platforms that'), making it incomplete and not fully coherent."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary avoids padding and filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The entities named (KIDS Act, platforms, social gaming providers, AI chatbot developers) are correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The one-third threshold and one-year enactment timeline stated are accurate per the bill."
+      "why": ""
     }
   },
-  "n_applicable": 12,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.18753,
-  "judge_latency_s": 10.159
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

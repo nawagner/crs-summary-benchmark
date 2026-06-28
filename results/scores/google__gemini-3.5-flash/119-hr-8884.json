@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All stated claims are accurate: SSA administers Title II demonstration project authority under Section 234, and the bill does reauthorize it temporarily."
+      "why": "Accurate; SSDI demonstration reauthorization, the 90->120 day change, income protection, and effective dates match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "The added context (SSA as administering agency, Title II) is correct, and no false or fabricated claims appear in the truncated text."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's primary purpose: reauthorizing SSA disability insurance demonstration project authority."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "The summary correctly identifies that the bill amends Title II of the Social Security Act regarding demonstration project authority."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits material conditions such as the new requirement that total income not be reduced due to participation and the evaluation metrics requirement, cutting off before any such coverage."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": true,
-      "pass": false,
-      "why": "The bill specifies an effective date of January 1, 2027 and termination dates, but the summary is truncated mid-date ('December 31, 203') and fails to convey them correctly."
+      "pass": true,
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated and omits major operative provisions: the termination dates, expenditure/trust fund changes, the income-protection limitation, and the waiver-notice changes."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('December 31, 203'), making it incomplete and not internally finished."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text contains no padding or filler within what was written."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The Social Security Administration, Title II, and the disability insurance program are all correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
-      "pass": false,
-      "why": "The extension date is truncated to 'December 31, 203' rather than the correct December 31, 2030, leaving the only figure stated incomplete/incorrect."
+      "pass": true,
+      "why": ""
     }
   },
   "n_applicable": 12,
-  "n_passed": 7,
-  "meets_standard": false,
-  "judge_cost_usd": 0.164905,
-  "judge_latency_s": 13.674
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

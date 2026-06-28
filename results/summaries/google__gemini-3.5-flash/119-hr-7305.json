@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-7305",
   "model": "google/gemini-3.5-flash",
-  "summary": "The Energy Threat Analysis Center Act of 2026 (H.R. 7305) amends the Infrastructure Investment and Jobs Act to reauthorize and expand the Department of Energy’s Energy Sector Operational Support for Cyberresilience Program. The bill extends the program's",
+  "summary": "The Energy Threat Analysis Center Act of 2026 (H.R. 7305) amends the Infrastructure Investment and Jobs Act to reauthorize and modify the Department of Energy’s Energy Sector Operational Support for Cyberresilience Program. The bill extends the program’s authorization period, changing it from fiscal years 2022 through 2026 to fiscal years 2027 through 2031. \n\nThe primary purpose of the bill is to strengthen the collective defense, response, and resilience of the United States energy sector. It establishes new program objectives to enhance government and private-sector collaboration. These include exchanging classified and unclassified threat information, establishing technical infrastructure for advanced analytics and experimentation, and improving the energy sector's understanding of national security risks and adversary tactics.\n\nTo implement these activities, the bill authorizes the Secretary of Energy to establish an Energy Threat Analysis Center at one or more physical locations. The bill stipulates that providing assistance or information under this program is at the sole and unreviewable discretion of the Secretary and does not create any right or benefit for other entities to receive similar assistance. \n\nAdditionally, the bill exempts the program from the Federal Advisory Committee Act. It also exempts any information shared under the program with federal, state, tribal, or local governments from disclosure under the Freedom of Information Act and equivalent state, tribal, or local disclosure laws, designating it as voluntarily shared information that must be withheld from the public. Finally, the bill grants the Secretary the authority to enter into contracts, cooperative agreements, grants, and other transactions to carry out the program, and permits the use of pre-approved national security contracting mechanisms and expedited review procedures to minimize delays.",
   "prompt_tokens": 1770,
-  "completion_tokens": 1496,
-  "total_tokens": 3266,
-  "cost_usd": 0.016119,
-  "latency_s": 6.734,
+  "completion_tokens": 1638,
+  "total_tokens": 3408,
+  "cost_usd": 0.017397,
+  "latency_s": 7.587,
   "ok": true
 }

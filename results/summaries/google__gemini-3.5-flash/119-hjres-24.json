@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hjres-24",
   "model": "google/gemini-3.5-flash",
-  "summary": "150 words? Yes, 186 words.\n    *   No preamble/headings/bullet lists (unless aiding clarity - none needed here).\n\n5.  **Final Polish:**\n    The draft is clear, concise, meets the length requirement, and strictly adheres to",
+  "summary": "Public Law 119-7 (House Joint Resolution 24) is a joint resolution of Congress that disapproves a federal regulation issued by the Department of Energy. Specifically, the resolution targets the rule titled \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers,\" which was published in the Federal Register on December 23, 2024 (89 Fed. Reg. 104616).\n\nEnacted under the congressional disapproval procedures outlined in chapter 8 of title 5, United States Code, the primary provision of this resolution is to render the Department of Energy's rule completely null and void. By declaring congressional disapproval, the resolution mandates that the specified energy conservation standards rule shall have no force or effect under the law. \n\nThe joint resolution was passed by the House of Representatives on March 27, 2025, and by the Senate on April 3, 2025. It was signed into law and became effective upon approval on May 9, 2025. The text of the resolution does not contain any exceptions, conditions, or future deadlines.",
   "prompt_tokens": 494,
-  "completion_tokens": 1496,
-  "total_tokens": 1990,
-  "cost_usd": 0.014205,
-  "latency_s": 6.867,
+  "completion_tokens": 1355,
+  "total_tokens": 1849,
+  "cost_usd": 0.012936,
+  "latency_s": 6.326,
   "ok": true
 }

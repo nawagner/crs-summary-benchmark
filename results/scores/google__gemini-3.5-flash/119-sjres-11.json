@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The completed portion (PL 119-3, S.J. Res. 11, approved March 14, 2025, disapproves a federal regulation) is accurate and consistent with the bill text."
+      "why": "Accurately describes nullifying the BOEM marine-archaeological rule with correct citation and dates."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or false claims appear in the truncated text; all stated facts match the bill."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "It states the primary purpose is to nullify a federal rule via a joint resolution of disapproval, though the sentence cuts off."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off before identifying the BOEM Marine Archaeological Resources rule or the Congressional Review Act mechanism, so it fails to describe the legal effect on existing regulation."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The disapproval resolution contains no material exceptions or carve-outs to summarize."
+      "why": ""
     },
     "effective_dates": {
-      "applicable": true,
+      "applicable": false,
       "pass": true,
-      "why": "The summary correctly states the resolution was approved March 14, 2025."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated before naming the rule being nullified or its operative effect (no force or effect), missing the bill's essential content."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The text is neutral and contains no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends mid-sentence ('the rule submitted by the'), leaving it incomplete and not reading as finished prose."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text contains no padding or repetition."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Public Law 119-3 and Senate Joint Resolution 11 are correctly identified."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "The only figures/dates stated—PL 119-3 and March 14, 2025—are correct."
+      "why": ""
     }
   },
-  "n_applicable": 11,
-  "n_passed": 8,
-  "meets_standard": false,
-  "judge_cost_usd": 0.137565,
-  "judge_latency_s": 12.825
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

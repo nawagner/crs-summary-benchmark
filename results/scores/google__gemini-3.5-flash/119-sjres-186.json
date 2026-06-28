@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The claims present (proposing a constitutional amendment establishing a fundamental right to vote for citizens of legal voting age in their jurisdiction) accurately match the bill text."
+      "why": "Accurate; the four sections, the compelling-interest standard, and the repeal of 'or other crime' from the 14th Amendment all match the bill."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims appear in the summary text provided."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's purpose as proposing a constitutional amendment to establish a fundamental right to vote."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is truncated before reaching the repeal of the 'or other crime' phrase in Section 2 of the Fourteenth Amendment, omitting a key change to existing law."
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary cuts off before describing the compelling-governmental-interest/least-restrictive-means standard governing denial or abridgment, a material condition."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates beyond the standard Article V ratification language, so this criterion does not apply."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "Because it is cut off mid-sentence, the summary fails to cover the strict-scrutiny standard (Section 2), the Fourteenth Amendment repeal (Section 3), and the congressional enforcement power (Section 4)."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('The resolution prohibits the United'), leaving it incomplete and not internally finished."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The text contains no padding or filler within the portion provided."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The resolution is correctly identified as Senate Joint Resolution 186 proposing a constitutional amendment."
+      "why": ""
     },
     "correct_figures": {
       "applicable": false,
       "pass": true,
-      "why": "The summary states no dollar amounts, dates, or quantities to evaluate."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.12984,
-  "judge_latency_s": 13.186
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

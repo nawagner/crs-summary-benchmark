@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-2427",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Stop Disaster Price Gouging Act\" (H.R. 2427) prohibits price gouging on essential goods and services during presidentially declared major disasters or emergencies. \n\nUnder the bill, sellers in declared disaster areas are prohibited from increasing prices by more than",
+  "summary": "The \"Stop Disaster Price Gouging Act\" (H.R. 2427) prohibits price gouging in areas affected by a presidentially declared major disaster or emergency. \n\nSpecifically, the bill bars sellers from increasing prices by more than 10% compared to the day before the disaster declaration. This restriction applies for 30 days to hotel lodging, residential rental properties, and essential consumer goods and services—including food, emergency and medical supplies, fuel, and transportation—and for 180 days to repair or reconstruction services. Additionally, for 30 days post-declaration, sellers cannot charge a price more than 50% greater than their cost if they did not charge that price beforehand.\n\nExceptions are permitted if the price increase is directly caused by tariffs, national trade policies, or increased supplier, labor, or material costs (provided the price does not exceed the cost plus 10% more than the seller's customary markup). Regularly scheduled seasonal hotel rate adjustments and certain amortized rental repair costs or pre-existing rental agreements are also exempt.\n\nThe Federal Trade Commission (FTC) enforces violations as unfair or deceptive practices. State attorneys general may bring civil actions on behalf of residents, and injured individuals may file private lawsuits within two years of discovering a violation, with courts authorized to award up to treble damages for willful violations. Civil penalties are capped at $25,000 per violation and $25,000 in total for related practices, adjusted annually for inflation. Recovered penalties will fund assistance for communities in declared disaster zones. The Act does not preempt non-conflicting state laws.",
   "prompt_tokens": 2735,
-  "completion_tokens": 1496,
-  "total_tokens": 4231,
-  "cost_usd": 0.017566,
-  "latency_s": 7.392,
+  "completion_tokens": 2035,
+  "total_tokens": 4770,
+  "cost_usd": 0.022417,
+  "latency_s": 8.923,
   "ok": true
 }

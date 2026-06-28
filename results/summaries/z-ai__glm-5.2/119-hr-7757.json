@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-7757",
   "model": "z-ai/glm-5.2",
-  "summary": "The Kids Internet and Digital Safety Act (KIDS Act) aims to protect minors online and empower parents. The bill establishes requirements across several areas for online platforms, social gaming providers, and AI chatbot developers.\n\nUnder Title I, platforms where over one-third of material is sexual material harmful to minors must use technology verification measures to identify and block minors from accessing such content within one year of enactment. This preempts conflicting state laws on this specific requirement.\n\nTitle II regulates covered platforms that",
+  "summary": "The Kids Internet and Digital Safety Act (KIDS Act) aims to protect minors online and empower parents. The bill establishes requirements for online platforms, social media, video games, and AI chatbots.\n\nUnder Title I, platforms where over one-third of content is sexual material harmful to minors must use technology verification measures to prevent minors from accessing such content, effective one year after enactment. This preempts conflicting state laws.\n\nTitle II applies to social media-like platforms. It requires providers to implement policies addressing specific harms to minors, such as sexual exploitation, drug distribution, and severe threats of violence. Platforms must provide safeguards for minors—like limiting communication, restricting geolocation, and controlling personalized recommendations—defaulting to the most protective settings. Providers must offer parental tools to manage privacy, purchases, and screen time, and are subject to annual independent audits. The bill prohibits ephemeral messaging for minors and direct messaging for children under 13, while requiring parental controls for teen direct messaging. It also bans market research on minors unless used for safety or legal compliance.\n\nTitle III requires online video game providers to offer safeguards for minors, such as limiting communication and purchases, defaulting to the most restrictive settings.\n\nTitle IV regulates AI chatbots, prohibiting them from falsely claiming to be licensed professionals. It requires clear disclosure that the chatbot is an AI system and mandates providing crisis resources when prompted. Providers must also implement policies to advise users to take breaks after three hours of continuous use.\n\nTitle V directs federal agencies to conduct studies and reports on social media use, fentanyl access, and chatbot impacts on mental health. It also establishes a public awareness campaign and the Kids Internet Safety Partnership to identify best practices.\n\nThe Act is enforced by the Federal Trade Commission and state attorneys general. Most provisions take effect one year after enactment, though specific subtitles take effect after 90 or 180 days. The bill includes rules of construction stating it does not weaken encryption, alter Section 230 of the Communications Act, or require indefinite data retention.",
   "prompt_tokens": 17979,
-  "completion_tokens": 1500,
-  "total_tokens": 19479,
-  "cost_usd": 0.02158,
-  "latency_s": 48.265,
+  "completion_tokens": 2032,
+  "total_tokens": 20011,
+  "cost_usd": 0.023176,
+  "latency_s": 25.367,
   "ok": true
 }

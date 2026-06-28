@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-181",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 181 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution states that on February 28, 2026, the Trump Administration launched \"Operation Epic Fury",
+  "summary": "Senate Joint Resolution 181 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. The resolution states that Congress has not declared war or authorized military force against Iran, yet the Trump Administration introduced over 50,000 U.S. troops into an ongoing military campaign, known as \"Operation Epic Fury,\" beginning on February 28, 2026. \n\nTo address this, the resolution mandates the removal of U.S. forces from these hostilities unless Congress explicitly enacts a declaration of war or a specific authorization for the use of military force. \n\nHowever, the resolution outlines several material exceptions. It specifies that the directive does not prevent the United States from:\n* Defending itself, its personnel, or its facilities in other nations against attacks;\n* Collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies with Israel, partner countries attacked by Iran since February 28, 2026, and other international entities; or\n* Assisting Israel, partner countries attacked by Iran since February 28, 2026, and other nations by providing defensive materiel support or helping them directly defend their territories against retaliatory attacks by Iran or its proxies.\n\nThe resolution invokes expedited congressional consideration procedures under the Department of State Authorization Act and the International Security Assistance and Arms Export Control Act of 1976.",
   "prompt_tokens": 1962,
-  "completion_tokens": 1496,
-  "total_tokens": 3458,
-  "cost_usd": 0.016407,
-  "latency_s": 6.953,
+  "completion_tokens": 1781,
+  "total_tokens": 3743,
+  "cost_usd": 0.018972,
+  "latency_s": 8.194,
   "ok": true
 }

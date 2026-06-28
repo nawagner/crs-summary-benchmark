@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hr-7257",
   "model": "google/gemini-3.5-flash",
-  "summary": "The \"Securing Community Upgrades for a Resilient Grid Act\" or the \"SECURE Grid Act\" (H.R. 7257) amends the Energy Policy and Conservation Act to require states to address the physical security, cybersecurity, and resilience of local distribution",
+  "summary": "The \"Securing Community Upgrades for a Resilient Grid Act\" or the \"SECURE Grid Act\" (H.R. 7257) amends the Energy Policy and Conservation Act to require states to address the physical security, cybersecurity, and resilience of local distribution systems in their State energy security plans. The bill defines a \"local distribution system\" as energy infrastructure owned and operated by an electric utility at a voltage of 100 kilovolts or less. \n\nUnder the bill, state energy security plans must address physical threats—including weather-related vulnerabilities, physical attacks on local distribution and bulk-power systems, and supply chain risks for electricity generation, transmission, and distribution equipment. The plans must also address cybersecurity threats to local distribution systems that could impact the bulk-power system, and they must provide risk mitigation approaches to enhance reliability and end-use resilience. Additionally, the bill expands coordination and planning requirements to include suppliers of electricity generation, transmission, and distribution equipment. \n\nThe legislation clarifies that while states must submit these energy security plans to secure eligibility for certain federal programs, the submissions do not require approval by the Secretary of Energy. It also changes certain federal assistance provisions from optional to mandatory and ensures that protected information regarding local distribution systems is excluded from public disclosure. \n\nFinally, the bill establishes two key deadlines. First, the Comptroller General must submit a report to Congress by September 30, 2030, evaluating the efficacy of these state energy security plans, including how they have improved risk mitigation and how federal financial assistance was used. Second, the amended state energy security plan provisions are set to expire on September 30, 2031.",
   "prompt_tokens": 2007,
-  "completion_tokens": 1496,
-  "total_tokens": 3503,
-  "cost_usd": 0.016474,
-  "latency_s": 6.944,
+  "completion_tokens": 1683,
+  "total_tokens": 3690,
+  "cost_usd": 0.018158,
+  "latency_s": 11.663,
   "ok": true
 }

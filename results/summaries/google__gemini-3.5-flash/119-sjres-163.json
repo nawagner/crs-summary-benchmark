@@ -1,11 +1,11 @@
 {
   "bill_id": "119-sjres-163",
   "model": "google/gemini-3.5-flash",
-  "summary": "Senate Joint Resolution 163 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. Under the resolution, this removal is required unless Congress explicitly authorizes the military action through a declaration of war or a specific authorization for",
+  "summary": "Senate Joint Resolution 163 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, unless Congress explicitly authorizes such actions through a declaration of war or a specific authorization for the use of military force. \n\nThe resolution notes that Congress has not declared war or authorized military force against Iran, and states that unauthorized military force within or against Iran constitutes the introduction of U.S. forces into hostilities under the War Powers Resolution. \n\nThe resolution specifies that these restrictions do not prevent the United States from taking certain defensive and supportive actions. Specifically, the U.S. military is not prohibited from:\n* Defending against attacks on the United States, its personnel, or its facilities located in other nations.\n* Collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies, including sharing with international organizations, other nations, and partner countries that have been attacked by Iran since February 28, 2026.\n* Assisting partner countries attacked by Iran since February 28, 2026, and other nations by intercepting retaliatory attacks by Iran or its proxies on their territory, or by providing defensive materiel support.",
   "prompt_tokens": 1059,
-  "completion_tokens": 1496,
-  "total_tokens": 2555,
-  "cost_usd": 0.015052,
-  "latency_s": 6.135,
+  "completion_tokens": 1563,
+  "total_tokens": 2622,
+  "cost_usd": 0.015655,
+  "latency_s": 7.317,
   "ok": true
 }

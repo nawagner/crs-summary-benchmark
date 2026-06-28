@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "The summary accurately reflects the bill's directive to remove Armed Forces from unauthorized hostilities with Iran."
+      "why": "Accurately states the War Powers removal directive, the relevant exceptions, and this resolution's specific findings."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated or contradictory claims are present in the summary."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "The summary clearly identifies the bill's primary purpose of removing US forces from unauthorized hostilities against Iran."
+      "why": ""
     },
     "changes_to_existing_law": {
-      "applicable": true,
-      "pass": false,
-      "why": "The summary omits the War Powers Resolution framework and section 1013 of the Department of State Authorization Act invoked by the bill."
+      "applicable": false,
+      "pass": true,
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary omits the material rule-of-construction carve-outs (self-defense, intelligence sharing, assisting partner countries attacked by Iran)."
+      "pass": true,
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective dates or sunsets, so this criterion does not apply."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary is cut off mid-sentence and fails to capture the significant rule-of-construction exceptions that are a major operative part of the bill."
+      "pass": true,
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and non-partisan."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
-      "pass": false,
-      "why": "The summary ends abruptly mid-sentence ('a specific authorization for'), leaving it incomplete and not reading clearly."
+      "pass": true,
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "The summary avoids padding and filler."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "The entities named (President, Armed Forces, Iran, Congress) are correctly identified."
+      "why": ""
     },
     "correct_figures": {
-      "applicable": false,
+      "applicable": true,
       "pass": true,
-      "why": "The summary states no specific figures or dates to verify."
+      "why": ""
     }
   },
   "n_applicable": 10,
-  "n_passed": 6,
-  "meets_standard": false,
-  "judge_cost_usd": 0.045775,
-  "judge_latency_s": 8.838
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

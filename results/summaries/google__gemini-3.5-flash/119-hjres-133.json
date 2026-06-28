@@ -1,11 +1,11 @@
 {
   "bill_id": "119-hjres-133",
   "model": "google/gemini-3.5-flash",
-  "summary": "Public Law 119-46, a joint resolution enacted on December 2, 2025, requests that the Secretary of the Interior authorize unique, one-time arrangements for public displays on the National Mall and the Washington Monument. The primary purpose of these displays is",
+  "summary": "Public Law 119-46, a joint resolution approved on December 2, 2025, requests the Secretary of the Interior to authorize unique, one-time arrangements for public displays on the National Mall and the Washington Monument. The primary purpose of these displays is to initiate celebrations for the United States semiquincentennial, which marks the 250th anniversary of the founding of the United States.\n\nSpecifically, the resolution requests the authorization of displays featuring United States semiquincentennial materials, significant artifacts, digital content, film footage, and associated audio and imagery. These displays are to be located in and around the vicinity of the National Mall, including projections onto the surface of the Washington Monument. \n\nThe resolution establishes a specific timeframe for the event, requesting that the displays run for five nights during the period beginning on December 31, 2025, and ending on January 5, 2026. This period is intended to mark the transition into the country's 250th year, leading up to the official anniversary on July 4, 2026. \n\nAdditionally, the resolution requests that the Clerk of the House of Representatives transmit enrolled copies of the measure to the Secretary of the Interior and the Chair of the United States Semiquincentennial Commission.",
   "prompt_tokens": 1247,
-  "completion_tokens": 1496,
-  "total_tokens": 2743,
-  "cost_usd": 0.015335,
-  "latency_s": 6.44,
+  "completion_tokens": 1858,
+  "total_tokens": 3105,
+  "cost_usd": 0.018593,
+  "latency_s": 8.564,
   "ok": true
 }

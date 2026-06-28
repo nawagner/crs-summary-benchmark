@@ -5,67 +5,68 @@
     "accurate": {
       "applicable": true,
       "pass": true,
-      "why": "All claims match the bill text and verified context: EO 14323 of July 30, 2025, the Federal Register cite, section 202 of the National Emergencies Act, and the sponsor/committee details are correct."
+      "why": "Accurately describes terminating the July 30, 2025 Brazil-tariff national emergency (EO 14323) under NEA sec. 202."
     },
     "no_hallucinations": {
       "applicable": true,
       "pass": true,
-      "why": "No fabricated claims; the framing as terminating a trade-related national emergency on Brazilian imports is accurate context confirmed by the record."
+      "why": ""
     },
     "states_purpose": {
       "applicable": true,
       "pass": true,
-      "why": "Clearly states the bill's purpose is to terminate the national emergency declared to impose duties on Brazilian imports."
+      "why": ""
     },
     "changes_to_existing_law": {
       "applicable": true,
       "pass": true,
-      "why": "Correctly identifies the action is pursuant to section 202 of the National Emergencies Act (50 U.S.C. 1622) and terminates EO 14323."
+      "why": ""
     },
     "exceptions_conditions": {
       "applicable": false,
       "pass": true,
-      "why": "The bill contains no material exceptions or conditions, and the summary accurately notes their absence."
+      "why": ""
     },
     "effective_dates": {
       "applicable": false,
       "pass": true,
-      "why": "The bill specifies no effective date or timing provision for the termination, so this criterion does not apply."
+      "why": ""
     },
     "major_provisions_covered": {
       "applicable": true,
       "pass": true,
-      "why": "Captures the sole operative effect: termination of the EO 14323 national emergency."
+      "why": ""
     },
     "objective_tone": {
       "applicable": true,
       "pass": true,
-      "why": "The summary is neutral and descriptive with no editorializing."
+      "why": ""
     },
     "coherent": {
       "applicable": true,
       "pass": true,
-      "why": "Well-organized and internally consistent, though the final sentence is cut off."
+      "why": ""
     },
     "concise": {
       "applicable": true,
       "pass": true,
-      "why": "Largely concise with minimal padding for such a short resolution."
+      "why": ""
     },
     "correct_entities": {
       "applicable": true,
       "pass": true,
-      "why": "Sponsor Gregory Meeks, the Committee on Foreign Affairs, EO 14323, and the National Emergencies Act are all named correctly."
+      "why": ""
     },
     "correct_figures": {
       "applicable": true,
       "pass": true,
-      "why": "Dates (July 30, 2025; February 2, 2026), the Federal Register cite (90 Fed. Reg. 37739), and the six co-sponsors count are all accurate."
+      "why": ""
     }
   },
   "n_applicable": 10,
   "n_passed": 10,
   "meets_standard": true,
-  "judge_cost_usd": 0.145835,
-  "judge_latency_s": 13.772
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); re-judged after de-truncation re-run"
 }

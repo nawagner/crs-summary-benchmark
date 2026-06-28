@@ -32,6 +32,74 @@ def gen_meta(slug: str, bill_id: str) -> dict:
             "summary": rec.get("summary", "")}
 
 
+def build_pavement_html(ordered, bills_out) -> str:
+    """Render real pavement-library sparks of summary word counts — one row per summarizer,
+    all on a shared 0-anchored domain so the lanes are directly comparable."""
+    import pavement
+
+    lengths: dict[str, list[int]] = {}
+    for b in bills_out:
+        for cid, c in b["candidates"].items():
+            lengths.setdefault(cid, []).append(len((c.get("summary") or "").split()))
+    allv = [v for vs in lengths.values() for v in vs]
+    if not allv:
+        return ""
+    dmax = (max(allv) // 50 + 1) * 50
+
+    # one distinct hue per summarizer (matched by id substring, with a fallback cycle)
+    PALETTE = {"anthropic": "#c0392b", "openai": "#1a7f4b", "google": "#1f6fb2",
+               "z-ai": "#7a4ad1", "deepseek": "#e08a00", "crs_reference": "#44505f"}
+    FALLBACK = ["#c0392b", "#1a7f4b", "#1f6fb2", "#7a4ad1", "#e08a00", "#0e8a8a", "#b5179e", "#44505f"]
+
+    def color_for(cid, idx):
+        for k, v in PALETTE.items():
+            if k in cid:
+                return v
+        return FALLBACK[idx % len(FALLBACK)]
+
+    def spark(vals, color):
+        s = pavement.svg.spark(vals, domain=(0, dmax), bins=8, color=color,
+                               fill_alpha=0.32, line_color=color, height="30px", hover=True)
+        return s.replace("width:auto", "width:100%").replace("height:1em", "height:30px")
+
+    rows = []
+    for i, a in enumerate(ordered):
+        vals = lengths.get(a["id"], [])
+        if not vals:
+            continue
+        sv = sorted(vals)
+        col = color_for(a["id"], i)
+        human = ' <span class="pv-h">human</span>' if a.get("is_human") else ""
+        rows.append(
+            f'<tr><td class="pv-lbl"><span class="pv-dot" style="background:{col}"></span>{a["label"]}{human}'
+            f'<br><span class="pv-sub" style="color:{col}">med {sv[len(sv)//2]}w</span></td>'
+            f'<td class="pv-spark">{spark(vals, col)}</td>'
+            f'<td class="pv-rng">{sv[0]}&ndash;{sv[-1]}w</td></tr>'
+        )
+    step = 150 if dmax <= 750 else 200
+    ticks = "".join(
+        f'<span style="position:absolute;left:{v / dmax * 100:.2f}%;transform:translateX(-50%)">{v}</span>'
+        for v in range(0, dmax + 1, step)
+    )
+    axis = (f'<tr><td></td><td class="pv-axis"><div style="position:relative;height:1.1em">{ticks}</div>'
+            f'<div class="pv-axis-lab">words per summary</div></td><td></td></tr>')
+    style = (
+        "<style>"
+        ".pv-table{border-collapse:collapse;width:100%;table-layout:fixed}"
+        ".pv-table td{padding:5px 0;vertical-align:middle}"
+        ".pv-lbl{width:182px;text-align:right;padding-right:14px;font-weight:600;font-size:13px;line-height:1.25}"
+        ".pv-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}"
+        ".pv-sub{font-weight:600;font-size:11px}"
+        ".pv-h{font-size:10px;font-weight:700;color:#1f4e79;background:#eaf1f8;border:1px solid #cfe0ef;padding:0 6px;border-radius:99px}"
+        ".pv-spark{padding:0 4px}"
+        ".pv-rng{width:92px;padding-left:12px;font-size:11.5px;color:#5d6775;white-space:nowrap}"
+        ".pv-axis{font-size:11.5px;color:#5d6775;padding:6px 4px 0}"
+        ".pv-axis-lab{text-align:center;margin-top:13px;color:#5d6775}"
+        "</style>"
+    )
+    return style + f'<table class="pv-table">{"".join(rows)}{axis}</table>'
+
+
 def main() -> None:
     cfg = C.load_config()
     criteria = C.load_criteria()
@@ -159,6 +227,7 @@ def main() -> None:
         "criteria": [{"id": c["id"], "name": c["name"], "description": c["description"],
                       "applicability": c.get("applicability", "always")} for c in criteria],
         "leaderboard": ordered,
+        "pavement_html": build_pavement_html(ordered, bills_out),
         "bills": bills_out,
         "prompts": {
             "summarize": C.read_prompt(cfg["prompts"]["summarize"]),

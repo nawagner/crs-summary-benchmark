@@ -46,10 +46,10 @@
 
   <h2>Summary length</h2>
   <p class="lede" style="font-size:15px">How verbose is each summarizer? Each lane is a
-  <a href="https://planspace.org/pavement/" target="_blank" rel="noopener">pavement plot</a> of that summarizer's
-  50 summaries: the row is split into ten equal-count quantile blocks, so tightly-packed blocks mean lengths
-  cluster there and wide blocks mean they spread out. The tick marks are the individual summaries; the dark line
-  is the median.</p>
+  <a href="https://planspace.org/pavement/" target="_blank" rel="noopener">pavement plot</a> (rendered with the
+  <code>pavement</code> library) of that summarizer's 50 summaries, on a shared word-count axis. Each lane is split
+  into eight equal-mass blocks, so a narrow block means lengths cluster there and a wide block means they spread
+  out — read the block widths like density. Hover any block for its exact share and value range.</p>
   <div class="card" style="padding:14px 18px"><div id="pavement"><div class="loading">Loading…</div></div></div>
 </div></main>
 

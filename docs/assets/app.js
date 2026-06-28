@@ -97,64 +97,13 @@ async function initIndex() {
 }
 
 /* ----------------------------------------------------------- pavement (lengths) */
-function wordCount(s) { return (s || "").trim().split(/\s+/).filter(Boolean).length; }
-
+/* Rendered server-side by the real `pavement` Python library (report.py) and embedded
+   in results.json as a self-contained HTML/SVG string; we just inject it. */
 function renderPavement(data) {
   const root = document.getElementById("pavement");
-  // word counts per summarizer (leaderboard order), sorted ascending
-  const rows = data.leaderboard.map((r) => {
-    const counts = data.bills
-      .map((b) => b.candidates[r.id])
-      .filter((c) => c && c.summary)
-      .map((c) => wordCount(c.summary))
-      .sort((a, b) => a - b);
-    const med = counts.length ? counts[Math.floor(counts.length / 2)] : 0;
-    return { id: r.id, label: r.label, is_human: r.is_human, counts, med };
-  }).filter((r) => r.counts.length);
-
-  const allMax = Math.max(...rows.flatMap((r) => r.counts), 1);
-  const domainMax = Math.ceil(allMax / 50) * 50;
-  const NB = 10;
-  const W = 960, padL = 190, padR = 96, padTop = 6, laneH = 46, gap = 10, axisH = 36;
-  const plotW = W - padL - padR;
-  const H = padTop + rows.length * (laneH + gap) + axisH;
-  const x = (v) => padL + (v / domainMax) * plotW;
-
-  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" font-family="inherit">`;
-  // x gridlines + axis labels
-  const step = domainMax <= 200 ? 50 : domainMax <= 600 ? 100 : 200;
-  for (let v = 0; v <= domainMax; v += step) {
-    s += `<line x1="${x(v)}" y1="${padTop}" x2="${x(v)}" y2="${H - axisH + 4}" stroke="#e7ebf0"/>`;
-    s += `<text x="${x(v)}" y="${H - axisH + 20}" text-anchor="middle" font-size="11.5" fill="#5d6775">${v}</text>`;
-  }
-  s += `<text x="${padL + plotW / 2}" y="${H - 4}" text-anchor="middle" font-size="12" fill="#5d6775">words per summary</text>`;
-
-  rows.forEach((r, i) => {
-    const y0 = padTop + i * (laneH + gap);
-    const cy = y0 + laneH / 2;
-    const n = r.counts.length;
-    // quantile edges (equal count per block)
-    const edges = [];
-    for (let j = 0; j <= NB; j++) edges.push(r.counts[Math.min(n - 1, Math.round((j * n) / NB))]);
-    // alternating quantile blocks
-    for (let j = 0; j < NB; j++) {
-      const x0 = x(edges[j]), x1 = x(edges[j + 1]);
-      s += `<rect x="${x0.toFixed(1)}" y="${y0}" width="${Math.max(0.6, x1 - x0).toFixed(1)}" height="${laneH}" `
-         + `fill="${j % 2 ? "#dbe7f2" : "#eef4fa"}" stroke="#cdddec" stroke-width="0.5"/>`;
-    }
-    // individual summaries as faint ticks
-    r.counts.forEach((v) => {
-      s += `<line x1="${x(v).toFixed(1)}" y1="${y0 + 4}" x2="${x(v).toFixed(1)}" y2="${y0 + laneH - 4}" stroke="#1f4e79" stroke-opacity="0.28"/>`;
-    });
-    // median marker
-    s += `<line x1="${x(r.med).toFixed(1)}" y1="${y0 - 2}" x2="${x(r.med).toFixed(1)}" y2="${y0 + laneH + 2}" stroke="#14365a" stroke-width="2"/>`;
-    // labels
-    s += `<text x="${padL - 12}" y="${cy - 2}" text-anchor="end" font-size="12" font-weight="600" fill="#1a2230">${esc(r.label)}</text>`;
-    s += `<text x="${padL - 12}" y="${cy + 13}" text-anchor="end" font-size="11" fill="#5d6775">${r.is_human ? "human · " : ""}med ${r.med}w</text>`;
-    s += `<text x="${W - padR + 10}" y="${cy + 4}" font-size="11.5" fill="#5d6775">${r.counts[0]}–${r.counts[n - 1]}w</text>`;
-  });
-  s += `</svg>`;
-  root.innerHTML = s;
+  root.innerHTML = data.pavement_html
+    ? data.pavement_html
+    : '<div class="empty">No summary-length data.</div>';
 }
 
 /* --------------------------------------------------------------- bills explorer */

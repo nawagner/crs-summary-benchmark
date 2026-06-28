@@ -281,3 +281,29 @@ async function initMethodology() {
   document.getElementById("m-summarize").textContent = data.prompts.summarize;
   document.getElementById("m-judge-prompt").textContent = data.prompts.judge;
 }
+
+/* --------------------------------------------------------------------- CRS lag */
+async function initLag() {
+  const meta = document.getElementById("lag-meta");
+  const grid = document.getElementById("lag-stats");
+  let d;
+  try { d = await (await fetch("data/lag.json", { cache: "no-store" })).json(); }
+  catch (e) { return fail(grid, new Error("lag.json not found (run analyze_lag.py)")); }
+
+  const hr = d.chambers.hr, s = d.chambers.s;
+  const totBills = hr.total + s.total, totSum = hr.summarized + s.summarized;
+  const recent = d.months.slice(-3);
+  const recentCov = recent.reduce((a, m) => a + m.coverage, 0) / recent.length;
+  const fmtK = (n) => n.toLocaleString("en-US");
+
+  meta.textContent = `${d.congress}th Congress · ${fmtK(d.sampled)} bills sampled · as of ${d.generated_at}`;
+  const cards = [
+    { v: pct(hr.pct), l: "of House bills have a CRS summary", sub: `${fmtK(hr.summarized)} of ${fmtK(hr.total)}` },
+    { v: pct(s.pct), l: "of Senate bills have a CRS summary", sub: `${fmtK(s.summarized)} of ${fmtK(s.total)}` },
+    { v: pct(recentCov), l: "for bills from the last 3 months", sub: "the active backlog" },
+    { v: pct(totSum / totBills), l: "of all 119th-Congress bills covered", sub: `${fmtK(totSum)} of ${fmtK(totBills)}` },
+  ];
+  grid.innerHTML = cards.map((c) =>
+    `<div class="stat"><div class="stat-v">${c.v}</div><div class="stat-l">${esc(c.l)}</div>` +
+    `<div class="stat-sub">${esc(c.sub)}</div></div>`).join("");
+}

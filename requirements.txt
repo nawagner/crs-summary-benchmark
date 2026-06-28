@@ -12,3 +12,6 @@ httpx>=0.27
 
 # Summary-length pavement plots on the results site (report.py)
 pavement>=1.0
+
+# CRS-coverage lag chart, rendered to a PNG (plot_lag.py) so the site stays dependency-free
+matplotlib>=3.8

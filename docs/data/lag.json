@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-06-28 20:53:11 UTC",
+  "congress": 119,
+  "sampled": 1098,
+  "chambers": {
+    "hr": {
+      "total": 9495,
+      "summarized": 2850,
+      "pct": 0.3002
+    },
+    "s": {
+      "total": 4928,
+      "summarized": 1310,
+      "pct": 0.2658
+    }
+  },
+  "months": [
+    {
+      "month": "2025-01",
+      "n": 91,
+      "summarized": 84,
+      "coverage": 0.9231
+    },
+    {
+      "month": "2025-02",
+      "n": 116,
+      "summarized": 74,
+      "coverage": 0.6379
+    },
+    {
+      "month": "2025-03",
+      "n": 91,
+      "summarized": 35,
+      "coverage": 0.3846
+    },
+    {
+      "month": "2025-04",
+      "n": 59,
+      "summarized": 17,
+      "coverage": 0.2881
+    },
+    {
+      "month": "2025-05",
+      "n": 80,
+      "summarized": 22,
+      "coverage": 0.275
+    },
+    {
+      "month": "2025-06",
+      "n": 74,
+      "summarized": 19,
+      "coverage": 0.2568
+    },
+    {
+      "month": "2025-07",
+      "n": 81,
+      "summarized": 16,
+      "coverage": 0.1975
+    },
+    {
+      "month": "2025-08",
+      "n": 20,
+      "summarized": 1,
+      "coverage": 0.05
+    },
+    {
+      "month": "2025-09",
+      "n": 55,
+      "summarized": 17,
+      "coverage": 0.3091
+    },
+    {
+      "month": "2025-10",
+      "n": 30,
+      "summarized": 6,
+      "coverage": 0.2
+    },
+    {
+      "month": "2025-11",
+      "n": 41,
+      "summarized": 3,
+      "coverage": 0.0732
+    },
+    {
+      "month": "2025-12",
+      "n": 75,
+      "summarized": 8,
+      "coverage": 0.1067
+    },
+    {
+      "month": "2026-01",
+      "n": 35,
+      "summarized": 4,
+      "coverage": 0.1143
+    },
+    {
+      "month": "2026-02",
+      "n": 50,
+      "summarized": 7,
+      "coverage": 0.14
+    },
+    {
+      "month": "2026-03",
+      "n": 60,
+      "summarized": 7,
+      "coverage": 0.1167
+    },
+    {
+      "month": "2026-04",
+      "n": 56,
+      "summarized": 6,
+      "coverage": 0.1071
+    },
+    {
+      "month": "2026-05",
+      "n": 44,
+      "summarized": 2,
+      "coverage": 0.0455
+    },
+    {
+      "month": "2026-06",
+      "n": 40,
+      "summarized": 0,
+      "coverage": 0.0
+    }
+  ]
+}

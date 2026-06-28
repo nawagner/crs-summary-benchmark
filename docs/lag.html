@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRS lag · CRS Summary Benchmark</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CRS Summary Benchmark</a>
+      <small>Frontier LLMs vs. real Congressional Research Service summaries</small></div>
+    <nav class="site">
+      <a href="index.html">Leaderboard</a>
+      <a href="bills.html">Bills</a>
+      <a href="lag.html" class="active">CRS lag</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<main><div class="wrap">
+  <h1>How far behind is CRS?</h1>
+  <p class="lede">CRS writes excellent summaries — but slowly, and not for every bill. This is the other
+  half of the story behind the benchmark: a high-quality human summary is worth little if it doesn't exist
+  yet. Below, the share of 119th-Congress bills that have a CRS summary, by when each bill was introduced.</p>
+
+  <p class="count" id="lag-meta">Loading…</p>
+  <div id="lag-stats" class="stat-grid"></div>
+
+  <div class="card" style="padding:16px 18px">
+    <img src="assets/crs-lag.png" alt="Bar chart: share of 119th-Congress bills with a CRS summary by month of introduction, falling from about 92% for January 2025 to near 0% for mid-2026." style="width:100%;height:auto;display:block">
+  </div>
+
+  <h2>What this shows</h2>
+  <div class="card">
+    <p style="margin-top:0">"How behind" is really two effects, and they're entangled here:</p>
+    <ul>
+      <li><strong>A timing lag.</strong> A freshly introduced bill has almost no chance of a CRS summary —
+      coverage stays near zero for months and only builds over a year-plus.</li>
+      <li><strong>Selective coverage.</strong> CRS doesn't summarize every bill, so coverage plateaus well
+      below 100% even for the oldest bills (many minor bills that die in committee never get one).</li>
+    </ul>
+    <p>Read this as <em>how much of the recent legislative record is covered</em>, not a precise
+    days-to-summarize figure. It sharpens the benchmark's point: CRS summaries score ~94–98% on the rubric,
+    but most recent bills don't have one — while the models produce a passable summary instantly for a
+    fraction of a cent.</p>
+  </div>
+
+  <h2>How it's measured</h2>
+  <div class="card">
+    <p style="margin-top:0">We take the count of bills that have a CRS summary (from the Congress.gov
+    <code>/summaries</code> listing), then sample bills across the numbering range, look up each one's
+    <code>introducedDate</code>, and check whether it has a summary now — giving coverage by introduction
+    month. We measure <em>whether a summary exists today</em> rather than its exact authoring date, because
+    Congress.gov's <code>updateDate</code> fields are bulk-refreshed and unreliable for timing. Monthly
+    samples are ~20–120 bills each, so individual months are noisy. Reproduce with
+    <code>python src/analyze_lag.py</code> then <code>python src/plot_lag.py</code>.</p>
+  </div>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  Coverage data from the <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a> ·
+  <a href="https://github.com/nawagner/crs-summary-benchmark" target="_blank" rel="noopener">source &amp; data on GitHub</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>initLag();</script>
+</body>
+</html>

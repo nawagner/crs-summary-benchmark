@@ -119,6 +119,13 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .scorebadge.meets { color: var(--pass); background: var(--pass-bg); }
 .scorebadge.misses { color: #8a5a00; background: #fcf2dd; }
 
+/* stat cards (CRS lag page) */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 6px 0 22px; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px; }
+.stat-v { font-size: 30px; font-weight: 700; color: var(--accent); letter-spacing: -.5px; line-height: 1.1; }
+.stat-l { font-size: 13.5px; color: var(--ink); margin-top: 4px; }
+.stat-sub { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
 /* dataset toggle */
 .ds-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: #fff; box-shadow: var(--shadow); }
 .ds-toggle button { font: inherit; font-size: 13.5px; font-weight: 600; padding: 8px 16px; border: 0; background: #fff; color: var(--muted); cursor: pointer; border-right: 1px solid var(--line); }

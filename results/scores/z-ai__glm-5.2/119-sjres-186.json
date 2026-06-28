@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-186",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the context about the Fourteenth Amendment's 'other crime' phrase enabling criminal-conviction disenfranchisement is accurate per Richardson v. Ramirez."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the explanation that the phrase currently allows disenfranchisement based on criminal convictions is verifiable accurate context, not a hallucination."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill proposes a constitutional amendment establishing a fundamental right to vote."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the repeal of the 'or other crime' phrase from Section 2 of the Fourteenth Amendment."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the key carve-out allowing denial/abridgment only via compelling governmental interest and least restrictive means."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the ratification requirement by three-fourths of state legislatures, the only timing/validity provision specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all four sections: the right to vote, the strict-scrutiny standard, the Fourteenth Amendment repeal, and congressional enforcement power."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Fourteenth Amendment, its Section 2, and the entities (United States, states, political subdivisions)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 'three-fourths of the several states' ratification figure is stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.16748,
+  "judge_latency_s": 12.341
+}

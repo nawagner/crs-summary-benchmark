@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-35",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (CRA disapproval, EPA rule title, Fed. Reg. citation, dates) and the contextual claim about a methane charge on petroleum/natural gas systems is verifiably accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The added context (Congressional Review Act name, methane charge, EPA administration) is accurate and verified, not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill's purpose: disapproving the EPA's Waste Emissions Charge rule under the CRA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains the resolution nullifies the EPA rule so it has no force or effect under the CRA."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple disapproval resolution with no exceptions or conditions, which the summary correctly notes."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the law was approved March 14, 2025, and takes effect upon approval, with accurate passage dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect: disapproving the identified rule so it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the EPA, the Congressional Review Act, and the rule title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures (89 Fed. Reg. 91094, November 18, 2024, and the 2025 dates) match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.154235,
+  "judge_latency_s": 13.14
+}

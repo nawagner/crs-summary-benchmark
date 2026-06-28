@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2695",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context (Section 547 PHSA, 42 U.S.C. 290ee-2, BCOR grant program)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the program description and statute references are accurate context confirmed by external sources."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes the building communities of recovery grant program by revising its funding authorization."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 547 of the Public Health Service Act and the strike-and-replace of funding language."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions; the summary correctly notes none exist."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately notes the fiscal year span (2026-2030) and that there is no explicit effective date beyond enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect—the funding reauthorization amount and applicable fiscal years."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Public Health Service Act and the building communities of recovery program."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures—$5,000,000 (FY2019-2023) and $17,000,000 (FY2026-2030)—match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.146595,
+  "judge_latency_s": 13.415
+}

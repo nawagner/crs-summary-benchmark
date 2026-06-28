@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-80",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context: chapter 8 of title 5 is the Congressional Review Act, BLM issued the ROD on April 25, 2022, and the GAO opinion of July 24, 2025 concluded it was a rule under the CRA."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 'Congressional Review Act' label and other context are accurate and verifiable; no fabricated or contradictory claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution disapproves and nullifies the BLM NPR-A Integrated Activity Plan Record of Decision."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary explains the rule is nullified and shall have no force or effect, the CRA mechanism's core legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This brief CRA disapproval resolution contains no material exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes Senate passage Oct. 30, House passage Nov. 18, and approval Dec. 5, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect: Congress disapproves the rule and it shall have no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with minimal filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Bureau of Land Management, Government Accountability Office, and the Congressional Review Act are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates stated (April 25, 2022; July 24, 2025; Oct. 30; Nov. 18; Dec. 5, 2025) match the bill text and record."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.13277,
+  "judge_latency_s": 12.286
+}

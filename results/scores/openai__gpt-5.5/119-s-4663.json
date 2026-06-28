@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4663",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and context is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims present."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies appropriation for block grants for freeze-related crop losses."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Bill is a standalone appropriation, not an amendment to existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the key limitation to counties with the March 4, 2026 disaster designation and state-request condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2027, the 120-day reporting deadline, and quarterly reporting timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures appropriation, eligible losses, conditions, reporting, and emergency designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names USDA, Office of the Secretary, Appropriations Committees, and the cited statute."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$3.5 billion, FY2027, March 4 2026, and 120 days all match the bill."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.042985,
+  "judge_latency_s": 6.944
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-201",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and context (e.g. NDAA FY2021, CDC's NCHS) is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual additions like CDC and NDAA FY2021 are correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs a National Academies study on cancer prevalence and mortality among active duty aircrew."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill creates a freestanding study mandate and does not amend existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key conditions including the reporting/briefing requirement triggered by missing the finalization deadline and the covered-individual eligibility."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly captures the 30-day, 60-day, and recurring 60-day timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the agreement, study elements, data sources, reporting, and definition accurately."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately detailed."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the National Academies, Secretary of Veterans Affairs, committees, and CDC's National Center for Health Statistics."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates and timing figures (30 days, 60 days, Aug. 14, 2025) are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05201,
+  "judge_latency_s": 8.257
+}

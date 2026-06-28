@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-171",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurately describe the War Powers Resolution context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary faithfully tracks the bill's contents."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of U.S. Armed Forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly references the expedited procedure under 50 U.S.C. 1546a and the War Powers Resolution invoked by the bill."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thoroughly covers the rule-of-construction carve-outs and the war-declaration/authorization condition."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date; the summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the removal directive and all four rule-of-construction exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout, including factual reporting of findings."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and filler while remaining complete."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the War Powers Resolution, 50 U.S.C. 1546a, Iran, Israel, and named officials."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The April 10, 2026 casualty date is stated correctly and consistent with the bill."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05002,
+  "judge_latency_s": 8.196
+}

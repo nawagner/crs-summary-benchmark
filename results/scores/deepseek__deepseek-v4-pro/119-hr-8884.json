@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-8884",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (SSA administers Section 234 DI demonstration authority; prior dates of Dec 31, 2021/2022 are correct)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The added context that SSA administers the program and that Section 234 of the Social Security Act is amended is accurate and not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill temporarily reauthorizes DI demonstration project authority to remove barriers to work for disabled Americans."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies amendments to Section 234 (and the trust-fund expenditure provision) of the Social Security Act and the prior sunset dates."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the key new safeguard that participation may not reduce a participant's total income and the evaluation-metrics requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the amendments take effect January 1, 2027, and notes the new sunset dates of Dec 31, 2030/2031."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the date extensions, waiver authority extension, 90-to-120-day change, payment source provisions, income safeguard, and technical amendments."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, moving logically from purpose to provisions to effective date."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is tight and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names SSA, the Commissioner, Section 234 of the Social Security Act, and the two trust funds."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All stated dates and figures (2021/2022, 2030/2031, Dec 30 2021, 90-to-120 days, Jan 1 2027) match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1698,
+  "judge_latency_s": 14.569
+}

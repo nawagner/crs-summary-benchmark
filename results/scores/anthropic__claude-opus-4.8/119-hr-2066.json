@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2066",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and the SBA/SBIC context (privately owned firms licensed by SBA) is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the SBA administration and SBIC naming are correct real-world context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: amending the Small Business Investment Act of 1958 to change SBIC leverage rules and exclusions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies that the bill amends the Small Business Investment Act of 1958, including the private capital definition and leverage caps."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the government-funds exception, the 50%/$125 million cap, and the prospective-only eligibility limit."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes prospective applicability after enactment and the May 19, 2026 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the private capital redefinition, restructured leverage caps, and broadened exclusion for rural/critical-tech/small-manufacturer investments."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names SBA, SBICs, the 1958 Act, title 10's covered technology category, and section 301(c)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($300M→$200M, $250M, $175M, $350M→$475M/$350M, 50%, $125M) match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.16285,
+  "judge_latency_s": 13.383
+}

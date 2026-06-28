@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-1036",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately describes the two amendments to Section 597 and the program context (SAMHSA's Minority Fellowship Program under PHSA) is verified as correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the program and its existing fields aligns with the verified record."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill expands the Minority Fellowship Program to support addiction medicine training."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 597 of the Public Health Service Act (42 U.S.C. 290ll)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions, and the summary correctly notes their absence."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates; the summary appropriately notes this and that amendments take effect upon enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both operative amendments—inserting 'diagnosis' and adding 'addiction medicine'—accurately."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with minimal filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Section 597, 42 U.S.C. 290ll, the Public Health Service Act, the Minority Fellowship Program, and the short title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The statutory citation and section/subsection references stated are correct."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.128875,
+  "judge_latency_s": 12.426
+}

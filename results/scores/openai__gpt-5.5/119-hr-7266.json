@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7266",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context regarding the IIJA program and DOE administration."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the Secretary refers to the Energy Secretary administering the IIJA program."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies reauthorization and revision of the Rural and Municipal Utility Advanced Cybersecurity Program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the bill amends the Infrastructure Investment and Jobs Act and reauthorizes the program."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures eligibility limits, priority criteria, and the FOIA-style disclosure exemption."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the FY2026-2030 appropriations period."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers establishment, objectives, eligibility, award process, priorities, information protection, and funding."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately detailed."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly references the IIJA, the program name, and the Secretary."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $250 million, FY2026-2030, 4,000,000 MWh, and six-entity figures are all accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05323,
+  "judge_latency_s": 7.955
+}

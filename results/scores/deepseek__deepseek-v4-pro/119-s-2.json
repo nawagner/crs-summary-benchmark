@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-2",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context (e.g., 287(g) as INA provision for state/local immigration enforcement cooperation)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; added context like CBP/ICE/DHS roles and 287(g) description is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill provides FY2026 supplemental appropriations for border security and immigration enforcement."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly references the statutes invoked (INA section 287(g), the biometric entry-exit system, information-sharing laws)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the surveillance tower restriction, the qualified cooperating jurisdiction definition, the release prohibition, and the tribal government carve-out."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States funds remain available through September 30, 2029, the October 31, 2028 processing coordinator restriction, and the June 10, 2026 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all major appropriations across both titles with their amounts and purposes."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no editorializing or advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names CBP, ICE, HSI, DHS Secretary, Office of the Principal Legal Advisor, and INA 287(g)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($9.55B, $7.45B, $108.5M, $3.45B, $2.5B, $13.02B, $31.075B, $350M) and dates match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.204205,
+  "judge_latency_s": 13.483
+}

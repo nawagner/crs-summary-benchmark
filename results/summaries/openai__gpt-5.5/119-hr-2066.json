@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "openai/gpt-5.5",
+  "summary": "The Investing in All of America Act of 2025 amends the Small Business Investment Act of 1958 to change how leverage limits are calculated for small business investment companies (SBICs), especially for investments in specified types of businesses and areas.\n\nThe Act revises the definition of “private capital” used for SBIC leverage approvals. It removes a date restriction on certain government-related pension plan funds, expands covered sources to include foundations, endowments, or trusts of colleges and universities, and provides that funds obtained directly or indirectly from federal, state, or local governments or their agencies generally may not count as private capital for leverage approval, except for specified categories already included in the statute.\n\nThe Act changes maximum leverage limits for SBICs. It reduces the general leverage-to-private-capital percentage limit from 300 percent to 200 percent. It sets the dollar leverage cap at $250 million for an SBIC that makes quarterly or semiannual interest payments, and $175 million for other licensed companies. For commonly controlled SBICs, it raises the aggregate dollar cap to $475 million if they make quarterly or semiannual interest payments, while retaining a $350 million cap for other commonly controlled companies.\n\nThe Act also expands and revises an exclusion from the calculation of outstanding leverage. Investments may be excluded when made in small business concerns located in low-income geographic areas or rural areas, small business concerns operating primarily in covered technology categories, or small manufacturers. The exclusion applies to calculations for both individual and commonly controlled company leverage limits. However, the excluded amount may not exceed the lesser of 50 percent of the company’s or companies’ private capital or $125 million, and the 200 percent leverage limit must still be maintained. Only investments made after May 19, 2026, the date of enactment, are eligible for this exclusion.",
+  "prompt_tokens": 1493,
+  "completion_tokens": 893,
+  "total_tokens": 2386,
+  "cost_usd": 0.034255,
+  "latency_s": 14.076,
+  "ok": true
+}

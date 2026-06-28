@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-42",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and verified context; the rule, agency, citation, and dates are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the CRA mechanism and DOE attribution are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is to nullify the DOE appliance standards rule via congressional disapproval."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies it nullifies the specified DOE rule under Chapter 8 of Title 5 (Congressional Review Act)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple disapproval resolution with no exceptions or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states it became effective upon approval on May 9, 2025, matching the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect: the rule shall have no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Department of Energy, the rule title, and Federal Register citation are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates and citations (Oct 9, 2024; 89 Fed. Reg. 81994; May 9, 2025; Mar 5, 2025; Apr 30, 2025) are correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1304,
+  "judge_latency_s": 13.056
+}

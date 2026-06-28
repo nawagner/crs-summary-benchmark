@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "openai/gpt-5.5",
+  "summary": "The TREAT Youth Act would amend the SUPPORT for Patients and Communities Act to reauthorize funding for a youth prevention and recovery initiative.\n\nSpecifically, the bill would replace the existing authorization of appropriations in section 7102(c)(9) of the SUPPORT Act with new funding levels for fiscal years 2026 through 2030. It would authorize $10 million for fiscal year 2026, $12 million for fiscal year 2027, $13 million for fiscal year 2028, $14 million for fiscal year 2029, and $15 million for fiscal year 2030 to carry out the youth prevention and recovery subsection.\n\nThe bill does not otherwise modify the program’s requirements, eligibility rules, or activities, and it does not include a separate effective date.",
+  "prompt_tokens": 573,
+  "completion_tokens": 246,
+  "total_tokens": 819,
+  "cost_usd": 0.010245,
+  "latency_s": 4.477,
+  "ok": true
+}

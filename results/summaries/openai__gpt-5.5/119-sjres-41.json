@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would prohibit a specific proposed export of defense articles to Israel. It disapproves and bars the export of firearms, parts, and components controlled under Category I of the United States Munitions List, valued at $1,000,000 or more, as described in Transmittal No. DDTC 23-077.\n\nThe prohibited export consists of 20,000 Colt fully automatic carbine rifles with 11.5-inch barrels and 5.56mm caliber. The rifles were proposed for export to M.R.D. Efram Investments Ltd. in Israel, with ultimate end use by the Israel National Police.\n\nThe export had been submitted to Congress under section 36(c) of the Arms Export Control Act, which requires congressional notification of certain proposed arms exports, and its communication was published in the Congressional Record on March 24, 2025, as Executive Communication 510. The resolution contains no additional exceptions, conditions, deadlines, or separate effective date.",
+  "prompt_tokens": 484,
+  "completion_tokens": 267,
+  "total_tokens": 751,
+  "cost_usd": 0.01043,
+  "latency_s": 4.739,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Removing Barriers to Work for Disabled Americans Act\" (H.R. 8884) temporarily reauthorizes the Social Security Administration's authority to conduct demonstration projects and experiments for the disability insurance program under Title II of the Social Security Act. \n\nSpecifically, the bill extends the deadline to initiate these demonstration projects to December 31, 203",
+  "prompt_tokens": 1280,
+  "completion_tokens": 1496,
+  "total_tokens": 2776,
+  "cost_usd": 0.015384,
+  "latency_s": 6.521,
+  "ok": true
+}

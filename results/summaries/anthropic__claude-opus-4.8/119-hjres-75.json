@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-9, uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation issued by the executive branch.\n\nSpecifically, the resolution disapproves a rule submitted by the Office of Energy Efficiency and Renewable Energy within the Department of Energy. That rule, titled \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers,\" was published in the Federal Register (90 Fed. Reg. 7464) on January 21, 2025.\n\nBy passing this resolution, Congress declares that the identified rule \"shall have no force or effect,\" meaning the energy conservation standards established by that rule are nullified and will not be implemented or enforced.\n\nThe resolution was passed by the House of Representatives on March 26 and 27, 2025, passed by the Senate on April 30 and May 1, 2025, and approved (signed into law) on May 9, 2025.\n\nThe text contains no additional provisions, exceptions, or conditions beyond the disapproval of the specified rule.",
+  "prompt_tokens": 826,
+  "completion_tokens": 382,
+  "total_tokens": 1208,
+  "cost_usd": 0.01368,
+  "latency_s": 10.497,
+  "ok": true
+}

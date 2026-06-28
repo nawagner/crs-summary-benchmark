@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution exercisesCongress's authority under chapter 8 of title 5 of the United States Code, known as the Congressional Review Act, to disapprove a federal rule. The primary purpose of the resolution is to nullify a rule submitted by the Bureau of Ocean Energy Management relating to the \"Protection of Marine Archaeological Resources,\" which was published in the Federal Register on September 3, 2024 (89 Fed. Reg. 71160).\n\nBy enacting this resolution, Congress formally disapproves the aforementioned rule. The major provision of the law declares that the Bureau of Ocean Energy Management's rule shall have no force or effect. This action prevents the rule from being implemented or enforced, effectively reversing the regulatory action taken by the agency. \n\nThe resolution does not include any additional exceptions, conditions, or deadlines beyond the immediate nullification of the specified rule. The legislation was considered and passed by the Senate on February 25, 2025, and by the House of Representatives on March 6, 2025. It was approved and became Public Law 119-3 on March 14, 2025.",
+  "prompt_tokens": 396,
+  "completion_tokens": 1158,
+  "total_tokens": 1554,
+  "cost_usd": 0.00385,
+  "latency_s": 5.32,
+  "ok": true
+}

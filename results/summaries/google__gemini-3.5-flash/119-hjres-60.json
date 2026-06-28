@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-13 (House Joint Resolution 60), enacted on May 23, 2025, serves to formally disapprove a federal rule issued by the National Park Service of the Department of the Interior. Specifically, the joint resolution targets the administrative rule titled \"Glen Canyon National Recreation Area: Motor Vehicles,\" which was published in the Federal Register at 90 Fed. Reg. 2621. \n\nUnder the authority of Chapter 8 of Title 5 of the United States Code, which governs congressional review of agency rulemaking, the resolution declares that Congress disapproves of this regulation. As a direct result of this legislative action, the specified rule is stripped of its legal authority and shall have no force or effect. \n\nThe joint resolution contains no exceptions, conditions, or future deadlines, meaning the nullification of the rule is absolute and effective immediately upon the law's enactment. According to the legislative history, the resolution was considered and passed by the House of Representatives on April 29, 2025, and by the Senate on May 8, 2025, before receiving final presidential approval on May 23, 2025.",
+  "prompt_tokens": 444,
+  "completion_tokens": 1328,
+  "total_tokens": 1772,
+  "cost_usd": 0.012618,
+  "latency_s": 6.685,
+  "ok": true
+}

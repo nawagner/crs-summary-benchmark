@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, titled the “Declaration of Independence Reaffirmation Act of 2026,” declares that Congress reaffirms and re-adopts the Declaration of Independence as an Organic Law of the United States and as the enduring charter of American independence, national sovereignty, natural rights, equal citizenship, and government by consent.\n\nThe legislation opens with a series of congressional findings. These findings recount the adoption of the Declaration on July 4, 1776; its proclamation that the states were free and independent; and its core principles that all men are created equal, endowed with unalienable rights, and that governments derive their just powers from the consent of the governed. The findings note that the Declaration is already recognized among the Organic Laws of the United States, reference the Northwest Ordinance, and assert Congress’s authority to reaffirm foundational laws. They also tie the reaffirmation to the 250th anniversary of American independence and describe the Declaration and the Constitution as together establishing a political order of popular sovereignty and republican self-government.\n\nThe operative provision then states that Congress reaffirms and re-adopts the Declaration as an Organic Law and enduring charter. Finally, in commemoration of the 250th anniversary, the bill sets forth the complete text of the Declaration of Independence. The bill does not amend any existing statute or create new legal duties; it is a formal reaffirmation and republication of the document. No effective dates, exceptions, or conditions are specified.",
+  "prompt_tokens": 2605,
+  "completion_tokens": 771,
+  "total_tokens": 3376,
+  "cost_usd": 0.001804,
+  "latency_s": 12.727,
+  "ok": true
+}

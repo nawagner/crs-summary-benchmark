@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Safe Response Act reauthorizes and amends the first responder training program established under Section 546 of the Public Health Service Act. The bill's primary purpose is to update the program's scope and extend its funding.\n\nThe legislation makes several changes to the existing law. It broadens the definition of applicable medical products by replacing the phrase \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\" across multiple subsections. Additionally, the bill expands the scope of the training program beyond opioids by removing the word \"opioid\" in several instances. Specifically, it replaces \"opioid and heroin\" with \"opioid, heroin, and other drug,\" and changes \"opioid overdose\" to simply \"overdose.\" The bill also makes a minor formatting change to capitalize \"Tribes and Tribal\" in the text.\n\nRegarding funding, the bill reauthorizes appropriations for the program. It increases the authorized annual funding level from $36 million to $57 million and extends the authorization period from fiscal years 2019 through 2023 to fiscal years 2026 through 2030.",
+  "prompt_tokens": 649,
+  "completion_tokens": 744,
+  "total_tokens": 1393,
+  "cost_usd": 0.002849,
+  "latency_s": 10.16,
+  "ok": true
+}

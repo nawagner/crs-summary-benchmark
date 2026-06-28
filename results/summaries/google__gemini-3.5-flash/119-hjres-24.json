@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "150 words? Yes, 186 words.\n    *   No preamble/headings/bullet lists (unless aiding clarity - none needed here).\n\n5.  **Final Polish:**\n    The draft is clear, concise, meets the length requirement, and strictly adheres to",
+  "prompt_tokens": 494,
+  "completion_tokens": 1496,
+  "total_tokens": 1990,
+  "cost_usd": 0.014205,
+  "latency_s": 6.867,
+  "ok": true
+}

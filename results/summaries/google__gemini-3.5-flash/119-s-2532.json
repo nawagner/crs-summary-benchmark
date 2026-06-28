@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Safe Response Act\" (S. 2532) reauthorizes and modifies the federal first responder training program established under Section 546 of the Public Health Service Act. Its primary purpose is to extend the program's funding and broaden its scope to address a wider range of drug overdoses.\n\nThe bill introduces several key changes to existing law:\n\n*   **Funding Increase and Extension:** It authorizes $57,000,0",
+  "prompt_tokens": 715,
+  "completion_tokens": 1496,
+  "total_tokens": 2211,
+  "cost_usd": 0.014537,
+  "latency_s": 7.854,
+  "ok": true
+}

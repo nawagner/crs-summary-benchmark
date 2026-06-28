@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-1036",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims match the bill text (amendments to Section 597(a)(1) and (b)) and the contextual claims about the Minority Fellowship Program supporting behavioral health professionals are verified as accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The added context that the program supports behavioral health professionals' education/training is accurate (SAMHSA-administered) and nothing is fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill expands the Minority Fellowship Program to include training for addiction medicine professionals."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies Section 597 of the Public Health Service Act and describes both amendments."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates, sunsets, or deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Both operative amendments (inserting 'diagnosis' and 'addiction medicine') are accurately captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Section 597, the Public Health Service Act, the Minority Fellowship Program, and the Senate HELP Committee are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure/date stated, the March 13, 2025 introduction date, matches the bill."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15381,
+  "judge_latency_s": 21.794
+}

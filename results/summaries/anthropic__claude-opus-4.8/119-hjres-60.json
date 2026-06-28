@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-13, uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation issued by an executive agency.\n\nSpecifically, the resolution disapproves a rule submitted by the National Park Service of the Department of the Interior titled \"Glen Canyon National Recreation Area: Motor Vehicles,\" which was published in the Federal Register at 90 Fed. Reg. 2621. As a result of this disapproval, the rule \"shall have no force or effect,\" meaning it does not take effect and cannot be enforced.\n\nThe resolution was passed by the House of Representatives on April 29, 2025, and by the Senate on May 6 and 8, 2025. It was approved (signed into law) on May 23, 2025.\n\nThe text of the resolution does not describe the contents of the underlying rule, nor does it establish any new regulatory provisions of its own. Its sole legal effect is to nullify the identified National Park Service rule regarding motor vehicles in the Glen Canyon National Recreation Area.",
+  "prompt_tokens": 665,
+  "completion_tokens": 360,
+  "total_tokens": 1025,
+  "cost_usd": 0.012325,
+  "latency_s": 5.8,
+  "ok": true
+}

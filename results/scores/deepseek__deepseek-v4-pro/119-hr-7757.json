@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7757",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text or are verified accurate context (e.g., FTC enforcement, Youville as an FTC program)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual additions like Youville being an FTC program are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's purpose of protecting minors online via requirements on platforms, games, and chatbots."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Bill amends the Protecting Children in the 21st Century Act and references COPPA/FTC Act; summary mentions FTC enforcement and education campaigns but only lightly touches the specific statutory amendment, though it adequately captures the operative effect."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary notes key carve-outs like exceptions for safety/legal compliance in research, no government ID requirement, and the knowledge-of-minor standard."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary correctly notes the general one-year effective date with some provisions taking effect earlier (e.g., 180-day and 90-day subtitles)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All six titles' essential operative effects are captured accurately and at appropriate high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized by title and reads clearly and consistently."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FTC, state attorneys general, and the Kids Internet Safety Partnership are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Stated figures (under 17 for minor, under 13 for children, one-third sexual material threshold, three-hour break, one-year effective date) all match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.41671,
+  "judge_latency_s": 14.065
+}

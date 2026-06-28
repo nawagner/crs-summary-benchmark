@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "z-ai/glm-5.2",
+  "summary": "S. 4745, introduced in the Senate by Mr. Husted and Mr. Moreno on June 10, 2026, seeks to designate the United States Postal Service facility located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building.\" The bill's primary purpose is to officially name this postal facility in honor of Ulysses S. Grant.\n\nThe legislation contains a single section that outlines the designation and its implementation. Subsection (a) formally designates the Georgetown, Ohio, postal facility under the new name. Subsection (b) provides that any reference to this facility in any law, map, regulation, document, paper, or other record of the United States shall be deemed to be a reference to the \"Ulysses S. Grant Post Office Building.\" This provision ensures consistency across all official government records and documents.\n\nThe bill does not include any material exceptions, conditions, or specific effective dates or deadlines. If enacted, the designation would apply upon the bill's passage into law. The legislation was read twice and referred to the Senate Committee on Homeland Security and Governmental Affairs.",
+  "prompt_tokens": 492,
+  "completion_tokens": 746,
+  "total_tokens": 1238,
+  "cost_usd": 0.002705,
+  "latency_s": 3.171,
+  "ok": true
+}

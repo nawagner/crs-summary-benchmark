@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-186",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the contextual explanation of the Fourteenth Amendment Section 2 'or other crime' phrase as the basis for felony disenfranchisement permission is factually correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The added context about Section 2 of the Fourteenth Amendment and felony disenfranchisement is accurate and not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill proposes a constitutional amendment establishing a fundamental right to vote."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the repeal of the 'or other crime' phrase from Section 2 of the Fourteenth Amendment and accurately explains its current effect."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the compelling-interest/least-restrictive-means (strict scrutiny) standard as the material limitation on restricting the right to vote."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes ratification by three-fourths of states is required and that no ratification deadline is set, consistent with the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All four sections—the right to vote, the strict scrutiny standard, the Fourteenth Amendment repeal, and the congressional enforcement power—are captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive, with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized section-by-section and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Fourteenth Amendment, its Section 2, and Congress are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The three-fourths ratification threshold is stated correctly, matching the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1662,
+  "judge_latency_s": 12.924
+}

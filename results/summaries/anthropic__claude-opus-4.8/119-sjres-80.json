@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a specific federal action taken by the Bureau of Land Management (BLM).\n\nThe action at issue is a BLM \"record of decision\" titled \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision,\" which was issued on April 25, 2022. The resolution references a July 24, 2025 opinion letter from the Government Accountability Office, printed in the Congressional Record, which concluded that this record of decision qualifies as a \"rule\" subject to the Congressional Review Act.\n\nThe operative effect of the resolution is that Congress disapproves the rule, and the rule \"shall have no force or effect.\" Under the Congressional Review Act, this means the BLM's record of decision is treated as though it never took effect.\n\nThe resolution was passed by the Senate on October 30, 2025, passed by the House on November 18, 2025, and approved (signed into law) on December 5, 2025, becoming Public Law 119-47.\n\nThe resolution contains no other provisions, exceptions, or conditions beyond the disapproval of the identified rule.",
+  "prompt_tokens": 774,
+  "completion_tokens": 391,
+  "total_tokens": 1165,
+  "cost_usd": 0.013645,
+  "latency_s": 9.248,
+  "ok": true
+}

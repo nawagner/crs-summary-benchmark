@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-185",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate context (War Powers Resolution, expedited procedures)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; all assertions trace to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of U.S. Armed Forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution directs action under existing War Powers authorities rather than amending or repealing statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the rule-of-construction carve-outs for self-defense, intelligence sharing, and assistance to attacked partners."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the material February 28, 2026 date referenced in the exceptions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the directive to remove forces, the unless-authorized condition, and the key exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately compact."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Iran, Congress, the President, and the War Powers Resolution."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure stated, February 28, 2026, matches the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15099,
+  "judge_latency_s": 11.843
+}

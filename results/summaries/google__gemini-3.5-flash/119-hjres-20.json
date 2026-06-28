@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-6, enacted as House Joint Resolution 20 on May 9, 2025, is a joint resolution of Congress that disapproves a specific federal regulation issued by the Department of Energy. The primary purpose of the legislation is to nullify the rule",
+  "prompt_tokens": 498,
+  "completion_tokens": 1496,
+  "total_tokens": 1994,
+  "cost_usd": 0.014211,
+  "latency_s": 7.195,
+  "ok": true
+}

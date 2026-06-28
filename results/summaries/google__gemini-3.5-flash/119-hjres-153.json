@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 153 directs the President to remove United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress. \n\nThe resolution establishes that Congress has the sole constitutional power to declare war and has not declared war on Cuba, nor has it enacted any specific statutory authorization for the use of military force there. Under the resolution, any use of force within or against Cuba—specifically including blockades or quarantines conducted by the United States Coast Guard or other military components—is classified as introducing forces into hostilities under the War Powers Resolution. \n\nAccordingly, the resolution directs the President to remove U.S. Armed Forces from these unauthorized hostilities. However, the resolution outlines key exceptions to this directive. It states that nothing in the resolution may be construed to prevent the United States from defending itself from an armed attack or the threat of an imminent armed attack. Additionally, the directive does not apply to the lawful execution of counternarcotics operations.",
+  "prompt_tokens": 955,
+  "completion_tokens": 1453,
+  "total_tokens": 2408,
+  "cost_usd": 0.014509,
+  "latency_s": 6.306,
+  "ok": true
+}

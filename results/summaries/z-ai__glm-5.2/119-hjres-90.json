@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution provides for congressional disapproval of a rule submitted by the Commodity Futures Trading Commission (CFTC) under the Congressional Review Act, as outlined in chapter 8 of title 5 of the United States Code. The primary purpose of the resolution is to formally nullify the CFTC's final guidance titled \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,\" which was published in the Federal Register on October 15, 2024.\n\nThe resolution's sole major provision states that Congress disapproves of the aforementioned final guidance. Consequently, the rule shall have no force or effect. This action effectively prevents the CFTC's guidance regarding voluntary carbon credit derivative contracts from being implemented or enforced. The text of the resolution does not specify any material exceptions, conditions, or alternative deadlines. By enacting this resolution, Congress exercises its authority under the Congressional Review Act to overturn the specified agency rule, rendering it legally void immediately upon the resolution's enactment.",
+  "prompt_tokens": 440,
+  "completion_tokens": 905,
+  "total_tokens": 1345,
+  "cost_usd": 0.003133,
+  "latency_s": 11.236,
+  "ok": true
+}

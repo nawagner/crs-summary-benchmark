@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-946",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the contextual claims (MATE Act, Dec 29, 2022 enactment of the training requirement, Section 303 of the CSA) are verified as accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the added context about the training requirement and its origin is accurate, not invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as clarifying and expanding the entities/programs that can satisfy the controlled-substance prescriber training requirement."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the bill amends Section 303 of the Controlled Substances Act and describes the added organizations and curricula."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the material expansions (curriculum/recent-graduate pathways and added accreditors), which are the key conditional carve-outs at issue."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the retroactive effective date of December 29, 2022."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative effects: added organizations, podiatric medicine curriculum, schools of pharmacy, and retroactivity."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tight and free of padding while covering the operative content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named organizations, the statute, and the program context are correctly identified, matching the bill text."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure cited, the December 29, 2022 effective date, is correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15638,
+  "judge_latency_s": 13.173
+}

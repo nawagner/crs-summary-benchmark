@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 185 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless such actions have been explicitly authorized by a congressional declaration of war or a specific statutory authorization for the use of military force. \n\nThe resolution states that Congress has not declared war on Iran or enacted a specific authorization for military force against it, and asserts that the use of military force, including the enforcement of a naval blockade, constitutes hostilities under the War Powers Resolution. The bill invokes expedited legislative procedures to require the removal of forces.\n\nThe resolution includes several exceptions, specifying that it does not prevent the United States from defending against an attack on the United States, or its personnel or facilities in other nations. Additionally, it does not restrict the United States from collecting, analyzing, or sharing intelligence with partner countries that have been attacked by Iran since February 28, 2026, and other nations or international organizations. Finally, it permits the United States to assist partner countries attacked by Iran since February 28, 2026, and other nations by helping them intercept retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 1096,
+  "completion_tokens": 858,
+  "total_tokens": 1954,
+  "cost_usd": 0.003615,
+  "latency_s": 25.612,
+  "ok": true
+}

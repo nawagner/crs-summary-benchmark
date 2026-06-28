@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Kids Internet and Digital Safety Act (KIDS Act) aims to protect minors online and empower parents. The bill establishes requirements across several areas for online platforms, social gaming providers, and AI chatbot developers.\n\nUnder Title I, platforms where over one-third of material is sexual material harmful to minors must use technology verification measures to identify and block minors from accessing such content within one year of enactment. This preempts conflicting state laws on this specific requirement.\n\nTitle II regulates covered platforms that",
+  "prompt_tokens": 17979,
+  "completion_tokens": 1500,
+  "total_tokens": 19479,
+  "cost_usd": 0.02158,
+  "latency_s": 48.265,
+  "ok": true
+}

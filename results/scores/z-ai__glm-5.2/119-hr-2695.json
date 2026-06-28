@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2695",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurate context about the BCOR program/PHSA Section 547 is verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary sticks closely to the bill text without invented details."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as reauthorizing and increasing funding for the building communities of recovery grants."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the bill amends Section 547(f) of the Public Health Service Act and describes the strike-and-replace."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple funding reauthorization with no material exceptions or conditions to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the authorization applies to fiscal years 2026 through 2030."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect: changing the authorization amount and fiscal years."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Somewhat repetitive of the FY2026-2030 figures but generally tight and free of major filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Public Health Service Act, Section 547(f), and the bill's short title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($5M FY2019-2023, $17M FY2026-2030) match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14651,
+  "judge_latency_s": 12.783
+}

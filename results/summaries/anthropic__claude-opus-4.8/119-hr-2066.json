@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Investing in All of America Act of 2025 (Public Law 119-92) amends the Small Business Investment Act of 1958 to change the rules governing leverage available to Small Business Investment Companies (SBICs)—privately owned investment firms licensed by the Small Business Administration (SBA).\n\nThe bill revises the definition of \"private capital\" in the Act. It removes a requirement that certain qualifying institutional investments be \"established prior to October 1, 1987,\" and expands eligible sources to include foundations, endowments, or trusts of colleges or universities. It also clarifies that private capital does not include funds obtained directly or indirectly from federal, state, or local governments (with limited exceptions) when the Administrator considers leverage requests.\n\nThe bill restructures the maximum leverage limits for SBICs. For a single company, it lowers one baseline leverage cap from $300 million to $200 million, and sets new caps of $250 million for companies making quarterly or semiannual interest payments and $175 million for other companies licensed under section 301(c). For companies under common control, it replaces the prior $350 million limit with $475 million for those making quarterly or semiannual interest payments and $350 million for others.\n\nThe bill broadens an exclusion from leverage calculations for investments in certain businesses. Previously focused on low-income geographic areas, the exclusion now also covers small business concerns in rural areas, businesses operating primarily in a \"covered technology category\" (as defined in title 10), and small manufacturers. The aggregate amount that may be excluded for a company or commonly controlled companies is capped at the lesser of 50 percent of their private capital or $125 million.\n\nThe exclusion applies only prospectively: an investment qualifies only if made after the date of enactment of the relevant provision.\n\nThe Act was approved on May 19, 2026.",
+  "prompt_tokens": 2398,
+  "completion_tokens": 589,
+  "total_tokens": 2987,
+  "cost_usd": 0.026715,
+  "latency_s": 8.714,
+  "ok": true
+}

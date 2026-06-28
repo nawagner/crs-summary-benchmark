@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-24",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill (CRA disapproval voiding the DOE rule) and accurate context about the rule verified via the Federal Register and GAO records."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Contextual details (DOE administration, rule content, deferred compliance dates for non-display doors and refrigeration systems) are accurate real-world facts, not fabrications."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution nullifies the DOE walk-in coolers/freezers energy conservation standards rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies that it nullifies the specific DOE rule (89 FR 104616) and describes the standards being voided."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "A one-line CRA disapproval has no material exceptions or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the rule's submission date (Dec 23, 2024) and the rule's compliance deadlines, consistent with the rule's deferred dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect: the rule is disapproved and has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or boilerplate."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Energy and the precise rule title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The submission date (Dec 23, 2024) is correct and the stated compliance deadlines for non-display doors and refrigeration systems match the rule's deferred dates."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.140885,
+  "judge_latency_s": 22.727
+}

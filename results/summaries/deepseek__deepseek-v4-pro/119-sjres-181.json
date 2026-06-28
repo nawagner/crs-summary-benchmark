@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to withdraw U.S. armed forces from hostilities in or against Iran that lack explicit congressional authorization. It invokes the expedited procedures set out in the Department of State Authorization Act (50 U.S.C. 1546a) and the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution begins with findings stating that Congress has not declared war or enacted a specific authorization for military force against Iran, and that on February 28, 2026, the administration launched Operation Epic Fury—described by the President and the Secretary of Defense as a war—resulting in significant U.S. military involvement, including over 50,000 participating personnel, seven combat deaths, and hundreds wounded. The findings also note that the operation led to the Islamic Revolutionary Guard Corps closing the Strait of Hormuz, causing a historic disruption to global energy supplies, oil price spikes, and projections of widespread food insecurity.\n\nThe operative section directs the President to remove U.S. armed forces from hostilities within or against Iran unless a declaration of war or a specific statutory authorization for the use of military force is enacted. The resolution does not set a deadline for removal beyond the immediate effect of the directive.\n\nA rule of construction clarifies that the resolution does not prevent the United States from: (1) defending against an attack on the United States or its personnel and facilities in other nations; (2) collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies, including with Israel and partner countries attacked by Iran since February 28, 2026; or (3) assisting Israel and those partner countries by helping them directly defend against retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such defensive measures. No other exceptions are included.",
+  "prompt_tokens": 1721,
+  "completion_tokens": 895,
+  "total_tokens": 2616,
+  "cost_usd": 0.001527,
+  "latency_s": 11.517,
+  "ok": true
+}

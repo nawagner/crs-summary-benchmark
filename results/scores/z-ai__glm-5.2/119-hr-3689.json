@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-3689",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (figures, section, statute) and accurate context about the SUPPORT Act and the youth prevention and recovery initiative is verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the committee referrals and program description are accurate context consistent with the bill and record."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes/amends the youth prevention and recovery initiative's appropriations under the SUPPORT Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 7102(c)(9) of the SUPPORT for Patients and Communities Act."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions, only an appropriations reauthorization."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the fiscal year 2026 through 2030 timeframe of the authorized appropriations."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect of reauthorizing appropriations at the specified annual levels."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and non-partisan with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Largely concise, listing each figure without excessive padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the SUPPORT for Patients and Communities Act, Section 7102(c)(9), and the two House committees of referral."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts and fiscal years ($10M FY2026 through $15M FY2030) match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.17034,
+  "judge_latency_s": 13.513
+}

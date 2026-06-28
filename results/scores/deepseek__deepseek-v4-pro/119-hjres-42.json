@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-42",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context; the rule was indeed published October 9, 2024 and the resolution approved May 9, 2025."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; all statements align with the bill and Federal Register citation."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill nullifies a specific DOE appliance standards rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the DOE rule being disapproved and that it will have no force or effect, which is the operative legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "A CRA disapproval resolution contains no material exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the resolution was approved May 9, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential effect: congressional disapproval rendering the DOE rule of no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Energy and the Energy Conservation Program rule."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The two dates stated (October 9, 2024 and May 9, 2025) are both correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.12799,
+  "judge_latency_s": 11.56
+}

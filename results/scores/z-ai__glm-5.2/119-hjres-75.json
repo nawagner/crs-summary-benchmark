@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-75",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (rule, agency, Fed. Reg. cite, dates) and the CRA context is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; descriptions of the disapproval effect and timing are supported by the bill and CRA."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is congressional disapproval/nullification of the DOE commercial refrigeration energy conservation rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the resolution acts under chapter 8 of title 5 (CRA) and nullifies the specified DOE rule."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This simple CRA disapproval resolution contains no material exceptions, conditions, or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites the rule's January 21, 2025 publication and the May 9, 2025 approval date when disapproval took effect."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative provision: Congress disapproves the rule and it shall have no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive, with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across purpose, provision, and legislative history."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and focused without significant padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DOE's Office of Energy Efficiency and Renewable Energy, the rule title, and the CRA citation are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register citation (90 Fed. Reg. 7464), publication date, passage dates, and approval date all match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14276,
+  "judge_latency_s": 15.041
+}

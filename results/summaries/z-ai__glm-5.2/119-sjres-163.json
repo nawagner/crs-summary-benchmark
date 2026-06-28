@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 163 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been explicitly authorized by Congress through a declaration of war or a specific authorization for the use of military force. The resolution invokes expedited legislative procedures under the War Powers Resolution and related statutes to require this removal.\n\nThe bill includes several findings emphasizing that Congress holds the sole constitutional power to declare war, while also acknowledging the President's responsibility to defend the United States and its citizens from attack. It notes that Congress has not declared war on Iran or enacted specific statutory authorization for military force against it.\n\nUnder the resolution's major provision, Congress formally directs the removal of U.S. forces from such hostilities. However, the bill specifies that it does not prevent the United States from taking certain actions. These exceptions include defending against attacks on the United States or its personnel and facilities located in other nations. The resolution also permits the collection, analysis, and sharing of intelligence related to defense from Iranian threats or its proxies, including with partner countries attacked by Iran since February 28, 2026. Additionally, it allows the United States to assist partner countries attacked by Iran since that date by helping them intercept retaliatory attacks or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 940,
+  "completion_tokens": 1322,
+  "total_tokens": 2262,
+  "cost_usd": 0.004859,
+  "latency_s": 16.505,
+  "ok": true
+}

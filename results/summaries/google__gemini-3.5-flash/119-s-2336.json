@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Halting the Epidemic of Addiction and Loss Act of 2025\" (S. 2336) aims to ensure that Department of Health and Human Services (HHS) grant programs addressing opioid misuse do not limit their references to opioid overdose reversal agents solely",
+  "prompt_tokens": 866,
+  "completion_tokens": 1496,
+  "total_tokens": 2362,
+  "cost_usd": 0.014763,
+  "latency_s": 7.08,
+  "ok": true
+}

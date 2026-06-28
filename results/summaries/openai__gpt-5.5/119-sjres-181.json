@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would direct the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress has explicitly authorized those hostilities through a declaration of war or a specific authorization for use of military force.\n\nThe resolution states congressional findings that Congress has the constitutional authority to declare war; that Congress has not declared war on Iran or enacted a specific authorization for military force within or against Iran; and that the Trump Administration’s Operation Epic Fury introduced U.S. forces into hostilities against the Government of Iran. The findings also describe related events, including statements by administration officials characterizing the operation as a war, the closure of the Strait of Hormuz, effects on global energy and food supply, U.S. troop deployments, and reported U.S. military casualties. The resolution finds that the use of force within or against Iran constitutes hostilities under the War Powers Resolution.\n\nThe operative provision invokes existing statutory procedures under the Department of State Authorization Act for Fiscal Years 1984 and 1985 and the International Security Assistance and Arms Export Control Act of 1976 to require removal of U.S. forces from such hostilities absent congressional authorization. The resolution does not set a specific removal deadline.\n\nThe resolution specifies that it does not prevent the United States from defending against attacks on the United States or its personnel or facilities in other countries. It also does not bar collecting, analyzing, or sharing intelligence about threats from Iran or its proxies, including with Israel, partner countries attacked by Iran since February 28, 2026, other nations, and international organizations. It further allows assistance to Israel, such partner countries, and other nations in directly defending against retaliatory attacks by Iran or its proxies, including by providing defensive materiel support.",
+  "prompt_tokens": 1723,
+  "completion_tokens": 689,
+  "total_tokens": 2412,
+  "cost_usd": 0.029285,
+  "latency_s": 10.239,
+  "ok": true
+}

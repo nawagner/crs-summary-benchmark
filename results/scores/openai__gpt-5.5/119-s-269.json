@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-269",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims track the bill text and accurate context (Do Not Pay under title 31, SSA, clear-and-convincing evidence, notification of errors) is correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; references to title 31 and the Social Security Act align with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill improves death-data sharing between SSA and the Do Not Pay system to prevent and recover improper payments."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the bill amends the Social Security Act and references the title 31 Do Not Pay system."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures key conditions: 'to the extent feasible,' clear-and-convincing-evidence requirement, and cooperative-arrangement requirements."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the amendments take effect December 27, 2026."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers data sharing, cost-sharing agreement, evidentiary standard for recording deaths, and error-notification requirement."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across provisions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Commissioner of Social Security, SSA, and the Do Not Pay working system under title 31."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure—the December 27, 2026 effective date—is correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.148175,
+  "judge_latency_s": 12.868
+}

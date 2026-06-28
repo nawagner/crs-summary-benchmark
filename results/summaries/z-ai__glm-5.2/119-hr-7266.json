@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Rural and Municipal Utility Cybersecurity Act (H.R. 7266) amends the Infrastructure Investment and Jobs Act to reauthorize and update the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program. The bill's primary purpose is to provide technical assistance and funding to certain electric utilities to enhance their ability to protect against, detect, respond to, and recover from cybersecurity threats.\n\nThe bill replaces Section 40124 of the existing law, defining \"eligible entities\" as rural electric cooperatives, municipally owned electric utilities, utilities owned by state political subdivisions, specific not-for-profit partnerships involving at least six such utilities, and investor-owned utilities selling fewer than 4,000,000 megawatt hours of electricity annually. Under the program, the Secretary of Energy is directed to provide technical assistance and award grants, cooperative agreements, and prizes on a competitive or noncompetitive basis, subject to available appropriations. The program's objectives are to deploy advanced cybersecurity technologies for electric utility systems and increase participation in cybersecurity threat information sharing programs.\n\nWhen awarding funding and assistance, the Secretary must give priority to eligible entities that have limited cybersecurity resources, own assets critical to the reliability of the bulk-power system, or own or operate defense critical electric infrastructure. The Secretary is also required to develop award criteria and establish a process to ensure eligible entities are informed about funding opportunities.\n\nAdditionally, the bill stipulates that information shared by or with federal, state, tribal, or local governments under the program is deemed voluntarily shared and is exempt from disclosure under the Freedom of Information Act and similar state, tribal, or local laws. The bill authorizes $250,000,000 in appropriations to carry out the program for fiscal years 2026 through 2030.",
+  "prompt_tokens": 1557,
+  "completion_tokens": 1054,
+  "total_tokens": 2611,
+  "cost_usd": 0.004641,
+  "latency_s": 19.787,
+  "ok": true
+}

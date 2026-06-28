@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4745",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the procedural context is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; the introduction details match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill designates the postal facility as the Ulysses S. Grant Post Office Building."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a naming designation and does not amend or repeal existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions, which the summary correctly notes."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines, which the summary correctly notes."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both the designation and the references provision, the bill's full operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is brief and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the USPS, the Georgetown, Ohio location, and the referring committee."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The address, date, and Congress number all match the bill text."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.03992,
+  "judge_latency_s": 6.744
+}

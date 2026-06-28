@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 183 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution notes that Congress has not declared war or enacted specific statutory authorization for military force against Iran, identifying the ongoing \"Operation",
+  "prompt_tokens": 1591,
+  "completion_tokens": 1496,
+  "total_tokens": 3087,
+  "cost_usd": 0.015851,
+  "latency_s": 7.378,
+  "ok": true
+}

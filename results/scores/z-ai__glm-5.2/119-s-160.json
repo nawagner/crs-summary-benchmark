@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-160",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (DoD administers, statute amended is PL 104-307)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; enactment date June 12, 2025 and provisions match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes DoD sale of aircraft and parts for wildfire suppression."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the amendment to Section 2 of the Wildfire Suppression Aircraft Transfer Act of 1996."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the restriction that aircraft may be used only for aircraft services for wildfire suppression purposes."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the authority period from enactment (June 12, 2025) to October 1, 2035."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all operative changes: 'or water' additions, use restriction, cross-reference fix, and reauthorization period."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names DoD, the 1996 Act, and the relevant subsections."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates June 12, 2025 and October 1, 2035 match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.044165,
+  "judge_latency_s": 7.693
+}

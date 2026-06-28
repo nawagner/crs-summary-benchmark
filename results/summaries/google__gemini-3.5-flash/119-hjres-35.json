@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-2, enacted as House Joint Resolution 35, serves the primary purpose of nullifying a specific regulation issued by the Environmental Protection Agency (EPA). Under the authority of chapter 8 of title 5 of the United States Code, which governs congressional review of agency rulemaking, Congress formally disapproves the EPA rule titled \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions.\" \n\nThis disapproved rule was originally published in the Federal Register on November 18, 2024, under the citation 89 Fed. Reg. 91094. By enacting this joint resolution, Congress dictates that the specified EPA rule shall have no force or effect under law, effectively preventing its implementation or enforcement. \n\nThe legislative history of the resolution indicates that it was considered and passed by the House of Representatives on February 26, 2025, and subsequently considered and passed by the Senate on February 27, 2025. The joint resolution was officially approved and signed into law on March 14, 2025. There are no exceptions, conditions, or future deadlines specified in the text of the resolution.",
+  "prompt_tokens": 490,
+  "completion_tokens": 1380,
+  "total_tokens": 1870,
+  "cost_usd": 0.013155,
+  "latency_s": 6.513,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless such hostilities are explicitly authorized by a congressional declaration of war or a specific statutory authorization for the use of military force. The resolution cites Congress's constitutional power to declare war and notes that Congress has not authorized military force against Iran. It references recent events, including the launch of Operation Epic Fury on February 28, 2026, subsequent American casualties, the closure of the Strait of Hormuz by the Islamic Revolutionary Guard Corps, a ceasefire that took effect on April 8, 2026, and a subsequent U.S. blockade of the strait.\n\nUnder the resolution, the directive to remove forces is issued pursuant to expedited legislative procedures established in existing law. The resolution includes several exceptions, specifying that it does not prevent the United States from defending against attacks on the nation, its personnel, or its facilities abroad. It also permits intelligence collection, analysis, and sharing related to Iranian threats, including with allies such as Israel. Additionally, the resolution allows the United States to assist partner countries attacked by Iran since February 28, 2026, by supporting their defensive measures or providing defensive materiel. Finally, it permits assistance for the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1313,
+  "completion_tokens": 948,
+  "total_tokens": 2261,
+  "cost_usd": 0.004091,
+  "latency_s": 5.217,
+  "ok": true
+}

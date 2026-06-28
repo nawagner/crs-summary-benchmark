@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-11",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The completed portion (PL 119-3, S.J. Res. 11, approved March 14, 2025, disapproves a federal regulation) is accurate and consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims appear in the truncated text; all stated facts match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "It states the primary purpose is to nullify a federal rule via a joint resolution of disapproval, though the sentence cuts off."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off before identifying the BOEM Marine Archaeological Resources rule or the Congressional Review Act mechanism, so it fails to describe the legal effect on existing regulation."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The disapproval resolution contains no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly states the resolution was approved March 14, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated before naming the rule being nullified or its operative effect (no force or effect), missing the bill's essential content."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text is neutral and contains no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends mid-sentence ('the rule submitted by the'), leaving it incomplete and not reading as finished prose."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text contains no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Public Law 119-3 and Senate Joint Resolution 11 are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figures/dates stated—PL 119-3 and March 14, 2025—are correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.137565,
+  "judge_latency_s": 12.825
+}

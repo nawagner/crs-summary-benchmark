@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-171",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text, including invoking War Powers framework and citing officials' statements and casualties."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary faithfully reflects the bill's provisions and context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose: directing removal of U.S. forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "References the expedited procedures under existing law (War Powers Resolution framework) invoked by the resolution."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately lists the rule-of-construction carve-outs and the authorization condition."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Bill specifies no effective date; summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the removal directive, the authorization exception, and the rule-of-construction exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and non-partisan, reporting provisions without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Entities like the President, Congress, Iran, and Israel are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "Summary states no specific figures, so none can be misstated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.048875,
+  "judge_latency_s": 7.856
+}

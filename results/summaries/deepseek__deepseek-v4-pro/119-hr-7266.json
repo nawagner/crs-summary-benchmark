@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill reauthorizes and revises the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program, which was originally created under the Infrastructure Investment and Jobs Act. Its primary purpose is to continue providing federal support to certain electric utilities for improving their defenses against cybersecurity threats.\n\nThe bill replaces the existing program language with a new section that defines key terms and expands the list of eligible entities. Eligible entities now include rural electric cooperatives; municipally owned electric utilities; electric utilities owned by state political subdivisions or related agencies; not-for-profit organizations partnering with at least six of the above types of utilities; and investor-owned electric utilities that sell less than 4,000,000 megawatt hours of electricity per year.\n\nUnder the program, the Secretary of Energy is directed to provide technical assistance and award funding through grants, cooperative agreements, and prizes. These awards may be made on a competitive or noncompetitive basis. The Secretary must develop criteria for awarding assistance and establish a process to ensure all eligible entities are informed about available opportunities. The program’s objectives are to deploy advanced cybersecurity technologies for electric utility systems and to increase eligible entities’ participation in cybersecurity threat information sharing programs.\n\nWhen providing assistance, the Secretary must give priority to eligible entities that have limited cybersecurity resources, own assets critical to the reliability of the bulk-power system, or own or operate defense critical electric infrastructure.\n\nThe bill also provides that information shared under the program is considered voluntarily shared and is exempt from disclosure under the federal Freedom of Information Act and similar state, tribal, or local open records laws. It authorizes $250,000,000 in appropriations for fiscal years 2026 through 2030 to carry out the program.",
+  "prompt_tokens": 1566,
+  "completion_tokens": 339,
+  "total_tokens": 1905,
+  "cost_usd": 0.000976,
+  "latency_s": 6.017,
+  "ok": true
+}

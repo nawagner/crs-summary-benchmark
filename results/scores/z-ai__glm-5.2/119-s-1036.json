@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-1036",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurately describe the amendments to Section 597 of the PHS Act."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; details about the amendments and legislative history are correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill authorizes Minority Fellowship Program fellowships for addiction medicine training."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendments to Section 597 of the Public Health Service Act (42 U.S.C. 290ll)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions to summarize."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines; the summary correctly notes their absence."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both operative amendments (inserting 'diagnosis' and 'addiction medicine')."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with no significant padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Public Health Service Act, Section 597, and the Senate HELP Committee."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The introduction date (March 13, 2025) and section citation are correct."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.046745,
+  "judge_latency_s": 9.756
+}

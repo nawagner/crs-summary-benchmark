@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill extends and modifies the Social Security Administration’s authority to conduct demonstration projects under the disability insurance program. Its primary purpose is to temporarily reauthorize experiments and demonstration projects that test changes to program rules, with the aim of removing barriers to work for disabled Americans.\n\nThe legislation amends Section 234 of the Social Security Act. It pushes back the sunset of demonstration authority: projects may be initiated through December 31, 2030, and the authority to carry them out ends on December 31, 2031. Under previous law, those dates were December 31, 2021, and December 31, 2022, respectively. The Commissioner’s ability to waive compliance with certain benefit requirements in connection with these projects is also extended from December 30, 2021, to December 31, 2030.\n\nSeveral procedural and substantive changes apply. The period for reporting to Congress on a proposed experiment or demonstration is expanded from 90 days to 120 days. When requesting a waiver, the Commissioner must now include evaluation metrics along with estimated annual and total costs. The bill also adjusts how project costs are paid: administrative expenditures are to come from funds provided for administering the title, while benefits paid to participants will come from the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as the Commissioner determines appropriate. A new safeguard is added, requiring that no approved experiment or demonstration project reduces a participant’s total income. Finally, the bill makes minor technical corrections and deletes a subsection that is being repealed.\n\nThe amendments take effect on January 1, 2027.",
+  "prompt_tokens": 1295,
+  "completion_tokens": 1340,
+  "total_tokens": 2635,
+  "cost_usd": 0.001729,
+  "latency_s": 12.877,
+  "ok": true
+}

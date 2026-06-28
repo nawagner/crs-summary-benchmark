@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-201",
+  "model": "z-ai/glm-5.2",
+  "summary": "The ACES Act of 2025 directs the Secretary of Veterans Affairs to enter into an agreement with the National Academies of Sciences, Engineering, and Medicine to conduct a study on the prevalence and mortality of cancer among individuals who served as active duty aircrew in the Armed Forces. \n\nUnder the Act, the Secretary must seek to enter into this agreement within 30 days of enactment and finalize it within 60 days of beginning negotiations. If the Secretary fails to finalize the agreement within this timeframe, they must submit a report to the House and Senate Committees on Veterans' Affairs explaining the delay and providing an estimated completion date, followed by progress briefings every 60 days until the agreement is finalized.\n\nThe study must identify exposures associated with the military occupations of these aircrew members, including chemicals, compounds, and agents. It must review existing literature to determine associations between these exposures and overall cancer morbidity and mortality, as well as the incidence of specific cancers, including brain, colon and rectal, kidney, lung, melanoma skin, non-Hodgkin lymphoma, pancreatic, prostate, testicular, thyroid, and urinary bladder cancers, along with any other cancers deemed appropriate by the Secretary. The study will use available data from the Department of Veterans Affairs, the Department of Defense, the National Death Index, and a prior study conducted under the Fiscal Year 2021 National Defense Authorization Act.\n\nUpon completion, the National Academies must submit a report of the study's results to the Secretary and the House and Senate Veterans' Affairs Committees. The Act defines a covered individual as someone who served on active duty in the Army, Navy, Air Force, or Marine Corps as an aircrew member of a fixed-wing aircraft, such as a pilot, navigator, or other regular crew member. The Act was approved on August 14, 2025.",
+  "prompt_tokens": 1286,
+  "completion_tokens": 1184,
+  "total_tokens": 2470,
+  "cost_usd": 0.004774,
+  "latency_s": 5.273,
+  "ok": true
+}

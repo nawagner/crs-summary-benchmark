@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-184",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The claims present (removal directive, notification dates) are consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the truncated summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill directs removal of US forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary references the War Powers Resolution but is cut off mid-sentence and never describes the bill's use of expedited procedures or the legal mechanism invoked."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the material rule-of-construction carve-outs (self-defense, intelligence sharing, assisting Israel, evacuating citizens)."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary fails to convey the 60-day War Powers deadline (ending May 1, 2026) as the sentence is truncated."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off mid-sentence and misses the core operative directive details and exceptions, leaving major provisions uncovered."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('Under the War Powers Resolution,'), making it incomplete and not internally coherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text is free of padding and filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named entities (Iran, War Powers Resolution, President, Congress) are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates stated (March 2, 2026 and February 28, 2026) match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.049695,
+  "judge_latency_s": 9.62
+}

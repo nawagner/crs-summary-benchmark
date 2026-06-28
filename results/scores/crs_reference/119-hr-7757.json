@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hr-7757",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately summarizes the major minor-safety duties (obscenity filtering, parental controls, AI-chatbot disclosures, FTC/state-AG enforcement) of a large bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the one-third sexual-content threshold."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all major titles at an appropriate high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FTC and state AGs correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The one-third threshold is correctly stated."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

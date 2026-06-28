@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-153",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurately reference the War Powers Resolution and expedited procedures."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; references to existing law are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of directing removal of U.S. forces from unauthorized hostilities against Cuba."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes invocation of expedited procedures under prior law and the War Powers Resolution framework."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the rule-of-construction exceptions for self-defense and counternarcotics operations."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines, and the summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the directive to remove forces, findings, and rule of construction—the essential operative effects."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Avoids padding and filler while remaining complete."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the War Powers Resolution, Coast Guard, and Congress."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no specific dollar amounts, dates, or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.045005,
+  "judge_latency_s": 7.357
+}

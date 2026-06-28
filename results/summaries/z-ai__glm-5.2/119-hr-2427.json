@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2427",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Stop Disaster Price Gouging Act (H.R. 2427) prohibits price gouging during a Presidentially declared major disaster or emergency under the Robert T. Stafford Disaster Relief and Emergency Assistance Act. \n\nFor 30 days following a declaration, the bill bars increasing the price of essential consumer goods and services, hotel lodging, and residential rental properties by more than 10 percent above the price charged the day before the declaration. For repair or reconstruction services, this 10 percent cap applies for 180 days. Additionally, for 30 days, sellers cannot charge a price for these goods and services that exceeds 50 percent of their cost if they did not charge that price prior to the declaration.\n\nExceptions apply if price increases are directly attributable to additional supplier or labor costs (with a customary markup limit), tariffs, or national trade policies. Seasonal hotel rate adjustments and certain rental rate increases due to specific repair costs or prior contractual agreements are also exempt.\n\nThe Federal Trade Commission (FTC) is authorized to enforce these provisions as unfair or deceptive acts under the FTC Act. State attorneys general may bring civil actions on behalf of residents, provided they notify the FTC, which may intervene. A private right of action allows injured individuals to sue for injunctions or actual monetary damages within two years of discovering the violation. Courts may award treble damages for willful violations and must award costs and attorney's fees to prevailing plaintiffs.\n\nCivil penalties are capped at $25,000 per violation, with a maximum total liability of $25,000 for related acts, subject to",
+  "prompt_tokens": 2514,
+  "completion_tokens": 1500,
+  "total_tokens": 4014,
+  "cost_usd": 0.006888,
+  "latency_s": 8.944,
+  "ok": true
+}

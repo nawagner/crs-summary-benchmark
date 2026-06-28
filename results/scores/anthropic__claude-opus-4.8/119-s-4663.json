@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4663",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text and accurately reflect its provisions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; all details match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of appropriating funds for block grants for freeze-related agricultural losses."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a standalone appropriation and does not amend existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the county designation limit, the State request condition, and multi-year crop compensation requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the FY 2027 availability, funds remaining until expended, and the 120-day/quarterly reporting deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the appropriation, block grants, conditions, reporting, and emergency designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concise with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Secretary of Agriculture, Appropriations Committees, sponsors, and the cited statute."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($3.5 billion, dates, 120 days) are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.045,
+  "judge_latency_s": 8.485
+}

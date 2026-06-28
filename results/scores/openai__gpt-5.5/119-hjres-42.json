@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-42",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text; the 'Congressional Review Act' is the correct popular name for chapter 8 of title 5 cited in the resolution."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; naming the Congressional Review Act is accurate context, not a hallucination."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution disapproves the specified DOE appliance standards rule and renders it without force or effect."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the action as nullifying a specific DOE rule and notes it does not amend other statutory text."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution contains no material exceptions or conditions; it simply disapproves the rule."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes approval on May 9, 2025, and that no additional effective dates are specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the resolution's sole operative effect: disapproving the rule so it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding, though slightly repeats the rule title."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Energy, the Congressional Review Act, and the rule title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register citation (89 Fed. Reg. 81994), October 9, 2024, and May 9, 2025 approval date all match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.137145,
+  "judge_latency_s": 12.074
+}

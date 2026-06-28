@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-171",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate context (Sen. Andy Kim, Foreign Relations referral, War Powers framework)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the sponsor, date, committee, and operative provisions all match the bill and verified records."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill directs removal of U.S. Armed Forces from unauthorized hostilities within or against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly invokes the War Powers Resolution and the expedited-procedure statutes (Section 1013 and Section 601(b)) the bill relies on."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the rule-of-construction carve-outs (self-defense, intelligence sharing, defensive assistance to Israel, evacuation) and the declaration/authorization exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the introduction date and that no separate effective date is specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the operative directive, findings, expedited procedures, and rule of construction—the bill's essential effects."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral, attributing characterizations (e.g. 'war') to the findings without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Sen. Kim, the Committee on Foreign Relations, and the named statutes are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The figures (13 killed, at least 350 wounded, April 10/13, 2026 dates) match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.189805,
+  "judge_latency_s": 13.505
+}

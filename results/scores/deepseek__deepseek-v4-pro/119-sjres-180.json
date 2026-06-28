@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-180",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or are accurate context (50 U.S.C. 1546a / Section 1013 verified as correctly described)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the statutory citation and expedited-procedure context are accurate and consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution directs removal of U.S. forces from unauthorized hostilities within or against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the statutory mechanism (Section 1013/50 U.S.C. 1546a) the resolution invokes; the bill amends no law but the relevant statutory basis is described."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately covers the rule-of-construction carve-outs for self-defense, intelligence sharing, defensive assistance, and evacuation."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or deadline, which the summary correctly notes."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the core directive, the statutory basis, key findings, and all exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tone is neutral and descriptive, reporting findings and directives without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, moving from directive to basis to exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding or repetition while covering the essential content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the statute, codification, Operation Epic Fury, and Trump Administration as in the bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The February 28, 2026 date and 1984/1985 statutory year are stated correctly; no figures are misstated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.16156,
+  "judge_latency_s": 14.078
+}

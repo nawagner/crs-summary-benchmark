@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · CRS Summary Benchmark</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CRS Summary Benchmark</a>
+      <small>Frontier LLMs vs. real Congressional Research Service summaries</small></div>
+    <nav class="site">
+      <a href="index.html">Leaderboard</a>
+      <a href="bills.html">Bills</a>
+      <a href="methodology.html" class="active">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<main><div class="wrap" id="methodology">
+  <h1>Methodology</h1>
+  <p class="lede">The goal is transparency. Everything the CRS testimony left unstated — which bills, which
+  models, which prompts, and how summaries were graded — is fixed here and published in full.</p>
+
+  <h2>1. The baseline: real CRS summaries</h2>
+  <div class="card">CRS legislative analysts write the official plain-language summaries served by the
+  <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a>. We collect bills from
+  the 119th Congress that have both a CRS summary and retrievable full text. The bill text is the input given
+  to models; the CRS summary is the human reference. Crucially, the CRS summaries are <strong>also graded</strong>
+  on the identical criteria (shown as the <em>CRS (human)</em> row) — a calibration check on the judge.</div>
+
+  <h2>2. Models under test</h2>
+  <div class="card">Each model receives the same neutral summarization prompt and the bill text, with no
+  CRS-specific coaching. Models tested: <span id="m-models">…</span>. All are called through OpenRouter.</div>
+
+  <h2>3. The grading rubric — binary criteria</h2>
+  <p class="lede">A summary "meets the CRS standard" only if it passes <strong>every applicable</strong> criterion.
+  Criteria marked <em>conditional</em> are auto-passed when the judge decides they don't apply to a given bill
+  (e.g. a bill with no dollar figures isn't penalized on <code>correct_figures</code>).</p>
+  <div class="card"><ul class="crit-list" id="m-criteria">…</ul></div>
+
+  <h2>4. The judge</h2>
+  <div class="card">A single strong model, <span id="m-judge">…</span>, scores each summary against the bill
+  text (the ground truth) and returns a pass/fail plus a one-line reason per criterion.
+  <p><strong>Known limitation — self-preference.</strong> This judge (Opus 4.8) is also one of the contestants,
+  so some bias toward the Claude summaries is possible. The grading of the human CRS summaries on the same
+  rubric is the safeguard: if the judge were badly miscalibrated, the human baseline would not score sensibly.
+  The judge is a single configuration line to swap, and a multi-judge panel is a natural extension.</p>
+  <p style="margin-bottom:0"><strong>Disclosure — judge access path.</strong> Of the 300 judgments, the 250
+  model summaries and 6 of the CRS summaries were graded by <code>anthropic/claude-opus-4.8</code> via OpenRouter
+  with the web plugin. The OpenRouter account's credits were exhausted mid-run, so the remaining 44 CRS-baseline
+  summaries were graded by the same model (Opus 4.8) running in Claude Code with live web search — same model and
+  same web-verified-context method, a different access path. Minor judge-instance variation is therefore possible
+  for the CRS row; the per-bill verdicts and reasons are published so anyone can check them.</p></div>
+
+  <h2>5. Prompts (verbatim)</h2>
+  <h3 style="font-size:16px;margin-bottom:6px">Summarization prompt</h3>
+  <pre id="m-summarize">…</pre>
+  <h3 style="font-size:16px;margin:18px 0 6px">Judge prompt</h3>
+  <pre id="m-judge-prompt">…</pre>
+
+  <h2>6. Reproduce it</h2>
+  <div class="card">The full pipeline is open source:
+  <code>fetch_bills.py</code> → <code>run_models.py</code> → <code>evaluate.py</code> → <code>report.py</code>.
+  The criteria live in an editable <code>criteria.yaml</code>; models and the judge live in <code>config.yaml</code>.
+  See the <a href="https://github.com/nawagner/crs-summary-benchmark" target="_blank" rel="noopener">repository</a>
+  for setup and the raw per-bill results.</div>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  Open source · <a href="https://github.com/nawagner/crs-summary-benchmark" target="_blank" rel="noopener">source &amp; data on GitHub</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>initMethodology();</script>
+</body>
+</html>

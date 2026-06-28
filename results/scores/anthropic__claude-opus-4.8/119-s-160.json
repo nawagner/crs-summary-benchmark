@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-160",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and contextual details (PL number, statute amended) are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all statements align with the bill text and accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and modifies DoD authority to sell aircraft for wildfire suppression."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the amended statute and describes the specific changes made."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the use restriction limiting aircraft to wildfire suppression services."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the authority period begins June 12, 2025 and ends October 1, 2035."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the water addition, use restriction, cross-reference fix, and new period."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Defense and the Wildfire Suppression Aircraft Transfer Act of 1996."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates (June 12, 2025; October 1, 2035; April 8; June 3) are all accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.04367,
+  "judge_latency_s": 7.286
+}

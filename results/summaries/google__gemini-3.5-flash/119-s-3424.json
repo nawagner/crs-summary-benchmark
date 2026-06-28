@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Bankruptcy Administration Improvement Act of 2025 modifies the compensation of Chapter 7 bankruptcy trustees, adjusts bankruptcy fees to support the self-funded bankruptcy system, and extends the terms of several temporary bankruptcy judgeships. \n\nTo increase trustee compensation, the Act amends existing law to raise the",
+  "prompt_tokens": 3304,
+  "completion_tokens": 1496,
+  "total_tokens": 4800,
+  "cost_usd": 0.01842,
+  "latency_s": 7.119,
+  "ok": true
+}

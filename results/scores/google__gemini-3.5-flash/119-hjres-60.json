@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-60",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verifiable context: NPS/Interior rule, 90 Fed. Reg. 2621, CRA under chapter 8 of title 5, and enactment date are all correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (CRA governs congressional review of agency rulemaking) is accurate and nothing is fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose: congressional disapproval nullifying the NPS Glen Canyon motor vehicles rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes the CRA mechanism and that the rule is stripped of force or effect under chapter 8 of title 5."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution contains no material exceptions or conditions, so none need be summarized."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the May 23, 2025 enactment and that there are no future deadlines; passage dates are accurately stated."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect—disapproval and nullification of the named rule."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and contains no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact with no significant padding for a one-sentence resolution."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the National Park Service, Department of the Interior, the rule title, and the CRA."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register cite (90 Fed. Reg. 2621), enactment date, and House passage date are correct; Senate May 8 passage matches the record."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.144205,
+  "judge_latency_s": 13.609
+}

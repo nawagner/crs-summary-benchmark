@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 90, introduced on April 3, 2025, by Representative Bice, is a joint resolution that states congressional disapproval of a specific federal agency rule. The primary purpose of the resolution is to formally disapprove and invalidate the final guidance issued by the",
+  "prompt_tokens": 466,
+  "completion_tokens": 1496,
+  "total_tokens": 1962,
+  "cost_usd": 0.014163,
+  "latency_s": 7.582,
+  "ok": true
+}

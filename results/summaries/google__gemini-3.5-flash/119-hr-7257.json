@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Securing Community Upgrades for a Resilient Grid Act\" or the \"SECURE Grid Act\" (H.R. 7257) amends the Energy Policy and Conservation Act to require states to address the physical security, cybersecurity, and resilience of local distribution",
+  "prompt_tokens": 2007,
+  "completion_tokens": 1496,
+  "total_tokens": 3503,
+  "cost_usd": 0.016474,
+  "latency_s": 6.944,
+  "ok": true
+}

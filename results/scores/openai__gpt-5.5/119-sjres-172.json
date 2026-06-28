@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-172",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text or are accurate context about the War Powers Resolution framework and statutes cited."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; statutory references and findings are correctly reflected from the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the primary purpose: directing removal of U.S. forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the resolution invokes existing War Powers procedures (1013 of the State Authorization Act and 601(b) of ISAAECA) rather than amending them."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the key carve-outs in the rule of construction (self-defense, intelligence, partner defense, evacuation) and the authorization exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Bill specifies no effective date or deadline for removal; relevant dates (Feb 28, Apr 8) are noted accurately in the findings discussion."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the operative directive, findings, statutory basis, and rule of construction without misrepresentation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, non-partisan description of findings and provisions without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across the operative directive, findings, and exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the statutes, the War Powers Resolution, Strait of Hormuz, and Operation Epic Fury as stated in the bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates cited (February 28, 2026 and April 8, 2026) match the bill's findings."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.137935,
+  "judge_latency_s": 13.685
+}

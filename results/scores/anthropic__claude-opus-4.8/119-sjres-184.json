@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-184",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurate WPR context (60-day clock, 30-day extension, May 1 deadline)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual references to the WPR and cited statutes are correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of U.S. forces from unauthorized hostilities within or against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution directs presidential action under existing WPR procedures rather than amending or repealing statute."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary fully captures the rule-of-construction carve-outs (defense, intelligence, assistance to Israel, evacuation) and the authorization exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary notes the March 2, 2026 notification, Feb 28 initiation, May 1, 2026 deadline, and 30-day extension timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative removal directive, findings, expedited-procedure basis, and rule of construction."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, tracking the bill's structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the War Powers Resolution, the cited statutes, sponsors' subject matter, and Israel."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures (60 days, 30-day extension, March 2 and Feb 28 2026, May 1 2026) match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.17263,
+  "judge_latency_s": 12.091
+}

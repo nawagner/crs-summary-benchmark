@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-41",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the AECA section 36(c) context is accurate and verifiable."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the added context about section 36(c) requiring congressional notification is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution prohibits a specific proposed defense export to Israel."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This disapproval resolution does not amend, repeal, or add to existing law; it blocks a specific export."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the $1,000,000-or-more threshold and the end-user limitation, and accurately states there are no other exceptions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or deadline, and the summary correctly notes the absence of one."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect: prohibiting the export of 20,000 Colt carbines described in the transmittal."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the USML Category I, the AECA section 36(c), M.R.D. Efram Investments Ltd., and the Israel National Police."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures—$1,000,000, 20,000 rifles, 11.5-inch barrel, 5.56mm, March 24, 2025, Executive Communication 510—match the bill text."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15528,
+  "judge_latency_s": 12.561
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific Department of Energy rule on appliance standards. The rule, published in the Federal Register on October 9, 2024, addressed certification requirements, labeling requirements, and enforcement provisions for certain consumer products and commercial equipment under the Energy Conservation Program. Under the resolution, Congress formally disapproves the rule, and it will have no force or effect. The resolution was approved on May 9, 2025.",
+  "prompt_tokens": 451,
+  "completion_tokens": 89,
+  "total_tokens": 540,
+  "cost_usd": 0.000274,
+  "latency_s": 1.794,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7266",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the contextual claim that the Secretary is the Secretary of Energy is verified as correct (program administered by DOE)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the added context (Secretary of Energy) is accurate and consistent with DOE administration of the program."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as reauthorizing the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the bill amends/replaces Section 40124 of the Infrastructure Investment and Jobs Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes eligibility limits (e.g., investor-owned utilities under 4 million MWh), priority criteria, and the FOIA exemption carve-out."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the appropriations period of fiscal years 2026 through 2030."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures eligible entities, awards mechanism, objectives, priorities, information protection, and authorization amount."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately compact."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the IIJA, Section 40124, FOIA, the bulk-power system, and accurately identifies the Secretary of Energy."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 4,000,000 MWh threshold, $250,000,000 authorization, FY2026-2030 period, and six-entity partnership figure all match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.18927,
+  "judge_latency_s": 13.785
+}

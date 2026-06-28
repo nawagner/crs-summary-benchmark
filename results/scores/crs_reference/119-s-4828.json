@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-s-4828",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes reaffirming the Declaration of Independence as an organic law; the organic-law gloss is accurate context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative reaffirmation; findings are non-operative."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Declaration of Independence correctly referenced."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    }
+  },
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

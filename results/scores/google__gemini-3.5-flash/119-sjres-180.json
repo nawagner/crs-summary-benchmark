@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-180",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately states the bill's directive and correctly cites the War Powers Resolution and Department of State Authorization Act referenced in the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; cited statutes match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's primary purpose of removing U.S. Armed Forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a War Powers directive that does not amend or repeal existing law, so this criterion is not applicable."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary notes the key condition that hostilities unauthorized by Congress must end unless authorized, though it does not detail the rule-of-construction carve-outs, which is acceptable for a high-level summary."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates, deadlines, or sunsets to summarize."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the core operative effect of directing removal of forces, though it is cut off mid-sentence and omits the defensive-action exceptions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence ('Fiscal Years 1984'), leaving it incomplete and not reading clearly to conclusion."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary contains no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The War Powers Resolution and Department of State Authorization Act are correctly identified as in the bill text."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no dollar amounts, dates, or quantities to verify."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.049305,
+  "judge_latency_s": 9.476
+}

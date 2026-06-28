@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-47 (Senate Joint Resolution 80), approved on December 5, 2025, is a joint resolution of Congress that disapproves a rule submitted by the Bureau of Land Management (BLM) regarding the \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.\" \n\nUnder the authority of Chapter 8 of Title 5 of the United States Code, also known as the Congressional Review Act, the resolution declares that this specific BLM rule shall have no force or effect. \n\nThe rule in question was originally issued by the Bureau of Land Management on April 25,",
+  "prompt_tokens": 526,
+  "completion_tokens": 1496,
+  "total_tokens": 2022,
+  "cost_usd": 0.014253,
+  "latency_s": 6.619,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hr-2427",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the price-gouging prohibition (10% cap; 30/180-day windows; 50%-over-cost rule), FTC enforcement, and state/private rights of action."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Stafford Act / FTC context is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the bill prohibits disaster price gouging."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Frames the prohibition as an unfair/deceptive practice enforced by the FTC."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the exceptions, including for higher costs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the 30-day and 180-day windows."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers prohibition, enforcement, penalties, and rights of action."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FTC correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "10%, 30/180 days, 50%, and 2-year limit match the text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

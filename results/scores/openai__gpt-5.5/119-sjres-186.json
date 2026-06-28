@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-186",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the contextual description of Fourteenth Amendment Section 2 is factually accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context about Section 2 addressing reduced congressional representation for denying male inhabitants the vote is verified and correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as a proposed constitutional amendment establishing a fundamental right to vote."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the repeal of the 'or other crime' phrase from Section 2 of the Fourteenth Amendment and accurately explains that provision."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the compelling-interest/least-restrictive-means standard governing denial or abridgment of the right to vote."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the ratification requirement of two-thirds of Congress and three-fourths of state legislatures."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all four sections: the right to vote, strict scrutiny standard, the repeal, and the congressional enforcement power."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Fourteenth Amendment, Congress, and the states' role in ratification."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The two-thirds and three-fourths ratification thresholds match the bill and the Constitution."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14516,
+  "judge_latency_s": 16.842
+}

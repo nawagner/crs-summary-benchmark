@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2695",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context (BCOR program, Section 547, 42 U.S.C. 290ee-2(f), CARA-authorized); the $5M/FY2019-2023 and $17M figures match the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the program-name and statutory context are accurate, and figures align with the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is to reauthorize and increase funding for grants for building communities of recovery by amending the Public Health Service Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f)) and the strike-and-replace of the appropriation language."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple appropriations reauthorization with no material exceptions, conditions, or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary references the fiscal-year authorization period but is truncated ('202') and fails to complete the FY2026-2030 timeframe stated in the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect—replacing the prior $5M/FY2019-2023 authorization with a $17M authorization for new fiscal years."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('each fiscal year from 202'), leaving it incomplete and not reading cleanly to a conclusion."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the sponsors (Pettersen, Nunn), the Act title, the Public Health Service Act, and the correct U.S. Code citation."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $5,000,000 figure and FY2019-2023 period are correct, as is the $17,000,000 amount; the new fiscal-year range is cut off but no stated figure is misstated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.15063,
+  "judge_latency_s": 15.734
+}

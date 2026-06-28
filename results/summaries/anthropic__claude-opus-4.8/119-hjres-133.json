@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution requests that the Secretary of the Interior authorize special, one-time arrangements for displays on the National Mall and the Washington Monument to help launch celebrations of the 250th anniversary (semiquincentennial) of the United States' founding.\n\nThe resolution's preamble recounts the historical context, including the adoption of the Declaration of Independence on July 4, 1776, the upcoming 250th anniversary on July 4, 2026, the creation of the United States Semiquincentennial Commission under the 2016 Commission Act, and prior precedents such as the 1976 bicentennial lighting of capital monuments and the 2019 Apollo 11 50th anniversary commemoration that projected footage onto the Washington Monument.\n\nSpecifically, the resolution requests that the Secretary of the Interior authorize unique and one-time arrangements for displaying semiquincentennial materials and other significant artifacts, digital content, film footage, and associated audio and imagery in and around the National Mall, including projection onto the surface of the Washington Monument, for five nights of public display during the period from December 31, 2025, through January 5, 2026.\n\nThe resolution also requests that the Clerk of the House of Representatives transmit an enrolled copy of the resolution to the Secretary of the Interior and to the Chair of the United States Semiquincentennial Commission.\n\nThis measure is a request rather than a mandate; it expresses Congress's wishes but does not by its terms compel the Secretary to act or create new legal authority. It was passed by the House on November 18, 2025, by the Senate on November 20, 2025, and approved on December 2, 2025, as Public Law 119-46.",
+  "prompt_tokens": 1830,
+  "completion_tokens": 542,
+  "total_tokens": 2372,
+  "cost_usd": 0.0227,
+  "latency_s": 6.747,
+  "ok": true
+}

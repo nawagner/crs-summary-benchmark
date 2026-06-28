@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-133",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and contextual facts are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; details align with the resolution."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the request to authorize displays for the 250th anniversary celebration."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This is a non-binding request resolution that does not amend or repeal existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the unique, one-time nature and the limited time period of the arrangements."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the Dec 31, 2025–Jan 5, 2026 period and the Dec 2, 2025 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both the display request and the transmittal directive to the Clerk."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent despite a minor typo ('toauthorize')."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Secretary of the Interior, Clerk of the House, and the Semiquincentennial Commission Chair."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Five nights, the date range, and approval date are all accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.046385,
+  "judge_latency_s": 8.566
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-s-201",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the VA–National Academies study on aircrew cancer prevalence/mortality."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "No material substantive exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the bill's 30-day and 60-day statutory deadlines and the report/briefing requirement if the VA fails to act."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the core study mandate (the omitted procedural deadlines are dinged under effective dates)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "VA and the National Academies correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

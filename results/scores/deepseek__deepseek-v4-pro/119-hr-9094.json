@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-9094",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the USDA/Secretary of Agriculture context is verifiably accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the Treasury general fund and one-time emergency characterization are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill appropriates $3.5 billion for USDA block grants to states for freeze-related crop losses."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a standalone appropriation that does not amend existing law, which the summary correctly notes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the key limitation to counties in the March 4, 2026 disaster designation and the state-request requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the FY ending September 30, 2027, funds available until expended, and the 120-day/quarterly reporting timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures appropriation amount, block-grant mechanism, covered losses, county limitation, state request, reporting, and emergency designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive without advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across its paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering all key elements."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies USDA, Secretary of Agriculture, and House/Senate Appropriations Committees."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $3.5 billion, March 4, 2026 date, 120-day deadline, and FY 2027 end date all match the bill."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.13856,
+  "judge_latency_s": 12.683
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Energy Threat Analysis Center Act of 2026 amends the Infrastructure Investment and Jobs Act to reauthorize and expand the Department of Energy's Energy Sector Operational Support for Cyberresilience Program. The bill reauthorizes the program for fiscal years 2027 through 2031, replacing the prior authorization period of 2022 through 2026.\n\nThe bill broadens the program's purpose to strengthen the collective defense, response, and resilience of the U.S. energy sector. It directs enhanced collaboration between the government and the energy sector to analyze threats, exchange classified and unclassified information, collectively analyze potential and realized threats, and share actionable mitigation recommendations. It also calls for establishing technical infrastructure to support advanced analytics, experimentation, alerts, and collaboration on threat data, as well as advancing understanding of national security risks, vulnerabilities, and threat actor tactics targeting the energy sector.\n\nThe Secretary of Energy may carry out program activities through an Energy Threat Analysis Center at one or more physical locations. The bill specifies that the provision of assistance or information to any governmental or private entity is at the sole and unreviewable discretion of the Secretary and does not create a right or benefit for any other entity to receive similar assistance or information.\n\nThe program is exempted from the Federal Advisory Committee Act. Information shared under the program is deemed voluntarily shared and is exempt from disclosure under the Freedom of Information Act and any state, tribal, or local disclosure laws. The Secretary is granted authority to enter into contracts, cooperative agreements, grants, and other transactions with public and private entities, and may use pre-approved national security contracting mechanisms, model partnership agreements, and expedited review procedures to minimize delays.",
+  "prompt_tokens": 1572,
+  "completion_tokens": 657,
+  "total_tokens": 2229,
+  "cost_usd": 0.003464,
+  "latency_s": 5.204,
+  "ok": true
+}

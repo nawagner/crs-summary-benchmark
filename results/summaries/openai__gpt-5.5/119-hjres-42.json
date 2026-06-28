@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, a Department of Energy rule titled “Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment,” published in the Federal Register on October 9, 2024, at 89 Fed. Reg. 81994.\n\nThe resolution provides that the rule has no force or effect. As a result, the Department of Energy rule concerning certification requirements, labeling requirements, and enforcement provisions for certain consumer products and commercial equipment is nullified. The resolution does not amend other statutory text, create replacement requirements, or specify additional exceptions, conditions, deadlines, or effective dates beyond its approval on May 9, 2025.",
+  "prompt_tokens": 453,
+  "completion_tokens": 154,
+  "total_tokens": 607,
+  "cost_usd": 0.006885,
+  "latency_s": 3.153,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2866",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the contextual claims (IHRA definition adopted May 26, 2016, used by the State Department; F/M visas are student visas; INA citation) are factually correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; calling F/M visas 'student visas' and the IHRA standard a 'working definition' used by State are accurate context, not hallucinations."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary clearly identifies the bill's purpose of revoking or denying student visas for those engaging in antisemitic conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary notes the bill amends INA section 214 to add a new provision barring grant/maintenance of F/M status and mandating revocation."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary correctly captures the two material conditions (prohibited conduct plus the foreign-policy-consequences determination under 237(a)(4)(C)(i))."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary notes the requirements apply to conduct occurring on or after the date of enactment, matching the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary captures both the Section 2 revocation/denial mandate and the Section 3 INA amendment, the bill's essential operative effects."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is appropriately concise without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Secretary of State, Department of State, IHRA, and INA section 237(a)(4)(C)(i) are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure—the May 26, 2016 IHRA adoption date and the date-of-enactment trigger—are stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1672,
+  "judge_latency_s": 14.299
+}

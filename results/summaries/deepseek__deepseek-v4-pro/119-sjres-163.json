@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against Iran unless Congress has declared war or enacted a specific authorization for the use of military force. It finds that Congress has not taken either of those actions and that the use of military force against Iran triggers the War Powers Resolution.\n\nThe resolution requires the President to withdraw U.S. forces from such hostilities, but it includes several important exceptions. It does not prevent the United States from defending against an attack on the United States or its personnel and facilities in other nations. It also permits the United States to collect, analyze, and share intelligence related to defense from threats by Iran or its proxies, including with partner countries attacked by Iran since February 28, 2026, and with other nations and international organizations. Additionally, the resolution allows the United States to assist partner countries attacked by Iran since that date by helping intercept retaliatory attacks on their territory and by providing defensive materiel support for those defensive measures.\n\nThe resolution relies on existing expedited procedures under the Department of State Authorization Act and the International Security Assistance and Arms Export Control Act of 1976 for consideration of measures requiring the removal of forces from hostilities without congressional authorization. The bill does not specify an effective date beyond its enactment.",
+  "prompt_tokens": 926,
+  "completion_tokens": 253,
+  "total_tokens": 1179,
+  "cost_usd": 0.000623,
+  "latency_s": 3.378,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hr-8884",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurate account of reauthorizing SSDI demonstration authority through 2031 with income-protection, funding, and reporting changes."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes voluntary participation and the no-income-reduction condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 2022 expiration and reauthorization through 2031."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the 120-vs-90-day reporting change and funding source."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "SSA correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

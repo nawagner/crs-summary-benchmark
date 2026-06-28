@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-35",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context; the rule was published Nov. 18, 2024 (89 Fed. Reg. 91094) and the resolution disapproves it under chapter 8 of title 5."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details either appear in the bill text or are accurate context (CRA, EPA administering the WEC rule)."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution's purpose is to nullify the specified EPA waste emissions charge rule via congressional disapproval."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains that the disapproval renders the EPA rule with no force or effect, preventing its implementation or enforcement."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This one-sentence disapproval resolution contains no material exceptions, conditions, or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes House passage Feb. 26, Senate passage Feb. 27, and approval/enactment on March 14, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect: Congress disapproves the rule and it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding, though it accurately restates the rule title and dates."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "EPA, the rule title, the Federal Register citation, and chapter 8 of title 5 are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Federal Register publication date and all passage/approval dates are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.160255,
+  "judge_latency_s": 14.143
+}

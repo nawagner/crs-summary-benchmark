@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-180",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the contextual references (Section 1013, War Powers Resolution, Section 601(b)) are factually correct and verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the sponsor, statutes, dates, and casualty figures all match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of directing removal of U.S. Armed Forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the invocation of Section 1013 and Section 601(b) expedited procedures, though this resolution directs action rather than amending statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately captures the rule-of-construction carve-outs (self-defense, intelligence sharing, partner assistance, evacuation) and the declaration-of-war/AUMF exception."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no separate effective date and the summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative removal directive and the rule-of-construction exceptions faithfully."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, non-partisan reporting of findings and provisions with quoted findings attributed as findings."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, moving logically from purpose to findings to operative provisions to exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding or repetition while covering the essential content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Mr. Van Hollen, the War Powers Resolution, Section 1013, and Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates (Feb 28, March 2, April 8, 2026) and casualty figures (13 killed, 380 wounded) all match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.165485,
+  "judge_latency_s": 14.197
+}

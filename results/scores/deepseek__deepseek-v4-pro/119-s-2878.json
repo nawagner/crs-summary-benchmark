@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-2878",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context; the amendment, statute cited, and enactment date are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the five-year extension and statutory citation are correct and faithful to the text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill extends funding authorization for monitoring, assessing, and researching the Great Lakes Basin."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names section 201(d) of title II of division P of the Further Consolidated Appropriations Act, 2020, and describes the striking/inserting amendment."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple date-change reauthorization with no material exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the change took effect upon enactment on December 26, 2025, matching the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect—extending the authorization end date from 2025 to 2030."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Succinct with minimal repetition and no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The statute and bill title are named correctly; no entities are misidentified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The years 2025/2030, five-year extension, and enactment date are all stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.11453,
+  "judge_latency_s": 12.402
+}

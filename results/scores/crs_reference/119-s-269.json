@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-s-269",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurate, detailed account of making Treasury's access to SSA death records permanent and adding the clear-and-convincing evidence standard."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendment to SSA sec. 205(r)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the evidentiary requirement and correction-notification provisions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the permanence change from the 3-year requirement."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": ""
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Treasury, SSA, Do Not Pay, Death Master File correct."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": ""
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

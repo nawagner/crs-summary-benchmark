@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless those hostilities are explicitly authorized by a declaration of war or a specific authorization for the use of military force enacted by Congress.\n\nThe resolution states congressional findings that Congress has the constitutional power to declare war, while the President has responsibility to defend the United States and its territories, possessions, citizens, servicemembers, and diplomats from attack. It finds that Congress has not declared war on Iran or on any person or organization within Iran, and has not enacted a specific statutory authorization for the use of military force within or against Iran. It further states that using military force within or against Iran constitutes introducing U.S. Armed Forces into hostilities under the War Powers Resolution.\n\nThe resolution invokes existing statutory procedures under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976, which provide expedited consideration for measures requiring removal of U.S. forces from hostilities lacking a declaration of war or specific statutory authorization.\n\nThe resolution includes exceptions specifying that it should not be construed to prevent the United States from defending against attacks on the United States or its personnel or facilities in other countries; collecting, analyzing, or sharing intelligence related to defense from threats from Iran or its proxies, including with certain partner countries, other nations, and international organizations; or assisting partner countries attacked by Iran since February 28, 2026, and other nations in intercepting retaliatory attacks by Iran or its proxies or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 929,
+  "completion_tokens": 434,
+  "total_tokens": 1363,
+  "cost_usd": 0.017665,
+  "latency_s": 6.577,
+  "ok": true
+}

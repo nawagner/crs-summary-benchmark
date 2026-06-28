@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities \"within or against\" the Islamic Republic of Iran that Congress has not authorized.\n\nThe resolution begins with findings asserting that Congress holds the sole constitutional power to declare war, that Congress has neither declared war on Iran nor enacted a specific authorization for using military force there, and that current U.S. military action constitutes the introduction of armed forces into hostilities under Section 4(a) of the War Powers Resolution. The findings quote statements from President Trump, Secretary of State Rubio, and Secretary of Defense Hegseth in early 2026 characterizing the operation as a \"war,\" and state that as of April 10, 2026, 13 U.S. servicemembers had been killed and at least 350 wounded.\n\nThe operative section directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless such action is explicitly authorized by a declaration of war or a specific authorization for the use of military force. The resolution invokes expedited congressional consideration procedures provided under Section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution includes a rule of construction stating that nothing in it prevents the United States from: defending against an attack on the United States or its personnel and facilities abroad; collecting, analyzing, or sharing intelligence (including with Israel and U.S. partners and allies) related to threats from Iran or its proxies; assisting Israel and other nations in defensive measures against retaliatory attacks by Iran or its proxies, including providing defensive materiel; or providing assistance for the security, departure, and evacuation of U.S. citizens affected by the hostilities.\n\nThe resolution was introduced by Senator Kim on April 13, 2026, and referred to the Committee on Foreign Relations. It specifies no separate effective date.",
+  "prompt_tokens": 2239,
+  "completion_tokens": 647,
+  "total_tokens": 2886,
+  "cost_usd": 0.02737,
+  "latency_s": 7.459,
+  "ok": true
+}

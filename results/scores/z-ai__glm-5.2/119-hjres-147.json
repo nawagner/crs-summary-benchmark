@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-147",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context: EO 14323 was issued July 30, 2025, declaring a national emergency to impose duties on Brazilian imports, terminated under NEA section 202."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the summary tracks the bill and adds no false context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose as terminating the Brazil-related national emergency."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites the National Emergencies Act section 202 (50 U.S.C. 1622) as the operative authority for termination."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple one-sentence termination with no exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines, and the summary correctly notes the absence of delayed dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect: terminating the declared national emergency."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is brief and free of padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Executive Order 14323, the National Emergencies Act section 202, and 50 U.S.C. 1622."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The stated date (July 30, 2025) and citation match the bill text and verified record."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14045,
+  "judge_latency_s": 12.964
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-201",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The ACES Act of 2025 directs the Secretary of Veterans Affairs to seek an agreement with the National Academies of Sciences, Engineering, and Medicine to conduct a study on cancer prevalence and mortality among military aircrew members. \n\nUnder the Act, the Secretary must seek this agreement within 30 days of enactment and finalize it within 60 days of starting negotiations. If the Secretary fails to meet this 60-day deadline, they must submit an explanatory report and estimated completion date to the House and Senate Committees on Veterans' Affairs, followed by progress briefings at least every 60 days until the agreement is finalized.\n\nThe study will focus on \"covered individuals,\" defined as active duty veterans of the Army, Navy, Air Force, or Marine Corps who served as aircrew members of fixed",
+  "prompt_tokens": 1424,
+  "completion_tokens": 1496,
+  "total_tokens": 2920,
+  "cost_usd": 0.0156,
+  "latency_s": 6.776,
+  "ok": true
+}

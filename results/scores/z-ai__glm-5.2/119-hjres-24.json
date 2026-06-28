@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-24",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims—CRA disapproval, rule title/citation, DOE as agency, dates—match the bill text and verified record."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the Federal Register citation and legislative history are accurate and verifiable."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose is congressional disapproval of the DOE walk-in coolers/freezers rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains the resolution nullifies the DOE rule under chapter 8 of title 5 (the Congressional Review Act mechanism)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This simple CRA disapproval resolution contains no material exceptions or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes approval on May 9, 2025 and correctly states the rule's nullification took effect upon enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect: the disapproved rule shall have no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across purpose, effect, and legislative history."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding or repetition relative to the bill's simple content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Energy, the rule title, chapter 8 of title 5, and Public Law 119-7."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Federal Register citation (89 Fed. Reg. 104616, Dec. 23, 2024) and all legislative dates are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.22709,
+  "judge_latency_s": 15.403
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution (Public Law 119-6) provides for congressional disapproval of a Department of Energy rule regarding energy conservation standards for consumer gas-fired instantaneous water heaters. The primary purpose of the resolution is to nullify this specific rule, which was submitted by the Department of Energy and published in the Federal Register on December 26, 2024.\n\nUnder chapter 8 of title 5 of the United States Code, Congress has the authority to disapprove rules submitted by federal agencies. By enacting this resolution, Congress explicitly disapproves the Department of Energy's rule titled \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters.\" The resolution's major provision declares that the rule \"shall have no force or effect,\" effectively preventing the energy conservation standards outlined in the rule from being implemented or enforced.\n\nThe resolution was considered and passed by the House of Representatives on February 27, 2025, and by the Senate on April 9 and 10, 2025. It was approved by the President on May 9, 2025. The text contains no additional exceptions, conditions, or deadlines beyond the immediate nullification of the specified rule.",
+  "prompt_tokens": 447,
+  "completion_tokens": 951,
+  "total_tokens": 1398,
+  "cost_usd": 0.003278,
+  "latency_s": 11.461,
+  "ok": true
+}

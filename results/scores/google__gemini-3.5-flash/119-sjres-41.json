@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-41",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are consistent with the bill text and accurately describe the resolution's purpose."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims are present in the summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the purpose as disapproving and prohibiting a proposed defense export to Israel."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The bill invokes the Arms Export Control Act review mechanism (22 U.S.C. 2776(c)), but the summary omits this statutory basis."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits material conditions such as the $1,000,000-or-more threshold and the specific Category I firearms covered."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or timing provisions beyond introduction date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the essential operative detail of what is prohibited—20,000 Colt 5.56mm carbines for the Israel National Police under Transmittal No. DDTC 23-077."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and contains no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is brief and free of padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The named entities (Senate, Israel) are correct, though the summary names few specifics."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure stated, the March 27, 2025 introduction date, is correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.041285,
+  "judge_latency_s": 7.792
+}

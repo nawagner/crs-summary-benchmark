@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-2",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (DHS as administering department, statute citations) is correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; figures, programs, and exclusions match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as supplemental DHS appropriations for border security and immigration enforcement."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "References 287(g) agreements, information-sharing laws, and Public Law 119-21 consistent with the bill's references."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the processing coordinator restriction, surveillance tower restriction, tribal exemption, and release prohibition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Includes the September 30, 2029 availability and the October 31, 2028 hiring restriction date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all major appropriations across both titles with correct amounts and purposes."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Avoids padding and filler while covering key provisions."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CBP, ICE, HSI, DHS, and statutory references are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dollar amounts and dates ($9.55B, $7.45B, $108.5M, $3.45B, $13.02B, $31.075B, $350M, $2.5B, dates) match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.065755,
+  "judge_latency_s": 8.061
+}

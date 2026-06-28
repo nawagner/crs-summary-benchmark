@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4828",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately states the bill's title and core purpose to reaffirm the Declaration of Independence as an Organic Law."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the truncated summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's purpose to reaffirm and re-adopt the Declaration of Independence as an Organic Law."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill amends no statute; it reaffirms a foundational document, so this criterion does not apply."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or eligibility limits."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates, sunsets, or deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is cut off mid-sentence and omits the provision setting forth the full text of the Declaration in commemoration of the 250th anniversary."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('The bill's primary'), making it incomplete and not fully coherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary avoids padding and filler in the text provided."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The bill title, number (S. 4828), and the Declaration of Independence are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure stated (the year 2026 in the title) is correct."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.05936,
+  "judge_latency_s": 8.061
+}

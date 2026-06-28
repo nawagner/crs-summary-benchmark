@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2066",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The fragment correctly states the bill amends the Small Business Investment Act of 1958 to adjust leverage limits and exclusions for SBICs."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the truncated text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is an incomplete, cut-off fragment that trails off mid-sentence and includes editorial meta-text, failing to clearly deliver the purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "It names the statute amended but cuts off before describing the actual leverage limit changes and exclusions for rural, low-income, critical technology, and small manufacturer investments."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits all material conditions such as the 50 percent of private capital or $125,000,000 cap and prospective applicability."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "The bill specifies prospective applicability (investments made after enactment) but the summary omits this timing provision."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off before covering any of the bill's operative provisions, including the changed leverage caps and new exclusion categories."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary contains non-neutral editorial meta-commentary ('Let's refine the flow and ensure exactness') that is not appropriate summary content."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The text is incoherent, beginning with stray drafting notes and ending abruptly mid-sentence."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "It contains extraneous meta-text and an unterminated quotation rather than a clean concise summary."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Small Business Investment Act of 1958 and Small Business Investment Companies are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no figures, so this criterion does not apply."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 3,
+  "meets_standard": false,
+  "judge_cost_usd": 0.05168,
+  "judge_latency_s": 9.636
+}

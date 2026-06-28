@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-41",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and contextual claims about the AECA Section 36(c) review/disapproval process and DCS exports are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context about the Arms Export Control Act disapproval mechanism is accurate and verifiable, not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "It clearly states the bill is a joint resolution to disapprove a specific proposed defense export to Israel."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly identifies the resolution invokes the Arms Export Control Act's Section 36(c) disapproval authority to block the transaction."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It notes the key limit that the resolution addresses only this single export and contains no other provisions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or sunsets, and the summary correctly notes the absence of stated effective dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the sole operative effect: prohibiting the export described in Transmittal DDTC 23-077, including the 20,000 rifles to the named entity."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, logically structured, and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with minimal padding while providing useful context."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Transmittal No. DDTC 23-077, Section 36(c) of the AECA, M.R.D. Efram Investments Ltd., and the Israel National Police are all correctly named per the bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $1,000,000 threshold, 20,000 rifles, 11.5-inch barrel, 5.56mm caliber, and March 24, 2025 date all match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1641,
+  "judge_latency_s": 17.182
+}

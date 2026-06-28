@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-946",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text—added organizations, podiatric medicine integration, schools of pharmacy, and retroactive effective date are correctly described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all listed organizations appear in the bill text and amendment is to the Controlled Substances Act as stated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary clearly states the bill clarifies and expands training requirements for prescribers of controlled substances."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary correctly identifies the amendment of Section 303 of the Controlled Substances Act and the changes to recognized organizations and pathways."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a list-expansion amendment with no material exceptions or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary notes the retroactive effective date but is cut off mid-sentence before stating it takes effect as if enacted December 29, 2022."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary captures all essential operative effects: added organizations, podiatric medicine inclusion, schools of pharmacy, and retroactive effective date."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is well-organized and clear, though it ends abruptly mid-sentence on the effective date."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is focused and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named organizations and the Controlled Substances Act/Section 303 are correctly identified per the bill text."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary states no specific figures incorrectly; the effective date sentence is truncated before any date is stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.154045,
+  "judge_latency_s": 12.951
+}

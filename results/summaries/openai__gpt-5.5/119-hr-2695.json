@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill reauthorizes funding for the Building Communities of Recovery grant program under the Public Health Service Act.\n\nIt amends section 547(f) of the Public Health Service Act, which authorizes appropriations for grants to support building communities of recovery. Under current law, the authorization provided $5,000,000 for each of fiscal years 2019 through 2023. The bill replaces that expired authorization with a new authorization of $17,000,000 for each of fiscal years 2026 through 2030.\n\nThe bill does not make other changes to the grant program’s structure, eligibility rules, or requirements. It also does not specify a separate effective date, so the amendment would take effect under the general rules applicable to enacted legislation.",
+  "prompt_tokens": 434,
+  "completion_tokens": 268,
+  "total_tokens": 702,
+  "cost_usd": 0.01021,
+  "latency_s": 4.988,
+  "ok": true
+}

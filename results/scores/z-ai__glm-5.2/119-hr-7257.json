@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7257",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (EPCA Section 366/42 U.S.C. 6326, Secretary of Energy administering)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the Secretary of Energy and EPCA references are accurate context consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill requires states to address physical security, cybersecurity, and resilience of local distribution systems in their plans."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the bill as amending the Energy Policy and Conservation Act's State energy security plan provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the material carve-out that plan submissions do not require Secretary approval and the non-public annex for protected information."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the September 30, 2031 sunset and the September 30, 2030 GAO report deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the definition, stakeholder expansion, plan content revisions, may-to-shall change, sunset, and GAO report."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names EPCA, Secretary of Energy, Comptroller General, and the two committees."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 100 kilovolt threshold, 2031 sunset, and 2030 report deadline are all stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.18321,
+  "judge_latency_s": 12.863
+}

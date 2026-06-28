@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-147",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context: EO 14323 declared July 30, 2025, imposed duties on Brazilian imports, terminated via NEA section 202."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the NEA section 202 procedure and the emergency's purpose is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution terminates the national emergency underlying the Brazil import duties."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the National Emergencies Act (50 U.S.C. 1622) and the joint-resolution termination mechanism."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no exceptions or conditions, and the summary correctly notes their absence."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or sunset; summary correctly states termination occurs upon enactment with no delay."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect: terminating the declared national emergency under EO 14323."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding, though slightly repetitive in restating termination."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names EO 14323, the National Emergencies Act, and section 202 (50 U.S.C. 1622)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates and citations stated (July 30, 2025; section 202; 50 U.S.C. 1622) are all correct."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1425,
+  "judge_latency_s": 12.488
+}

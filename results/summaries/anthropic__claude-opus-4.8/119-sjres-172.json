@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced by Senator Warnock, directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.\n\nThe resolution invokes Congress's constitutional power to declare war and the War Powers Resolution. Its findings state that Congress has not declared war on Iran or enacted a specific authorization for the use of military force against it. The findings describe a series of events: the United States launched \"Operation Epic Fury\" against the Government of Iran on February 28, 2026; American service members were killed and wounded; the Islamic Revolutionary Guard Corps closed the Strait of Hormuz; the Department of Defense ordered additional forces to the region; and a ceasefire took effect on April 8, 2026, after which the United States announced a blockade of the Strait of Hormuz. The findings assert that this use of military force constitutes the introduction of U.S. Armed Forces into hostilities under the War Powers Resolution.\n\nSection 2 directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless such involvement is explicitly authorized by a declaration of war or a specific authorization for the use of military force. The resolution relies on expedited congressional procedures provided under existing law (50 U.S.C. 1546a and Public Law 94-329).\n\nSection 3 specifies that nothing in the resolution prevents the United States from: defending against attacks on the United States or its personnel and facilities abroad; collecting, analyzing, or sharing intelligence with partners and allies, including Israel, related to threats from Iran or its proxies; assisting partner countries attacked by Iran since February 28, 2026, by helping them take defensive measures or providing defensive materiel support; or providing assistance for the security and evacuation of U.S. citizens affected by the hostilities.\n\nThe resolution was read twice and referred to the Committee on Foreign Relations. It specifies no separate effective date.",
+  "prompt_tokens": 2228,
+  "completion_tokens": 645,
+  "total_tokens": 2873,
+  "cost_usd": 0.027265,
+  "latency_s": 7.694,
+  "ok": true
+}

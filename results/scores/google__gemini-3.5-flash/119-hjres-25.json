@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-25",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims (PL 119-5, H.J.Res.25, IRS rule title, Federal Register citation, chapter 8 of title 5) match the bill text and verified record."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; IRS attribution and CRA context are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as nullifying the specified IRS digital asset broker reporting rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the disapproval of the IRS rule under chapter 8 of title 5, though it omits the underlying section 6045/IIJA context."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This one-provision disapproval resolution contains no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution specifies no effective dates or deadlines beyond the rule's Federal Register publication date, which is included."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect—disapproval rendering the rule of no force or effect—though the sentence is cut off before fully stating it."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is abruptly truncated mid-sentence ('declares that the'), leaving it incomplete and broken."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or filler; tightly written."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IRS, the rule title, Federal Register citation, and chapter 8 of title 5 are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Federal Register page (106928), date (December 30, 2024), and law number are all correct."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.153505,
+  "judge_latency_s": 13.308
+}

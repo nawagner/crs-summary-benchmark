@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2427",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Stop Disaster Price Gouging Act\" (H.R. 2427) prohibits price gouging on essential goods and services during presidentially declared major disasters or emergencies. \n\nUnder the bill, sellers in declared disaster areas are prohibited from increasing prices by more than",
+  "prompt_tokens": 2735,
+  "completion_tokens": 1496,
+  "total_tokens": 4231,
+  "cost_usd": 0.017566,
+  "latency_s": 7.392,
+  "ok": true
+}

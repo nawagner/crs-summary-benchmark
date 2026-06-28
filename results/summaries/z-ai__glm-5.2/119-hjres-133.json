@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution requests the Secretary of the Interior toauthorize unique, one-time arrangements for public displays on the National Mall and the Washington Monument to initiate the celebration of the 250th anniversary of the founding of the United States. \n\nUnder the resolution, Congress requests the Secretary to permit the display of United States semiquincentennial materials, significant artifacts, digital content, film footage, and associated audio and imagery in and around the vicinity of the National Mall. The authorization specifically includes projecting content onto the surface of the Washington Monument for five nights of public display. These arrangements are authorized for the period beginning on December 31, 2025, and ending on January 5, 2026. \n\nAdditionally, the resolution directs the Clerk of the House of Representatives to transmit an enrolled copy of the resolution to both the Secretary of the Interior and the Chair of the United States Semiquincentennial Commission. The resolution was approved on December 2, 2025.",
+  "prompt_tokens": 1117,
+  "completion_tokens": 950,
+  "total_tokens": 2067,
+  "cost_usd": 0.003911,
+  "latency_s": 4.965,
+  "ok": true
+}

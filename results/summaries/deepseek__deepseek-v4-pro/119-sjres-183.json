@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to withdraw United States Armed Forces from hostilities within or against Iran unless Congress has declared war or enacted a specific authorization for the use of military force. It invokes expedited congressional procedures under the War Powers Resolution and related statutes.\n\nThe resolution finds that the Constitution gives Congress the sole power to declare war, that no such declaration or specific statutory authorization exists for military action against Iran, and that the executive branch launched Operation Epic Fury on February 28, 2026, without congressional authorization or consultation. It notes that more than 50,000 U.S. troops were involved, that Iran and its proxies have struck U.S. diplomatic and military facilities, and that 13 U.S. service members have been killed and over 350 injured as of April 13, 2026. It also cites the deployment of additional forces, including Marines and an Army brigade combat team, and references rising global costs of oil, gas, fertilizer, and basic goods.\n\nThe operative section requires the President to remove U.S. forces from hostilities within or against Iran unless explicitly authorized by a declaration of war or a specific use-of-force authorization. It includes a rule of construction clarifying that the resolution does not prevent the United States from defending against an attack on itself or its personnel and facilities in other nations; collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies, including with Israel and other partners; or assisting Israel and other partner countries attacked by Iran since February 28, 2026, in directly defending against retaliatory attacks on their territories or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 1378,
+  "completion_tokens": 887,
+  "total_tokens": 2265,
+  "cost_usd": 0.001371,
+  "latency_s": 12.721,
+  "ok": true
+}

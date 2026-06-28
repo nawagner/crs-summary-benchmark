@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-133",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context; the resolution was approved December 2, 2025."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the non-binding nature and lack of new statutory authority are correct characterizations."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of requesting a one-time display on the National Mall and Washington Monument for the 250th anniversary."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution makes no change to existing law, and the summary correctly notes this."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the non-binding 'request' nature and the temporary, one-time, five-night limit."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the December 31, 2025–January 5, 2026 display window and the December 2, 2025 enactment date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both the display request and the transmittal request to the Clerk."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Secretary of the Interior, Clerk of the House, and Semiquincentennial Commission."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates and the five-night duration are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.04706,
+  "judge_latency_s": 7.593
+}

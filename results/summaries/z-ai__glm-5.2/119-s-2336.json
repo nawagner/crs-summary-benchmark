@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, cited as the \"Halting the Epidemic of Addiction and Loss Act of 2025,\" aims to ensure thatreferences to opioid overdose reversal agents in certain Department of Health and Human Services (HHS) grant programs are not limited to naloxone. \n\nUnder the legislation, the Secretary of HHS must ensure that whenever the Department issues a regulation or guidance for any grant program addressing opioid misuse and use disorders, any reference to an opioid overdose reversal drug is inclusive of any such drug approved by the Food and Drug Administration (FDA) under section 505 of the Federal Food, Drug, and Cosmetic Act for emergency treatment of a known or suspected opioid overdose.\n\nAdditionally, the bill requires the Secretary to update existing references in HHS regulations and guidance issued before the date of enactment. This update must be completed no later than one year after the Act's enactment. The updates must make the references inclusive of any opioid overdose reversal drug approved or otherwise authorized for use by the FDA. This requirement applies specifically to existing references in two grant programs: the State and Tribal response to opioid use disorders grant program (commonly known as State Opioid Response Grants and Tribal Opioid Response Grants) under the 21st Century Cures Act, and the grant program for priority substance use disorder prevention needs of regional and national significance under the Public Health Service Act.",
+  "prompt_tokens": 790,
+  "completion_tokens": 913,
+  "total_tokens": 1703,
+  "cost_usd": 0.003489,
+  "latency_s": 5.655,
+  "ok": true
+}

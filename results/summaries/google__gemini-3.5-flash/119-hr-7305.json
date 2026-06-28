@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Energy Threat Analysis Center Act of 2026 (H.R. 7305) amends the Infrastructure Investment and Jobs Act to reauthorize and expand the Department of Energy’s Energy Sector Operational Support for Cyberresilience Program. The bill extends the program's",
+  "prompt_tokens": 1770,
+  "completion_tokens": 1496,
+  "total_tokens": 3266,
+  "cost_usd": 0.016119,
+  "latency_s": 6.734,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-2, uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation issued by the Environmental Protection Agency (EPA).\n\nThe specific rule disapproved is titled \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions,\" which the EPA published in the Federal Register on November 18, 2024 (89 Fed. Reg. 91094). This rule established procedures related to a charge on waste emissions (such as methane) from petroleum and natural gas systems, including provisions for netting and exemptions.\n\nUnder the resolution, Congress formally disapproves of this rule, and the rule \"shall have no force or effect.\" This means the EPA regulation is nullified and cannot be implemented or enforced.\n\nThe resolution was passed by the House on February 26, 2025, passed by the Senate on February 27, 2025, and was approved (signed into law) on March 14, 2025. The law takes effect upon approval. The text contains no additional provisions, exceptions, or conditions beyond the disapproval of the identified rule.",
+  "prompt_tokens": 753,
+  "completion_tokens": 404,
+  "total_tokens": 1157,
+  "cost_usd": 0.013865,
+  "latency_s": 5.745,
+  "ok": true
+}

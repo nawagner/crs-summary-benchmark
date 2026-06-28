@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific Department of Energy rule that set new energy conservation standards for consumer gas-fired instantaneous water heaters. The rule, published in the Federal Register on December 26, 2024, is formally disapproved by Congress and will have no legal force or effect. The resolution was approved on May 9, 2025.",
+  "prompt_tokens": 440,
+  "completion_tokens": 71,
+  "total_tokens": 511,
+  "cost_usd": 0.000253,
+  "latency_s": 5.46,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-4079",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context; Section 546 of the PHS Act (42 U.S.C. 290ee-1) is the first responder training grant program and FDA is correctly the agency for drug approval/clearance."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (FDA, overdose-reversal drug program) is accurate and the 'opioid-to-overdose' expansion claim correctly reflects the striking of 'opioid' throughout."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as reauthorizing and modifying the first responder training grant program under Section 546 of the PHS Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the amended statute (Section 546 of the Public Health Service Act) and describes the substantive changes to drug-coverage language, scope, and funding."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a set of amendments without material new exceptions or eligibility carve-outs requiring mention."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the funding authorization period of fiscal years 2026 through 2030 and the introduction/referral dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative effects: broadened drug language, expansion beyond opioids, funding reauthorization, and the capitalization change."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, presenting changes in a logical, numbered structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition, appropriately matching the bill's scope."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Public Health Service Act, Section 546, the FDA, the House, and the Committee on Energy and Commerce."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the prior $36,000,000 (FY2019-2023) and new $57,000,000 (FY2026-2030) figures and the June 23, 2025 introduction date."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.191325,
+  "judge_latency_s": 14.419
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-35",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurate context (CRA authority, EPA rule, Federal Register citation, no amendment to underlying statute) is verified correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Congressional Review Act reference and statutory-context statements are accurate real-world context, not fabrications."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the resolution nullifies the EPA Waste Emissions Charge rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly explains the rule is voided and notes the underlying authorizing statute is not amended."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "A CRA disapproval resolution contains no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly states the resolution took effect upon approval on March 14, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the sole operative effect: disapproval and voiding of the specified rule."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "It is appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "EPA, the rule title, and the Congressional Review Act are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Federal Register citation (89 Fed. Reg. 91094), publication date, and approval date are all correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15735,
+  "judge_latency_s": 11.914
+}

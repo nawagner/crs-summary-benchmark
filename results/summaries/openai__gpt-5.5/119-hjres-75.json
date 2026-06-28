@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act (chapter 8 of title 5, United States Code), a Department of Energy rule issued by the Office of Energy Efficiency and Renewable Energy titled “Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers.”\n\nThe disapproved rule was published in the Federal Register on January 21, 2025, at 90 Fed. Reg. 7464. The resolution provides that the rule “shall have no force or effect,” meaning it is invalidated and may not be implemented or enforced.\n\nThe resolution was approved on May 9, 2025.",
+  "prompt_tokens": 465,
+  "completion_tokens": 209,
+  "total_tokens": 674,
+  "cost_usd": 0.008595,
+  "latency_s": 4.044,
+  "ok": true
+}

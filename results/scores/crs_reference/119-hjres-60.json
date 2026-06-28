@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hjres-60",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes nullifying the NPS Glen Canyon off-road vehicle rule; geography (AZ/UT, Lake Powell) and route details are accurate context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Specific routes (Poison Spring Loop, Flint Trail) are drawn from the rule, not invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it allows off-road vehicle use by nullifying the rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains the rule is nullified."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No exceptions in the resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "NPS correct."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No standalone figures requiring verification."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

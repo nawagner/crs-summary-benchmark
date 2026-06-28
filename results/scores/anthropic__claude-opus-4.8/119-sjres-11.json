@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-11",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context: BOEM, the rule title, 89 Fed. Reg. 71160, the CRA chapter 8 reference, and the dates are all correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The CRA characterization and 'treated as though it had never taken effect' description are accurate context, not fabrications."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill disapproves and nullifies the BOEM marine archaeological resources rule under the CRA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains the resolution nullifies a specific federal rule and identifies the CRA authority (chapter 8 of title 5) being used."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This one-sentence CRA disapproval resolution contains no material exceptions, conditions, or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately reports the Senate passage (Feb. 25), House passage (Mar. 6), and approval (Mar. 14, 2025) dates from the legislative history."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect—disapproving the rule so it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, moving from action to identification to mechanism to timeline."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately brief with minimal repetition for a short resolution, though the CRA mechanism is explained twice."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Bureau of Ocean Energy Management, the Congressional Review Act, and the rule title."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Federal Register citation (89 Fed. Reg. 71160), publication date, and all passage/approval dates are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.19133,
+  "judge_latency_s": 14.518
+}

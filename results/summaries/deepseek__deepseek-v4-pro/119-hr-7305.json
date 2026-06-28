@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, titled the Energy Threat Analysis Center Act of 2026, amends the Infrastructure Investment and Jobs Act to reauthorize and expand the Department of Energy’s Energy Sector Operational Support for Cyberresilience Program. Its primary purpose is to strengthen the collective defense, response, and resilience of the U.S. energy sector against cyber and other threats.\n\nThe legislation adds new objectives to the program, including enhancing government-industry collaboration to analyze threats, exchange classified and unclassified information, and provide actionable mitigation recommendations. It also aims to advance understanding of national security risks and adversary tactics, techniques, and procedures. To carry out these activities, the Secretary of Energy is authorized to establish an Energy Threat Analysis Center at one or more physical locations.\n\nSeveral provisions govern how the program operates. The Secretary has sole and unreviewable discretion to provide assistance or information, and such provision does not create any right or benefit for other entities to receive similar support. The program is explicitly exempt from the Federal Advisory Committee Act. Information shared by or with federal, state, tribal, or local governments under the program is deemed voluntarily shared and is exempt from disclosure under the Freedom of Information Act and any corresponding state, tribal, or local laws; it must be withheld from the public without discretion.\n\nThe bill grants the Secretary broad transaction authority, allowing contracts, cooperative agreements, grants, and other transactions with public agencies, private organizations, and individuals. To minimize delays, the Secretary may use pre-approved national security contracting mechanisms, model partnership agreements, and expedited review procedures. Finally, the measure extends the program’s funding authorization from fiscal years 2022 through 2026 to fiscal years 2027 through 2031.",
+  "prompt_tokens": 1594,
+  "completion_tokens": 1353,
+  "total_tokens": 2947,
+  "cost_usd": 0.001871,
+  "latency_s": 18.152,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-80",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate verifiable context (BLM ROD issued April 25, 2022; GAO opinion July 24, 2025; CRA substantially-similar bar)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The CRA identification, BLM as administering agency, and the substantially-similar reissuance bar are all accurate context, not fabrications."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill uses the CRA to nullify the BLM's NPR-A Integrated Activity Plan Record of Decision."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly explains the resolution voids the 2022 rule under the CRA and bars substantially similar reissuance."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It notes the key CRA condition that BLM may not issue a substantially similar rule without future statutory authorization."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly states the resolution took effect upon approval on December 5, 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the essential operative effect: disapproval of the rule so it has no force or effect, plus the reissuance bar."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is succinct with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "BLM, NPR-A, GAO, and the Congressional Review Act are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates stated (April 25, 2022; July 24, 2025; December 5, 2025) all match the record."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.213225,
+  "judge_latency_s": 14.32
+}

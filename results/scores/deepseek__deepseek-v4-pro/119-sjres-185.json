@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-185",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and the contextual descriptions of Section 1013 (50 U.S.C. 1546a) and Section 601(b) are verifiably accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the description of the cited statutes as providing expedited procedures is correct context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of U.S. Armed Forces from unauthorized hostilities within or against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill does not amend, repeal, or add to existing law; it invokes existing statutory authority, which the summary correctly notes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately captures the rule-of-construction carve-outs for self-defense, intelligence sharing, and assistance to attacked partners."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The bill specifies no fixed deadline, and the summary correctly notes there is no fixed deadline while referencing the Feb 28, 2026 date in the carve-outs."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the core removal directive and the rule-of-construction exceptions faithfully."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise without significant padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Section 1013 of the Department of State Authorization Act FY1984-1985 and Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The February 28, 2026 date and statutory year references are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.12737,
+  "judge_latency_s": 13.156
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-183",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and findings, including dates, casualty figures, and operative provisions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; describing the brigade combat team as Army is accurate context for the 82nd Airborne's 1st Brigade Combat Team."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution's purpose to direct removal of U.S. forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly invokes the War Powers Resolution and related expedited-procedure statutes that the bill relies upon."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately captures the rule-of-construction carve-outs for self-defense, intelligence, and defensive assistance to partners."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or sunsets to report."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the operative removal directive, the authorization exceptions, and the rule of construction faithfully."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral framing, attributing findings to the resolution without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across the operative directive, findings, and exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no notable padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the War Powers Resolution, Iran, Israel, Operation Epic Fury, and force types."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures (50,000 troops, 13 killed, 350+ injured, dates) match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.052135,
+  "judge_latency_s": 8.735
+}

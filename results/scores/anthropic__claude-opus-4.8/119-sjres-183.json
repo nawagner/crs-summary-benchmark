@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-183",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text, including findings, operative provisions, and rule of construction."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; all details trace to the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose of directing removal of U.S. Armed Forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the War Powers Resolution and the relevant expedited-procedure statutes invoked."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the rule-of-construction carve-outs and the declaration-of-war/AUMF exception."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or sunset for the operative directive."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the removal directive, findings, and rule of construction faithfully."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary reports findings neutrally without endorsing or criticizing them."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering essential content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Senator Booker, the War Powers Resolution, and cited statutes are all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 50,000 personnel, 13 killed, 350+ injured, and dates match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.051115,
+  "judge_latency_s": 11.166
+}

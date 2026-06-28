@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution (Public Law 119-47) provides for congressional disapproval under chapter 8 of title 5 of the United States Code, also known as the Congressional Review Act. The resolution targets a specific rule submitted by the Bureau of Land Management relating to the \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision,\" which was issued on April 25, 2022. \n\nThe resolution notes that a letter of opinion from the Government Accountability Office, dated July 24, 2025, concluded that this record of decision constitutes a rule under the Congressional Review Act. As a result of this resolution, Congress formally disapproves of the aforementioned rule. The primary provision of the law is that the rule shall have no force or effect, effectively nullifying it. \n\nThe joint resolution was considered and passed by the Senate on October 30, 2025, and by the House of Representatives on November 18, 2025. It was subsequently approved and became law on December 5, 2025.",
+  "prompt_tokens": 467,
+  "completion_tokens": 889,
+  "total_tokens": 1356,
+  "cost_usd": 0.003111,
+  "latency_s": 11.113,
+  "ok": true
+}

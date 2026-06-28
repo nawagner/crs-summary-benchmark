@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-183",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary's claims align with the bill text regarding removal of forces and lack of congressional authorization."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; content matches the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's purpose to remove U.S. forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off and fails to mention the War Powers Resolution framework and expedited procedures under which the directive operates."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the material Rule of Construction carve-outs (self-defense, intelligence sharing, defensive assistance to Israel and partners)."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines for removal."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence and omits the key Rule of Construction exceptions, a major operative component."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan in tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence at 'the ongoing \"Operation', making it incomplete and incoherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text present contains no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Entities named (President, Islamic Republic of Iran, Congress) are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no dollar amounts, dates, or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 6,
+  "meets_standard": false,
+  "judge_cost_usd": 0.049215,
+  "judge_latency_s": 8.398
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7266",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the added context that the Secretary is the Secretary of Energy administering the RMUC program is verified as correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only added context (Secretary of Energy / DOE administration) is accurate and verified; nothing is fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill reauthorizes and revises the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program under IIJA Section 40124."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies that the bill amends Section 40124 of the Infrastructure Investment and Jobs Act to reauthorize and revise the program."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures key eligibility limits (e.g., investor-owned utilities under 4M MWh, not-for-profits partnered with at least six entities) and the FOIA disclosure exemption."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly notes the FY2026-2030 authorization period; the bill specifies no other dates or deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It covers the program maintenance, objectives, eligible entities, award mechanisms, priority criteria, information protection, and appropriations."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, logically structured, and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately succinct without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Secretary (of Energy), IIJA Section 40124, the RMUC program, and the FOIA are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $250,000,000 figure, FY2026-2030 period, and 4,000,000 MWh threshold all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.208275,
+  "judge_latency_s": 13.635
+}

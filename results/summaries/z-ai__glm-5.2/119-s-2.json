@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Secure America Act, enacted on June 10, 2026, provides supplemental appropriations to the Department of Homeland Security for fiscal year 2026, with funds remaining available until September 30, 2029. The bill divides its funding between non-immigration enforcement functions and immigration enforcement functions.\n\nUnder Title I, the Act appropriates $9.55 billion to U.S. Customs and Border Protection (CBP) to hire, train, and equip Border Patrol agents for functions other than immigration and customs enforcement, with a restriction on hiring processing coordinators after October 31, 2028. It provides $7.45 billion to U.S. Immigration and Customs Enforcement (ICE) for Homeland Security Investigations (HSI) agents and operations, including $108.5 million for child exploitation investigations, explicitly excluding HSI's immigration and customs enforcement missions. An additional $3.45 billion is allocated to CBP for border security technology, such as nonintrusive inspection equipment and biometric entry-exit systems, with a restriction prohibiting funds for untested surveillance towers lacking autonomous capabilities. A further $2.5 billion is appropriated to the DHS Secretary for Title I purposes.\n\nUnder Title II, the Act appropriates $13.02 billion to CBP and $31.075 billion to ICE specifically for immigration enforcement activities. ICE funding covers personnel, transportation, IT, facility and fleet maintenance, 287(g) agreements with state and local authorities, and legal advisors. It includes at least $350 million for detainer management and arrests of \"covered unlawful aliens\" in jurisdictions lacking a 287(g) agreement or compliance certification with federal information-sharing laws, though Indian tribal governments are exempted from this classification. These funds cannot be used to release, parole, or facilitate the community release of covered unlawful aliens encountered. Finally, $2.5 billion is appropriated to the DHS Secretary for Title II purposes or specified provisions of Public Law 119-21.",
+  "prompt_tokens": 2891,
+  "completion_tokens": 1436,
+  "total_tokens": 4327,
+  "cost_usd": 0.007054,
+  "latency_s": 16.99,
+  "ok": true
+}

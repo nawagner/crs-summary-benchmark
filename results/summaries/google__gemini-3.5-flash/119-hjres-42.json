@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-8 (House Joint Resolution 42), enacted on May 9, 2025, is a joint resolution of Congress that disapproves a specific federal regulation issued by the Department of Energy. The primary purpose of this law is to nullify the rule titled \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment,\" which was published in the Federal Register on October 9, 2024 (89 Fed. Reg. 81994).\n\nUnder the authority of Chapter 8 of Title 5 of the United States Code, the resolution mandates that the Department of Energy's rule shall have no force or effect. By disapproving the rule through this statutory mechanism, Congress prevents the regulation's certification, labeling, and enforcement provisions for consumer products and commercial equipment from being implemented or enforced. \n\nThe resolution contains no exceptions, conditions, or future deadlines. It became effective upon its approval on May 9, 2025, following its passage in the House of Representatives on March 5, 2025, and in the Senate on April 30, 2025.",
+  "prompt_tokens": 507,
+  "completion_tokens": 1399,
+  "total_tokens": 1906,
+  "cost_usd": 0.013352,
+  "latency_s": 6.174,
+  "ok": true
+}

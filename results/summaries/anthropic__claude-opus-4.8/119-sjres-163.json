@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced by Senator Merkley, directs the President to remove United States Armed Forces from hostilities \"within or against\" Iran that Congress has not authorized.\n\nThe resolution opens with findings asserting that Congress holds the sole constitutional power to declare war, that the President has a constitutional responsibility to defend the United States and its people from attack, and that Congress has neither declared war on Iran nor enacted a specific statutory authorization for military force against Iran. It states that using military force within or against Iran constitutes introducing U.S. Armed Forces into hostilities under Section 4(a) of the War Powers Resolution.\n\nThe operative provision invokes Section 1013 of the Department of State Authorization Act for Fiscal Years 1984 and 1985 and the expedited procedures of Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976. Under these authorities, Congress directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless such action is explicitly authorized by a declaration of war or a specific authorization for the use of military force.\n\nThe resolution includes a rule of construction clarifying that it does not prevent the United States from:\n- defending against an attack on the United States or its personnel or facilities in other nations;\n- collecting, analyzing, or sharing intelligence—including with partner countries attacked by Iran since February 28, 2026, and other nations and international organizations—related to defense from threats from Iran or its proxies; or\n- assisting partner countries attacked by Iran since February 28, 2026, and other nations, either by intercepting retaliatory attacks on their territory by Iran or its proxies, or by providing defensive materiel support for such measures.\n\nThe resolution does not specify a deadline for the removal of forces. It was referred to the Senate Committee on Foreign Relations.",
+  "prompt_tokens": 1574,
+  "completion_tokens": 603,
+  "total_tokens": 2177,
+  "cost_usd": 0.022945,
+  "latency_s": 8.356,
+  "ok": true
+}

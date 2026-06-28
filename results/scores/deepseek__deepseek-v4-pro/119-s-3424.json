@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-3424",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text—$45 to $105, $120 total, fee allocations, fiscal year deposits, and judgeship extensions are correctly stated."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; contextual labels like liquidation/reorganization and 'special fund for the courts' are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The opening sentence clearly identifies the bill's purposes of increasing trustee compensation, adjusting fees, extending judgeships, and modifying fee distribution."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies amendments to the Deficit Reduction Act of 2005, Bankruptcy Administration Improvement Act of 2020, and Bankruptcy Judgeship Act of 2017."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures key conditions including the October 1 application for trustee compensation, conversions to chapter 7, and that filing fees for debtors are unchanged."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "It accurately states the general effective date, the October 1, 2026 trustee compensation date, the FY2026-2031 deposit window, and quarterly fee timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All major operative provisions (trustee pay, fee allocation, quarterly fees, judgeship extension, general fund deposit) are captured accurately."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized by topic and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named statutes and the United States Trustee System Fund are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures—$60, $45/$15, $105, $120, $63.51, $25.00, $51.49, $5,400,000, five-to-ten-year, and dates—match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.167465,
+  "judge_latency_s": 15.108
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-8884",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context (SSA administers Title II disability insurance; prior expiration 2021-2022; Section 234 is demonstration authority)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Contextual additions (SSA as administrator, prior lapse) are accurate and not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of reauthorizing disability insurance demonstration project authority under Title II."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes amendments to the Social Security Act's Section 234 and 201(k) demonstration authority provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the new participant-income-protection condition and the trust fund determination by the Commissioner."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the January 1, 2027 effective date and the 2030/2031 termination dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all operative provisions: timeline extension, waiver/notice/metrics, funding source, income protection, and technical amendments."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear structure and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and filler while covering all key points."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies SSA, the Commissioner, the two trust funds, Ways and Means Committee, and the sponsor."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates (2030, 2031, 2027), the 90-to-120-day change, and introduction/report dates match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.16114,
+  "judge_latency_s": 13.048
+}

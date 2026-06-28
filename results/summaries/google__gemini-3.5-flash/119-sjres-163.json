@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 163 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. Under the resolution, this removal is required unless Congress explicitly authorizes the military action through a declaration of war or a specific authorization for",
+  "prompt_tokens": 1059,
+  "completion_tokens": 1496,
+  "total_tokens": 2555,
+  "cost_usd": 0.015052,
+  "latency_s": 6.135,
+  "ok": true
+}

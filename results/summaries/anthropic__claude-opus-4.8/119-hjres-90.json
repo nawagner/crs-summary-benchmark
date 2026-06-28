@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a specific rule issued by the Commodity Futures Trading Commission (CFTC).\n\nThe rule at issue is the CFTC's final guidance titled \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,\" published in the Federal Register on October 15, 2024 (89 Fed. Reg. 83378).\n\nIf enacted, the resolution declares that Congress disapproves the guidance and that the rule \"shall have no force or effect.\" Under the Congressional Review Act, this means the guidance would be treated as though it had never taken effect, and the agency would generally be barred from reissuing the rule in substantially the same form unless specifically authorized by a subsequent law.\n\nThe resolution contains no other provisions, exceptions, or effective dates beyond the disapproval itself. It was introduced in the House of Representatives on April 3, 2025, by Mrs. Bice and referred to the Committee on Agriculture.",
+  "prompt_tokens": 790,
+  "completion_tokens": 363,
+  "total_tokens": 1153,
+  "cost_usd": 0.013025,
+  "latency_s": 5.126,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-946",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context (Dec 29, 2022 enactment of underlying training requirement via Consolidated Appropriations Act, DEA-administered MATE Act)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; added context about the underlying training requirement's origin date is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose as clarifying/expanding organizations and programs that satisfy training requirements for controlled-substance prescribers."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 303 of the Controlled Substances Act (21 U.S.C. 823) and describes the additions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the curriculum/accredited-school qualifying pathways and added organizations that condition how the requirement can be satisfied."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the retroactive effective date of December 29, 2022."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all operative provisions: added organizations, podiatric medicine, pharmacy schools, redesignation, and retroactive date."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, clear, and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise with no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Statute, organizations, sponsors (Bennet, Collins), and committee are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates stated (Dec 29, 2022 and March 11, 2025 introduction) are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.130665,
+  "judge_latency_s": 18.141
+}

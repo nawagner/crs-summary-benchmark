@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"No Visas for Anti-Semitic Students Act\" (H.R. 2866) directs the Secretary of State to deny or revoke the visas of foreign students who engage in prohibited antisemitic conduct. \n\nUnder the bill, the Secretary of State",
+  "prompt_tokens": 1282,
+  "completion_tokens": 1496,
+  "total_tokens": 2778,
+  "cost_usd": 0.015387,
+  "latency_s": 7.162,
+  "ok": true
+}

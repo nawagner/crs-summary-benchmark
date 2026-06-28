@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-2532",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context about Section 546 of the PHSA first responder training program."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the PHSA program identification is accurate context confirmed by sources."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and updates the first responder training program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies that the bill amends Section 546 of the Public Health Service Act and describes the specific amendments."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the authorization period of fiscal years 2026 through 2030."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all operative effects: scope expansion beyond opioids, terminology updates, and funding reauthorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of editorializing or advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately concise without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Public Health Service Act, Section 546, and the first responder training program."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The figures ($36 million to $57 million) and fiscal years (2019–2023 to 2026–2030) all match the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.17037,
+  "judge_latency_s": 14.431
+}

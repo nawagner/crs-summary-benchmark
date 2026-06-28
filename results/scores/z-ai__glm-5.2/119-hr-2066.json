@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2066",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the SBIC/SBA context is accurate per the Small Business Investment Act of 1958."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (SBIC acronym, SBA administration) is correct and nothing is fabricated or contradicts the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill amends the SBI Act to exclude certain investments from SBIC maximum leverage limits."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the Small Business Investment Act of 1958 and describes amendments to private capital definition and leverage limits."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the government-funds exclusion with carve-outs for pension plans/university endowments and the 50%-or-$125M cap and prospective applicability."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the prospective applicability (post-enactment investments) and the May 19, 2026 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the leverage exclusion categories, revised leverage limits, private capital redefinition, and the exclusion cap."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across its three paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering the operative provisions."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names SBICs, the SBA program context, and the Small Business Investment Act of 1958."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($300M→$200M, $250M, $175M, $475M, $350M, 50%/$125M) match the bill text exactly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.18167,
+  "judge_latency_s": 13.397
+}

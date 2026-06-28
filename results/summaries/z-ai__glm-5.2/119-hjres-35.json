@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution (Public Law 119-2) provides for congressional disapproval of a specific rule submitted by the Environmental Protection Agency (EPA) under chapter 8 of title 5 of the United States Code. The rule in question was published in the Federal Register on November 18, 2024, and is titled \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions.\"\n\nThe primary purpose of the resolution is to formally nullify this EPA rule. The resolution explicitly states that Congress disapproves of the rule and declares that the rule shall have no force or effect. By enacting this resolution, Congress prevents the specified EPA rule regarding waste emissions charges and compliance procedures for petroleum and natural gas systems from being implemented or enforced. \n\nThe resolution was considered and passed by the House of Representatives on February 26, 2025, and by the Senate on February 27, 2025. It was subsequently approved and became law on March 14, 2025.",
+  "prompt_tokens": 442,
+  "completion_tokens": 1111,
+  "total_tokens": 1553,
+  "cost_usd": 0.003753,
+  "latency_s": 14.822,
+  "ok": true
+}

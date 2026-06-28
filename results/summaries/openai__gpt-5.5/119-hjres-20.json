@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves a Department of Energy rule under the Congressional Review Act, chapter 8 of title 5, United States Code. The disapproved rule is titled “Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters” and was published in the Federal Register on December 26, 2024, at 89 Fed. Reg. 105188.\n\nThe resolution provides that Congress disapproves the rule and that the rule “shall have no force or effect.” As a result, the Department of Energy’s energy conservation standards for consumer gas-fired instantaneous water heaters contained in that rule do not take effect or remain legally operative.\n\nThe resolution contains no additional exceptions, conditions, implementation procedures, or deadlines. It was approved on May 9, 2025.",
+  "prompt_tokens": 442,
+  "completion_tokens": 252,
+  "total_tokens": 694,
+  "cost_usd": 0.00977,
+  "latency_s": 4.885,
+  "ok": true
+}

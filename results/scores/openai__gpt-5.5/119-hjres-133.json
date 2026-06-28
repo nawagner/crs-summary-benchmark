@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-133",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context, including the Semiquincentennial Commission Act of 2016 and the 2019 Apollo 11 projection."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual details about the Commission and prior commemorations are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution requests the Secretary of the Interior to authorize one-time displays to begin the 250th anniversary celebrations."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution makes no changes to existing law, and the summary correctly notes it does not amend law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the material limits: unique/one-time arrangements, five nights, and the specified period."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the display period of December 31, 2025 through January 5, 2026 and the July 4, 2026 anniversary."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both operative requests: authorizing the displays and transmitting the enrolled copy to the named officials."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Secretary of the Interior, Clerk of the House, the Commission, and its Chair are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates, five-night duration, and the 250th anniversary figure are all stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14743,
+  "judge_latency_s": 13.138
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-sjres-180",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the operative directive to remove US forces from hostilities with Iran absent a declaration of war/AUMF, and the self-defense rule of construction."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No false or invented claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the core War Powers directive."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "A War Powers directive, not an amendment to standing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the rule of construction preserving self-defense."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the removal directive and principal carve-out; findings are non-operative context."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Iran and US Armed Forces correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

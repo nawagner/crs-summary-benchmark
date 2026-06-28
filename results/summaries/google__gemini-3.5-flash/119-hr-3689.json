@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "google/gemini-3.5-flash",
+  "summary": "00,000 for fiscal year 2026;\n    - $12,000,000 for fiscal year 2027;\n    - $13,000,000 for fiscal year 2028",
+  "prompt_tokens": 660,
+  "completion_tokens": 1496,
+  "total_tokens": 2156,
+  "cost_usd": 0.014454,
+  "latency_s": 7.74,
+  "ok": true
+}

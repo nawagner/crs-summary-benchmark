@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities \"within or against\" the Islamic Republic of Iran that Congress has not authorized. It invokes Congress's constitutional power to declare war and the framework of the War Powers Resolution of 1973.\n\nThe resolution's findings state that the President notified Congress on March 2, 2026, of the initiation of military force against Iran on February 28, 2026, but that Congress has neither declared war on Iran nor enacted a specific statutory authorization for the use of military force there. The findings note that, under the War Powers Resolution, the President must terminate the use of armed forces within 60 days of initial notification absent a declaration of war, a specific authorization, an extension by law, or Congress being physically unable to meet. The findings state that this 60-day period ends on May 1, 2026, and that the President may obtain only one additional 30-day extension upon certifying unavoidable military necessity related to the safety of U.S. forces.\n\nThe operative section directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless explicitly authorized by a declaration of war or a specific authorization for the use of military force. The resolution is brought under expedited procedures referenced in section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution includes a rule of construction stating that nothing in it prevents the United States from: defending against attacks on the U.S. or its personnel and facilities abroad; collecting, analyzing, or sharing intelligence (including with Israel and other partners) related to threats from Iran or its proxies; assisting Israel and other nations in defensive measures, including providing defensive materiel support; or assisting in the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 2250,
+  "completion_tokens": 620,
+  "total_tokens": 2870,
+  "cost_usd": 0.02675,
+  "latency_s": 7.45,
+  "ok": true
+}

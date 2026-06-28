@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-946",
+  "model": "openai/gpt-5.5",
+  "summary": "The MATE Improvement Act amends the Controlled Substances Act provisions governing required training for practitioners who prescribe controlled substances. Its primary purpose is to clarify and expand the types of professional training and educational programs that may satisfy existing federal training requirements related to substance use disorder treatment and controlled substance prescribing.\n\nThe bill first corrects a numbering issue in section 303 of the Controlled Substances Act by redesignating the second subsection labeled “(l)” as subsection “(m).” It then amends that subsection to add several professional organizations and accrediting bodies to the lists connected with qualifying training. These include the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, the American Optometric Association, and the Council on Podiatric Medical Education. It also adds the American Academy of Family Physicians in another provision relating to qualifying training.\n\nThe bill expands qualifying educational pathways by adding podiatric medicine to provisions that already refer to allopathic medicine, osteopathic medicine, dental surgery, and dental medicine, and by including dental or podiatric medicine curricula where the law refers to relevant medical or dental curricula.\n\nFor other categories of practitioners, the bill adds the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians to the listed organizations associated with qualifying training or accreditation. It also adds accredited schools of pharmacy to the educational institutions that may satisfy the applicable training-related requirement.\n\nThese amendments are retroactive: they take effect as if they had been enacted on December 29, 2022.",
+  "prompt_tokens": 870,
+  "completion_tokens": 845,
+  "total_tokens": 1715,
+  "cost_usd": 0.0297,
+  "latency_s": 15.744,
+  "ok": true
+}

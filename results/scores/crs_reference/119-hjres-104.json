@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-104",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported: the rule was approved Nov. 20, 2024, made zero acres available and 1,745,040 acres unavailable for coal leasing to reduce GHG emissions, and the resolution nullifies it, reopening eastern Montana BLM land to coal leasing."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Contextual additions (eastern Montana, BLM administration, GHG-reduction purpose) are accurate per Federal Register and GAO sources, with no fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the resolution nullifies the Miles City RMP Amendment and reopens land to coal leasing."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It explains the resolution nullifies the BLM rule (RMP Amendment) under congressional disapproval authority, with no force or effect."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This one-sentence CRA disapproval resolution contains no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly states the RMP Amendment's Nov. 20, 2024 approval date, the key date relevant to the rule being disapproved."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the essential operative effect: disapproval and nullification of the specified BLM rule, voiding its force and effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and factual, with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is brief and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "BLM, the Miles City Field Office, and the RMP Amendment are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 1,745,040 acres figure and Nov. 20, 2024 date match the Federal Register and GAO records."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.148465,
+  "judge_latency_s": 13.997
+}

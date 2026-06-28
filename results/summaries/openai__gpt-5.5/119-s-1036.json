@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill’s primary purpose is to expand the Public Health Service Act’s Minority Fellowship Program to include training for professionals in addiction medicine.\n\nThe bill amends section 597 of the Public Health Service Act, which authorizes fellowships related to minority mental health and substance use disorder services. It makes two changes. First, it adds “diagnosis” to the types of activities covered by the program, so that fellowships may support training related to the diagnosis, in addition to other covered activities, of relevant health conditions. Second, it adds “addiction medicine” to the list of professional fields eligible for fellowship support, placing it alongside existing eligible fields such as psychiatry.\n\nThe bill does not specify funding levels, application procedures, eligibility criteria beyond the added field, deadlines, or a separate effective date.",
+  "prompt_tokens": 461,
+  "completion_tokens": 247,
+  "total_tokens": 708,
+  "cost_usd": 0.009715,
+  "latency_s": 4.871,
+  "ok": true
+}

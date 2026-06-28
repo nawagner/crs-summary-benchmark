@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-5 (House Joint Resolution 25) is a joint resolution of Congress that disapproves a specific regulation issued by the Internal Revenue Service (IRS). The primary purpose of the resolution is to nullify the IRS rule titled \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,\" which was published in the Federal Register on December 30, 2024 (89 Fed. Reg. 106928).\n\nEnacted under the congressional disapproval procedures outlined in chapter 8 of title 5 of the United States Code, the resolution declares that the",
+  "prompt_tokens": 491,
+  "completion_tokens": 1496,
+  "total_tokens": 1987,
+  "cost_usd": 0.0142,
+  "latency_s": 6.988,
+  "ok": true
+}

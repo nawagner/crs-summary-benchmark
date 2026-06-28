@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific federal rule on protecting marine archaeological resources. Under the Congressional Review Act, Congress used this measure to disapprove the rule submitted by the Bureau of Ocean Energy Management titled “Protection of Marine Archaeological Resources,” which had been published in the Federal Register on September 3, 2024. As a result of the resolution’s enactment, the rule has no force or effect and cannot be enforced or implemented. The resolution does not replace the rule with new requirements, create exceptions, or set any future deadlines. It simply eliminates the regulation in its entirety. The measure was approved on March 14, 2025, after passing the Senate on February 25 and the House on March 6.",
+  "prompt_tokens": 387,
+  "completion_tokens": 433,
+  "total_tokens": 820,
+  "cost_usd": 0.000545,
+  "latency_s": 8.883,
+  "ok": true
+}

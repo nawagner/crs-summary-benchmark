@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-946",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Medication Access and Training Expansion Improvement Act,\" or the \"MATE Improvement Act\" (S. 946), clarifies and expands the training requirements for prescribers of controlled substances by amending Section 303 of the Controlled Substances Act. \n\nThe bill updates the list of recognized organizations and educational pathways authorized to provide or accredit the required training for prescribers. Specifically, it adds several approved training organizations, including the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, the American Optometric Association, the Council on Podiatric Medical Education, the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, and the American Academy of Nursing. \n\nAdditionally, the bill integrates podiatric medicine and podiatric medicine curricula into the existing educational standards that satisfy training requirements. It also adds accredited schools of pharmacy to the list of eligible educational institutions. \n\nThe bill contains a retroactive effective date, specifying that all of these amendments will",
+  "prompt_tokens": 947,
+  "completion_tokens": 1496,
+  "total_tokens": 2443,
+  "cost_usd": 0.014885,
+  "latency_s": 6.362,
+  "ok": true
+}

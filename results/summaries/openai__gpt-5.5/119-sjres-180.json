@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress has explicitly authorized those hostilities through a declaration of war or a specific authorization for use of military force.\n\nThe resolution states congressional findings that Congress has the constitutional power to declare war, while the President has responsibility to defend the United States, its territories, possessions, citizens, service members, and diplomats from attack. It finds that Congress has not declared war on Iran or enacted a specific authorization for military force within or against Iran. It also states that the Trump Administration launched Operation Epic Fury against Iran on February 28, 2026, notified Congress under the War Powers Resolution on March 2, 2026, and sent additional forces to the region. The findings describe casualties among U.S. service members and state that the use of force against Iran constitutes the introduction of U.S. forces into hostilities under the War Powers Resolution.\n\nThe operative provision invokes existing statutory procedures for measures requiring removal of U.S. forces from hostilities not authorized by Congress, including section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution specifies that it does not prevent the United States from defending against attacks on the United States or its personnel or facilities in other countries; collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies; assisting partner countries attacked by Iran since February 28, 2026, or other nations in intercepting retaliatory attacks or providing defensive materiel support; or helping secure, depart, or evacuate U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1209,
+  "completion_tokens": 441,
+  "total_tokens": 1650,
+  "cost_usd": 0.019275,
+  "latency_s": 6.402,
+  "ok": true
+}

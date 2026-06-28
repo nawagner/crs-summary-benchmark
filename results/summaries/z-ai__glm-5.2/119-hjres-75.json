@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution (Public Law 119-9) provides for congressional disapproval of a specific rule submitted by the Department of Energy's Office of Energy Efficiency and Renewable Energy. Under the authority of chapter 8 of title 5 of the United States Code, the resolution nullifies the rule titled \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers,\" which was published in the Federal Register on January 21, 2025 (90 Fed. Reg. 7464). \n\nThe primary purpose of the resolution is to formally reject the Department of Energy's energy conservation standards for commercial refrigeration equipment. The major provision of the law states that Congress disapproves of the rule and that the rule shall have no force or effect. This action prevents the federal standards outlined in the January 2025 rule from being implemented or enforced. \n\nLegislatively, the joint resolution was considered and passed by the House of Representatives on March 26 and 27, 2025, and by the Senate on April 30 and May 1, 2025. The resolution was approved by the President on May 9, 2025, at which point the disapproval took effect, officially rendering the Department of Energy's rule void.",
+  "prompt_tokens": 474,
+  "completion_tokens": 1437,
+  "total_tokens": 1911,
+  "cost_usd": 0.004761,
+  "latency_s": 17.12,
+  "ok": true
+}

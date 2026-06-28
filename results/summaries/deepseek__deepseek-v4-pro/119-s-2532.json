@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Safe Response Act reauthorizes and expands a federal grant program that trains first responders to administer drugs or devices for overdose reversal. The bill amends Section 546 of the Public Health Service Act.\n\nThe legislation broadens the program’s scope. Under current law, the training focuses on reversing opioid overdoses. The bill removes the word “opioid” from multiple subsections and replaces references to “opioid and heroin” with “opioid, heroin, and other drug,” so that the program covers overdoses from a wider range of substances. It also updates the description of eligible drugs and devices from those “approved or cleared” by the Food and Drug Administration to those “approved, cleared, or otherwise legally marketed,” which may expand the range of products that can be used in training.\n\nThe bill extends the program’s funding authorization. It replaces the previous authorization of $36,000,000 for each of fiscal years 2019 through 2023 with a new authorization of $57,000,000 for each of fiscal years 2026 through 2030. Additionally, it makes a minor technical correction by capitalizing “Tribes and Tribal” in one subsection.\n\nThe bill does not specify an effective date beyond the new fiscal year funding period.",
+  "prompt_tokens": 646,
+  "completion_tokens": 886,
+  "total_tokens": 1532,
+  "cost_usd": 0.001052,
+  "latency_s": 30.015,
+  "ok": true
+}

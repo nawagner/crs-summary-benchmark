@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The \"Removing Barriers to Work for Disabled Americans Act\" (H.R. 8884) amends Title II of the Social Security Act to reauthorize the Social Security Administration's authority to conduct experiments and demonstration projects related to the disability insurance program. This demonstration authority had previously lapsed (set to expire in 2021–2022 under prior law).\n\nThe bill makes several specific changes:\n\n- **Reauthorization timeline:** It extends the authority to initiate demonstration projects through December 31, 2030, and sets the authority to carry out such projects to terminate on December 31, 2031.\n\n- **Waiver authority:** It extends through December 31, 2030, the Commissioner's authority to waive compliance with certain benefit requirements when conducting projects. It also lengthens the advance notice period to Congress from 90 days to 120 days, and requires that the report describing a project include the evaluation metrics to be used.\n\n- **Funding source:** It revises how costs are paid. Administrative expenditures for these projects are to come from funds available for administering Title II. Benefits payable to individuals participating in the projects are to be paid from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as the Commissioner determines appropriate.\n\n- **Participant protection:** It adds a new requirement that any project must ensure that a participant's total income will not be reduced because of their participation.\n\n- **Technical amendments:** It corrects a reference in the statute and strikes subsection (f) of Section 234.\n\nThe amendments made by the bill take effect on January 1, 2027.\n\nThe bill was introduced May 19, 2026, by Mr. Austin Scott of Georgia, referred to the Committee on Ways and Means, and reported with an amendment on June 25, 2026.",
+  "prompt_tokens": 1820,
+  "completion_tokens": 595,
+  "total_tokens": 2415,
+  "cost_usd": 0.023975,
+  "latency_s": 7.636,
+  "ok": true
+}

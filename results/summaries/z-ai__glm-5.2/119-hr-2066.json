@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Investing in All of America Act of 2025 amends the Small Business Investment Act of 1958 to exclude certain investments by Small Business Investment Companies (SBICs) from their maximum leverage limits. Specifically, the bill excludes investments in small businesses located in rural or low-income geographic areas, small businesses operating in critical technology areas, and small manufacturers.\n\nThe bill modifies the definition of \"private capital\" to exclude funds obtained directly or indirectly from federal, state, or local governments, with exceptions for certain pension plans and university endowments or trusts. It also adjusts the maximum leverage limits for SBICs. The base leverage limit for a single company is lowered from $300 million to $200 million, with specific limits set at $250 million for companies making quarterly or semiannual interest payments and $175 million for others. For commonly controlled companies, the aggregate limit is $475 million if they make such interest payments, or $350 million otherwise.\n\nFor the expanded exclusion, the aggregate amount excluded from the leverage calculation may not exceed the lesser of 50 percent of the company’s private capital or $125 million. The exclusion applies prospectively, meaning only investments made by a licensee after the date of enactment are eligible. The act was approved on May 19, 2026.",
+  "prompt_tokens": 1482,
+  "completion_tokens": 1176,
+  "total_tokens": 2658,
+  "cost_usd": 0.004936,
+  "latency_s": 14.022,
+  "ok": true
+}

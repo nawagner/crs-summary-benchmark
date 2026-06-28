@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, a Bureau of Land Management rule relating to the “Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.”\n\nThe resolution identifies the disapproved action as a record of decision and resource management plan amendment issued by the Bureau of Land Management on November 20, 2024. It also references a June 25, 2025, Government Accountability Office letter, printed in the Congressional Record on June 26, 2025, which concluded that the record of decision and plan amendment is a “rule” for purposes of the Congressional Review Act.\n\nBy enacting the resolution, Congress provides that the Bureau of Land Management rule has no force or effect. The resolution was approved on December 11, 2025.",
+  "prompt_tokens": 489,
+  "completion_tokens": 222,
+  "total_tokens": 711,
+  "cost_usd": 0.009105,
+  "latency_s": 4.634,
+  "ok": true
+}

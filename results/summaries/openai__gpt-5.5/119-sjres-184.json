@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress explicitly authorizes those hostilities through a declaration of war or a specific authorization for the use of military force.\n\nThe resolution states Congress’s findings that Congress has the constitutional power to declare war, while the President has responsibility to defend the United States, its territories, citizens, service members, and diplomats from attack. It finds that Congress has not declared war on Iran or any person or organization within Iran and has not enacted a specific statutory authorization for military force within or against Iran. It also notes that the President notified Congress on March 2, 2026, under the War Powers Resolution, that military force against Iran began on February 28, 2026, and that the 60-day period under the War Powers Resolution ends on May 1, 2026. The resolution states that none of the statutory conditions allowing continued use of forces beyond that period has occurred, except that the President may extend the presence of forces for up to 30 additional days if certified as required for unavoidable military necessity to ensure the safety of U.S. forces during prompt removal.\n\nThe resolution relies on existing statutory expedited procedures for measures requiring the removal of U.S. forces from hostilities not authorized by Congress.\n\nIt specifies that the directive does not prevent the United States from defending against attacks on the United States or its personnel or facilities in other nations; collecting, analyzing, or sharing intelligence, including with Israel, partners, allies, and international organizations, related to threats from Iran or its proxies; assisting Israel and other nations with defensive measures against retaliatory attacks by Iran or its proxies, including defensive materiel support; or helping secure, depart, and evacuate U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1347,
+  "completion_tokens": 438,
+  "total_tokens": 1785,
+  "cost_usd": 0.019875,
+  "latency_s": 7.383,
+  "ok": true
+}

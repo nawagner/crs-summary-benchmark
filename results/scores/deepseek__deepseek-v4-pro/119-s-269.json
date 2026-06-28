@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-269",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text, and contextual additions (SSA, Treasury's Do Not Pay working system, Section 205(r) of the Social Security Act) are verified as accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; references to the Death Master File, SSA, and the Do Not Pay system are accurate real-world context, not inventions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of improving SSA-Do Not Pay coordination to reduce improper payments to deceased people."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains that the bill amends Section 205(r) of the Social Security Act and modifies existing data-sharing and error-correction provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures key conditions: 'to the extent feasible,' privacy/security requirements, the cost-sharing agreement, and the clear-and-convincing-evidence standard."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the amendments take effect December 27, 2026, matching the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all operative provisions: data sharing to Do Not Pay, the cost-sharing agreement, the evidentiary standard for recording deaths, and the expanded error-notification requirement."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, structured logically by provision."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names SSA, the Commissioner of Social Security, the Do Not Pay working system, and the Social Security Act; the Death Master File reference is accurate context."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure stated, the December 27, 2026 effective date, is correct per the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.210445,
+  "judge_latency_s": 15.82
+}

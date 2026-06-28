@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7258",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims accurately reflect the bill text and DOE context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; faithful to bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of adding energy emergency/security functions for Assistant Secretaries."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes amendment to the Department of Energy Organization Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the condition that technical assistance is provided upon request of State, local, Tribal, or energy sector entities."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Bill specifies no effective dates; summary correctly notes absence."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both the new functions paragraph and the coordination requirement."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names DOE, Secretary of Energy, and the amended statute."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "Summary states no figures to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.042495,
+  "judge_latency_s": 6.701
+}

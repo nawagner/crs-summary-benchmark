@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-163",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (sponsor, committee referral) is verifiable."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual details like sponsor and committee match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of US Armed Forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This resolution invokes existing War Powers authorities but does not amend, repeal, or add to existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary accurately captures the rule-of-construction carve-outs for self-defense, intelligence, and assisting partners."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary correctly notes the resolution specifies no deadline for removal of forces."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures findings, the removal directive, invoked authorities, and rule of construction."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while remaining complete."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Senator Merkley, the War Powers Resolution, cited statutes, and committee are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The date February 28, 2026 and the fiscal years 1984/1985 are stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.047115,
+  "judge_latency_s": 8.015
+}

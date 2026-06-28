@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-3424",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurately describe the amendments and fee redistributions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual descriptions are consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of increasing trustee compensation, adjusting fees, and extending judgeships."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes amendments to title 11 section 330, title 28 fee provisions, and the 2020 and 2017 judgeship acts."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the filing fee and indigent waiver carve-outs and the general-fund deposit exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the general effective date and the special application dates for sections 3 and 4."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all four operative sections: trustee compensation, fee deposits, quarterly fees, and judgeship extensions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the United States Trustee System Fund, Deficit Reduction Act fund, and the relevant judgeship acts."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($45 to $105, $120, $63.51, $25, $51.49, 0.8 to 0.9, $5.4 million, 5 to 10 years, FY2026-2031) match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.065155,
+  "judge_latency_s": 8.769
+}

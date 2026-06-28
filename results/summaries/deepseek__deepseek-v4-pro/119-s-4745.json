@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill names a specific United States Postal Service facility in Georgetown, Ohio, after the 18th president of the United States. The facility located at 201 East Grant Avenue in Georgetown, Ohio, shall be officially known and designated as the \"Ulysses S. Grant Post Office Building.\" The bill further provides that any reference to this facility in any federal law, map, regulation, document, paper, or other official record of the United States will be treated as a reference to the \"Ulysses S. Grant Post Office Building.\" The legislation does not alter the operations, functions, or services of the postal facility, nor does it impose any new requirements or exceptions. It does not include an effective date or deadline.",
+  "prompt_tokens": 477,
+  "completion_tokens": 277,
+  "total_tokens": 754,
+  "cost_usd": 0.000448,
+  "latency_s": 5.159,
+  "ok": true
+}

@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hjres-25",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes nullifying the IRS DeFi broker reporting rule (Dec 30, 2024); DeFi characterization is accurate context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented claims; the rule title and date match the resolution."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the purpose is to nullify the IRS digital-asset reporting rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains the CRA disapproval voids the rule so it has no force or effect."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "A bare CRA disapproval has no exceptions."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No timing provisions in the resolution."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect: rule has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IRS correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "No figures stated."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

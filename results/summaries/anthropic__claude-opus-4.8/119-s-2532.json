@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The \"Safe Response Act\" (S. 2532) reauthorizes and updates the first responder training program established under Section 546 of the Public Health Service Act.\n\nThe bill makes several amendments to existing law. It broadens the program's scope beyond opioids by removing references to \"opioid\" and \"opioid and heroin\" throughout the statute and replacing certain terms with broader language. For example, it changes \"opioid and heroin\" to \"opioid, heroin, and other drug,\" and \"opioid overdose\" to \"overdose,\" expanding the program to address drug overdoses more generally rather than focusing solely on opioids.\n\nThe bill also revises the standard for the overdose-reversal drugs and devices covered by the program. Where current law refers to drugs or devices that are \"approved or cleared\" (by the Food and Drug Administration), the bill replaces this with \"approved, cleared, or otherwise legally marketed,\" potentially covering a wider range of products.\n\nAdditionally, the bill makes a technical change by capitalizing \"Tribes and Tribal\" in subsection (a).\n\nFinally, the bill updates the program's funding authorization. It strikes the prior authorization of $36,000,000 for each of fiscal years 2019 through 2023 and replaces it with an authorization of $57,000,000 for each of fiscal years 2026 through 2030.\n\nThe bill was introduced in the Senate on July 30, 2025, by Senators Baldwin, Hassan, and Capito, and was referred to the Committee on Health, Education, Labor, and Pensions.",
+  "prompt_tokens": 1066,
+  "completion_tokens": 497,
+  "total_tokens": 1563,
+  "cost_usd": 0.017755,
+  "latency_s": 6.35,
+  "ok": true
+}

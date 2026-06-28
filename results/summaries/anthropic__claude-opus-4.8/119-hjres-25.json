@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation.\n\nSpecifically, Congress disapproves a rule issued by the Internal Revenue Service titled \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,\" which was published in the Federal Register on December 30, 2024 (89 Fed. Reg. 106928). The IRS rule had established tax reporting requirements for brokers involved in digital asset sales.\n\nUnder the resolution, the IRS rule \"shall have no force or effect,\" meaning the regulation is nullified and will not be implemented or enforced.\n\nThe resolution was passed by the House of Representatives on March 11, 2025, passed by the Senate on March 26, 2025, and approved (signed into law) on April 10, 2025, becoming Public Law 119-5.",
+  "prompt_tokens": 756,
+  "completion_tokens": 311,
+  "total_tokens": 1067,
+  "cost_usd": 0.011555,
+  "latency_s": 4.029,
+  "ok": true
+}

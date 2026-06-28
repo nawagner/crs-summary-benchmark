@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Secure America Act (Public Law 119-98) appropriates supplemental funds for fiscal year 2026, remaining available until September 30, 2029, to support border security, technology, and immigration enforcement. \n\nUnder Title I, the",
+  "prompt_tokens": 3321,
+  "completion_tokens": 1496,
+  "total_tokens": 4817,
+  "cost_usd": 0.018446,
+  "latency_s": 6.599,
+  "ok": true
+}

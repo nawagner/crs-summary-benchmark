@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 184 directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nThe resolution notes that the President notified Congress on March 2, 2026, of military operations initiated against Iran on February 28, 2026. Under the War Powers Resolution,",
+  "prompt_tokens": 1518,
+  "completion_tokens": 1496,
+  "total_tokens": 3014,
+  "cost_usd": 0.015741,
+  "latency_s": 6.83,
+  "ok": true
+}

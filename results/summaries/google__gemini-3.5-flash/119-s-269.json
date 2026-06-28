@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-269",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Ending Improper Payments to Deceased People Act\" (Public Law 119-77) aims to improve coordination between federal and state agencies and the federal \"Do Not Pay\" working system to prevent and recover improper payments made to deceased individuals. \n\nTo achieve this, the Act amends the Social Security Act to require the Commissioner of Social Security, to the extent feasible, to share",
+  "prompt_tokens": 1162,
+  "completion_tokens": 1496,
+  "total_tokens": 2658,
+  "cost_usd": 0.015207,
+  "latency_s": 6.667,
+  "ok": true
+}

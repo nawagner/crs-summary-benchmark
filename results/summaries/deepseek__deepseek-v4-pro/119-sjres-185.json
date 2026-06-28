@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless Congress has declared war or enacted a specific statutory authorization for such use of military force.\n\nThe resolution relies on Congress’s exclusive constitutional power to declare war and notes that neither a declaration of war nor a specific authorization for military force against Iran has been enacted. It invokes Section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (which provides expedited procedures for measures requiring the removal of forces from hostilities absent congressional authorization), and the related procedures of Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe core provision is a statutory directive: the President must withdraw U.S. forces from hostilities in or against Iran unless explicitly authorized by a declaration of war or a specific authorization for use of military force. The resolution does not set a fixed deadline but mandates removal.\n\nThe resolution includes a rule of construction clarifying what it does not prohibit. It explicitly preserves the ability of the United States to: (1) defend against an attack on the United States or its personnel and facilities located in other nations; (2) collect, analyze, or share intelligence with partner countries that have been attacked by Iran since February 28, 2026, and with other nations and international organizations, concerning threats from Iran or its proxies; and (3) assist partner countries that have been attacked by Iran since that date—either by helping intercept retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such defensive measures.\n\nThe resolution does not amend any existing law; it exercises authority already provided by statute to direct the removal of forces from an unauthorized engagement. It specifies no new deadlines, exemptions, or reporting requirements beyond the removal directive and its defensive carve‑outs.",
+  "prompt_tokens": 1353,
+  "completion_tokens": 1246,
+  "total_tokens": 2599,
+  "cost_usd": 0.001673,
+  "latency_s": 13.105,
+  "ok": true
+}

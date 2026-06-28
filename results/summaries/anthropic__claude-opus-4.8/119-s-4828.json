@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Declaration of Independence Reaffirmation Act of 2026 (S. 4828) is a Senate-passed bill whose primary purpose is to formally reaffirm the Declaration of Independence as an Organic Law of the United States, in commemoration of the 250th anniversary of American independence.\n\nThe bill begins with congressional findings reviewing the history and significance of the Declaration of Independence. These findings note that the Declaration was adopted on July 4, 1776, that it is recognized among the Organic Laws of the United States, and that it declares principles such as human equality, unalienable rights endowed by a Creator, and government deriving its just powers from the consent of the governed. The findings also reference the Northwest Ordinance (adopted in 1787 and reenacted in 1789), assert that Congress has authority to recognize and carry forward foundational laws, and describe the relationship between the Declaration and the Constitution in establishing a political order in which the people are sovereign.\n\nThe bill's main operative provision states that Congress reaffirms and re-adopts the Declaration of Independence as an Organic Law of the United States and as the \"enduring charter of American independence, national sovereignty, natural rights, equal citizenship, and government by consent.\"\n\nThe bill then sets forth the complete text of the Declaration of Independence, presented in commemoration of the 250th anniversary of American independence.\n\nThe bill does not create new programs, alter existing statutory rights or obligations, appropriate funds, or impose any deadlines or enforcement mechanisms. Its provisions are declaratory and commemorative in nature. The bill includes a short title but specifies no effective date. As reflected in the text, the Senate read the bill twice, considered it, read it a third time, and passed it on June 18, 2026.",
+  "prompt_tokens": 4403,
+  "completion_tokens": 572,
+  "total_tokens": 4975,
+  "cost_usd": 0.036315,
+  "latency_s": 13.415,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill’s primary purpose is to require denial or revocation of certain student visas for noncitizens who engage in specified antisemitic conduct and are determined by the Secretary of State to pose potentially serious adverse foreign policy consequences for the United States.\n\nThe bill applies to visas and nonimmigrant status under the F and M categories of the Immigration and Nationality Act, which cover academic students and vocational students. It directs the Secretary of State to revoke or deny such a visa to any noncitizen who, on or after the date of enactment, engages in “prohibited antisemitic conduct” and is determined, under existing immigration law, to pose potentially serious adverse foreign policy consequences through that conduct.\n\nThe bill also amends section 214 of the Immigration and Nationality Act to provide that a noncitizen may not be granted or maintain F or M nonimmigrant status if the person engages in prohibited antisemitic conduct and the Secretary of State makes the required foreign-policy determination. If a person already granted F or M status is found to have engaged in such conduct and to meet that foreign-policy standard, the Secretary must revoke the person’s visa.\n\nThe bill defines “antisemitism” by reference to the definition adopted on May 26, 2016, by the International Holocaust Remembrance Alliance, as adopted by the Department of State, including its contemporary examples. “Prohibited antisemitic conduct” means a physical act of violence, vandalism, or harassment targeting a Jewish individual, their property, a community institution, or religious facility, with intent to intimidate or harm based on Jewish identity or affiliation. It also includes providing material support, including funding, organizing, or inciting, to a person while knowing that the person intended to use the support for such an act.",
+  "prompt_tokens": 1177,
+  "completion_tokens": 502,
+  "total_tokens": 1679,
+  "cost_usd": 0.020945,
+  "latency_s": 8.109,
+  "ok": true
+}

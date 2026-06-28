@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific Department of Energy (DOE) rule on energy conservation standards for walk-in coolers and walk-in freezers. Under the Congressional Review Act, Congress formally disapproves the rule, which was published in the Federal Register on December 23, 2024 (89 Fed. Reg. 104616). As a result, the rule will have no legal force or effect. The resolution was approved on May 9, 2025.",
+  "prompt_tokens": 434,
+  "completion_tokens": 96,
+  "total_tokens": 530,
+  "cost_usd": 0.000272,
+  "latency_s": 2.975,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-11",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verified context: CRA disapproval of BOEM's rule published Sept. 3, 2024, approved March 14, 2025."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Congressional Review Act attribution and BOEM identification are accurate context, and no false or invented claims appear."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the resolution nullifies the BOEM marine archaeological resources rule under the CRA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly explains the resolution invalidates the rule so it has no force or effect, naming the CRA mechanism."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution contains no exceptions or conditions, and the summary accurately notes it creates none."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes approval on March 14, 2025, Senate passage Feb. 25, and House passage March 6, matching the bill's legislative history."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the sole operative effect: the rule has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with minimal padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "BOEM, the rule title, the Federal Register, and the Congressional Review Act are all identified correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates stated (Sept. 3, 2024; March 14, 2025; Feb. 25; March 6) all match the bill text's ground truth."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.131765,
+  "judge_latency_s": 12.54
+}

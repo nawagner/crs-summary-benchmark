@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-201",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text; contextual references (NDAA FY2021 Sec. 750 cancer study, CDC's National Center for Health Statistics) are factually correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; characterizing the NDAA FY2021 reference as a prior cancer study is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose as directing a National Academies study on cancer among fixed-wing aircrew veterans."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill amends no existing statute and the summary correctly notes it does not amend other laws."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the eligibility definition of covered individual and the conditional report/briefing requirements if deadlines are missed."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the 30-day negotiation deadline, 60-day finalization deadline, and recurring 60-day briefings."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the agreement, the three study components, data sources, and the final report to Congress."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, tracking the bill's structure clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Secretary of Veterans Affairs, National Academies, DOD, CDC, and congressional committees."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 30-day, 60-day deadlines and August 14, 2025 enactment date are all accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.144265,
+  "judge_latency_s": 16.235
+}

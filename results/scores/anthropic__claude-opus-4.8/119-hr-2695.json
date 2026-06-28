@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2695",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (Section 547(f) amendment, figures, fiscal years) and the added context about the BCOR program supporting substance use disorder recovery is verified as accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The contextual description of the grant program assisting individuals recovering from substance use disorders is accurate real-world context, not fabrication."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill reauthorizes a grant program for building communities of recovery by amending the Public Health Service Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies the amendment to Section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f))."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary notes the FY2026-2030 authorization period and the April 7, 2025 introduction date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the sole operative effect: striking the old funding authorization and inserting the new amount and fiscal years."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing or advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Public Health Service Act, Section 547(f), the citation, and the Committee on Energy and Commerce are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures are correct: $5,000,000 for FY2019-2023 replaced by $17,000,000 for FY2026-2030, and the April 7, 2025 date."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.136585,
+  "judge_latency_s": 16.046
+}

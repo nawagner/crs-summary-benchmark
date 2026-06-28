@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill amends the Infrastructure Investment and Jobs Act to reauthorize and revise the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program.\n\nIt directs the Secretary to maintain the program to provide technical assistance and funding, including grants, cooperative agreements, and prizes, to eligible electric utility entities to help them protect against, detect, respond to, and recover from cybersecurity threats. The program’s objectives are to deploy advanced cybersecurity technologies for electric utility systems and increase eligible entities’ participation in cybersecurity threat information-sharing programs.\n\nThe bill defines eligible entities to include rural electric cooperatives; electric utilities owned by political subdivisions of a State, such as municipal utilities; utilities owned by agencies, authorities, corporations, or instrumentalities of one or more political subdivisions; nonprofit entities partnered with at least six such utilities; and investor-owned electric utilities that sell less than 4,000,000 megawatt hours of electricity per year.\n\nIn administering the program, the Secretary must develop criteria for assistance and funding, may provide awards on a competitive or noncompetitive basis subject to appropriations, may enter into agreements to advance program objectives, and must establish a process to inform eligible entities about available opportunities. Priority must be given to entities that have limited cybersecurity resources, own assets critical to bulk-power system reliability, or own or operate defense critical electric infrastructure.\n\nInformation shared with or by federal, State, Tribal, or local governments under the program is treated as voluntarily shared and exempt from federal, State, Tribal, or local public disclosure laws. The bill authorizes $250 million for fiscal years 2026 through 2030 to carry out the program.",
+  "prompt_tokens": 1565,
+  "completion_tokens": 451,
+  "total_tokens": 2016,
+  "cost_usd": 0.021355,
+  "latency_s": 7.1,
+  "ok": true
+}

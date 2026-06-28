@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a Commodity Futures Trading Commission (CFTC) final guidance document concerning the listing of voluntary carbon credit derivative contracts. The guidance was published in the Federal Register on October 15, 2024 (89 Fed. Reg. 83378). Under the terms of the resolution, Congress disapproves the guidance, and it will have no force or effect. The resolution is introduced under the Congressional Review Act, which provides a fast-track process for Congress to overturn agency rules. If enacted, the CFTC guidance would be treated as though it never took effect, and the agency would be barred from issuing a substantially similar rule in the future without subsequent statutory authorization. The resolution does not include any exceptions, conditions, or delayed effective dates beyond the immediate disapproval.",
+  "prompt_tokens": 430,
+  "completion_tokens": 394,
+  "total_tokens": 824,
+  "cost_usd": 0.00053,
+  "latency_s": 12.931,
+  "ok": true
+}

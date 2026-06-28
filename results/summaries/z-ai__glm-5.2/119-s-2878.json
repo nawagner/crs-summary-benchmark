@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Great Lakes Fishery Research Reauthorization Act reauthorizes federal funding to monitor, assess, and research the Great Lakes Basin. Specifically, the Act amends the Further Consolidated Appropriations Act, 2020, by extending the authorization of appropriations for these activities from 2025 to 2030. The legislation was approved on December 26, 2025.",
+  "prompt_tokens": 457,
+  "completion_tokens": 283,
+  "total_tokens": 740,
+  "cost_usd": 0.001283,
+  "latency_s": 2.019,
+  "ok": true
+}

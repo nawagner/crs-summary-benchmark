@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-sjres-41",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately states the resolution prohibits the proposed export of certain firearms/parts/components to Israel."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No false claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the purpose clearly."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "Blocks a specific proposed export under the Arms Export Control Act; does not amend standing law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No exceptions in the resolution."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the single operative prohibition at a high level (acceptable); omits only granular quantities."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Very concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Israel correctly identified; no entity misstated."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "Summary states no figures (omission is allowed)."
+    }
+  },
+  "n_applicable": 8,
+  "n_passed": 8,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

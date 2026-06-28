@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Rural and Municipal Utility Cybersecurity Act\" (H.R. 7266) amends the Infrastructure Investment and Jobs Act to reauthorize the Rural and Municipal Utility Advanced Cybersecurity Grant and Technical Assistance Program. Under the bill, the Secretary is directed to maintain this program to provide technical assistance",
+  "prompt_tokens": 1738,
+  "completion_tokens": 1496,
+  "total_tokens": 3234,
+  "cost_usd": 0.016071,
+  "latency_s": 6.85,
+  "ok": true
+}

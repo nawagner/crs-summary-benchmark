@@ -1,0 +1,39 @@
+# CRS Summary Benchmark — run configuration.
+
+# --- Corpus selection ---
+congress: 119
+bill_types: [hr, s, hjres, sjres]   # House/Senate bills + joint resolutions
+target_bills: 50                    # number of bills with a CRS summary + text to collect
+text_char_cap: 180000               # truncate bill text beyond this many chars (most models have >=200k ctx)
+summary_from_date: "2025-01-03T00:00:00Z"  # start of the 119th Congress; widens the summaries listing window
+
+# --- Models under test (OpenRouter slugs, verified against the live catalog) ---
+models:
+  - anthropic/claude-opus-4.8
+  - openai/gpt-5.5
+  - google/gemini-3.5-flash
+  - z-ai/glm-5.2
+  - deepseek/deepseek-v4-pro
+
+# --- Judge ---
+# A strong model that scores every summary on the binary criteria.
+# NOTE on bias: this judge (Claude Opus 4.8) is ALSO a contestant, so self-preference
+# toward the Claude summaries is possible. Two safeguards: (1) we also grade the real CRS
+# summaries on the identical rubric as a calibration row — if the judge were badly
+# miscalibrated the human baseline would not score near the top; (2) the judge is a single
+# config line to swap (e.g. to an independent-lab model) and a judge panel is a natural extension.
+judge_model: anthropic/claude-opus-4.8
+judge_temperature: 0
+# Let the judge verify real-world context (program names, agencies, statutes) via live web
+# search through OpenRouter's web plugin, so accurate context isn't mistaken for hallucination.
+judge_web_search: true
+judge_web_max_results: 3
+
+# --- Generation ---
+summarize_temperature: 0.3
+max_output_tokens: 1500
+
+# --- Prompt files ---
+prompts:
+  summarize: prompts/summarize.txt
+  judge: prompts/judge.txt

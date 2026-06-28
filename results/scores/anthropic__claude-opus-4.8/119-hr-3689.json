@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-3689",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (figures, statute citation, title) and contextual claims about the youth prevention and recovery initiative under Section 7102(c) are verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the program's existence and statutory location are accurate context, and the 'no substantive change' characterization is faithful to this single-provision amendment."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes funding for the youth prevention and recovery initiative by amending the SUPPORT for Patients and Communities Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies that the bill amends Section 7102(c)(9) (42 U.S.C. 290bb-7a(c)(9)) by replacing the authorization-of-appropriations provision."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple appropriations reauthorization with no material exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly states the fiscal years (2026-2030) and the June 3, 2025 introduction date that the bill specifies."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the bill's sole operative effect—setting new authorization amounts for FY2026-FY2030."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the SUPPORT for Patients and Communities Act, the statutory citation, and the two committees of referral."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All five fiscal-year dollar amounts ($10M-$15M for FY2026-FY2030) and the introduction date match the bill exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.19062,
+  "judge_latency_s": 14.953
+}

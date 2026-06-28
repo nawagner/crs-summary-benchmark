@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-172",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary accurately states the bill's core directive consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; the directive is correctly described."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of removing US forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "Fails to mention the War Powers Resolution framework and section 1013 expedited procedures invoked by the bill."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the material rule-of-construction carve-outs for self-defense, intelligence, partner assistance, and evacuations."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines for the removal directive."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Captures the central directive but omits the entire rule-of-construction section, a major operative provision."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated, ending mid-sentence with a dangling 'The'."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or filler in the text provided."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the resolution and the Islamic Republic of Iran."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no dollar amounts, dates, or quantities to verify."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 6,
+  "meets_standard": false,
+  "judge_cost_usd": 0.04727,
+  "judge_latency_s": 7.875
+}

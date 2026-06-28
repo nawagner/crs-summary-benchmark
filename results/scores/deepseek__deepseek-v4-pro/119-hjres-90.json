@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-90",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (disapproval of the named CFTC guidance, citation 89 Fed. Reg. 83378, Oct. 15, 2024) and the CRA context is accurately described and verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The CRA framing, fast-track process, no-force-or-effect language, and substantially-similar reissuance bar are all accurate context, not fabrications."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill nullifies the CFTC's voluntary carbon credit derivative contract listing guidance."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary identifies the disapproved CFTC guidance and correctly explains the CRA mechanism and its effect on the agency's future rulemaking."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or carve-outs; the summary correctly notes their absence."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates, sunsets, or deadlines beyond immediate disapproval, which the summary accurately reflects."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the bill's sole operative effect: disapproval of the guidance so it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with minimal filler given the bill's narrow scope."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The CFTC, the named guidance, the Federal Register citation, and the Congressional Review Act are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The cited date (October 15, 2024) and Federal Register citation (89 Fed. Reg. 83378) match the bill text exactly."
+    }
+  },
+  "n_applicable": 10,
+  "n_passed": 10,
+  "meets_standard": true,
+  "judge_cost_usd": 0.156575,
+  "judge_latency_s": 13.824
+}

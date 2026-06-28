@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bills · CRS Summary Benchmark</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CRS Summary Benchmark</a>
+      <small>Frontier LLMs vs. real Congressional Research Service summaries</small></div>
+    <nav class="site">
+      <a href="index.html">Leaderboard</a>
+      <a href="bills.html" class="active">Bills</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<main><div class="wrap">
+  <div id="list-wrap">
+    <h1>Every bill in the benchmark</h1>
+    <p class="lede">Filter by candidate, by a single criterion's pass/fail, by outcome, or search by title or
+    bill number. Each colored dot is one candidate's overall verdict on that bill (green = met every applicable
+    criterion). Click a bill to read all summaries with the judge's reasoning.</p>
+
+    <div class="card">
+      <div class="filters">
+        <div class="field"><label for="f-model">Candidate</label><select id="f-model"></select></div>
+        <div class="field"><label for="f-criterion">Criterion</label><select id="f-criterion"></select></div>
+        <div class="field"><label for="f-outcome">Outcome</label>
+          <select id="f-outcome">
+            <option value="">Pass or fail</option>
+            <option value="pass">Pass only</option>
+            <option value="fail">Fail only</option>
+          </select></div>
+        <div class="field"><label for="f-type">Bill type</label><select id="f-type"></select></div>
+        <div class="field"><label for="f-search">Search</label>
+          <input id="f-search" type="search" placeholder="title or bill number…"></div>
+      </div>
+    </div>
+
+    <p class="count" id="bill-count">Loading…</p>
+    <div id="bill-list"><div class="loading">Loading bills…</div></div>
+  </div>
+
+  <div id="bill-detail" class="hidden"></div>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  Open source · data from the <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a> ·
+  <a href="https://github.com/nawagner/crs-summary-benchmark" target="_blank" rel="noopener">source &amp; data on GitHub</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>initBills();</script>
+</body>
+</html>

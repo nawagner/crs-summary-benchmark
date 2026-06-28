@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-181",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and contextual statutory references (50 U.S.C. 1546a, ISAAECA 1976) are verifiably correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; statutory and procedural context is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution directs removal of U.S. forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly invokes the War Powers framework and expedited procedures under 50 U.S.C. 1546a and ISAAECA, though the resolution does not itself amend law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately captures the rule-of-construction carve-outs for self-defense, intelligence sharing, and defensive assistance to allies."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date; the summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative removal directive, the unless-authorized condition, and the rule of construction."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral presentation with no advocacy or editorializing, including the contentious findings."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and logically structured from purpose through findings, operative provision, and carve-outs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Mrs. Gillibrand, the Committee on Foreign Relations, the cited statutes, and Operation Epic Fury."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The few figures referenced (Feb. 28, 2026 date) are correct and consistent with the bill."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.13237,
+  "judge_latency_s": 13.277
+}

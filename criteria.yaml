@@ -1,0 +1,86 @@
+# Binary pass/fail criteria for judging a bill summary, derived from the CRS standards
+# (accuracy, coherence, relevance, objectivity) and the structural requirements CRS
+# describes (how a bill changes existing law; exceptions; effective dates; sourcing/neutrality).
+#
+# EDIT FREELY: add, remove, or reword criteria. Each needs a unique `id`, a short `name`,
+# a `description` the judge applies, and `applicability`:
+#   - always:      judged on every summary.
+#   - conditional: the judge first decides if it applies to THIS bill; if not, it auto-passes
+#                  (so a bill with no dollar figures isn't penalized on `correct_figures`).
+#
+# Headline metric "meets CRS standard" = passes every applicable criterion.
+
+criteria:
+  - id: accurate
+    name: Accurate
+    description: >
+      Every claim is either supported by the bill text or is accurate real-world context about the
+      bill's subject (verifiable via general knowledge / web search). Nothing contradicts the bill
+      text or the factual record.
+    applicability: always
+
+  - id: no_hallucinations
+    name: No hallucinations
+    description: >
+      No fabricated or incorrect claims. Accurate context not stated in the bill — e.g. a program's
+      common name, its administering agency, or the statute being amended — is acceptable and is NOT
+      a hallucination. Only false or invented claims fail this criterion.
+    applicability: always
+
+  - id: states_purpose
+    name: States purpose
+    description: The summary clearly identifies the bill's primary purpose or subject.
+    applicability: always
+
+  - id: changes_to_existing_law
+    name: Changes to existing law
+    description: The summary describes how the bill amends, repeals, or adds to existing law (e.g. names the statute/program affected), when the bill does so.
+    applicability: conditional
+
+  - id: exceptions_conditions
+    name: Exceptions & conditions
+    description: The summary notes key exceptions, conditions, eligibility limits, or carve-outs that are material to the bill.
+    applicability: conditional
+
+  - id: effective_dates
+    name: Effective dates & timing
+    description: The summary notes effective dates, sunsets, deadlines, or other timing provisions that the bill specifies.
+    applicability: conditional
+
+  - id: major_provisions_covered
+    name: Major provisions covered
+    description: >
+      Captures the bill's essential operative effect. A faithful high-level summary is fine; this
+      fails only if a major operative provision is missing or misrepresented — not merely for
+      omitting granular figures or minor sub-provisions.
+    applicability: always
+
+  - id: objective_tone
+    name: Objective tone
+    description: The summary is neutral and non-partisan, with no advocacy, praise, criticism, or editorializing.
+    applicability: always
+
+  - id: coherent
+    name: Coherent
+    description: The summary is well-organized, internally consistent, and reads clearly.
+    applicability: always
+
+  - id: concise
+    name: Concise
+    description: The summary avoids padding, repetition, boilerplate, and filler.
+    applicability: always
+
+  - id: correct_entities
+    name: Correct entities
+    description: >
+      Any agencies, officials, programs, or statutes named — including accurate context beyond the
+      bill text — are identified correctly. Adding a correct administering agency or program name is
+      good; naming the wrong one fails.
+    applicability: conditional
+
+  - id: correct_figures
+    name: Correct figures
+    description: >
+      Any dollar amounts, dates, or quantities the summary states are correct. Omitting figures does
+      not fail this criterion; misstating one does.
+    applicability: conditional

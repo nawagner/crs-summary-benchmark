@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a specific Environmental Protection Agency (EPA) rule concerning the Waste Emissions Charge for Petroleum and Natural Gas Systems. The rule, published in the Federal Register on November 18, 2024 (89 Fed. Reg. 91094), established procedures for facilitating compliance with the charge, including provisions for netting and exemptions.\n\nUnder the Congressional Review Act, Congress has the authority to disapprove federal agency rules through a joint resolution. This resolution states that Congress disapproves the EPA’s rule in its entirety, and the rule “shall have no force or effect.” As a result, the rule is void and cannot be enforced or implemented.\n\nThe resolution does not amend the underlying statute that authorized the waste emissions charge, nor does it replace the rule with new provisions. It simply eliminates the specified rule. The resolution took effect upon its approval on March 14, 2025.",
+  "prompt_tokens": 433,
+  "completion_tokens": 181,
+  "total_tokens": 614,
+  "cost_usd": 0.000346,
+  "latency_s": 5.703,
+  "ok": true
+}

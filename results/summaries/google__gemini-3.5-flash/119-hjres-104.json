@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-48 (House Joint Resolution 104) is a joint resolution of Congress that disapproves a specific rule issued by the Bureau of Land Management (BLM). Under the authority of the Congressional Review Act (Chapter 8 of Title 5, United States Code), the resolution declares that the disapproved BLM rule shall have no force or effect. \n\nThe rule targeted by the resolution is titled \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.\" This agency action was originally issued on November 20, 2024, as a record of decision and resource management plan amendment. Its classification as a \"rule\" subject to congressional disapproval under the Congressional Review Act was established by a Government Accountability Office (GAO) letter of opinion dated June 25, 2025, which was subsequently printed in the Congressional Record on June 26, 2025. \n\nThe joint resolution passed the House of Representatives on September 3, 2025, and the Senate on October 8, 2025. It was approved by the President and became law on December 11, 2025.",
+  "prompt_tokens": 559,
+  "completion_tokens": 1370,
+  "total_tokens": 1929,
+  "cost_usd": 0.013169,
+  "latency_s": 6.311,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-8884",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text; context (Title II SSA, Section 234 demonstration authority, prior expiration) is verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the noted prior expiration of authority is accurate context confirmed by the law's prior 2021/2022 dates."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and modifies disability insurance demonstration project authority under Title II."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies amendments to Sections 234 and 201(k) of the Social Security Act, including specific subsections."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the key new condition that an individual's total income will not be reduced due to participation."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the January 1, 2027 effective date and the 2030/2031 termination dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all operative effects: date extensions, waiver authority, evaluation metrics, expenditure source, income condition, and technical amendments."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, following the bill's structure logically."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Section 234, Section 201(k), the trust funds, and the Commissioner of Social Security."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All dates (2030, 2031, 2027) and the 90-to-120-day change match the bill text exactly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.166035,
+  "judge_latency_s": 11.888
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-3424",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and the contextual descriptions are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; figures and provisions match the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of increasing trustee compensation, adjusting fees, and extending judgeships."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names amended statutes including title 11 sec 330, title 28 sec 589a/1930, and the 2020 and 2017 Acts."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the filing-fee and indigent-waiver carve-outs and the conversion-to-chapter-7 condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the general effective date, the October 1 trustee rule, and fee application timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative provisions across compensation, fees, and judgeships."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone without advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear sections and consistent content."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named statutes, funds, and programs are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures ($45 to $105, $120 total, $63.51, $25.00, $51.49, 0.8 to 0.9, $5,400,000, 2026-2031) match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.064625,
+  "judge_latency_s": 8.079
+}

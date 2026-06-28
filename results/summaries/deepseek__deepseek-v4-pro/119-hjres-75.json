@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, enacted under the Congressional Review Act, nullifies a final rule from the Department of Energy’s Office of Energy Efficiency and Renewable Energy. The rule in question, published in the Federal Register on January 21, 2025 (90 Fed. Reg. 7464), would have set new or amended energy conservation standards for commercial refrigerators, freezers, and refrigerator-freezers. The resolution states that Congress disapproves the rule and that it shall have no force or effect. As a result, the rule is void and the agency may not issue a substantially similar rule without future legislation. The resolution took effect upon its approval on May 9, 2025, and contains no exceptions or delayed implementation dates.",
+  "prompt_tokens": 470,
+  "completion_tokens": 789,
+  "total_tokens": 1259,
+  "cost_usd": 0.000891,
+  "latency_s": 8.964,
+  "ok": true
+}

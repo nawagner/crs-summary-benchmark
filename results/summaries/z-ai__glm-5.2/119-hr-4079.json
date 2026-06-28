@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Safer Response Act of 2025 amends Section 546 of the Public Health Service Act to reauthorize and modify federal grants for first responder training. \n\nThe bill makes several specific changes to the existing law. It updates the capitalization of the terms \"Tribes and Tribal.\" It also broadens the terminology regarding products used by first responders by replacing the phrase \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\" throughout the affected subsections.\n\nAdditionally, the legislation expands the scope of the training program by removing the specific word \"opioid\" in several instances. It changes references from \"opioid and heroin\" to \"opioid, heroin, and other drug,\" and changes \"opioid overdose\" to \"overdose,\" thereby broadening the program's focus to include other drugs.\n\nFinally, the bill reauthorizes funding for the program. It increases the authorization of appropriations from $36,000,000 for each of fiscal years 2019 through 2023 to $57,000,000 for each of fiscal years 2026 through 2030.",
+  "prompt_tokens": 659,
+  "completion_tokens": 923,
+  "total_tokens": 1582,
+  "cost_usd": 0.003395,
+  "latency_s": 12.312,
+  "ok": true
+}

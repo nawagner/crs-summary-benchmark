@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-25",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text (IRS rule title, Federal Register cite, no force/effect, April 10 2025 approval) and the CRA context is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifying the disapproval authority as the Congressional Review Act is correct context, not a fabrication; nothing is invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the resolution disapproves and nullifies the named IRS digital-asset broker reporting rule."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly explains the rule is nullified and has no force or effect, accurately describing the legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The one-sentence disapproval resolution contains no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary notes the April 10, 2025 approval date, the only relevant timing provision."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The sole operative effect—nullification of the IRS rule—is captured."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is brief and free of padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The IRS, the rule title, the Congressional Review Act, and the Federal Register citation are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Federal Register page (106928), publication date (Dec 30, 2024), and approval date (Apr 10, 2025) all match the bill."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.154115,
+  "judge_latency_s": 14.078
+}

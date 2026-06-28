@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress has declared war or enacted a specific authorization for the use of military force. It relies on Congress’s sole constitutional power to declare war and on provisions of the War Powers Resolution.\n\nThe resolution notes that the President notified Congress on March 2, 2026, of military action against Iran that began on February 28, 2026. Under the War Powers Resolution, the President must end that use of forces within 60 days—by May 1, 2026—absent a declaration of war, a specific statutory authorization, or an extension by law. The resolution states that none of those conditions have been met.\n\nSection 2 directs the President to remove U.S. forces from those hostilities, using expedited procedures under existing law. It includes a rule of construction clarifying what the removal directive does not prevent. The United States may still: defend against an attack on itself or its personnel and facilities abroad; collect, analyze, and share intelligence related to threats from Iran or its proxies, including with Israel and other partners; assist Israel and other nations in taking defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, and provide defensive materiel support for those measures; and assist with the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1340,
+  "completion_tokens": 282,
+  "total_tokens": 1622,
+  "cost_usd": 0.000828,
+  "latency_s": 4.707,
+  "ok": true
+}

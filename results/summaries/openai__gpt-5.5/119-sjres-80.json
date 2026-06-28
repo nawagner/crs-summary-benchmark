@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, a Bureau of Land Management rule relating to the “National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.” The record of decision was issued on April 25, 2022. The resolution also cites a Government Accountability Office letter of opinion dated July 24, 2025, printed in the Congressional Record on July 28, 2025, which concluded that the record of decision is a “rule” for purposes of the Congressional Review Act.\n\nThe resolution’s operative effect is to make the Bureau of Land Management rule have no force or effect. By using the Congressional Review Act process in chapter 8 of title 5, United States Code, Congress formally rejects the rule rather than amending the underlying land-management statutes directly. The law was approved on December 5, 2025.",
+  "prompt_tokens": 460,
+  "completion_tokens": 473,
+  "total_tokens": 933,
+  "cost_usd": 0.01649,
+  "latency_s": 9.008,
+  "ok": true
+}

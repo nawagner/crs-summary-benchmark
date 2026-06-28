@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-4079",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurate context (FDA administers FD&C Act approvals; Section 546 trains first responders to administer overdose-reversal drugs)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "References to FDA and the overdose-reversal training program are accurate real-world context, not fabrications, and nothing contradicts the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and expands the Section 546 first responder training grant program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies amendments to Section 546 of the Public Health Service Act (42 U.S.C. 290ee-1)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, eligibility carve-outs, or conditions beyond the amendments described."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the funding period of fiscal years 2026 through 2030."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the expanded substance scope, removal of opioid-only focus, and increased reauthorization amount."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Public Health Service Act, Section 546, FDA, and Tribes/Tribal capitalization edit."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures ($57,000,000 for FY2026-2030 replacing $36,000,000 for FY2019-2023) match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.149155,
+  "judge_latency_s": 13.37
+}

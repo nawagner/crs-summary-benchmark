@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 181 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution states that on February 28, 2026, the Trump Administration launched \"Operation Epic Fury",
+  "prompt_tokens": 1962,
+  "completion_tokens": 1496,
+  "total_tokens": 3458,
+  "cost_usd": 0.016407,
+  "latency_s": 6.953,
+  "ok": true
+}

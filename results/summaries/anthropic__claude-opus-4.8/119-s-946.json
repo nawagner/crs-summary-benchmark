@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-946",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Medication Access and Training Expansion Improvement Act (MATE Improvement Act) amends Section 303 of the Controlled Substances Act (21 U.S.C. 823) to clarify and expand the list of organizations and educational programs that can satisfy the training requirements for practitioners who prescribe controlled substances.\n\nExisting law requires certain prescribers of controlled substances to complete training, and it specifies which professional organizations and accredited schools may provide qualifying training. This bill broadens those provisions in several ways:\n\n- It adds the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, and the American Optometric Association to the list of organizations whose training programs can count toward the requirement, and adds the Council on Podiatric Medical Education as a recognized accrediting body.\n- It adds podiatric medicine to the categories of medical training (alongside osteopathic medicine and dental surgery) and references a podiatric medicine curriculum.\n- For another category of qualifying training, it adds the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians as recognized organizations.\n- It adds accredited schools of pharmacy in the United States to the list of institutions whose curricula can satisfy the training requirement.\n\nThe bill also makes technical changes, including redesignating a duplicated subsection (the second subsection \"(l)\" becomes subsection \"(m)\").\n\nThe amendments are given retroactive effect: they take effect as if enacted on December 29, 2022, the date the underlying training requirement was originally established.\n\nThe bill was introduced in the Senate on March 11, 2025, by Mr. Bennet and Ms. Collins, and referred to the Committee on Health, Education, Labor, and Pensions.",
+  "prompt_tokens": 1504,
+  "completion_tokens": 620,
+  "total_tokens": 2124,
+  "cost_usd": 0.02302,
+  "latency_s": 10.238,
+  "ok": true
+}

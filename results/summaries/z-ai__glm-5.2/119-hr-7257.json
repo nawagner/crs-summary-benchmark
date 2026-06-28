@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "z-ai/glm-5.2",
+  "summary": "The SECURE Grid Act amends the Energy Policy and Conservation Act to require states to address the physical security, cybersecurity, and resilience of local distribution systems in their State energy security plans. The bill defines a \"local distribution system\" as energy infrastructure owned and operated by an electric utility at a voltage of 100 kilovolts or less.\n\nThe bill expands the categories of stakeholders states must engage with to include suppliers of equipment for the generation, transmission, and distribution of electricity. It revises the required content of state plans to address physical threats and vulnerabilities—including weather-related threats, physical attacks on local distribution systems and the bulk-power system, and supply chain risks for electricity equipment—as well as cybersecurity threats to local distribution systems that may impact the bulk-power system. Plans must also provide a risk mitigation approach covering response, mitigation, and recovery from these hazards.\n\nThe bill clarifies that state plan submissions do not require approval by the Secretary of Energy. It changes a provision regarding federal assistance to states for revising their plans from discretionary (\"may\") to mandatory (\"shall\"). It also adds local distribution systems to existing provisions referencing electric utilities and sets a sunset date of September 30, 2031, for the entire section.\n\nAdditionally, the bill requires the Comptroller General to submit a report to the House Energy and Commerce Committee and the Senate Energy and Natural Resources Committee by September 30, 2030. The report must evaluate the efficacy of state energy security plans, including their effectiveness in identifying, assessing, and mitigating risks to energy infrastructure and supply chains, and provide recommendations for improvement. The report must also analyze the implementation of the amended law and document state use of federal financial assistance. Protected information under existing law is to be included in a non-public annex.",
+  "prompt_tokens": 1795,
+  "completion_tokens": 603,
+  "total_tokens": 2398,
+  "cost_usd": 0.003514,
+  "latency_s": 8.608,
+  "ok": true
+}

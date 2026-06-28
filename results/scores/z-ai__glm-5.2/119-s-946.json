@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-946",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the retroactive December 29, 2022 date aligns with the underlying MATE Act provision (Sec. 1263 of the Consolidated Appropriations Act, 2023)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the organizations and effective date listed all appear in the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose: to clarify training requirements for prescribers of controlled substances."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies that the bill amends Section 303 of the Controlled Substances Act to expand recognized organizations and curricula."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or carve-outs; it only expands lists of recognized entities."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the retroactive effective date of December 29, 2022."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential effect: adding professional/accrediting organizations and including podiatric medicine, dental medicine, and pharmacy schools/curricula."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tone is neutral and descriptive throughout, with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, progressing logically through the amendments."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding or repetition; each paragraph adds distinct substance."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named organizations, the Controlled Substances Act, and Section 303 match the bill text accurately."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure, the December 29, 2022 effective date, is stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.153485,
+  "judge_latency_s": 14.257
+}

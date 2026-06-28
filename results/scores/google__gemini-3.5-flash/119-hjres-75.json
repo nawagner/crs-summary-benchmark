@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-75",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly identifies the public law number, bill number, enactment date, and CRA authority, all consistent with the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the truncated text; it accurately reflects the resolution's nature."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the primary purpose is disapproving a specific federal regulation."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is cut off before identifying the specific DOE energy conservation standards rule being nullified, so it fails to describe the law's effect on existing regulation."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "A simple CRA disapproval resolution contains no material exceptions or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the May 9, 2025 enactment date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated and never identifies the specific rule (DOE commercial refrigerators/freezers standards) being disapproved, omitting the essential operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends mid-sentence ('Congress formally disappro'), making it incomplete and not fully coherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text contains no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The entities named (Congress, chapter 8 of title 5 USC, the public law and bill numbers) are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The date and identifiers stated (May 9, 2025; Public Law 119-9; H.J. Res. 75) are all correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 8,
+  "meets_standard": false,
+  "judge_cost_usd": 0.04268,
+  "judge_latency_s": 8.968
+}

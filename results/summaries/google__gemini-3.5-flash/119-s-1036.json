@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Improving Access to Addiction Medicine Providers Act\" (S. 1036) is a bill that aims to expand the scope of the federal Minority Fellowship Program to include training for professionals in the field of addiction medicine. Introduced in the United States Senate on March 13, 2025, the bill proposes specific amendments to Section 597 of the Public Health Service Act.\n\nUnder current law, the Minority Fellowship Program supports the education and training of behavioral health professionals. S. 1036 modifies this program in two ways. First, it amends subsection (a)(1) of the Act to insert the word \"diagnosis,\" after \"related to,\" thereby incorporating diagnosis-related training into the program's objectives. Second, it amends subsection (b) to insert \"addiction medicine,\" after \"psychiatry,\" which explicitly authorizes the program to award fellowships to professionals training in the field of addiction medicine. \n\nThe bill does not outline any material exceptions, conditions, or specific effective dates or deadlines. Upon its introduction, the bill was referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+  "prompt_tokens": 505,
+  "completion_tokens": 1440,
+  "total_tokens": 1945,
+  "cost_usd": 0.013718,
+  "latency_s": 7.472,
+  "ok": true
+}

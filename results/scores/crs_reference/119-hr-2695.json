@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hr-2695",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes reauthorizing the Building Communities of Recovery program through FY2030; the SAMHSA/Center for Substance Abuse Treatment administration is correct context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Program name and administering body are accurate, not invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it reauthorizes the recovery-grants program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes amending the Public Health Service Act to reauthorize the grants."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No material exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes reauthorization through FY2030."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative reauthorization; omitting the granular dollar figure is acceptable at a high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "SAMHSA / Center for Substance Abuse Treatment correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "FY2030 is correct; no figure is misstated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

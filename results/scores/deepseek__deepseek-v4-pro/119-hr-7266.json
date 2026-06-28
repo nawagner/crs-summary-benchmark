@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7266",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text or accurate context (DOE as administering agency, IIJA origin) verified via search."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Naming the Secretary of Energy/DOE is accurate context, not fabrication; no false claims present."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose to reauthorize and revise the RMUC cybersecurity program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the bill amends Section 40124 of the Infrastructure Investment and Jobs Act, replacing existing program language."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures eligibility limits (e.g., investor-owned under 4M MWh, 6-entity partnership) and priority criteria."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the FY2026-2030 appropriations period, the only timing provision specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers establishment, eligible entities, awards, objectives, priorities, FOIA exemption, and appropriations."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone throughout with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across logically grouped paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition while covering the operative content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the IIJA, the RMUC Program, and DOE as administering agency."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $250,000,000, FY2026-2030, 4,000,000 MWh, and 6-entity figures all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.180635,
+  "judge_latency_s": 14.482
+}

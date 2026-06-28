@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a rule issued by the Bureau of Land Management.\n\nThe specific rule being disapproved is the \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment,\" which the Bureau of Land Management issued on November 20, 2024. The resolution notes that the Government Accountability Office, in a letter dated June 25, 2025 (printed in the Congressional Record on June 26, 2025), concluded that this record of decision and resource management plan amendment qualifies as a \"rule\" subject to the Congressional Review Act.\n\nUnder the resolution, Congress formally disapproves the rule, and the rule \"shall have no force or effect.\" This means the BLM action is invalidated and cannot be implemented.\n\nThe resolution was passed by the House on September 3, 2025, passed by the Senate on October 7 and 8, 2025, and was approved (signed into law) on December 11, 2025, becoming Public Law 119-48.",
+  "prompt_tokens": 809,
+  "completion_tokens": 356,
+  "total_tokens": 1165,
+  "cost_usd": 0.012945,
+  "latency_s": 6.717,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2066",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary twice states the bill revises/amends the definition of \"financing,\" but section 103(9) (15 U.S.C. 662(9)) actually defines \"private capital,\" so this claim contradicts the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "Claiming the bill revises the definition of \"financing\" is an incorrect claim; the term defined and amended in section 103(9) is \"private capital.\""
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the purpose: modifying SBIC leverage limits and expanding investment categories excluded from those limits under the Small Business Investment Act of 1958."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly identifies that the bill amends the Small Business Investment Act of 1958 and describes the leverage-cap and exclusion changes, despite mislabeling one defined term."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary notes the key conditions: the lesser-of-50%-or-$125M exclusion cap, prospective applicability, and the government-funds carve-out with institutional exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the exclusion applies only to investments made after the enactment date, May 19, 2026."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the essential operative effects: revised leverage caps, expanded exclusion categories, the exclusion cap, and the government-funds provision."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized into clear thematic sections and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately concise without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": false,
+      "why": "It misidentifies the defined term in section 103(9) as \"financing\" when the statute defines \"private capital,\" though SBA, the 1958 Act, and the cited sub-statutes are correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures—$300M to $200M, $250M, $175M, $350M to $475M, $125M, 50%, and the May 19, 2026 date—match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.70507,
+  "judge_latency_s": 35.012
+}

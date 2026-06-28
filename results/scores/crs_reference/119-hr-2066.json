@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hr-2066",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes SBIC leverage changes (300%->200%), expanded private-capital definition, and rural/tech/manufacturer exclusions; matches the amendments to the Small Business Investment Act."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "SBIC/SBA context is accurate, not invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it modifies SBIC financing limits and private-capital definition."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes amendments to the Small Business Investment Act of 1958."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the exclusions and the cap on excluded amounts."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "No effective-date provision summarized."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the principal operative changes."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "SBA and SBIC correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "300%->200% matches the text; dollar figures consistent with the bill's leverage provisions."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

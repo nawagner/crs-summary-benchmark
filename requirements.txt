@@ -1,0 +1,11 @@
+# Congress.gov data layer — reuses the project author's own MCP server's client.
+# Installs httpx + the importable CongressClient/Config.
+congress-mcp @ git+https://github.com/nawagner/congress-mcp.git
+
+# OpenRouter is OpenAI-API-compatible; we talk to it with the openai SDK.
+openai>=1.40
+
+python-dotenv>=1.0
+PyYAML>=6.0
+tqdm>=4.66
+httpx>=0.27

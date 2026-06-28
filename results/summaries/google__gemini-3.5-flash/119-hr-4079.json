@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Safer Response Act of 2025\" (H.R. 4079) amends the Public Health Service Act to reauthorize and expand the federal grant program for first responder training. \n\nThe bill’s primary purpose is to extend funding for these grants while broadening the scope of the training program. It increases the authorized funding to $57,000,000 for each of the fiscal years 2026 through 2030, raising it from the previous authorization of $36,000,000 annually for fiscal years 2019 through 2023.\n\nIn addition to increasing funding, the",
+  "prompt_tokens": 730,
+  "completion_tokens": 1496,
+  "total_tokens": 2226,
+  "cost_usd": 0.014559,
+  "latency_s": 6.954,
+  "ok": true
+}

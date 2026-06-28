@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act, an Internal Revenue Service rule titled “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,” published in the Federal Register on December 30, 2024, at 89 Fed. Reg. 106928.\n\nThe resolution provides that the IRS rule has no force or effect. As a result, the rule is nullified and may not be implemented or enforced. The resolution was approved on April 10, 2025.",
+  "prompt_tokens": 434,
+  "completion_tokens": 109,
+  "total_tokens": 543,
+  "cost_usd": 0.00544,
+  "latency_s": 2.504,
+  "ok": true
+}

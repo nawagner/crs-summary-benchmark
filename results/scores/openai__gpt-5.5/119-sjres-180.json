@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-180",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims track the bill text or are accurate context (War Powers Resolution, cited statutes), with nothing contradicting the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; statutory references and the War Powers Resolution context are correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill directs removal of U.S. forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies the invoked statutes (sec. 1013 of the State Authorization Act and sec. 601(b) of the Arms Export Control Act) and the War Powers Resolution."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the rule-of-construction carve-outs (self-defense, intelligence sharing, assisting partners, evacuation) and the declaration-of-war/AUMF exception."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or sunsets to report."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It conveys the operative removal directive, findings, and exceptions without misrepresentation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary neutrally relays findings and provisions without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "It is appropriately concise without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named statutes, the War Powers Resolution, and Operation Epic Fury are stated correctly per the bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dates stated (Feb. 28, 2026; March 2, 2026) match the bill, and no figures are misstated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1532,
+  "judge_latency_s": 12.682
+}

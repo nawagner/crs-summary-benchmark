@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "openai/gpt-5.5",
+  "summary": "The Bankruptcy Administration Improvement Act of 2025 amends federal bankruptcy law to increase compensation for Chapter 7 bankruptcy trustees, adjust bankruptcy fee deposits and Chapter 11 quarterly fees, and extend certain temporary bankruptcy judgeships.\n\nThe Act raises the statutory payment to Chapter 7 trustees under title 11 from $45 to $105 per case. Together with the existing $15 payment, this makes the trustee’s per-case compensation $120. It also removes a prior subsection of section 330 and redirects the remaining Chapter 7 filing fee amounts: $63.51 to the judiciary’s special fund, $25 to the Deficit Reduction Act special fund, and $51.49 to the United States Trustee System Fund. The Act does not change the Chapter 7 filing fee or the authority of courts to waive filing fees for indigent individuals.\n\nThe Act amends Chapter 11 quarterly fee provisions in title 28 by extending a specified period from 5 years to 10 years and modifying the fee formula, including changing one percentage from 0.8 percent to 0.9 percent and requiring use of the greater of specified amounts in part of the calculation. For fiscal years 2026 through 2031, most Chapter 11 quarterly fees are to be deposited as provided under the amended United States Trustee System Fund rules, except that $5.4 million each fiscal year must be deposited in the general fund of the Treasury.\n\nThe Act extends the duration of multiple temporary bankruptcy judge offices authorized under the Bankruptcy Administration Improvement Act of 2020 and the Bankruptcy Judgeship Act of 2017 from 5 years to 10 years.\n\nExcept for specified provisions, the Act takes effect on the first day of the calendar quarter occurring on or after enactment. The trustee compensation changes apply to Chapter 7 cases, and cases converted to Chapter 7, commenced on or after the first October 1 after enactment. The Chapter 11 fee changes apply to cases pending or commenced on the relevant effective date and to disbursements made in calendar quarters beginning on or after enactment.",
+  "prompt_tokens": 2913,
+  "completion_tokens": 938,
+  "total_tokens": 3851,
+  "cost_usd": 0.042705,
+  "latency_s": 14.122,
+  "ok": true
+}

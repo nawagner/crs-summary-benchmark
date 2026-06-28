@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, titled the “No Visas for Anti-Semitic Students Act,” requires the Secretary of State to revoke or deny student visas (F or M nonimmigrant visas) for any foreign national who engages in certain antisemitic conduct and is determined to pose potentially serious adverse foreign policy consequences for the United States.\n\nUnder the bill, the Secretary must act when two conditions are met. First, the individual must have committed “prohibited antisemitic conduct” on or after the date of enactment. That term covers two categories of behavior: (1) a physical act of violence, vandalism, or harassment targeting a Jewish person, their property, a community institution, or a religious facility, done with intent to intimidate or harm because of Jewish identity or affiliation; and (2) providing material support—such as funding, organizing, or inciting—to someone knowing that the recipient intended to use that support for such an act. Second, the Secretary must determine, using the authority under section 237(a)(4)(C)(i) of the Immigration and Nationality Act, that the individual or their conduct poses potentially serious adverse foreign policy consequences. The bill adopts the International Holocaust Remembrance Alliance working definition of antisemitism, including its contemporary examples, as already used by the Department of State.\n\nThe bill also amends the Immigration and Nationality Act to add a new provision that bars an alien from being granted or maintaining F or M student status under the same conditions. If the Secretary determines that a current student visa holder has engaged in prohibited antisemitic conduct and poses the required foreign policy risk, the Secretary must revoke the visa.\n\nThe requirements apply to conduct occurring on or after the bill’s enactment. The bill does not create new exceptions; visa revocation or denial hinges on the dual factual findings regarding conduct and foreign policy consequences.",
+  "prompt_tokens": 1184,
+  "completion_tokens": 924,
+  "total_tokens": 2108,
+  "cost_usd": 0.001319,
+  "latency_s": 13.748,
+  "ok": true
+}

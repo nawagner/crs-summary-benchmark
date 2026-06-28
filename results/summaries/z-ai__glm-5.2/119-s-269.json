@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-269",
+  "model": "z-ai/glm-5.2",
+  "summary": "The \"Ending Improper Payments to Deceased People Act\" aims to improve coordination between federal and state agencies and the Do Not Pay working system to prevent improper payments to deceased individuals and support the recovery of improperly paid benefits. \n\nThe Act amends Section 205(r) of the Social Security Act to require the Commissioner of Social Security to provide state death data to the agency operating the Do Not Pay working system, provided that existing requirements for cooperative arrangements are met. To facilitate this, the Commissioner and the Do Not Pay agency must enter into an agreement establishing a methodology for sharing the proportional costs of state death data, which may be periodically reviewed.\n\nAdditionally, the Act prohibits the Commissioner of Social Security from recording an individual's death for records provided under this section unless there is clear and convincing evidence that the individual should be presumed deceased. \n\nThe legislation also modifies provisions regarding individuals who are incorrectly identified as deceased. It requires the Commissioner to notify any agency that has a cooperative arrangement under the relevant paragraphs of the Social Security Act if such an error is made. \n\nThe amendments made by this Act take effect on December 27, 2026.",
+  "prompt_tokens": 1029,
+  "completion_tokens": 676,
+  "total_tokens": 1705,
+  "cost_usd": 0.003006,
+  "latency_s": 12.087,
+  "ok": true
+}

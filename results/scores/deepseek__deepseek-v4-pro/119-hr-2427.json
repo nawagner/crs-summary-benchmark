@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2427",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurately describe its provisions, including the FTC enforcement and Stafford Act context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; references to the FTC Act and disaster declarations are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as prohibiting price gouging after a declared major disaster or emergency."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes violations are treated as unfair/deceptive acts under the FTC Act framework."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately captures the supplier-cost, tariff, hotel seasonal, and rental amortization exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 30-day, 180-day, and 2-year periods and that the prohibition takes effect on the declaration date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the price caps, exceptions, FTC/state/private enforcement, penalties, and fund deposit."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive without advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across all sections."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tight summary without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the FTC, state attorneys general, and U.S. Attorney General consistent with the bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 10%, 50%, 30-day, 180-day, $25,000, treble damages, and 2-year figures all match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.061585,
+  "judge_latency_s": 8.394
+}

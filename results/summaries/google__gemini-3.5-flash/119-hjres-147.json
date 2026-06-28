@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 147, introduced in the House of Representatives on February 2, 2026, by Representative Gregory Meeks and six co-sponsors, seeks to terminate a previously declared national emergency concerning trade with Brazil. \n\nThe primary purpose of this joint resolution is to end the national emergency that was declared to impose import duties on articles coming from Brazil. Under its major provision, the resolution explicitly terminates the national emergency declared by the President on July 30, 2025, in Executive Order 14323 (90 Fed. Reg. 37739). This action is taken pursuant to section 202 of the National Emergencies Act, which is codified at 50 U.S.C. 1622. \n\nThe resolution has been referred to the House Committee on Foreign Affairs for consideration. The text of the resolution does not outline any material exceptions, conditions, or specific effective",
+  "prompt_tokens": 456,
+  "completion_tokens": 1496,
+  "total_tokens": 1952,
+  "cost_usd": 0.014148,
+  "latency_s": 6.582,
+  "ok": true
+}

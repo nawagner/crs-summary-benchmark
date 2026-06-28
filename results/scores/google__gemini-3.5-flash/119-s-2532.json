@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-2532",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary's claims (reauthorizes/modifies the Section 546 PHSA first responder training program, broadens scope to a wider range of overdoses, $57M authorization) are all supported by the bill text and accurate context."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; identifying the program under Section 546 PHSA and its broadening of scope is accurate and consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill reauthorizes and modifies the first responder training program to extend funding and broaden its scope."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly identifies the bill as amending Section 546 of the Public Health Service Act and modifying its scope and funding."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a narrow reauthorization with no material exceptions or carve-outs requiring mention."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Though truncated, the summary begins to describe the funding period; the bill's key timing is the FY2026-2030 authorization, which the funding section addresses, but truncation leaves this incomplete."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence in the funding section and never completes coverage of the funding increase or the FY2026-2030 period, leaving a major operative provision incomplete."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and factual with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off mid-sentence ('$57,000,0'), rendering it incomplete and not fully coherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is free of padding and filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Section 546 of the Public Health Service Act and the Safe Response Act (S. 2532) are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $57,000,000 figure stated is correct per the bill, though the sentence is cut off before completing the dates."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.168625,
+  "judge_latency_s": 14.908
+}

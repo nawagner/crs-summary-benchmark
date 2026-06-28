@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-183",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims faithfully track the bill text including findings, operative directive, and rule of construction."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; summary accurately reflects the bill's findings and provisions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose: directing removal of U.S. forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites the War Powers Resolution and the statutes invoked for expedited procedures."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the rule-of-construction carve-outs for self-defense, intelligence sharing, and defensive assistance to Israel and partners, plus the authorization exception."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or deadline, and the summary correctly notes this."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative removal directive and rule of construction, the bill's essential effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and attributes contested claims as findings rather than asserting them."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across findings, operative provision, and exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering the key elements."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the War Powers Resolution and the relevant authorization statutes and Operation Epic Fury."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The date February 28, 2026 is stated correctly and no figures are misstated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05175,
+  "judge_latency_s": 8.497
+}

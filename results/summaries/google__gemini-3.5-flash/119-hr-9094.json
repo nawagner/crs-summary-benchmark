@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-9094",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Florida Freeze Disaster Assistance Act of 2026\" (H.R. 9094) appropriates $3,500,000,000 for the fiscal year ending September 30, 2027, to the Office of the Secretary of the U.S. Department of Agriculture (USDA). These funds, which will remain available until expended, are designated to provide block grants to states to compensate for losses of revenue, quality, or production of crops (including crops prevented from being planted), trees, bushes, and vines resulting from freeze or cold weather conditions.\n\nTo receive and distribute these funds, several conditions and requirements must be met:\n* The assistance must include compensation to producers for losses of multi-year crops.\n* The funds are restricted exclusively to losses occurring in counties that received a disaster designation for freeze and related cold weather conditions issued by the Secretary of Agriculture on March 4, 2026.\n* The funds must be made available upon the request of a State department of agriculture or another appropriate State agency determined by the Secretary.\n\nAdditionally, the bill establishes a reporting deadline. Not later than 120 days after the bill is enacted, and every fiscal quarter thereafter until the funds are fully expended, the Secretary of Agriculture must submit a report to the House and Senate Committees on Appropriations describing the implementation of the assistance. \n\nFinally, the bill designates this appropriation as an emergency requirement pursuant to the Balanced Budget and Emergency Deficit Control Act of 1985.",
+  "prompt_tokens": 960,
+  "completion_tokens": 1449,
+  "total_tokens": 2409,
+  "cost_usd": 0.014481,
+  "latency_s": 7.488,
+  "ok": true
+}

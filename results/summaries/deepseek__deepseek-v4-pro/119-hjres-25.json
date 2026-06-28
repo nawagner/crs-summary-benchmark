@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, enacted under the Congressional Review Act (chapter 8 of title 5, United States Code), nullifies a final rule issued by the Internal Revenue Service. The rule, titled “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,” was published in the Federal Register on December 30, 2024 (89 Fed. Reg. 106928). By passing this resolution, Congress disapproves the rule in its entirety and declares that it shall have no force or effect.\n\nThe resolution does not replace the rule with new requirements, create exceptions, or set future effective dates. It simply eliminates the regulation from operation. The measure completed its legislative path on April 10, 2025, when it was approved and became Public Law 119-5.",
+  "prompt_tokens": 433,
+  "completion_tokens": 597,
+  "total_tokens": 1030,
+  "cost_usd": 0.000708,
+  "latency_s": 10.093,
+  "ok": true
+}

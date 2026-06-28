@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-7, exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to overturn a federal regulation issued by the Department of Energy.\n\nSpecifically, the resolution disapproves a rule titled \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers,\" which had been published in the Federal Register at 89 Fed. Reg. 104616 on December 23, 2024. By formally disapproving the rule, Congress provides that the rule \"shall have no force or effect,\" meaning the Department of Energy's energy conservation standards for walk-in coolers and walk-in freezers established by that regulation are nullified and do not take effect.\n\nThe resolution passed the House on March 27, 2025, passed the Senate on April 2 and 3, 2025, and was approved on May 9, 2025. Under the Congressional Review Act mechanism it invokes, a rule that is disapproved in this manner may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless specifically authorized by a subsequent law.\n\nThe text of the resolution itself contains no other provisions, exceptions, or conditions beyond the disapproval of the specified rule.",
+  "prompt_tokens": 755,
+  "completion_tokens": 430,
+  "total_tokens": 1185,
+  "cost_usd": 0.014525,
+  "latency_s": 5.885,
+  "ok": true
+}

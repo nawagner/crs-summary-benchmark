@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill requires the Department of Health and Human Services (HHS) to ensure that its grant programs addressing opioid misuse and use disorders do not limit references to opioid overdose reversal drugs to naloxone alone. Instead, any mention of such a drug must be inclusive of all opioid overdose reversal agents that have been approved by the Food and Drug Administration (FDA) for emergency treatment of a known or suspected opioid overdose.\n\nThe bill applies to both future and existing HHS regulations and guidance. For any new regulation or guidance issued for a relevant grant program, the Secretary of HHS must ensure that references to an opioid overdose reversal drug are not restricted to a single product like naloxone. For existing references, the bill sets a one-year deadline from the date of enactment for the Secretary to update all applicable regulations and guidance. The update must make those references inclusive of any opioid overdose reversal drug that has been approved or otherwise authorized for use by the FDA.\n\nThe existing references subject to this mandatory update are those in regulations or guidance issued before the bill’s enactment that are part of two specific grant programs: the State and Tribal Opioid Response Grants under the 21st Century Cures Act, and the priority substance use disorder prevention needs grants of regional and national significance under the Public Health Service Act. The bill does not alter the eligibility criteria for the grants or the approval standards for the drugs themselves; it only broadens the language used in program materials to avoid implying that naloxone is the sole acceptable reversal agent.",
+  "prompt_tokens": 783,
+  "completion_tokens": 612,
+  "total_tokens": 1395,
+  "cost_usd": 0.000873,
+  "latency_s": 7.982,
+  "ok": true
+}

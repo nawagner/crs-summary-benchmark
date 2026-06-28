@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-181",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text; the War Powers Resolution context is accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; summary tracks the bill's findings and operative provisions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose of directing removal of forces from unauthorized hostilities against Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes invocation of the War Powers Resolution and related expedited-procedure statutes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the rule-of-construction carve-outs for defense, intelligence, and assistance to Israel and partners."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution specifies no effective dates or sunsets to summarize."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the core directive, findings, and exceptions without misrepresentation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and attributes contested claims to the findings."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent across three clear paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately compact."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Operation Epic Fury, Iran, Israel, and War Powers Resolution are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure used, the February 28, 2026 date, matches the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05245,
+  "judge_latency_s": 7.733
+}

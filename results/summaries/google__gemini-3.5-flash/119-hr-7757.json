@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Kids Internet and Digital Safety Act\" (KIDS Act) aims to protect minors under age 17 online, empower parents, and regulate digital platforms, online games, and artificial intelligence (AI) chatbots. \n\nThe bill establishes several major requirements across different digital sectors:\n*",
+  "prompt_tokens": 19709,
+  "completion_tokens": 1496,
+  "total_tokens": 21205,
+  "cost_usd": 0.043027,
+  "latency_s": 8.606,
+  "ok": true
+}

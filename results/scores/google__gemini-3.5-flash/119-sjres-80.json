@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-80",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims (PL 119-47, S.J. Res. 80, Dec. 5 2025 approval, BLM rule title, CRA = ch. 8 title 5) match the bill text and verified record."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifying chapter 8 of title 5 as the Congressional Review Act is accurate context, and no claims are fabricated or false."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution disapproves the BLM NPR-A IAP Record of Decision rule so it has no force or effect."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly explains the resolution nullifies the BLM rule under the Congressional Review Act (ch. 8 of title 5)."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "This is a simple CRA disapproval resolution with no material exceptions or carve-outs to note."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the December 5, 2025 approval date and the April 25 issuance date of the underlying rule, though the latter is cut off mid-sentence."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect—the rule shall have no force or effect—though it omits the GAO opinion detail, which is minor."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated, ending abruptly mid-sentence ('issued by the Bureau of Land Management on April 25,'), breaking organization and readability."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text is appropriately tight without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Bureau of Land Management, the rule title, and the Congressional Review Act are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates and citation (PL 119-47, S.J. Res. 80, Dec. 5 2025, April 25) stated are all correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.212035,
+  "judge_latency_s": 15.291
+}

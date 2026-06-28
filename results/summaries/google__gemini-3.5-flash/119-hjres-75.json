@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-9 (House Joint Resolution 75), enacted on May 9, 2025, is a joint resolution of Congress with the primary purpose of disapproving a specific federal regulation. Under the authority of chapter 8 of title 5 of the United States Code, Congress formally disappro",
+  "prompt_tokens": 526,
+  "completion_tokens": 1496,
+  "total_tokens": 2022,
+  "cost_usd": 0.014253,
+  "latency_s": 7.018,
+  "ok": true
+}

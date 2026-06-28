@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 41, introduced on March 27, 2025, is a joint resolution that provides for congressional disapproval of a proposed export of specific defense articles to Israel. The primary purpose of the resolution is to prohibit this proposed export from taking place.",
+  "prompt_tokens": 551,
+  "completion_tokens": 1496,
+  "total_tokens": 2047,
+  "cost_usd": 0.014291,
+  "latency_s": 6.551,
+  "ok": true
+}

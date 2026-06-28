@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution prohibits a specific proposed export of defense articles to Israel. It blocks the transfer of 20,000 fully automatic Colt Carbine rifles (5.56mm caliber, 11.5-inch barrel) along with associated parts and components valued at $1 million or more. The export, described in Transmittal No. DDTC 23-077, was notified to Congress on March 24, 2025, under the Arms Export Control Act, and would have been made to M.R.D. Efram Investments Ltd for ultimate end use by the Israel National Police. By enacting this resolution, Congress exercises its statutory authority to disapprove such a sale, thereby prohibiting the Executive Branch from proceeding with the transaction. The measure does not include any exceptions, conditions, or additional effective dates beyond its enactment.",
+  "prompt_tokens": 479,
+  "completion_tokens": 582,
+  "total_tokens": 1061,
+  "cost_usd": 0.000715,
+  "latency_s": 7.71,
+  "ok": true
+}

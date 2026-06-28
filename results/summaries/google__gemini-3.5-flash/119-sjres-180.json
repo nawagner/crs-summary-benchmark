@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 180 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. Citing the War Powers Resolution and the Department of State Authorization Act, Fiscal Years 1984",
+  "prompt_tokens": 1378,
+  "completion_tokens": 1496,
+  "total_tokens": 2874,
+  "cost_usd": 0.015531,
+  "latency_s": 6.722,
+  "ok": true
+}

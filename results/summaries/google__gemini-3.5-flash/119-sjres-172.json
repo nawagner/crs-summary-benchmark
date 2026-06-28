@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 172 is a joint resolution that directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, unless Congress explicitly authorizes such action through a declaration of war or a specific authorization for the use of military force. \n\nThe",
+  "prompt_tokens": 1484,
+  "completion_tokens": 1496,
+  "total_tokens": 2980,
+  "cost_usd": 0.01569,
+  "latency_s": 6.853,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-186",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text, and the contextual description of Fourteenth Amendment Section 2 (reduction of representation when right to vote is denied to male inhabitants except for rebellion or other crime) is verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "The added context about what Fourteenth Amendment Section 2 currently does is correct and not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill proposes a constitutional amendment establishing a fundamental right to vote."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly identifies that Section 3 repeals the 'or other crime' phrase in Fourteenth Amendment Section 2 and accurately explains that provision."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary captures the key strict-scrutiny standard (compelling governmental interest, least restrictive means) and citizenship/legal voting age conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the bill specifies no ratification deadline and describes the two-thirds/three-fourths ratification requirements."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "All four sections of the proposed amendment are accurately described."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, section by section, and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately concise without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Senate, House, states, and Fourteenth Amendment are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The two-thirds and three-fourths figures and the four-section count are all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.143595,
+  "judge_latency_s": 12.616
+}

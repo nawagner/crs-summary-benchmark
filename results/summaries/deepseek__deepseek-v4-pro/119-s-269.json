@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-269",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, the Ending Improper Payments to Deceased People Act, amends the Social Security Act to strengthen coordination between the Social Security Administration (SSA) and the Do Not Pay working system, which helps federal and state agencies prevent improper payments. Its primary purpose is to reduce payments made erroneously to deceased individuals and to improve responses when living people are mistakenly marked as dead.\n\nThe bill makes two main changes. First, it authorizes the Commissioner of Social Security to provide death information received from states to the agency operating the Do Not Pay working system, to the extent feasible. This sharing must help prevent improper benefit payments and support recovering payments already made. It is subject to the same privacy and security requirements that apply to current data-sharing arrangements. The Commissioner and the Do Not Pay working system agency must enter into an agreement covering the proportional share of state death data costs, which can be reviewed periodically.\n\nSecond, the bill establishes a new procedural safeguard: SSA may not record a death for any individual in data provided under this authority unless the Commissioner determines there is clear and convincing evidence that the person should be presumed dead.\n\nThe bill also expands existing error-correction requirements. When SSA learns it incorrectly added a living person to the Death Master File or similar records, it must now notify not only the agency that originally reported the error but also any agency that has a cooperative data-sharing arrangement with SSA.\n\nThe changes take effect on December 27, 2026.",
+  "prompt_tokens": 1017,
+  "completion_tokens": 295,
+  "total_tokens": 1312,
+  "cost_usd": 0.000699,
+  "latency_s": 4.601,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against Cuba, unless Congress has explicitly authorized such action through a declaration of war or a specific authorization for the use of military force.\n\nThe resolution begins with congressional findings that cite the constitutional power of Congress to declare war and note that Congress has neither declared war on Cuba nor enacted a statutory authorization for military force there. It further states that any use of force, including a blockade or quarantine conducted by the Coast Guard or other armed forces, constitutes introduction into hostilities under the War Powers Resolution.\n\nThe operative section directs the President, pursuant to existing statutory provisions on expedited procedures for removing forces from hostilities, to withdraw U.S. Armed Forces from such hostilities in or against Cuba. This removal requirement applies unless Congress has provided explicit authorization through a declaration of war or a specific use-of-force authorization.\n\nA rule of construction clarifies that the resolution does not prevent the United States from defending itself from an armed attack or the threat of an imminent armed attack, nor does it prevent the lawful execution of counternarcotics operations. The resolution does not specify any effective date or deadline beyond the direction to remove forces.",
+  "prompt_tokens": 836,
+  "completion_tokens": 234,
+  "total_tokens": 1070,
+  "cost_usd": 0.000567,
+  "latency_s": 9.472,
+  "ok": true
+}

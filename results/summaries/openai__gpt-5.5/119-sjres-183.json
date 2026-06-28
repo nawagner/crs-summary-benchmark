@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would direct the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress explicitly authorizes those hostilities through a declaration of war or a specific authorization for use of military force.\n\nThe resolution states congressional findings that Congress has the constitutional power to declare war, that the President has responsibility to defend the United States and its personnel from attack, and that Congress has not declared war on Iran or enacted a specific authorization for military force within or against Iran. It cites the War Powers Resolution’s purposes and consultation requirements and asserts that U.S. military operations in Iran beginning with “Operation Epic Fury” on February 28, 2026, constitute hostilities under the War Powers Resolution. The findings also describe the scale of U.S. deployments, Iranian and proxy retaliatory strikes, U.S. casualties, and economic effects following the operation.\n\nThe operative provision invokes section 1013 of the Department of State Authorization Act for Fiscal Years 1984 and 1985 and the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976. It directs removal of U.S. forces from hostilities within or against Iran unless Congress authorizes them.\n\nThe resolution specifies that it should not be construed to prevent the United States from defending against attacks on the United States or its personnel or facilities in other countries; collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies, including with Israel, partner countries attacked by Iran since February 28, 2026, and other nations or international organizations; or assisting Israel and such partner countries in directly defending against retaliatory attacks by Iran or its proxies, including by providing defensive materiel support. The resolution does not set a separate deadline or effective date.",
+  "prompt_tokens": 1387,
+  "completion_tokens": 431,
+  "total_tokens": 1818,
+  "cost_usd": 0.019865,
+  "latency_s": 8.394,
+  "ok": true
+}

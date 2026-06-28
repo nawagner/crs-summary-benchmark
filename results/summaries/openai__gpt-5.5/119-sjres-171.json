@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless Congress has explicitly authorized those hostilities through a declaration of war or a specific authorization for use of military force.\n\nThe resolution states Congress’s findings that the Constitution gives Congress the sole power to declare war, while the President has responsibility to defend the United States and its territories, possessions, citizens, servicemembers, and diplomats from attack. It finds that Congress has not declared war on Iran or anyone in Iran and has not enacted a specific statutory authorization for the use of military force within or against Iran. It also cites the War Powers Resolution’s consultation requirement and states that the current use of force against Iran constitutes the introduction of U.S. Armed Forces into hostilities under that law. The findings note executive branch statements referring to the operation as a “war” and state that, as of April 10, 2026, 13 U.S. servicemembers had been killed and at least 350 wounded.\n\nThe operative provision invokes existing expedited procedures under federal law for measures requiring removal of U.S. forces from hostilities not authorized by Congress. It does not bar the United States from defending against attacks on the United States or its personnel or facilities in other countries; collecting, analyzing, or sharing intelligence with Israel, partners, allies, or international organizations regarding threats from Iran or its proxies; assisting Israel or other nations with defensive measures or defensive materiel support against retaliatory attacks; or helping secure, depart, or evacuate U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1367,
+  "completion_tokens": 393,
+  "total_tokens": 1760,
+  "cost_usd": 0.018625,
+  "latency_s": 6.104,
+  "ok": true
+}

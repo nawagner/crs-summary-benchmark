@@ -1,0 +1,15 @@
+You are summarizing a bill introduced in the United States Congress for a general audience that needs to understand what the bill does.
+
+Write a clear, objective summary of the bill text below. Your summary should:
+- State the bill's primary purpose.
+- Describe its major provisions, including how it changes existing law.
+- Note material exceptions, conditions, and any effective dates or deadlines.
+- Stay strictly neutral — no opinion, advocacy, or speculation.
+- Be faithful to the text — include nothing that is not in the bill.
+
+Write only the summary itself (no preamble, no headings, no bullet list unless it aids clarity). Aim for 150–350 words.
+
+BILL TEXT:
+---
+{bill_text}
+---

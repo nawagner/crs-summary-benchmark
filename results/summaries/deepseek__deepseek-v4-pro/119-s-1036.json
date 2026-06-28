@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill amends the Public Health Service Act to expand the Minority Fellowship Program so that it can support training for professionals in addiction medicine. It makes two specific changes to Section 597 of that Act (42 U.S.C. 290ll). First, it inserts the word “diagnosis” into subsection (a)(1) immediately after the phrase “related to.” Second, it adds “addiction medicine” to the list of professional fields in subsection (b), placing it after “psychiatry.” These changes mean that the program’s fellowships may now be awarded for education and training that includes diagnosis, and that addiction medicine is explicitly recognized as an eligible specialty alongside other mental and behavioral health disciplines. The bill does not contain any additional conditions, exceptions, or specified effective dates; the amendments would take effect upon enactment. The short title is the “Improving Access to Addiction Medicine Providers Act.”",
+  "prompt_tokens": 459,
+  "completion_tokens": 918,
+  "total_tokens": 1377,
+  "cost_usd": 0.000998,
+  "latency_s": 12.072,
+  "ok": true
+}

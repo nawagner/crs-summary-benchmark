@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-269",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims about the Act's purpose and amendment of the Social Security Act are accurate to the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; the summary is truncated but accurate as far as it goes."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose of improving coordination to prevent and recover improper payments to deceased individuals."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary cuts off mid-sentence and fails to fully describe the amendments to Section 205(r), including the clear-and-convincing-evidence requirement and error notification provision."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits material conditions such as the clear and convincing evidence standard for recording a death and the cost-sharing agreement requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Fails to note the December 27, 2026 effective date specified in the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence and misses major operative provisions like the evidence standard and notification of errors."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The tone is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('to share'), making it incomplete and not internally complete."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or filler in the text provided."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Commissioner of Social Security, the Social Security Act, and the Do Not Pay working system."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figure stated, the public law number 119-77, is correct; no misstated figures."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.04667,
+  "judge_latency_s": 11.499
+}

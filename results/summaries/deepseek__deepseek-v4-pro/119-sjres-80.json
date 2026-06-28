@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution uses the Congressional Review Act to nullify a Bureau of Land Management (BLM) rule that established an integrated activity plan for the National Petroleum Reserve in Alaska (NPR‑A). Congress expressly disapproves the rule, meaning it shall have no force or effect.\n\nThe rule being overturned is the BLM’s Record of Decision for the National Petroleum Reserve in Alaska Integrated Activity Plan, issued on April 25, 2022. A Government Accountability Office opinion dated July 24, 2025, concluded that this Record of Decision qualifies as a rule under the Congressional Review Act, making it subject to congressional disapproval.\n\nBy passing this resolution, Congress voids the 2022 management plan. Under the Congressional Review Act, this disapproval not only invalidates the rule but also prohibits the BLM from issuing a substantially similar rule without future statutory authorization. The resolution took effect upon its approval on December 5, 2025.",
+  "prompt_tokens": 456,
+  "completion_tokens": 989,
+  "total_tokens": 1445,
+  "cost_usd": 0.001059,
+  "latency_s": 13.047,
+  "ok": true
+}

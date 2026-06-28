@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would terminate the national emergency declared by the President on July 30, 2025, in Executive Order 14323, which was issued to impose duties on articles imported from Brazil. It invokes section 202 of the National Emergencies Act, which provides a mechanism for Congress to end a declared national emergency.\n\nThe resolution’s sole operative provision states that the emergency declared in Executive Order 14323, published at 90 Fed. Reg. 37739, is terminated. It does not amend any other statute, create new authorities, establish replacement tariff rules, or specify separate procedures for implementation. The text does not include exceptions, conditions, deadlines, or a delayed effective date. Its effect would be to end the identified national emergency upon enactment under the authority cited in the National Emergencies Act.",
+  "prompt_tokens": 405,
+  "completion_tokens": 354,
+  "total_tokens": 759,
+  "cost_usd": 0.012645,
+  "latency_s": 8.815,
+  "ok": true
+}

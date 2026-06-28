@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7757",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text; contextual claims (FTC, Youville, COPPA, Section 230) are accurate and verifiable."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the FTC/Youville/Section 230 context is accurate real-world information, not hallucination."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as a comprehensive measure to protect minors online with FTC and state enforcement."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes preservation of COPPA and Section 230 and FTC enforcement, though it omits the amendment to the Protecting Children in the 21st Century Act, which is a minor sub-provision."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key carve-outs like the prohibition on requiring government ID, knowledge-based 'minor' triggers, and preservation of state laws."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the one-year default effective date with Subtitle B at 180 days and Subtitle C at 90 days, plus 90/60-day judicial-review limits."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect of all six titles accurately at a faithful high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and free of padding or repetition while covering the bill's structure."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and short titles (FTC, SCREEN Act, KOSA, SMK, SPY Kids, Safer GAMING, SAFE BOTs, D.C. Circuit) are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures stated (under 17, one-third content, under 13, 10-day response, 3-hour break, 180/90-day dates, 90/60-day limits) all match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.40413,
+  "judge_latency_s": 16.167
+}

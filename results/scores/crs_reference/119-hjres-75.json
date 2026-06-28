@@ -1,0 +1,72 @@
+{
+  "bill_id": "119-hjres-75",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes nullifying the DOE commercial refrigeration energy-standards rule (Jan 21, 2025), including the Jan 22, 2029 compliance date."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No false claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it eliminates the new standards."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explains the rule is nullified."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "No exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the Jan 22, 2029 compliance date from the rule."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concise."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DOE / Office of Energy Efficiency and Renewable Energy correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 2029 compliance date is correctly stated."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-code Opus 4.8 (web-verified); OpenRouter credits exhausted"
+}

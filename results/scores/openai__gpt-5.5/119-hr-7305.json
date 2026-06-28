@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7305",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and verified context (DOE program, IIJA statute, FY2027–2031 reauthorization)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the DOE administration and program identity are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill reauthorizes and revises DOE's Energy Sector Operational Support for Cyberresilience Program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly identifies the amendment to Section 40125(c) of the Infrastructure Investment and Jobs Act and the changed authorization period."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "It notes the sole/unreviewable discretion, no-right-or-benefit clause, FACA nonapplicability, and FOIA disclosure exemption."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly captures the authorization period change from FY2022–2026 to FY2027–2031."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "It captures the new purpose, Energy Threat Analysis Center authority, disclosure exemption, no-right clause, and transaction authority."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately compact without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DOE, Secretary of Energy, the IIJA, FOIA, FACA, and the Energy Threat Analysis Center are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only figures stated—the FY2022–2026 to FY2027–2031 change—match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.15013,
+  "judge_latency_s": 13.102
+}

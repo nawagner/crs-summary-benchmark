@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Bankruptcy Administration Improvement Act of 2025 amends Titles 11 and 28 of the United States Code to increase compensation for chapter 7 bankruptcy trustees, adjust bankruptcy fees, and extend the terms of certain temporary bankruptcy judgeships.\n\nUnder Section 3, the bill increases the base compensation for chapter 7 trustees from $45 to $105 per case under Section 330(b)(1) of Title 11. Combined with existing provisions, this raises total trustee compensation to $120 per case. It also eliminates subsection (e) of Section 330. The bill modifies the distribution of remaining filing fees collected under Title 28, allocating specific dollar amounts to the Treasury's special fund, the Deficit Reduction Act of 2005 fund, and the United States Trustee System Fund. It further amends Section 589a of Title 28 to adjust how funds are deposited into the United States Trustee System Fund.\n\nSection 4 adjusts quarterly fees in chapter 11 cases by extending the fee application period from 5 to 10 years and modifying the fee percentages. It also extends the period for certain fee deposits from 2026 to 2031. For fiscal years 2026 through 2031, $5.4 million of collected quarterly fees will be deposited into the Treasury's general fund.\n\nSection 5 extends the term of temporary bankruptcy judgeships established under the Bankruptcy Administration Improvement Act of 2020 and the Bankruptcy Judgeship Act of 2017 from 5 years to 10 years.\n\nThe amendments generally take effect on the first day of the calendar quarter occurring on or after the date of enactment. Exceptions apply to trustee compensation, which applies to chapter 7 cases (or cases converted to chapter 7) commenced on or after the first October 1 following enactment. The bankruptcy fee amendments apply to chapter 11 cases pending or commenced on the first day of the calendar quarter following enactment, and to quarterly fees for disbursements made in calendar quarters beginning on or after the enactment date.",
+  "prompt_tokens": 2919,
+  "completion_tokens": 1368,
+  "total_tokens": 4287,
+  "cost_usd": 0.006877,
+  "latency_s": 23.732,
+  "ok": true
+}

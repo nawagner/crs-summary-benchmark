@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-185",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate context about the War Powers Resolution; nothing contradicts the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims; the War Powers Resolution reference matches the bill's findings."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill directs removal of U.S. Armed Forces from unauthorized hostilities with Iran."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The joint resolution directs presidential action under existing authorities rather than amending, repealing, or adding to statute."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately captures the rule-of-construction carve-outs for self-defense, intelligence sharing, and defensive assistance to attacked partners."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly references the February 28, 2026 date used to define attacked partner countries; no other timing provisions are specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the core directive and the exceptions, the bill's essential operative effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual description with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, with directive followed by exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the President, Congress, the War Powers Resolution, and Iran/its proxies."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The February 28, 2026 date is stated correctly per the bill text."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.137785,
+  "judge_latency_s": 16.464
+}

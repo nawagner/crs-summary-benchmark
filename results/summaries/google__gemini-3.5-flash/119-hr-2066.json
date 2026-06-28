@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "google/gemini-3.5-flash",
+  "summary": "*   *Let's refine the flow and ensure exactness:*\n        \"The \"Investing in All of America Act of 2025\" amends the Small Business Investment Act of 1958 to adjust leverage limits and exclusions for Small Business",
+  "prompt_tokens": 1723,
+  "completion_tokens": 1496,
+  "total_tokens": 3219,
+  "cost_usd": 0.016049,
+  "latency_s": 7.076,
+  "ok": true
+}

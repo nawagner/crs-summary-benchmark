@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-46, a joint resolution enacted on December 2, 2025, requests that the Secretary of the Interior authorize unique, one-time arrangements for public displays on the National Mall and the Washington Monument. The primary purpose of these displays is",
+  "prompt_tokens": 1247,
+  "completion_tokens": 1496,
+  "total_tokens": 2743,
+  "cost_usd": 0.015335,
+  "latency_s": 6.44,
+  "ok": true
+}

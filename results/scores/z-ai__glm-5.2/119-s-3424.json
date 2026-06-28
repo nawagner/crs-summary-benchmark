@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-3424",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context; trustee comp, fee distributions, and judgeship extensions are correctly described."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradicting claims; the $120 total and $45-to-$105 increase match the bill's findings and amendments."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opening clearly identifies the bill's purpose: increase trustee compensation, adjust fees, and extend judgeship terms."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names amended statutes including Section 330 of Title 11, Section 589a of Title 28, and the 2020 and 2017 judgeship acts."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes effective-date exceptions for trustee compensation and bankruptcy fees, capturing the material carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the general effective date and the chapter 7 October 1 and chapter 11 quarter timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative effects across Sections 3, 4, and 5 without misrepresentation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone throughout with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by section, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named statutes and funds are correctly identified, including the Deficit Reduction Act of 2005 fund and US Trustee System Fund."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures ($45 to $105, $120 total, $5.4 million, 5 to 10 years, 2026 to 2031) all match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.066195,
+  "judge_latency_s": 9.467
+}

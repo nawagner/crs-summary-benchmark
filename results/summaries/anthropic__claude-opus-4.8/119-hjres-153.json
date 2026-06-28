@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced in the House of Representatives in the 119th Congress, directs the President to remove United States Armed Forces from hostilities within or against the Republic of Cuba that Congress has not authorized.\n\nThe resolution begins with findings stating that the Constitution gives Congress the sole power to declare war, while the President has a responsibility to defend the United States and its citizens, service members, and diplomats from attack. It notes that Congress has not declared war on Cuba or enacted any specific statutory authorization for the use of military force within or against Cuba. The findings characterize the use of force against Cuba—including using the Coast Guard and other Armed Forces components to conduct a blockade or quarantine—as introducing U.S. Armed Forces into hostilities under section 4(a) of the War Powers Resolution.\n\nThe operative provision directs the President to remove U.S. Armed Forces from hostilities within or against Cuba, unless such action is explicitly authorized by a declaration of war or a specific authorization for use of military force. This directive is invoked under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and is to be considered under the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution includes a rule of construction stating that nothing in it may be interpreted to prevent the United States from defending itself against an armed attack or the threat of an imminent armed attack, or from lawfully carrying out counternarcotics operations.\n\nThe resolution does not specify a particular effective date or deadline for the removal of forces beyond the directive itself.",
+  "prompt_tokens": 1437,
+  "completion_tokens": 533,
+  "total_tokens": 1970,
+  "cost_usd": 0.02051,
+  "latency_s": 6.671,
+  "ok": true
+}

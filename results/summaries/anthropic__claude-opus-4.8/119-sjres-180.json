@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced in the Senate by Mr. Van Hollen, directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.\n\nThe resolution's findings state that under Article I of the Constitution, Congress holds the sole power to declare war, and that Congress has neither declared war on Iran nor enacted a specific statutory authorization for military force there. The findings describe that the Trump Administration launched \"Operation Epic Fury\" against Iran on February 28, 2026, that the President notified Congress under the War Powers Resolution on March 2, 2026, and that as of April 8, 2026, 13 U.S. service members had been killed and 380 wounded. The findings characterize the use of military force against Iran as an introduction of U.S. Armed Forces into hostilities under section 4(a) of the War Powers Resolution.\n\nThe operative provision directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless such action is explicitly authorized by a declaration of war or a specific authorization for the use of military force. The resolution invokes expedited congressional consideration procedures under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution includes a rule of construction clarifying that it does not prevent the United States from: defending against attacks on the U.S. or its personnel and facilities abroad; collecting, analyzing, or sharing intelligence, including with partner countries attacked by Iran since February 28, 2026; assisting such partner countries in intercepting retaliatory attacks or providing defensive materiel support; or providing assistance for the security and evacuation of U.S. citizens affected by the hostilities.\n\nThe resolution specifies no separate effective date.",
+  "prompt_tokens": 2023,
+  "completion_tokens": 622,
+  "total_tokens": 2645,
+  "cost_usd": 0.025665,
+  "latency_s": 8.115,
+  "ok": true
+}

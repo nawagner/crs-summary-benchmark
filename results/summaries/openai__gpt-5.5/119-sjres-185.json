@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless Congress has explicitly authorized those hostilities through a declaration of war or a specific authorization for the use of military force.\n\nThe resolution states congressional findings that Congress has the constitutional power to declare war, that the President has authority to defend the United States and its territories, citizens, servicemembers, and diplomats from attack, and that Congress has not declared war on Iran or enacted a specific authorization for military force within or against Iran. It also states that using military force within or against Iran, including enforcing a naval blockade, constitutes the introduction of U.S. forces into hostilities under the War Powers Resolution.\n\nThe resolution relies on existing expedited procedures under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976, which govern consideration of measures requiring removal of U.S. forces from unauthorized hostilities.\n\nThe removal directive is subject to stated limitations. The resolution does not prevent the United States from defending against attacks on the United States or its personnel or facilities in other countries. It also does not prevent collecting, analyzing, or sharing intelligence with partner countries attacked by Iran since February 28, 2026, or with other nations and international organizations as appropriate, regarding threats from Iran or its proxies. In addition, it does not prevent assisting such partner countries and other nations in intercepting retaliatory attacks by Iran or its proxies, or providing defensive materiel support for those defensive measures.",
+  "prompt_tokens": 1083,
+  "completion_tokens": 483,
+  "total_tokens": 1566,
+  "cost_usd": 0.019905,
+  "latency_s": 7.246,
+  "ok": true
+}

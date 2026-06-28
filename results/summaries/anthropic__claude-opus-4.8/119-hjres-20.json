@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-6, uses Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a regulation issued by the Department of Energy.\n\nThe targeted rule, titled \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters,\" was published in the Federal Register on December 26, 2024 (89 Fed. Reg. 105188). This rule had established energy conservation standards for consumer gas-fired instantaneous (tankless) water heaters.\n\nThe resolution states that Congress disapproves the rule and that the rule \"shall have no force or effect.\" Under the Congressional Review Act, this means the regulation is treated as though it never took effect.\n\nThe resolution was passed by the House of Representatives on February 27, 2025, and by the Senate on April 9 and 10, 2025. It was approved on May 9, 2025.",
+  "prompt_tokens": 770,
+  "completion_tokens": 323,
+  "total_tokens": 1093,
+  "cost_usd": 0.011925,
+  "latency_s": 4.393,
+  "ok": true
+}

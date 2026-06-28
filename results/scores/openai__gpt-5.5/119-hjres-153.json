@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-153",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and the statutory references (50 U.S.C. 1546a, P.L. 94-329) are accurately characterized as verified via the U.S. Code."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; the statutory context is correct and faithful to the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by clearly stating the bill directs removal of U.S. Armed Forces from unauthorized hostilities within or against Cuba."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This joint resolution directs presidential action under existing war powers procedures rather than amending or repealing any statute."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the carve-outs for self-defense against armed attack/imminent attack and lawful counternarcotics operations, plus the declaration-of-war/AUMF exception."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective date or deadline, and the summary correctly notes this absence."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative directive, the findings, the expedited-procedure basis, and the rule of construction."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, moving logically from directive to findings to procedures to exceptions."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering the bill's key elements."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the War Powers Resolution, the Department of State Authorization Act FY1984-85, and the International Security Assistance and Arms Export Control Act of 1976."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no specific dollar amounts, dates, or quantities to verify."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14473,
+  "judge_latency_s": 13.16
+}

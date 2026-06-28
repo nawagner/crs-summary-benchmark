@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4663",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and contextual details are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill appropriates funds for block grants to compensate freeze-related agricultural losses."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a standalone appropriation and does not amend existing law substantively."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the exclusivity to March 4, 2026 disaster-designated counties and the state request requirement."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes FY2027, funds remaining until expended, 120-day report deadline, and quarterly reports."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the appropriation amount, eligibility, state request mechanism, reporting, and emergency designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Secretary of Agriculture, Appropriations Committees, and the Balanced Budget and Emergency Deficit Control Act."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $3.5 billion, FY2027, March 4 2026, and 120-day figures are all accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.04441,
+  "judge_latency_s": 7.198
+}

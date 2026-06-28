@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-147",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill (termination of EO 14323 emergency) and verifiable context (40% tariff, July 30 2025, Trump, Annex I exemptions including civil aircraft, wood pulp, precious metals, energy, fertilizers)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (President's name, 40% tariff, specific Annex I exemptions) is accurate and verified, not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the resolution terminates the national emergency that imposed tariffs on Brazilian imports."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the specific emergency declaration (EO 14323 of July 30, 2025) being terminated, which is the operative legal change."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the EO's product exemptions (civil aircraft, wood pulp, precious metals, energy, fertilizers), which are accurate contextual carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly cites the July 30, 2025 declaration date; the resolution itself specifies no other timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect: termination of the emergency underlying the Brazil tariffs."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Brief and free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the President, the executive order, and the affected country and program."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The 40% tariff rate and July 30, 2025 date are both accurate."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.303555,
+  "judge_latency_s": 18.272
+}

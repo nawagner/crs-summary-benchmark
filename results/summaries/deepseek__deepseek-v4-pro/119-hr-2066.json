@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Investing in All of America Act of 2025 amends the Small Business Investment Act of 1958 to modify the leverage limits for Small Business Investment Companies (SBICs) and to broaden the categories of investments that may be excluded from those limits. The law also revises the definition of “financing” for SBICs.\n\nFirst, the law adjusts SBIC maximum leverage numbers. The general individual company leverage cap is lowered from $300 million to $200 million. A higher cap of $250 million is set for companies that make quarterly or semiannual interest payments, while other companies licensed under section 301(c) have a $175 million cap. For groups of commonly controlled companies, the combined maximum is raised from $350 million to $475 million for those that make periodic interest payments; for others the combined maximum remains $350 million.\n\nSecond, the law significantly expands the types of investments that SBICs can exclude when calculating outstanding leverage. Previously, investments in small businesses in low-income geographic areas could be excluded. The law adds investments in: small businesses located in rural areas (as defined in the Agricultural Act of 1961); small business concerns operating primarily in a covered technology category (as defined in Title 10 of the U.S. Code); and small manufacturers (as defined in the Small Business Investment Act). The total amount a company or group of companies may exclude is limited to the lesser of 50 percent of their private capital or $125 million. This exclusion applies only to investments made after the date of enactment, May 19, 2026.\n\nFinally, the law amends the definition of “financing” to specify that, for purposes of the Small Business Administration’s approval of any request for leverage, the term does not include funds obtained directly or indirectly from any Federal, state, or local government or government agency, except for certain institutional funds such as pension plans, college or university foundations, endowments, or trusts. A separate technical change removes a date restriction related to such institutional sources.",
+  "prompt_tokens": 1496,
+  "completion_tokens": 1296,
+  "total_tokens": 2792,
+  "cost_usd": 0.001778,
+  "latency_s": 18.264,
+  "ok": true
+}

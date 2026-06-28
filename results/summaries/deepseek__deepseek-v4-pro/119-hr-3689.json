@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 3689, titled the Treatment, Recovery, Education, Awareness, and Training for Youth Act (TREAT Youth Act), amends the SUPPORT for Patients and Communities Act to reauthorize a youth prevention and recovery initiative. The bill’s sole substantive provision replaces the existing authorization of appropriations for the program under Section 7102(c)(9) of that Act (42 U.S.C. 290bb-7a(c)(9)) with new, gradually increasing funding levels for five fiscal years. Specifically, it authorizes $10,000,000 for fiscal year 2026, $12,000,000 for fiscal year 2027, $13,000,000 for fiscal year 2028, $14,000,000 for fiscal year 2029, and $15,000,000 for fiscal year 2030. The legislation does not modify any other provisions, conditions, or program requirements; it only updates the annual appropriation ceilings through 2030. The bill was introduced on June 3, 2025, and referred to the House Committee on Energy and Commerce and the House Committee on Education and Workforce.",
+  "prompt_tokens": 581,
+  "completion_tokens": 993,
+  "total_tokens": 1574,
+  "cost_usd": 0.001117,
+  "latency_s": 11.404,
+  "ok": true
+}

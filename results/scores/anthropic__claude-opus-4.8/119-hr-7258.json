@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7258",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context; the Energy and Commerce committee referral and procedural history are correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; assigning functions to an Assistant Secretary reflects the amended section 203(a) which lists Assistant Secretary functions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose to assign energy emergency and security functions within DOE."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the bill adds a new paragraph to Section 203(a) of the Department of Energy Organization Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the technical assistance is conditioned upon request from State, local, Tribal, or energy sector entities and coordinated with federal agencies."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or deadlines, and the summary correctly notes their absence."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures both the new functions paragraph and the coordination directive to the Secretary."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive language with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Department of Energy, the Secretary, the Act, and the Committee on Energy and Commerce."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The introduction date of January 27, 2026 and section reference are accurate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.045625,
+  "judge_latency_s": 8.419
+}

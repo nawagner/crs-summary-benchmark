@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, titled the \"Removing Barriers to Work for Disabled Americans Act,\" amends title II of the Social Security Act to temporarily reauthorize and modify the demonstration project authority for the disability insurance program.\n\nUnder the bill, the authority to conduct experiments and demonstration projects under Section 234 of the Social Security Act, which had previously expired, is extended. The deadline to initiate projects is moved to December 31, 2030, and the authority to carry out such projects will terminate on December 31, 2031. The bill also extends the waiver authority for compliance with benefit requirements to December 31, 2030, and increases a specified timeframe from 90 to 120 days. Additionally, it requires the inclusion of evaluation metrics for experiments or demonstration projects.\n\nThe legislation amends Section 201(k) to clarify that administrative expenditures for these projects will be paid from funds available for the administration of the title, while benefits paid to participants will be drawn from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner of Social Security.\n\nThe bill adds a new condition to the demonstration projects, stipulating that the total income of an individual will not be reduced due to their participation in an experiment or demonstration project. It also makes technical amendments, including replacing the word \"subsection\" with \"section\" in Section 234(d)(1) and striking subsection (f) of Section 234. The amendments made by the bill will take effect on January 1, 2027.",
+  "prompt_tokens": 1121,
+  "completion_tokens": 1086,
+  "total_tokens": 2207,
+  "cost_usd": 0.004323,
+  "latency_s": 11.172,
+  "ok": true
+}

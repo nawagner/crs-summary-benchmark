@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, titled the “Communities of Recovery Reauthorization Act of 2025,” amends the Public Health Service Act to reauthorize a grant program that supports building communities of recovery. Specifically, it revises the authorized funding level and the years for which funding is approved. Under current law, the program is authorized at $5,000,000 for each of fiscal years 2019 through 2023. This bill strikes that language and replaces it with an authorization of $17,000,000 for each of fiscal years 2026 through 2030. No other changes to the program’s structure or purpose are included in the text. The bill does not stipulate additional conditions, exceptions, or an explicit effective date beyond the amendment taking effect upon enactment.",
+  "prompt_tokens": 438,
+  "completion_tokens": 528,
+  "total_tokens": 966,
+  "cost_usd": 0.00065,
+  "latency_s": 7.192,
+  "ok": true
+}

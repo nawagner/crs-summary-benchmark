@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-4663",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All stated claims (title, $3.5B, FY2027, USDA Office of the Secretary, block grants to states) match the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; identifying USDA as the Department of Agriculture is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's purpose of appropriating funds for freeze-related agricultural block grants to states."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This is an appropriations bill that does not amend existing law, so this criterion does not apply."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary fails to mention key conditions like the March 4, 2026 disaster designation limit and multi-year crop compensation, but it is cut off mid-sentence before reaching them."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the FY ending September 30, 2027 and that funds remain available until expended, though it omits the 120-day reporting deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated mid-sentence and omits major provisions including the county disaster-designation eligibility limit, multi-year crop compensation, state-request mechanism, and emergency designation."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('losses of revenue, quality, or'), rendering it incomplete and not reading clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary avoids padding and filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Department of Agriculture, Office of the Secretary, and Secretary of Agriculture are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $3.5 billion figure and September 30, 2027 date are both stated correctly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.046215,
+  "judge_latency_s": 8.987
+}

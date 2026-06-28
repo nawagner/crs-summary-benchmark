@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 4079, the “Safer Response Act of 2025,” amends the Public Health Service Act to reauthorize and expand a grant program that trains first responders to administer substances to reverse drug overdoses. The bill makes several substantive changes to Section 546 (42 U.S.C. 290ee‑1). It broadens the range of eligible substances from those “approved or cleared” by the Food and Drug Administration to those that are “approved, cleared, or otherwise legally marketed.” It also removes the program’s exclusive focus on opioids: the word “opioid” is deleted from the grant’s authorizing subsections wherever it appears, and the training scope is widened to cover overdoses caused by “opioid, heroin, and other drug” substances. Related language that previously referenced “opioid overdose” is changed to simply “overdose.” In addition, the bill reauthorizes funding at an increased level of $57,000,000 for each of fiscal years 2026 through 2030, replacing the prior authorization of $36,000,000 for fiscal years 2019 through 2023. A minor technical edit capitalizes “Tribes” and “Tribal” in the text. The legislation does not alter the basic structure of the grant program beyond these expansions and the updated funding timeline.",
+  "prompt_tokens": 658,
+  "completion_tokens": 1254,
+  "total_tokens": 1912,
+  "cost_usd": 0.001377,
+  "latency_s": 18.878,
+  "ok": true
+}

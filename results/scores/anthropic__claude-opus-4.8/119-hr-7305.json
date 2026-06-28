@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7305",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate context (DOE/CESER administers the program under IIJA Section 40125(c))."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the Department of Energy administration and IIJA amendment are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and expands the DOE Energy Sector Operational Support for Cyberresilience Program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the amendment to Section 40125(c) of the Infrastructure Investment and Jobs Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the sole/unreviewable discretion, no-right-or-benefit, FACA nonapplicability, and FOIA disclosure exemptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately notes the appropriations period change from FY2022-2026 to FY2027-2031 and the introduction/reporting dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures new purposes, the Energy Threat Analysis Center, procedural provisions, transaction authority, and reauthorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent with logical flow."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but free of padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names DOE, the Secretary, IIJA, FACA, FOIA, and the Energy Threat Analysis Center."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The fiscal year periods (2022-2026 to 2027-2031) and dates are stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.147175,
+  "judge_latency_s": 15.24
+}

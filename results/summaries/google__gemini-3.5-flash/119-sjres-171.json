@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 171 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution states that Congress has the sole power to declare war and has not declared war or enacted a specific statutory authorization for military force against Iran, despite executive branch statements characterizing ongoing military operations as a \"war.\" \n\nUnder the resolution, the President must remove U.S. forces from these hostilities unless Congress explicitly authorizes the action through a declaration of war or a specific authorization for the use of military force. \n\nThe resolution establishes several exceptions to this mandate. It does not prevent the United States from:\n* Defending against attacks on the United States, its personnel, or its facilities in other nations;",
+  "prompt_tokens": 1548,
+  "completion_tokens": 1496,
+  "total_tokens": 3044,
+  "cost_usd": 0.015786,
+  "latency_s": 6.708,
+  "ok": true
+}

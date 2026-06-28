@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-3 (Senate Joint Resolution 11), approved on March 14, 2025, is a joint resolution of Congress that disapproves a specific federal regulation. The primary purpose of this measure is to nullify the rule submitted by the",
+  "prompt_tokens": 440,
+  "completion_tokens": 1496,
+  "total_tokens": 1936,
+  "cost_usd": 0.014124,
+  "latency_s": 6.848,
+  "ok": true
+}

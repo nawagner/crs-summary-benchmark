@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would direct the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran unless Congress has explicitly authorized those hostilities through a declaration of war or a specific authorization for the use of military force.\n\nThe resolution states congressional findings that Congress has the constitutional power to declare war; that Congress has not declared war on Iran or enacted a specific authorization for military force within or against Iran; and that the War Powers Resolution requires consultation with Congress before introducing U.S. forces into hostilities where possible. It also states that U.S. forces were introduced into hostilities against Iran through Operation Epic Fury beginning February 28, 2026, and describes related casualties, military deployments, effects on the Strait of Hormuz, a ceasefire beginning April 8, 2026, and a later announced U.S. blockade of the Strait.\n\nThe resolution relies on existing War Powers-related procedures in section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976, rather than amending those laws.\n\nThe resolution specifies that it should not be interpreted to prevent the United States from defending against attacks on the United States or its personnel or facilities abroad; collecting, analyzing, or sharing intelligence about threats from Iran or its proxies; assisting partner countries attacked by Iran since February 28, 2026, or other nations with defensive measures or defensive materiel support; or helping secure, depart, and evacuate U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1304,
+  "completion_tokens": 418,
+  "total_tokens": 1722,
+  "cost_usd": 0.01906,
+  "latency_s": 7.041,
+  "ok": true
+}

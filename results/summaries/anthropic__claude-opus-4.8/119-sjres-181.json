@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced in the Senate by Mrs. Gillibrand, directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.\n\nThe resolution invokes Congress's constitutional authority to declare war (Article I, Section 8) and the War Powers Resolution. It includes findings stating that Congress has neither declared war on Iran nor enacted a specific authorization for military force there, and that on February 28, 2026, the Trump Administration launched \"Operation Epic Fury,\" a military campaign against Iran. The findings describe related events, including the closure of the Strait of Hormuz, rising oil prices, U.S. troop deployments, and U.S. casualties, and note that no request for a declaration of war or authorization to use military force has been submitted to Congress.\n\nThe operative provision (Section 2) directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless those hostilities are explicitly authorized by a declaration of war or a specific authorization for use of military force. This removal is invoked under the expedited procedures referenced in Section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, and Section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nThe resolution includes a rule of construction stating that nothing in it prevents the United States from: (1) defending against attacks on the United States or its personnel or facilities abroad; (2) collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies, including with Israel and partner countries attacked by Iran since February 28, 2026; or (3) assisting Israel and partner countries in directly defending against retaliatory attacks by Iran or its proxies, including by providing defensive materiel support.\n\nThe resolution was read twice and referred to the Committee on Foreign Relations. It specifies no separate effective date.",
+  "prompt_tokens": 2904,
+  "completion_tokens": 643,
+  "total_tokens": 3547,
+  "cost_usd": 0.030595,
+  "latency_s": 8.628,
+  "ok": true
+}

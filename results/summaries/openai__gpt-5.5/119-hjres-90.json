@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would disapprove, under the Congressional Review Act, the Commodity Futures Trading Commission’s final guidance titled “Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,” published in the Federal Register on October 15, 2024.\n\nIf enacted, the resolution would provide that Congress disapproves the CFTC guidance and that the guidance “shall have no force or effect.” The resolution does not include additional substantive requirements, exceptions, conditions, deadlines, or alternative regulatory provisions.",
+  "prompt_tokens": 434,
+  "completion_tokens": 180,
+  "total_tokens": 614,
+  "cost_usd": 0.00757,
+  "latency_s": 4.2,
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 185 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, unless Congress explicitly authorizes such action through a declaration of war or a specific authorization for the use of military force. The resolution states that unauthorized military force in or against Iran, including the enforcement of a naval blockade, constitutes the introduction of forces into hostilities under the War Powers Resolution. \n\nThe resolution establishes several explicit exceptions to this directive. It does not prevent the United States from defending itself, its personnel, or its facilities in other nations from attack. Additionally, the U.S. may continue to collect, analyze, or share intelligence regarding threats from Iran or its proxies with international organizations, other nations, and partner countries that have been attacked by Iran since February 28, 2026. Finally, the resolution permits the U.S. to assist these partner countries and other nations by intercepting retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for those defensive measures.",
+  "prompt_tokens": 1230,
+  "completion_tokens": 1451,
+  "total_tokens": 2681,
+  "cost_usd": 0.014904,
+  "latency_s": 6.442,
+  "ok": true
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-104",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims—the CRA disapproval, BLM as issuer, the rule title, the Nov. 20, 2024 issuance, the GAO June 25, 2025 opinion, and the Dec. 11, 2025 approval—match the bill text and the factual record."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims; the added context (CRA function, GAO opinion role) is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose as a CRA disapproval nullifying the BLM Miles City RMP Amendment."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the resolution invokes the CRA and renders the rule void; reasonably states it doesn't itself alter other statutory frameworks, consistent with the bill's limited operative text."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill is a simple disapproval with no material exceptions or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the resolution was approved December 11, 2025, the relevant timing the bill specifies."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect—Congress disapproves the rule and it has no force or effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, internally consistent, and clearly written."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "BLM, GAO, the Congressional Review Act, and the rule title are all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates stated (Nov. 20, 2024; June 25, 2025; Dec. 11, 2025) are all correct."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.1355,
+  "judge_latency_s": 12.963
+}

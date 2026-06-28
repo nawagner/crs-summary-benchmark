@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7305",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (DOE administers the program; 42 U.S.C. 18724 is the IIJA provision)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the FACA and FOIA references are accurate context for chapter 10 of title 5 and section 552."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose of reauthorizing and expanding the DOE Energy Sector Operational Support for Cyberresilience Program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the bill amends Section 40125(c) of the Infrastructure Investment and Jobs Act."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key conditions including the sole/unreviewable discretion, no-right-or-benefit, FACA nonapplicability, and disclosure exemptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the reauthorization period of fiscal years 2027 through 2031 replacing 2022 through 2026."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative provisions: reauthorization, expanded purpose, ETAC, disclosure exemptions, and transaction authority."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, following the bill's structure logically."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Free of padding and repetition while covering the substance."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names DOE, the Secretary of Energy, the IIJA, FACA, and FOIA."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The fiscal year figures 2027-2031 and 2022-2026 are stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.05574,
+  "judge_latency_s": 8.914
+}

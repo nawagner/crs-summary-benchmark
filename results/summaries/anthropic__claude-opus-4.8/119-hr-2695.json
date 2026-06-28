@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Communities of Recovery Reauthorization Act of 2025 (H.R. 2695) amends the Public Health Service Act to reauthorize a federal grant program that supports building communities of recovery, which assist individuals recovering from substance use disorders.\n\nThe bill makes a single change to existing law. It revises Section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f)) by updating the program's funding authorization. Specifically, it removes the prior authorization of $5,000,000 for each of fiscal years 2019 through 2023 and replaces it with an authorization of $17,000,000 for each of fiscal years 2026 through 2030.\n\nThe bill does not alter the underlying purpose, eligibility requirements, or operation of the grant program itself; it only extends the period for which funds are authorized and increases the annual authorized amount. The legislation was introduced in the House of Representatives on April 7, 2025, and referred to the Committee on Energy and Commerce.",
+  "prompt_tokens": 736,
+  "completion_tokens": 327,
+  "total_tokens": 1063,
+  "cost_usd": 0.011855,
+  "latency_s": 4.508,
+  "ok": true
+}

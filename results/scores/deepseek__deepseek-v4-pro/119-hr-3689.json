@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-3689",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and verifiable context; the program is the SAMHSA youth prevention and recovery initiative under 42 U.S.C. 290bb-7a(c)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims; the funding figures, statute citation, dates, and committee referrals all match the bill text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes a youth prevention and recovery initiative by amending the SUPPORT for Patients and Communities Act."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies that the bill amends Section 7102(c)(9) of the SUPPORT for Patients and Communities Act (42 U.S.C. 290bb-7a(c)(9)) by replacing the authorization of appropriations."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions, conditions, or carve-outs to summarize."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the funding applies to fiscal years 2026 through 2030 and the June 3, 2025 introduction date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the sole operative effect—replacing the appropriations authorization with new escalating funding levels for FY2026–2030."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and factual with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is well-organized, internally consistent, and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is appropriately brief with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Act, the statutory citation, and the two House committees of referral."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All five fiscal-year amounts ($10M, $12M, $13M, $14M, $15M for FY2026–2030) and the introduction date match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.180805,
+  "judge_latency_s": 13.373
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2866",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims are supported by the bill text or accurate context (F=academic, M=vocational students; IHRA definition adopted May 26, 2016)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the F/M category descriptions and agency references are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the purpose of revoking/denying student visas for antisemitic conduct posing foreign policy consequences."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the bill amends section 214 of the INA to add the new nonimmigrant status restriction."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the material condition that the Secretary must determine the conduct poses potentially serious adverse foreign policy consequences."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the bill applies to conduct occurring on or after the date of enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the visa revocation/denial directive and the section 214 amendment, plus the definitions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Summary is neutral and descriptive without editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition; appropriately compact."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Secretary of State, INA, section 214, and the IHRA/Department of State."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The only date cited, May 26, 2016, matches the bill and the factual record."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.23187,
+  "judge_latency_s": 12.414
+}

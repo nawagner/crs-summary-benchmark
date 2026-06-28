@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution asks the Secretary of the Interior to allow a one-time, temporary display on the National Mall and the Washington Monument to mark the start of the United States’ 250th anniversary year. It became law on December 2, 2025.\n\nThe resolution is not a binding directive; it “requests” the Secretary to authorize what it calls “unique and one-time arrangements” for a public exhibition lasting five nights, from December 31, 2025, through January 5, 2026. The permitted display would include United States semiquincentennial materials, other significant artifacts, digital content, film footage, and associated audio and imagery. The projection of these materials onto the surface of the Washington Monument is specifically mentioned.\n\nBeyond the request to the Interior Secretary, the resolution also asks the Clerk of the House of Representatives to send an enrolled copy of the resolution to the Secretary and to the Chair of the United States Semiquincentennial Commission. The preamble references the bicentennial and a 2019 Apollo 11 anniversary event on the Mall as precedents, but those historical references do not create legal requirements. No new statutory authority or permanent change to law is made.",
+  "prompt_tokens": 1096,
+  "completion_tokens": 894,
+  "total_tokens": 1990,
+  "cost_usd": 0.001255,
+  "latency_s": 11.68,
+  "ok": true
+}

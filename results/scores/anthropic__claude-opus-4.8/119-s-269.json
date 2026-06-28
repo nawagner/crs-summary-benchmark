@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-s-269",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (Do Not Pay system hosted by Treasury, SSA Commissioner, Section 205(r) amendments) is correctly stated."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual identification of SSA and the Do Not Pay working system is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the purpose: improving coordination to reduce improper payments to deceased individuals."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the amendments to Section 205(r) of the Social Security Act including new paragraphs (11), (12) and amended (7)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key conditions including the 'to the extent feasible' qualifier, paragraph (3)(A)-(B) requirements, and the clear-and-convincing-evidence threshold."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the December 27, 2026 effective date and February 10, 2026 approval date."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative provisions: data sharing, cost-sharing agreement, evidence standard, and error notification."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tone is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, tracking the bill's structure logically."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the Social Security Act, Commissioner of Social Security, and the Do Not Pay working system."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The dates stated (December 27, 2026 and February 10, 2026) match the bill exactly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.16059,
+  "judge_latency_s": 13.862
+}

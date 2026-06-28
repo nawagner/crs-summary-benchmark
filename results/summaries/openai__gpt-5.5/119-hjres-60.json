@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution disapproves a National Park Service rule under the Congressional Review Act, chapter 8 of title 5, United States Code. The rule is titled “Glen Canyon National Recreation Area: Motor Vehicles” and was published in the Federal Register at 90 Fed. Reg. 2621.\n\nThe resolution provides that Congress disapproves the rule submitted by the National Park Service, an agency of the Department of the Interior. As a result, the rule “shall have no force or effect.” The measure does not amend the underlying statutes governing the National Park Service or Glen Canyon National Recreation Area, but it nullifies this specific rule through the Congressional Review Act process.\n\nThe text contains no exceptions, transitional provisions, or additional conditions. The joint resolution was approved on May 23, 2025.",
+  "prompt_tokens": 393,
+  "completion_tokens": 358,
+  "total_tokens": 751,
+  "cost_usd": 0.012705,
+  "latency_s": 5.937,
+  "ok": true
+}

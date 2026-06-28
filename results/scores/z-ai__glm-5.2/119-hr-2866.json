@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2866",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and the IHRA/State Department context is factually correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the F/M visa and IHRA context are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose to revoke/deny student visas for antisemitic conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the amendment to Section 214 of the Immigration and Nationality Act adding new nonimmigrant status provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the key conditions: prohibited conduct plus the serious adverse foreign policy consequences determination."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the provisions apply to conduct on or after the date of enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers both the visa revocation/denial mandate and the INA Section 214 amendment, including definitions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately detailed without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the Secretary of State, IHRA, State Department, and Section 214 of the INA."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The May 26, 2016 IHRA date and F/M visa references are accurately stated."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.152835,
+  "judge_latency_s": 11.874
+}

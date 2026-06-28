@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7257",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The partial summary correctly names the Act, the short title, and that it amends EPCA to address physical security, cybersecurity, and resilience of local distribution systems; nothing stated contradicts the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or false claims appear in the (truncated) text; identifying EPCA as the amended statute is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "It identifies the primary purpose: requiring states to address security and resilience of local distribution systems in their energy security plans."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "It correctly states the bill amends the Energy Policy and Conservation Act, the statute affected."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The truncated summary omits material conditions such as the local distribution system voltage threshold (100 kV or less) and that submissions need not be approved by the Secretary."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "It fails to mention the Section 366 sunset of September 30, 2031, or the September 30, 2030 GAO report deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is cut off mid-sentence and omits major provisions: the GAO efficacy report, the sunset, supply chain risk requirements, and the change of technical assistance from 'may' to 'shall'."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text is neutral and contains no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('...resilience of local distribution'), making it incomplete and not internally finished."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text contains no padding, repetition, or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Energy Policy and Conservation Act, the bill number, and the short titles are all identified correctly."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The truncated summary states no dollar amounts, dates, or quantities to evaluate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.21663,
+  "judge_latency_s": 14.769
+}

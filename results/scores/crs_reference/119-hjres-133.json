@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hjres-133",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text; Department of the Interior correctly administers the National Mall via the National Park Service."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; referring to the agency as the Department of the Interior is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the resolution's purpose to request authorization of semiquincentennial displays on the National Mall."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "This resolution merely makes a request and does not amend, repeal, or add to existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the material condition that displays are 'unique and one-time arrangements' for 5 nights of public display."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the December 31, 2025 to January 5, 2026 display period."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the explicit projection onto the Washington Monument and the request to transmit enrolled copies to the Secretary and Commission Chair."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and free of editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is clear and well-organized."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is concise with no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Department of the Interior and National Mall are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The stated dates match the bill text exactly."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.04533,
+  "judge_latency_s": 7.626
+}

@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-sjres-41",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill text and accurate context about the AECA section 36(c) disapproval process is verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the AECA-authority context is accurate and verifiable."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill blocks a specific proposed arms export to Israel."
+    },
+    "changes_to_existing_law": {
+      "applicable": false,
+      "pass": true,
+      "why": "The resolution is a standalone disapproval that prohibits an export; it does not amend or repeal existing law."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill contains no material exceptions or conditions; the summary correctly notes none exist."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "The bill specifies no effective dates or sunsets; the summary correctly notes none."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect: prohibition of the specified 20,000-rifle export under the named transmittal."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names the USML Category I, DDTC Transmittal 23-077, the AECA, M.R.D. Efram Investments Ltd, and the Israel National Police."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $1,000,000 threshold, 20,000 rifles, 11.5-inch barrel, 5.56mm caliber, and March 24/27, 2025 dates all match the bill."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.14011,
+  "judge_latency_s": 14.613
+}

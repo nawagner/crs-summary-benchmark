@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution nullifies a National Park Service rule concerning motor vehicle use in the Glen Canyon National Recreation Area. Under the Congressional Review Act, Congress disapproves the rule published at 90 Federal Register 2621, and the resolution declares that the rule shall have no force or effect. The resolution took effect upon its approval on May 23, 2025.",
+  "prompt_tokens": 391,
+  "completion_tokens": 289,
+  "total_tokens": 680,
+  "cost_usd": 0.000422,
+  "latency_s": 6.295,
+  "ok": true
+}

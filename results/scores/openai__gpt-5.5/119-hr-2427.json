@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2427",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurately reference the Stafford Act and FTC."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; contextual references (Stafford Act, FTC) are correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose to prohibit price gouging during disasters/emergencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes treatment as FTC Act unfair/deceptive practices and Stafford Act declarations."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the supplier-cost, tariff, seasonal hotel, and rental exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the 30-day and 180-day periods, inflation adjustment timing, and 2-year limitation."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers prohibition, enforcement, state actions, private right of action, penalties, and fund."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tightly written with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names FTC, Stafford Act, CPI, and Bureau of Labor Statistics context."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "10%, 50%, 30/180 days, $25,000 caps, and 2-year limitation all stated correctly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.06058,
+  "judge_latency_s": 7.629
+}

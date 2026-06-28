@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "openai/gpt-5.5",
+  "summary": "The bill reauthorizes the Social Security Administration’s authority to conduct experiments and demonstration projects related to the Social Security disability insurance program under title II of the Social Security Act.\n\nIt extends the deadline for initiating such demonstration projects from December 31, 2021, to December 31, 2030, and extends the termination date for the authority to carry them out from December 31, 2022, to December 31, 2031. It also extends, through December 31, 2030, the Commissioner of Social Security’s authority to waive certain benefit requirements when conducting these experiments or demonstration projects.\n\nFor projects requiring such waivers, the bill changes the advance notice period to Congress from 90 days to 120 days. It also requires the notice to include the evaluation metrics that will be used for the experiment or demonstration project, in addition to expected annual and total costs.\n\nThe bill revises how expenses are paid. Administrative expenditures for these projects must come from funds available for administering title II. Benefits paid to or on behalf of participants because of their participation must come from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner.\n\nThe bill adds a limitation that an individual’s total income may not be reduced because of participation in an experiment or demonstration project. It also makes technical amendments, including removing an obsolete subsection.\n\nThe amendments take effect on January 1, 2027.",
+  "prompt_tokens": 1108,
+  "completion_tokens": 575,
+  "total_tokens": 1683,
+  "cost_usd": 0.02279,
+  "latency_s": 9.446,
+  "ok": true
+}

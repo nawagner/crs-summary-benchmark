@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7757",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The claims made (short title, purpose, Title I one-third threshold, technology verification measures, one-year timeline, state preemption) are all supported by the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradictory claims appear in the summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly states the bill aims to protect minors online and empower parents."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The bill amends the Protecting Children in the 21st Century Act and references COPPA, but the summary (which cuts off) does not describe these amendments."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is truncated and fails to cover material conditions like the rule against requiring government ID or age-gating, and other carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary notes the one-year Title I date but omits other timing provisions (180-day, 90-day, general 1-year effective date) due to truncation."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is cut off mid-sentence at Title II and omits Titles II-VI operative provisions (KOSA safeguards, messaging restrictions, gaming, chatbots, research, enforcement)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('Title II regulates covered platforms that'), making it incomplete and not fully coherent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary avoids padding and filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The entities named (KIDS Act, platforms, social gaming providers, AI chatbot developers) are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The one-third threshold and one-year enactment timeline stated are accurate per the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.18753,
+  "judge_latency_s": 10.159
+}

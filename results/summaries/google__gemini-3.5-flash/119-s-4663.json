@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-4663",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Florida Freeze Disaster Assistance Act (S. 4663) appropriates $3.5 billion for the fiscal year ending September 30, 2027, to the Department of Agriculture's Office of the Secretary. These funds, which remain available until expended, are designated for the Secretary of Agriculture to provide block grants to states. The grants are intended to compensate for losses of revenue, quality, or",
+  "prompt_tokens": 822,
+  "completion_tokens": 1496,
+  "total_tokens": 2318,
+  "cost_usd": 0.014697,
+  "latency_s": 7.891,
+  "ok": true
+}

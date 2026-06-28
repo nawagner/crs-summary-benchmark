@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution proposes an amendment to the United States Constitution establishing a fundamental right to vote. To take effect, the proposed amendment must be passed by two-thirds of both the Senate and the House of Representatives and then ratified by the legislatures of three-fourths of the states.\n\nThe proposed amendment contains four sections. Section 1 states that every U.S. citizen of legal voting age shall have the fundamental right to vote in any public election held in the jurisdiction where the citizen resides.\n\nSection 2 provides that this right shall not be denied or abridged by the United States, any state, or any political subdivision within a state, unless the denial or abridgment furthers a \"compelling governmental interest\" and is the \"least restrictive means\" of furthering that interest. This establishes a legal standard that governments would have to meet to justify any limitation on voting rights.\n\nSection 3 repeals a portion of Section 2 of the Fourteenth Amendment—specifically the phrase \"or other crime.\" That existing provision currently addresses the reduction of a state's congressional representation when the right to vote is denied to eligible male inhabitants, except for participation in rebellion \"or other crime.\"\n\nSection 4 grants Congress the power to enforce the article and to protect against any denial or abridgment of the right to vote through legislation.\n\nThe resolution does not specify a deadline for ratification by the states.",
+  "prompt_tokens": 1028,
+  "completion_tokens": 440,
+  "total_tokens": 1468,
+  "cost_usd": 0.01614,
+  "latency_s": 6.316,
+  "ok": true
+}

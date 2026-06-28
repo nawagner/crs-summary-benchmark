@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "z-ai/glm-5.2",
+  "summary": "The \"No Visas for Anti-Semitic Students Act\" directs the Secretary of State to revoke or deny student visas to foreign nationals who engage in certain antisemitic activities on or after the bill's enactment. \n\nUnder the bill, the Secretary of State must revoke or deny an F or M visa to any alien who engages in \"prohibited antisemitic conduct\" and is determined, pursuant to existing immigration law, to pose potentially serious adverse foreign policy consequences for the United States through such conduct. \n\nThe bill defines \"antisemitism\" using the May 26, 2016, definition adopted by the International Holocaust Remembrance Alliance and the Department of State, including its contemporary examples. \"Prohibited antisemitic conduct\" is defined as engaging in a physical act of violence, vandalism, or harassment targeting a Jewish individual, their property, a community institution, or a religious facility with the intent to intimidate or harm based on Jewish identity or affiliation. It also includes providing material support—such as funding, organizing, or inciting—to a person knowing they intend to use that support to engage in such acts.\n\nAdditionally, the bill amends Section 214 of the Immigration and Nationality Act to specify that an alien may not be granted or maintain F or M nonimmigrant status if they engage in prohibited antisemitic conduct and the Secretary of State determines the conduct poses potentially serious adverse foreign policy consequences. If the Secretary determines an alien already holding such status has engaged in this conduct and poses these consequences, the Secretary must revoke the alien's visa. The provisions apply to conduct occurring on or after the date of the Act's enactment.",
+  "prompt_tokens": 1170,
+  "completion_tokens": 1194,
+  "total_tokens": 2364,
+  "cost_usd": 0.004693,
+  "latency_s": 21.721,
+  "ok": true
+}

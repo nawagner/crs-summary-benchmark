@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7305",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text, and contextual additions (DOE administration, IIJA statute, FOIA reference) are accurate and verifiable."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; identifying FOIA, FACA, and DOE as administering agency are accurate context, not hallucinations."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill reauthorizes and expands DOE's Energy Sector Operational Support for Cyberresilience Program to strengthen energy sector defense."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly identifies the bill amends Section 40125(c) of the Infrastructure Investment and Jobs Act and describes the added objectives and provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures key conditions including sole/unreviewable discretion, no right or benefit, FACA non-applicability, and disclosure exemptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes the extension of authorization from FY2022-2026 to FY2027-2031."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all essential operative effects: new objectives, ETAC establishment, discretion/no-benefit, FACA exemption, disclosure exemption, transaction authority, and reauthorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tone is neutral and descriptive with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized, logically structured, and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient with no padding or repetition while remaining complete."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names Department of Energy, Secretary, Energy Threat Analysis Center, FACA, FOIA, and the IIJA."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The fiscal year ranges (2022-2026 to 2027-2031) match the bill text exactly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.151035,
+  "judge_latency_s": 15.558
+}

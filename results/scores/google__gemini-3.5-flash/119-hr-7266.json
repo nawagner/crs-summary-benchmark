@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7266",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary's claims accurately reflect the bill's title, statutory amendment, and program purpose."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradicting claims appear in the summary."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the bill's purpose of reauthorizing the cybersecurity grant and technical assistance program."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary correctly notes the bill amends the Infrastructure Investment and Jobs Act to reauthorize the program."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits material eligibility limits, funding priorities, and the FOIA disclosure exemption."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the FY2026-2030 authorization period specified in the bill."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is cut off mid-sentence and fails to cover eligible entities, awards/funding, priorities, FOIA exemption, and the $250 million authorization."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary ends abruptly mid-sentence ('to provide technical assistance'), making it incomplete and not reading as a finished text."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary contains no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Act name, bill number, statute amended, and Secretary are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no figures, so this criterion does not apply."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0515,
+  "judge_latency_s": 8.51
+}

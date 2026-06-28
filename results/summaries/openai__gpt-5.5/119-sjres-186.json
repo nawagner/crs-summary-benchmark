@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution proposes a constitutional amendment establishing a fundamental right to vote for every U.S. citizen who is of legal voting age in any public election held in the jurisdiction where the citizen resides.\n\nThe amendment would prohibit the United States, any state, or any political subdivision within a state from denying or abridging that right unless the action furthers a compelling governmental interest and is the least restrictive means of doing so. This would place a strict constitutional standard on laws or actions that limit voting rights.\n\nThe amendment would also repeal the phrase “or other crime” from Section 2 of the Fourteenth Amendment. That section currently addresses reductions in congressional representation when the right to vote is denied to certain male inhabitants, with exceptions including participation in rebellion “or other crime.” The proposed repeal would remove the “or other crime” phrase from the Constitution.\n\nFinally, the amendment would give Congress authority to enforce the article and protect against denial or abridgment of the fundamental right to vote through legislation. The amendment would become part of the Constitution only if approved by two-thirds of both houses of Congress and ratified by the legislatures of three-fourths of the states.",
+  "prompt_tokens": 631,
+  "completion_tokens": 323,
+  "total_tokens": 954,
+  "cost_usd": 0.012845,
+  "latency_s": 5.943,
+  "ok": true
+}

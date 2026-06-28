@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution proposes a constitutional amendment to establish an explicit, fundamental right to vote for U.S. citizens. Its primary purpose is to guarantee that right and to set a high bar for any government action that would restrict it.\n\nSection 1 declares that every citizen of legal voting age has a fundamental right to vote in any public election held in the jurisdiction where they reside. Section 2 prohibits the United States, any state, or any political subdivision from denying or abridging that right unless the restriction serves a compelling governmental interest and is the least restrictive means of furthering that interest. This creates a strict scrutiny standard for voting limitations.\n\nSection 3 amends existing constitutional text by repealing the phrase “or other crime” from Section 2 of the Fourteenth Amendment. That phrase currently allows states to disenfranchise citizens for criminal convictions without facing a reduction in their congressional representation. Removing it eliminates that explicit textual permission, though the amendment’s overall framework would still subject any felony disenfranchisement laws to the compelling interest and least restrictive means test.\n\nSection 4 grants Congress the power to enforce the article and to protect against any denial or abridgment of the fundamental right to vote through legislation.\n\nThe proposed amendment would become part of the Constitution only if ratified by the legislatures of three-fourths of the states. The resolution itself sets no deadline for ratification.",
+  "prompt_tokens": 627,
+  "completion_tokens": 890,
+  "total_tokens": 1517,
+  "cost_usd": 0.001047,
+  "latency_s": 11.916,
+  "ok": true
+}

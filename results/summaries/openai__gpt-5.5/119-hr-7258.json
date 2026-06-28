@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "openai/gpt-5.5",
+  "summary": "The Energy Emergency Leadership Act would amend the Department of Energy Organization Act to add energy emergency and energy security functions to the list of responsibilities that may be assigned to Department of Energy Assistant Secretaries.\n\nThe bill specifies that these functions include responsibilities related to energy infrastructure, security and resilience, emerging threats, cybersecurity, energy supply, and emergency planning and preparedness, coordination, response, and restoration, as appropriate. It also authorizes the Department of Energy, upon request from a State, local, or Tribal government or an energy sector entity, to provide technical assistance and support to protect against, detect, and respond to energy security threats, risks, and incidents. Such assistance would be provided in coordination with other federal agencies as appropriate.\n\nThe bill further directs the Secretary of Energy to ensure that these energy emergency and energy security functions are carried out in coordination with relevant federal agencies. The bill does not specify a separate effective date or impose implementation deadlines.",
+  "prompt_tokens": 747,
+  "completion_tokens": 280,
+  "total_tokens": 1027,
+  "cost_usd": 0.012135,
+  "latency_s": 4.855,
+  "ok": true
+}

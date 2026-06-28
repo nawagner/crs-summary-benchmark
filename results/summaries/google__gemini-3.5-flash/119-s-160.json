@@ -1,0 +1,11 @@
+{
+  "bill_id": "119-s-160",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The *Aerial Firefighting Enhancement Act of 2025* (Public Law 119-18) amends the Wildfire Suppression Aircraft Transfer Act of 1996 to reauthorize and modify the Department of Defense's authority to sell aircraft and aircraft parts for wildfire suppression purposes. \n\nThe primary purpose of the Act is to extend the timeline for these sales. Under the updated provisions, the period for exercising this sale authority begins on the Act's enactment date of June 12, 2025, and ends on October 1, 2035. \n\nIn addition to extending the authorization period, the Act modifies existing law in the following ways:\n* **Inclusion of Water:** It expands the scope of wildfire suppression activities by inserting \"water\" alongside \"fire retardant\" in the provisions governing the sale and use of the aircraft and parts.\n* **Use Restrictions:** It establishes a strict condition on the sold equipment, specifying that any aircraft or parts sold under this authority may be used only for the provision of aircraft services for wildfire suppression purposes. \n* **Technical Amendments:** It updates internal statutory cross-references within the original 1996 Act to align with the newly defined authorization period.",
+  "prompt_tokens": 794,
+  "completion_tokens": 1421,
+  "total_tokens": 2215,
+  "cost_usd": 0.01398,
+  "latency_s": 7.33,
+  "ok": true
+}

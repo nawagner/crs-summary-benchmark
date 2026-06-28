@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-2866",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The claims present (directing the Secretary of State to deny/revoke F/M student visas for prohibited antisemitic conduct) are supported by the bill text and accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or contradicting claims appear in the partial summary; 'foreign students' is an accurate gloss on F/M visa categories."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary clearly identifies the primary purpose: directing visa denial/revocation for students engaging in antisemitic conduct."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary fails to mention the bill amends Section 214 of the Immigration and Nationality Act and references INA visa categories without describing the statutory amendment."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the material condition that the conduct must be determined to pose potentially serious adverse foreign policy consequences under INA 237(a)(4)(C)(i)."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary omits the bill's applicability to conduct occurring on or after the date of enactment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "The truncated summary omits major operative provisions: the foreign-policy-consequences determination, the INA Section 214 amendment on maintaining status, the definitions, and the material-support clause."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is neutral and descriptive with no editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "The summary is incomplete, cutting off mid-sentence at 'Under the bill, the Secretary of State'."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text written contains no padding or filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "The Secretary of State and the bill's short title and number are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The partial summary states no dollar amounts, dates, or quantities to evaluate."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 6,
+  "meets_standard": false,
+  "judge_cost_usd": 0.124505,
+  "judge_latency_s": 14.362
+}

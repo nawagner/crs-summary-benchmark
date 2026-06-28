@@ -1,0 +1,71 @@
+{
+  "bill_id": "119-hr-7257",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill text and accurate context (Section 366 of EPCA governs State energy security plans, administered by DOE)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; naming GAO for Comptroller General and DOE/Secretary of Energy is accurate context consistent with the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill's purpose: amending EPCA Section 366 to include physical security, cybersecurity, and resilience of local distribution systems in State energy security plans."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the amendments to Section 366 of the Energy Policy and Conservation Act, including the new definition, consultation, content, sunset, and may-to-shall changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes key conditions: submission required for eligibility but no Secretary approval needed, and the protected-information annex carve-out."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly states the September 30, 2031 sunset and the September 30, 2030 GAO report deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all essential operative provisions: definition, consultation expansion, content revisions, approval clarification, may-to-shall, sunset, and GAO report."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone with no advocacy or editorializing."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent, following the bill's structure clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficient summary without padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names EPCA, Section 366, GAO/Comptroller General, Secretary of Energy, and the two congressional committees."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures stated (100 kilovolts, September 30, 2031 sunset, September 30, 2030 report deadline) match the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.17563,
+  "judge_latency_s": 14.191
+}

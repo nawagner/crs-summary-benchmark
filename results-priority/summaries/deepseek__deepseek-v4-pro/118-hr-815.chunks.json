@@ -1,0 +1,28 @@
+{
+  "bill_id": "118-hr-815",
+  "model": "deepseek/deepseek-v4-pro",
+  "n_chunks": 3,
+  "notes": {
+    "0": {
+      "notes": "",
+      "prompt_tokens": 26955,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012769,
+      "latency_s": 32.066
+    },
+    "1": {
+      "notes": "",
+      "prompt_tokens": 26442,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012546,
+      "latency_s": 11.99
+    },
+    "2": {
+      "notes": "**DIVISION L — MAHSA AMINI HUMAN RIGHTS AND SECURITY ACT**\n\n**SEC. 2. Imposition of Sanctions on Iran’s Supreme Leader’s Office, Its Appointees, and Any Affiliated Persons**\n-",
+      "prompt_tokens": 18811,
+      "completion_tokens": 1201,
+      "cost_usd": 0.009228,
+      "latency_s": 24.94
+    }
+  }
+}

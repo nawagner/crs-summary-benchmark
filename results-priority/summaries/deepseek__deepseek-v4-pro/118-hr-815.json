@@ -1,0 +1,14 @@
+{
+  "bill_id": "118-hr-815",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, titled “Making emergency supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes,” contains at least two substantive divisions beyond any preamble. The working notes do not detail any specific appropriations, dollar amounts, or fiscal provisions.\n\nDivision E, designated the Fentanyl Eradication and Narcotics Deterrence Off, includes a Title I on sanctions matters. Within that title, section 3101 (codified at 21 U.S.C. 2351) sets out a congressional finding and a statement of policy. The notes do not provide the text of the finding or the policy.\n\nDivision L, the Mahsa Amini Human Rights and Security Act, imposes sanctions. Section 2 of that division directs the imposition of sanctions on Iran’s Supreme Leader’s office, its appointees, and any affiliated persons. The notes do not specify the nature of the sanctions, the criteria for designation, any exceptions, or effective dates.",
+  "prompt_tokens": 72608,
+  "completion_tokens": 4949,
+  "total_tokens": 77557,
+  "cost_usd": 0.03589,
+  "latency_s": 98.73,
+  "ok": true,
+  "strategy": "map_reduce",
+  "n_chunks": 3,
+  "level": "general"
+}

@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-07-09 13:39:03 UTC",
+  "bills": {
+    "118-s-2073": {
+      "sponsor": [
+        {
+          "name": "Sen. Richard Blumenthal (D-CT)",
+          "stance": "sponsor",
+          "excerpt": "This moving and historic day marks a major win for our children. Anyone who doubted whether we'd reach this milestone has never met our advocates – the parents who have lost children and the young people who refused to be treated like Big Tech piggy banks.",
+          "source_url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-blackburn-celebrate-senate-passage-of-the-bipartisan-kids-online-safety-act",
+          "source_kind": "press_release",
+          "date": "2024-07-30"
+        },
+        {
+          "name": "Sen. Marsha Blackburn (R-TN)",
+          "stance": "sponsor",
+          "excerpt": "Today, the Senate took a major step forward in protecting children online by passing the bipartisan Kids Online Safety Act. This legislation provides young people and parents with the tools, safeguards, and transparency they need to protect against online harms.",
+          "source_url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-blackburn-celebrate-senate-passage-of-the-bipartisan-kids-online-safety-act",
+          "source_kind": "press_release",
+          "date": "2024-07-30"
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Sen. Ron Wyden (D-OR)",
+          "stance": "opponent",
+          "excerpt": "I fear this bill could be used to sue services that offer privacy-enhancing technologies like encryption or anonymity features that are essential to young people's ability to communicate securely and privately without being spied on by predators online… For these reasons, I cannot vote for this legislation.",
+          "source_url": "https://www.wyden.senate.gov/news/press-releases/wyden-statement-on-the-kids-online-safety-act",
+          "source_kind": "press_release",
+          "date": "2024-07-25"
+        },
+        {
+          "name": "Sen. Rand Paul (R-KY)",
+          "stance": "opponent",
+          "excerpt": "KOSA would impose an unprecedented duty of care on internet platforms to design their sites to mitigate and prevent harms associated with mental health, such as anxiety, depression and eating disorders. This requirement will not only stifle free speech, but it will deprive Americans of the benefits of our technological advancements.",
+          "source_url": "https://www.paul.senate.gov/op_eds/courier-journal-op-ed-kosa-is-not-the-solution-for-protecting-children-from-social-media/",
+          "source_kind": "op_ed",
+          "date": "2024-08-07"
+        }
+      ]
+    },
+    "118-hjres-26": {
+      "sponsor": [
+        {
+          "name": "Rep. Andrew Clyde (R-GA)",
+          "stance": "sponsor",
+          "excerpt": "The D.C. Council's radical rewrite of the criminal code threatens the well-being of both Washingtonians and visitors — making our nation's capital city a safe haven for violent criminals. In response to this dangerous and severely misguided measure, it's now up to Congress to save our nation's capital from itself.",
+          "source_url": "https://clyde.house.gov/news/documentsingle.aspx?DocumentID=671",
+          "source_kind": "press_release",
+          "date": "2023-02-02"
+        },
+        {
+          "name": "Sen. Bill Hagerty (R-TN)",
+          "stance": "sponsor",
+          "excerpt": "The American public has had enough of the crime wave that's rolling across our country, including in our nation's capital. Congress is tasked with overseeing Washington, D.C.—a federal district where people should be safe to live and work.",
+          "source_url": "https://www.hagerty.senate.gov/press-releases/2023/02/09/hagerty-colleagues-introduce-resolution-to-block-dcs-dangerous-crime-bill/",
+          "source_kind": "press_release",
+          "date": "2023-02-09"
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Del. Eleanor Holmes Norton (D-DC)",
+          "stance": "opponent",
+          "excerpt": "I strongly oppose this profoundly undemocratic, paternalistic resolution.",
+          "source_url": "https://norton.house.gov/media/press-releases/norton-releases-floor-statement-disapproval-resolution-dcs-revised-criminal",
+          "source_kind": "floor_statement",
+          "date": "2023-02-09"
+        },
+        {
+          "name": "Del. Eleanor Holmes Norton (D-DC)",
+          "stance": "opponent",
+          "excerpt": "The House of Representatives, in which the nearly 700,000 District of Columbia residents have no voting representation, is attempting to nullify legislation enacted by D.C.'s local legislature, whose members are elected by D.C. residents.",
+          "source_url": "https://norton.house.gov/media/press-releases/norton-releases-floor-statement-disapproval-resolution-dcs-revised-criminal",
+          "source_kind": "floor_statement",
+          "date": "2023-02-09"
+        }
+      ]
+    },
+    "118-hr-8580": {
+      "sponsor": [
+        {
+          "name": "Rep. John Carter (R-TX), MilCon-VA Subcommittee Chairman",
+          "stance": "sponsor",
+          "excerpt": "This special bill supports our troops, their families, and the nation's veterans. The bill makes good on the Republican commitment to bring bills to the floor that comply with the Fiscal Responsibility Act, while honoring our commitment to our nation's veterans and our troops. To honor that commitment, the bill provides full funding for health care and benefits for veterans.",
+          "source_url": "https://appropriations.house.gov/news/press-releases/carter-cole-were-fully-funding-veteran-health-care-supporting-military-families",
+          "source_kind": "press_release",
+          "date": "2024-06-04"
+        },
+        {
+          "name": "Rep. Tom Cole (R-OK), Appropriations Committee Chairman",
+          "stance": "sponsor",
+          "excerpt": "Those who have worn the uniform, past and present, took an oath to defend our country, our ideals, and our people… The bill provides robust funding for military construction projects, with a particular focus on the Pacific region and military family housing… Even more importantly, the legislation provides full funding for health care and benefits for our nation's veterans.",
+          "source_url": "https://appropriations.house.gov/news/press-releases/carter-cole-were-fully-funding-veteran-health-care-supporting-military-families",
+          "source_kind": "press_release",
+          "date": "2024-06-04"
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Rep. Debbie Wasserman Schultz (D-FL), MilCon-VA Subcommittee Ranking Member",
+          "stance": "opponent",
+          "excerpt": "Little that we do in Congress is more critical than caring for our veterans and improving the quality of life of our servicemembers and their families. Yet my Republican colleagues opted to construct a MilCon-VA bill that cuts military construction and climate resiliency that betrays this basic commitment and diminishes America's national security… Lastly, this bill is riddled with extremist policy riders that further erode women's reproductive rights and cruelly target LGBTQ+ and other diverse communities.",
+          "source_url": "https://democrats-appropriations.house.gov/news/press-releases/house-republicans-milcon-va-funding-bill-fails-meet-needs-veterans",
+          "source_kind": "press_release",
+          "date": "2024-06-05"
+        },
+        {
+          "name": "Rep. Rosa DeLauro (D-CT), Appropriations Committee Ranking Member",
+          "stance": "opponent",
+          "excerpt": "House Republicans 2025 Military Construction and Veterans Affairs funding bill fails our veterans and hurts military readiness. It disarms our military in the face of the climate crisis and recklessly undermines the ability to keep guns out of the hands of those prohibited under Federal law from purchasing or possessing firearms.",
+          "source_url": "https://democrats-appropriations.house.gov/news/press-releases/house-republicans-milcon-va-funding-bill-fails-meet-needs-veterans",
+          "source_kind": "press_release",
+          "date": "2024-06-05"
+        }
+      ]
+    }
+  }
+}

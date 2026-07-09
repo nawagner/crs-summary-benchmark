@@ -15,7 +15,10 @@
 
 congress: 118
 bill_types: [hr, s]
-target_bills: 20
+# First run is scoped to the 10 most consequential bills (listed first below) to bound
+# generation cost; raise target_bills to take the rest of the audited list — every step
+# resumes, so a top-up run only fetches/summarizes/judges the new bills.
+target_bills: 10
 text_char_cap: 4000000        # storage sanity limit only — bills are not truncated to fit prompts
 allow_long_text: true          # store full text instead of skipping over-cap bills
 single_shot_char_cap: 180000   # above this, summarize map-reduce instead of one prompt
@@ -27,12 +30,19 @@ summary_to_date: "2025-01-03T23:59:59Z"
 # review that output. Format: <type>-<number> within the configured congress.
 select_by_priority: true
 include_bills:
-  - hr-2670    # National Defense Authorization Act for Fiscal Year 2024 (PL 118-31)
-  - hr-5009    # Servicemember Quality of Life Improvement and NDAA FY2025 (PL 118-159)
-  - hr-8070    # NDAA FY2025 (House-passed vehicle)
+  # --- first-run 10: the most consequential, selected first (see target_bills note) ---
   - hr-4366    # Consolidated Appropriations Act, 2024 — first minibus (PL 118-42)
   - hr-2882    # Further Consolidated Appropriations Act, 2024 — second minibus (PL 118-47)
+  - hr-2670    # National Defense Authorization Act for Fiscal Year 2024 (PL 118-31)
+  - hr-5009    # Servicemember Quality of Life Improvement and NDAA FY2025 (PL 118-159)
+  - hr-3746    # Fiscal Responsibility Act of 2023 — debt limit (PL 118-5)
+  - hr-815     # National-security supplemental vehicle (PL 118-50)
   - hr-4365    # Department of Defense Appropriations Act, 2024 (House)
+  - hr-5894    # Labor-HHS-Education Appropriations Act, 2024 (House)
+  - hr-10545   # American Relief Act, 2025 (Dec 2024 CR, PL 118-158)
+  - hr-7024    # Tax Relief for American Families and Workers Act of 2024 (House-passed)
+  # --- top-up candidates (raise target_bills to include) ---
+  - hr-8070    # NDAA FY2025 (House-passed vehicle)
   - hr-4367    # DHS Appropriations Act, 2024 (House)
   - hr-4368    # Agriculture-FDA Appropriations Act, 2024 (House)
   - hr-4394    # Energy and Water Development Appropriations Act, 2024 (House)
@@ -40,14 +50,9 @@ include_bills:
   - hr-4820    # Transportation-HUD Appropriations Act, 2024 (House)
   - hr-4821    # Interior-Environment Appropriations Act, 2024 (House)
   - hr-5893    # Commerce-Justice-Science Appropriations Act, 2024 (House)
-  - hr-5894    # Labor-HHS-Education Appropriations Act, 2024 (House)
   - hr-5860    # Continuing Appropriations Act, 2024 (Sept 2023 CR, PL 118-15)
   - hr-6363    # Further Continuing Appropriations Act, 2024 (PL 118-22)
   - hr-9747    # Continuing Appropriations and Extensions Act, 2025 (PL 118-83)
-  - hr-10545   # American Relief Act, 2025 (Dec 2024 CR, PL 118-158)
-  - hr-3746    # Fiscal Responsibility Act of 2023 — debt limit (PL 118-5)
-  - hr-815     # National-security supplemental vehicle (PL 118-50)
-  - hr-7024    # Tax Relief for American Families and Workers Act of 2024 (House-passed)
 # Fill any remaining slots (up to target_bills) with title matches, most CRS summary
 # versions first:
 priority_title_patterns:

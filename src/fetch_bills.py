@@ -144,8 +144,15 @@ async def main_async(args) -> None:
     by_activity = bool(cfg.get("select_by_activity"))
     by_priority = bool(cfg.get("select_by_priority"))
     allow_long = bool(cfg.get("allow_long_text"))
-    # pull a generous pool of summaries so we can skip bills whose text is unavailable
-    pool = max(cfg.get("activity_pool_cap", 320) * 5, 1500) if by_activity else max(target * 6, 120)
+    # pull a generous pool of summaries so we can skip bills whose text is unavailable.
+    # priority mode must page the (near-)full listing: its include_bills are specific
+    # bills that a recency-sorted slice would miss.
+    if by_priority:
+        pool = cfg.get("priority_pool_cap", 12000)
+    elif by_activity:
+        pool = max(cfg.get("activity_pool_cap", 320) * 5, 1500)
+    else:
+        pool = max(target * 6, 120)
     from_date = cfg.get("summary_from_date", "2025-01-03T00:00:00Z")
     to_date = cfg.get("summary_to_date") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     activity: dict[str, int] = {}

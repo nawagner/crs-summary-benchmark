@@ -22,15 +22,17 @@
 
 <main><div class="wrap">
   <h1>How far behind is CRS?</h1>
-  <p class="lede">CRS writes excellent summaries — but slowly, and not for every bill. This is the other
-  half of the story behind the benchmark: a high-quality human summary is worth little if it doesn't exist
-  yet. Below, the share of 119th-Congress bills that have a CRS summary, by when each bill was introduced.</p>
+  <p class="lede">CRS writes excellent summaries — but slowly, and not for everything. The headline depends on
+  the denominator: measured against every introduced bill, coverage sits near 30% — but most introduced
+  bills never advance, and CRS prioritizes the ones that move. Measured against bills that reached the
+  House or Senate floor, coverage is near-complete. Below: coverage by legislative stage, and by when each
+  bill was introduced.</p>
 
   <p class="count" id="lag-meta">Loading…</p>
   <div id="lag-stats" class="stat-grid"></div>
 
   <div class="card" style="padding:16px 18px">
-    <img src="assets/crs-lag.png" alt="Bar chart: share of 119th-Congress bills with a CRS summary by month of introduction, falling from about 92% for January 2025 to near 0% for mid-2026." style="width:100%;height:auto;display:block">
+    <img src="assets/crs-lag.png" alt="Bar chart: share of 119th-Congress bills with a CRS summary by month of introduction, falling from about 92% for January 2025 to near 0% for mid-2026. An overlay line for advanced (floor-reaching) bills appears once the chart data is regenerated with per-stage figures." style="width:100%;height:auto;display:block">
   </div>
 
   <h2>What this shows</h2>
@@ -41,11 +43,14 @@
       coverage stays near zero for months and only builds over a year-plus.</li>
       <li><strong>Selective coverage.</strong> CRS doesn't summarize every bill, so coverage plateaus well
       below 100% even for the oldest bills (many minor bills that die in committee never get one).</li>
+      <li><strong>Prioritized coverage.</strong> CRS concentrates on bills that move. Against bills with
+      floor consideration coverage is near-complete; against bills with committee action it is high; the
+      low overall figure is dominated by introduced-only bills that never leave committee.</li>
     </ul>
-    <p>Read this as <em>how much of the recent legislative record is covered</em>, not a precise
-    days-to-summarize figure. It sharpens the benchmark's point: CRS summaries score ~94–98% on the rubric,
-    but most recent bills don't have one — while the models produce a passable summary instantly for a
-    fraction of a cent.</p>
+    <p>Read the overall number as how much of the whole legislative record is covered, and the stage
+    numbers as how CRS actually triages. The benchmark's point stands either way: CRS summaries score
+    ~94–98% on the rubric, but a recent bill usually has no summary yet — while the models produce a
+    passable one instantly for a fraction of a cent.</p>
   </div>
 
   <h2>How it's measured</h2>
@@ -57,6 +62,12 @@
     Congress.gov's <code>updateDate</code> fields are bulk-refreshed and unreliable for timing. Monthly
     samples are ~20–120 bills each, so individual months are noisy. Reproduce with
     <code>python src/analyze_lag.py</code> then <code>python src/plot_lag.py</code>.</p>
+    <p>Stage figures come from a census of every House and Senate bill's latest action (the Congress.gov
+    list endpoint), classified into introduced / committee / floor by a small pattern table
+    (<code>src/stages.py</code>). Sampled bills' full action histories are classified the same way, and the
+    agreement rate between the two classifiers ships in the data file as a validity check. "Floor" means
+    actual floor consideration (passage votes, presidential action, and the like); "committee" means
+    markup, reporting, hearings, or calendar placement; a mere referral still counts as introduced.</p>
   </div>
 </div></main>
 

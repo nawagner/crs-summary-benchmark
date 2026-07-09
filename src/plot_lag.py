@@ -6,6 +6,7 @@ the resulting PNG. Run after analyze_lag.py.
 from __future__ import annotations
 
 import json
+import math
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -16,7 +17,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib import font_manager  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap  # noqa: E402
-from matplotlib.patches import FancyBboxPatch  # noqa: E402
+from matplotlib.patches import FancyBboxPatch, Patch  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
@@ -27,6 +28,9 @@ FAINT = "#9aa3af"
 GRID = "#eaedf1"
 # light slate -> deep navy, so taller (better-covered) bars read darker
 CMAP = LinearSegmentedColormap.from_list("crsnavy", ["#bcd0e4", "#2b6aa3", "#173a5e"])
+# warm rust for the "advanced bills" overlay line, distinct from the navy bars
+ADVANCED_COLOR = "#b3541e"
+ADVANCED_MIN_N = 10
 
 for fam in ("Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"):
     if any(fam in f.name for f in font_manager.fontManager.ttflist):
@@ -47,12 +51,31 @@ def rounded_bars(ax, xs, vals, width=0.66, radius=0.10):
             facecolor=CMAP(min(1.0, v / 95)), zorder=3))
 
 
-def main() -> None:
-    d = json.load(open(C.DOCS_DATA / "lag.json"))
+def main(data_path: Path | None = None, out_path: Path | None = None) -> plt.Figure:
+    if data_path is None:
+        data_path = C.DOCS_DATA / "lag.json"
+    if out_path is None:
+        out_path = C.ROOT / "docs" / "assets" / "crs-lag.png"
+
+    d = json.load(open(data_path))
     months = d["months"]
     labels = [datetime.strptime(m["month"], "%Y-%m").strftime("%b '%y") for m in months]
     cov = [m["coverage"] * 100 for m in months]
     xs = list(range(len(cov)))
+
+    # optional overlay: coverage among bills that advanced (committee/floor action).
+    # only plotted for months with enough advanced bills to be meaningful; other
+    # months get a NaN so the line has a gap there instead of interpolating over them.
+    advanced_cov: list[float] = []
+    has_advanced = False
+    for m in months:
+        ac = m.get("advanced_coverage")
+        an = m.get("advanced_n") or 0
+        if ac is not None and an >= ADVANCED_MIN_N:
+            has_advanced = True
+            advanced_cov.append(ac * 100)
+        else:
+            advanced_cov.append(math.nan)
 
     fig, ax = plt.subplots(figsize=(9.6, 4.6), dpi=200)
     fig.patch.set_facecolor("white")
@@ -62,6 +85,15 @@ def main() -> None:
     for x, v in zip(xs, cov):
         ax.text(x, v + 2.2, f"{round(v)}", ha="center", va="bottom",
                 fontsize=8, color=MUTED)
+
+    if has_advanced:
+        line, = ax.plot(
+            xs, advanced_cov, color=ADVANCED_COLOR, linewidth=1.8,
+            marker="o", markersize=4, zorder=5,
+            label="bills that advanced (committee/floor)")
+        bar_proxy = Patch(facecolor=CMAP(0.7), label="all introduced bills")
+        ax.legend(handles=[bar_proxy, line], loc="upper left", frameon=False,
+                  fontsize=7.5, labelcolor=MUTED, handlelength=1.4, borderaxespad=0.2)
 
     ax.set_xlim(-0.7, len(cov) - 0.3)
     ax.set_ylim(0, 100)
@@ -90,10 +122,18 @@ def main() -> None:
             transform=ax.transAxes, ha="center", va="top", fontsize=8.5, color=FAINT)
 
     fig.subplots_adjust(top=0.94, bottom=0.16, left=0.06, right=0.985)
-    out = C.ROOT / "docs" / "assets" / "crs-lag.png"
-    fig.savefig(out, facecolor="white")
-    print(f"wrote {out}")
+    fig.savefig(out_path, facecolor="white")
+    print(f"wrote {out_path}")
+    return fig
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data", type=Path, default=C.DOCS_DATA / "lag.json",
+                         help="path to lag.json (default: docs/data/lag.json)")
+    parser.add_argument("--out", type=Path, default=C.ROOT / "docs" / "assets" / "crs-lag.png",
+                         help="path to write the chart PNG (default: docs/assets/crs-lag.png)")
+    args = parser.parse_args()
+    main(args.data, args.out)

@@ -296,13 +296,31 @@ async function initLag() {
   const recentCov = recent.reduce((a, m) => a + m.coverage, 0) / recent.length;
   const fmtK = (n) => n.toLocaleString("en-US");
 
-  meta.textContent = `${d.congress}th Congress · ${fmtK(d.sampled)} bills sampled · as of ${d.generated_at}`;
-  const cards = [
-    { v: pct(hr.pct), l: "of House bills have a CRS summary", sub: `${fmtK(hr.summarized)} of ${fmtK(hr.total)}` },
-    { v: pct(s.pct), l: "of Senate bills have a CRS summary", sub: `${fmtK(s.summarized)} of ${fmtK(s.total)}` },
-    { v: pct(recentCov), l: "for bills from the last 3 months", sub: "the active backlog" },
-    { v: pct(totSum / totBills), l: "of all 119th-Congress bills covered", sub: `${fmtK(totSum)} of ${fmtK(totBills)}` },
-  ];
+  meta.textContent = `${d.congress}th Congress · ${fmtK(d.sampled)} bills sampled · as of ${d.generated_at}` +
+    (typeof d.stage_agreement === "number"
+      ? ` · stage classifiers agree on ${pct(d.stage_agreement)} of sampled bills`
+      : "");
+
+  let cards;
+  if (d.stages) {
+    const floor = d.stages.floor, committee = d.stages.committee;
+    cards = [
+      { v: pct(floor.pct), l: "of bills that reached the floor have a CRS summary",
+        sub: `${fmtK(floor.summarized)} of ${fmtK(floor.total)} bills` },
+      { v: pct(committee.pct), l: "of bills that advanced in committee (but not to the floor)",
+        sub: `${fmtK(committee.summarized)} of ${fmtK(committee.total)} bills` },
+      { v: pct((hr.summarized + s.summarized) / (hr.total + s.total)), l: "of all introduced bills — most never advance",
+        sub: `${fmtK(totSum)} of ${fmtK(totBills)} bills` },
+      { v: pct(recentCov), l: "for bills from the last 3 months", sub: "the active backlog" },
+    ];
+  } else {
+    cards = [
+      { v: pct(hr.pct), l: "of House bills have a CRS summary", sub: `${fmtK(hr.summarized)} of ${fmtK(hr.total)}` },
+      { v: pct(s.pct), l: "of Senate bills have a CRS summary", sub: `${fmtK(s.summarized)} of ${fmtK(s.total)}` },
+      { v: pct(recentCov), l: "for bills from the last 3 months", sub: "the active backlog" },
+      { v: pct(totSum / totBills), l: "of all 119th-Congress bills covered", sub: `${fmtK(totSum)} of ${fmtK(totBills)}` },
+    ];
+  }
   grid.innerHTML = cards.map((c) =>
     `<div class="stat"><div class="stat-v">${c.v}</div><div class="stat-l">${esc(c.l)}</div>` +
     `<div class="stat-sub">${esc(c.sub)}</div></div>`).join("");

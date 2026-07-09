@@ -92,7 +92,9 @@ def main(data_path: Path | None = None, out_path: Path | None = None) -> plt.Fig
             marker="o", markersize=4, zorder=5,
             label="bills that advanced (committee/floor)")
         bar_proxy = Patch(facecolor=CMAP(0.7), label="all introduced bills")
-        ax.legend(handles=[bar_proxy, line], loc="upper left", frameon=False,
+        # upper-center gap, clear of the tall early bars and the recent-bills callout
+        ax.legend(handles=[bar_proxy, line], loc="upper center",
+                  bbox_to_anchor=(0.42, 1.0), frameon=False,
                   fontsize=7.5, labelcolor=MUTED, handlelength=1.4, borderaxespad=0.2)
 
     ax.set_xlim(-0.7, len(cov) - 0.3)

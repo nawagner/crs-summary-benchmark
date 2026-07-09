@@ -84,6 +84,28 @@ def judge_one(client, judge_model: str, prompt: str, cfg: dict, pricing, criteri
     }
 
 
+def grounded_bill_text(bill: dict, summary: str, cfg: dict, cap: int | None = None) -> tuple[str, str]:
+    """What the judge reads as 'bill text', plus the grounding mode.
+
+    Bills that fit under `judge_text_char_cap` are judged on their full text ("full").
+    Longer bills (issue #7: appropriations/NDAA-scale) can't fit any judge's context, so
+    the judge instead receives a deterministic section index of the WHOLE bill plus the
+    raw text of the sections most lexically relevant to the summary under review
+    ("sectional") — disclosed in the score record and on the methodology page.
+    """
+    cap = cap or int(cfg.get("judge_text_char_cap", 400000))
+    text = bill["bill_text"]
+    if len(text) <= cap:
+        return text, "full"
+    from chunking import section_index, split_sections
+    from grounding import build_grounding
+
+    secs = split_sections(text)
+    index = section_index(secs)
+    sections = [{"heading": " > ".join(s.heading_path), "text": s.text} for s in secs]
+    return build_grounding(summary, index, sections, cap_chars=cap), "sectional"
+
+
 def candidate_summary(bill: dict, slug_or_ref: str) -> str | None:
     if slug_or_ref == C.CRS_REFERENCE:
         return bill.get("crs_summary") or None
@@ -105,6 +127,7 @@ def main() -> None:
     criteria = C.load_criteria()
     criteria_ids = [c["id"] for c in criteria]
     template = C.read_prompt(cfg["prompts"]["judge"])
+    template_long = C.read_prompt(cfg["prompts"].get("judge_long", "prompts/judge_long.txt"))
     cblock = criteria_block(criteria)
     judge_model = cfg["judge_model"]
     client = C.openrouter_client()
@@ -130,9 +153,11 @@ def main() -> None:
             summary = candidate_summary(bill, cand)
             if not summary:
                 continue
-            prompt = (template
+            grounded, grounding = grounded_bill_text(bill, summary, cfg)
+            tmpl = template_long if grounding == "sectional" else template
+            prompt = (tmpl
                       .replace("{criteria_block}", cblock)
-                      .replace("{bill_text}", bill["bill_text"])
+                      .replace("{bill_text}", grounded)
                       .replace("{summary}", summary))
             result = None
             for attempt in range(args.retries + 1):
@@ -146,7 +171,8 @@ def main() -> None:
                         print(f"  {cand} {bill['bill_id']}: FAILED {str(e)[:80]}")
             if result is None:
                 continue
-            C.write_json(out_path, {"bill_id": bill["bill_id"], "candidate": cand, **result})
+            C.write_json(out_path, {"bill_id": bill["bill_id"], "candidate": cand,
+                                    "judge_grounding": grounding, **result})
             done += 1
             print(f"  {cand} {bill['bill_id']}: "
                   f"{result['n_passed']}/{result['n_applicable']} pass"

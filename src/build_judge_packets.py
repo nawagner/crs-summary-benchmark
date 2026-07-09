@@ -35,10 +35,20 @@ def main() -> None:
                 sp = C.SUMMARIES_DIR / slug / f"{b['bill_id']}.json"
                 if sp.exists():
                     cands[slug] = C.read_json(sp).get("summary", "")
+        if len(b["bill_text"]) > TEXT_EXCERPT:
+            # long bill (issue #7): a packet can't carry the full text, so ground the
+            # judges the same way evaluate.py does — section index of the whole bill
+            # plus the sections relevant to ANY candidate summary in this packet.
+            from evaluate import grounded_bill_text
+            all_summaries = "\n\n".join(s for s in cands.values() if s)
+            text, grounding = grounded_bill_text(b, all_summaries, cfg, cap=TEXT_EXCERPT)
+        else:
+            text, grounding = b["bill_text"], "full"
         items.append({
             "bill_id": b["bill_id"],
             "title": b["title"],
-            "bill_text": b["bill_text"][:TEXT_EXCERPT],
+            "bill_text": text,
+            "judge_grounding": grounding,
             "crs_summary": b["crs_summary"],
             "candidates": cands,
         })

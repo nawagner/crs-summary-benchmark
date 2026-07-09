@@ -1,0 +1,91 @@
+# Third dataset (issue #7): high-priority, hard-to-summarize bills from the 118th
+# Congress — appropriations, the NDAA, and other large/complex measures. These are the
+# bills the other two sets EXCLUDE (full text over the single-prompt input budget), and
+# arguably where summarization matters most.
+#
+# Run with:  CRS_DATASET=priority CRS_CONFIG=config-priority.yaml python src/<stage>.py
+#
+# Long bills are NOT truncated: anything over single_shot_char_cap is summarized
+# hierarchically (map-reduce over structure-aware chunks — src/chunking.py +
+# src/summarize.py), and judged against a deterministic section index plus the sections
+# most relevant to each summary (src/grounding.py; disclosed as judge_grounding:
+# "sectional"). COST WARNING: a 3M-char omnibus is ~25 chunks per model; a full run over
+# ~20 bills x 5 models is roughly 2,500 map calls plus merges and judging — estimate
+# $50-150 on OpenRouter depending on models. Start with --limit 2 to gauge cost.
+
+congress: 118
+bill_types: [hr, s]
+target_bills: 20
+text_char_cap: 4000000        # storage sanity limit only — bills are not truncated to fit prompts
+allow_long_text: true          # store full text instead of skipping over-cap bills
+single_shot_char_cap: 180000   # above this, summarize map-reduce instead of one prompt
+summary_from_date: "2023-01-03T00:00:00Z"   # whole 118th Congress
+summary_to_date: "2025-01-03T23:59:59Z"
+
+# --- Selection (issue #7): an explicit, audited list beats an opaque complexity filter.
+# Bills without a CRS summary in the Congress.gov listing are skipped with a log line —
+# review that output. Format: <type>-<number> within the configured congress.
+select_by_priority: true
+include_bills:
+  - hr-2670    # National Defense Authorization Act for Fiscal Year 2024 (PL 118-31)
+  - hr-5009    # Servicemember Quality of Life Improvement and NDAA FY2025 (PL 118-159)
+  - hr-8070    # NDAA FY2025 (House-passed vehicle)
+  - hr-4366    # Consolidated Appropriations Act, 2024 — first minibus (PL 118-42)
+  - hr-2882    # Further Consolidated Appropriations Act, 2024 — second minibus (PL 118-47)
+  - hr-4365    # Department of Defense Appropriations Act, 2024 (House)
+  - hr-4367    # DHS Appropriations Act, 2024 (House)
+  - hr-4368    # Agriculture-FDA Appropriations Act, 2024 (House)
+  - hr-4394    # Energy and Water Development Appropriations Act, 2024 (House)
+  - hr-4665    # State-Foreign Operations Appropriations Act, 2024 (House)
+  - hr-4820    # Transportation-HUD Appropriations Act, 2024 (House)
+  - hr-4821    # Interior-Environment Appropriations Act, 2024 (House)
+  - hr-5893    # Commerce-Justice-Science Appropriations Act, 2024 (House)
+  - hr-5894    # Labor-HHS-Education Appropriations Act, 2024 (House)
+  - hr-5860    # Continuing Appropriations Act, 2024 (Sept 2023 CR, PL 118-15)
+  - hr-6363    # Further Continuing Appropriations Act, 2024 (PL 118-22)
+  - hr-9747    # Continuing Appropriations and Extensions Act, 2025 (PL 118-83)
+  - hr-10545   # American Relief Act, 2025 (Dec 2024 CR, PL 118-158)
+  - hr-3746    # Fiscal Responsibility Act of 2023 — debt limit (PL 118-5)
+  - hr-815     # National-security supplemental vehicle (PL 118-50)
+  - hr-7024    # Tax Relief for American Families and Workers Act of 2024 (House-passed)
+# Fill any remaining slots (up to target_bills) with title matches, most CRS summary
+# versions first:
+priority_title_patterns:
+  - "Appropriations Act"
+  - "National Defense Authorization"
+  - "Continuing Appropriations"
+
+# --- Hierarchical summarization / judging knobs ---
+chunk_char_budget: 120000        # ~30k tokens per map chunk
+chunk_max_output_tokens: 1200
+merge_summary_words: "300-700"   # omnibus bills warrant longer summaries than 150-350
+judge_text_char_cap: 400000      # judge reads index + relevant sections up to this size
+
+# --- Same models and judge as the other runs, for apples-to-apples comparison ---
+models:
+  - anthropic/claude-opus-4.8
+  - openai/gpt-5.5
+  - google/gemini-3.5-flash
+  - z-ai/glm-5.2
+  - deepseek/deepseek-v4-pro
+
+judge_model: anthropic/claude-opus-4.8
+judge_temperature: 0
+judge_web_search: true
+judge_web_max_results: 3
+
+summarize_temperature: 0.3
+max_output_tokens: 4000
+
+prompts:
+  summarize: prompts/summarize.txt
+  judge: prompts/judge.txt
+  judge_long: prompts/judge_long.txt
+  summarize_chunk: prompts/summarize_chunk.txt
+  summarize_merge: prompts/summarize_merge.txt
+
+# Reading levels (issue #10) apply here too; only the default level is judged.
+reading_levels:
+  - {id: eli5,    label: "Grade 5",        prompt: prompts/summarize_eli5.txt,   target_fk_grade: 5}
+  - {id: general, label: "General public", prompt: prompts/summarize.txt,        default: true, target_fk_grade: 11}
+  - {id: expert,  label: "Expert / JD",    prompt: prompts/summarize_expert.txt, target_fk_grade: 16}

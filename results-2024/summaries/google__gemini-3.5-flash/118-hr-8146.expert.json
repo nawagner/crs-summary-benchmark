@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 8146, the \"Police Our Border Act,\" is a legislative enactment whose primary purpose is to mandate a comprehensive reporting requirement by the Attorney General of the United States regarding the operational and financial impacts of the southern border situation on Federal, State, local, and Tribal law enforcement agencies. The bill does not amend the United States Code, nor does it authorize or appropriate funds.\n\nSection 3 of the Act establishes a non-discretionary reporting obligation. It requires the Attorney General to submit a report to Congress not later than 180 days after the date of enactment. The report must detail the impact of the \"Biden border crisis\" on law enforcement officers at all levels of government. Under the statutory mandate, the report must specifically include:\n\n1. An estimated dollar amount of all resources allocated to address the border situation, alongside an assessment of the extent to which these allocations have rendered resources unavailable to law enforcement agencies;\n2. Data on the exposure of law enforcement officers to fentanyl resulting from encounters with \"illegal aliens\" at the border and within the United States, including the nationality of each such alien;\n3. The number and nature of injuries sustained by law enforcement officers connected to the border situation or to fentanyl exposure;\n4. An assessment of law enforcement officer morale;\n5. An analysis of the impact of the border situation on law enforcement recruitment and hiring;\n6. The estimated dollar amount expended by States on local law enforcement efforts to investigate, intercept, and process—defined to encompass the entire evidence lifecycle from collection and analysis to storage and final destruction—fentanyl trafficked from the United States border; and\n7. Quantitative data on the reassignment of law enforcement officers and the reallocation of local resources to investigate, intercept, and process fentanyl trafficked from the United States border, applying the same comprehensive evidence lifecycle definition.\n\nSection 2 of the Act sets forth congressional findings, which include a declaration that the President should utilize existing statutory authorities, specifically referencing Section 212(f) of the Immigration and Nationality Act (8 U.S.C. 1182(f)), to secure the southern border.",
+  "prompt_tokens": 1114,
+  "completion_tokens": 443,
+  "total_tokens": 1557,
+  "cost_usd": 0.005658,
+  "latency_s": 3.153,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

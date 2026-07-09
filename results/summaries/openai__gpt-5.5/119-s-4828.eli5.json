@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is called the “Declaration of Independence Reaffirmation Act of 2026.”\n\nIt says Congress reaffirms and re-adopts the Declaration of Independence as an “Organic Law” of the United States. An Organic Law means a basic founding law of the country. The bill says the Declaration is an important charter, or guiding document, for American independence, national self-rule, natural rights, equal citizenship, and government by the consent of the people.\n\nThe bill lists facts about the Declaration. It says the Continental Congress adopted it on July 4, 1776. It says the Declaration announced that the United States were free and independent States. It also says the Declaration and the Constitution together form a government where the people are sovereign, meaning the people hold the highest power, and public officers serve them.\n\nTo mark the 250th anniversary of American independence, the bill prints the full text of the Declaration of Independence in the law. The bill does not create any new program, spending, tax, penalty, or deadline.",
+  "prompt_tokens": 2656,
+  "completion_tokens": 383,
+  "total_tokens": 3039,
+  "cost_usd": 0.02477,
+  "latency_s": 6.885,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

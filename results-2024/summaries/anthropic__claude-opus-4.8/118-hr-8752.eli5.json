@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a spending plan for the Department of Homeland Security. That department keeps the country safe. It watches the borders, checks people at airports, and helps after disasters. This plan covers one year, ending September 30, 2025.\n\nThe bill decides how much money each part of the department gets. Here are some big amounts:\n- Border officers (Customs and Border Protection) get about $16.5 billion for their work.\n- Immigration officers (ICE) get about $10.5 billion. The bill says they must keep at least 50,000 beds to hold people.\n- Airport security (TSA) gets about $10.8 billion.\n- The Coast Guard gets about $10.5 billion.\n- The Secret Service, who protect leaders, get about $3 billion.\n- A fund for helping after big disasters gets about $22.7 billion.\n\nThe bill sets $600 million to build border walls. The walls must be steel posts, 18 to 30 feet tall, with parts that stop climbing and digging. It also says money cannot be used to tear down walls that already exist.\n\nThe bill has many rules about what the money can and cannot be used for. For example, it stops some immigration rules from being followed. It says certain named leaders should get no pay. It blocks money for electric cars and for some climate orders.\n\nThe bill also asks for many reports to Congress so leaders can watch how the money is spent.\n\nThis bill passed the House of Representatives. To become law, the Senate must also pass it and the President must sign it.",
+  "prompt_tokens": 44252,
+  "completion_tokens": 469,
+  "total_tokens": 44721,
+  "cost_usd": 0.232985,
+  "latency_s": 8.595,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

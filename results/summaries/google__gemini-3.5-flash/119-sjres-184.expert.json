@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 184, introduced in the 119th Congress, is a joint resolution directing the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nInvoking the expedited legislative procedures set forth in section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. § 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329), Section 2(a) of the resolution mandates that the President remove U.S. Armed Forces from hostilities within or against Iran. This statutory directive is subject to a condition precedent: the removal is required unless and until Congress explicitly authorizes such operations via a declaration of war or a specific authorization for the use of military force. \n\nSection 2(b) establishes four explicit rules of construction to limit the scope of the removal mandate. The directive to withdraw forces shall not be construed to prevent the United States from:\n1. Defending against an attack on the United States, its personnel, or its facilities located in other nations;\n2. Collecting, analyzing, or sharing intelligence—including with the State of Israel, international organizations, and other partners and allies—concerning threats posed by Iran or its proxies;\n3. Assisting Israel and other nations by providing defensive materiel support or aiding in defensive measures to protect their territory from retaliatory attacks by Iran or its proxies; or\n4. Providing security, departure, and evacuation assistance to U.S. citizens affected by the hostilities.\n\nThe preamble and findings in Section 1 contextualize the resolution under the War Powers Resolution of 1973 (50 U.S.C. § 1541 et seq.). The findings note that the President notified Congress on March 2, 2026, of the initiation of military force against Iran on February 28, 2026, triggering the 60-day statutory clock under 50 U.S.C. § 1543(a). Because Congress has not declared war, enacted a specific authorization, or extended the 60-day period, the findings state that the statutory period for unauthorized hostilities expires on May 1, 2026.",
+  "prompt_tokens": 1583,
+  "completion_tokens": 512,
+  "total_tokens": 2095,
+  "cost_usd": 0.006982,
+  "latency_s": 3.411,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

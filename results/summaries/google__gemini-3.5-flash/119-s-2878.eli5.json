@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the Great Lakes Fishery Research Reauthorization Act. It was passed by Congress, which is the group of people who make laws for the United States. \n\nThe main goal of this law is to keep funding, or providing government money, for the Great Lakes Basin. The Great Lakes are a group of five huge freshwater lakes in North America. The money is used to watch, study, and do scientific research on the fish and water in these lakes. \n\nBefore this law was passed, the government had only agreed to fund this research until the year 2025. This new law changes the end date. It officially extends the funding for five more years. Now, the government will continue to fund the research until the year 2030.",
+  "prompt_tokens": 547,
+  "completion_tokens": 158,
+  "total_tokens": 705,
+  "cost_usd": 0.002243,
+  "latency_s": 1.606,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

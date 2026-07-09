@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-9094",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Florida Freeze Disaster Assistance Act of 2026.\" It is about helping farmers who lost money because of very cold weather and freezes.\n\nThe bill gives $3.5 billion to the U.S. Department of Agriculture. That is a part of the government that helps farmers. The head of that department is called the Secretary of Agriculture.\n\nThe money would be used to make \"block grants\" to states. A block grant is a big chunk of money given to a state to use for a certain purpose. Here, the purpose is to help farmers who lost crops, trees, bushes, or vines because of the freeze. This includes crops that could not be planted, and crops that take many years to grow.\n\nThe money can only be used for losses in counties that were named as disaster areas for the freeze on March 4, 2026. A state must ask for the money before it is given.\n\nThe money is for the budget year that ends September 30, 2027. But it can stay available until it is all used up.\n\nWithin 120 days after the bill becomes law, the Secretary must send a report to Congress about how the help is being used. After that, they must send a new report every three months until the money is gone.\n\nThe bill calls this money an \"emergency\" need.",
+  "prompt_tokens": 1544,
+  "completion_tokens": 371,
+  "total_tokens": 1915,
+  "cost_usd": 0.016995,
+  "latency_s": 6.193,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

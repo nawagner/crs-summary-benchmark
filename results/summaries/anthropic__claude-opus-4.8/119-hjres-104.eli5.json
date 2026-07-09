@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Congress made this new law to cancel a rule. Congress is the part of the government that makes laws.\n\nThe rule came from a group called the Bureau of Land Management. This group takes care of public land that belongs to everyone in the country.\n\nThe rule was about a plan for land near Miles City. This plan was called a \"Record of Decision and Approved Resource Management Plan Amendment.\" A plan like this decides how the land can be used. The rule was made on November 20, 2024.\n\nCongress used a special power to say \"no\" to the rule. This law says the rule \"shall have no force or effect.\" That means the rule does not count anymore. It is like the rule was never made.\n\nA group called the Government Accountability Office looked at the rule first. They wrote a letter on June 25, 2025. They said the plan counted as a \"rule.\" That mattered because Congress can only cancel things that are rules.\n\nThe House and the Senate are the two parts of Congress. The House passed this on September 3, 2025. The Senate passed it on October 7 and 8, 2025. The law was approved on December 11, 2025.",
+  "prompt_tokens": 845,
+  "completion_tokens": 338,
+  "total_tokens": 1183,
+  "cost_usd": 0.012675,
+  "latency_s": 7.184,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

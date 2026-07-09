@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Improving Access to Addiction Medicine Providers Act.\" It makes small changes to an existing law about health and medicine.\n\nThere is a program called the Minority Fellowship Program. A fellowship is like a special scholarship that helps people get training in their job. This program helps people from minority groups learn to do important health work.\n\nThe bill does two main things.\n\nFirst, it adds the word \"diagnosis\" to the law. Diagnosis means figuring out what health problem a person has. So the training can now cover this too.\n\nSecond, it adds \"addiction medicine\" to the list of jobs the program helps train people for. Addiction medicine is health care that helps people who are struggling with addiction, like being unable to stop using drugs or alcohol.\n\nIf this bill becomes law, people in the fellowship program could get training to become addiction medicine workers. This means more helpers could be trained to care for people with addiction.\n\nTwo senators, Mr. Cornyn and Mr. Lujan, introduced the bill on March 13, 2025. It was sent to a group called the Committee on Health, Education, Labor, and Pensions, which looks at bills about these topics. The bill has not become law yet.",
+  "prompt_tokens": 839,
+  "completion_tokens": 375,
+  "total_tokens": 1214,
+  "cost_usd": 0.01357,
+  "latency_s": 6.516,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

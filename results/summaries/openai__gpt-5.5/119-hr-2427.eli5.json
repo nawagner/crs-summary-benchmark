@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2427",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would make it illegal to raise some prices too much during a major disaster or emergency declared by the President.\n\nIn the disaster area, sellers could not raise prices by more than 10% for 30 days on needed goods and services, hotel rooms, and home rentals. Needed goods include food, water, fuel, medicine, batteries, diapers, building supplies, and transportation. For repair or rebuilding work, the 10% limit would last 180 days.\n\nA seller also could not charge a new price that is more than 50% above its cost for 30 days, if the seller did not charge that price before the disaster.\n\nThere are exceptions. Higher prices would be allowed if the seller’s own costs went up, if tariffs or national trade rules caused the increase, if hotel prices followed regular seasonal rates, or if rent went up because of agreed changes or repair costs.\n\nThe Federal Trade Commission, a government agency that protects buyers, would enforce the law. States could also sue to stop violations or get money back for residents. People who were harmed could sue too, within 2 years after they found out about the violation.\n\nCivil penalties could be up to $25,000, with yearly inflation increases. Money collected would go to help disaster-area communities.",
+  "prompt_tokens": 2526,
+  "completion_tokens": 332,
+  "total_tokens": 2858,
+  "cost_usd": 0.02259,
+  "latency_s": 6.773,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

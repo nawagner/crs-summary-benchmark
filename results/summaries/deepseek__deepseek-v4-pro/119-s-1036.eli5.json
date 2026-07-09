@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill changes a program that helps people from minority groups get special training in health care jobs. The program is called the Minority Fellowship Program.\n\nRight now, the program gives money, called fellowships, to help train professionals in certain fields. The bill adds **addiction medicine** to the list of job trainings that can receive this money. Addiction medicine is the field where doctors and other workers help people who have problems with drugs or alcohol.\n\nThe bill also makes one more small change. It adds the word \"diagnosis\" to the part of the law that talks about preventing and treating health problems. This means the training can clearly include learning how to figure out what health issue a person has.\n\nIf this bill becomes law, more people from minority groups could get financial help to become addiction medicine professionals. The goal in the title of the bill is to improve access to these kinds of providers.",
+  "prompt_tokens": 490,
+  "completion_tokens": 179,
+  "total_tokens": 669,
+  "cost_usd": 0.000369,
+  "latency_s": 6.561,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

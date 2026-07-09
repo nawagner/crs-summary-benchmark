@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law lets the Department of Veterans Affairs build and fix medical buildings for veterans. Veterans are people who served in the military. The Department of Veterans Affairs is the part of the government that helps these people.\n\nThe law is for the year 2024. It says how much money can be spent on each project. Each project has a top limit that cannot be passed.\n\nHere are some of the building projects:\n- A new care building in American Lake, Washington: up to $155.6 million.\n- More space for mental health help in Dallas, Texas: up to $93.1 million.\n- A new health center in El Paso, Texas: up to $759.2 million.\n- A new spinal cord injury building in San Diego, California: up to $311.7 million.\n- Fixing buildings so they are safer during earthquakes in Portland, Oregon: up to $613 million.\n\nOther projects are in Maryland, Nevada, San Francisco, Puerto Rico, Missouri, and Connecticut. Many projects also add more parking.\n\nIn total, the law allows up to about $3.35 billion to be set aside for all these projects. That money comes from a special government fund for big construction jobs.\n\nThe law was approved on November 25, 2024.",
+  "prompt_tokens": 1904,
+  "completion_tokens": 378,
+  "total_tokens": 2282,
+  "cost_usd": 0.01897,
+  "latency_s": 7.099,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

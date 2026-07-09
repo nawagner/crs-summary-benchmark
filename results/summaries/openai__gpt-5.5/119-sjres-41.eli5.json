@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would stop one planned sale or export of weapons from the United States to Israel.\n\nThe export is described in a notice sent to Congress under the Arms Export Control Act. That law is about how the United States controls selling or sending military weapons to other countries.\n\nThe bill would prohibit sending 20,000 Colt Carbine rifles to M.R.D. Efram Investments Ltd. in Israel. The rifles have 11.5-inch barrels, use 5.56mm ammunition, and are fully automatic. The bill says the rifles would be for the Israel National Police.\n\nThe export is worth $1,000,000 or more. It is listed in a government notice called Transmittal No. DDTC 23-077. That notice was published in the Congressional Record on March 24, 2025.\n\nIf this bill became law, this specific export of rifles and related parts or components could not happen.",
+  "prompt_tokens": 516,
+  "completion_tokens": 323,
+  "total_tokens": 839,
+  "cost_usd": 0.01227,
+  "latency_s": 7.144,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about Alzheimer's disease. Alzheimer's is a sickness that hurts people's memory and brains. It mostly affects older people. \"Dementia\" is a word for problems with thinking and remembering.\n\nThere is already a program that helps teach people about Alzheimer's and related brain sicknesses. This program shares helpful information so people know more about these health problems.\n\nThe main thing this bill does is keep that program going for more years. It gives the program money to keep working.\n\nThe bill says the program can get $33,000,000 (33 million dollars) each year. This money is set for the years 2025 through 2029. That is five years of funding.\n\nThe law was approved on December 11, 2024. Its full name is the \"BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024.\" The word \"reauthorization\" means saying \"yes\" again to a program that already exists, so it can keep running.\n\nIf this becomes law, the program to teach people about Alzheimer's will continue with money each year until 2029.",
+  "prompt_tokens": 937,
+  "completion_tokens": 319,
+  "total_tokens": 1256,
+  "cost_usd": 0.01266,
+  "latency_s": 5.714,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

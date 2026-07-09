@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Jamul Indian Village Land Transfer Act (Public Law 118-199) establishes, by legislative mandate, trust status for specified lands in San Diego County, California, for the benefit of the Jamul Indian Village of California, and imposes a permanent prohibition on gaming on those lands.\n\nSection 2(a) provides that approximately 172.10 acres of land described in section 2(b) “is held in trust by the United States” for the Tribe. This is a self-executing trust acquisition that does not require further administrative action by the Secretary of the Interior. Section 2(b) identifies four parcels by reference to recorded documents in the Official Records of the San Diego County Recorder: Parcel 1 (approx. 161.23 acres, fee land of the Tribe, recorded January 7, 2022); Parcel 2 (approx. 6 acres, fee land of the Tribe, recorded July 29, 2021); Parcel 3 (approx. 4.03 acres, recorded January 15, 1998); and Parcel 4 (approx. 0.84 acres, recorded September 7, 2017).\n\nSection 2(c) directs the Secretary of the Interior to accept title to and place into trust an additional parcel of approximately 1.1 acres depicted on a specified California Department of Fish and Wildlife map, conditioned upon the parcel’s conveyance or transfer to the United States by or on behalf of the Tribe. This provision creates a mandatory, ministerial duty contingent on the Tribe’s delivery of title.\n\nSection 2(d) provides that all land taken into trust under subsections (a) and (c) shall be part of the Tribe’s reservation and shall be administered under the laws and regulations generally applicable to property held in trust by the United States for an Indian tribe.\n\nSection 2(e) prohibits any use of the lands described in subsections (b) and (c) for class II or class III gaming as defined in section 4 of the Indian Gaming Regulatory Act (25 U.S.C. § 2703). The Act contains no authorization of appropriations, no sunset provision, and no express effective date other than the date of enactment (December 23, 2024).",
+  "prompt_tokens": 1166,
+  "completion_tokens": 1501,
+  "total_tokens": 2667,
+  "cost_usd": 0.001813,
+  "latency_s": 29.638,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

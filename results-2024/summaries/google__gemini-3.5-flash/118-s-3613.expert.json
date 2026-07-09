@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-157, the \"Improving Federal Building Security Act of 2024\" (codified at 40 U.S.C. § 1315 note), establishes mandatory response and reporting requirements for Facility Security Committees (FSCs) regarding security recommendations issued by the Federal Protective Service (FPS). \n\nSection 2(b) mandates that within 90 days of receiving an FPS security recommendation, the head of an FSC, or their designee, must submit a response to the Secretary of Homeland Security. The response must indicate whether the FSC intends to adopt or reject the recommendation and describe the associated financial implications, including a cost-benefit determination. If the FSC rejects the recommendation, it must provide a written justification for accepting the attendant security risk. Section 2(b)(2) directs the Secretary to develop a monitoring methodology and take reasonable action to ensure FSC compliance.\n\nSection 2(c) requires the Secretary to submit an annual report to the Senate Committee on Homeland Security and Governmental Affairs, the House Committee on Homeland Security, and the House Committee on Transportation and Infrastructure. The initial report is due 270 days after enactment, covering the preceding fiscal year. The report must include statistical data on recommendation acceptance, rejection, and non-response rates; summaries of FSC justifications, financial implications, and risk-mitigation steps; and trend analyses. Reports must be unclassified but may include a classified annex, and the Secretary must provide annual briefings to the specified committees.\n\nSection 2(d) mandates that within 180 days of enactment, the Secretary submit an unredacted report to the same congressional committees detailing all surveillance technology recommended by the FPS and its intended use.\n\nSection 2(g) limits the scope of the Act, applying its provisions exclusively to General Services Administration (GSA) facilities protected by the FPS and non-GSA facilities that pay protection fees to the FPS. \n\nSection 2(e) specifies that no additional funds are authorized to be appropriated to carry out the Act. Under Section 2(f), the Act sunsets five years after its date of enactment (December 17, 2024), and the Comptroller General of the United States must submit an effectiveness report to Congress by that same five-year deadline.",
+  "prompt_tokens": 1745,
+  "completion_tokens": 475,
+  "total_tokens": 2220,
+  "cost_usd": 0.006893,
+  "latency_s": 3.451,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

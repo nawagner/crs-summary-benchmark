@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-81, the \"Royalty Resiliency Act\" (H.R. 7377), enacted September 20, 2024, amends the Federal Oil and Gas Royalty Management Act of 1982 to establish procedures governing the interim reporting and payment of royalties pending the Secretary's determination of production allocations for units and communitization agreements.\n\nSection 1 provides the short title. Section 2 amends Section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982 (30 U.S.C. 1721(j))—as previously amended by the Federal Oil and Gas Royalty Simplification and Fairness Act of 1996 (Pub. L. 104-185)—by striking the existing subsection and substituting new text.\n\nAs amended, Section 111(j) imposes on the Secretary a deadline requiring issuance of all determinations of allocations of production for units and communitization agreements within 120 days of a request for determination. Pending that determination, the operative mechanism directs that the lessee or its designee of a lease within a unit or communitization agreement report and pay royalties on oil and gas production for each production month in accordance with the terms of the proposed allocation of production.\n\nFollowing issuance of the determination, the lessee or designee must, as necessary, correct such reports and the amount of royalties paid, with a correction deadline of no later than the end of the third month following the month in which the determination is received from the Secretary.\n\nThe amendment includes an interest-waiver provision: subject to the condition precedent of full and timely monthly payment of royalties to all parties in accordance with the terms of the proposed allocation, the Secretary shall waive interest due on obligations subject to the determination until the end of the third month following the month in which the lessee or designee receives the determination.\n\nThe subsection contains an express exception providing that it shall not apply to unit or communitization agreements containing Indian lands.\n\nThe Act contains no authorization of appropriations, no appropriation, and no sunset provision. No separate effective date is specified; accordingly, the amendment takes effect upon enactment. Section 1 is designated as a note to 30 U.S.C. 1701.\n\nLegislative history: House Report No. 118-562 (Committee on Natural Resources); passed the House July 22, 2024, and the Senate September 11, 2024.",
+  "prompt_tokens": 1398,
+  "completion_tokens": 749,
+  "total_tokens": 2147,
+  "cost_usd": 0.025715,
+  "latency_s": 10.339,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

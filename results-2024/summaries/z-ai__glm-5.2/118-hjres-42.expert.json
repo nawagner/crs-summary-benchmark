@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 42 is a joint resolution exercising Congress’s statutory review authority under the District of Columbia Home Rule Act to disapprove a specific enactment of the District of Columbia Council. The resolution's primary purpose is to nullify the Comprehensive Policing and Justice Reform Amendment Act of 2022 (D.C. Act 24-781).\n\nThe operative mechanism of the resolution is a formal declaration of congressional disapproval. Specifically, the resolution provides that Congress disapproves of the action of the D.C. Council in enacting D.C. Act 24-781. The resolution identifies the targeted act as having been enacted by the Council of the District of Columbia on January 19, 2023, and transmitted to Congress on January 26, 2023, pursuant to section 602(c)(1) of the District of Columbia Home Rule Act. \n\nUnder the Home Rule Act, D.C. Council acts are subject to congressional review, and a joint resolution of disapproval prevents the act from taking effect or halts its enforcement. The resolution does not amend the U.S. Code or enact new substantive law; rather, it operates as a legislative veto under the authority reserved to Congress in the District of Columbia Home Rule Act.\n\nProcedurally, the resolution passed the House of Representatives on April 19, 2023. It was received in the Senate on April 20, 2023, read twice, and referred to the Committee on Homeland Security and Governmental Affairs. The text contains no appropriations, authorizations of appropriations, or sunset provisions. Its sole legal effect, upon enactment, would be to block the implementation of the specified D.C. Act pursuant to the review procedures established by section 602 of the District of Columbia Self-Government and Governmental Reorganization Act.",
+  "prompt_tokens": 490,
+  "completion_tokens": 978,
+  "total_tokens": 1468,
+  "cost_usd": 0.001946,
+  "latency_s": 15.688,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

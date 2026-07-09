@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 163, introduced in the 119th Congress, directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nSection 1 establishes the joint resolution’s statutory and constitutional framework. It cites the congressional power to declare war under Article I, Section 8, Clause 11 of the U.S. Constitution, alongside the President’s constitutional responsibility to defend the United States, its territories, possessions, citizens, servicemembers, and diplomats from attack. Section 1(3) contains a congressional finding that Congress has neither declared war upon Iran nor enacted a specific statutory authorization for the use of military force within or against Iran. Section 1(4) characterizes the use of military force within or against Iran as the introduction of United States Armed Forces into hostilities under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)). Section 1(5) invokes section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) to subject the joint resolution to the expedited legislative procedures prescribed by section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 2(a) contains the operative mandate of the joint resolution. Pursuant to 50 U.S.C. 1546a and Public Law 94-329, Congress directs the President to remove United States Armed Forces from hostilities within or against Iran, unless such involvement is explicitly authorized by a declaration of war or a specific authorization for the use of military force. \n\nSection 2(b) establishes rules of construction that limit the scope of the removal mandate. The subsection provides that the mandate shall not be construed to prevent the United States from: (1) defending against attacks on the United States, its personnel, or its facilities in other nations; (2) collecting, analyzing, or sharing intelligence—including with partner countries attacked by Iran since February 28, 2026, and other nations or international organizations—regarding defense against threats from Iran or its proxies; or (3) assisting partner countries attacked by Iran since February 28, 2026, and other nations, by intercepting retaliatory attacks upon their territory by Iran or its proxies, or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 1124,
+  "completion_tokens": 544,
+  "total_tokens": 1668,
+  "cost_usd": 0.006582,
+  "latency_s": 3.655,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

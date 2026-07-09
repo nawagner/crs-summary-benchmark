@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law makes groups that handle security in government buildings answer when they get safety advice. A group called the Federal Protective Service gives security ideas to these committees. Under this law, the committees have 90 days to reply. They must say if they will use the advice or ignore it. If they ignore it, they must explain why and talk about the costs.\n\nThe head of Homeland Security must track these replies. Within 270 days of the law starting, and every year after, Homeland Security must write a report for Congress. Congress is the group that makes laws. The report will show how many safety ideas were used or ignored and why. Within 180 days, Homeland Security must also report on any watching technology the Protective Service suggested.\n\nNo extra money is given to do this work. The law will only last for five years. After five years, a government watchdog must report on how well the law worked. This law only applies to certain government buildings protected by the Federal Protective Service.",
+  "prompt_tokens": 1545,
+  "completion_tokens": 1250,
+  "total_tokens": 2795,
+  "cost_usd": 0.002989,
+  "latency_s": 11.91,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

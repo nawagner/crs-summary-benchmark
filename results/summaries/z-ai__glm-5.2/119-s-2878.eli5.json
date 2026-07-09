@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Great Lakes Fishery Research Reauthorization Act. It lets the government keep spending money to study and protect the Great Lakes. The Great Lakes are a group of huge lakes in North America. \n\nBefore this law, the government had permission to spend money on this research until the year 2025. This law changes that end date to the year 2030. This means scientists can keep getting money to check the water, study the fish, and learn about the lakes for five more years. \n\nThe President signed this law on December 26, 2025. The Senate and the House of Representatives (the two groups that make up Congress, which writes our laws) both agreed on it first. This law does not add new rules or change how the research is done. It just gives more time for the money to be used.",
+  "prompt_tokens": 489,
+  "completion_tokens": 767,
+  "total_tokens": 1256,
+  "cost_usd": 0.001583,
+  "latency_s": 12.205,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

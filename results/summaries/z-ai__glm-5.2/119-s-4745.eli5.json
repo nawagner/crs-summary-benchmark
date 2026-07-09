@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill changes the name of a post office. The post office is run by the United States Postal Service. It is located at 201 East Grant Avenue in Georgetown, Ohio. If this bill becomes a law, the building will be called the \"Ulysses S. Grant Post Office Building.\" \n\nThe bill also says that any official papers, maps, or laws that talk about this post office must use the new name. The bill was introduced in the Senate on June 10, 2026. Two senators, Mr. Husted and Mr. Moreno, brought the bill forward. Right now, the bill is being looked at by a group of senators called a committee. A committee is a small group of lawmakers who study a bill before it can be voted on by everyone. \n\nThis bill does not change anything else about the post office. It does not change how it works or who works there. It only changes the name of the building.",
+  "prompt_tokens": 524,
+  "completion_tokens": 570,
+  "total_tokens": 1094,
+  "cost_usd": 0.001264,
+  "latency_s": 7.741,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

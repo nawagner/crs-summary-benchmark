@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would renew a federal grant program for training first responders. First responders are people like police, firefighters, and emergency medical workers who help in emergencies.\n\nThe grants would be used for training about overdoses. An overdose happens when someone takes too much of a drug. The bill changes the program so it is not only about opioid overdoses. It would also cover heroin and other drug overdoses.\n\nThe bill also changes the kind of overdose medicine and devices covered by the program. Instead of only products that are “approved or cleared,” it would include products that are approved, cleared, or otherwise legally sold under federal rules.\n\nThe bill would set funding at $57 million for each fiscal year from 2026 through 2030. A fiscal year is the government’s budget year.\n\nThe bill also changes some wording about Tribes and Tribal groups, but does not change the main meaning of that part.",
+  "prompt_tokens": 685,
+  "completion_tokens": 256,
+  "total_tokens": 941,
+  "cost_usd": 0.011105,
+  "latency_s": 5.793,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

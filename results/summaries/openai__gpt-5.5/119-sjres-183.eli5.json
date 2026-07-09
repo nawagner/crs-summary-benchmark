@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill tells the President to remove U.S. Armed Forces from fighting in or against Iran unless Congress approves it. Congress could approve it by declaring war or by passing a specific law allowing military force.\n\nThe bill says Congress has the power to declare war. It also says the President can act to defend the United States, its people, service members, and diplomats from attack.\n\nThe bill lists events from 2026. It says President Trump began “Operation Epic Fury” on February 28, 2026, with air and missile strikes inside Iran, without Congress’s approval or consultation. It says more than 50,000 U.S. service members were part of the operation in early March 2026. It also says Iran and groups linked to Iran attacked U.S. military and diplomatic sites in the Middle East. As of April 13, 2026, the bill says 13 U.S. service members had been killed and more than 350 injured.\n\nThe bill would still allow the United States to defend itself, its people, and its facilities. It would also allow intelligence sharing and defensive help to Israel and partner countries attacked by Iran since February 28, 2026.",
+  "prompt_tokens": 1419,
+  "completion_tokens": 301,
+  "total_tokens": 1720,
+  "cost_usd": 0.016125,
+  "latency_s": 4.976,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Safe Response Act.\" It updates a program that helps train first responders. First responders are people like police, firefighters, and paramedics who help during emergencies.\n\nThe bill changes an older law about training these workers. Here is what would be different if it becomes law:\n\nRight now, the program mostly deals with opioids. Opioids are a kind of drug that can cause overdoses. An overdose is when someone takes too much of a drug and gets very sick or could die. The bill removes the word \"opioid\" in many places. This means the program would cover more kinds of drug overdoses, not just opioid ones.\n\nThe bill also changes some wording about the medicines used to help people. It adds the words \"or otherwise legally marketed.\" This lets first responders use more approved medicines to treat overdoses.\n\nThe bill also gives more money to the program. Before, the program got $36 million each year from 2019 through 2023. The new bill would give $57 million each year from 2026 through 2030.\n\nThe bill also fixes some spelling by making the words \"Tribes\" and \"Tribal\" start with a capital letter. Tribes are Native American groups.\n\nThis bill was introduced in the Senate on July 30, 2025. It has not become a law yet.",
+  "prompt_tokens": 1102,
+  "completion_tokens": 385,
+  "total_tokens": 1487,
+  "cost_usd": 0.015135,
+  "latency_s": 11.303,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

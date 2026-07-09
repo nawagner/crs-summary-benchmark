@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, unless such use of force is explicitly authorized by a declaration of war or a specific statutory authorization for use of military force. The resolution operates as a congressional directive under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. § 1546a) and in accordance with the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329); it does not amend existing law.\n\nSection 1 contains findings, including that Congress has not declared war upon Iran or enacted a specific authorization for the use of military force within or against Iran, and that the President notified Congress on March 2, 2026, pursuant to the War Powers Resolution (50 U.S.C. § 1541 et seq.), of the initiation of military force. The findings state that the 60-day period following that notification expires on May 1, 2026, and that no extension by law has occurred.\n\nSection 2(a) directs the removal of the Armed Forces from such hostilities, subject to the condition that a declaration of war or specific statutory authorization would render the directive inoperative. Section 2(b) provides a rule of construction that nothing in the section shall be construed to prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence, including with Israel, partners, allies, and international organizations, related to defending against threats from Iran or its proxies; (3) assisting Israel and other nations in taking defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, including providing defensive materiel support for such measures; or (4) providing assistance for the security, departure, and evacuation of United States citizens affected by the hostilities.\n\nThe resolution contains no appropriation, authorization of appropriations, or sunset provision. It takes effect upon enactment.",
+  "prompt_tokens": 1403,
+  "completion_tokens": 2601,
+  "total_tokens": 4004,
+  "cost_usd": 0.002873,
+  "latency_s": 47.556,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

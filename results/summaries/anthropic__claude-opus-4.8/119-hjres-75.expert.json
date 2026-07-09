@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-9, exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, U.S. Code) to disapprove and nullify an agency rule.\n\nThe operative mechanism is the CRA's expedited disapproval procedure codified at 5 U.S.C. § 801 et seq. Pursuant to that framework, the resolution provides that Congress disapproves the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy, titled \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers,\" published at 90 Fed. Reg. 7464 (January 21, 2025). The resolution's single operative clause states that \"such rule shall have no force or effect.\"\n\nThe legal consequence flows from 5 U.S.C. § 801(b)(1), under which a rule disapproved by an enacted joint resolution does not take effect (or, if already effective, is treated as never having taken effect). Additionally, 5 U.S.C. § 801(b)(2) bars the agency from reissuing the disapproved rule in substantially the same form, or issuing a new rule that is substantially the same, absent subsequent statutory authorization enacted after the date of the joint resolution.\n\nThe resolution contains no amendments to the United States Code, no new grants of authority, no authorizations of appropriations, no sunset provisions, and no delegated rulemaking. Its effect is limited to the nullification of the identified rule. The measure took effect upon approval on May 9, 2025.\n\nLegislative history: H.J. Res. 75 was considered and passed by the House on March 26 and 27, 2025, and considered and passed by the Senate on April 30 and May 1, 2025. It was approved May 9, 2025.",
+  "prompt_tokens": 953,
+  "completion_tokens": 613,
+  "total_tokens": 1566,
+  "cost_usd": 0.02009,
+  "latency_s": 8.58,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

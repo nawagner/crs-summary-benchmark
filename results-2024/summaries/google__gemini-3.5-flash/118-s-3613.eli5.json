@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the Improving Federal Building Security Act of 2024. It was approved on December 17, 2024. It is a new rule to make sure government buildings are safe. \n\nThe government has a group called the Federal Protective Service. This group gives safety advice to committees that look after government buildings. Under this law, when the safety group gives advice, the building committee must answer within 90 days. \n\nIn their answer, the building committee must say if they will accept or reject the advice. They must explain how much it will cost. If they reject the advice, they must explain why they are willing to take the safety risk. \n\nThe Secretary of Homeland Security, who is a top government leader, must track these answers. The Secretary must write a report about these answers every year for Congress. Congress is the group of people who make laws for the country. The Secretary must also write a report about security cameras and other watching technology within 180 days. \n\nThis law does not cost any extra money. It only applies to certain government buildings. The law will end after five years.",
+  "prompt_tokens": 1712,
+  "completion_tokens": 236,
+  "total_tokens": 1948,
+  "cost_usd": 0.004692,
+  "latency_s": 2.298,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of decision made by Congress that has the power of law. Congress is the group of people elected to make laws for the United States. \n\nThis bill stops a specific government rule from going into effect. The rule was created by the Department of Energy on January 21, 2025. It was called \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers.\" This rule wanted to set new energy-saving limits for large fridges and freezers used by businesses. \n\nBecause of this bill, Congress officially disapproves of that rule. The bill says the rule will have no force or effect. This means the rule is canceled, and businesses do not have to follow it. \n\nThe bill was approved and became a law on May 9, 2025.",
+  "prompt_tokens": 558,
+  "completion_tokens": 184,
+  "total_tokens": 742,
+  "cost_usd": 0.002493,
+  "latency_s": 1.939,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

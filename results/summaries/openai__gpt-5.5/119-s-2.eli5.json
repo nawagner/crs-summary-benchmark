@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill, called the Secure America Act, gives extra money to the Department of Homeland Security for 2026. The money can be used until September 30, 2029.\n\nIt gives U.S. Customs and Border Protection, or CBP, $9.55 billion to hire, pay, train, and equip Border Patrol workers for jobs that are not immigration or customs enforcement. After October 31, 2028, this money cannot be used to hire or train processing coordinators.\n\nIt gives Immigration and Customs Enforcement, or ICE, $7.45 billion for Homeland Security Investigations work that is not immigration or customs enforcement. Of that, $108.5 million must help hire and train workers who investigate child sexual exploitation and help identify and rescue victims.\n\nIt gives CBP $3.45 billion for border technology, drug-fighting tools, air and boat equipment, surveillance, and a biometric entry-exit system. “Biometric” means using body traits to identify people. Some surveillance towers cannot be bought unless CBP has tested and accepted them as able to work mostly on their own.\n\nThe bill also gives $13.02 billion to CBP and $31.075 billion to ICE for immigration enforcement. ICE money can pay for staff, transportation for removals, technology, buildings, vehicles, legal staff, and work with state and local governments. At least $350 million is for arrest-related work involving certain adult unlawful noncitizens in places that do not meet the bill’s cooperation rules.",
+  "prompt_tokens": 2909,
+  "completion_tokens": 683,
+  "total_tokens": 3592,
+  "cost_usd": 0.035035,
+  "latency_s": 11.754,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

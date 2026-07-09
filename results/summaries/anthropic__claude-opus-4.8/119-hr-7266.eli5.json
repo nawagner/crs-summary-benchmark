@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Rural and Municipal Utility Cybersecurity Act.\" It helps small electric power companies stay safe from computer attacks.\n\nSome electric companies serve small towns or country areas. They may not have much money to protect their computers. Bad people sometimes try to break into these computer systems. This is called a \"cybersecurity threat.\"\n\nThe bill keeps a program going that gives these companies help. The help comes in two ways. First, the government gives them money through grants and prizes. Second, the government gives them advice and support, called \"technical assistance.\"\n\nThe money helps companies buy tools and software to guard their systems. It also helps them share warnings with each other about attacks.\n\nThe program picks who gets help. It gives first choice to companies that have little money for computer safety, or that run power systems important to keeping the lights on, or that help protect the country's defense.\n\nInformation that companies share under this program is kept private. This means people cannot ask for it using laws that normally let the public see government records.\n\nThe bill sets aside up to $250 million for this program. That money is for the years 2026 through 2030.\n\nTo become law, this bill still needs to be voted on and approved.",
+  "prompt_tokens": 2831,
+  "completion_tokens": 360,
+  "total_tokens": 3191,
+  "cost_usd": 0.023155,
+  "latency_s": 7.664,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

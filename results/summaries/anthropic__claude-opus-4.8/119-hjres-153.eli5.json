@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This resolution is about the country of Cuba and the U.S. military.\n\nFirst, it explains some rules. In the United States, only Congress can officially declare war. That power is written in the Constitution. Congress says it has not declared war on Cuba. Congress also says it has not passed any law letting the military fight in or against Cuba.\n\nThe resolution says that if U.S. military forces fight in or against Cuba, that counts as putting them into \"hostilities.\" Hostilities means fighting or combat. This includes using the Coast Guard or other forces to block off Cuba by sea.\n\nThe main thing this resolution does is tell the President to pull U.S. military forces out of any fighting in or against Cuba. This is unless Congress votes to allow it. Congress could allow it by declaring war or by passing a special law that says the military may be used.\n\nThe resolution also makes one thing clear. It does not stop the United States from defending itself. The military can still act if there is an attack, or if an attack is about to happen. It can also still do lawful operations against illegal drugs.\n\nThis is a joint resolution, which means both the House and Senate would need to agree for it to take effect. It was introduced in the House on March 24, 2026.",
+  "prompt_tokens": 1473,
+  "completion_tokens": 377,
+  "total_tokens": 1850,
+  "cost_usd": 0.01679,
+  "latency_s": 7.8,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

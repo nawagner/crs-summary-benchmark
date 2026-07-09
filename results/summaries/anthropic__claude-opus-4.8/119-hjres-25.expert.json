@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-5, exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a final rule promulgated by the Internal Revenue Service.\n\nThe operative mechanism is the CRA's expedited disapproval procedure codified at 5 U.S.C. § 802. The resolution provides that Congress disapproves the IRS rule titled \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,\" published at 89 Fed. Reg. 106928 (December 30, 2024), and declares that \"such rule shall have no force or effect.\" Upon the President's approval on April 10, 2025, the targeted rule is voided in its entirety.\n\nTwo substantive legal consequences flow from enactment under the CRA framework, though neither is restated in the resolution's text. First, under 5 U.S.C. § 801(b)(1), a rule disapproved by enacted joint resolution is treated as though it had never taken effect. Second, under 5 U.S.C. § 801(b)(2), the issuing agency may not reissue the rule in substantially the same form, nor issue a new rule that is substantially the same, absent subsequent statutory authorization. The resolution itself contains no express reference to these provisions, no amendment to the Internal Revenue Code, no savings clause, and no severability or effective-date language beyond the date of approval.\n\nThe disapproved rule concerns information-reporting obligations for so-called decentralized finance (\"DeFi\") brokers—persons who regularly provide services effectuating transfers of digital assets—including gross proceeds reporting requirements. Its nullification eliminates the reporting regime the IRS had established in that rulemaking.\n\nThe resolution effects no appropriation and confers no new regulatory authority; its sole legal effect is the negation of the identified agency rule. Its legislative history reflects passage of H.J. Res. 25 by the House on March 11, 2025, and by the Senate on March 26, 2025, with a companion measure (S.J. Res. 3) and a report from the House Committee on Ways and Means (H. Rept. 119-7).",
+  "prompt_tokens": 883,
+  "completion_tokens": 731,
+  "total_tokens": 1614,
+  "cost_usd": 0.02269,
+  "latency_s": 11.983,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

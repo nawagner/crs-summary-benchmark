@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "openai/gpt-5.5",
+  "summary": "Congress cancels a rule from the Department of Energy. This department is a part of the government that works on energy rules.\n\nThe rule was about energy-saving standards for gas-fired instantaneous water heaters. These are water heaters that use gas and heat water when it is needed, instead of storing hot water in a tank.\n\nThe rule was published on December 26, 2024. This law says Congress does not approve that rule. Because of this, the rule has no power and cannot take effect.\n\nThe House passed this measure on February 27, 2025. The Senate passed it on April 10, 2025. It was approved on May 9, 2025.",
+  "prompt_tokens": 474,
+  "completion_tokens": 143,
+  "total_tokens": 617,
+  "cost_usd": 0.00666,
+  "latency_s": 3.213,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

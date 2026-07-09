@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress passes it and the president signs it. This specific bill was passed by the Senate on October 18, 2023. \n\nThe bill does one main thing. It stops a government rule about small business lending. This rule was created by a government group called the Bureau of Consumer Financial Protection. The rule is called \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B),\" and it was published on May 31, 2023. \n\nIf this bill becomes a law, it means Congress officially disapproves of that rule. The rule would have no force or effect. This means the rule would be canceled, and people would not have to follow it.",
+  "prompt_tokens": 515,
+  "completion_tokens": 162,
+  "total_tokens": 677,
+  "cost_usd": 0.00223,
+  "latency_s": 1.666,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

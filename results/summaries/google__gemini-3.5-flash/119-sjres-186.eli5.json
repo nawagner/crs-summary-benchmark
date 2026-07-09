@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a proposal to change the U.S. Constitution. The Constitution is the set of highest laws for our country. To change it, two-thirds of Congress and three-fourths of the states must agree. \n\nIf this bill becomes law, it will protect the right to vote for all American citizens who are old enough. It says that every citizen of legal voting age has a basic right to vote in public elections where they live. \n\nUnder this bill, the government cannot take away or limit a citizen's right to vote. The only exception is if the government has a very important reason and uses the gentlest way possible to do it. \n\nThe bill also changes a part of the 14th Amendment of the Constitution. It removes the words \"or other crime.\" This means states could no longer use those words to take away a person's right to vote. \n\nFinally, the bill gives Congress the power to write new laws to protect this right to vote and make sure everyone follows these rules.",
+  "prompt_tokens": 707,
+  "completion_tokens": 211,
+  "total_tokens": 918,
+  "cost_usd": 0.00296,
+  "latency_s": 2.189,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

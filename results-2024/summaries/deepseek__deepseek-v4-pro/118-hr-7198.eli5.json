@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Prove It Act of 2024. It changes the way government agencies make rules that might affect small businesses. First, when an agency says a proposed rule will not have a big effect on many small businesses, it must now also think about indirect costs. These are costs for small businesses that buy from or sell to the businesses the rule directly controls. Second, small businesses or their groups can challenge that decision. They can send a request to a special office that helps small businesses, called the Office of Advocacy. That office quickly checks if the challenge deserves a closer look. If it does, the office holds a meeting with the agency and others. The office publishes its findings within 30 days. If the office decides the rule would actually hurt many small businesses, the agency must do a full analysis. If the agency skips the meeting or does not cooperate, the final rule cannot apply to small businesses. Third, for rules that agencies know will affect many small businesses, the agency must post all guidance documents online and let the public comment. Fourth, some rules must be reviewed every 10 years. If an agency forgets to do the review, the rule stops working. The agency must announce this and ask for comments on bringing it back. If they choose to restore the rule, they have 180 days to finish the review. These new rules apply to rules made in the five years before the law passes, and to all future rules.",
+  "prompt_tokens": 3046,
+  "completion_tokens": 1829,
+  "total_tokens": 4875,
+  "cost_usd": 0.002916,
+  "latency_s": 33.415,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 38 is a joint resolution providing for congressional disapproval, pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act), of a final rule issued by the Federal Highway Administration (FHWA). The primary purpose of the resolution is to exercise Congress's statutory authority to review and nullify a specific agency rule.\n\nThe operative mechanism of the resolution is a formal declaration of disapproval. Specifically, the resolution disapproves the FHWA rule relating to \"Waiver of Buy America Requirements for Electric Vehicle Chargers,\" published at 88 Federal Register 10619 on February 21, 2023. The resolution provides that the disapproved rule \"shall have no force or effect.\"\n\nUnder the standard operation of chapter 8 of title 5, U.S.C., the enactment of this joint resolution would repeal the specified FHWA rule and prohibit the agency from issuing any subsequent rule that is substantially the same, unless specifically authorized by a subsequent statute. The resolution does not include any material exceptions, conditions precedent, or separate authorizations or appropriations. It contains a single operative provision directing that the identified rule is of no force or effect. The joint resolution was passed by the Senate on November 8, 2023, and awaits further action by the House of Representatives and presentment to the President for approval or veto.",
+  "prompt_tokens": 490,
+  "completion_tokens": 1186,
+  "total_tokens": 1676,
+  "cost_usd": 0.002303,
+  "latency_s": 20.368,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Maternal and Child Health Stillbirth Prevention Act of 2024.\" A stillbirth is when a baby dies before it is born. This law tries to help stop that from happening.\n\nThe bill changes an older law called the Social Security Act. It makes clear that certain government money can be used to help prevent stillbirths and to study how to stop them.\n\nThe law lists ways this money can be used. Some examples are:\n- Helping people track and notice how much a baby moves in the womb.\n- Picking a safer time for the baby to be born when there are health risks.\n- Teaching pregnant people to sleep in safe positions.\n- Checking to see if a baby is growing well.\n- Helping pregnant people stop smoking.\n- Programs where helpers visit homes to give support.\n\nThe bill also allows money for any other research or proven programs that help prevent stillbirths. \"Evidence-based\" means the programs are based on facts and studies that show they work.\n\nThis bill became law on July 12, 2024. It was first passed by the House of Representatives in May 2024 and by the Senate in June 2024. After this law, government money can clearly be used to help babies be born safely and to learn more about preventing stillbirths.",
+  "prompt_tokens": 1123,
+  "completion_tokens": 384,
+  "total_tokens": 1507,
+  "cost_usd": 0.015215,
+  "latency_s": 7.105,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

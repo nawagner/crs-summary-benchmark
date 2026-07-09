@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution would cancel a rule from the Federal Highway Administration. That agency helps manage national road and highway programs.\n\nThe rule is called “Waiver of Buy America Requirements for Electric Vehicle Chargers.” A waiver is an exception. Buy America requirements are rules about using products made in the United States for certain projects paid for with federal money.\n\nIf this resolution becomes law, Congress would disapprove that rule. The rule would have “no force or effect.” This means the rule would not count and could not be used.\n\nThe rule was published in the Federal Register, which is the government’s official place for public rules, on February 21, 2023. The resolution passed the Senate on November 8, 2023.",
+  "prompt_tokens": 454,
+  "completion_tokens": 387,
+  "total_tokens": 841,
+  "cost_usd": 0.01388,
+  "latency_s": 7.526,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

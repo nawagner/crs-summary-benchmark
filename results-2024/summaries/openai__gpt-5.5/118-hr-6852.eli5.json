@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "openai/gpt-5.5",
+  "summary": "This law names Holcombe Rucker Park in Harlem, New York, as the “Holcombe Rucker Park National Commemorative Site.” A commemorative site is a place set aside to remember important people or events.\n\nThe law says the U.S. Secretary of the Interior may work with groups, New York City, or other public or private groups to teach people about the site. This could include putting up a plaque, exhibit, or marker at the park. The marker would honor Holcombe Rucker and explain the park’s important role in basketball and in the growth of many talented players. The owner of the site must give written permission before anything is installed.\n\nThe park will not become part of the National Park System. The law does not let the federal government take over the park, change local zoning or land use rules, or interfere with private property rights. It also does not change how New York City or New York State manages the park. The federal government is not allowed to take or buy land for this site under this law.",
+  "prompt_tokens": 824,
+  "completion_tokens": 279,
+  "total_tokens": 1103,
+  "cost_usd": 0.01249,
+  "latency_s": 6.181,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill decides how the Department of Homeland Security may spend money for the budget year ending September 30, 2025. It gives money to many agencies, including border officers, immigration officers, airport security, the Coast Guard, the Secret Service, cyber safety workers, and disaster workers.\n\nIt gives about $16.6 billion for U.S. Customs and Border Protection operations and about $1.39 billion for its building and equipment. Of that, $600 million is only for physical barriers at the border. It also cancels $600 million in older, unused border barrier money. It gives about $10.5 billion to Immigration and Customs Enforcement and requires at least 50,000 detention beds.\n\nIt gives FEMA, the disaster agency, $22.7 billion for major disasters. It also gives money for firefighter grants, flood maps, emergency food and shelter, nonprofit security grants, and local safety projects.\n\nThe bill sets many rules on how the money may be used. It blocks new land border crossing fees. It limits use of money for some immigration, asylum, parole, climate, equity, and disinformation programs. It says existing U.S.-Mexico barriers may not be removed unless repaired or replaced. It requires many reports to Congress, which is the lawmaking part of the government, before or after certain spending decisions.",
+  "prompt_tokens": 28007,
+  "completion_tokens": 790,
+  "total_tokens": 28797,
+  "cost_usd": 0.163735,
+  "latency_s": 14.935,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

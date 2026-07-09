@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the TREAT Youth Act. It would allow the government to keep paying for a program that helps young people stay away from drugs and get help if they need it. The program focuses on prevention and recovery.\n\nThe bill changes an older law from 2018 to set new spending amounts for five future years. A fiscal year is a 12‑month budget period that starts on October 1 and ends September 30. For the fiscal year 2026, it would allow spending up to $10 million. For 2027, up to $12 million. For 2028, up to $13 million. For 2029, up to $14 million. For 2030, up to $15 million.\n\nIf this bill passes, the program would have specific money limits for those years. The bill does not give the money itself; it only says how much Congress may choose to provide later.",
+  "prompt_tokens": 612,
+  "completion_tokens": 609,
+  "total_tokens": 1221,
+  "cost_usd": 0.000796,
+  "latency_s": 8.596,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

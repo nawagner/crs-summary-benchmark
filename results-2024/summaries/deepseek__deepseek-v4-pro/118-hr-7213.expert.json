@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Autism CARES Act of 2024 (P.L. 118-180), enacted December 23, 2024, reauthorizes and expands autism spectrum disorder programs under the Public Health Service Act (PHSA) through fiscal year 2029. It amends section 409C of the PHSA (42 U.S.C. 284g) to broaden NIH research to include gerontology, developmental behavioral pediatrics, audiology, psychiatry, and psychology; to require investigation of caregiver supports and the full population of individuals with co-occurring conditions; to increase the maximum Centers of Excellence from five to seven; to revise the public input provision; and to add a new mandate that the NIH Director submit an annual budget estimate for FY2026–2029 directly to the President, after comment but without change, for review and transmittal to Congress.\n\nThe Developmental Disabilities Surveillance and Research Program (42 U.S.C. 280i) is amended to insert “across the lifespan,” to make technical corrections capitalizing “Tribe” and “Tribal,” and to extend its sunset from December 20, 2024, to September 30, 2029. Section 399BB (42 U.S.C. 280i-1) is amended to replace “culturally competent” with “culturally and linguistically appropriate,” “screening tools” with “screening and diagnostic tools,” and “higher risk” with “increased likelihood”; to allow grants to strengthen the capacity of existing state programs; to require program sites to provide culturally and linguistically appropriate services and partner with community-based organizations; to impose a new report on developmental-behavioral pediatrician training programs due within two years; to replace subsection (f) with a requirement to promote research on evidence-based practices and interventions, develop guidelines, and disseminate findings; and to extend the sunset to September 30, 2029. The Interagency Autism Coordinating Committee (42 U.S.C. 280i-2) is directed to meet on a regular basis, to develop a strategic plan with proposed budgetary requirements and non-duplication recommendations, and to submit annual summaries of advances and biennial strategic plan updates; its authorization is extended to September 30, 2029. Reporting under section 399DD (42 U.S.C. 280i-3) is revised: the progress report due date is set at four years after September 30, 2024, requiring coverage of the entire population; the former “health and well-being” report is redesignated “Mental Health Needs” with new content",
+  "prompt_tokens": 4164,
+  "completion_tokens": 4000,
+  "total_tokens": 8164,
+  "cost_usd": 0.005291,
+  "latency_s": 51.49,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

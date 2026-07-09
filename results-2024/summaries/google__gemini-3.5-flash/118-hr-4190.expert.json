@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-114, the \"Restoring Benefits to Defrauded Veterans Act,\" amends chapter 61 of title 38, United States Code, to establish a statutory mechanism for the reissuance of misused veterans benefits to the estates or eligible survivors of deceased beneficiaries. \n\nSpecifically, Section 2 of the Act amends 38 U.S.C. § 6107 by redesignating existing subsections (c) and (d) as subsections (d) and (e), respectively, and inserting a new subsection (c). Under this new subsection, if a beneficiary entitled to the reissuance of misused benefits under 38 U.S.C. § 6107(a) or (b) dies before the Secretary of Veterans Affairs makes the required payment, the Secretary is directed to pay those benefits to an eligible individual or entity in accordance with the accrued benefits provisions of 38 U.S.C. § 5121. \n\nThe Act establishes a strict statutory bar to payment under paragraph (2) of the new subsection (c), prohibiting the Secretary from making any such payment to a fiduciary who misused the deceased beneficiary’s benefits. \n\nConformingly, the Act amends the newly redesignated 38 U.S.C. § 6107(e)—which governs the definition of fiduciary negligence—by striking the reference to \"subsection (a) or (b)\" and inserting \"this section,\" thereby extending the scope of the definition to the entirety of section 6107, including the newly enacted subsection (c).",
+  "prompt_tokens": 808,
+  "completion_tokens": 336,
+  "total_tokens": 1144,
+  "cost_usd": 0.004236,
+  "latency_s": 2.528,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

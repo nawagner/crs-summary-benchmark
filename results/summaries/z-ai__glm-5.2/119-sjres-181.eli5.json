@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill tells the President to pull United States troops out of fighting in or against Iran. Congress is the part of the government that has the power to declare war. Congress has not declared war on Iran. However, on February 28, 2026, the President started a military operation there.\n\nIf this bill becomes a law, the President must remove the troops unless Congress officially votes to allow the fighting. The law would not stop the United States from defending itself if attacked. It would also still allow the U.S. to gather and share secret information, called intelligence. The U.S. could also keep helping Israel and other partner countries defend themselves against attacks from Iran.\n\nThe bill explains that the fighting has caused problems, like closing a major waterway called the Strait of Hormuz. It also notes that as of April 8, 2026, seven U.S. service members have died in the fighting. This bill would stop the U.S. from being in this war unless Congress agrees to it.",
+  "prompt_tokens": 1764,
+  "completion_tokens": 1111,
+  "total_tokens": 2875,
+  "cost_usd": 0.00287,
+  "latency_s": 13.755,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

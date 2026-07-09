@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a spending plan. It says how much money the government can use for certain things in the budget year that ends on September 30, 2025.\n\nThe money goes to three main areas:\n\n**Building for the military.** The bill gives money to build and fix things for the Army, Navy, Air Force, and National Guard. This means new buildings, repairs, and housing for military families. For example, the Army gets about $2.2 billion, and the Navy and Marines get about $4.3 billion. Some money is set aside for child care centers, barracks (where soldiers live), and repairs after natural disasters.\n\n**Helping veterans.** Veterans are people who served in the military. A big part of the money helps them. It pays for their health care, hospitals, and doctors. It also pays money the government owes them, like disability payments. There is money for veterans' cemeteries and for new health computer systems.\n\n**Other groups.** Some money goes to places like Arlington National Cemetery and a home for retired service members.\n\nThe bill also sets rules. Many rules say the government must tell Congress before it moves money around. Some rules block money from being used for certain things. For example, money cannot pay for most abortions, cannot be used for \"gender affirming care\" surgery, and cannot help people who are in the country illegally get care they don't qualify for.\n\nThe House of Representatives passed the bill on June 5, 2024.",
+  "prompt_tokens": 41268,
+  "completion_tokens": 430,
+  "total_tokens": 41698,
+  "cost_usd": 0.21709,
+  "latency_s": 9.006,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

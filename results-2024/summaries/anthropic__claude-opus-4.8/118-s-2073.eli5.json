@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Kids Online Safety and Privacy Act.\" It is meant to make the internet safer and more private for kids and teens. Here are the big things it does.\n\nFirst, it sets rules for websites, apps, games, and video services that kids might use. These are called \"covered platforms.\" A \"minor\" means anyone under 17, and a \"child\" means anyone under 13.\n\nPlatforms must try hard to keep kids from being harmed. This includes harms like bullying, eating disorders, being pulled into using the app too much, and being targeted by bad ads for things like alcohol, gambling, tobacco, or drugs.\n\nPlatforms must give kids easy safety tools. Kids could limit who talks to them, hide their personal info, turn off features that keep them glued to the screen, and control what content gets suggested to them. The safest settings would be turned on by default. Parents would get tools too, like seeing settings and limiting screen time or purchases.\n\nPlatforms must let people report harm and answer fast, sometimes in 10 days.\n\nThe bill also gives kids and teens more privacy. Companies mostly cannot use their personal info for targeted ads. Kids and teens could ask to delete their info.\n\nBig platforms must publish yearly safety reports checked by outside experts.\n\nThe government would study things like age-checking and how social media affects kids.\n\nMost rules start 18 months after the law passes. States can add stronger protections.",
+  "prompt_tokens": 39547,
+  "completion_tokens": 447,
+  "total_tokens": 39994,
+  "cost_usd": 0.20891,
+  "latency_s": 15.417,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

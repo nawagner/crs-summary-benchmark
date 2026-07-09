@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Halting the Epidemic of Addiction and Loss Act of 2025.\"\n\nFirst, some background. When someone takes too much of a drug called an opioid, it can be very dangerous. There are special medicines that can reverse this and save the person's life. One well-known one is called naloxone. But it is not the only medicine that can do this job.\n\nThe government helps pay for programs that fight opioid problems. This money is called a \"grant.\" When the government writes rules for these programs, it often names naloxone as the reversal medicine.\n\nThis bill says the government should not only name naloxone. It should include any reversal medicine that has been approved by the FDA (the group that decides which medicines are safe to use) for treating an opioid overdose.\n\nHere is what would change if this becomes law:\n- When the government writes new rules or advice for these opioid programs, it must include all approved reversal medicines, not just naloxone.\n- Within one year, the government must also update its old rules and advice to include all approved reversal medicines.\n\nThis applies to two money programs: one that helps states and Native American tribes deal with opioid problems, and one for important drug-prevention needs.\n\nThe bill was introduced in the Senate on July 17, 2025.",
+  "prompt_tokens": 1366,
+  "completion_tokens": 383,
+  "total_tokens": 1749,
+  "cost_usd": 0.016405,
+  "latency_s": 7.418,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

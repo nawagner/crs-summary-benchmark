@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 9 is a joint resolution providing for congressional disapproval of a specified agency rule pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act). The resolution's primary purpose is to nullify the rule submitted by the United States Fish and Wildlife Service relating to \"Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment\" (published at 87 Fed. Reg. 72674 on November 25, 2022).\n\nThe operative mechanism of the joint resolution is a formal declaration of congressional disapproval under section 802 of title 5, United States Code. Upon enactment, the resolution provides that the aforementioned rule \"shall have no force or effect.\" This statutory language effectuates a repeal of the rule. Pursuant to section 801(b)(2) of title 5, United States Code, the disapproval also precludes the agency from issuing any subsequent rule that is substantially the same as the disapproved rule, absent subsequent statutory authorization. \n\nThe resolution contains no exceptions, conditions precedent, or appropriations. The effective date is governed by the standard provisions of chapter 8 of title 5, United States Code, under which a joint resolution of disapproval becomes effective upon enactment. The resolution was passed by the Senate on May 3, 2023.",
+  "prompt_tokens": 599,
+  "completion_tokens": 788,
+  "total_tokens": 1387,
+  "cost_usd": 0.001679,
+  "latency_s": 11.251,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the Bankruptcy Administration Improvement Act of 2025. It is about bankruptcy. Bankruptcy is when a person or business cannot pay all the money they owe, and a court helps sort it out.\n\nThe main thing this law does is pay more money to special helpers called \"trustees.\" Trustees work on many bankruptcy cases. They help share out money to people who are owed money. Since 1994, these trustees got only $60 for most cases. That amount never went up. This law raises their pay to $120 per case.\n\nThe law also changes some fees that people pay when they use the bankruptcy system. It says how the money should be split up. Some goes to different government funds. It also raises certain fees that big businesses pay every three months (called quarterly fees).\n\nThe law does not change the fee people pay to start a bankruptcy case. It also keeps the rule that lets courts skip the fee for people who have very little money.\n\nAnother change keeps some special bankruptcy judges working longer. Their jobs were going to last 5 years. Now they will last 10 years. This helps courts handle many cases.\n\nMost parts of the law start on the first day of a new three-month period after it becomes law. The higher trustee pay starts for new cases beginning October 1. The law was approved on February 6, 2025.",
+  "prompt_tokens": 4786,
+  "completion_tokens": 406,
+  "total_tokens": 5192,
+  "cost_usd": 0.03408,
+  "latency_s": 7.655,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

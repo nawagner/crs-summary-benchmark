@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of proposal that can become a law if Congress and the President approve it. \n\nThis bill is about Washington, D.C., which is the capital of the United States. Washington, D.C. has its own local government, called the District of Columbia Council. This council makes laws for the city. However, the United States Congress has the power to look at these local laws and stop them from happening. \n\nOn January 19, 2023, the local council in Washington, D.C. passed a law called the Comprehensive Policing and Justice Reform Amendment Act of 2022. \n\nThis bill shows that Congress does not agree with that local law. If this bill passes and becomes a law, it will officially reject and stop the local Washington, D.C. policing law from going into effect.",
+  "prompt_tokens": 505,
+  "completion_tokens": 185,
+  "total_tokens": 690,
+  "cost_usd": 0.002423,
+  "latency_s": 2.178,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

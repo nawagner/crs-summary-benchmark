@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill renews a federal training program for first responders. First responders are people like firefighters, police officers, and emergency medical workers who help during emergencies.\n\nThe bill changes the program so it is not only about opioid overdoses. It would also cover overdoses from heroin and other drugs. It removes the word “opioid” in several places, so the training and supplies could be used for more kinds of drug overdoses.\n\nThe bill also updates the rules for medicines or devices used in overdose emergencies. They could be products that are approved, cleared, or otherwise legally marketed. This means they are allowed under federal rules.\n\nThe bill changes the money allowed for the program. The old amount was $36 million for each year from 2019 through 2023. The new amount would be $57 million for each year from 2026 through 2030.\n\nThe bill also makes a small wording change by using “Tribes” and “Tribal” with capital letters.",
+  "prompt_tokens": 674,
+  "completion_tokens": 390,
+  "total_tokens": 1064,
+  "cost_usd": 0.01507,
+  "latency_s": 7.812,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

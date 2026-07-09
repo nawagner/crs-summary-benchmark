@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S.J. Res. 171 is a joint resolution that would direct the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent explicit congressional authorization. The resolution invokes the expedited consideration procedures set forth in section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976.\n\nSection 1 sets forth congressional findings, including that Congress has not declared war on Iran nor enacted a specific statutory authorization for the use of military force within or against Iran, that the executive branch has characterized ongoing operations as a “war,” and that the introduction of forces constitutes hostilities under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) contains the operative directive: Congress directs the President, pursuant to 50 U.S.C. 1546a and in accordance with the cited expedited procedures, to remove U.S. Armed Forces from hostilities within or against Iran, unless such hostilities are explicitly authorized by a declaration of war or a specific authorization for use of military force. The directive is a statutory mandate, not an authorization or appropriation of funds.\n\nSection 2(b) is a rule of construction that preserves the ability of the United States to: (1) defend against an attack on the United States or its personnel and facilities in other nations; (2) collect, analyze, and share intelligence—including with Israel, partners, allies, and international organizations—related to defending against threats from Iran or its proxies; (3) assist Israel and other nations in taking defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, including the provision of defensive materiel support; and (4) assist in the security, departure, and evacuation of U.S. citizens affected by the hostilities. The resolution contains no sunset provision or separate effective date, and it does not authorize appropriations.",
+  "prompt_tokens": 1423,
+  "completion_tokens": 1148,
+  "total_tokens": 2571,
+  "cost_usd": 0.001618,
+  "latency_s": 18.364,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

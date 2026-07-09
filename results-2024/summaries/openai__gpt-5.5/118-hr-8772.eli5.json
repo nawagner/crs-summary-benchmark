@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8772",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill gives money to run parts of Congress and other legislative offices for the budget year ending September 30, 2025. This is called an appropriation.\n\nIt gives about $1.93 billion for the House of Representatives. This pays for member offices, staff, committees, interns, mail, security planning, and House support offices. It also gives $174,000 to the widow of Representative Donald M. Payne, Jr.\n\nThe bill funds shared congressional offices and agencies. It gives $832.4 million to the Capitol Police for pay and expenses. It gives money to the Architect of the Capitol to care for the Capitol, House office buildings, the Capitol grounds, the power plant, the Botanic Garden, and the Capitol Visitor Center. It also funds the Library of Congress, the Copyright Office, the Congressional Research Service, the Government Publishing Office, the Government Accountability Office, and other offices.\n\nThe bill sets rules for how money may be used. Unused House office money must go back to the Treasury to lower the deficit or debt. House vehicle leases are capped at $1,000 per month, except mobile district offices. Some Chinese-made drones and certain telecom equipment are restricted. Computer networks must block pornography, with exceptions for law enforcement and official work. The bill also bars a cost-of-living pay raise for Members of Congress in fiscal year 2025.",
+  "prompt_tokens": 12277,
+  "completion_tokens": 557,
+  "total_tokens": 12834,
+  "cost_usd": 0.078095,
+  "latency_s": 11.48,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

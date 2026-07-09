@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"SECURE Grid Act.\" It is about keeping the electric power system safe.\n\nThe power grid is how electricity travels to homes and buildings. This bill focuses on the \"local distribution system.\" That means the smaller power equipment near people's homes, using lower amounts of electricity. Bigger power lines are not part of this.\n\nThe bill changes a law about \"State energy security plans.\" These are plans that each state makes to keep energy safe. The bill says states must now think about more dangers in their plans. These dangers include:\n\n- Bad weather that could hurt power equipment.\n- People who might attack power equipment on purpose.\n- Problems getting the parts and machines needed to make and move electricity.\n- Cyberattacks, which are attacks using computers.\n\nStates must also make plans to bounce back after these problems happen.\n\nThe states get to decide on their own plans. The government does not have to approve them.\n\nThe bill also asks a group called the Comptroller General to study how well these plans work. This study must be given to Congress by September 30, 2030. It will look at how states used the plans and any money the government gave them. Secret safety information will be kept private.\n\nThis part of the law will end on September 30, 2031.",
+  "prompt_tokens": 3024,
+  "completion_tokens": 375,
+  "total_tokens": 3399,
+  "cost_usd": 0.024495,
+  "latency_s": 7.581,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

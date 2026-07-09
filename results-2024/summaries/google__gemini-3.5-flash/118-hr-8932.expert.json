@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The FAFSA Deadline Act (Public Law 118-145) amends Section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. 1090(d)(4)) to establish an earlier, mandatory annual release date for the Free Application for Federal Student Aid (FAFSA) and to implement associated congressional notification and oversight mechanisms. \n\nSection 2 of the Act amends the statutory deadline for the Secretary of Education to produce and distribute the FAFSA. It strikes the prior flexible standard, which required the application to be available \"not later than January 1 of the applicant's planned year of enrollment, to the maximum extent practicable, on or around October 1 prior to the applicant's planned year of enrollment,\" and replaces it with a strict, non-discretionary deadline of \"not later than October 1 prior to the applicant's planned year of enrollment.\"\n\nSection 3 establishes mandatory certification and testimony requirements for the Secretary of Education prior to the initiation of each application processing cycle. Under newly designated 20 U.S.C. 1090(d)(4)(B), the Secretary must, not later than September 1 of each year, submit a certification to the authorizing committees (the House Committee on Education and the Workforce and the Senate Committee on Health, Education, Labor, and Pensions). This certification must state either that the Department of Education will meet the October 1 deadline or that it will fail to meet the deadline. \n\nIf the Secretary certifies that the Department will not meet the October 1 deadline, a statutory condition precedent is triggered: the Secretary must appear and testify before the authorizing committees not later than September 30. This testimony must address the anticipated failure to meet the deadline and the projected financial impact of the delay on students and families.",
+  "prompt_tokens": 950,
+  "completion_tokens": 389,
+  "total_tokens": 1339,
+  "cost_usd": 0.004926,
+  "latency_s": 3.099,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

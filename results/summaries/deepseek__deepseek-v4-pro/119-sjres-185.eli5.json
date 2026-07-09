@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress. It tells the President to remove U.S. troops from any fighting in or against Iran, unless Congress has clearly approved it. Congress has the power to declare war under the Constitution, and it has not declared war on Iran or passed a law allowing military force there.\n\nIf the bill becomes law, the President must pull troops out of those hostilities. But there are important exceptions. The United States can still defend itself and its people if attacked. It can also collect and share intelligence—secret information—with other countries that Iran attacked after February 28, 2026. And it can help those countries defend themselves, for example by intercepting attacks from Iran or its allies, or by giving them defensive supplies.\n\nThe rule does not stop the U.S. from protecting Americans or supporting partners under attack. It simply requires Congress to have a say before the U.S. is involved in war with Iran.",
+  "prompt_tokens": 1114,
+  "completion_tokens": 1233,
+  "total_tokens": 2347,
+  "cost_usd": 0.001557,
+  "latency_s": 23.364,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

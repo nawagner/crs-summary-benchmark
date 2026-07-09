@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S. 4828, the “Declaration of Independence Reaffirmation Act of 2026,” is a purely declaratory enactment. It does not amend the United States Code, create any new legal authority, repeal or modify any existing statute, authorize or appropriate funds, or impose any duty, prohibition, or condition precedent. The bill’s operative mechanism is a congressional statement reaffirming the Declaration of Independence as an Organic Law; it contains no operative legal provisions that alter rights, obligations, or the positive law of the United States.\n\nSection 2 sets forth ten congressional findings. Findings (1) through (4) recount the adoption and content of the Declaration and recognize its status among the Organic Laws of the United States. Finding (5) notes the adoption and reenactment of the Northwest Ordinance. Finding (6) asserts congressional authority to recognize and carry forward foundational laws and principles. Findings (7) through (10) declare the Declaration’s significance on the 250th anniversary of American independence, its relationship to the Constitution, popular sovereignty, and the concept of the American people as a distinct political community.\n\nSection 3 provides: “Congress reaffirms and re-adopts the Declaration of Independence as an Organic Law of the United States and as the enduring charter of American independence, national sovereignty, natural rights, equal citizenship, and government by consent.” The phrase “re-adopts” is not coupled with any positive-law mechanism and does not alter the enumeration of Organic Laws appearing in the preliminary matter of the United States Code.\n\nSection 4, in commemoration of the 250th anniversary, sets forth the full text of the Declaration of Independence verbatim.\n\nThe Act contains no effective date, no severability clause, no rule of construction, and no directive to any branch of government. It makes no appropriation, nor does it authorize the expenditure of funds.",
+  "prompt_tokens": 2668,
+  "completion_tokens": 1695,
+  "total_tokens": 4363,
+  "cost_usd": 0.002635,
+  "latency_s": 26.146,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a way for Congress to cancel a rule made by a government office.\n\nThe office is called the Bureau of Consumer Financial Protection. It helps protect people who borrow money. This office made a rule in May 2023. The rule was about lending money to small businesses. It was called \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B).\"\n\nSometimes the government makes rules without Congress voting on them. But Congress has a way to say \"no\" to a rule after it is made. This bill uses that power.\n\nIf this bill becomes law, the rule would be canceled. It would have no force or effect. That means the rule would not count anymore, and businesses and lenders would not have to follow it.\n\nThe bill does not explain what the rule said. It only says Congress does not approve of it and wants to stop it.\n\nThe Senate voted to pass this bill on October 18, 2023. For it to become law, the House of Representatives would also need to pass it, and then the President would need to sign it.",
+  "prompt_tokens": 810,
+  "completion_tokens": 314,
+  "total_tokens": 1124,
+  "cost_usd": 0.0119,
+  "latency_s": 5.754,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

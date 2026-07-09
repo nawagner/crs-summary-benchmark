@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the Internal Revenue Service, which is the part of the government that collects taxes. The rule was about how brokers report money made from selling digital assets, like digital money. The rule said these brokers had to report the total amount of money they got from these sales. \n\nBecause of this new law, the old rule will have no force or effect. This means the rule is stopped and cannot be used. The rule was created on December 30, 2024. The President approved this law to cancel the rule on April 10, 2025. Now, the brokers do not have to follow that specific reporting rule.",
+  "prompt_tokens": 475,
+  "completion_tokens": 817,
+  "total_tokens": 1292,
+  "cost_usd": 0.001661,
+  "latency_s": 9.884,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law ends a national emergency. A national emergency is when the President says there is a very big problem that needs special action from the government.\n\nBack on March 13, 2020, the President declared an emergency because of COVID-19, which is the sickness caused by the coronavirus. He made this announcement in an official statement called Proclamation 9994.\n\nThis law says that emergency is now over. It uses the rules from a law called the National Emergencies Act, which lets Congress decide to stop an emergency.\n\nThe law was approved on April 10, 2023. The House of Representatives voted for it first, on February 1, 2023. Then the Senate voted for it on March 29, 2023. Both parts of Congress had to agree before it could become law.\n\nThat is all this law does. It simply says the COVID-19 national emergency from 2020 has ended.",
+  "prompt_tokens": 652,
+  "completion_tokens": 257,
+  "total_tokens": 909,
+  "cost_usd": 0.009685,
+  "latency_s": 5.329,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a joint resolution, which is a type of proposed law. It stops the United States from sending certain weapons to Israel. \n\nIf this bill becomes a law, it would block a specific sale. The sale is for 20,000 Colt Carbine rifles. These are fully automatic rifles with 11.5-inch barrels. The sale is worth $1,000,000 or more. \n\nThe weapons were going to be sent to a company in Israel called M.R.D. Efram Investments Ltd. The final users would be the Israel National Police. \n\nThe plan to sell these weapons was shared with Congress on March 24, 2025. A senator named Mr. Sanders introduced this bill on March 27, 2025. The bill is Congress saying \"no\" to this plan to send the weapons.",
+  "prompt_tokens": 521,
+  "completion_tokens": 1065,
+  "total_tokens": 1586,
+  "cost_usd": 0.002112,
+  "latency_s": 16.285,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

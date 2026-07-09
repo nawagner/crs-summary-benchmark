@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 7258, titled the “Energy Emergency Leadership Act,” amends the Department of Energy Organization Act to codify energy emergency and security functions among the duties statutorily assigned to Assistant Secretaries. The bill does not establish a new office or modify the number of Assistant Secretaries; it operates solely by expanding the enumerations in 42 U.S.C. § 7133(a).\n\nSection 2(a) amends section 203(a) of the Department of Energy Organization Act (42 U.S.C. § 7133(a)) by inserting a new paragraph (12). That paragraph assigns two categories of functions to the relevant Assistant Secretaries. Subparagraph (A) lists responsibilities “as appropriate” concerning energy infrastructure, security and resilience, emerging threats, cybersecurity, supply, and emergency planning and preparedness, coordination, response, and restoration. Subparagraph (B) authorizes the provision of technical assistance and support, upon request of a State, local, or Tribal government or an energy sector entity, to protect against, detect, and respond to energy security threats, risks, and incidents; this assistance is to be provided in coordination with other Federal agencies as appropriate.\n\nSection 2(b) imposes a coordination duty on the Secretary of Energy: the Secretary must ensure that the functions described in new paragraph (12) are performed in coordination with relevant Federal agencies. This provision does not create an independent cause of action or a private right; it directs internal executive coordination.\n\nThe bill contains no authorization of appropriations, no sunset clause, and no express effective date; it would take effect upon enactment. No conditions precedent, reporting requirements, or rulemaking mandates appear in the text. The measure does not alter any other provision of the Department of Energy Organization Act or other law, and it does not affect existing emergency authorities of the Secretary or other federal officials.",
+  "prompt_tokens": 819,
+  "completion_tokens": 1188,
+  "total_tokens": 2007,
+  "cost_usd": 0.00139,
+  "latency_s": 25.296,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

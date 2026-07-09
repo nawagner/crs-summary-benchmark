@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The FAFSA Deadline Act (Pub. L. 118-145, enacted December 11, 2024, originating as H.R. 8932) amends Section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. 1090(d)(4)) to establish an earlier, fixed availability deadline for the Free Application for Federal Student Aid (FAFSA) processing cycle and to impose associated congressional certification and testimony obligations on the Secretary of Education.\n\nSection 2 replaces the prior formulation—which required the FAFSA to be available \"not later than January 1 of the applicant's planned year of enrollment,\" with a subsidiary aspiration to make it available \"to the maximum extent practicable, on or around October 1\"—with a single hard deadline: \"not later than October 1 prior to the applicant's planned year of enrollment.\" This converts the former precatory October 1 target into a binding statutory deadline and eliminates the January 1 backstop.\n\nSection 3 further amends Section 483(d)(4) by restructuring the existing text as subparagraph (A) (\"In general\") and adding a new subparagraph (B) (\"Certification and testimony requirements\"). Subparagraph (B) requires the Secretary, with respect to each application processing cycle and prior to the initiation of that cycle, to:\n\n- Under clause (i), on a date not later than September 1, certify to the authorizing committees either (I) that the Department will meet the October 1 deadline in subparagraph (A) for that cycle, or (II) that the Department will not meet that deadline; and\n- Under clause (ii), in the case of a certification of anticipated non-compliance under clause (i)(II), on a date not later than September 30, testify before the authorizing committees regarding (I) the anticipated failure to meet the deadline and (II) the financial impact of that failure on students and families.\n\nSection 1 designates the short title and is codified as a note to 20 U.S.C. 1001.\n\nThe Act contains no separate effective-date provision; its amendments therefore take effect upon enactment. It provides no authorization of appropriations and no appropriation. The bill is silent as to any enforcement mechanism or consequence attaching to a certification of non-compliance beyond the testimony requirement, and does not define \"authorizing committees\" within its text (relying on the term as used in the Higher Education Act). No provisions are repealed apart from the superseded deadline language, and no sunset is imposed.",
+  "prompt_tokens": 1411,
+  "completion_tokens": 799,
+  "total_tokens": 2210,
+  "cost_usd": 0.02703,
+  "latency_s": 10.445,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

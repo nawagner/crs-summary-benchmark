@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "openai/gpt-5.5",
+  "summary": "The Veterans’ Compensation Cost-of-Living Adjustment Act of 2024, Pub. L. No. 118-130, provides an automatic cost-of-living increase, effective December 1, 2024, for specified Department of Veterans Affairs disability compensation and dependency and indemnity compensation (DIC) rates, keyed to the Social Security title II cost-of-living adjustment.\n\nSection 1 designates the short title and is codified as a note to 38 U.S.C. § 101.\n\nSection 2(a), codified as a note to 38 U.S.C. § 1114, directs the Secretary of Veterans Affairs, effective December 1, 2024, to increase the dollar amounts in effect on November 30, 2024, for payment of disability compensation and DIC under the provisions identified in § 2(b). Section 2(b) specifies the covered amounts: all dollar amounts for wartime disability compensation under 38 U.S.C. § 1114; all dollar amounts for additional compensation for dependents under 38 U.S.C. § 1115(1); the clothing allowance amount under 38 U.S.C. § 1162; all dollar amounts for DIC to surviving spouses under 38 U.S.C. § 1311(a)–(d); and all dollar amounts for DIC to children under 38 U.S.C. §§ 1313(a) and 1314.\n\nSection 2(c) prescribes the operative adjustment formula: each covered dollar amount must be increased by the same percentage as the increase in benefit amounts payable under title II of the Social Security Act, 42 U.S.C. § 401 et seq., effective December 1, 2024, resulting from a determination under 42 U.S.C. § 415(i). Section 2(d), also codified as a note to 38 U.S.C. § 1114, authorizes the Secretary to make conforming administrative adjustments to rates of disability compensation payable under § 10 of Public Law 85-857, 72 Stat. 1263, for persons who have not received compensation under chapter 11 of title 38.\n\nSection 3, codified as a note to 38 U.S.C. § 1114, requires the Secretary to publish the adjusted amounts specified in § 2(b) in the Federal Register not later than the date on which the matters specified in 42 U.S.C. § 415(i)(2)(D) must be published by reason of a fiscal year 2025 determination under 42 U.S.C. § 415(i). The Act contains no separate appropriation.",
+  "prompt_tokens": 1102,
+  "completion_tokens": 593,
+  "total_tokens": 1695,
+  "cost_usd": 0.0233,
+  "latency_s": 9.199,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

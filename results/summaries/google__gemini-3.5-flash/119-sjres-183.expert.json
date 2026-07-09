@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 183, introduced in the 119th Congress, is a joint resolution directing the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nOperating under the statutory authority of section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. § 1546a), the resolution invokes the expedited legislative procedures set forth in section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329). The resolution's primary operative mechanism is Section 2(a), which mandates that the President remove United States Armed Forces from hostilities within or against Iran. This removal mandate is subject to a condition precedent: it applies unless and until such hostilities are explicitly authorized by a congressional declaration of war or a specific authorization for the use of military force.\n\nSection 2(b) establishes three rules of construction that limit the scope of the removal mandate. Specifically, the directive to remove forces may not be construed to prevent the United States from:\n1. Defending against an attack on the United States, its personnel, or its facilities located in other nations;\n2. Collecting, analyzing, or sharing intelligence—including with the State of Israel, partner countries attacked by Iran since February 28, 2026, and other appropriate nations or international organizations—regarding threats posed by Iran or its proxies; or\n3. Assisting Israel, partner countries attacked by Iran since February 28, 2026, and other nations by directly defending against retaliatory attacks upon their territories by Iran or its proxies, or by providing defensive materiel support for such measures.\n\nThe resolution contains no appropriations, authorizations of appropriations, or specific effective dates or deadlines beyond its immediate statutory direction upon enactment.",
+  "prompt_tokens": 1656,
+  "completion_tokens": 406,
+  "total_tokens": 2062,
+  "cost_usd": 0.006138,
+  "latency_s": 2.841,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

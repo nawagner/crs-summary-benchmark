@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Two members of the United States Senate introduced a new bill. A bill is a proposal for a new law. This bill is called the \"Improving Access to Addiction Medicine Providers Act.\" \n\nThe bill wants to change an existing government program called the Minority Fellowship Program. A fellowship is a special grant of money. This money helps students and professionals get advanced training for their jobs. \n\nRight now, this program helps train people in fields like psychiatry, which is medical care for mental health. If this bill becomes a law, it would add a new field to the program. That field is addiction medicine. Addiction medicine is medical care that helps people who are struggling with addictions to drugs or other things. The bill also says the program can help train people to diagnose, or identify, these health problems. \n\nIf this bill passes, people who want to become experts in addiction medicine could get these special training fellowships.",
+  "prompt_tokens": 537,
+  "completion_tokens": 183,
+  "total_tokens": 720,
+  "cost_usd": 0.002452,
+  "latency_s": 1.986,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

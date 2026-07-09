@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill decides how the government spends money on energy and water projects for the year ending September 30, 2025. An \"appropriation\" is a law that sets aside money to spend.\n\nThe bill gives money to several groups. The Army Corps of Engineers gets money to study, build, and fix rivers, harbors, and flood protection. The Department of the Interior gets money for water projects, like dams and water systems. The Department of Energy gets money for energy research, nuclear weapons, and cleaning up old energy sites. Other agencies get money to watch over nuclear safety and help local regions.\n\nThe bill also sets rules on how the money can be used. For example, it says the government cannot use the money to buy computers from companies owned by China. It bans using the money for COVID-19 mask or vaccine rules. It says no money can go to the Wuhan Institute of Virology. It also blocks money from being used for certain energy rules or Critical Race Theory.\n\nIf this bill becomes law, these groups will have the money they need to run their energy and water programs for that year. However, they must follow all the rules listed in the bill.",
+  "prompt_tokens": 22300,
+  "completion_tokens": 1237,
+  "total_tokens": 23537,
+  "cost_usd": 0.014298,
+  "latency_s": 19.268,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

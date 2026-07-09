@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the Environmental Protection Agency (the EPA, a government group that protects nature and air). The rule was about charging money to oil and gas companies for wasting certain gases. The rule also explained how these companies could follow the rules or get out of paying the charge.\n\nCongress (the part of the government that makes laws) voted to cancel this rule. Because of this law, the EPA's rule will have no power. It is as if the rule never existed. The rule was made on November 18, 2024. Congress passed this law to cancel it, and the President approved it on March 14, 2025.\n\nIf this law had not passed, oil and gas companies would have had to follow the EPA's rule about paying a charge for wasting gases. Now, they will not have to follow this specific rule.",
+  "prompt_tokens": 474,
+  "completion_tokens": 835,
+  "total_tokens": 1309,
+  "cost_usd": 0.001692,
+  "latency_s": 7.287,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

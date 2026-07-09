@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill cancels a government rule about water. The rule was made by the Environmental Protection Agency (a government group that protects nature) and the Army. The rule tried to change the meaning of \"Waters of the United States,\" which is about deciding which bodies of water the government can control or protect.\n\nIf this bill becomes a law, the water rule from January 18, 2023, would be canceled. The bill says the rule will \"have no force or effect,\" meaning the government could not use it. \n\nThe House of Representatives, which is one part of Congress (the group that makes national laws), passed this bill on March 9, 2023. The Senate, which is the other part of Congress, received it on March 14, 2023. If the Senate and the President agree, the water rule will be stopped.",
+  "prompt_tokens": 451,
+  "completion_tokens": 1263,
+  "total_tokens": 1714,
+  "cost_usd": 0.002414,
+  "latency_s": 65.15,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

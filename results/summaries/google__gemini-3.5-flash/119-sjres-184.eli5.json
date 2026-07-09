@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress and the President agree to it. The bill tells the President to stop U.S. military fighting in or against the country of Iran. \n\nThe U.S. Constitution says only Congress has the power to declare war. On March 2, 2026, the President told Congress that U.S. forces started fighting against Iran on February 28, 2026. Under a law called the War Powers Resolution, the President must stop using military force within 60 days of telling Congress, unless Congress declares war or gives special permission. That 60-day limit ends on May 1, 2026. Because Congress has not declared war or allowed this fighting, the bill orders the President to remove U.S. troops. \n\nHowever, the bill says the U.S. military can still do certain things. The military is allowed to defend the U.S. and its people from attacks. It can also gather and share secret information with partners like Israel. Finally, the military can help Israel and other countries defend themselves from Iranian attacks, and help U.S. citizens safely leave the area.",
+  "prompt_tokens": 1550,
+  "completion_tokens": 257,
+  "total_tokens": 1807,
+  "cost_usd": 0.004638,
+  "latency_s": 2.19,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

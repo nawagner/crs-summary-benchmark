@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called a joint resolution. It asks the government to stop U.S. military fighting against Iran.\n\nHere is the background the bill gives. Under the Constitution, only Congress can declare war. The bill says Congress never declared war on Iran or approved fighting there. But on February 28, 2026, the United States started a military campaign against Iran, called Operation Epic Fury. The bill says 13 U.S. service members were killed and at least 380 were hurt. It also says Iran closed a busy sea passage called the Strait of Hormuz, which hurt shipping and the world's money. A ceasefire (a pause in fighting) started on April 8, 2026, but the U.S. announced a blockade of that sea passage.\n\nHere is the main thing the bill does. It tells the President to pull U.S. military forces out of fighting in or against Iran. The only way the fighting could continue is if Congress officially declares war or passes a law that clearly allows it.\n\nThe bill also lists things it does not stop. The U.S. could still:\n- Defend itself, its people, and its buildings from attacks.\n- Gather and share information about threats from Iran, including with allies like Israel.\n- Help countries that Iran attacked defend themselves.\n- Help U.S. citizens stay safe and leave dangerous areas.\n\nRight now the bill has only been introduced. It has not become law.",
+  "prompt_tokens": 2264,
+  "completion_tokens": 438,
+  "total_tokens": 2702,
+  "cost_usd": 0.02227,
+  "latency_s": 7.159,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

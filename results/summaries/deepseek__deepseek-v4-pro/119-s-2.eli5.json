@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, called the Secure America Act, gives a lot of money to parts of the government that work on border security and immigration. It provides funds for the 2026 budget year, and the money can be spent until September 30, 2029.\n\nThe bill gives money to two main agencies. U.S. Customs and Border Protection gets funds to hire, train, and equip Border Patrol agents and to buy new technology. This includes money for inspection machines, surveillance tools, and systems to check fingerprints or faces at borders. U.S. Immigration and Customs Enforcement gets money to hire more agents, investigators, and lawyers. It also pays for things like transporting people, maintaining buildings and vehicles, and upgrading computers.\n\nA large part of the money for U.S. Immigration and Customs Enforcement is set aside for arresting and managing certain adults who are in the country without legal permission and have been charged with or convicted of crimes. At least $350 million is specifically for operations in places that do not have a formal cooperation agreement with immigration authorities. The bill says this money generally cannot be used to release these individuals into the community. It also sets aside over $108 million to hire special investigators focused on rescuing children from exploitation and abuse.",
+  "prompt_tokens": 2912,
+  "completion_tokens": 248,
+  "total_tokens": 3160,
+  "cost_usd": 0.001482,
+  "latency_s": 7.419,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

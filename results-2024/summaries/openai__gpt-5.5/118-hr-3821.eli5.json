@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "openai/gpt-5.5",
+  "summary": "This law keeps funding a national list, called a registry, that tracks cancer cases in firefighters. A registry is a place where information is collected and stored.\n\nThe registry is voluntary. That means firefighters are not required to take part. It was first created by the Firefighter Cancer Registry Act of 2018.\n\nThe main change is about money and time. The old law allowed $2.5 million each year for the fiscal years 2018 through 2022. A fiscal year is a government budget year.\n\nThis law changes that amount to $5.5 million each year for fiscal years 2024 through 2028.\n\nThe law was approved on December 12, 2024. It is called the Firefighter Cancer Registry Reauthorization Act of 2023.",
+  "prompt_tokens": 535,
+  "completion_tokens": 160,
+  "total_tokens": 695,
+  "cost_usd": 0.007475,
+  "latency_s": 3.278,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

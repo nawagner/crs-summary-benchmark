@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-145, cited as the \"FAFSA Deadline Act,\" establishes an earlier application processing cycle for the Free Application for Federal Student Aid (FAFSA) and imposes related certification and testimony requirements on the Secretary of Education.\n\nSection 2 amends Section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. 1090(d)(4)) to mandate that the Secretary make FAFSA applications available not later than October 1 prior to the applicant's planned year of enrollment. This provision strikes the prior statutory language directing the Secretary to make applications available \"not later than January 1 of the applicant's planned year of enrollment, to the maximum extent practicable, on or around October 1 prior to the applicant's planned year of enrollment,\" thereby removing the conditional \"to the maximum extent practicable\" modifier and the January 1 fallback deadline.\n\nSection 3 further amends Section 483(d)(4) of the Higher Education Act of 1965 by redesignating the existing text as subparagraph (A) and adding a new subparagraph (B) establishing certification and testimony requirements. Prior to the initiation of each application processing cycle, the Secretary must, on a date not later than September 1, certify to the authorizing committees either that the Department of Education will meet the October 1 deadline for such cycle, or that the Department will not meet such deadline. In the event the Secretary certifies that the Department will not meet the deadline, a condition precedent is triggered requiring the Secretary to testify before the authorizing committees not later than September 30. This testimony must address the anticipated failure to meet the deadline and the financial impact such failure will have on students and families.\n\nThe Act was approved on December 11, 2024, and contains no express delayed effective date, separate authorization of appropriations, or sunset provision.",
+  "prompt_tokens": 833,
+  "completion_tokens": 1236,
+  "total_tokens": 2069,
+  "cost_usd": 0.002576,
+  "latency_s": 9.118,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

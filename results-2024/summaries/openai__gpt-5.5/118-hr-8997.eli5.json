@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill gives money to energy and water programs for the budget year that ends September 30, 2025. This is called an “appropriations” bill, which means Congress is deciding how federal money may be spent.\n\nIt funds the Army Corps of Engineers for rivers, harbors, flood control, storm damage, wetlands permits, and cleanup of old atomic energy sites. It gives the Corps $3.01 billion for construction and $5.714 billion to run and care for existing projects.\n\nIt funds water projects run by the Interior Department, including $1.773 billion for the Bureau of Reclamation. That agency manages water in many western states. It also funds the Central Utah Project and California Bay-Delta work. Some water and drought programs are extended through 2025, and some spending limits are raised.\n\nIt gives the Department of Energy money for science, nuclear energy, renewable energy, fossil energy research, the power grid, cleanup, and nuclear weapons programs. It gives $20.339 billion for nuclear weapons activities and $8.39 billion for science.\n\nThe bill also funds regional commissions, the Nuclear Regulatory Commission, and other agencies.\n\nThe bill sets many rules. Agencies often must tell Congress before moving money around. Some funds may not be used for certain rules, programs, purchases, or actions named in the bill. It also changes natural gas law so the Federal Energy Regulatory Commission decides on permits for natural gas import and export facilities.",
+  "prompt_tokens": 22197,
+  "completion_tokens": 519,
+  "total_tokens": 22716,
+  "cost_usd": 0.126555,
+  "latency_s": 10.645,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

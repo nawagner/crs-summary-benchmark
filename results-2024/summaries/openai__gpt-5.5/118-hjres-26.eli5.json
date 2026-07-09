@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "openai/gpt-5.5",
+  "summary": "This law says Congress does not approve a criminal law change passed by the District of Columbia Council.\n\nThe District of Columbia Council is the local lawmaking group for Washington, D.C. It passed the Revised Criminal Code Act of 2022 on January 17, 2023. That act was sent to Congress on January 27, 2023, under the District of Columbia Home Rule Act. That law lets Congress review some D.C. laws.\n\nCongress passed this joint resolution to reject the D.C. Council’s act. A joint resolution is a decision passed by both parts of Congress, the House and the Senate. It was approved by the President on March 20, 2023.\n\nThe main effect is that Congress disapproved the D.C. Council’s Revised Criminal Code Act of 2022.",
+  "prompt_tokens": 441,
+  "completion_tokens": 219,
+  "total_tokens": 660,
+  "cost_usd": 0.008775,
+  "latency_s": 5.657,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

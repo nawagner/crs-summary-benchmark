@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is about visas for foreign students in the United States. A visa is permission to enter or stay in the country. The bill applies to F visas and M visas, which are used by many students.\n\nThe bill says the Secretary of State must deny or take away a student visa if two things are true. First, the student took part in certain antisemitic actions on or after the day the bill becomes law. Second, the Secretary of State decides the student’s actions could cause serious problems for U.S. foreign policy.\n\nThe bill defines antisemitism using the definition adopted on May 26, 2016, by the International Holocaust Remembrance Alliance and used by the State Department.\n\nThe banned actions include violence, vandalism, or harassment aimed at a Jewish person, their property, a community group, or a religious place, when done to scare or harm because of Jewish identity. It also includes giving support, such as money, organizing, or inciting, while knowing it would help those actions happen.",
+  "prompt_tokens": 1209,
+  "completion_tokens": 331,
+  "total_tokens": 1540,
+  "cost_usd": 0.015975,
+  "latency_s": 7.216,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

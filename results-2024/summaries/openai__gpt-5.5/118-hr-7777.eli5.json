@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "openai/gpt-5.5",
+  "summary": "This law raises some payments from the Department of Veterans Affairs, called the VA. The VA is the government office that helps veterans.\n\nStarting December 1, 2024, the VA must increase certain payments by the same percent that Social Security benefits go up for that date. This kind of raise is called a cost-of-living adjustment. It helps payments keep up with price changes.\n\nThe increase applies to disability payments for veterans whose disabilities are connected to their military service. It also applies to extra payments for veterans who have dependents, such as a spouse or children. It raises the clothing allowance for some veterans. It also raises “dependency and indemnity compensation,” which is money paid to some surviving spouses and children of certain disabled veterans.\n\nThe VA Secretary may also make matching changes for a special group of people covered by an older law.\n\nThe VA must publish the new payment amounts in the Federal Register, which is the government’s official place for public notices.",
+  "prompt_tokens": 1070,
+  "completion_tokens": 349,
+  "total_tokens": 1419,
+  "cost_usd": 0.01582,
+  "latency_s": 7.321,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

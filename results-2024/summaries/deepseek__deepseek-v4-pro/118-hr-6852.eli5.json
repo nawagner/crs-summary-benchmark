@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law gives a special title to Holcombe Rucker Park, a famous basketball park in Harlem, New York. It is now called the “Holcombe Rucker Park National Commemorative Site.” A commemorative site is a place that is officially recognized for its importance in history, but it does not become part of the National Park System.\n\nThe law allows the U.S. Secretary of the Interior (a government leader over public lands) to make agreements with New York City or other groups. These agreements are for educational purposes, like putting up a plaque or an exhibit that honors Holcombe Rucker and the park’s role in basketball history. No plaque or exhibit can be added without written permission from the owner of the park.\n\nEven with the new title, the park is not run by the federal government. New York City and New York State still manage the park. The law says the federal government cannot interfere with private property, local zoning rules, or land-use plans. It also cannot take any land through forced purchase or any other way. The law was approved on January 4, 2025.",
+  "prompt_tokens": 820,
+  "completion_tokens": 911,
+  "total_tokens": 1731,
+  "cost_usd": 0.001149,
+  "latency_s": 17.265,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

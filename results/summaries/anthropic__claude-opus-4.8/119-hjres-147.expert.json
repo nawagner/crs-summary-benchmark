@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced in the House as H.J. Res. 147 during the 119th Congress, 2d Session, invokes the congressional termination mechanism under section 202 of the National Emergencies Act (50 U.S.C. 1622) to terminate a specified presidential national emergency declaration.\n\nThe single operative provision terminates the national emergency declared by the President on July 30, 2025, in Executive Order 14323 (90 Fed. Reg. 37739). Per the resolution's caption and stated subject, that emergency provided the predicate for the imposition of duties on articles imported from Brazil.\n\nThe resolution proceeds under 50 U.S.C. 1622, which establishes the statutory procedure by which a national emergency may be terminated by enactment of a joint resolution. Consistent with that framework and the *INS v. Chadha*-driven 1985 amendments to the National Emergencies Act, termination by this route requires passage by both chambers and presentment to the President (subject to the possibility of veto and override), rather than a simple concurrent resolution.\n\nThe resolution contains no additional substantive provisions. It does not amend the Tariff Act, the International Emergency Economic Powers Act, or any other underlying trade or emergency-powers authority; it does not expressly address the disposition of duties already collected, nor does it specify an effective date, transition rules, or savings provisions. It contains no authorization of appropriations and effects no appropriation. Its legal effect is confined to terminating the identified emergency declaration, with any consequent cessation of duty authority flowing derivatively from that termination and the terms of the underlying Executive order.\n\nThe measure was referred to the House Committee on Foreign Affairs.",
+  "prompt_tokens": 817,
+  "completion_tokens": 555,
+  "total_tokens": 1372,
+  "cost_usd": 0.01796,
+  "latency_s": 9.841,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law lets the Department of Veterans Affairs (the government office that helps former soldiers) build and fix medical centers. It was approved on November 25, 2024. \n\nThe law lists 11 big building projects in different places. These projects include building new hospitals, fixing old buildings, making parking lots bigger, and making buildings safer from earthquakes. The places include Washington, Texas, Maryland, Oregon, Nevada, California, Puerto Rico, Missouri, and Connecticut. \n\nIf this law is followed, these cities will get new or improved medical centers for veterans. The law says the government can spend up to a certain amount of money for each project. For example, it allows up to $759,200,000 for a new health care center in El Paso, Texas. \n\nIn total, the law allows the government to spend up to $3,354,048,000 on all these projects. This money is for the year 2024 or the year the money is given out.",
+  "prompt_tokens": 1133,
+  "completion_tokens": 974,
+  "total_tokens": 2107,
+  "cost_usd": 0.00229,
+  "latency_s": 25.471,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

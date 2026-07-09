@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 30 is a joint resolution that invokes the legislative disapproval mechanism of the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. The primary purpose of the resolution is to nullify a specific administrative rule promulgated by the Department of Labor. \n\nSpecifically, the operative text of the resolution states that Congress disapproves the Department of Labor rule entitled \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,\" published in the Federal Register at 87 Fed. Reg. 73822 on December 1, 2022. \n\nPursuant to the statutory framework of the CRA (specifically 5 U.S.C. § 801(f)), the enactment of this joint resolution mandates that the specified rule \"shall have no force or effect.\" Under the CRA, this disapproval also triggers a statutory bar preventing the Department of Labor from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the joint resolution of disapproval. \n\nThe resolution contains no appropriations, authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; its legal effect is immediate upon enactment.",
+  "prompt_tokens": 494,
+  "completion_tokens": 269,
+  "total_tokens": 763,
+  "cost_usd": 0.003162,
+  "latency_s": 2.37,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

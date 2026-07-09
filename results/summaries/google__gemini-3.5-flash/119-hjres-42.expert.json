@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-8 (H.J. Res. 42), enacted on May 9, 2025, is a joint resolution of disapproval passed pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe sole operative mechanism of the joint resolution is the formal disapproval of a specific administrative rule submitted by the Department of Energy. The targeted agency action is the rule entitled \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment,\" published in the Federal Register at 89 Fed. Reg. 81994 on October 9, 2024. \n\nBy operation of the CRA (specifically 5 U.S.C. § 801(f)), the enactment of this joint resolution mandates that the disapproved rule \"shall have no force or effect.\" Consequently, the rule is rendered void *ab initio*, preventing it from taking effect or continuing in effect. Under the governing statutory framework of the CRA (5 U.S.C. § 801(b)(2)), the Department of Energy is prohibited from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the date of this joint resolution. \n\nThe joint resolution contains no authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; its legal effect of nullification was immediate upon enactment on May 9, 2025.",
+  "prompt_tokens": 572,
+  "completion_tokens": 337,
+  "total_tokens": 909,
+  "cost_usd": 0.003891,
+  "latency_s": 4.12,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

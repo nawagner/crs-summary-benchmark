@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill changes rules for Small Business Investment Companies. These are companies licensed under a federal small business law to invest money in small businesses. “Leverage” means borrowed money they can use for these investments.\n\nThe bill changes the normal leverage limits. A company’s leverage limit based on its private money goes from 300 percent to 200 percent. It also sets dollar limits. Some companies that pay interest every three or six months may have up to $250 million in leverage. Other licensed companies may have up to $175 million. For companies under common control, the limit is $475 million for those interest-paying companies, or $350 million for others.\n\nThe bill also says some investments do not count toward these leverage limits. This applies to investments made after May 19, 2026, in small businesses in low-income or rural areas, small businesses in certain critical technology fields, or small manufacturers. The amount left out of the count cannot be more than the smaller of $125 million or 50 percent of the company’s private capital.\n\nThe bill also says most government money does not count as private capital for getting leverage approval, with some listed exceptions.",
+  "prompt_tokens": 1525,
+  "completion_tokens": 685,
+  "total_tokens": 2210,
+  "cost_usd": 0.028175,
+  "latency_s": 12.31,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

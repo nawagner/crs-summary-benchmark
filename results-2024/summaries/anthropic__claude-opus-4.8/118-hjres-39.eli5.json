@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This is a joint resolution. That means it is a plan that both parts of Congress (the House and the Senate) vote on. If it passes and becomes law, it can cancel a rule made by a government department.\n\nThis resolution is about a rule made by the Department of Commerce. The Department of Commerce is the part of the government that deals with trade and business, like buying and selling things with other countries.\n\nThe rule is called \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414.\" A \"duty\" is a kind of tax on goods that come from other countries.\n\nThis resolution says that Congress disapproves of that rule. \"Disapproves\" means Congress does not want the rule to stay. If this resolution becomes law, the rule \"shall have no force or effect.\" That means the rule would be canceled and would not count anymore.\n\nThe House of Representatives already voted yes on this on April 28, 2023. Then the Senate received it on May 1, 2023. For it to become law, the Senate would also need to pass it.\n\nThe resolution does not add any new rules of its own. It only tries to stop this one rule from the Department of Commerce.",
+  "prompt_tokens": 702,
+  "completion_tokens": 372,
+  "total_tokens": 1074,
+  "cost_usd": 0.01281,
+  "latency_s": 6.126,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

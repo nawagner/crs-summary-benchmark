@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 171 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been explicitly authorized by Congress. The joint resolution operates pursuant to section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and the expedited legislative procedures under section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth findings, asserting Congress's sole power to declare war under Article I, section 8, clause 11 of the Constitution, acknowledging the President's constitutional responsibility to defend the United States, and stating that Congress has neither declared war on Iran nor enacted a specific statutory authorization for the use of military force within or against Iran. It further finds that the ongoing use of military force constitutes the introduction of Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) provides the operative directive, expressly directing the President, pursuant to 50 U.S.C. 1546a, to remove United States Armed Forces from hostilities within or against Iran, conditioned upon the absence of an explicit authorization by a declaration of war or a specific authorization for use of military force. \n\nSection 2(b) establishes a rule of construction, specifying that the resolution does not prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence related to defending against threats from Iran or its proxies, including with Israel, partners, allies, and international organizations; (3) assisting Israel and other nations in taking defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such measures; and (4) providing assistance for the security, departure, and evacuation of United States citizens affected by the hostilities. \n\nThe resolution does not contain an appropriation of funds or an explicit effective date, operating instead as a statutory directive under the War Powers Resolution framework.",
+  "prompt_tokens": 1439,
+  "completion_tokens": 1393,
+  "total_tokens": 2832,
+  "cost_usd": 0.003176,
+  "latency_s": 7.75,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

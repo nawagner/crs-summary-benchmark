@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill cancels a new law that was passed by the local government of Washington, D.C. (the District of Columbia Council). The local law was called the Revised Criminal Code Act of 2022. It would have changed the city’s rules about crimes and punishments.\n\nCongress has the power to review and reject certain laws from Washington, D.C. under a special rule called the Home Rule Act. When the D.C. Council sent its law to Congress, Congress voted to disapprove it. This means the local law will not take effect.\n\nThe bill does not create any new criminal rules. It simply stops the changes that Washington, D.C.’s lawmakers had approved. The local law was originally passed on January 17, 2023, and sent to Congress on January 27, 2023. Congress passed this bill of disapproval, and it was signed into law on March 20, 2023.",
+  "prompt_tokens": 436,
+  "completion_tokens": 797,
+  "total_tokens": 1233,
+  "cost_usd": 0.000883,
+  "latency_s": 16.494,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

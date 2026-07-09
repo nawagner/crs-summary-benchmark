@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Royalty Resiliency Act. It changes the rules for how the government manages money from oil and gas drilling on public land.\n\nWhen companies drill for oil and gas, they often share the land and the profits. They must pay a share of the money, called a royalty, to the government. Sometimes, they need the government to decide exactly how to split the oil, gas, and money. This law says the government official in charge, called the Secretary, must make this decision within 120 days after a company asks.\n\nWhile waiting for the decision, the company must keep paying the government based on a proposed plan. Once the Secretary makes the final decision, the company has three months to fix their reports and payments if they need to.\n\nIf the company pays on time using the proposed plan, the government will not charge them extra fees, called interest, while they wait. Finally, these new rules do not apply to agreements that include Indian lands.",
+  "prompt_tokens": 814,
+  "completion_tokens": 709,
+  "total_tokens": 1523,
+  "cost_usd": 0.001661,
+  "latency_s": 11.416,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

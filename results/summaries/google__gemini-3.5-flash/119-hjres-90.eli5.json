@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of bill that must be approved by both the Senate and the House of Representatives, and then signed by the President, to become a law. \n\nThis bill is about a rule made by a government group called the Commodity Futures Trading Commission. This group helps oversee certain kinds of trading and business contracts. In October 2024, they made a rule about carbon credits. Carbon credits are a way for companies to help the environment by paying to reduce pollution. \n\nIf this bill becomes a law, it would stop that rule from being used. The bill says that Congress does not approve of the rule. It states that the rule would have no force or effect. This means the rule would be canceled, and it would not be a law anymore.",
+  "prompt_tokens": 498,
+  "completion_tokens": 165,
+  "total_tokens": 663,
+  "cost_usd": 0.002232,
+  "latency_s": 1.808,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

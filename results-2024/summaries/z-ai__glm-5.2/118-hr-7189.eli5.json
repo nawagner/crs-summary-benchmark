@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Congenital Heart Futures Reauthorization Act of 2024. It lets a government health program continue its work on congenital heart disease, which is a heart problem people are born with. The program studies this disease, tracks how many people have it, and teaches people about it.\n\nIf this law is followed, a top health official must write a report for Congress (the lawmaking part of the government) within two years. The report will explain what the government has done to teach the public and doctors about this disease. It will also say how many doctors are available to treat adults who have it.\n\nThen, within one year after that report, the official must make a plan to do better. The plan will look at what is missing in research and how to get more doctors to treat adults with the disease. It will also find ways for different groups to share information.\n\nFinally, the law changes the years the program can get money. Before, it was allowed money through 2024. Now, it can get money from 2025 through 2029.",
+  "prompt_tokens": 1121,
+  "completion_tokens": 796,
+  "total_tokens": 1917,
+  "cost_usd": 0.001978,
+  "latency_s": 11.488,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

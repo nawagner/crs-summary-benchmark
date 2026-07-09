@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a plan from Congress (the group that makes national laws) to reject a rule made by the Environmental Protection Agency. The EPA is a government group that protects nature and clean air. The rule was about controlling air pollution from new, heavy-duty vehicles, like big trucks. \n\nThe main thing the bill does is cancel that EPA rule. The rule was published on January 24, 2023. If this bill becomes a law, the EPA's rule will have no force or effect. This means the rule will not be used, and the pollution limits for new big trucks and engines would be stopped. \n\nThe Senate, which is one part of Congress, already passed this bill on April 26, 2023. If the rest of Congress and the President agree to make it a law, the EPA's truck pollution rule will be canceled.",
+  "prompt_tokens": 479,
+  "completion_tokens": 1934,
+  "total_tokens": 2413,
+  "cost_usd": 0.00358,
+  "latency_s": 108.544,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

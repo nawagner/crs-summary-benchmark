@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law cancels a rule made by a government group called the Environmental Protection Agency, or EPA. The EPA is in charge of protecting the air, water, and land.\n\nThe rule they made was about something called a \"Waste Emissions Charge.\" This was a fee for oil and natural gas companies. It had to do with the gases these companies let out into the air. The rule set up steps for how the companies would follow this fee system, including ways to lower or skip the charge in some cases.\n\nCongress is the part of government that makes laws. Congress has the power to say \"no\" to a rule made by a group like the EPA. That is what this law does.\n\nWith this law, Congress says it does not agree with the EPA's rule. Because of that, the rule now has \"no force or effect.\" This means the rule is turned off. It does not count anymore, and companies do not have to follow it.\n\nThe law was passed by the House of Representatives on February 26, 2025. The Senate passed it on February 27, 2025. It was approved and became law on March 14, 2025.",
+  "prompt_tokens": 789,
+  "completion_tokens": 317,
+  "total_tokens": 1106,
+  "cost_usd": 0.01187,
+  "latency_s": 6.027,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

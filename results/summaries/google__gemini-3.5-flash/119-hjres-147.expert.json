@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 147 is a joint resolution that terminates the national emergency declared by the President on July 30, 2025, in Executive Order 14323 (published at 90 Fed. Reg. 37739), which was declared for the purpose of imposing duties on articles imported from Brazil. \n\nOperatively, the joint resolution effects this termination pursuant to the statutory authority granted to Congress under section 202 of the National Emergencies Act (50 U.S.C. 1622). The measure contains no other provisions, exceptions, conditions precedent, authorizations of appropriations, or specified effective dates, thereby relying on the standard enactment timeline for joint resolutions to terminate the designated emergency declaration upon its passage into law.",
+  "prompt_tokens": 521,
+  "completion_tokens": 165,
+  "total_tokens": 686,
+  "cost_usd": 0.002266,
+  "latency_s": 1.821,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

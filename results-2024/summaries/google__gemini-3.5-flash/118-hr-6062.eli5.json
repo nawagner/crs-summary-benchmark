@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This new law changes how American Samoa can update its constitution. American Samoa is a U.S. territory, which is a place governed by the United States but not a state. \n\nBefore this law passed, a different rule from 1983 said that any changes to American Samoa's constitution had to be approved by the United States Congress. Congress is the group of elected leaders in Washington, D.C., who make laws for the whole country. \n\nThis new law removes that old rule. Now, the people of American Samoa can change their own constitution themselves. To do this, a majority of their voters must agree to the changes in an election. The U.S. Congress does not need to vote on the changes anymore. \n\nThe President of the United States signed this bill into law on January 4, 2025.",
+  "prompt_tokens": 613,
+  "completion_tokens": 176,
+  "total_tokens": 789,
+  "cost_usd": 0.002504,
+  "latency_s": 2.028,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "openai/gpt-5.5",
+  "summary": "This law keeps a national program going for congenital heart disease. Congenital heart disease means a heart problem a person is born with. The program supports research, tracking cases, and sharing information with the public.\n\nThe law continues the program for the years 2025 through 2029.\n\nIt also tells the Secretary of Health and Human Services, the leader of a federal health department, to write a report within 2 years after November 21, 2024. The report must go to two committees in Congress. It must describe what the department has done to teach the public about congenital heart disease. It must also look at training for doctors and other health workers. It must describe how many health care workers in the United States treat adults with this condition.\n\nWithin 1 year after that report, the Secretary must send Congress a plan. The plan must look at gaps in awareness, research, training, adult care, mental health, quality of life, and long-term health. The Secretary may ask patient groups, doctors, researchers, insurers, and federal agencies for advice.",
+  "prompt_tokens": 1115,
+  "completion_tokens": 324,
+  "total_tokens": 1439,
+  "cost_usd": 0.015295,
+  "latency_s": 5.732,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

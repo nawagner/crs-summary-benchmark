@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution invokes the expedited disapproval procedure of the Congressional Review Act (chapter 8 of title 5, United States Code) to nullify a specified agency rule.\n\nThe operative provision states that Congress disapproves the rule jointly submitted by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency titled \"Revised Definition of 'Waters of the United States,'\" published at 88 Fed. Reg. 3004 (January 18, 2023). Upon enactment, the resolution provides that the rule \"shall have no force or effect.\"\n\nThe mechanism relies on the Congressional Review Act, 5 U.S.C. §§ 801–808. Under 5 U.S.C. § 801(b)(1), a rule disapproved by an enacted joint resolution does not take effect (or ceases to have effect). By operation of 5 U.S.C. § 801(b)(2), the disapproved rule may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, absent subsequent statutory authorization. The resolution itself contains no express reference to these downstream statutory consequences, which attach automatically by operation of the CRA.\n\nThe resolution effects no amendment to the United States Code and neither authorizes nor appropriates funds. Its sole legal effect is to invalidate the identified rule, which had defined the jurisdictional scope of \"waters of the United States\" under the Clean Water Act.\n\nProcedurally, the document reflects that the House of Representatives passed the measure on March 9, 2023, and that the Senate received it on March 14, 2023. As a joint resolution of disapproval, the measure requires passage by both chambers and presentment to the President under Article I; it is subject to presidential veto and does not carry independent legal effect until enacted into law. The CRA affords such resolutions expedited consideration in the Senate under 5 U.S.C. § 802, including limits on debate and protection from certain procedural obstacles, though those procedures are not restated in the text.\n\nThe resolution specifies no separate effective date; its legal consequences would take effect upon enactment in accordance with the CRA framework.",
+  "prompt_tokens": 827,
+  "completion_tokens": 710,
+  "total_tokens": 1537,
+  "cost_usd": 0.021885,
+  "latency_s": 11.06,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

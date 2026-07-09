@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill tells the President to remove U.S. Armed Forces from fighting in Iran or against Iran, unless Congress clearly approves it. Congress could approve it by declaring war or by passing a specific law allowing military force.\n\nThe bill says Congress has the power to declare war. It also says the President can act to defend the United States, its people, troops, and diplomats from attack.\n\nThe bill says Congress has not declared war on Iran or approved this use of force. It says the President told Congress on March 2, 2026, that military force against Iran began on February 28, 2026. Under the War Powers Resolution, a law about when the President can use troops, the President must usually stop using U.S. forces after 60 days unless Congress approves it. That 60-day period ends on May 1, 2026. The President may add up to 30 more days only if needed to safely remove U.S. forces.\n\nThe bill says it does not stop the United States from defending against attacks on Americans or U.S. sites in other countries. It also allows intelligence sharing, defensive help to Israel and other nations, and help for U.S. citizens to leave safely.",
+  "prompt_tokens": 1379,
+  "completion_tokens": 362,
+  "total_tokens": 1741,
+  "cost_usd": 0.017755,
+  "latency_s": 6.93,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

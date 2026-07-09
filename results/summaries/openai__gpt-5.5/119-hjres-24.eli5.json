@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels a rule made by the Department of Energy. The Department of Energy is the part of the government that works on energy rules and programs.\n\nThe rule was called “Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers.” Walk-in coolers and freezers are large cold rooms used by stores, restaurants, and other places to keep food and other items cold.\n\nThe rule was published on December 23, 2024. Congress disapproved it under a law that lets Congress review and cancel some agency rules. An agency is a government office that carries out laws.\n\nBecause of this law, the Department of Energy rule has “no force or effect.” That means the rule is not in effect and cannot be used as a rule.\n\nThe House passed this measure on March 27, 2025. The Senate passed it on April 2 and 3, 2025. It was approved on May 9, 2025.",
+  "prompt_tokens": 468,
+  "completion_tokens": 202,
+  "total_tokens": 670,
+  "cost_usd": 0.0084,
+  "latency_s": 4.068,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

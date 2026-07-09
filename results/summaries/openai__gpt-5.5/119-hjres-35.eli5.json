@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels an Environmental Protection Agency rule. The EPA is the government agency that works on pollution and the environment.\n\nThe rule was called “Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions.” It was about steps for oil and natural gas systems to follow for a waste emissions charge. It also included rules about “netting,” which means comparing amounts, and “exemptions,” which are cases where the rule would not apply.\n\nCongress used a process called congressional disapproval. That means Congress voted to reject a rule made by a federal agency.\n\nThe EPA rule was published on November 18, 2024. The House passed this resolution on February 26, 2025. The Senate passed it on February 27, 2025. It became law on March 14, 2025.\n\nBecause of this law, the EPA rule has no force or effect. That means the rule does not count as law and cannot be used.",
+  "prompt_tokens": 467,
+  "completion_tokens": 442,
+  "total_tokens": 909,
+  "cost_usd": 0.015595,
+  "latency_s": 7.67,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

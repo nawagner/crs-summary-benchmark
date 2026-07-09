@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"STOP CCP Act.\" It is about punishing certain leaders in China's Communist Party. This kind of punishment is called a \"sanction.\" A sanction is a way to block someone from using money or coming to the United States.\n\nThe bill says the President must set up these sanctions within 30 days of the law starting.\n\nWho gets punished? Leaders in China's Communist Party who help make rules that:\n- Take away Hong Kong's freedom.\n- Threaten or scare the people of Taiwan.\n- Hurt people's rights in China, like the Uyghur Muslims.\n- Try to mess with U.S. elections using fake news online.\n\nTheir grown-up family members can also be punished. So can Chinese state-owned companies that make or sell the dangerous drug fentanyl.\n\nWhat do the sanctions do? They freeze the person's money and property in the U.S. They also stop the person from getting a visa or coming into the country.\n\nThere are a few exceptions, like for United Nations business or U.S. safety work. The bill does not block goods (things) from being brought into the country.\n\nThe President can pause a sanction for up to 60 days if it helps keep America safe. The President can also end a sanction if China stops the bad actions, or if the person leaves the Party and fixes their behavior.\n\nThe House of Representatives passed this bill on September 25, 2024.",
+  "prompt_tokens": 5904,
+  "completion_tokens": 429,
+  "total_tokens": 6333,
+  "cost_usd": 0.040245,
+  "latency_s": 7.979,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

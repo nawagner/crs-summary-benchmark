@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill tells the President to remove United States soldiers from fighting in or against Iran. Congress is the part of the government that makes laws, and the rules say Congress must officially approve a war. Congress has not approved this fighting. The bill notes that by April 10, 2026, 13 American soldiers had died and at least 350 were hurt in this conflict. If this bill becomes a law, the President would have to bring the soldiers home unless Congress officially declares war or gives specific permission to fight.\n\nThe bill also says it would not stop the United States from doing certain things. The military could still defend against attacks on American people or buildings in other countries. The government could still collect and share information about threats from Iran. The United States could still help Israel and other nations protect themselves from attacks. Finally, the military could still help American citizens leave the area safely.",
+  "prompt_tokens": 1407,
+  "completion_tokens": 913,
+  "total_tokens": 2320,
+  "cost_usd": 0.002335,
+  "latency_s": 12.21,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

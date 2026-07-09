@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Removing Barriers to Work for Disabled Americans Act. It updates part of the Social Security law. Social Security runs a disability insurance program that sends money each month to people who cannot work because of a disability.\n\nThe bill lets the government continue running special test projects. These projects try out new ways to help disabled people work without losing their benefits right away. The old permission to do these tests ended in 2022. This bill gives new permission. Projects can be started until December 31, 2030, and must finish by December 31, 2031.\n\nThe bill also adds some rules. When the government plans a test, it must now explain how it will measure success. It must promise that no person’s total income will go down because they join a test project. That protects people who volunteer.\n\nThe bill changes how the projects are paid for. The cost of running the tests will come from regular program funds. The benefit checks sent to people in the tests will come from the Social Security trust funds.\n\nA few technical wording fixes are included. All the changes will take effect on January 1, 2027.",
+  "prompt_tokens": 1145,
+  "completion_tokens": 1292,
+  "total_tokens": 2437,
+  "cost_usd": 0.001622,
+  "latency_s": 22.35,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

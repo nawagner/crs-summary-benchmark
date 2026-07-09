@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, cited as the \"Kids Online Safety and Privacy Act,\" establishes online safety and privacy protections for minors and amends federal agency reporting requirements. \n\nTitle I imposes a duty of care on \"covered platforms\" (Sec. 102) to prevent and mitigate specified harms to minors, including mental health disorders, addiction-like behaviors, and sexual exploitation. It mandates safeguards, parental tools, reporting mechanisms, and prohibits advertising of illegal products to minors (Sec. 103), with violations enforced by the FTC and state attorneys general (Sec. 110). Large platforms must conduct annual third-party audits and issue public transparency reports (Sec. 105). Title I takes effect 18 months after enactment (Sec. 112), except Subtitle B (Filter Bubble Transparency), which takes effect one year after enactment. Subtitle B requires platforms using \"opaque algorithms\" to provide notice and allow users to switch to an \"input-transparent algorithm\" (Sec. 121). Title I preempts conflicting state laws but permits greater state protections (Sec. 130).\n\nTitle II amends the Children's Online Privacy Protection Act of 1998 (15 U.S.C. 6501 et seq.) to extend its protections to \"teens\" (individuals aged 13 to 16). It prohibits individual-specific advertising to children and teens, mandates data deletion and correction rights, and establishes requirements for verifiable consent (Sec. 201). It directs the FTC to study common verifiable consent mechanisms and issue reports on enforcement (Sec. 202), and requires a GAO study on teen privacy in financial technology (Sec. 203).\n\nTitle III amends 31 U.S.C. 1125 and 1105(a) to require agency heads to include in budget justification materials a list of recurring plans or reports determined to be outdated or duplicative, along with recommendations to sunset, modify, consolidate, or reduce their frequency (Sec. 301). It also amends the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 to conform report submission requirements. The bill authorizes studies and guidance but does not appropriate funds.",
+  "prompt_tokens": 24046,
+  "completion_tokens": 1916,
+  "total_tokens": 25962,
+  "cost_usd": 0.016417,
+  "latency_s": 26.726,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

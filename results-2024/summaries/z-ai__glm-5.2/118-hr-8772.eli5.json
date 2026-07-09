@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8772",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill gives money to run Congress and its offices for the year ending September 30, 2025. \"Appropriations\" means setting aside money to pay for things. The bill gives over $1.9 billion to the House of Representatives for salaries and expenses. It gives $174,000 to the widow of a late member of Congress. It also gives money to the Capitol Police, the Library of Congress, and other government offices.\n\nIf this bill becomes law, there will be new rules. Members of Congress will not get a cost-of-living pay raise in 2025. No money can be used to lease a vehicle for more than $1,000 a month. The Capitol Police cannot buy drones made in China unless it is for national security. Contractors who are behind schedule or over budget cannot get bonus money. Also, no money can be used for certain training that says one race or sex is better than another. Finally, no money can be used to punish someone for their religious belief that marriage is between one man and one woman.",
+  "prompt_tokens": 12327,
+  "completion_tokens": 1050,
+  "total_tokens": 13377,
+  "cost_usd": 0.008532,
+  "latency_s": 13.944,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

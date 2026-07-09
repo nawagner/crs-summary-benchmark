@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Kids Online Safety and Privacy Act. It creates new rules for apps, websites, online games, and streaming services that kids and teens might use. The goal is to make these online spaces safer and more private.\n\nThe bill says these online platforms must try to prevent certain harms to users under age 17. These harms include things like anxiety, depression, bullying, and sexual abuse. Platforms must provide easy-to-use safety settings. For example, these settings must let kids limit who can talk to them, control recommendation systems that suggest videos or posts, and set time limits. The strongest privacy and safety settings must be on by default for children under 13. Platforms also cannot show ads for illegal drugs, tobacco, gambling, or alcohol to users they know are minors.\n\nThe bill also updates an older privacy law called the Children's Online Privacy Protection Act. It extends protections to teenagers ages 13 to 16. It limits how companies can collect and use personal information, like a child's location or photo. It bans targeted advertising to kids and teens. It also gives parents and teens the right to delete a teen's personal information.\n\nAnother part of the bill requires large social media platforms to let users choose a simpler version of their feed. This version would not use personal data to pick what to show. Finally, the bill asks government agencies to list old or repeated reports they send to Congress, so those reports can be ended or combined. Most of the new safety rules would take effect 18 months after the bill becomes law.",
+  "prompt_tokens": 24204,
+  "completion_tokens": 869,
+  "total_tokens": 25073,
+  "cost_usd": 0.011285,
+  "latency_s": 26.741,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

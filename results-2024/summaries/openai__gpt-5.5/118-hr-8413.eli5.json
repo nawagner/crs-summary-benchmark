@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "openai/gpt-5.5",
+  "summary": "This law lets the U.S. government transfer some federal land and water areas at Swanson Reservoir and Hugh Butler Reservoir in Nebraska to Hitchcock County or Frontier County. These areas include cabin lots and public service areas, such as concession land.\n\nThe Secretary of the Interior must try to make transfer agreements with the counties within 3 years after December 23, 2024. A transfer agreement is a deal about how ownership will move from the United States to a county.\n\nThe counties must pay fair market value for the land. That means the normal price the land would likely sell for. An outside appraiser must set the value. The counties must also pay survey and paperwork costs before the transfer.\n\nThe land must be transferred as a whole and may not be split into smaller pieces. The counties must show they can manage and pay for the land. They must fix any needed fire, safety, and health code issues within 2 years after getting the land.\n\nThe land must keep being used mostly as it is now, or for recreation, public access, wildlife habitat, or keeping its natural character. Existing rights, permits, easements, and reservoir operations still apply. If no transfer deal is made in 3 years, the federal government keeps managing the land under current law.",
+  "prompt_tokens": 4446,
+  "completion_tokens": 559,
+  "total_tokens": 5005,
+  "cost_usd": 0.039,
+  "latency_s": 11.27,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

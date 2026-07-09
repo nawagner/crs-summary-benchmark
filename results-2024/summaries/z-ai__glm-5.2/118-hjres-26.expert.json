@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-1 (H.J. Res. 26) is a joint resolution that exercises Congress's legislative authority over the District of Columbia to disapprove a local enactment. The resolution's primary purpose is to formally disapprove the action of the District of Columbia Council in approving the Revised Criminal Code Act of 2022 (D.C. Act 24-789). \n\nThe operative mechanism relies on the transmittal of the D.C. Council's enactment to Congress pursuant to section 602(c)(1) of the District of Columbia Home Rule Act. The D.C. Council enacted D.C. Act 24-789 on January 17, 2023, and transmitted it to Congress on January 27, 2023. By enacting this joint resolution, Congress exercises its statutory power to veto the local act, thereby preventing the Revised Criminal Code Act of 2022 from taking effect as law. \n\nThe joint resolution contains no additional provisions, amendments to the U.S. Code, exceptions, or appropriations. It operates solely as a standalone disapproval resolution. The legislative history establishes that the House of Representatives considered and passed the resolution on February 9, 2023, and the Senate considered and passed it on March 8, 2023. The joint resolution was subsequently approved by the President on March 20, 2023, finalizing the congressional disapproval of the District of Columbia Council's action.",
+  "prompt_tokens": 479,
+  "completion_tokens": 1434,
+  "total_tokens": 1913,
+  "cost_usd": 0.002722,
+  "latency_s": 19.662,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

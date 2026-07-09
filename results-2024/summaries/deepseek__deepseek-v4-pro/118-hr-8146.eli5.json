@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Police Our Border Act. It does not create any new crimes or spend any money. It orders the Attorney General, the top law enforcement official in the country, to write a report for Congress. The report must be finished within six months (180 days) after the bill becomes law.\n\nThe report must describe how the crisis at the U.S. southern border is affecting police officers at every level—federal, state, local, and tribal. It specifically has to include:\n\n- How much money is being used to deal with border problems, and how that money is no longer available for other police needs.\n- How often officers are exposed to a dangerous drug called fentanyl during encounters with people who crossed the border illegally, along with the home country of each person.\n- The number of officers hurt because of the border situation or fentanyl exposure.\n- How officers feel about their jobs (morale).\n- Whether border problems make it harder to recruit and hire new officers.\n- The amount of money states have spent on local police work to investigate, stop, and process fentanyl coming from the border—this covers the whole process of collecting, studying, storing, and destroying drug evidence.\n- How many officers have been reassigned from their usual duties to work on fentanyl smuggling from the border, and what local resources have been moved around for this work.",
+  "prompt_tokens": 975,
+  "completion_tokens": 1795,
+  "total_tokens": 2770,
+  "cost_usd": 0.001986,
+  "latency_s": 25.194,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

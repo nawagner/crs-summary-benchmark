@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by a government office called the Bureau of Ocean Energy Management. The rule was about protecting old, historical objects found in the ocean. These objects are called marine archaeological resources. \n\nThe rule was created on September 3, 2024. Because of this new law, the old rule will have \"no force or effect.\" This means the rule is erased and the government cannot use it. \n\nThe president approved this law on March 14, 2025. The law does not create a new rule to replace the old one. It only stops the old rule from happening. If this law had not passed, the rule about protecting ocean objects would still be active. Now, that rule is gone.",
+  "prompt_tokens": 428,
+  "completion_tokens": 983,
+  "total_tokens": 1411,
+  "cost_usd": 0.001921,
+  "latency_s": 26.298,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

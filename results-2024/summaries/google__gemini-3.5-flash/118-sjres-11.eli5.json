@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of bill that must be approved by both the Senate and the House of Representatives, which are the two parts of the United States Congress. \n\nThis bill is about a rule made by the Environmental Protection Agency, also called the EPA. The EPA is the part of the government that makes rules to protect the environment. On January 24, 2023, the EPA made a rule to control air pollution from new, large vehicles. These large vehicles are called heavy-duty engines and vehicles, like big trucks and buses. \n\nIf this bill becomes a law, it would stop that EPA rule from being used. The bill says that Congress does not approve of the rule. It states that the rule will have no force or effect. This means the rule would not be a law anymore, and the new pollution limits for big trucks would not be put into action. The Senate passed this bill on April 26, 2023.",
+  "prompt_tokens": 519,
+  "completion_tokens": 207,
+  "total_tokens": 726,
+  "cost_usd": 0.002642,
+  "latency_s": 1.739,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

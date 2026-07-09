@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Utah State Parks Adjustment Act.\" It tells the U.S. government to give some of its land to the state of Utah. The land will become part of three state parks.\n\nThe three parks are Antelope Island State Park, Wasatch Mountain State Park, and Fremont Indian State Park.\n\nThe government must hand over the land within 180 days (about six months) after the law is signed. The land is given for free. Utah does not have to pay to get it. But Utah does have to pay for costs like surveys. A survey is when people measure the land to see exactly where it is.\n\nFor the Fremont Indian State Park land, there are extra rules. The government keeps the right to use certain roads and trails. Utah will also get some water rights that help supply water to a campground and a historic site.\n\nUtah must use the land for public things. This means parks, campgrounds, places to have fun outside, and letting farm animals graze (eat grass) where it is allowed.\n\nIf Utah stops using the land for these public reasons, the government can take the land back.\n\nThe law was approved on December 23, 2024.",
+  "prompt_tokens": 2826,
+  "completion_tokens": 337,
+  "total_tokens": 3163,
+  "cost_usd": 0.022555,
+  "latency_s": 6.515,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

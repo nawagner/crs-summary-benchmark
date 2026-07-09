@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule made by the U.S. Department of Labor. The rule is called “Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights.” It was published on December 1, 2022.\n\nThe rule deals with how people who run certain retirement plans choose investments and use shareholder rights. Shareholder rights are powers that come with owning part of a company, such as voting on company matters.\n\nCongress is using a law that lets it reject rules made by government agencies. A government agency is a part of the federal government that carries out laws.\n\nIf this bill becomes law, Congress would officially disapprove the Labor Department rule. The rule would have no force or effect. That means it could not be used or enforced.",
+  "prompt_tokens": 424,
+  "completion_tokens": 270,
+  "total_tokens": 694,
+  "cost_usd": 0.01022,
+  "latency_s": 7.159,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

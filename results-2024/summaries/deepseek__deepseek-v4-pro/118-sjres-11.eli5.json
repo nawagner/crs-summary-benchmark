@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress. It cancels a rule made by the Environmental Protection Agency (EPA). The EPA is the part of the government that makes rules to protect our air and water. The rule was about cutting down air pollution from new heavy-duty trucks and their engines. It was published on January 24, 2023. If this resolution becomes law, that EPA rule will be thrown out and will not take effect. The Senate passed this resolution on April 26, 2023.",
+  "prompt_tokens": 475,
+  "completion_tokens": 1027,
+  "total_tokens": 1502,
+  "cost_usd": 0.0011,
+  "latency_s": 23.087,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

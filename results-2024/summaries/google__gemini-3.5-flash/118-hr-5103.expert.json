@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-229, the \"Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act\" or the \"FISHES Act,\" amends Section 312(a)(6) of the Magnuson-Stevens Fishery Conservation and Management Act (16 U.S.C. 1861a(a)(6)) to establish statutory deadlines and procedures governing the submission, review, and funding of spend plans for fishery resource disaster assistance. \n\nSection 2(1) of the Act strikes and replaces subparagraph (D) of 16 U.S.C. 1861a(a)(6). Under the newly enacted clause (i), to receive an allocation from funds available under paragraph (9), a requester with an affirmative fishery resource disaster determination must submit a spend plan to the Secretary of Commerce within a strict deadline of 120 days after receiving notification of fund availability. The spend plan must include, if applicable, objectives and outcomes (emphasizing factors contributing to the disaster and minimizing future uninsured losses), a statement of work, and budget details. Clause (ii) establishes a mandatory review timeline, requiring the Secretary to review the submitted spend plan and provide notice of completeness or incompleteness within 10 days of receipt. If the plan is deemed incomplete, the Secretary must provide a detailed description of the information necessary to cure the deficiency.\n\nSection 2(2) of the Act strikes and replaces subparagraph (F)(i) of 16 U.S.C. 1861a(a)(6) to accelerate the disbursement of allocated funds. Subclause (I) mandates that funds be made available to grantees not later than 90 days after the date the Secretary receives a complete spend plan. Subclause (II) authorizes the Director of the Office of Management and Budget (OMB), upon request, to review a completed spend plan concurrently with the Secretary's review. However, subclause (II) explicitly prohibits the Director of OMB from delaying the 90-day statutory timeline for the availability of funds to grantees.",
+  "prompt_tokens": 1049,
+  "completion_tokens": 434,
+  "total_tokens": 1483,
+  "cost_usd": 0.005479,
+  "latency_s": 2.751,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

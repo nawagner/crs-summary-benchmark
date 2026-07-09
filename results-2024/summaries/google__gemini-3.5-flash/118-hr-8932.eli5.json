@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the FAFSA Deadline Act. FAFSA stands for Free Application for Federal Student Aid. It is a form that students fill out to get money from the government to help pay for college. \n\nBefore this law, the government had to make the FAFSA form available by January 1, but they tried to get it ready by October 1. This new law changes the official start date. Now, the government must make the FAFSA form available to students by October 1 of the year before they start college. \n\nThe law also sets new rules for the Secretary of Education, who is the leader of the government's education department. By September 1 of each year, the Secretary must tell Congress if the form will be ready by the October 1 deadline. Congress is the group of people who make laws for the country. \n\nIf the form will not be ready on time, the Secretary must do something else. By September 30, the Secretary must go to Congress and explain why the form is late. They must also explain how the delay will affect students and their families financially.",
+  "prompt_tokens": 917,
+  "completion_tokens": 231,
+  "total_tokens": 1148,
+  "cost_usd": 0.003455,
+  "latency_s": 1.958,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

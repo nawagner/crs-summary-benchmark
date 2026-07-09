@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the Declaration of Independence Reaffirmation Act of 2026. It mainly says that Congress officially supports the Declaration of Independence again. The bill calls the Declaration an \"Organic Law\" of the United States. An Organic Law is a basic, founding law that helps start a country.\n\nCongress is doing this to honor the 250th anniversary of American independence. The Declaration was first adopted on July 4, 1776. To remember this event, the bill also prints the full words of the Declaration of Independence.\n\nIf this bill becomes law, it works mostly as a formal statement. It does not create new rules, taxes, or programs. Instead, it reminds people that the Declaration of Independence and the Constitution work together. They set up a government where the people are in charge and public workers serve them. The bill simply repeats the country's promise to the ideas written in the Declaration.",
+  "prompt_tokens": 2655,
+  "completion_tokens": 975,
+  "total_tokens": 3630,
+  "cost_usd": 0.003123,
+  "latency_s": 6.016,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

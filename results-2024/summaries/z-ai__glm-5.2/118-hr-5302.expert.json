@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-139 (H.R. 5302), cited as the \"Michel O. Maceda Memorial Act,\" designates the Air and Marine Operations Marine Unit of the U.S. Customs and Border Protection located at 101 Km 18.5 in Cabo Rojo, Puerto Rico, as the \"Michel O. Maceda Marine Unit.\" \n\nSection 2 sets forth congressional findings detailing the military and federal service of Marine Interdiction Agent Michel O. Maceda, his death in the line of duty during a drug interdiction stop off the coast of Puerto Rico on November 17, 2022, and his surviving family members.\n\nSection 3 provides the operative designation, mandating that the specified marine unit \"shall forever be known and designated\" as the \"Michel O. Maceda Marine Unit.\"\n\nSection 4 establishes a conforming reference provision, stipulating that any reference in a law, map, regulation, document, paper, or other record of the United States to the marine unit referred to in section 3 shall be deemed to be a reference to the \"Michel O. Maceda Marine Unit.\"\n\nThe Act contains no new authorizations of appropriations, does not amend existing provisions of the U.S. Code, and imposes no conditions precedent or regulatory requirements. The Act was approved on December 11, 2024.",
+  "prompt_tokens": 823,
+  "completion_tokens": 817,
+  "total_tokens": 1640,
+  "cost_usd": 0.001851,
+  "latency_s": 4.212,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

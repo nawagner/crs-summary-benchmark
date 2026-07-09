@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "H.R. 7258, the \"Energy Emergency Leadership Act,\" would amend section 203(a) of the Department of Energy Organization Act (42 U.S.C. 7133(a)) to expand the categories of functions the Secretary of Energy may assign to Assistant Secretaries. The bill's operative mechanism is the addition of a new paragraph (12) to that subsection, enumerating \"[e]nergy emergency and energy security functions\" as among the assignable functions.\n\nNew paragraph (12) specifies two components. Subparagraph (A) covers responsibilities relating to energy infrastructure, security and resilience, emerging threats, cybersecurity, supply, and emergency planning, preparedness, coordination, response, and restoration, each qualified by \"as appropriate.\" Subparagraph (B) authorizes, upon request of a State, local, or Tribal government or an energy sector entity, and in coordination with other Federal agencies as appropriate, the provision of technical assistance and support to protect against, detect, and respond to energy security threats, risks, and incidents.\n\nSection 2(b) imposes a coordination directive, requiring the Secretary of Energy to ensure that the functions described in the newly added section 203(a)(12) are performed in coordination with relevant Federal agencies.\n\nThe bill effects a structural and organizational amendment to the enumeration of Assistant Secretary functions; it does not itself assign the functions to a designated Assistant Secretary, create a new office or position, prescribe a definition of \"energy sector entity,\" or establish deadlines, reporting requirements, or sunset provisions. It contains no authorization of appropriations and makes no appropriation. No effective date is specified, so the amendments would take effect upon enactment.\n\nProcedurally, the bill was introduced January 27, 2026, by Ms. Lee of Florida and Mr. Walberg, referred to the Committee on Energy and Commerce, and on May 11, 2026, reported (Report No. 119-645) and committed to the Committee of the Whole House on the State of the Union.",
+  "prompt_tokens": 1429,
+  "completion_tokens": 672,
+  "total_tokens": 2101,
+  "cost_usd": 0.023945,
+  "latency_s": 9.855,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

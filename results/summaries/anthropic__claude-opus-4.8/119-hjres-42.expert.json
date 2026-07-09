@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-8, exercises Congress's authority under the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801–808), to nullify a specified agency rule.\n\nThe resolution's sole operative provision states that Congress disapproves the rule promulgated by the Department of Energy entitled \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment,\" published at 89 Fed. Reg. 81994 (October 9, 2024). By operation of the resolution, \"such rule shall have no force or effect.\"\n\nThe legal mechanism follows the standard CRA disapproval framework under 5 U.S.C. § 802. Enactment of a joint resolution of disapproval renders the identified rule void ab initio (deprived of legal effect), and, pursuant to 5 U.S.C. § 801(b)(2), a rule that has not taken effect or does not continue in effect may not be reissued in substantially the same form, nor may a new rule that is substantially the same be issued, unless specifically authorized by a subsequently enacted law. The resolution invokes the expedited procedures available under 5 U.S.C. § 802 in the Senate, and its enactment reflects the presentment and signature requirements applicable to joint resolutions.\n\nThe resolution contains no amendments to the United States Code, no authorizations of appropriations, no appropriations, and no delegations of new regulatory authority. It effects no sunset provision and specifies no separate effective date; the disapproval operates upon the resolution's approval.\n\nPer the legislative history, H.J. Res. 42 was passed by the House on March 5, 2025, and by the Senate on April 29 and 30, 2025, and was approved on May 9, 2025.\n\nThe resolution's effect is confined to the single identified Department of Energy rule; it does not otherwise alter the underlying statutory Energy Conservation Program or the Department's general rulemaking authority thereunder, subject to the CRA's reissuance bar described above.",
+  "prompt_tokens": 936,
+  "completion_tokens": 715,
+  "total_tokens": 1651,
+  "cost_usd": 0.022555,
+  "latency_s": 11.106,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

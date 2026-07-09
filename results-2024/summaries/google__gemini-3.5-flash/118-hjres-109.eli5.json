@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress passes it and the president signs it. This specific bill is about a rule made by a government group called the Securities and Exchange Commission, or SEC. The SEC is a government agency that makes rules to protect people who invest money. \n\nIn April 2022, the SEC wrote a rule called \"Staff Accounting Bulletin No. 121.\" This bill says that Congress does not agree with that rule. If this bill becomes a law, it will officially cancel the SEC's rule. The rule would have no power, and it would not be a rule anymore. \n\nThe bill mentions a letter from another government group, the Government Accountability Office, from October 31, 2023. This letter explained that the SEC's bulletin is indeed a rule that Congress has the power to review and stop. \n\nThe House of Representatives, which is one of the two parts of Congress, voted and passed this bill on May 8, 2024. Next, it was sent to the Senate, which is the other part of Congress, on May 9, 2024, to be voted on there.",
+  "prompt_tokens": 537,
+  "completion_tokens": 257,
+  "total_tokens": 794,
+  "cost_usd": 0.003118,
+  "latency_s": 3.941,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

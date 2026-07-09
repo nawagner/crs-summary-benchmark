@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would continue a federal program that helps some electric utilities improve cybersecurity. Cybersecurity means protecting computer systems from attacks.\n\nThe program would give technical help and money, such as grants, cooperative agreements, and prizes. Grants are money that usually does not have to be paid back. The help would go to rural electric cooperatives, city-owned electric utilities, some other local government-owned utilities, certain nonprofit groups working with at least 6 of these utilities, and small investor-owned electric utilities that sell less than 4,000,000 megawatt hours of electricity each year.\n\nThe program’s goals are to help utilities use better cybersecurity tools and to get more utilities to share information about cyber threats.\n\nThe federal official running the program would make rules for who gets help. The bill says priority should go to utilities with few cybersecurity resources, utilities with important parts of the main electric grid, and utilities that serve important defense needs.\n\nInformation shared with governments through this program would be treated as voluntary. It would not have to be released under public records laws.\n\nThe bill allows Congress to provide $250 million for this program for fiscal years 2026 through 2030.",
+  "prompt_tokens": 1597,
+  "completion_tokens": 332,
+  "total_tokens": 1929,
+  "cost_usd": 0.017945,
+  "latency_s": 7.068,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

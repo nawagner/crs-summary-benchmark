@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law is a short-term extension that keeps many federal aviation programs and taxes going a little longer. It pushes back the expiration dates for these programs from early March 2024 to early May 2024.\n\nIt provides money for programs for the period starting October 1, 2023 and ending May 10, 2024. The airport improvement program receives about $2.04 billion to repair runways and upgrade airports. The Federal Aviation Administration, or FAA (the agency that oversees air travel), gets about $7.26 billion for operations like air traffic control. Another $1.79 billion goes for air navigation equipment, and $155 million goes for research. About $216 million helps small communities keep airline service, and about $6 million is for airports that do not have enough flights.\n\nTo divide the airport improvement money fairly, the law first calculates shares as if a full year’s budget were $3.35 billion. Then it reduces those shares by 39 percent, because the money only covers a little more than seven months.\n\nThe law also extends the taxes that pay for these aviation programs. Taxes on airplane fuel and passenger tickets are now allowed through May 10, 2024. The authority for the government to stop drones that could be dangerous is extended to May 11, 2024.",
+  "prompt_tokens": 3724,
+  "completion_tokens": 1271,
+  "total_tokens": 4995,
+  "cost_usd": 0.002726,
+  "latency_s": 28.727,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

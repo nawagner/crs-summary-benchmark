@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Energy Threat Analysis Center Act of 2026 amends Section 40125(c) of the Infrastructure Investment and Jobs Act (42 U.S.C. 18724(c)) to reauthorize the Department of Energy's Energy Sector Operational Support for Cyberresilience Program for fiscal years 2027 through 2031.\n\nSection 2 amends subsection (c) by revising the program's purpose in paragraph (1). It redesignates existing subparagraphs (A) through (E) as (B) through (F), inserts a new subparagraph (A) articulating the purpose to strengthen collective defense, response, and resilience of the U.S. energy sector through enhanced government-sector collaboration, threat analysis, and intelligence sharing, and strikes redesignated subparagraph (F). \n\nThe bill redesignates existing paragraph (2) as paragraph (7) and inserts new paragraphs (2) through (6). New paragraph (2) authorizes the Secretary to carry out program activities through an Energy Threat Analysis Center, which may be established at one or more physical locations. New paragraph (3) provides that the provision of assistance or information under the program is at the sole and unreviewable discretion of the Secretary and does not create a substantive or procedural right or benefit for any other governmental or private entity. New paragraph (4) exempts the program from the Federal Advisory Committee Act (chapter 10 of title 5, United States Code). New paragraph (5) provides that information shared under the program is deemed voluntarily shared and exempt from disclosure under section 552 of title 5, United States Code, and any State, Tribal, or local provision of law, and shall be withheld without discretion under section 552(b)(3)(B) of title 5, United States Code, and any State, Tribal, or local provision of law. New paragraph (6) grants the Secretary transaction authority to enter into contracts, cooperative agreements, grants, and other transactions with public agencies, private organizations, and persons, and authorizes the use of pre-approved national security contracting mechanisms, model partnership agreements, and expedited review procedures. \n\nFinally, in redesignated paragraph (7), the bill reauthorizes the program by striking \"2022 through 2026\" and inserting \"2027 through 2031.\" The bill authorizes the program and associated transaction authorities but does not appropriate funds.",
+  "prompt_tokens": 1636,
+  "completion_tokens": 1574,
+  "total_tokens": 3210,
+  "cost_usd": 0.003594,
+  "latency_s": 8.351,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

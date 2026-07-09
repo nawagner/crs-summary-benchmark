@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The TREAT Youth Act (H.R. 3689) is a single-purpose bill that amends the SUPPORT for Patients and Communities Act (Pub. L. 115-271) to reauthorize appropriations for a youth prevention and recovery initiative.\n\nSection 1 provides the short title: the \"Treatment, Recovery, Education, Awareness, and Training for Youth Act\" or \"TREAT Youth Act.\"\n\nSection 2 is the sole operative provision. It amends Section 7102(c)(9) of the SUPPORT for Patients and Communities Act, codified at 42 U.S.C. 290bb-7a(c)(9), by striking the existing authorization-of-appropriations paragraph and replacing it in its entirety with a new authorization schedule. The revised paragraph (9) authorizes to be appropriated, to carry out the subsection: $10,000,000 for fiscal year 2026; $12,000,000 for fiscal year 2027; $13,000,000 for fiscal year 2028; $14,000,000 for fiscal year 2029; and $15,000,000 for fiscal year 2030.\n\nThe amendment operates strictly as an authorization of appropriations, not an appropriation; it establishes ceilings for future discretionary appropriations across the specified fiscal years but confers no budget authority absent subsequent enactment of appropriations legislation. The bill amends only the authorization figures within subsection (c)(9); it does not alter the substantive parameters, eligibility criteria, or operational provisions of the underlying youth prevention and recovery initiative established elsewhere in Section 7102.\n\nThe bill contains no separate effective-date provision, no sunset clause independent of the fiscal-year limitation inherent in the authorization schedule (which terminates after FY 2030), and no conditions precedent, exceptions, or reporting requirements. It creates no new program authority or repeal beyond the substitution of the appropriations paragraph.\n\nThe bill was introduced in the House on June 3, 2025, by Ms. Lee of Nevada and Mrs. Kiggans of Virginia, and referred to the Committee on Energy and Commerce and, additionally, to the Committee on Education and Workforce for consideration of provisions within their respective jurisdictions.",
+  "prompt_tokens": 1105,
+  "completion_tokens": 745,
+  "total_tokens": 1850,
+  "cost_usd": 0.02415,
+  "latency_s": 10.518,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

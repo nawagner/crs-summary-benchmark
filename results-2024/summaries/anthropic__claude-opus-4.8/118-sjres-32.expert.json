@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "S.J. Res. 32 is a joint resolution of congressional disapproval invoking the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (specifically 5 U.S.C. § 802). Its primary purpose and operative mechanism is to nullify a final rule promulgated by the Bureau of Consumer Financial Protection (CFPB) titled \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B),\" published at 88 Fed. Reg. 35150 (May 31, 2023).\n\nThe resolution contains a single operative clause providing that Congress disapproves the identified rule and that \"such rule shall have no force or effect.\" This tracks the standard CRA disapproval formula under 5 U.S.C. § 801(b)(1), which, upon enactment (i.e., passage by both chambers and either presidential signature or override of a veto), voids the rule. By operation of 5 U.S.C. § 801(b)(2), a rule disapproved by an enacted joint resolution may not be reissued in substantially the same form, and a substantially similar rule may not be issued, absent subsequent statutory authorization.\n\nThe rule at issue implements section 1071 of the Dodd-Frank Wall Street Reform and Consumer Protection Act, which amended the Equal Credit Opportunity Act (ECOA), by requiring the collection and reporting of small business lending data. The resolution does not amend, repeal, or otherwise modify the underlying statutory authority in ECOA or section 1071; it operates solely to negate the specified implementing regulation.\n\nThe measure contains no authorization of appropriations, no appropriation, no sunset provision, and no delayed effective date; under the CRA, disapproval takes effect upon enactment of the joint resolution. The engrossment reflects that the resolution passed the Senate on October 18, 2023. As an engrossed Senate measure, it requires passage by the House of Representatives and presentment to the President to take effect; the CRA affords expedited procedures for Senate consideration of such disapproval resolutions under 5 U.S.C. § 802.\n\nNo exceptions, conditions precedent, or ancillary provisions are contained in the text. The resolution's legal effect is confined to the disapproval and nullification of the single identified CFPB rule.",
+  "prompt_tokens": 901,
+  "completion_tokens": 765,
+  "total_tokens": 1666,
+  "cost_usd": 0.02363,
+  "latency_s": 11.288,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

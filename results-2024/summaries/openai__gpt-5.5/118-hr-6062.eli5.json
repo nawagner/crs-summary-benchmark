@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "openai/gpt-5.5",
+  "summary": "This law changes how American Samoa can update its constitution. A constitution is the main set of rules for a government.\n\nThe law repeals, or cancels, Section 12 of Public Law 98-213. That section was a federal rule about changes to the Constitution of American Samoa.\n\nBy removing that rule, the people of American Samoa can approve changes to their territorial constitution by majority rule. Majority rule means more people vote “yes” than “no.” These changes do not need another act of Congress first.\n\nThe law says this fits with earlier federal authority that let the President, and later the Secretary of the Interior, oversee federal territorial law for American Samoa. The Secretary of the Interior is a U.S. official who helps handle some issues for U.S. territories.\n\nCongress still keeps its power over territories under the U.S. Constitution.\n\nThe law was approved on January 4, 2025.",
+  "prompt_tokens": 539,
+  "completion_tokens": 445,
+  "total_tokens": 984,
+  "cost_usd": 0.016045,
+  "latency_s": 9.014,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

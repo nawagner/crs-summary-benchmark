@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution is an exercise of Congress's authority under the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801–808), to nullify a covered agency rule through the expedited disapproval mechanism the CRA establishes.\n\nThe resolution's single operative provision states that Congress disapproves the Department of Labor rule titled \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,\" published at 87 Fed. Reg. 73822 (December 1, 2022), and provides that \"such rule shall have no force or effect.\" This tracks the disapproval formula prescribed by 5 U.S.C. § 802 and triggers the legal consequence set out in 5 U.S.C. § 801(b)(1): a rule that is the subject of an enacted joint resolution of disapproval does not take effect (or continue in effect).\n\nEnactment would also invoke 5 U.S.C. § 801(b)(2), which bars the agency from reissuing the disapproved rule in substantially the same form, or issuing a new rule that is substantially the same, absent subsequent statutory authorization. The resolution does not itself amend the Employee Retirement Income Security Act (ERISA) or any other provision of the U.S. Code; its effect is limited to voiding the identified DOL rule, which had amended DOL's investment-duties regulations governing ERISA plan fiduciaries.\n\nThe resolution contains no appropriation, no authorization of appropriations, no delegated rulemaking authority, and no effective-date provision, severability clause, or sunset. Consistent with the CRA framework, the measure would take effect upon enactment, which requires passage by both chambers and presentment to the President under Article I, Section 7; a joint resolution of disapproval is subject to presidential veto and is not self-executing without enactment.\n\nThe document as presented reflects the resolution as passed by the House of Representatives on February 28, 2023, and received in the Senate on March 1, 2023 (\"Received in Senate\" / RDS stage). It records House passage but no Senate action, and thus represents an intermediate procedural posture rather than an enacted law. The CRA's expedited Senate procedures (including limits on debate under 5 U.S.C. § 802 and the discharge and consideration provisions) would govern the resolution's subsequent handling in the Senate.",
+  "prompt_tokens": 801,
+  "completion_tokens": 792,
+  "total_tokens": 1593,
+  "cost_usd": 0.023805,
+  "latency_s": 12.691,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

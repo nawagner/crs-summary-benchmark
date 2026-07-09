@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, cited as the “Safer Response Act of 2025,” amends section 546 of the Public Health Service Act (42 U.S.C. 290ee‑1) to reauthorize and broaden the grant program for first responder training with respect to drug overdoses. The amendment makes a technical correction in subsection (a) by capitalizing “Tribes and Tribal.” In subsections (a), (c), and (d), the term “opioid” is struck each place it appears, expanding the program’s focus from opioid overdoses to all drug overdoses, and the phrase “approved or cleared” is each place replaced with “approved, cleared, or otherwise legally marketed” to capture any legally marketed overdose reversal drug. In subsection (f), the same substitution of “approved, cleared, or otherwise legally marketed” is made; in paragraph (1), “opioid” is struck; in paragraph (2), “opioid and heroin” is replaced with “opioid, heroin, and other drug” and “opioid overdose” is replaced with “overdose”; and in paragraph (3), “opioid and heroin” is struck. Subsection (h) is amended to extend and increase the authorization of appropriations by striking “$36,000,000 for each of fiscal years 2019 through 2023” and inserting “$57,000,000 for each of fiscal years 2026 through 2030.” The Act authorizes, but does not appropriate, funds for the specified fiscal years.",
+  "prompt_tokens": 721,
+  "completion_tokens": 1770,
+  "total_tokens": 2491,
+  "cost_usd": 0.001854,
+  "latency_s": 21.833,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

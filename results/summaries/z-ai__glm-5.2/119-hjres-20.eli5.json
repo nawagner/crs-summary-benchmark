@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the Department of Energy. The Department of Energy is a part of the government that makes rules about saving energy. \n\nThe rule was about gas-fired instantaneous water heaters. These are machines that heat water right away using gas, so you do not need a big tank. The rule wanted to set new standards for how much energy these machines could use. \n\nCongress did not agree with this rule. Congress is the part of the government that makes laws. They voted to say they disapprove of the rule. Because of this law, the rule will have \"no force or effect.\" This means the rule is stopped and cannot be used. \n\nThe Department of Energy made the rule on December 26, 2024. The President approved this law to cancel the rule on May 9, 2025. Now, the new energy rules for these water heaters will not happen.",
+  "prompt_tokens": 479,
+  "completion_tokens": 859,
+  "total_tokens": 1338,
+  "cost_usd": 0.001736,
+  "latency_s": 13.692,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

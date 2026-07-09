@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would give a new official name to one post office.\n\nThe United States Postal Service building at 201 East Grant Avenue in Georgetown, Ohio, would be named the “Ulysses S. Grant Post Office Building.”\n\nIf the bill becomes law, any United States government law, map, rule, paper, or record that talks about this post office would use, or be treated as using, that new name.\n\nThe bill does not change how the post office works. It only changes the official name of the building.",
+  "prompt_tokens": 514,
+  "completion_tokens": 109,
+  "total_tokens": 623,
+  "cost_usd": 0.00584,
+  "latency_s": 3.743,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

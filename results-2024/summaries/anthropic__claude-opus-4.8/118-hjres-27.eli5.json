@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This is a joint resolution. That is a kind of decision that both parts of Congress vote on.\n\nThe resolution is about a rule made by two government groups. One is the Army Corps of Engineers, which is part of the Department of Defense. The other is the Environmental Protection Agency, or EPA, which works to protect nature and clean water.\n\nThese two groups made a new rule in January 2023. The rule changed the meaning of the words \"Waters of the United States.\" That means it changed which lakes, rivers, and other water areas the government has power to watch over and protect.\n\nThis resolution says that Congress does not agree with that rule. Congress uses a special power to say \"no\" to rules made by government groups. If this resolution becomes law, the rule would be canceled. It would have no power. It would be like the rule was never made.\n\nThe House of Representatives already voted yes on March 9, 2023. Then it was sent to the Senate on March 14, 2023. For it to become law, the Senate must also agree, and after that the President would need to sign it.\n\nThe resolution does not say what the new meaning of \"Waters of the United States\" should be. It only says the rule made in January 2023 should be stopped.",
+  "prompt_tokens": 736,
+  "completion_tokens": 366,
+  "total_tokens": 1102,
+  "cost_usd": 0.01283,
+  "latency_s": 6.949,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

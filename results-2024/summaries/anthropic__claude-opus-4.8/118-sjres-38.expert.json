@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "S.J. Res. 38 is a joint resolution of congressional disapproval invoking the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801 et seq.). Its sole operative purpose is to nullify a specified agency rule pursuant to the expedited disapproval mechanism the CRA provides.\n\nThe resolution disapproves the rule submitted by the Federal Highway Administration (FHWA) titled \"Waiver of Buy America Requirements for Electric Vehicle Chargers,\" published at 88 Fed. Reg. 10619 (February 21, 2023). Consistent with the CRA's operative language under 5 U.S.C. § 801(b)(1), the resolution provides that \"such rule shall have no force or effect.\"\n\nThe legal consequence of enactment would be twofold under the CRA framework. First, the identified FHWA waiver rule would be deprived of legal effect. Second, under 5 U.S.C. § 801(b)(2), a rule that does not take effect (or is nullified) by operation of an enacted disapproval resolution \"may not be reissued in substantially the same form,\" and a new rule that is substantially the same as the disapproved rule may not be issued, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution disapproving the original rule.\n\nThe resolution contains no amendments to the U.S. Code, no new grants of authority, no authorizations of appropriations, no sunset provisions, and no delegated rulemaking. It operates entirely through the CRA's self-executing disapproval device rather than by amending underlying statutory text. Its effectiveness is contingent on passage by both chambers and presentment; the engrossed text reflects passage by the Senate on November 8, 2023, and does not indicate House passage or presidential action. As a joint resolution, it would require presentment to the President and would be subject to veto and the corresponding two-thirds override requirement.\n\nThe rule addressed concerns the FHWA's waiver of Buy America domestic-content requirements as applied to electric vehicle chargers; disapproval would reinstate the pre-waiver application of those Buy America requirements to such chargers by voiding the waiver rule. The resolution itself specifies no effective date beyond the operative nullification, no deadlines, and no conditions precedent other than those inherent in the legislative enactment and CRA process.",
+  "prompt_tokens": 870,
+  "completion_tokens": 795,
+  "total_tokens": 1665,
+  "cost_usd": 0.024225,
+  "latency_s": 12.221,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

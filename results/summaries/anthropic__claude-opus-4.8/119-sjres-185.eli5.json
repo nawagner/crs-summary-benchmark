@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about the United States military and the country of Iran.\n\nThe people who wrote it want the President to pull U.S. troops out of any fighting with Iran. But there is one big rule: this only counts for fighting that Congress did not say yes to.\n\nHere is why. The U.S. Constitution says that only Congress can officially declare war. Congress has not declared war on Iran. Congress also has not passed a special law to allow fighting there. So the bill says the President must remove U.S. armed forces from fighting inside Iran or against Iran, unless Congress first says yes with a war declaration or a special law.\n\nThe bill also lists things that are still allowed. Even if this becomes law, the U.S. could:\n\n- Defend itself if the U.S. or its people or buildings are attacked.\n- Gather and share information about threats from Iran with friendly countries that Iran attacked after February 28, 2026.\n- Help those friendly countries stop attacks from Iran, or give them defensive supplies.\n\nThis is a \"joint resolution.\" That is a plan that both parts of Congress vote on. It was introduced on April 27, 2026. On May 19, 2026, it was placed on the calendar, which means it is ready to be talked about and voted on.",
+  "prompt_tokens": 1904,
+  "completion_tokens": 390,
+  "total_tokens": 2294,
+  "cost_usd": 0.01927,
+  "latency_s": 6.791,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

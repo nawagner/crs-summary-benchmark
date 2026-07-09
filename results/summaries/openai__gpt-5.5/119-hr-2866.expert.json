@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "openai/gpt-5.5",
+  "summary": "The “No Visas for Anti-Semitic Students Act” directs mandatory denial or revocation of student visas and amends the Immigration and Nationality Act to condition F and M nonimmigrant status on specified conduct-based grounds tied to adverse foreign policy consequences.\n\nSection 2(a) requires the Secretary of State to revoke or deny a visa under INA § 101(a)(15)(F) or (M), 8 U.S.C. § 1101(a)(15), for any alien who, on or after enactment, engages in “prohibited antisemitic conduct” and is determined by the Secretary of State, pursuant to INA § 237(a)(4)(C)(i), 8 U.S.C. § 1227(a)(4)(C)(i), to pose potentially serious adverse foreign policy consequences for the United States through such conduct. Section 2(b) defines “antisemitism” by reference to the definition adopted on May 26, 2016, by the International Holocaust Remembrance Alliance, as adopted by the Department of State, including the identified “contemporary examples of antisemitism.” “Prohibited antisemitic conduct” is defined to include a physical act of violence, vandalism, or harassment targeting a Jewish individual, the individual’s property, a community institution, or a religious facility, with intent to intimidate or harm based on the Jewish identity or affiliation of the individual or property targeted; and providing material support, including funding, organizing, or inciting, to a person knowing that the person intended to use the support to engage in such an act.\n\nSection 3 amends INA § 214, 8 U.S.C. § 1184, by adding a new subsection (s). New § 214(s)(1) provides that an alien may not be granted or maintain F or M nonimmigrant status if the alien engages in prohibited antisemitic conduct and the Secretary of State determines under INA § 237(a)(4)(C)(i) that the conduct would have potentially serious adverse foreign policy consequences for the United States. New § 214(s)(2) requires the Secretary of State to revoke the visa of an F or M nonimmigrant upon determining that the alien engaged in prohibited antisemitic conduct and that the alien or conduct poses such foreign policy consequences. New § 214(s)(3) repeats the definitions of “antisemitism” and “prohibited antisemitic conduct.” The bill contains no authorization of appropriations, direct appropriation, sunset provision, or delayed effective date.",
+  "prompt_tokens": 1241,
+  "completion_tokens": 851,
+  "total_tokens": 2092,
+  "cost_usd": 0.031735,
+  "latency_s": 17.103,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

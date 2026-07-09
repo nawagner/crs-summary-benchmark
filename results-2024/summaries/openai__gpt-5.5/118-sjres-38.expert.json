@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "openai/gpt-5.5",
+  "summary": "S.J. Res. 38 is a joint resolution of congressional disapproval under chapter 8 of title 5, United States Code, the Congressional Review Act. Its sole operative provision disapproves the rule submitted by the Federal Highway Administration entitled “Waiver of Buy America Requirements for Electric Vehicle Chargers,” published at 88 Fed. Reg. 10619 on February 21, 2023.\n\nThe resolution provides that the identified Federal Highway Administration rule “shall have no force or effect.” If enacted, the disapproval would operate pursuant to the Congressional Review Act’s mechanism for nullifying a covered agency rule through enactment of a joint resolution of disapproval. The measure does not amend any section of the United States Code, create a new program or authority, impose reporting requirements, authorize appropriations, or make an appropriation. It contains no exceptions, conditions precedent other than enactment, transition provisions, express effective date, or deadlines beyond those inherent in the Congressional Review Act process.",
+  "prompt_tokens": 486,
+  "completion_tokens": 396,
+  "total_tokens": 882,
+  "cost_usd": 0.01431,
+  "latency_s": 9.342,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

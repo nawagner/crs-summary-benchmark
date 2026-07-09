@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, cited as the “Veterans' Compensation Cost-of-Living Adjustment Act of 2024,” mandates a cost-of-living adjustment (COLA) to specified veterans’ benefits. Its operative mechanism directs the Secretary of Veterans Affairs to increase, effective December 1, 2024, the dollar amounts in effect on November 30, 2024, for disability compensation and dependency and indemnity compensation (DIC) (Section 2(a)).\n\nThe increase applies to the following statutory dollar amounts (Section 2(b)): wartime disability compensation rates under 38 U.S.C. § 1114; additional compensation for dependents under 38 U.S.C. § 1115(1); the clothing allowance under 38 U.S.C. § 1162; DIC for surviving spouses under 38 U.S.C. § 1311(a)–(d); and DIC for children under 38 U.S.C. §§ 1313(a) and 1314. The percentage increase for each amount is tied by formula to the COLA applied to benefits under title II of the Social Security Act (42 U.S.C. 401 et seq.), as determined under 42 U.S.C. § 415(i) and effective December 1, 2024 (Section 2(c)).\n\nA special rule authorizes the Secretary to administratively adjust, consistent with the COLA, the rates of disability compensation payable under section 10 of Public Law 85-857 to persons who have not received compensation under chapter 11 of title 38 (Section 2(d)). The Act further requires the Secretary to publish the adjusted dollar amounts in the Federal Register no later than the date on which the matters specified in 42 U.S.C. § 415(i)(2)(D) must be published by reason of a determination under section 215(i) made during fiscal year 2025 (Section 3). The Act contains no new appropriations, authorizations of appropriations, or sunset provisions.",
+  "prompt_tokens": 1107,
+  "completion_tokens": 412,
+  "total_tokens": 1519,
+  "cost_usd": 0.00084,
+  "latency_s": 14.115,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

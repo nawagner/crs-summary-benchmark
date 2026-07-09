@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 2695, the “Communities of Recovery Reauthorization Act of 2025,” reauthorizes and increases the authorization of appropriations for the building communities of recovery grant program administered under the Public Health Service Act. The bill amends Section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f)) by striking the existing authorization level—“$5,000,000 for each of fiscal years 2019 through 2023”—and inserting “$17,000,000 for each of fiscal years 2026 through 2030.” The amendment thereby replaces a lapsed authorization that applied to fiscal years 2019 through 2023 with a new, higher authorization spanning fiscal years 2026 through 2030.\n\nThe bill contains a single operative section and does not enact new substantive program requirements, impose conditions precedent, create exceptions, or establish a new authority beyond the fiscal reauthorization. The change is purely to the dollar amount and the fiscal-year designations in the existing authorization of appropriations. No appropriations are made by the bill; it provides an authorization ceiling only, and actual funding remains subject to subsequent appropriations acts. The bill contains no sunset, reporting requirements, or conforming amendments. It takes effect upon enactment, applying the new authorization to fiscal years 2026–2030 without affecting any expired fiscal years or intervening years.",
+  "prompt_tokens": 501,
+  "completion_tokens": 755,
+  "total_tokens": 1256,
+  "cost_usd": 0.000875,
+  "latency_s": 13.898,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

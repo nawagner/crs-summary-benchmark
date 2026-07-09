@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Autism CARES Act of 2024 is a law that helps people with autism. Autism is a condition that affects how a person's brain works, especially how they talk and interact with others. \n\nThis law keeps important government programs running through September 30, 2029. It gives money to scientists to study autism. It also helps doctors find autism early and teaches people how to support those who have it. \n\nIf this bill becomes law, several things will change:\n* Scientists will study how to help caregivers. They will also study how autism affects older people and people with other health conditions.\n* The government will increase the number of special autism research centers from five to seven.\n* The government will write new reports about the mental health of people with autism. They will also study the challenges young people face when they grow up and leave school.\n* States and Native American Tribes can get special training to help people with autism use tools that help them communicate.\n\nThe law sets aside money for these programs from 2025 through 2029. This includes 28.1 million dollars a year for tracking autism, 56.3 million dollars a year for education and early detection, and 306 million dollars a year for research.",
+  "prompt_tokens": 4637,
+  "completion_tokens": 269,
+  "total_tokens": 4906,
+  "cost_usd": 0.009376,
+  "latency_s": 2.516,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

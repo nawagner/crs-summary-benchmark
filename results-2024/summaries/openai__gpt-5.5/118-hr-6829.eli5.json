@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "openai/gpt-5.5",
+  "summary": "This law is about heart safety and heart disease education for young people.\n\nIt tells the U.S. health secretary to make public learning materials about cardiomyopathy. Cardiomyopathy is a disease of the heart muscle. The materials must also cover other heart problems that can cause sudden cardiac arrest, which is when the heart suddenly stops working.\n\nWithin 18 months after December 23, 2024, the materials must be made. They must include warning signs, risk factors, advice on where to place AEDs, and information on CPR and AED training. An AED is a machine that can help restart a heart. CPR is a way to help someone breathe and keep blood moving in an emergency.\n\nWithin 30 months, the materials must be shared with schools, families, coaches, health workers, and state education agencies. They must also be posted on the CDC website.\n\nThe law also tells the CDC to report to Congress about what it knows about cardiomyopathy. It tells the government to make a public risk assessment tool for people and doctors.\n\nThe NIH may expand research on cardiomyopathy. NIH is a federal health research agency.\n\nThe law also allows grants to public school agencies to help buy AEDs, train people, make emergency plans, and replace old equipment. It does not provide extra new money for these programs.",
+  "prompt_tokens": 3412,
+  "completion_tokens": 384,
+  "total_tokens": 3796,
+  "cost_usd": 0.02858,
+  "latency_s": 7.759,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

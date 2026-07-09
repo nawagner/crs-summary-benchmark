@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-235, the \"Holcombe Rucker Park National Commemorative Site Act,\" was enacted on January 4, 2025 (codified at 54 U.S.C. 320101 note). The Act’s primary purpose is to designate Holcombe Rucker Park, located in Harlem, New York, as the \"Holcombe Rucker Park National Commemorative Site\" (the \"Commemorative Site\") and to establish the administrative framework and limitations governing this designation.\n\nSection 2(a) of the Act establishes the formal designation of the Commemorative Site. Section 2(b) governs its administration and sets forth the following operative provisions:\n\n*   **Cooperative Agreements:** Section 2(b)(1) grants discretionary authority to the Secretary of the Interior to enter into cooperative agreements with appropriate public or private entities, specifically including the Mayor of New York City or the Mayor’s designee. The statutory purpose of these agreements is limited to interpretive and educational functions, including the installation of a plaque, interpretive exhibit, or other marker. \n*   **Condition Precedent:** The Secretary's authority to install any plaque, exhibit, or marker under a cooperative agreement is contingent upon obtaining the written consent of the owner of the Commemorative Site.\n*   **Exclusion from the National Park System:** Section 2(b)(2) explicitly clarifies that the designation does not constitute the Commemorative Site as a unit of the National Park System.\n*   **Administrative and Jurisdictional Limitations:** Section 2(b)(3) establishes strict statutory limitations on federal authority. Specifically, the Act does not:\n    1. Authorize the Secretary of the Interior to interfere with private property rights, local zoning ordinances, or land use plans of the State of New York or its political subdivisions, nor does it prohibit any actions a property owner (including the owner of the Commemorative Site) may otherwise legally take;\n    2. Affect the administration of the Commemorative Site by the State of New York or the City of New York; or\n    3. Authorize the Secretary of the Interior to acquire land or interests in land through condemnation or any other method.\n\nThe Act contains no appropriations, authorizations of appropriations, or sunset provisions.",
+  "prompt_tokens": 948,
+  "completion_tokens": 482,
+  "total_tokens": 1430,
+  "cost_usd": 0.00576,
+  "latency_s": 3.282,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

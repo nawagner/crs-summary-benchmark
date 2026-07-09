@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 186 proposes an amendment to the Constitution of the United States to establish a fundamental right to vote. The joint resolution, if ratified by the legislatures of three-fourths of the several States, would add a new article to the Constitution comprising four sections.\n\nSection 1 of the proposed amendment provides that every citizen of the United States of legal voting age shall possess the fundamental right to vote in any public election held in the jurisdiction in which the citizen resides.\n\nSection 2 establishes a standard of review for restrictions on voting rights. It prohibits the United States, any State, or any political subdivision within a State from denying or abridging the fundamental right of citizens to vote. This prohibition is subject to a single material exception: a denial or abridgment is permissible only if it is in furtherance of a compelling governmental interest and is the least restrictive means of furthering that compelling governmental interest, thereby codifying a strict scrutiny standard for voting rights jurisprudence.\n\nSection 3 repeals a specific portion of the Fourteenth Amendment to the Constitution. It removes the phrase \"or other crime\" from Section 2 of the fourteenth article of amendment, thereby eliminating the constitutional provision that permits states to deny or abridge the right to vote based on participation in rebellion, or other crime.\n\nSection 4 grants Congress the power to enforce the proposed article and to protect against any denial or abridgement of the fundamental right to vote by legislation.\n\nThe joint resolution was introduced in the Senate and, having passed both chambers by a two-thirds concurrence, requires ratification by three-fourths of the state legislatures to become valid to all intents and purposes as part of the Constitution. The resolution does not specify an effective date or a deadline for ratification.",
+  "prompt_tokens": 695,
+  "completion_tokens": 1040,
+  "total_tokens": 1735,
+  "cost_usd": 0.002164,
+  "latency_s": 17.4,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

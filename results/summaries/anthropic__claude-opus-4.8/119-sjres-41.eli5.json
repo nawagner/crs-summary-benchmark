@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called a \"joint resolution.\" That means both parts of Congress (the Senate and the House) have to agree on it.\n\nThe bill is about stopping a sale of guns. The United States government was planning to let a company sell weapons to Israel. This kind of sale is called an \"export,\" which means sending things to another country.\n\nThe guns in this sale are 20,000 rifles. They are a type called Colt Carbine rifles. The plan was to sell them to a company in Israel. The Israel National Police would end up using them.\n\nThe whole sale is worth $1,000,000 or more.\n\nIf this bill becomes law, that sale would not be allowed. The rifles could not be sent to Israel.\n\nCongress has rules that let it say \"no\" to some weapon sales like this. This bill is one senator using that power. It was introduced on March 27, 2025, by Mr. Sanders. Then it was sent to a group called the Committee on Foreign Relations, which studies bills about other countries.",
+  "prompt_tokens": 852,
+  "completion_tokens": 306,
+  "total_tokens": 1158,
+  "cost_usd": 0.01191,
+  "latency_s": 6.153,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

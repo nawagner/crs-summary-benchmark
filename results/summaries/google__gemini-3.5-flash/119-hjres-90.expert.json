@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 90 is a joint resolution introduced in the 119th Congress, First Session, pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. The primary purpose and operative mechanism of the joint resolution is the formal congressional disapproval of a specific agency action, thereby rendering it of no force or effect. \n\nSpecifically, the resolution provides that Congress disapproves the final guidance issued by the Commodity Futures Trading Commission (CFTC) entitled \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,\" published in the Federal Register at 89 Fed. Reg. 83378 on October 15, 2024. \n\nUnder the operative statutory framework of the CRA (5 U.S.C. § 801 et seq.), passage of this joint resolution would prevent the disapproved guidance from taking effect or continuing in effect. By operation of law under 5 U.S.C. § 801(b)(2), the guidance may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution's disapproval. \n\nThe joint resolution contains no appropriations, authorizations of appropriations, sunsets, or conditional precedents. It was referred to the House Committee on Agriculture upon introduction.",
+  "prompt_tokens": 531,
+  "completion_tokens": 300,
+  "total_tokens": 831,
+  "cost_usd": 0.003497,
+  "latency_s": 2.303,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

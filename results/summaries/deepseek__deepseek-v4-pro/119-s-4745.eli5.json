@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill gives a new, official name to a post office in Georgetown, Ohio. The building at 201 East Grant Avenue would be called the \"Ulysses S. Grant Post Office Building.\" Ulysses S. Grant was a U.S. president who came from Ohio.\n\nIf the bill becomes a law, that post office will keep this name. All government maps, records, and papers that mention the building will have to use the new name. The change applies only to this one post office. The bill does not change any services, change the address, or spend any money. It simply renames the building to honor a historical figure.",
+  "prompt_tokens": 508,
+  "completion_tokens": 612,
+  "total_tokens": 1120,
+  "cost_usd": 0.000753,
+  "latency_s": 8.865,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

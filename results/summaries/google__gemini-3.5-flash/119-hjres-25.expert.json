@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-5 (introduced as H.J. Res. 25), enacted on April 10, 2025, is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to prevent a federal agency rule from taking effect. \n\nThe sole operative mechanism of the joint resolution is the formal disapproval of the final rule submitted by the Internal Revenue Service (IRS) titled \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,\" published at 89 Fed. Reg. 106928 on December 30, 2024. \n\nPursuant to the statutory framework of the CRA, specifically 5 U.S.C. § 801(b)(1), the enactment of this joint resolution dictates that the specified IRS rule shall have no force or effect. Under the operation of the CRA, this disapproval also bars the IRS from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the date of the joint resolution's disapproval.",
+  "prompt_tokens": 556,
+  "completion_tokens": 255,
+  "total_tokens": 811,
+  "cost_usd": 0.003129,
+  "latency_s": 3.14,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress passes it and the president signs it. This specific bill says that Congress does not approve of a rule made by the Department of Education. \n\nThe rule they do not approve of is called \"Waivers and Modifications of Federal Student Loans.\" This rule includes an online announcement called \"One-Time Federal Student Loan Debt Relief.\" It also includes changes to certain federal student aid programs, like the Federal Perkins Loan Program, the Federal Family Education Loan Program, and the William D. Ford Federal Direct Loan Program. These programs help students borrow money to pay for college. \n\nIf this bill becomes a law, it would stop the Department of Education's rule from working. The bill states that the rule would have no force or effect. This means the plan to change or forgive those student loans would not be allowed to happen. The House of Representatives passed this bill on May 24, 2023, and sent it to the Senate to be voted on next.",
+  "prompt_tokens": 599,
+  "completion_tokens": 217,
+  "total_tokens": 816,
+  "cost_usd": 0.002851,
+  "latency_s": 1.766,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

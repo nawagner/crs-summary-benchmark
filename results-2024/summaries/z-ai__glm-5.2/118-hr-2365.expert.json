@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-66, cited as the \"Dr. Emmanuel Bilirakis and Honorable Jennifer Wexton National Plan to End Parkinson's Act,\" directs the Secretary of Health and Human Services to carry out the National Parkinson's Project to prevent, diagnose, treat, and cure Parkinson's. The Act amends Title III of the Public Health Service Act (42 U.S.C. 241 et seq.) by adding Part W, which inserts a new Section 399OO (42 U.S.C. 280n).\n\nUnder new Section 399OO, \"Parkinson's\" is defined to include Parkinson's disease and other neurodegenerative Parkinsonisms, such as multiple system atrophy and Parkinson's-related dementia. The Secretary is mandated to create, maintain, and periodically update an integrated national plan; coordinate research and services across Federal agencies; and estimate current and necessary Federal investment. The Secretary must conduct an annual assessment of the Nation's progress in responding to Parkinson's, beginning not later than 24 months after enactment, and provide recommendations for priority actions and implementation steps.\n\nThe Act establishes the Advisory Council on Parkinson's Research, Care, and Services to advise the Secretary. The Advisory Council comprises Federal members from at least 13 specified agencies (including CDC, CMS, NIH, FDA, and VA) and 10 non-Federal expert members, including patient advocates, caregivers, and researchers, ensuring representation of minority and disproportionately affected communities. The Advisory Council must meet quarterly for the first two years and subsequently at the Secretary's discretion. It must also convene an annual public research meeting beginning within 24 months of enactment. Not later than 18 months after enactment, and annually thereafter, the Advisory Council must report to the Secretary and Congress detailing federally-funded efforts, recommendations to reduce financial impacts and improve care, and an evaluation of the national plan's implementation.\n\nThe Act requires Federal departments and agencies to share Parkinson's-related information with the Secretary, consistent with existing statutory disclosure obligations, to facilitate the annual report. The Advisory Council and the operative provisions of Section 399OO sunset and cease to be effective at the end of calendar year 2035. The Act authorizes no new appropriations.",
+  "prompt_tokens": 2520,
+  "completion_tokens": 1558,
+  "total_tokens": 4078,
+  "cost_usd": 0.004049,
+  "latency_s": 7.257,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

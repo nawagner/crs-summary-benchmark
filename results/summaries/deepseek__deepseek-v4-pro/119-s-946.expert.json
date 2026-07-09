@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S. 946, the \"Medication Access and Training Expansion Improvement Act\" or \"MATE Improvement Act,\" amends section 303 of the Controlled Substances Act (21 U.S.C. 823) to expand the list of entities whose continuing medical education and related training satisfy the one-time, eight-hour training requirement for practitioners registered to prescribe controlled substances in schedules II through V.\n\nThe bill first corrects a technical drafting error by redesignating the second subsection (l) of 21 U.S.C. 823 as subsection (m). All subsequent amendments operate within subsection (m)(1), as so redesignated.\n\nWithin subsection (m)(1)(A) (training for practitioners other than veterinarians), the bill adds the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, and the American Optometric Association to the organizations listed in clause (iv)(I) whose training qualifies. It also adds the Council on Podiatric Medical Education to the list of qualifying accrediting bodies in that subclause. In subclause (III) of that clause, the bill adds the American Academy of Family Physicians as an entity whose designation of approved continuing education suffices. In clause (v), the bill inserts references to podiatric medicine alongside existing references to medical, osteopathic, and dental schools, thereby recognizing curricula that include podiatric medicine training.\n\nWithin subsection (m)(1)(B) (training for practitioners who are veterinarians), the bill adds the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians to the organizations listed in clause (i) whose training qualifies. It also adds the American Academy of Family Physicians as a recognized accrediting entity alongside the Accreditation Council for Continuing Medical Education. In clause (ii), the bill adds an accredited school of pharmacy as an institution whose curriculum satisfies the requirement.\n\nThe amendments take effect retroactively as if enacted on December 29, 2022. The bill contains no new appropriations, authorizations of appropriations, reporting requirements, or sunset provisions.",
+  "prompt_tokens": 933,
+  "completion_tokens": 431,
+  "total_tokens": 1364,
+  "cost_usd": 0.000781,
+  "latency_s": 7.719,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

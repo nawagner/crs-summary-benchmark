@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill officially restates that the Declaration of Independence is a basic, founding law of the United States. It does not change any rights or rules; it is a formal reminder of the document’s importance.\n\nCongress lists several reasons for the bill. It notes that the Declaration was adopted on July 4, 1776, and that it states all people are created equal and have rights that cannot be taken away. It says governments get their power from the people’s agreement. The bill also mentions that the 250th anniversary of American independence is a good time to honor these principles.\n\nThe main action is in Section 3: Congress reaffirms and re-adopts the Declaration as an “Organic Law.” An Organic Law is a fundamental law that helps form the foundation of a country’s government. The Declaration is called the lasting charter of American independence, national authority, natural rights, equal citizenship, and government by consent.\n\nFinally, as a tribute for the 250th anniversary, the bill includes the complete text of the Declaration of Independence so it is officially recorded in this law.",
+  "prompt_tokens": 2636,
+  "completion_tokens": 655,
+  "total_tokens": 3291,
+  "cost_usd": 0.001717,
+  "latency_s": 9.453,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

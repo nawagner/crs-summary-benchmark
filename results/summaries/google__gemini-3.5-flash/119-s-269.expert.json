@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-77, the \"Ending Improper Payments to Deceased People Act,\" amends Section 205(r) of the Social Security Act (42 U.S.C. 405(r)) to enhance data sharing between the Social Security Administration (SSA) and the \"Do Not Pay\" working system, while establishing evidentiary standards for recording deaths and correcting erroneous death records. \n\nSection 2(a) strikes paragraph (11) of 42 U.S.C. 405(r) and inserts a new paragraph (11). This provision directs the Commissioner of Social Security, to the extent feasible, to provide death information furnished under paragraph (1) to the agency operating the Do Not Pay working system (established under 31 U.S.C. 3354(c)) via a cooperative arrangement. This disclosure is restricted to the authorized uses of the Do Not Pay working system to prevent and recover improper payments. As a condition precedent to this arrangement, the requirements of 42 U.S.C. 405(r)(3)(A) and (B) must be satisfied. Additionally, the Commissioner and the operating agency must enter into an agreement, utilizing an agreed-upon methodology, to cover the proportional share of State death data costs, subject to periodic review.\n\nSection 2(a) also adds paragraph (12) to 42 U.S.C. 405(r), establishing a statutory evidentiary threshold. It prohibits the Commissioner from recording a death to any record subject to disclosure under Section 205(r) unless the Commissioner finds \"clear and convincing evidence\" to support a presumption of the individual's death.\n\nSection 2(b) amends 42 U.S.C. 405(r)(7) by adding subparagraph (C). This amendment requires the Commissioner, upon identifying that an individual has been incorrectly identified as deceased, to notify any agency that maintains a cooperative arrangement with the Commissioner under paragraph (3) or (11) of the error.\n\nPursuant to Section 2(c), all amendments made by the Act take effect on December 27, 2026.",
+  "prompt_tokens": 1227,
+  "completion_tokens": 470,
+  "total_tokens": 1697,
+  "cost_usd": 0.006071,
+  "latency_s": 2.884,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

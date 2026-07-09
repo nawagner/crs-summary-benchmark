@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-139 (H.R. 5302), the \"Michel O. Maceda Memorial Act,\" is a commemorative designation statute enacted December 11, 2024. Its sole operative purpose is to redesignate a specified federal facility—the Air and Marine Operations Marine Unit of U.S. Customs and Border Protection located at 101 Km 18.5 in Cabo Rojo, Puerto Rico—in honor of Marine Interdiction Agent Michel O. Maceda.\n\nSection 1 provides the short title. Section 2 sets forth congressional findings recounting Agent Maceda's service in the U.S. Army as a wheeled vehicle mechanic, his 2016 accession to the U.S. Border Patrol in Douglas, Arizona, his 2021 transition to Marine Interdiction Agent with CBP Air and Marine Operations in Mayaguez, Puerto Rico, and his death from a gunshot wound sustained during a November 17, 2022 drug interdiction boarding off the coast of Puerto Rico. These findings are declaratory and impose no legal obligations.\n\nSection 3 is the operative designation provision, directing that the identified marine unit \"shall forever be known and designated as the 'Michel O. Maceda Marine Unit.'\"\n\nSection 4 is a standard reference-substitution provision, deeming any reference in a law, map, regulation, document, paper, or other record of the United States to the marine unit described in Section 3 to be a reference to the \"Michel O. Maceda Marine Unit.\"\n\nThe Act amends no provision of the U.S. Code or any named prior statute, creates no new administrative authority, and contains no authorization of appropriations, appropriation, sunset provision, or deferred effective date; it took effect upon approval. The measure carries no conditions precedent, deadlines, or exceptions. The legislative history reflects House passage on September 24, 2024, and Senate passage (of the companion measure S. 3181's vehicle, H.R. 5302) on November 21, 2024, with House Report No. 118-542, Pt. 1, from the Committee on Homeland Security.",
+  "prompt_tokens": 1410,
+  "completion_tokens": 703,
+  "total_tokens": 2113,
+  "cost_usd": 0.024625,
+  "latency_s": 10.511,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Washington, D.C. has its own local government called the D.C. Council. The Council makes rules for the city. But there is a special law that lets Congress say \"no\" to some of the rules D.C. makes.\n\nThis bill is Congress saying \"no\" to one of those local rules.\n\nThe D.C. Council passed a rule called the Comprehensive Policing and Justice Reform Amendment Act of 2022. It was about police and the justice system in D.C. The Council passed it on January 19, 2023. Then they sent it to Congress on January 26, 2023, like the rules say they must.\n\nThis bill says that Congress does not approve of that D.C. rule. If this bill becomes law, the D.C. rule would be stopped and would not take effect.\n\nThe House of Representatives already voted \"yes\" on this bill on April 19, 2023. After that, it was sent to the Senate. The Senate got it on April 20, 2023 and gave it to a group of senators called a committee to look at it.\n\nFor this to fully become law, both parts of Congress (the House and the Senate) must agree.",
+  "prompt_tokens": 746,
+  "completion_tokens": 337,
+  "total_tokens": 1083,
+  "cost_usd": 0.012155,
+  "latency_s": 5.721,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

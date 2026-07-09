@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of bill that must be approved by both the House of Representatives and the Senate, and then signed by the President, to become a law. \n\nThis bill is about retirement plans. Many people save money for when they are older and stop working. The government has rules about how companies can invest that money. \n\nIn December 2022, a government group called the Department of Labor made a new rule. This rule was called \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights.\" \n\nThis bill says that Congress does not agree with that new rule. If this bill becomes a law, it will completely stop the Department of Labor's rule. The rule would have no power, and it would be as if the rule never existed.",
+  "prompt_tokens": 461,
+  "completion_tokens": 170,
+  "total_tokens": 631,
+  "cost_usd": 0.002222,
+  "latency_s": 2.02,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

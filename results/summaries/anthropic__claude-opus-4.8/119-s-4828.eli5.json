@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Declaration of Independence Reaffirmation Act of 2026.\" Its main job is to officially say again that the Declaration of Independence is still an important founding law of the United States.\n\nThe Declaration of Independence was written on July 4, 1776. In it, the American colonies said they were free and no longer ruled by Great Britain. It also said that all people are equal and have rights that no one can take away, and that governments get their power from the people they govern.\n\nThe bill points out that 2026 is the 250th birthday of American independence. Because of this special anniversary, Congress wants to honor the Declaration by saying it still matters today.\n\nHere is what the bill actually does:\n- Congress \"reaffirms\" (says again) that the Declaration is a founding law of the country. It calls it a lasting statement of freedom, rights, and government by the people.\n- The bill writes out the full text of the Declaration of Independence so it is part of the record.\n\nThe bill does not create new rules, spend money, or change how the government works day to day. It is mostly a way for Congress to formally honor and repeat the words and ideas from 1776.\n\nThe Senate passed this bill on June 18, 2026.",
+  "prompt_tokens": 4439,
+  "completion_tokens": 371,
+  "total_tokens": 4810,
+  "cost_usd": 0.03147,
+  "latency_s": 8.106,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

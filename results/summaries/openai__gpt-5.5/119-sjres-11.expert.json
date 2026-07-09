@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-3 is a joint resolution of congressional disapproval enacted under the Congressional Review Act, chapter 8 of title 5, United States Code. Its sole operative provision disapproves the rule submitted by the Bureau of Ocean Energy Management entitled “Protection of Marine Archaeological Resources,” published at 89 Fed. Reg. 71160 on September 3, 2024, and provides that the rule “shall have no force or effect.”\n\nThe resolution does not amend any section of the United States Code, establish any new regulatory authority, impose substantive replacement requirements, or direct further agency action. Its operative mechanism is the CRA disapproval procedure: by enacting the joint resolution, Congress nullifies the identified BOEM rule pursuant to chapter 8 of title 5. The text contains no exceptions, savings clause, transition provision, delayed effective date, reporting requirement, authorization of appropriations, or direct appropriation. The legal effect specified in the resolution attaches to the identified rule upon enactment; the joint resolution was approved on March 14, 2025.",
+  "prompt_tokens": 455,
+  "completion_tokens": 445,
+  "total_tokens": 900,
+  "cost_usd": 0.015625,
+  "latency_s": 10.856,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

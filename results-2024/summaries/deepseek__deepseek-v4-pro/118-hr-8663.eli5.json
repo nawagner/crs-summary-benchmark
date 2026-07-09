@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill tells the Science and Technology office inside the Department of Homeland Security to build better tools for finding dangerous drugs. The drugs it focuses on are fentanyl and xylazine. The goal is to create tools that can spot these drugs even when only a tiny amount is present.\n\nRight now, it can be hard or unsafe for police and other law enforcement to test unknown powders or pills. This law aims to change that. It says the government must research and test new kinds of equipment. One type is portable gear that can detect drugs without someone needing to touch the sample much. Another type is equipment that can pick out a small amount of a drug from a mixture that has lots of other cutting agents. A third type uses artificial intelligence, which is a kind of computer learning, to guess if a new substance might be a dangerous, unknown drug.\n\nThe law requires the work to be done alongside the Drug Enforcement Administration. It says safety guidelines for artificial intelligence must be followed. The office must also decide what to work on first by looking at the most recent government reports that name the top drug threats.\n\nThe law does not take away any power from other agencies already working on drug equipment. It was approved on December 23, 2024.",
+  "prompt_tokens": 1135,
+  "completion_tokens": 249,
+  "total_tokens": 1384,
+  "cost_usd": 0.00071,
+  "latency_s": 9.842,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Accelerating Appraisals and Conservation Efforts Act (Public Law 118-230, enacted January 4, 2025) establishes a policy regarding appraisal and valuation services for real property transactions under the jurisdiction of the Secretary of the Interior. The operative mechanism amends 43 U.S.C. 1478 to permit a covered appraiser to perform appraisal or valuation services in any State for such transactions if the appraiser is licensed or certified in at least one State. \n\nUnder Section 2(b), when utilizing a non-Federal covered appraiser, the Secretary must, to the maximum extent practicable, use an appraiser licensed in the State where the subject property is located. The Secretary may only use an appraiser licensed in another State if a local appraiser is determined by the Secretary to be unavailable within a reasonable period, not assignment qualified, or not cost competitive.\n\nSection 2(d) provides statutory clarifications, establishing that the Act does not generally affect the application of Federal or State laws to non-Federal covered appraisers, except that any Federal or State law or regulation enacted prior to the Act requiring State-specific licensure is rendered inapplicable to transactions over which the Secretary has jurisdiction. The Act does not authorize appraisers to perform services in States where they are unlicensed, except for such Federal transactions.\n\nSection 2(c) imposes a reporting requirement on the Secretary. Not later than one year after enactment, and annually thereafter for at least four years, the Secretary must submit a report to Congress containing quantitative data comparing appraisal requests and completion times, a qualitative assessment of the Act's impact, recommendations for congressional action, a workforce overview, and a list of cases utilizing the Act's authority.\n\nSection 2(e) requires the Secretary, not later than 90 days after enactment, to make publicly available online and upon request all Department policies, manuals, guidance, and standard operating procedures regarding the scoping, contracting, and review of appraisals performed by Federal or non-Federal covered appraisers. Section 2(f) defines key terms, including \"covered appraiser,\" \"Department,\" \"reporting period,\" \"Secretary,\" and \"State.\" The Act contains no specific appropriations.",
+  "prompt_tokens": 1691,
+  "completion_tokens": 1577,
+  "total_tokens": 3268,
+  "cost_usd": 0.003629,
+  "latency_s": 8.559,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

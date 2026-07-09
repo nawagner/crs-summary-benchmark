@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "openai/gpt-5.5",
+  "summary": "The Aerial Firefighting Enhancement Act of 2025, Public Law 119-18, amends the Wildfire Suppression Aircraft Transfer Act of 1996, Pub. L. No. 104-307, § 2, codified as a note to 10 U.S.C. § 2576, to modify and reauthorize the Department of Defense’s authority to sell aircraft and aircraft parts for wildfire suppression purposes.\n\nSection 2 amends § 2(a)(1) of the 1996 Act to reauthorize the covered sales authority for “the period” specified in § 2(g) and to expand the authorized configuration of sold aircraft by adding aircraft capable of dispensing “water,” in addition to fire retardant, for wildfire suppression. Section 2 also makes a conforming amendment to § 2(c) by adding “or water” after “fire retardant,” thereby extending the same terminology to that subsection.\n\nSection 2 further amends § 2(b) of the 1996 Act by replacing the prior use restriction for aircraft and parts sold under § 2(a) with a revised limitation providing that items sold under § 2(a) may be used only for the provision of aircraft services for wildfire suppression purposes. This operates as a use restriction on purchasers or transferees of aircraft and parts sold pursuant to the Act.\n\nSection 2 amends § 2(d)(1), second sentence, by replacing a cross-reference to § 2(a)(1) with a cross-reference to § 2(g), conforming the provision to the revised period-of-authority structure.\n\nFinally, Section 2 strikes and replaces § 2(g) of the 1996 Act. New § 2(g), captioned “Period for Exercise of Authority,” specifies that the Department of Defense’s authority applies during the period beginning on the date of enactment of the Aerial Firefighting Enhancement Act of 2025 and ending on October 1, 2035. The Act contains no appropriation, no authorization of appropriations, and no separate effective-date provision beyond the enactment-based commencement in amended § 2(g).",
+  "prompt_tokens": 773,
+  "completion_tokens": 441,
+  "total_tokens": 1214,
+  "cost_usd": 0.017095,
+  "latency_s": 8.069,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

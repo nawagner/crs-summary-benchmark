@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 27 is a joint resolution providing for congressional disapproval, pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act), of a final rule submitted by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency relating to the \"Revised Definition of 'Waters of the United States'\" (88 Fed. Reg. 3004, published January 18, 2023).\n\nThe resolution's sole operative provision declares that Congress disapproves the specified rule and provides that \"such rule shall have no force or effect.\" By invoking the Congressional Review Act, the resolution effects a statutory nullification of the specified rule. Upon enactment, the resolution triggers the standard consequences under chapter 8 of title 5, United States Code, which preclude the rule from taking effect or continuing in effect and prohibit the issuing agencies from reissuing a substantially similar rule in the future unless authorized by subsequent statute.\n\nThe resolution contains no material exceptions, conditions precedent, or independent effective dates, relying solely on the procedural and effective date provisions of the Congressional Review Act. It does not include any new authorizations or appropriations. The resolution was passed by the House of Representatives on March 9, 2023, and received in the Senate on March 14, 2023.",
+  "prompt_tokens": 483,
+  "completion_tokens": 1761,
+  "total_tokens": 2244,
+  "cost_usd": 0.003286,
+  "latency_s": 25.535,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

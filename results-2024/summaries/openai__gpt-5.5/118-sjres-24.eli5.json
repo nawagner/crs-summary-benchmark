@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule made by the U.S. Fish and Wildlife Service. That agency helps manage and protect animals, plants, and their habitats.\n\nThe rule was about the northern long-eared bat and its endangered species status. An “endangered” species is a kind of animal or plant that is in danger of dying out. The rule was published in the Federal Register, the government’s public list of rules, on November 30, 2022.\n\nThis bill uses a process called congressional disapproval. That means Congress can reject a rule made by a federal agency. If this bill becomes law, Congress would disapprove that Fish and Wildlife Service rule. The rule would then have no legal force or effect. In other words, the government could not use that rule as law. The Senate passed this joint resolution on May 11, 2023.",
+  "prompt_tokens": 489,
+  "completion_tokens": 544,
+  "total_tokens": 1033,
+  "cost_usd": 0.018765,
+  "latency_s": 10.752,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

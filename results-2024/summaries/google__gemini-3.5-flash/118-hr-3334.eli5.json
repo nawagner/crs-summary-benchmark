@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the STOP CCP Act. It wants to punish certain leaders in China's government. These punishments are called sanctions. \n\nUnder this bill, the U.S. President must punish members of the Central Committee of the Chinese Communist Party and their adult family members. The President would also punish Chinese state-owned companies that help make or sell the illegal drug fentanyl. \n\nTo get punished, these people must play a big role in bad actions. These actions include hurting the freedom of Hong Kong, threatening Taiwan, abusing the human rights of Uyghur Muslims, or trying to interfere in U.S. elections. \n\nThe punishments would block these people from using their money or property in the United States. They would also not be allowed to get travel visas to enter the country. \n\nThe President can pause these punishments for up to 60 days if it is very important for U.S. security. The punishments can only stop completely if China stops its bad actions, or if the punished person leaves the Chinese Communist Party and helps fix the problems. This law would not stop goods from being imported into the United States.",
+  "prompt_tokens": 3839,
+  "completion_tokens": 231,
+  "total_tokens": 4070,
+  "cost_usd": 0.007838,
+  "latency_s": 2.354,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

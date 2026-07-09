@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the COCOA Act of 2024. It was approved on October 4, 2024. \n\nThe law says that states must let special observers watch federal elections. Federal elections are when people vote for members of Congress. Congress is the group of people who make laws for the United States. \n\nThese observers are employees of Congress. The law gives them full access to watch every part of the voting process. This includes watching people cast votes, count ballots, and check the final results. \n\nHowever, observers must follow strict rules. They cannot touch any ballots or voting machines. They cannot help any candidates or try to influence voters. They also cannot get in the way of voters or election workers. \n\nIf an observer breaks the rules or disrupts the voting, local election officials can remove them. If an official removes an observer, they must write a letter explaining why within 24 hours. This letter goes to the leaders of the congressional committees in charge of elections. Congress can then send a new observer to take their place.",
+  "prompt_tokens": 1970,
+  "completion_tokens": 220,
+  "total_tokens": 2190,
+  "cost_usd": 0.004935,
+  "latency_s": 2.131,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law starts a big plan to fight a sickness called Parkinson's. Parkinson's is a disease that affects the brain and body. It can make it hard for people to move and think. The law also covers some other brain diseases that are like Parkinson's.\n\nThe law is called the \"National Plan to End Parkinson's Act.\" It tells the Secretary of Health and Human Services (a top leader who helps keep people healthy) to run a project called the National Parkinson's Project.\n\nThis project will try to stop the disease, find it early, treat it, and cure it. It will also make a plan and keep updating it. It will help doctors and scientists work together across the government. And it will look at how the disease affects sick people and the families who care for them.\n\nEvery year, the Secretary must check how well the country is doing. This starts about 2 years after the law begins.\n\nThe law also makes a special group called the Advisory Council. This group gives advice. It has government experts and 10 people from outside the government, like patients, a caregiver, doctors, and researchers. The group will meet, and some meetings will be open to everyone. Each year, they will write a report for the Secretary and Congress.\n\nThe Advisory Council and this whole plan will end at the end of the year 2035.",
+  "prompt_tokens": 4551,
+  "completion_tokens": 384,
+  "total_tokens": 4935,
+  "cost_usd": 0.032355,
+  "latency_s": 7.234,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

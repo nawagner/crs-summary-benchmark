@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-9094",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would give $3.5 billion to the U.S. Department of Agriculture. The money would be used to help states after freeze or cold weather damage.\n\nThe Agriculture Secretary would give the money as “block grants.” A block grant is money the federal government sends to a state for a broad purpose. States could use the grants to help with losses to crops, trees, bushes, and vines. This includes crops that could not be planted. It also includes losses in crop quality, crop amount, or money earned. The help must include payments to producers for losses to crops that grow over more than one year.\n\nThe money could only be used for losses in counties that received a federal disaster label for freeze and cold weather on March 4, 2026. A state agriculture department, or another state agency chosen by the Secretary, would have to ask for the money.\n\nThe money would be for the budget year ending September 30, 2027, but it could be used until it is all spent. The Agriculture Secretary would have to report to Congress within 120 days after the bill becomes law, and then every three months, until the money is gone. The bill says this spending is for an emergency.",
+  "prompt_tokens": 918,
+  "completion_tokens": 355,
+  "total_tokens": 1273,
+  "cost_usd": 0.01524,
+  "latency_s": 7.207,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

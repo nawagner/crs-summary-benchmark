@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The operative mechanism invokes section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329) to utilize expedited congressional procedures for the resolution's consideration.\n\nSection 1 sets forth congressional findings, citing Article I, section 8, clause 11 of the Constitution and various provisions of the War Powers Resolution (50 U.S.C. 1541(a), 1542, and 1543(a)). It notes the absence of a declaration of war or specific statutory authorization for the use of military force within or against Iran, and characterizes the ongoing military operations, designated \"Operation Epic Fury,\" as the introduction of Armed Forces into hostilities under 50 U.S.C. 1543(a).\n\nSection 2(a) directs the President, pursuant to 50 U.S.C. 1546a and Public Law 94-329, to remove United States Armed Forces from hostilities within or against Iran, conditioned upon the absence of an explicit authorization by a declaration of war or a specific authorization for use of military force.\n\nSection 2(b) establishes a rule of construction, specifying that the removal directive does not prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies, including with Israel, partner countries attacked by Iran since February 28, 2026, and other nations and international organizations; or (3) assisting Israel, partner countries attacked by Iran since February 28, 2026, and other nations in directly defending against retaliatory attacks upon their territories by Iran or its proxies, or by providing defensive materiel support for such defensive measures. \n\nThe resolution does not contain an express effective date, appropriation, or sunset provision.",
+  "prompt_tokens": 1460,
+  "completion_tokens": 1323,
+  "total_tokens": 2783,
+  "cost_usd": 0.003067,
+  "latency_s": 19.038,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would keep going a federal grant program called “Building Communities of Recovery.” A grant is money the government gives to groups for a specific purpose.\n\nThe program is part of the Public Health Service Act, a law about health programs. The bill would change how much money Congress says can be used for these grants.\n\nRight now, the law says $5 million could be used each year for fiscal years 2019 through 2023. A fiscal year is the government’s budget year. This bill would replace that with $17 million each year for fiscal years 2026 through 2030.\n\nIf it becomes law, the program would be reauthorized for five more budget years. The bill does not change other rules for the grants in the text shown.",
+  "prompt_tokens": 466,
+  "completion_tokens": 361,
+  "total_tokens": 827,
+  "cost_usd": 0.01316,
+  "latency_s": 8.095,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

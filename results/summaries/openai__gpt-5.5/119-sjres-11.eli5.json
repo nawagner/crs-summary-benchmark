@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels a rule made by the Bureau of Ocean Energy Management. That is a federal agency that manages energy work in ocean areas controlled by the United States.\n\nThe rule was called “Protection of Marine Archaeological Resources.” Marine archaeological resources are old human-made things found in the ocean, such as shipwrecks or other historic objects. The rule was published on September 3, 2024.\n\nCongress used a review process that lets it reject some agency rules. The law says Congress disapproves this rule. Because of that, the rule has “no force or effect.” This means the rule cannot be used or enforced.\n\nThe Senate passed the measure on February 25, 2025. The House passed it on March 6, 2025. It was approved on March 14, 2025.",
+  "prompt_tokens": 423,
+  "completion_tokens": 372,
+  "total_tokens": 795,
+  "cost_usd": 0.013275,
+  "latency_s": 9.292,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

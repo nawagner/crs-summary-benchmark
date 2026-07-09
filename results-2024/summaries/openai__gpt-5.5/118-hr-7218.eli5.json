@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "openai/gpt-5.5",
+  "summary": "This law keeps a federal health program going. The program helps teach people about Alzheimer’s disease and related dementias. These are illnesses that can hurt memory, thinking, and daily life.\n\nThe law changes the Public Health Service Act, which is a major federal health law. It adds more funding for this program. It allows $33 million for each government budget year from 2025 through 2029. A government budget year is called a fiscal year.\n\nThe main change is that the Alzheimer’s public health awareness program does not end after earlier funding. It can keep getting money for five more years. The law was approved on December 11, 2024.",
+  "prompt_tokens": 543,
+  "completion_tokens": 427,
+  "total_tokens": 970,
+  "cost_usd": 0.015525,
+  "latency_s": 8.47,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

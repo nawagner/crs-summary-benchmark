@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "S.J. Res. 9 is a joint resolution of congressional disapproval invoking the procedures of the Congressional Review Act (chapter 8 of title 5, United States Code) to nullify a final rule promulgated by the United States Fish and Wildlife Service.\n\nThe resolution's sole operative provision states that Congress disapproves the rule titled \"Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment,\" published at 87 Fed. Reg. 72674 (November 25, 2022), and provides that \"such rule shall have no force or effect.\"\n\nThe operative mechanism is the disapproval procedure established under 5 U.S.C. § 802. Upon enactment (i.e., passage by both chambers and presentment resulting in enactment into law), the identified agency rule is deprived of legal effect. Under the CRA framework at 5 U.S.C. § 801(b)(2), a rule disapproved by an enacted joint resolution may not be reissued in substantially the same form, nor may a new rule that is substantially the same be issued, unless subsequently authorized by a law enacted after the date of the joint resolution's enactment. The resolution itself does not restate these collateral CRA consequences; they attach by operation of the underlying statute.\n\nThe disapproved rule had designated the Northern Distinct Population Segment of the Lesser Prairie-Chicken as threatened under the Endangered Species Act, accompanied by a rule issued under Section 4(d) of that Act (16 U.S.C. § 1533(d)) prescribing protective regulations for the threatened segment, and had designated the Southern Distinct Population Segment as endangered. Enactment of the resolution would void these listing determinations and the associated Section 4(d) rule in their entirety.\n\nThe resolution contains no amendment to any provision of the U.S. Code, no authorization of appropriations, no severability clause, and no effective-date provision; its effect is triggered by enactment under the CRA. The engrossment reflects passage by the Senate on May 3, 2023. As an enrolled measure requiring passage by both houses and presentment to the President under Article I, Section 7 (joint resolutions being subject to the presentment requirement), the resolution had not, as of this text, completed the legislative process.",
+  "prompt_tokens": 1071,
+  "completion_tokens": 798,
+  "total_tokens": 1869,
+  "cost_usd": 0.025305,
+  "latency_s": 12.353,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

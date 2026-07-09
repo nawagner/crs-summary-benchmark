@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Prohibiting Russian Uranium Imports Act.\" It became law on May 13, 2024.\n\nUranium is a special metal used to make power in nuclear plants. These plants give electricity to homes and cities. This law stops the United States from buying a certain kind of uranium (called low-enriched uranium) from Russia.\n\nThe rule starts 90 days after the law was signed. After that, the U.S. cannot bring in this uranium if it was made in Russia. The law also stops tricks, like trading the uranium in a sneaky way to get around the rule.\n\nBut there are some special cases. The Secretary of Energy (a top government leader for energy) can allow some uranium to come in if:\n- There is no other place to get it, and a nuclear plant needs it to keep working, or\n- It is good for the whole country.\n\nEven with this special permission, there are limits on how much can come in each year. For example, in 2024 the limit is about 476,536 kilograms. The amount gets a little smaller each year through 2027. All of these special permissions must end by January 1, 2028.\n\nIf the Secretary of Energy gives permission, they must tell certain groups in Congress about it.\n\nThe whole ban ends on December 31, 2040. The rule does not stop uranium used for keeping the country safe.",
+  "prompt_tokens": 3242,
+  "completion_tokens": 411,
+  "total_tokens": 3653,
+  "cost_usd": 0.026485,
+  "latency_s": 7.418,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

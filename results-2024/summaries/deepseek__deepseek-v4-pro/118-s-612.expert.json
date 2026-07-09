@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This Act amends the Lake Tahoe Restoration Act (Public Law 106-506) to extend the duration of certain cooperative authorities and the period of availability for authorized appropriations. The operative mechanism is a pair of conforming amendments to sections 4(f) and 10(a) of that Act.\n\nSection 2(a) amends section 4(f) (cooperative authorities) by striking the existing sunset—which limited the authority to the four fiscal years following enactment of the Water Resources Development Act of 2016—and inserting a new termination date tied to the authorization period in section 10(a). The cooperative authorities now run for “the period beginning on the date of enactment of this subsection and ending on the date described in section 10(a).”\n\nSection 2(b) amends section 10(a) (authorization of appropriations) by striking the prior sunset clause in its entirety and inserting “, to remain available until September 30, 2034.” This extends the availability of sums authorized to be appropriated under the Lake Tahoe Restoration Act through the end of fiscal year 2034. The amendment does not itself appropriate funds; it solely extends the authorization of appropriations.\n\nThe amendments took effect on October 1, 2024, the date of enactment. No new substantive authorities, conditions precedent, or exceptions are created. The bill makes no change to the scope of authorized activities, the federal cost share, or any other provision of the Lake Tahoe Restoration Act.",
+  "prompt_tokens": 625,
+  "completion_tokens": 989,
+  "total_tokens": 1614,
+  "cost_usd": 0.001132,
+  "latency_s": 13.665,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

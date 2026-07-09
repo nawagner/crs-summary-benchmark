@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Restoring Benefits to Defrauded Veterans Act.\" It became law on November 25, 2024.\n\nHere is what it does. Some veterans get money and help from the government. Sometimes a veteran needs a helper to manage their money. This helper is called a \"fiduciary.\" A fiduciary is someone trusted to take care of another person's money.\n\nBut sometimes a fiduciary steals or misuses the veteran's money. When that happens, the government (the Secretary of Veterans Affairs) is supposed to pay the money back.\n\nThis law adds a new rule. It says: what if the veteran dies before they get their money back? The government must still pay the money. But now it pays the money to the veteran's family or to another person or group who should get it. This follows the rules already in the law about who gets a person's benefits after they die.\n\nThe law also makes one important rule clear. The government cannot pay this money to the same fiduciary who stole or misused the veteran's money in the first place.\n\nSo if this law is followed, the money a veteran was cheated out of will not disappear when the veteran dies. It will go to the right people instead. And the person who did wrong will not get it.",
+  "prompt_tokens": 1177,
+  "completion_tokens": 365,
+  "total_tokens": 1542,
+  "cost_usd": 0.01501,
+  "latency_s": 7.087,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

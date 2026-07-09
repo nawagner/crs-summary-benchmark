@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is about helping take care of Lake Tahoe, a big and famous lake in the United States. It is called the \"Lake Tahoe Restoration Reauthorization Act.\"\n\nThere was already an older law made to protect and clean up the lake. This new law keeps that older law going for a longer time.\n\nThe word \"reauthorize\" means to say \"yes, keep doing this\" for a program that was already started.\n\nHere are the main things this law does:\n\n- It lets the groups working together on the lake keep doing their jobs. Before, they only had a short time to work. Now they can keep working until a later date.\n\n- It says money for the lake can be used until September 30, 2034. This gives people more years to use the money to help the lake.\n\nThe law was approved on October 1, 2024.\n\nIn simple words, this law does not start something brand new. It just gives more time and keeps the lake cleanup work going.",
+  "prompt_tokens": 983,
+  "completion_tokens": 270,
+  "total_tokens": 1253,
+  "cost_usd": 0.011665,
+  "latency_s": 5.932,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

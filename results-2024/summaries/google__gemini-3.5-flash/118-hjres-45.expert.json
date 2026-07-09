@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 45 is a joint resolution of disapproval introduced pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. The primary purpose and operative mechanism of the resolution is to invoke 5 U.S.C. § 801(a)(1) to disapprove a specific agency rule, thereby rendering it of no force or effect. \n\nSpecifically, the resolution disapproves the rule submitted by the Department of Education relating to \"Waivers and Modifications of Federal Student Loans.\" The scope of the disapproved rule explicitly encompasses:\n1. The Department of Education website announcement entitled \"One-Time Federal Student Loan Debt Relief\"; and\n2. The Federal Register document entitled \"Federal Student Aid Programs (Federal Perkins Loan Program, Federal Family Education Loan Program, and William D. Ford Federal Direct Loan Program),\" published at 87 Fed. Reg. 61512 (October 12, 2022).\n\nThe resolution references the printing of the rule in the Congressional Record on March 22, 2023 (pages S903–S906), alongside a formal letter of opinion from the Government Accountability Office (GAO) dated March 17, 2023. The GAO opinion concludes that the subject waivers and modifications constitute a \"rule\" under the statutory definition of the CRA. \n\nUnder the operative mechanics of the CRA (5 U.S.C. § 801(b)(1)), passage of this joint resolution prevents the rule from taking effect or continuing in effect, and bars the Department of Education from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, absent subsequent and specific statutory authorization. The resolution contains no appropriations, authorizations of appropriations, or exceptions.",
+  "prompt_tokens": 632,
+  "completion_tokens": 383,
+  "total_tokens": 1015,
+  "cost_usd": 0.004395,
+  "latency_s": 2.77,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

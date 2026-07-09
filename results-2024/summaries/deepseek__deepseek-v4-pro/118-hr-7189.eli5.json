@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law continues a government program that studies congenital heart disease, a heart problem some babies are born with. It also tracks how many people have it and teaches the public about it. The program’s funding is extended so it can keep running from 2025 through 2029.\n\nThe law adds two new steps. Within two years of the law’s passage (November 21, 2024), the head of the U.S. health department must send Congress a report. This report will describe what has been done to raise awareness of congenital heart disease. It will look at efforts to help patients over their whole lives, to train healthcare providers, and to check if there are enough doctors who can care for adults with this condition.\n\nWithin one year after that report, the health department must create a strategy—a detailed plan to improve things. The plan must include ideas to fill gaps in research and public knowledge about lifelong needs (like mental health and quality of life), address shortages of doctors who treat adult patients, and help different groups work together. When making the plan, the health department must talk with patient organizations, doctors, researchers, insurance providers, and agencies like the Centers for Disease Control and Prevention and the National Institutes of Health.",
+  "prompt_tokens": 1116,
+  "completion_tokens": 833,
+  "total_tokens": 1949,
+  "cost_usd": 0.00121,
+  "latency_s": 12.458,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

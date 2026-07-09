@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the TREAT Youth Act. It was introduced in the House of Representatives, which is a part of Congress where lawmakers make rules for the country. \n\nThe bill wants to help young people stay healthy and recover from drug use. To do this, it changes an older law to keep a youth prevention and recovery program running. \n\nIf this bill becomes a law, the government will set aside specific amounts of money to pay for this youth program over five years. A fiscal year is the twelve-month period the government uses to budget its money. The bill lists the exact amount of money for each year:\n\n* $10 million for fiscal year 2026\n* $12 million for fiscal year 2027\n* $13 million for fiscal year 2028\n* $14 million for fiscal year 2029\n* $15 million for fiscal year 2030\n\nThis money will be used to help run the program and support kids who need it.",
+  "prompt_tokens": 692,
+  "completion_tokens": 213,
+  "total_tokens": 905,
+  "cost_usd": 0.002955,
+  "latency_s": 1.794,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

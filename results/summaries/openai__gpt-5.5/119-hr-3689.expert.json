@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "openai/gpt-5.5",
+  "summary": "The TREAT Youth Act would reauthorize the youth prevention and recovery initiative under section 7102(c) of the SUPPORT for Patients and Communities Act, codified at 42 U.S.C. 290bb-7a(c), by replacing the existing authorization-of-appropriations paragraph.\n\nSection 1 provides the short title: the “Treatment, Recovery, Education, Awareness, and Training for Youth Act” or the “TREAT Youth Act.”\n\nSection 2 amends section 7102(c)(9) of the SUPPORT for Patients and Communities Act, 42 U.S.C. 290bb-7a(c)(9), to authorize appropriations to carry out subsection (c) for five fiscal years: $10,000,000 for fiscal year 2026; $12,000,000 for fiscal year 2027; $13,000,000 for fiscal year 2028; $14,000,000 for fiscal year 2029; and $15,000,000 for fiscal year 2030. The amendment is an authorization of appropriations only and does not itself appropriate funds.\n\nThe bill contains no separate effective date, no sunset provision beyond the fiscal-year-specific authorizations, and no additional eligibility criteria, conditions precedent, reporting requirements, or substantive amendments to the underlying youth prevention and recovery activities authorized by section 7102(c).",
+  "prompt_tokens": 637,
+  "completion_tokens": 534,
+  "total_tokens": 1171,
+  "cost_usd": 0.019205,
+  "latency_s": 12.226,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "openai/gpt-5.5",
+  "summary": "This law names a U.S. Customs and Border Protection marine unit in Puerto Rico after Michel O. Maceda.\n\nThe unit is part of Air and Marine Operations. It is located at 101 Km 18.5 in Cabo Rojo, Puerto Rico. The law says this unit will now always be called the “Michel O. Maceda Marine Unit.”\n\nThe law also says that any U.S. government record, map, rule, paper, or other document that mentions this unit will now mean the “Michel O. Maceda Marine Unit.”\n\nThe law gives reasons for the name. Michel O. Maceda served in the U.S. Army as a vehicle mechanic. He later joined the U.S. Border Patrol in Arizona in 2016. In 2021, he became a Marine Interdiction Agent in Mayaguez, Puerto Rico. A Marine Interdiction Agent works on boats to help stop illegal activity at sea.\n\nOn November 17, 2022, Agent Maceda and two other agents were stopping a boat during a drug interdiction, which means trying to stop illegal drugs. The agents boarded the boat. Agent Maceda was shot and killed. The law says he is survived by his daughter, brother, and parents.\n\nThe law was approved on December 11, 2024.",
+  "prompt_tokens": 774,
+  "completion_tokens": 269,
+  "total_tokens": 1043,
+  "cost_usd": 0.01194,
+  "latency_s": 4.702,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

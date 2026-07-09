@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"SECURE Grid Act.\" It changes the rules for how states plan to keep their energy systems safe. States must write energy security plans. This bill makes states include \"local distribution systems\" in those plans. This means power lines and equipment that use 100 kilovolts or less of electricity.\n\nStates would have to plan for different dangers. These include bad weather, physical attacks, and problems with getting equipment. They must also plan for computer security threats. The plans must explain how states will respond to and recover from these problems.\n\nThe bill changes a rule so the Secretary of Energy must help states update their plans. The Secretary does not need to approve a state's plan.\n\nThis law would stop working on September 30, 2031. Before that, by September 30, 2030, a government group called the GAO must write a report. The GAO checks how well government programs work. The report will look at how well the state plans are doing, how states spent their money, and ways to improve. The report will be public, but some secret safety information will be kept private.",
+  "prompt_tokens": 1827,
+  "completion_tokens": 1487,
+  "total_tokens": 3314,
+  "cost_usd": 0.003549,
+  "latency_s": 51.312,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

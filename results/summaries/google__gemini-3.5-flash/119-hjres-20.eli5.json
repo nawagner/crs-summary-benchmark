@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a type of bill that must be approved by both the Senate and the House of Representatives, and then signed by the President. \n\nThis law stops a specific rule made by the Department of Energy. The Department of Energy is a part of the government that works with energy and power. The rule they made was about saving energy for gas-fired instantaneous water heaters. These are machines that heat up water for homes very quickly using gas. \n\nThe rule was first published on December 26, 2024. Because of this new law, Congress officially disapproves of that rule. This means the rule is canceled. It will have no force or effect, so the rule will not become a law and people do not have to follow it. \n\nThe House of Representatives voted to pass this bill on February 27, 2025. The Senate voted to pass it on April 10, 2025. It was approved and became an official law on May 9, 2025.",
+  "prompt_tokens": 530,
+  "completion_tokens": 221,
+  "total_tokens": 751,
+  "cost_usd": 0.002784,
+  "latency_s": 2.32,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

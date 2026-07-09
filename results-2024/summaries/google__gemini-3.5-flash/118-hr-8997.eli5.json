@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a plan for how the United States government will spend money on energy and water projects. It is called an appropriations bill, which is a law that lets the government spend money. This plan is for the budget year that ends on September 30, 2025.\n\nFirst, the bill gives money to the Army Corps of Engineers. They get over $9 billion to study, build, and take care of rivers, harbors, and dams. This helps stop floods and keeps waterways safe for boats.\n\nSecond, the bill funds water projects in Western states. It gives over $1.7 billion to the Bureau of Reclamation to manage water resources and help with droughts.\n\nThird, the bill funds the Department of Energy. It sets aside billions of dollars for scientific research, clean energy, and keeping the nation's nuclear weapons safe. \n\nFinally, the bill has strict rules on how this money can be used. For example, it stops the government from using the money to enforce COVID-19 vaccine or mask rules. It also blocks money from going to the Wuhan Institute of Virology in China. It even stops the government from making new rules about energy limits on home appliances like gas stoves.",
+  "prompt_tokens": 25372,
+  "completion_tokens": 247,
+  "total_tokens": 25619,
+  "cost_usd": 0.040281,
+  "latency_s": 2.59,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

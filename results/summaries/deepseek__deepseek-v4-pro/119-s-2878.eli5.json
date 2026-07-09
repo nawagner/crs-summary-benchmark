@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law is about the Great Lakes, huge freshwater lakes along the border of the United States and Canada. It extends a government program that pays for scientists to study fish and other water life in those lakes. The program’s permission to receive money was set to end in 2025. This law changes that end year to 2030. That means scientists can keep doing their work for five more years. They will watch the fish, check the water, and learn about the whole Great Lakes area. The law does not provide any new dollar amounts. It only moves the deadline so funding does not stop. The Senate and House passed the bill, and it was approved on December 26, 2025.",
+  "prompt_tokens": 478,
+  "completion_tokens": 1025,
+  "total_tokens": 1503,
+  "cost_usd": 0.0011,
+  "latency_s": 24.689,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

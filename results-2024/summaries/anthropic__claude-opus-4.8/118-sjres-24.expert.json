@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution invokes the congressional disapproval mechanism of the Congressional Review Act (chapter 8 of title 5, United States Code) to nullify a final rule promulgated by the United States Fish and Wildlife Service.\n\nThe operative provision disapproves the rule titled \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,\" published at 87 Fed. Reg. 73488 (November 30, 2022), which reclassified the northern long-eared bat from \"threatened\" to \"endangered\" status under the Endangered Species Act. Pursuant to 5 U.S.C. § 801(b)(1), the resolution provides that the identified rule \"shall have no force or effect.\"\n\nThe resolution contains a single operative clause and effects its result by direct operation of the CRA rather than by amending any provision of the U.S. Code or a named Act. Under 5 U.S.C. § 801(b)(2), enactment would additionally bar the agency from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, absent subsequent statutory authorization. The resolution makes no appropriation, confers no new rulemaking authority, and establishes no deadlines, effective-date provisions, or conditions precedent beyond those supplied by the CRA framework itself.\n\nThe document reflects engrossment in the Senate, having passed the Senate on May 11, 2023. As a joint resolution proceeding under the CRA, it would require passage by the House of Representatives and presentment to the President (or, alternatively, enactment over a veto) to take effect. The measure benefits from the CRA's expedited procedures in the Senate, including limitations on debate under 5 U.S.C. § 802.\n\nNo substantive standards, findings, or supporting provisions are included; the text is confined to the disapproval determination and the resulting invalidation of the specified rule.",
+  "prompt_tokens": 922,
+  "completion_tokens": 624,
+  "total_tokens": 1546,
+  "cost_usd": 0.02021,
+  "latency_s": 15.862,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "American Samoa is a group of islands that is part of the United States. It has its own set of rules called a constitution. A constitution is like a big rulebook for how a place is run.\n\nBefore this law, there was an old rule that made it hard for the people of American Samoa to change their constitution. That old rule said Congress had to be involved in the changes.\n\nThis new law removes that old rule. Congress voted to cancel it.\n\nNow, the people of American Samoa can change their own constitution on their own. They can do this using majority rule. Majority rule means the choice that most people vote for wins. They will not need Congress to say yes each time.\n\nThe bill points out that Congress still keeps some power over U.S. territories. A territory is an area that belongs to the country but is not a full state. This power comes from a part of the U.S. Constitution called the Territorial Clause.\n\nThe House of Representatives passed this bill on July 8, 2024. The Senate passed it on December 18, 2024. It became law on January 4, 2025.",
+  "prompt_tokens": 894,
+  "completion_tokens": 313,
+  "total_tokens": 1207,
+  "cost_usd": 0.012295,
+  "latency_s": 5.864,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

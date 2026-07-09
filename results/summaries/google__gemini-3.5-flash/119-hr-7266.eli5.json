@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Rural and Municipal Utility Cybersecurity Act. It is a proposal, which is a plan for a new law. \n\nThe bill would keep a government program running to protect our power grid from cyberattacks. A cyberattack is when hackers try to damage or steal information from computers. The program helps smaller electric companies, like those run by local towns or rural co-ops. It also helps some small, private power companies. \n\nIf this bill becomes law, the government would give these power companies special tools, training, and money. This money can be given as grants, which are gifts of money for a specific project. The goal is to help these companies buy better security technology and share information about computer threats. \n\nThe bill would give priority to power companies that do not have a lot of money for computer security. It would also prioritize companies that are very important to the main power grid or military defense. \n\nAny information these companies share with the government would be kept secret to keep them safe. The bill would set aside $250 million to pay for this program from the years 2026 through 2030.",
+  "prompt_tokens": 1770,
+  "completion_tokens": 237,
+  "total_tokens": 2007,
+  "cost_usd": 0.004788,
+  "latency_s": 2.502,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

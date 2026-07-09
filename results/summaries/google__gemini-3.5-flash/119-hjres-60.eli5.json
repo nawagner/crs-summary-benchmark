@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the Senate and the House of Representatives. These are the two groups of people who make laws for our country. \n\nThe law stops a specific rule created by the National Park Service. The National Park Service is the government group that takes care of our national parks. Their rule was about using motor vehicles, like cars and trucks, in a park called the Glen Canyon National Recreation Area. \n\nBecause Congress passed this new law, the National Park Service's rule is canceled. The rule will have no power, and it cannot be used. \n\nThis law was approved on May 23, 2025.",
+  "prompt_tokens": 476,
+  "completion_tokens": 141,
+  "total_tokens": 617,
+  "cost_usd": 0.001983,
+  "latency_s": 2.272,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

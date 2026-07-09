@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a spending plan. It says how the government can use its money for energy and water projects. The money is for the year that ends on September 30, 2025.\n\nHere are the big parts:\n\n**Water projects.** The Army Corps of Engineers gets money to work on rivers, harbors, and floods. For example, they get about $3 billion to build projects and over $5.7 billion to keep them running. Another group, the Bureau of Reclamation, gets money to manage water in the western states, like $1.77 billion for water and other resources.\n\n**Energy work.** The Department of Energy gets money for many things. This includes about $8.39 billion for science research and $1.96 billion for clean energy like wind and solar. It also pays to keep the country's nuclear weapons safe and to clean up old, dirty sites.\n\n**Safety groups.** Some agencies get money to check that nuclear power and other projects are safe.\n\nThe bill also sets rules. Here are a few:\n\n- The government cannot buy computers or printers if China owns part of the company that makes them.\n- It cannot use money for COVID-19 mask or vaccine rules.\n- It cannot use money to teach or spread \"Critical Race Theory,\" which is an idea about race.\n- It cannot pay for some new energy-saving rules for things like stoves and air conditioners.\n\nThe bill's short name is the \"Energy and Water Development and Related Agencies Appropriations Act, 2025.\" For it to become law, both parts of Congress and the President must agree.",
+  "prompt_tokens": 35649,
+  "completion_tokens": 474,
+  "total_tokens": 36123,
+  "cost_usd": 0.190095,
+  "latency_s": 9.513,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

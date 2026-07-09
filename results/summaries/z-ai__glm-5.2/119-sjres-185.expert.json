@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 185 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent a declaration of war or specific statutory authorization for the use of military force. The joint resolution invokes the expedited parliamentary procedures established under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth findings, affirming Congress's sole power to declare war under Article I, Section 8, Clause 11 of the United States Constitution and the President's constitutional responsibility to defend the United States and its personnel from attack. It notes that Congress has not declared war on Iran or enacted a specific statutory authorization for the use of military force within or against Iran. It further provides that the use of military force within or against Iran, including the enforcement of a naval blockade, constitutes the introduction of United States Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) provides the operative mechanism, directing the President to remove United States Armed Forces from hostilities within or against Iran unless explicitly authorized by a declaration of war or a specific authorization for use of military force. \n\nSection 2(b) establishes a rule of construction, specifying that the resolution does not prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence with partner countries attacked by Iran since February 28, 2026, and other nations and international organizations, related to threats from Iran or its proxies; and (3) assisting partner countries attacked by Iran since February 28, 2026, and other nations in intercepting retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such defensive measures. The resolution does not contain an appropriation or specify an effective date beyond its enactment.",
+  "prompt_tokens": 1160,
+  "completion_tokens": 1444,
+  "total_tokens": 2604,
+  "cost_usd": 0.003111,
+  "latency_s": 34.624,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

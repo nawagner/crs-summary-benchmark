@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill tells the President to bring home U.S. troops from any fighting in or against Cuba if Congress has not given its permission. The Constitution says only Congress can declare war. The bill notes that Congress has not declared war on Cuba and has not passed a law that allows military force there. If American forces are involved in hostilities, such as using ships to block Cuba’s ports (a blockade), they must be removed.\n\nThere are two important exceptions: The order does not stop the military from defending the United States—its land, people, or property—from a sudden armed attack or the immediate threat of one. It also does not stop lawful missions that fight drug trafficking. For any other military action, the President must first get a formal declaration of war from Congress or a specific law authorizing the use of force. If the bill becomes law, the President would have to follow these rules and pull forces back unless one of those conditions is met.",
+  "prompt_tokens": 867,
+  "completion_tokens": 1597,
+  "total_tokens": 2464,
+  "cost_usd": 0.001767,
+  "latency_s": 24.838,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

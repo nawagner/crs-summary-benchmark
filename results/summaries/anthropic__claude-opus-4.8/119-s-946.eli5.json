@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"MATE Improvement Act.\" It is about doctors and other people who can give patients medicine. Some medicines are called \"controlled substances.\" These are strong drugs that can be risky, so the law watches them closely.\n\nThe law says people who prescribe these medicines need special training first. To count, the training has to come from a group that is approved. This bill adds more groups to that approved list.\n\nThe new groups include doctors who work on feet (podiatrists), dentists, eye doctors (optometrists), family doctors, pharmacists, and different kinds of nurses. Their training programs and schools would now count too.\n\nSo if this bill becomes law, more kinds of medical workers and schools could give the training that prescribers need. This gives people more ways to learn what the law requires.\n\nThe bill also says these changes would count as if they had already started on December 29, 2022. That means the new rules would apply as if they had been in place since that date.\n\nThis bill was introduced in the Senate. That means lawmakers are just starting to look at it. It is not a law yet.",
+  "prompt_tokens": 1540,
+  "completion_tokens": 326,
+  "total_tokens": 1866,
+  "cost_usd": 0.01585,
+  "latency_s": 7.775,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

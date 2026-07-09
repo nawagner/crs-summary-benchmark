@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S.J. Res. 38, as passed by the Senate on November 8, 2023, is a joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code (the Congressional Review Act). The resolution exercises the legislative veto mechanism of the Congressional Review Act to nullify a specific final rule issued by the Federal Highway Administration. The operative provision states: “Congress disapproves the rule submitted by the Federal Highway Administration relating to ‘Waiver of Buy America Requirements for Electric Vehicle Chargers’ (88 Fed. Reg. 10619 (February 21, 2023)), and such rule shall have no force or effect.” The resolution does not amend any section of the United States Code; it acts directly on the agency rule.\n\nUpon enactment, the disapproval would trigger the statutory bar in 5 U.S.C. § 801(b)(2), prohibiting the Federal Highway Administration from reissuing the disapproved rule in substantially the same form, or issuing a new rule that is substantially the same, unless specifically authorized by a subsequent law. The resolution contains no exceptions, conditions precedent, delayed effective dates, or sunset provisions. It authorizes no appropriations and does not itself provide any funding. The resolution’s effect is immediate upon enactment, subject to the Congressional Review Act’s expedited procedures and the presentment requirements applicable to joint resolutions.",
+  "prompt_tokens": 486,
+  "completion_tokens": 1740,
+  "total_tokens": 2226,
+  "cost_usd": 0.001725,
+  "latency_s": 43.226,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution disapproves a final rule submitted by the Bureau of Ocean Energy Management under the Congressional Review Act (chapter 8 of title 5, United States Code). The operative mechanism is a legislative veto: the resolution provides that the rule entitled “Protection of Marine Archaeological Resources,” published at 89 Federal Register 71160 on September 3, 2024, “shall have no force or effect.” The resolution does not amend the underlying statutory authority, repeal any provision of law, or direct the agency to take further action; it simply nullifies the rule.\n\nThe resolution cites no U.S. Code section other than the Congressional Review Act itself and does not reference any named act other than that chapter. It contains no exceptions, conditions precedent, effective dates, or deadlines beyond its own enactment. The resolution does not authorize or appropriate funds, nor does it include a sunset provision. The legal effect is immediate upon approval: the rule is void and unenforceable, and the agency is barred from reissuing the same or a substantially similar rule absent subsequent statutory authorization.",
+  "prompt_tokens": 450,
+  "completion_tokens": 218,
+  "total_tokens": 668,
+  "cost_usd": 0.000385,
+  "latency_s": 9.841,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

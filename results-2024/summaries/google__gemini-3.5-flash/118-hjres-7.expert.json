@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-3 (H.J. Res. 7), enacted on April 10, 2023, is a joint resolution that terminates the national emergency declared by the President on March 13, 2020, in response to the COVID-19 pandemic. \n\nOperating pursuant to the statutory mechanism set forth in section 202 of the National Emergencies Act (50 U.S.C. § 1622), the joint resolution explicitly terminates the national emergency declared in Presidential Proclamation 9994 (85 Fed. Reg. 15337). \n\nThe statutory effect of this joint resolution is the immediate cessation of the national emergency authority invoked under Proclamation 9994. The measure is codified as a note under 50 U.S.C. § 1621. It contains no authorizations of appropriations, exceptions, savings clauses, or transitional provisions, and took effect immediately upon its enactment on April 10, 2023.",
+  "prompt_tokens": 509,
+  "completion_tokens": 223,
+  "total_tokens": 732,
+  "cost_usd": 0.002771,
+  "latency_s": 2.147,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

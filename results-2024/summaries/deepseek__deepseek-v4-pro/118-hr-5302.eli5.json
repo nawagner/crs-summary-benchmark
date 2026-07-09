@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law gives a new name to a marine unit in Puerto Rico. The unit is part of U.S. Customs and Border Protection, the agency that guards America’s borders and stops illegal goods from entering the country. The unit’s officers patrol the waters around Puerto Rico in boats.\n\nThe law renames the unit the \"Michel O. Maceda Marine Unit.\" It is located at 101 Kilometer 18.5 in the town of Cabo Rojo, Puerto Rico. From now on, all official United States maps, records, and papers will use this new name.\n\nThe unit is named to honor Michel O. Maceda. He served in the U.S. Army as a mechanic, then joined the Border Patrol in Arizona in 2016. In 2021, he became a Marine Interdiction Agent, the kind of officer who stops drug shipments at sea. On November 17, 2022, Agent Maceda and two other agents boarded a boat off the coast of Puerto Rico as part of a drug stop. During that action, someone on the boat shot and killed him. He is survived by his daughter, brother, and parents.\n\nThe law was approved on December 11, 2024. The only thing it changes is the official name of that one marine unit.",
+  "prompt_tokens": 778,
+  "completion_tokens": 887,
+  "total_tokens": 1665,
+  "cost_usd": 0.00111,
+  "latency_s": 12.644,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

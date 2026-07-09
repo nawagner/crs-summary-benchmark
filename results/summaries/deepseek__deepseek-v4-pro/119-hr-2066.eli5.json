@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill makes changes to a government program that helps small investment companies lend money to small businesses. These companies can borrow extra money, called leverage, from the government to invest. The law sets limits on how much they can borrow.\n\nThe bill adjusts those limits. It lowers one general limit: a company could borrow up to 300 percent of its own money, but now it is lowered to 200 percent. At the same time, it sets new dollar caps on total borrowing. Companies that make regular interest payments can borrow up to $250 million. Other companies can borrow up to $175 million. If multiple companies are under the same control, their combined borrowing cap can be $475 million if they make regular payments, or $350 million otherwise.\n\nAnother big change is a new rule for leaving certain investments out when calculating borrowing limits. Now, a company can exclude money it invests in small businesses located in low-income areas, rural areas, important technology fields, or small manufacturing. The excluded amount cannot be more than half of the company's own money or $125 million, whichever is smaller. Only investments made after May 19, 2026, qualify for this exclusion.\n\nThis means the program can direct more support toward small businesses in rural or low-income places and those working on key technologies or manufacturing.",
+  "prompt_tokens": 1527,
+  "completion_tokens": 1986,
+  "total_tokens": 3513,
+  "cost_usd": 0.002392,
+  "latency_s": 34.821,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

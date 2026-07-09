@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Communities of Recovery Reauthorization Act of 2025.\"\n\nIt deals with grants. A grant is money the government gives to help people do good things. These grants help build \"communities of recovery.\" That means helping people who are getting better after problems like drug or alcohol use.\n\nThere is already a law that gives money for this. But the old law only gave money through the year 2023. This bill would keep the program going with new money.\n\nThe bill changes two big things:\n\nFirst, it gives more money. The old law gave $5 million each year. This bill would give $17 million each year. That is more than three times as much.\n\nSecond, it sets new years for the money. The money would be given for each year from 2026 through 2030. That is five years.\n\nIf this bill becomes law, the program would get more money and would keep running for these new years.\n\nThe bill was introduced in the House of Representatives on April 7, 2025. It was brought forward by Ms. Pettersen and Mr. Nunn of Iowa. It was sent to a group called the Committee on Energy and Commerce. This group looks at the bill first before it can move ahead.",
+  "prompt_tokens": 772,
+  "completion_tokens": 340,
+  "total_tokens": 1112,
+  "cost_usd": 0.01236,
+  "latency_s": 6.835,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a new law that cancels a plan from the Bureau of Land Management. The Bureau of Land Management is a government agency that takes care of public lands. The plan was called the “Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.” It laid out how certain public land in the Miles City area should be used and protected. The plan was created on November 20, 2024.\n\nUnder a law called the Congressional Review Act, Congress can review and reject new rules from agencies. The Government Accountability Office wrote an opinion letter on June 25, 2025, stating that this plan counts as a rule under that law. Then Congress took a vote and disapproved the plan. Because of this joint resolution, the plan now has no force or effect. This means it cannot be put into action. The resolution was passed by the House and Senate and approved on December 11, 2025.",
+  "prompt_tokens": 516,
+  "completion_tokens": 715,
+  "total_tokens": 1231,
+  "cost_usd": 0.000847,
+  "latency_s": 16.906,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

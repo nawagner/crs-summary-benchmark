@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "openai/gpt-5.5",
+  "summary": "The Safe Response Act amends section 546 of the Public Health Service Act, 42 U.S.C. § 290ee-1, which establishes the first responder training program, to reauthorize funding and broaden the program’s terminology beyond opioid-specific overdose response.\n\nSection 2 makes conforming and substantive amendments throughout section 546. In subsection (a), it changes the references to “tribes and tribal” to “Tribes and Tribal.” In subsections (a), (c), and (d), it replaces each reference to drugs or devices “approved or cleared” with “approved, cleared, or otherwise legally marketed,” thereby extending the statutory terminology to include products lawfully marketed through mechanisms other than FDA approval or clearance. In the same subsections, it strikes each occurrence of “opioid,” eliminating opioid-specific limitations in the affected provisions.\n\nSection 2 further amends subsection (f). It makes the same replacement of “approved or cleared” with “approved, cleared, or otherwise legally marketed” wherever that phrase appears. It removes “opioid” from paragraph (1). In paragraph (2), it expands the phrase “opioid and heroin” to “opioid, heroin, and other drug,” and replaces “opioid overdose” with “overdose.” In paragraph (3), it strikes “opioid and heroin,” further removing drug-specific terminology from that provision.\n\nFinally, section 2 amends subsection (h), the authorization of appropriations, by replacing the prior authorization of $36,000,000 for each of fiscal years 2019 through 2023 with an authorization of $57,000,000 for each of fiscal years 2026 through 2030. The bill authorizes appropriations for those fiscal years but does not itself appropriate funds.",
+  "prompt_tokens": 706,
+  "completion_tokens": 526,
+  "total_tokens": 1232,
+  "cost_usd": 0.01931,
+  "latency_s": 11.042,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

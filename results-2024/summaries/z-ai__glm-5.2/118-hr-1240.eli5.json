@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Winnebago Land Transfer Act of 2023. It was approved on July 12, 2024.\n\nThe law gives certain pieces of land back to the Winnebago Tribe of Nebraska. Right now, the United States government owns this land. The law moves control of the land from one government group, the Army Corps of Engineers, to another group, the Bureau of Indian Affairs. The Bureau of Indian Affairs is a part of the government that helps Native American tribes. The government will hold this land in trust for the tribe. This means the government protects the land for the tribe to use and benefit from.\n\nThe land becomes part of the Winnebago Reservation. This reservation was first created by a treaty in 1865. The law lists three exact pieces of land, called tracts, in Iowa and Nebraska.\n\nThere is one big rule in the law. The tribe is not allowed to build casinos or run gambling games on this land. The law says that Class II and Class III gaming, which includes things like bingo and casino games, will never be allowed on these specific pieces of land.",
+  "prompt_tokens": 970,
+  "completion_tokens": 988,
+  "total_tokens": 1958,
+  "cost_usd": 0.002225,
+  "latency_s": 4.28,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress passes it and the president signs it. \n\nThe bill is about a rule created by government agencies. These agencies are the Department of the Army, the Corps of Engineers, the Department of Defense, and the Environmental Protection Agency. On January 18, 2023, these agencies made a rule called the \"Revised Definition of 'Waters of the United States.'\" This rule decided which bodies of water are protected by federal environmental laws. \n\nIf this bill becomes a law, it would stop that rule from being used. The bill says that Congress disapproves of the rule. It states that the rule will have no force or effect. This means the rule would be canceled, and the government could not use it anymore.",
+  "prompt_tokens": 486,
+  "completion_tokens": 168,
+  "total_tokens": 654,
+  "cost_usd": 0.002241,
+  "latency_s": 1.919,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

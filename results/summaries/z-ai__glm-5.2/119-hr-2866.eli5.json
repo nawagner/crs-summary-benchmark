@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"No Visas for Anti-Semitic Students Act.\" It was introduced on April 10, 2025. \n\nThe bill tells the Secretary of State (a top government official who deals with other countries) to cancel or deny visas for students who do certain bad things. A visa is a document that lets a person from another country come to the United States to study.\n\nIf this bill becomes a law, students from other countries could lose their permission to study in the U.S. if they engage in \"prohibited antisemitic conduct.\" This means doing physical violence, vandalism, or harassment against Jewish people, their property, or their religious buildings to scare or hurt them because they are Jewish. It also means giving money or help to someone who plans to do these things.\n\nThe law would only apply to actions that happen on or after the day the law is passed. Also, the Secretary of State must decide that the student's actions could cause serious problems for the United States with other countries. The bill uses a definition of antisemitism that was adopted on May 26, 2016, by a group called the International Holocaust Remembrance Alliance.",
+  "prompt_tokens": 1202,
+  "completion_tokens": 1127,
+  "total_tokens": 2329,
+  "cost_usd": 0.00259,
+  "latency_s": 29.869,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

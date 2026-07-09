@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about stopping a special government order.\n\nFirst, here is some background. A \"national emergency\" is when the President says there is a big problem that needs quick action. On July 30, 2025, the President declared a national emergency. That order added extra taxes, called \"duties,\" on things brought into the United States from Brazil. These duties are also known as tariffs. They make goods from another country cost more.\n\nThis bill would end that emergency. If it becomes law, the emergency the President declared would be over. That means the special order about taxing goods from Brazil would stop.\n\nThe bill uses a rule from a law called the National Emergencies Act. This law lets Congress vote to end an emergency that a President started.\n\nThe bill was introduced in the House of Representatives on February 2, 2026. It was brought forward by Mr. Meeks and several other lawmakers. It was sent to a group called the Committee on Foreign Affairs. This group studies bills about how the United States deals with other countries.\n\nThe bill is short. It does one main thing: it ends the emergency from July 30, 2025.",
+  "prompt_tokens": 726,
+  "completion_tokens": 330,
+  "total_tokens": 1056,
+  "cost_usd": 0.01188,
+  "latency_s": 6.597,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

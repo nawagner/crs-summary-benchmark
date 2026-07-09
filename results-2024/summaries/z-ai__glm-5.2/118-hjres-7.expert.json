@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-3 (H.J. Res. 7) is a joint resolution enacted pursuant to section 202 of the National Emergencies Act (50 U.S.C. 1622) to terminate a specific presidentially declared national emergency. The primary purpose of the joint resolution is to statutorily terminate the national emergency declared by the President on March 13, 2020, in Proclamation 9994 (85 Fed. Reg. 15337).\n\nThe operative mechanism of the joint resolution relies on the statutory framework established by the National Emergencies Act. Section 202 of the Act (50 U.S.C. 1622) provides that a national emergency shall terminate upon the enactment of a joint resolution terminating the emergency. The joint resolution exercises this specific congressional authority by explicitly naming Proclamation 9994 and declaring the national emergency invoked thereunder to be terminated.\n\nThe joint resolution does not amend the text of the United States Code or the National Emergencies Act. Instead, it functions as a standalone statutory enactment that triggers the termination provision of 50 U.S.C. 1622. The resolution contains no new authorizations, appropriations, exceptions, conditions precedent, or sunset provisions. By its terms, the resolution applies solely to the March 13, 2020, declaration and does not affect any other national emergencies that may be in effect.\n\nThe joint resolution was approved on April 10, 2023. As a joint resolution enacted into public law, its effective date is the date of approval, at which point the national emergency declared in Proclamation 9994 is terminated, thereby ceasing any powers and authorities invoked by the President or executive agencies solely on the basis of that specific emergency declaration.",
+  "prompt_tokens": 450,
+  "completion_tokens": 1260,
+  "total_tokens": 1710,
+  "cost_usd": 0.002408,
+  "latency_s": 19.584,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

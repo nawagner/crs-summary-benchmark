@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8772",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill sets the budget for the United States Congress and its related offices for one year, from October 1, 2024, to September 30, 2025. An appropriation bill is how the government gives permission to spend money.\n\nThe bill provides money for many parts of the legislative branch. It pays the salaries of Representatives and their staff. It funds offices like the Capitol Police, the Library of Congress, and the Architect of the Capitol, who takes care of the buildings and grounds. It sets aside specific amounts, like $174,000 for the family of a late Representative and $20.6 million to pay for interns in House member offices.\n\nThe bill includes several special rules. No money can be used to buy drones made in China unless it's for national security. Computer networks must block pornography. The budget cannot fund diversity, equity, and inclusion training that teaches certain ideas about race or sex. It also says no funds can be used to take action against a person based on their religious beliefs about marriage being between one man and one woman. One part states that Members of Congress will not receive a cost-of-living pay raise during this year. Any leftover money from Representatives' office allowances must be sent back to the Treasury to help reduce the national debt.",
+  "prompt_tokens": 12251,
+  "completion_tokens": 571,
+  "total_tokens": 12822,
+  "cost_usd": 0.005826,
+  "latency_s": 13.939,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

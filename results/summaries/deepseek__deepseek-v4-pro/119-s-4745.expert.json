@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S. 4745 designates a single named facility of the United States Postal Service. The bill’s operative mechanism is a statutory mandate that the postal facility located at 201 East Grant Avenue in Georgetown, Ohio, “shall be known and designated” as the “Ulysses S. Grant Post Office Building.” Section 1(a) enacts the designation. Section 1(b) provides that any reference in a law, map, regulation, document, paper, or other record of the United States to that facility is deemed a reference to the “Ulysses S. Grant Post Office Building.” The bill does not amend any title of the United States Code; it creates a freestanding designation. It contains no authorization of appropriations, no appropriations, no conditions precedent, no effective date, no sunset, and no reporting or implementation deadlines. It does not alter the functions, operations, or legal status of the facility beyond its official name. The measure was introduced and referred to the Committee on Homeland Security and Governmental Affairs, but the text imposes no further substantive or administrative requirements.",
+  "prompt_tokens": 540,
+  "completion_tokens": 578,
+  "total_tokens": 1118,
+  "cost_usd": 0.000738,
+  "latency_s": 9.173,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a way for Congress to cancel a rule made by a government group.\n\nThe group is called the Commodity Futures Trading Commission, or CFTC. This group watches over certain kinds of trading and buying and selling.\n\nThe CFTC made a rule about \"carbon credit derivative contracts.\" A carbon credit is a kind of permit tied to pollution. A derivative contract is a special deal people trade based on the value of something else. The CFTC's rule gave advice about how these deals should be listed and handled.\n\nThis bill says Congress does not agree with that rule. If this bill becomes law, the rule would be canceled. It would have \"no force or effect.\" That means the rule would not count anymore, like it never happened.\n\nCongress can do this using a law that lets them say no to rules made by government groups. This bill is called a \"joint resolution.\" That is a plan both parts of Congress, the House and the Senate, must agree on.\n\nThe rule was published on October 15, 2024. A member named Mrs. Bice introduced this bill on April 3, 2025.\n\nFor this to work, both the House and the Senate must pass it. This bill by itself does not create any new rules. It only tries to remove the CFTC's rule.",
+  "prompt_tokens": 826,
+  "completion_tokens": 379,
+  "total_tokens": 1205,
+  "cost_usd": 0.013605,
+  "latency_s": 7.383,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

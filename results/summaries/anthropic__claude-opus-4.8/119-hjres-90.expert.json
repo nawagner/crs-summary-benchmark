@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801–808), to nullify a specified agency rule.\n\nThe operative mechanism is the CRA's expedited disapproval procedure under 5 U.S.C. § 802. The resolution provides that Congress disapproves the final guidance submitted by the Commodity Futures Trading Commission (CFTC) titled \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,\" published at 89 Fed. Reg. 83378 (October 15, 2024), and states that \"such rule shall have no force or effect.\"\n\nConsistent with the CRA framework, enactment of the resolution would prevent the CFTC guidance from taking effect (or, if already in effect, would void it), and would trigger the reenactment bar under 5 U.S.C. § 801(b)(2), which prohibits the agency from issuing a new rule in substantially the same form absent subsequent statutory authorization. The resolution characterizes the CFTC document as a \"rule\" for CRA purposes, notwithstanding its designation as \"guidance,\" thereby treating it as subject to the CRA's definition of \"rule\" under 5 U.S.C. § 804(3) (incorporating the definition in 5 U.S.C. § 551).\n\nThe resolution contains a single operative clause and no separate effective-date provision; under the CRA, its legal effect is contingent upon passage by both chambers and presentment to the President pursuant to Article I, section 7 (subject to the possibility of a presidential veto and override, the CRA joint-resolution form not being self-executing). The resolution neither authorizes nor appropriates funds, amends no provision of the U.S. Code, and creates no new substantive standing law beyond disapproving the identified rule.\n\nProcedurally, the resolution was introduced in the House on April 3, 2025, by Mrs. Bice and referred to the Committee on Agriculture. As a CRA disapproval resolution, it would be eligible in the Senate for the expedited \"fast-track\" procedures set forth in 5 U.S.C. § 802, including limited debate and the bar on certain dilatory motions, subject to the statutory timing requirements governing the initiation period measured from the agency's submission of the rule report and Federal Register publication.\n\nThe resolution effects no amendment, repeal, or sunset of existing statutory text; its sole legal consequence is the disapproval and voiding of the identified CFTC guidance.",
+  "prompt_tokens": 917,
+  "completion_tokens": 842,
+  "total_tokens": 1759,
+  "cost_usd": 0.025635,
+  "latency_s": 13.431,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

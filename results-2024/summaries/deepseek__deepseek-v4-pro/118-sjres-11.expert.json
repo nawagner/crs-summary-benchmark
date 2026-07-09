@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801–808), to disapprove a final rule issued by the Environmental Protection Agency. The resolution provides that Congress disapproves the rule submitted by the Administrator of the Environmental Protection Agency entitled “Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,” published at 88 Federal Register 4296 (January 24, 2023). The operative clause declares that the identified rule “shall have no force or effect.”\n\nThe resolution does not amend any statute, create new authority, repeal existing law, or contain any authorization of appropriations, exceptions, conditions precedent, or delayed effective dates. As a joint resolution of disapproval under the CRA, its legal effect upon enactment would be to nullify the rule and, pursuant to 5 U.S.C. § 801(f), bar the agency from reissuing the same rule or a substantially similar rule absent subsequent statutory authorization. The resolution itself specifies no effective date; under the CRA, a rule disapproved by a joint resolution enacted into law is treated as though it had never taken effect.\n\nAs engrossed in the Senate, S.J. Res. 11 reflects passage by the Senate on April 26, 2023. Enactment requires passage by the House of Representatives and presentment to the President (or a veto override). The text contains no additional provisions, riders, or amendments.",
+  "prompt_tokens": 507,
+  "completion_tokens": 965,
+  "total_tokens": 1472,
+  "cost_usd": 0.00106,
+  "latency_s": 24.938,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

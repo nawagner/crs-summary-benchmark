@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-2 is a joint resolution enacted pursuant to chapter 8 of title 5, United States Code, providing congressional disapproval of a specified Environmental Protection Agency rule under the Congressional Review Act mechanism. Its sole operative provision states that Congress disapproves the EPA rule entitled “Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions,” published at 89 Fed. Reg. 91094 on November 18, 2024.\n\nThe legal effect prescribed by the resolution is that the disapproved rule “shall have no force or effect.” The resolution does not amend the Clean Air Act, title 42, or any other provision of the United States Code; it does not establish replacement regulatory standards, confer new rulemaking authority, create exemptions independent of the disapproved rule, or revise statutory obligations concerning petroleum and natural gas systems. It contains no authorization of appropriations, no direct appropriation, no reporting requirement, no implementation deadline, no savings clause, and no express exception or condition precedent beyond enactment of the joint resolution itself.\n\nThe resolution was approved on March 14, 2025. Its operative consequence is limited to congressional disapproval, under 5 U.S.C. chapter 8, of the identified EPA rule and the resulting negation of that rule’s legal force or effect.",
+  "prompt_tokens": 499,
+  "completion_tokens": 479,
+  "total_tokens": 978,
+  "cost_usd": 0.016865,
+  "latency_s": 11.597,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

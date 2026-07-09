@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress and the President agree. It was introduced in the Senate on April 13, 2026. \n\nThe bill says that only Congress has the power to declare war. It points out that Congress has not declared war on Iran. However, the bill notes that the President and other leaders have called the current fighting in Iran a \"war.\" It also says that 13 U.S. service members have been killed and at least 350 have been hurt in the conflict as of April 10, 2026.\n\nIf this bill becomes law, it would order the President to remove U.S. military forces from fighting in or against Iran. The only way the military could stay is if Congress officially declares war or gives special permission. \n\nEven if the military is removed, the bill allows the U.S. to do a few things. The U.S. could still defend itself from attacks. It could share intelligence, which is secret information, with allies like Israel. The U.S. could also help Israel and other partners defend themselves from Iranian attacks, and help U.S. citizens safely leave the area.",
+  "prompt_tokens": 1580,
+  "completion_tokens": 259,
+  "total_tokens": 1839,
+  "cost_usd": 0.004701,
+  "latency_s": 2.342,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

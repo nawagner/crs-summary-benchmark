@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill cancels a rule made by the IRS. The IRS is the part of the government that collects taxes.\n\nThe rule was about \"digital assets.\" Digital assets are things like cryptocurrency, which is money that only exists on computers.\n\nThe IRS rule said that certain \"brokers\" had to report information about digital asset sales. A broker is a business that helps people buy or sell things. The rule wanted these brokers to tell the government about the money made from these sales.\n\nCongress used a special power to say \"no\" to this rule. When Congress does this, the rule is thrown out. So the rule now has no power and does not count. Brokers do not have to follow it.\n\nThe rule was first made on December 30, 2024. Congress voted to cancel it. The House of Representatives passed the vote on March 11, 2025. The Senate passed it on March 26, 2025. It became law on April 10, 2025.\n\nIn short, this bill stops the IRS rule about reporting digital asset sales. Nothing in that rule will happen.",
+  "prompt_tokens": 792,
+  "completion_tokens": 316,
+  "total_tokens": 1108,
+  "cost_usd": 0.01186,
+  "latency_s": 7.376,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

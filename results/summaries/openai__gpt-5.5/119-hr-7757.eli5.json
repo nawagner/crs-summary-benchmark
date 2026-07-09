@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "openai/gpt-5.5",
+  "summary": "The KIDS Act sets rules for many websites, apps, games, and AI chatbots used by people under 17.\n\nSites where more than one-third of the content is sexual material harmful to minors would have to use age-check technology within 1 year. They could not let minors see that material. A person saying “I am not a minor” would not be enough. The sites could not keep or share age-check data except when strictly needed.\n\nLarge social platforms would have to add safety tools for minors. These tools would limit messages, location sharing, recommendations, and features that may lead to too much use. The safest settings would be on by default. Parents could manage privacy, purchases, and time limits. Platforms would need a way to report harm and answer most reports within 10 days.\n\nPlatforms could not show minors ads for narcotic drugs, cannabis, tobacco, gambling, or alcohol. They could not use disappearing messages for minors. They could not allow direct messages for children under 13. Teens could have parent controls for direct messages.\n\nOnline games would need parent tools to limit chat, purchases, and play time. Chatbots would have to tell minors they are AI, give crisis hotline resources when suicide is mentioned, and suggest a break after 3 hours.\n\nThe bill also orders studies, public education, and best-practice reports. The Federal Trade Commission would enforce the law.",
+  "prompt_tokens": 17903,
+  "completion_tokens": 360,
+  "total_tokens": 18263,
+  "cost_usd": 0.100315,
+  "latency_s": 7.286,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

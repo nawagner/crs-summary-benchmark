@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law helps fix a problem for the families of some veterans. Sometimes a veteran cannot manage their own money, so the Department of Veterans Affairs (VA) picks a trusted person, called a fiduciary, to handle the veteran’s benefits. If that fiduciary misuses or steals the money, the VA can replace the lost amount.\n\nBefore this law, if a veteran died while waiting for the VA to pay back the stolen money, it was not always clear what happened to that payment. This law says that if the veteran passes away before getting the repayment, the VA must send the money to the veteran’s estate. An estate is everything the veteran left behind, which usually goes to family members according to law. But there is an important condition: the VA can never give that repayment to the same fiduciary who misused the benefits in the first place. This makes sure the stolen money or its replacement does not end up back in the wrong hands. The law took effect on November 25, 2024.",
+  "prompt_tokens": 711,
+  "completion_tokens": 793,
+  "total_tokens": 1504,
+  "cost_usd": 0.000999,
+  "latency_s": 11.32,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill says the President must pull U.S. Armed Forces out of fighting in or against Cuba, unless Congress clearly approves it first. Congress could approve it by declaring war or by passing a special law allowing military force.\n\nThe bill says Congress has the power to declare war under the Constitution. It also says the President may act to defend the United States, its lands, citizens, service members, and diplomats from attack.\n\nThe bill says Congress has not declared war on Cuba. It also says Congress has not passed a specific law allowing U.S. military force in or against Cuba.\n\nThe bill says using U.S. forces in or against Cuba would count as “hostilities,” which means fighting or being involved in possible fighting. This includes using the Coast Guard or other Armed Forces to blockade or quarantine Cuba.\n\nThe bill would not stop the United States from defending itself against an armed attack or an attack that is about to happen. It also would not stop lawful drug-fighting operations.",
+  "prompt_tokens": 873,
+  "completion_tokens": 329,
+  "total_tokens": 1202,
+  "cost_usd": 0.014235,
+  "latency_s": 6.412,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

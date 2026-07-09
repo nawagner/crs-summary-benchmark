@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "openai/gpt-5.5",
+  "summary": "H.J. Res. 39 is a joint resolution of congressional disapproval of a Department of Commerce rule entitled “Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,” published at 87 Fed. Reg. 56868.\n\nThe resolution contains a single operative provision: Congress disapproves the submitted Department of Commerce rule, and “such rule shall have no force or effect.” The operative mechanism is invalidation of the specified final rule by joint resolution, rather than amendment of any underlying tariff, customs, trade-remedy, or administrative procedure statute.\n\nThe resolution does not expressly amend, repeal, or add any provision of the United States Code; does not amend a named Act; and does not prescribe substitute procedures for suspension of liquidation, duties, or estimated duties. It contains no exceptions, savings clause, transition rule, waiver authority, implementation deadline, reporting requirement, or agency action mandate beyond the legal consequence that the identified rule shall have no force or effect. It also contains no authorization of appropriations, direct appropriation, rescission, or other budgetary provision. No separate effective date is specified in the text.",
+  "prompt_tokens": 446,
+  "completion_tokens": 757,
+  "total_tokens": 1203,
+  "cost_usd": 0.02494,
+  "latency_s": 19.777,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

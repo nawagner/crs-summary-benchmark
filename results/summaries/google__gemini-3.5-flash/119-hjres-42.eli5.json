@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the House of Representatives and the Senate. When the President signs a joint resolution, it becomes a law. \n\nThis law stops a specific government rule. The rule was created by the Department of Energy, which is the part of the government in charge of our country's energy. The rule was called \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment.\" It was first published on October 9, 2024. \n\nThe rule was about energy rules, labels, and enforcement for everyday appliances and business equipment. Because Congress disapproved of this rule, the law says the rule has no force or effect. This means the rule is canceled and cannot be used. \n\nThe House of Representatives voted to pass this law on March 5, 2025. The Senate voted to pass it on April 30, 2025. It was officially approved and became law on May 9, 2025.",
+  "prompt_tokens": 539,
+  "completion_tokens": 223,
+  "total_tokens": 762,
+  "cost_usd": 0.002816,
+  "latency_s": 2.826,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

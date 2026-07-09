@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the Congressional Review Act (chapter 8 of title 5, U.S. Code) to disapprove a rule submitted by the Securities and Exchange Commission. The operative mechanism is a legislative veto: upon enactment, the identified rule “shall have no force or effect.”\n\nThe resolution identifies the rule as “Staff Accounting Bulletin No. 121,” published at 87 Fed. Reg. 21015 (April 11, 2022). It further incorporates by reference a Government Accountability Office letter opinion dated October 31, 2023, printed in the Congressional Record on November 1, 2023 (pages S5310‑5312), which concluded that the Staff Accounting Bulletin constitutes a “rule” for purposes of chapter 8 of title 5. By disapproving the rule, the resolution nullifies the SEC’s interpretive guidance set forth in SAB 121, which addresses accounting treatment for obligations to safeguard crypto-assets held for platform users.\n\nThe resolution does not amend any named Act or U.S. Code section; it operates solely under the expedited procedures of the Congressional Review Act. It contains no exceptions, conditions precedent, effective dates, or delayed implementation provisions—disapproval is effective upon enactment. The resolution authorizes no appropriations and does not direct the SEC to take any further regulatory action. It is a straightforward exercise of Congress’s authority under 5 U.S.C. §§ 801–808 to void a covered agency rule by joint resolution.",
+  "prompt_tokens": 507,
+  "completion_tokens": 305,
+  "total_tokens": 812,
+  "cost_usd": 0.000486,
+  "latency_s": 9.97,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

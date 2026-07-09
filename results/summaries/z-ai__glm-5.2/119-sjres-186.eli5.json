@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill suggests a change to the U.S. Constitution. The Constitution is the highest set of rules for the country. The change would make voting a basic right for every U.S. citizen who is old enough to vote. They could vote in public elections where they live.\n\nThe government could not stop someone from voting or make it harder to vote. The only way they could is if they have a very important reason and no better way to do it. \n\nThe bill also removes a phrase from an older part of the Constitution. That phrase is \"or other crime.\" Taking out these words would stop rules that take away voting rights because someone committed a crime. \n\nCongress would have the power to make laws to protect this right to vote. For this change to become part of the Constitution, three-fourths of the states must agree to it.",
+  "prompt_tokens": 663,
+  "completion_tokens": 1658,
+  "total_tokens": 2321,
+  "cost_usd": 0.003207,
+  "latency_s": 48.933,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

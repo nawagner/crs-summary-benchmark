@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S.J. Res. 186 proposes an amendment to the U.S. Constitution establishing an affirmative, fundamental right to vote for citizens. The resolution sets forth the text of the proposed article, which would become effective upon ratification by three-fourths of the states.\n\nSection 1 creates a new constitutional guarantee: every U.S. citizen of legal voting age shall possess a fundamental right to vote in any public election held in the jurisdiction where the citizen resides.\n\nSection 2 establishes the standard of review applicable to any infringement of that right. It prohibits the United States, any State, or any political subdivision from denying or abridging the fundamental right to vote unless the governmental action satisfies strict scrutiny—that is, the denial or abridgment must be in furtherance of a compelling governmental interest and must constitute the least restrictive means of furthering that interest.\n\nSection 3 operates as a specific, self-executing repeal. It strikes the phrase “or other crime” from Section 2 of the Fourteenth Amendment. The effect is to eliminate the textual basis in the Fourteenth Amendment for disenfranchising citizens based on criminal conviction, leaving the remainder of Section 2 intact.\n\nSection 4 grants Congress the power to enforce the article and to protect against any denial or abridgment of the fundamental right to vote by legislation. This is a standard enforcement clause, conferring legislative authority analogous to that found in other Reconstruction-era amendments.\n\nThe joint resolution does not contain any appropriations, authorizations of funds, sunset provisions, or delayed effective dates beyond the constitutional requirement of ratification by three-fourths of the state legislatures.",
+  "prompt_tokens": 690,
+  "completion_tokens": 324,
+  "total_tokens": 1014,
+  "cost_usd": 0.000582,
+  "latency_s": 13.635,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

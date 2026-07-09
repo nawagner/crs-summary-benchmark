@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law keeps a special list going. The list is called a \"registry.\" It keeps track of firefighters who get cancer.\n\nThe registry started with a law in 2018. That first law let the government collect information about firefighters and cancer. The idea is to learn more about how firefighting and cancer might be connected.\n\nThis new law says the registry can keep working. It also gives it more money.\n\nBefore, the government could spend $2,500,000 (two and a half million dollars) each year. That money was for the years 2018 through 2022.\n\nNow, the government can spend $5,500,000 (five and a half million dollars) each year. This money is for the years 2024 through 2028. That is more money and more years than before.\n\nThe law was approved on December 12, 2024.\n\nThat is the main thing this law does. It lets the firefighter cancer list keep going, and it gives it more money for five more years.",
+  "prompt_tokens": 893,
+  "completion_tokens": 265,
+  "total_tokens": 1158,
+  "cost_usd": 0.01109,
+  "latency_s": 5.709,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

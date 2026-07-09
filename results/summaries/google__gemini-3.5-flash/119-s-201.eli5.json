@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-201",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the ACES Act of 2025. It became a law on August 14, 2025. \n\nThe main goal of this law is to start a scientific study about cancer. The study will look at military veterans who flew in airplanes while serving on active duty in the Army, Navy, Air Force, or Marine Corps. This includes pilots and other crew members. \n\nThe Secretary of Veterans Affairs, who is the government leader in charge of helping veterans, must ask a group of scientists called the National Academies to do this study. The Secretary has 30 days to start making a deal with the scientists, and 60 days to finish the deal. If the Secretary is late, they must explain why to Congress, which is the group of people who make laws for our country.\n\nThe scientists will look at what harmful things these flight crews might have been near, like chemicals. They will study if these things are linked to different types of cancer, such as brain, lung, and skin cancers. The scientists will use health records from the military and other government databases. When they are done, they will write a report with their findings for the government.",
+  "prompt_tokens": 1456,
+  "completion_tokens": 247,
+  "total_tokens": 1703,
+  "cost_usd": 0.004407,
+  "latency_s": 2.772,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

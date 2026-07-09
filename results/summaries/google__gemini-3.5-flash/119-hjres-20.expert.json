@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-6 (H.J. Res. 20), enacted May 9, 2025, is a joint resolution providing for congressional disapproval of a federal agency rule pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe primary purpose and operative mechanism of the joint resolution is the solemn disapproval of the final rule submitted by the Department of Energy titled \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters,\" published at 89 Fed. Reg. 105188 on December 26, 2024. \n\nUnder the operative terms of the resolution and the statutory framework of the CRA (specifically 5 U.S.C. § 801(f)), the disapproved rule is declared to have no force or effect. By operation of the CRA (5 U.S.C. § 801(b)(2)), the Department of Energy is prohibited from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the date of the joint resolution's disapproval. \n\nThe joint resolution contains no appropriations, authorizations of appropriations, material exceptions, conditions precedent, or delayed effective dates; its legal effect of nullification was immediate upon enactment on May 9, 2025.",
+  "prompt_tokens": 563,
+  "completion_tokens": 309,
+  "total_tokens": 872,
+  "cost_usd": 0.003626,
+  "latency_s": 2.74,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

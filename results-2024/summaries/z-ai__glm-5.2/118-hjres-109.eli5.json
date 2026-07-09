@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a way for Congress to say \"no\" to a rule made by a government group called the Securities and Exchange Commission. This group watches over money and investing. The rule they made is called \"Staff Accounting Bulletin No. 121.\" It was published on April 11, 2022.\n\nIf this bill becomes a law, it cancels that rule. The rule will have no power and will not be used. This means the Securities and Exchange Commission cannot use \"Staff Accounting Bulletin No. 121\" anymore. The House of Representatives agreed to this on May 8, 2024, and the Senate received it on May 9, 2024.",
+  "prompt_tokens": 483,
+  "completion_tokens": 455,
+  "total_tokens": 938,
+  "cost_usd": 0.001044,
+  "latency_s": 165.12,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

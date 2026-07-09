@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about a bird called the lesser prairie-chicken.\n\nA government group called the U.S. Fish and Wildlife Service made a new rule. This group helps protect animals and plants. Their rule said the lesser prairie-chicken needed special protection because it might be in danger of dying out.\n\nThe rule split the birds into two groups. One group, in the north, was called \"threatened.\" That means they could be in trouble soon. The other group, in the south, was called \"endangered.\" That means they are in even bigger danger. The rule was made on November 25, 2022.\n\nThis bill says Congress does not agree with that rule. Congress is the group of people who make laws for the country. If this bill becomes law, the rule would be canceled. It would have \"no force or effect.\" That means the rule would not count anymore, and the special protections in it would go away.\n\nThe Senate already voted yes on this bill on May 3, 2023. The Senate is one part of Congress. For the bill to fully become law, more steps would still need to happen.",
+  "prompt_tokens": 980,
+  "completion_tokens": 314,
+  "total_tokens": 1294,
+  "cost_usd": 0.01275,
+  "latency_s": 5.851,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

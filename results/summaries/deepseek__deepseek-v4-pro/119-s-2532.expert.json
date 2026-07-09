@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S. 2532, the “Safe Response Act,” amends section 546 of the Public Health Service Act (42 U.S.C. 290ee‑1) to reauthorize and expand the first responder training program. The bill’s operative mechanism is a set of targeted textual amendments to the existing statutory authority.\n\nThe bill makes four categories of changes. First, it makes a technical correction in subsection (a), capitalizing “Tribes and Tribal” in the list of eligible grant recipients.\n\nSecond, in subsections (a), (c), and (d), the bill broadens the scope of drugs whose administration may be trained for and acquired under the program. It replaces the phrase “approved or cleared” with “approved, cleared, or otherwise legally marketed” each place it appears, thereby encompassing drugs with a wider range of regulatory statuses. It also strikes the word “opioid” each place it appears in those subsections, removing the limitation of the training and naloxone acquisition provisions to opioid-related drugs.\n\nThird, the bill makes conforming and parallel changes to the grant-eligibility criteria in subsection (f). It replaces “approved or cleared” with “approved, cleared, or otherwise legally marketed” in the introductory matter of subsection (f). In paragraph (1), it strikes “opioid.” In paragraph (2), it strikes “opioid and heroin” and inserts “opioid, heroin, and other drug,” and strikes “opioid overdose” and inserts “overdose.” In paragraph (3), it strikes “opioid and heroin.” The effect is to expand eligible training and reporting requirements to cover a broader class of drugs and overdoses.\n\nFourth, the bill amends the authorization of appropriations in subsection (h). It strikes the existing authorization of $36,000,000 for each of fiscal years 2019 through 2023 and inserts an authorization of $57,000,000 for each of fiscal years 2026 through 2030. This is an authorization of appropriations, not a direct appropriation. The bill contains no other effective date, sunset, or condition precedent.",
+  "prompt_tokens": 709,
+  "completion_tokens": 434,
+  "total_tokens": 1143,
+  "cost_usd": 0.000686,
+  "latency_s": 12.944,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

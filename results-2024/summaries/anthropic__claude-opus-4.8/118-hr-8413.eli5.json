@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is about giving some land in Nebraska to two local governments. The land is around two lakes, called Swanson Reservoir and Hugh Butler Reservoir. The land is owned by the United States government right now.\n\nThe two local governments are Hitchcock County and Frontier County. \"County\" means a local area with its own government. The land they might get is used for cabins and for businesses that serve visitors, like lodges.\n\nHere is what the law says will happen:\n\nThe government (through the Secretary of the Interior, a top government leader) must try to make deals with the counties within 3 years. These deals are called \"title transfer agreements.\" They set the rules for handing over the land.\n\nTo get the land, a county must pay its \"fair market value.\" That means the fair price the land would sell for. A neutral expert will figure out that price. The cabins and buildings people already built don't count toward the price.\n\nThe counties must keep using the land the same way it is used now, or for things like recreation, public access, and protecting nature. They cannot split the land up or usually sell it to someone else.\n\nThe government keeps some rights, like the ability to let the lakes flood when needed. The government will not be responsible for flood damage.\n\nIf no deal is made within 3 years, the government will keep managing the land under normal rules. This law was approved on December 23, 2024.",
+  "prompt_tokens": 7852,
+  "completion_tokens": 405,
+  "total_tokens": 8257,
+  "cost_usd": 0.049385,
+  "latency_s": 7.622,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

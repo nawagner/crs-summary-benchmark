@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 2866, the “No Visas for Anti-Semitic Students Act,” directs the Secretary of State to deny or revoke nonimmigrant student visas issued under subparagraphs (F) and (M) of section 101(a)(15) of the Immigration and Nationality Act (INA) (8 U.S.C. § 1101(a)(15)) for aliens who engage in defined “prohibited antisemitic conduct,” and concurrently amends the INA to make engagement in such conduct a bar to obtaining or maintaining F or M nonimmigrant status.\n\nSection 2(a) mandates that the Secretary of State “shall revoke or deny” an F or M visa to any alien who, on or after the date of enactment, (1) engages in prohibited antisemitic conduct, and (2) is determined by the Secretary, acting pursuant to INA § 237(a)(4)(C)(i) (8 U.S.C. § 1227(a)(4)(C)(i)), to pose potentially serious adverse foreign policy consequences for the United States through such conduct. The Secretary’s adverse-foreign-policy-consequences determination under that deportability provision is a condition precedent to the visa action.\n\nSection 3 amends INA § 214 (8 U.S.C. § 1184) by adding new subsection (s). New paragraph (s)(1) bars the grant or maintenance of F or M nonimmigrant status for an alien who engages in prohibited antisemitic conduct if the Secretary of State determines, under the same § 237(a)(4)(C)(i) standard, that the conduct would have potentially serious adverse foreign policy consequences. Paragraph (s)(2) requires the Secretary, upon determining that an alien already in F or M status has engaged in prohibited antisemitic conduct and that the alien or the conduct poses the requisite foreign-policy consequences, to revoke the alien’s visa.\n\nBoth sections adopt identical definitions. “Antisemitism” is the definition adopted by the International Holocaust Remembrance Alliance on May 26, 2016, as adopted by the Department of State, including its “contemporary examples of antisemitism.” “Prohibited antisemitic conduct” encompasses (A) a physical act of violence, vandalism, or harassment targeting a Jewish individual, their property, a community institution, or a religious facility, with intent to intimidate or harm based on Jewish identity or affiliation; and (B) providing material support—including funding, organizing, or inciting—to a person knowing that the person intended to use such support to engage in an act described in subparagraph (A).\n\nThe Act takes effect upon enactment, contains no sunset provision, and does not authorize or appropriate funds.",
+  "prompt_tokens": 1247,
+  "completion_tokens": 2444,
+  "total_tokens": 3691,
+  "cost_usd": 0.002669,
+  "latency_s": 38.975,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

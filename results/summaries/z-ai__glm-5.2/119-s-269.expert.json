@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Act, cited as the \"Ending Improper Payments to Deceased People Act,\" amends Section 205(r) of the Social Security Act (42 U.S.C. 405(r)) to improve coordination between Federal and State agencies and the Do Not Pay working system.\n\nSection 2(a) amends Section 205(r)(11) of the Social Security Act by striking the existing paragraph and inserting new text. The new paragraph (11) directs the Commissioner of Social Security to provide, to the extent feasible, information furnished under paragraph (1) to the agency operating the Do Not Pay working system (as described in 31 U.S.C. 3354(c)) for authorized uses to prevent improper payments and support the recovery of improperly paid benefits. This provision is conditioned on meeting the requirements of subparagraphs (A) and (B) of paragraph (3) regarding cooperative arrangements. It further requires the Commissioner and the Do Not Pay working system agency to enter into an agreement establishing a methodology for the proportional share of State death data costs, subject to periodic review. Section 2(a) also adds a new paragraph (12) to Section 205(r), prohibiting the Commissioner from recording a death to a record provided under this section unless the Commissioner finds clear and convincing evidence to support that the individual should be presumed deceased.\n\nSection 2(b) amends Section 205(r)(7) of the Social Security Act by adding a new subparagraph (C). This subparagraph requires the Commissioner to notify any agency with a cooperative arrangement under paragraph (3) or (11) of an error regarding an individual incorrectly identified as deceased.\n\nSection 2(c) establishes the effective date, providing that the amendments made by the Act shall take effect on December 27, 2026.",
+  "prompt_tokens": 1093,
+  "completion_tokens": 1081,
+  "total_tokens": 2174,
+  "cost_usd": 0.002452,
+  "latency_s": 7.999,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

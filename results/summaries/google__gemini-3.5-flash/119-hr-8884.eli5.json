@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Removing Barriers to Work for Disabled Americans Act.\" It is a proposed law to help people with disabilities. \n\nThe government has a program called Social Security. This program gives money to people who cannot work because of a disability. Sometimes, the government wants to run test projects. These tests find new ways to help people on disability try to work without losing their benefits. \n\nThis bill lets the government start these test projects again. The old power to run these tests ended in 2022. This bill brings that power back until December 31, 2030, and lets the projects run until December 31, 2031. \n\nIf this bill becomes a law, it will change a few things:\n* It protects people in the tests. Their total income cannot go down because they joined a project.\n* It changes how the projects are paid for. Money will come from special government trust funds.\n* It gives the government 120 days, instead of 90 days, to report on the projects before they start.\n* It requires the government to explain how they will measure if a project is successful.\n\nIf passed, these changes would start on January 1, 2027.",
+  "prompt_tokens": 1312,
+  "completion_tokens": 264,
+  "total_tokens": 1576,
+  "cost_usd": 0.004344,
+  "latency_s": 2.343,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

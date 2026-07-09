@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "openai/gpt-5.5",
+  "summary": "This law says that states must let certain workers from Congress watch how federal elections are run. A federal election is an election for offices like U.S. House, U.S. Senate, or President.\n\nThese workers are called designated congressional election observers. They must be House or Senate employees. They must be chosen in writing by leaders of certain House or Senate committees.\n\nStates must give these observers full access so they can clearly watch election work. This includes places where ballots are cast, processed, scanned, counted, checked again, audited, or certified. This can happen before or after Election Day.\n\nThe observers may ask questions of election workers and officials. But they may not touch ballots or election equipment. They may not support a candidate or position. They may not hurt ballot secrecy or voter privacy. They may not stop voters from voting or election workers from doing their jobs.\n\nAn election official may remove an observer if there is a reasonable reason to think the observer has broken, or is about to break, certain federal rules or disrupt election work. The official must tell the proper congressional committee leaders within 24 hours and give written reasons. Congress may send a replacement observer.\n\nThe law applies to all 50 states, Washington, D.C., Puerto Rico, and U.S. territories.",
+  "prompt_tokens": 1752,
+  "completion_tokens": 259,
+  "total_tokens": 2011,
+  "cost_usd": 0.01653,
+  "latency_s": 4.946,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

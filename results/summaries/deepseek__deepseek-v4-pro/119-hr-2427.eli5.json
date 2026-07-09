@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2427",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill would make it illegal to raise prices too high on important items during a big disaster or emergency. It is called the \"Stop Disaster Price Gouging Act.\"\n\nIf the President declares a major disaster, the rules kick in for the area affected. For 30 days, a seller cannot charge more than 10 percent above the price they charged the day before the disaster for things like food, water, medical supplies, gasoline, hotel rooms, and rental homes. For repair or rebuilding services, that limit lasts 180 days. Also, a seller cannot charge a price more than 50 percent above what it cost them to get the item, if they never sold it at that price before.\n\nThere are some exceptions. A price can go up more than 10 percent if the seller's own costs went up, like for materials or labor, and they only add their usual markup, plus up to 10 percent more. Prices can also go up because of new taxes on imports or other national trade rules. Hotels can raise rates for seasonal changes that are already planned. Rent can go up more than 10 percent if it pays for major repairs spread out over the rental period, or if the tenant already agreed to a higher rent in a contract before the disaster.\n\nThe Federal Trade Commission, a government agency that protects consumers, would enforce the law. States can also take companies to court to protect their residents. A person who was hurt by an unfair price can sue. If a seller knowingly broke the law, a court could award up to three times the person's actual loss. People have two years to file a lawsuit after they discover the overcharge.\n\nA company that breaks the rules can be fined up to $25,000 for each violation, but the total fine for related acts cannot go above $25,000. The fine amounts will be adjusted each year for inflation. Money collected from fines goes into a fund to help communities in the disaster area. State laws that are not in conflict with this bill would still apply.",
+  "prompt_tokens": 2523,
+  "completion_tokens": 1115,
+  "total_tokens": 3638,
+  "cost_usd": 0.002068,
+  "latency_s": 20.117,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

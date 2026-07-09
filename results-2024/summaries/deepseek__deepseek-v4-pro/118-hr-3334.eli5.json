@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, called the STOP CCP Act, would require the U.S. President to punish certain people and companies tied to China’s government. It is not yet a law.\n\nIf it becomes law, the President must act within 30 days to freeze any money or property they hold in the United States. It also blocks them from getting visas to travel here, with very narrow exceptions for United Nations business or security work.\n\nThe punishments target:\n- Top leaders in China’s ruling Communist Party who help create policies that hurt Hong Kong’s freedom, threaten Taiwan, oppress minority groups like Uyghur Muslims, or spread false information to interfere in U.S. elections.\n- Their adult family members.\n- Chinese government–owned companies that illegally make or supply the dangerous drug fentanyl or its ingredients.\n\nThe President can pause the punishments for up to 60 days at a time for national safety, but this pause power ends after two years. The penalties can be lifted entirely if the President confirms China has stopped harmful actions—such as closing prison camps, ending forced labor and forced birth control against Uyghurs, stopping military threats to Taiwan for at least one year, and respecting Hong Kong’s self‑rule. Individuals can also be removed if they quit the party and fix their behavior.\n\nThe law does not allow penalties on imported goods—only on money, property, and travel. The bill passed the House of Representatives and is now being considered by the Senate.",
+  "prompt_tokens": 3510,
+  "completion_tokens": 1958,
+  "total_tokens": 5468,
+  "cost_usd": 0.00323,
+  "latency_s": 29.52,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

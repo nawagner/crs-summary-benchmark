@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule made by the Environmental Protection Agency, or EPA. The EPA is the government agency that works on protecting air, water, and land.\n\nThe rule is called “Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards.” It was published on January 24, 2023. It deals with air pollution rules for new heavy-duty engines and vehicles, such as large trucks and buses.\n\nCongress can review some agency rules under a law called the Congressional Review Act. This bill says Congress disapproves of the EPA rule. If the bill becomes law, the EPA rule would have no force or effect. That means the rule would not be used or enforced.\n\nThe Senate passed this joint resolution on April 26, 2023. A joint resolution is a type of bill that must pass Congress and be signed by the President to become law.",
+  "prompt_tokens": 474,
+  "completion_tokens": 271,
+  "total_tokens": 745,
+  "cost_usd": 0.0105,
+  "latency_s": 5.001,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

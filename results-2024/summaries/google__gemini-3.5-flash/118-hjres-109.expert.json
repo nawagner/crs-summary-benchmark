@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 109 is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to disapprove a specific agency action by the Securities and Exchange Commission (SEC). The primary purpose and operative mechanism of the resolution is to declare that the rule submitted by the SEC relating to \"Staff Accounting Bulletin No. 121\" (SAB 121) shall have no force or effect. \n\nThe resolution specifically targets the agency action published at 87 Fed. Reg. 21015 (April 11, 2022). To satisfy the procedural requirements of the CRA regarding non-rulemaking agency guidance, the resolution explicitly cites a formal letter of opinion issued by the Government Accountability Office (GAO) dated October 31, 2023 (printed in the Congressional Record on November 1, 2023, at pages S5310-5312). This GAO opinion concluded that SAB 121 constitutes a \"rule\" under 5 U.S.C. chapter 8, thereby subjecting it to the congressional disapproval mechanism. \n\nBy operation of the CRA (specifically 5 U.S.C. § 801(b)), enactment of this joint resolution would invalidate SAB 121, preventing the SEC from enforcing the bulletin or issuing any subsequent rule in substantially the same form unless specifically authorized by a law enacted after the date of the joint resolution's disapproval. The resolution contains no appropriations, authorizations of appropriations, or delayed effective dates, operating instead as an immediate and permanent nullification of the specified rule upon enactment.",
+  "prompt_tokens": 570,
+  "completion_tokens": 355,
+  "total_tokens": 925,
+  "cost_usd": 0.00405,
+  "latency_s": 2.805,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

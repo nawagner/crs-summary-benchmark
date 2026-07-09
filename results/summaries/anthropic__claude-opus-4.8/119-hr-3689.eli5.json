@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"TREAT Youth Act.\" It updates an older law called the SUPPORT for Patients and Communities Act.\n\nThe bill keeps a program going that helps young people. This program works to stop drug problems before they start. It also helps young people who are getting better after drug use. These are called \"prevention\" (stopping something before it happens) and \"recovery\" (getting better).\n\nThe main thing this bill does is set aside money for this program for five years. The word for setting aside money is \"appropriations.\" Here is how much money the bill allows:\n\n- $10 million for the year 2026\n- $12 million for the year 2027\n- $13 million for the year 2028\n- $14 million for the year 2029\n- $15 million for the year 2030\n\nSo the amount of money grows a little bit each year.\n\nThe bill was introduced in the House of Representatives on June 3, 2025. Two lawmakers brought it forward. It was sent to committees, which are small groups that study bills before all the lawmakers vote on them.\n\nIf this bill becomes law, the youth program would have money to keep running through the year 2030.",
+  "prompt_tokens": 1014,
+  "completion_tokens": 339,
+  "total_tokens": 1353,
+  "cost_usd": 0.013545,
+  "latency_s": 6.719,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

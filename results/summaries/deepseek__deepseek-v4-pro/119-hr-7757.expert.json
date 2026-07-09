@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "",
+  "prompt_tokens": 18023,
+  "completion_tokens": 4000,
+  "total_tokens": 22023,
+  "cost_usd": 0.01132,
+  "latency_s": 65.19,
+  "ok": false,
+  "strategy": "single",
+  "level": "expert"
+}

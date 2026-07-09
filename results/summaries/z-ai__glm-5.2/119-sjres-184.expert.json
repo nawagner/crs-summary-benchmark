@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 184 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent a congressional declaration of war or specific statutory authorization for the use of military force. The joint resolution invokes the expedited legislative procedures of section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth findings, citing Article I, section 8, clause 11 of the Constitution and the War Powers Resolution (50 U.S.C. 1541 et seq.). It notes the President's March 2, 2026, notification to Congress under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)) regarding the initiation of military force against Iran on February 28, 2026. The findings assert that the 60-day period for the use of Armed Forces terminates on May 1, 2026, absent a declaration of war, specific statutory authorization, a statutory extension, or the physical inability of Congress to meet, and that no such conditions have occurred.\n\nSection 2(a) provides the operative mechanism, expressly directing the President, pursuant to 50 U.S.C. 1546a and Public Law 94-329, to remove U.S. Armed Forces from hostilities within or against Iran, unless explicitly authorized by a declaration of war or a specific authorization for use of military force.\n\nSection 2(b) establishes a rule of construction specifying that the resolution does not prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies, including with the State of Israel, allies, partners, and international organizations; (3) assisting Israel and other nations in taking defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such measures; and (4) providing assistance for the security, departure, and evacuation of United States citizens affected by the hostilities. The resolution does not appropriate funds and contains no express effective date or sunset provision, operating instead upon enactment.",
+  "prompt_tokens": 1422,
+  "completion_tokens": 1426,
+  "total_tokens": 2848,
+  "cost_usd": 0.003223,
+  "latency_s": 18.316,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

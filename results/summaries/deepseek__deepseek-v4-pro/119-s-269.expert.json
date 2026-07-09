@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Ending Improper Payments to Deceased People Act (Public Law 119-77) amends section 205(r) of the Social Security Act (42 U.S.C. 405(r)) to enhance information sharing between the Social Security Administration (SSA) and the Do Not Pay working system and to impose an evidentiary standard for recording deaths.\n\nSection 2(a) strikes existing paragraph (11) and inserts new paragraphs (11) and (12). New paragraph (11) directs the Commissioner of Social Security, to the extent feasible, to provide death information furnished under paragraph (1) to the agency operating the Do Not Pay working system established by 31 U.S.C. 3354(c). The information may be used solely for authorized purposes of that system—preventing improper payments of, and supporting the recovery of improperly paid, benefits or other payments—pursuant to a cooperative arrangement that satisfies the requirements of subparagraphs (A) and (B) of paragraph (3). The Commissioner and the Do Not Pay system agency must simultaneously enter into a cost-sharing agreement, based on an agreed-upon methodology, covering the proportional share of State death data costs; the agreement is subject to periodic review. New paragraph (12) establishes a condition precedent on the recording of deaths: the Commissioner may not record a death for any individual whose record may be provided under section 205(r) unless the Commissioner finds by clear and convincing evidence that the individual should be presumed deceased.\n\nSection 2(b) amends paragraph (7) of section 205(r) to add subparagraph (C), which requires the Commissioner to notify any agency that has a cooperative arrangement under paragraph (3) or (11) when the agency has been provided an erroneous death record—i.e., when an individual is incorrectly identified as deceased. This notice obligation supplements the existing duties to correct records and respond to individuals affected.\n\nSection 2(c) provides a single effective date: the amendments take effect on December 27, 2026. The Act contains no authorization of appropriations, no appropriation of funds, and no sunset provision. It imposes new duties on the Commissioner and, through the cooperative-arrangement and agreement requirements, conditions the flow of data to the Do Not Pay system on compliance with paragraph (3)’s safeguards.",
+  "prompt_tokens": 1080,
+  "completion_tokens": 1317,
+  "total_tokens": 2397,
+  "cost_usd": 0.001616,
+  "latency_s": 19.841,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

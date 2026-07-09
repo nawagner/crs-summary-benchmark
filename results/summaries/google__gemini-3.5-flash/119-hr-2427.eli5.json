@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2427",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Stop Disaster Price Gouging Act.\" It aims to stop people and businesses from raising prices too much during a major disaster or emergency. \n\nIf this bill becomes law, sellers cannot raise prices by more than 10 percent right after a disaster is declared. This rule applies to important things like food, water, medicine, flashlights, gasoline, hotel rooms, and rental homes for 30 days. For cleanup and repair services, the price limit lasts for 180 days. Sellers also cannot charge a price that is over 50 percent higher than what the item cost them to buy. \n\nThere are some exceptions. Sellers can raise prices more if their own costs for materials, labor, or shipping went up, or if they have regular seasonal price changes. \n\nThe Federal Trade Commission (a government group that protects shoppers) would enforce this law. State governments and regular citizens can also sue businesses that break the rules. If a business is caught price gouging, they can be fined up to $25,000. This money would go into a special fund to help the communities hurt by the disaster.",
+  "prompt_tokens": 2767,
+  "completion_tokens": 236,
+  "total_tokens": 3003,
+  "cost_usd": 0.006274,
+  "latency_s": 2.2,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

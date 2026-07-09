@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law puts about 172 acres of land in San Diego County, California, into a special legal status called trust for the Jamul Indian Village. When land is held in trust, the United States government manages it for the tribe’s benefit, and it becomes part of the tribe’s reservation. The land is made up of four separate pieces the tribe already owned. The law also says that up to about 1.1 more acres can be added to the trust in the future if the tribe gives that land to the U.S. government. A government official called the Secretary of the Interior is responsible for accepting and managing the land. One important rule in the law is that the tribe cannot use this land for certain types of gambling, including casinos with slot machines or card games. The law became official on December 23, 2024.",
+  "prompt_tokens": 1134,
+  "completion_tokens": 1650,
+  "total_tokens": 2784,
+  "cost_usd": 0.001929,
+  "latency_s": 29.234,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

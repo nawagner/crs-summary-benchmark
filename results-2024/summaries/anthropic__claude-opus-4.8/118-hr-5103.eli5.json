@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"FISHES Act.\" It helps people get money faster after a fishing disaster.\n\nSometimes fish become scarce or something bad happens to a fishing area. This is called a \"fishery resource disaster.\" When that happens, the government can give money to help.\n\nTo get the money, a person or group must send in a \"spend plan.\" A spend plan explains how they will use the money. They must send it within 120 days after they learn money is ready.\n\nThe spend plan must tell three things:\n- What they want to fix and achieve.\n- The work they plan to do.\n- How they will spend the money (the budget).\n\nThe government leader in charge, called the Secretary, must look at the plan. Within 10 days, the Secretary must say if the plan is finished or not. If it is missing something, the Secretary must clearly explain what is needed.\n\nOnce the plan is complete, the money must be given out within 90 days.\n\nThere is also an office called the Office of Management and Budget. Its Director can look at the plan at the same time as the Secretary. But the Director is not allowed to make the 90-day timeline take longer.\n\nThis law was approved on January 4, 2025.",
+  "prompt_tokens": 1528,
+  "completion_tokens": 354,
+  "total_tokens": 1882,
+  "cost_usd": 0.01649,
+  "latency_s": 6.695,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

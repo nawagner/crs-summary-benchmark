@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "openai/gpt-5.5",
+  "summary": "This law renews the Lake Tahoe Restoration Act. That is an older law about work to restore and protect Lake Tahoe.\n\nThe law keeps certain powers in place so government groups can work together on Lake Tahoe projects. These are called “cooperative authorities.” That means agencies may team up instead of working alone. The old time limit is replaced with a new one.\n\nThe law also extends the time when money approved by Congress for this work can be used. This is called an “authorization of appropriations.” It means Congress is allowed to provide money for the program, but this law does not list a new dollar amount.\n\nThe new end date is September 30, 2034. Money for the Lake Tahoe Restoration Act may stay available until that date.\n\nThe law was approved on October 1, 2024.",
+  "prompt_tokens": 588,
+  "completion_tokens": 479,
+  "total_tokens": 1067,
+  "cost_usd": 0.01731,
+  "latency_s": 9.936,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

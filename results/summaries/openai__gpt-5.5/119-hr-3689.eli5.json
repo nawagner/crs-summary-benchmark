@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is called the TREAT Youth Act.\n\nIt would renew funding permission for a youth prevention and recovery program under an older law called the SUPPORT for Patients and Communities Act. That program is about helping young people with prevention and recovery related to substance use.\n\nThe bill does not create a new program. It changes the funding amounts for the existing youth prevention and recovery work.\n\nIt says Congress may provide these amounts of money:\n\n$10 million for fiscal year 2026.\n\n$12 million for fiscal year 2027.\n\n$13 million for fiscal year 2028.\n\n$14 million for fiscal year 2029.\n\n$15 million for fiscal year 2030.\n\nA fiscal year is the government’s budget year. “Authorized to be appropriated” means Congress is allowed to set aside this money for the program, but another spending step may still be needed for the money to be used.",
+  "prompt_tokens": 605,
+  "completion_tokens": 258,
+  "total_tokens": 863,
+  "cost_usd": 0.010765,
+  "latency_s": 5.038,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

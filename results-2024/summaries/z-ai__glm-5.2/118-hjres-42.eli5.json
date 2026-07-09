@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "z-ai/glm-5.2",
+  "summary": "Washington, D.C., is the capital city of the United States. It has a city council that makes local laws. But the U.S. Congress has the power to block those laws. \n\nThis bill is a joint resolution, which is a type of proposal Congress votes on. The bill says that Congress disapproves of a specific D.C. law. That D.C. law is called the Comprehensive Policing and Justice Reform Amendment Act of 2022. \n\nThe D.C. city council passed this local law on January 19, 2023. They sent it to Congress on January 26, 2023. \n\nIf this bill becomes a law, it will stop the D.C. city council's law from taking effect. The U.S. House of Representatives already voted yes on this bill on April 19, 2023. The U.S. Senate received it the next day. If the Senate also votes yes and the President signs it, the D.C. law will be blocked.",
+  "prompt_tokens": 458,
+  "completion_tokens": 1129,
+  "total_tokens": 1587,
+  "cost_usd": 0.002187,
+  "latency_s": 16.572,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

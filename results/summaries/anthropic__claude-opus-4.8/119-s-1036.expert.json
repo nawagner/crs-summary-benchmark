@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Improving Access to Addiction Medicine Providers Act (S. 1036, 119th Congress) is a short amendatory bill directed at expanding the scope of the Minority Fellowship Program authorized under Section 597 of the Public Health Service Act (42 U.S.C. 290ll).\n\nSection 1 establishes the short title. Section 2 makes two conforming textual amendments to Section 597:\n\nFirst, in subsection (a)(1), the bill inserts the word \"diagnosis,\" after the phrase \"related to,\" thereby broadening the enumerated activities or competencies for which fellowship-supported training may be directed to include diagnosis.\n\nSecond, in subsection (b), which enumerates the disciplines eligible for fellowship support, the bill inserts \"addiction medicine,\" after \"psychiatry,\" adding addiction medicine to the list of professional fields for which fellowships may be awarded under the program.\n\nThe operative mechanism is limited to these insertions into existing statutory text; the bill creates no new program, standalone authority, or appropriation. It does not amend the program's funding authorization, alter administration by the Substance Abuse and Mental Health Services Administration, modify eligibility criteria beyond adding the specified discipline, or affect the underlying grant-making structure. No new authorization of appropriations is provided, and no separate appropriation is made—the amendments operate within the pre-existing statutory framework of Section 597.\n\nThe bill contains no severability clause, no sunset provision, no delayed effective date, and no conditions precedent. Absent a specified effective date, the amendments take effect upon enactment. As introduced on March 13, 2025, by Senators Cornyn and Luján, the bill was read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+  "prompt_tokens": 930,
+  "completion_tokens": 580,
+  "total_tokens": 1510,
+  "cost_usd": 0.01915,
+  "latency_s": 8.554,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

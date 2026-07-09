@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-5 is a joint resolution of congressional disapproval under the Congressional Review Act, chapter 8 of title 5, United States Code. Its sole operative provision disapproves the Internal Revenue Service rule entitled “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,” published at 89 Fed. Reg. 106928 on December 30, 2024.\n\nThe resolution’s operative mechanism is statutory disapproval pursuant to chapter 8 of title 5: Congress declares that the identified IRS rule “shall have no force or effect.” The measure does not amend the Internal Revenue Code, title 5, or any other provision of the United States Code; it nullifies the specified agency rule by reference to its Federal Register publication and title.\n\nThe joint resolution contains no exceptions, savings clauses, transition rules, substitute regulatory text, or independent reporting requirements. It includes no authorization of appropriations and makes no appropriation. It prescribes no separate effective date or implementation deadline; the disapproval became law upon approval on April 10, 2025.",
+  "prompt_tokens": 498,
+  "completion_tokens": 675,
+  "total_tokens": 1173,
+  "cost_usd": 0.02274,
+  "latency_s": 23.988,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a law to cancel a new tax reporting rule. The rule was made by the Internal Revenue Service, or IRS, which is the agency that collects federal taxes. The rule was about reporting money made from selling digital assets. Digital assets are things like cryptocurrency (for example, Bitcoin). A broker is a person or company that helps others buy and sell these assets. The rule would have required brokers to report the total sales amount, called gross proceeds, from digital asset sales. The rule was published on December 30, 2024. Congress used a special process to review and reject the rule. On April 10, 2025, the disapproval became law. Now the rule has no force or effect. That means the IRS cannot enforce it, and brokers do not have to follow its reporting requirements.",
+  "prompt_tokens": 464,
+  "completion_tokens": 581,
+  "total_tokens": 1045,
+  "cost_usd": 0.000707,
+  "latency_s": 15.423,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

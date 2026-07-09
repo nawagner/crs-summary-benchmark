@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4745",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill gives a special name to a post office. A post office is a place where people send and pick up mail.\n\nThe post office is in Georgetown, Ohio. It sits at 201 East Grant Avenue.\n\nIf this bill becomes a law, the post office would be named the \"Ulysses S. Grant Post Office Building.\" Ulysses S. Grant was a famous American. The bill does not say anything about him, it just uses his name.\n\nThe bill also says something simple about paperwork. After the name change, any government paper, map, rule, or record that talks about this post office will now mean the new name.\n\nThat is all this bill does. It does not change how the post office works. It does not change your mail. It just gives the building a new name.\n\nThe bill was introduced in the Senate on June 10, 2026. Two senators put it forward. It was then sent to a group called the Committee on Homeland Security and Governmental Affairs. A committee is a small team of lawmakers who study a bill before the whole Senate votes on it.",
+  "prompt_tokens": 851,
+  "completion_tokens": 309,
+  "total_tokens": 1160,
+  "cost_usd": 0.01198,
+  "latency_s": 5.895,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

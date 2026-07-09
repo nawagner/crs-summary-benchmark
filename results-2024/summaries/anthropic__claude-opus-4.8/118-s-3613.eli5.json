@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Improving Federal Building Security Act of 2024.\" It is about keeping government buildings safe.\n\nSome government workers are on a group called a Facility Security Committee. This group helps decide how to keep a building safe. It includes people who work in the building and people in charge of safety there.\n\nThere is also a group called the Federal Protective Service. They give tips on how to make buildings safer.\n\nHere is the main rule: When the Federal Protective Service gives a safety tip, the committee has 90 days to answer. They must say if they will use the tip or not. They must also say how much it costs. If they say no to the tip, they must explain why they are okay with the risk.\n\nThe Secretary of Homeland Security must keep track of these tips and answers.\n\nEvery year, the Secretary must send a report to Congress. The report tells how many tips were used, how many were turned down, and why. The first report is due within 270 days.\n\nWithin 180 days, the Secretary must also report on camera and watching technology the Federal Protective Service suggests.\n\nNo extra money is given for this law.\n\nThe law ends after 5 years. After 5 years, an office called the GAO will check if the law worked.\n\nThis law only covers certain government buildings.",
+  "prompt_tokens": 2697,
+  "completion_tokens": 378,
+  "total_tokens": 3075,
+  "cost_usd": 0.022935,
+  "latency_s": 6.733,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

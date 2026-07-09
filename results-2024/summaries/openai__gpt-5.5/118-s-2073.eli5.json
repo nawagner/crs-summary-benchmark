@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is called the Kids Online Safety and Privacy Act. It mainly sets new rules for websites, apps, video games, and video services that are used by people under 17.\n\nThese companies would have to take reasonable steps to reduce certain harms to minors. These include anxiety, depression, eating disorders, bullying, sexual abuse, drug use, gambling, and unfair money practices. They would have to give minors easy safety tools. These tools could limit messages, hide personal data, limit location sharing, control recommendations, and set time limits. The safest settings would be turned on by default for minors.\n\nParents would get tools to manage settings, limit purchases, and see time spent online. For children under 13, parent tools would be on by default. Platforms would have to answer harm reports within 10 days if they are large, or 21 days if they are smaller. Urgent safety threats must be handled faster.\n\nLarge platforms would publish yearly safety reports based on outside audits. The Federal Trade Commission, or FTC, would enforce the rules. State attorneys general could enforce some parts too.\n\nThe bill also updates children’s privacy law to cover teens ages 13 to 16. It limits targeted ads to children and teens and gives more rights to see, delete, and correct personal information.\n\nIt also lets users choose a less personalized content feed. Finally, it tells agencies to list reports to Congress that may be outdated or repeated.",
+  "prompt_tokens": 24151,
+  "completion_tokens": 382,
+  "total_tokens": 24533,
+  "cost_usd": 0.132215,
+  "latency_s": 10.598,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

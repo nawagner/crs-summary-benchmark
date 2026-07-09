@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law asks the Secretary of the Interior—the person who oversees national parks and monuments—to allow a special, one‑time light and video display on the National Mall in Washington, D.C. For five nights, from December 31, 2025, through January 5, 2026, images, artifacts, film clips, and audio can be projected onto the Washington Monument and set up nearby. The display is meant to kick off the 250th birthday celebration of the United States, which officially arrives on July 4, 2026. This New Year’s Eve marks the start of the 250th year since independence. The law also asks that official copies be sent to the Secretary of the Interior and the chair of the commission planning the 250th anniversary events. The arrangement is a one‑time request and does not change any permanent rules for the National Mall.",
+  "prompt_tokens": 1127,
+  "completion_tokens": 733,
+  "total_tokens": 1860,
+  "cost_usd": 0.001128,
+  "latency_s": 14.336,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

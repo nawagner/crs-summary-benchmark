@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill helps the government stop sending money to people who have died. It changes how the Social Security office shares death records with a special computer system called the Do Not Pay working system. That system checks payments before they go out, so money does not go to the wrong person.\n\nThe bill says the Social Security office must share its death information with the Do Not Pay system, as long as it is practical. The two offices must make an agreement about how to split the cost of getting death records from states. They can review and update this cost-sharing plan over time.\n\nThe bill also adds a new rule: the Social Security office cannot list someone as dead unless it has very strong proof—called clear and convincing evidence—that the person has truly died.\n\nIf the Social Security office later finds out it made a mistake and listed a living person as dead, it must tell any agency that uses its death records about the error. This helps fix mistakes faster.\n\nThese changes will take effect on December 27, 2026.",
+  "prompt_tokens": 1048,
+  "completion_tokens": 833,
+  "total_tokens": 1881,
+  "cost_usd": 0.001181,
+  "latency_s": 18.764,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

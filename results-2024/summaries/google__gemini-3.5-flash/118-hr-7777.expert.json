@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Veterans' Compensation Cost-of-Living Adjustment Act of 2024\" (Pub. L. 118-130) directs the Secretary of Veterans Affairs to increase the rates of disability compensation and dependency and indemnity compensation (DIC) effective December 1, 2024. \n\nUnder section 2(a), the Secretary must increase the dollar amounts in effect on November 30, 2024, for benefits specified in section 2(b). These statutory provisions, all within title 38 of the United States Code, comprise:\n1. Wartime disability compensation under section 1114;\n2. Additional compensation for dependents under section 1115(1);\n3. Clothing allowances under section 1162;\n4. DIC payable to a surviving spouse under subsections (a) through (d) of section 1311; and\n5. DIC payable to children under sections 1313(a) and 1314.\n\nPursuant to section 2(c), the rate of increase for these benefits must equal the percentage cost-of-living adjustment (COLA) applied to benefits payable under title II of the Social Security Act (42 U.S.C. 401 et seq.) effective December 1, 2024, as determined by the Commissioner of Social Security under section 215(i) of that Act (42 U.S.C. 415(i)). \n\nSection 2(d) grants the Secretary discretionary authority to administratively adjust, consistent with the section 2(a) increases, the rates of disability compensation payable to persons under section 10 of Public Law 85-857 (72 Stat. 1263) who do not receive compensation under chapter 11 of title 38.\n\nSection 3 establishes a publication deadline, requiring the Secretary of Veterans Affairs to publish the adjusted rates in the Federal Register no later than the date on which the Social Security Administration is required to publish its fiscal year 2025 benefit increases pursuant to section 215(i)(2)(D) of the Social Security Act (42 U.S.C. 415(i)(2)(D)).",
+  "prompt_tokens": 1272,
+  "completion_tokens": 493,
+  "total_tokens": 1765,
+  "cost_usd": 0.006345,
+  "latency_s": 2.971,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

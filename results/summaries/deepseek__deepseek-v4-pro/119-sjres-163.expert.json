@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, introduced as a privileged measure under the expedited procedures of section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. § 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329; 90 Stat. 765), directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The operative directive in section 2(a) requires the removal of such forces unless their engagement is explicitly authorized by a congressional declaration of war or a specific statutory authorization for use of military force.\n\nSection 1 sets forth congressional findings that, among other things, the Constitution vests Congress with the sole power to declare war; that no declaration of war or specific statutory authorization for the use of force within or against Iran exists; and that the introduction of forces into such hostilities triggers the reporting requirements of section 4(a) of the War Powers Resolution (50 U.S.C. § 1543(a)). The findings also note that the resolution qualifies for expedited consideration under the cited procedural statutes.\n\nSection 2(b) contains a rule of construction that preserves the authority of the United States, notwithstanding the removal directive, to: (1) defend against an attack on the United States, its personnel, or its facilities in other nations; (2) collect, analyze, or share intelligence—including with partner countries attacked by Iran since February 28, 2026—related to defending against threats from Iran or its proxies; and (3) assist partner countries that have been attacked by Iran since that date, either by intercepting retaliatory attacks upon their territory by Iran or its proxies or by providing defensive materiel support for such defensive measures. The resolution does not authorize or appropriate funds, and it contains no sunset clause or effective date; the removal directive would take effect upon enactment.",
+  "prompt_tokens": 989,
+  "completion_tokens": 2414,
+  "total_tokens": 3403,
+  "cost_usd": 0.00253,
+  "latency_s": 31.384,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

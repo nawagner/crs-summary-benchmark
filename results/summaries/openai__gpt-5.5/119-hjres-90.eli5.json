@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule from the Commodity Futures Trading Commission, or CFTC. The CFTC is a government agency that oversees some kinds of trading markets.\n\nThe rule is called “Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts.” It was published on October 15, 2024. The rule gave guidance about how markets could list certain contracts tied to voluntary carbon credits. Carbon credits are linked to activities meant to reduce or offset pollution.\n\nThis bill says Congress disapproves of that CFTC guidance. If the bill becomes law, the guidance would have no legal force or effect. That means the CFTC’s guidance could not be used as a rule.\n\nThe bill was introduced in the House of Representatives on April 3, 2025. It was sent to the House Committee on Agriculture.",
+  "prompt_tokens": 466,
+  "completion_tokens": 169,
+  "total_tokens": 635,
+  "cost_usd": 0.0074,
+  "latency_s": 3.622,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

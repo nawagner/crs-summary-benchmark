@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels a rule from the U.S. Department of Energy. The rule was about energy-saving standards for commercial refrigerators, freezers, and refrigerator-freezers. These are large cooling machines used by businesses, like stores and restaurants.\n\nThe Department of Energy’s Office of Energy Efficiency and Renewable Energy had published the rule in the Federal Register on January 21, 2025. The Federal Register is where the government posts official rules and notices.\n\nCongress used a law that lets it review and reject some agency rules. An agency is a part of the government that carries out laws.\n\nBecause of this law, Congress disapproves the Department of Energy rule. The rule “shall have no force or effect.” That means it does not count as law and cannot be used.\n\nThe House passed the measure in March 2025. The Senate passed it in late April and early May 2025. It was approved on May 9, 2025.",
+  "prompt_tokens": 497,
+  "completion_tokens": 293,
+  "total_tokens": 790,
+  "cost_usd": 0.011275,
+  "latency_s": 5.987,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

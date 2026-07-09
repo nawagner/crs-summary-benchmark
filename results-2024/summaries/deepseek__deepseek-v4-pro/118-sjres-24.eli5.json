@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress. It says that Congress cancels a rule made by the U.S. Fish and Wildlife Service. That rule was published on November 30, 2022. It gave the northern long-eared bat the status of an endangered species.\n\nAn endangered species is a type of animal or plant that is in danger of disappearing forever. When a species is listed as endangered, it gets strong protections. People may have to follow special rules to avoid harming the animal or its home.\n\nIf this resolution becomes law, that rule would have no force or effect. That means the northern long-eared bat would not get the endangered status from that rule. The protections that come with that status would not apply. The rule would be treated as if it had never been made.",
+  "prompt_tokens": 480,
+  "completion_tokens": 777,
+  "total_tokens": 1257,
+  "cost_usd": 0.000885,
+  "latency_s": 10.575,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 153 directs the President to remove United States Armed Forces from hostilities within or against the Republic of Cuba absent a congressional declaration of war or specific statutory authorization for the use of military force. The operative mechanism invokes section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and the expedited parliamentary procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth congressional findings. It reiterates Congress's exclusive power to declare war under article I, section 8, clause 11 of the Constitution, while acknowledging the President's constitutional responsibility to defend the United States, its territories, possessions, citizens, service members, and diplomats from attack. It notes that Congress has neither declared war on Cuba nor enacted a specific statutory authorization for the use of military force within or against Cuba. It further provides that the use of force by the Armed Forces, including the Coast Guard, to conduct a blockade or quarantine of Cuba constitutes the introduction of Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) directs the President, pursuant to 50 U.S.C. 1546a and Public Law 94-329, to remove the Armed Forces from hostilities within or against Cuba, conditioned upon the absence of an explicit declaration of war or specific authorization for the use of military force. \n\nSection 2(b) establishes a rule of construction, providing that the resolution does not prevent the United States from defending itself from an armed attack, the threat of an imminent armed attack, or the lawful execution of counternarcotics operations. The joint resolution does not contain an appropriation or an express effective date.",
+  "prompt_tokens": 914,
+  "completion_tokens": 1219,
+  "total_tokens": 2133,
+  "cost_usd": 0.002591,
+  "latency_s": 20.717,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the \"Ending Improper Payments to Deceased People Act.\" It helps stop the government from sending money to people who have died. \n\nThe law makes the head of the Social Security office share information about people who have died with a government tool called the \"Do Not Pay working system.\" This tool helps the government avoid paying money to dead people by mistake. It also helps get back money that was sent by mistake. The Social Security office and the Do Not Pay system must make a deal to share the costs of getting this death information from states. \n\nThe law also says the Social Security office cannot say someone is dead unless it has very strong proof. If the office makes a mistake and says a living person is dead, it must tell any other government office that received this wrong information. \n\nThese rules will start on December 27, 2026.",
+  "prompt_tokens": 1061,
+  "completion_tokens": 843,
+  "total_tokens": 1904,
+  "cost_usd": 0.002026,
+  "latency_s": 35.093,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "openai/gpt-5.5",
+  "summary": "The Maternal and Child Health Stillbirth Prevention Act of 2024, Pub. L. 118-69, amends title V of the Social Security Act to clarify that activities to prevent and reduce stillbirth are within the purposes and permissible uses of the maternal and child health services block grant authority.\n\nSection 1 designates the Act’s short title as the “Maternal and Child Health Stillbirth Prevention Act of 2024” and is codified as a note to 42 U.S.C. 1305.\n\nSection 2 amends section 501(a) of the Social Security Act, 42 U.S.C. 701(a), which authorizes appropriations for maternal and child health services under title V. First, it amends section 501(a)(1)(B) to add “to reduce the incidence of stillbirth” to the stated purposes for enabling each State to reduce infant mortality and preventable diseases and handicapping conditions among children. Second, it amends section 501(a)(2) by inserting, after the reference to “follow-up services,” an express authorization for “evidence-based programs and activities and outcome research to reduce the incidence of stillbirth.” The amendment specifies that such activities include tracking and awareness of fetal movements; improvement of birth timing for pregnancies with risk factors; initiatives encouraging safe sleeping positions during pregnancy; screening and surveillance for fetal growth restriction; smoking cessation efforts during pregnancy; community-based programs providing home visits or other support; and any other research or evidence-based programming to prevent stillbirths.\n\nThe Act does not create a separate grant program, does not appropriate funds, does not amend the amount of any authorization of appropriations under title V, and does not establish reporting requirements, deadlines, sunset provisions, or additional conditions precedent beyond the amendments to section 501(a). It took effect upon enactment on July 12, 2024.",
+  "prompt_tokens": 685,
+  "completion_tokens": 903,
+  "total_tokens": 1588,
+  "cost_usd": 0.030515,
+  "latency_s": 28.506,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

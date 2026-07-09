@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-81, cited as the \"Royalty Resiliency Act,\" amends the Federal Oil and Gas Royalty Management Act of 1982 to improve the management of royalties from oil and gas leases. The Act's operative mechanism imposes a statutory deadline and an interim payment framework for the Secretary's determinations of allocations of production for units and communitization agreements.\n\nSpecifically, Section 2 amends Section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982 (30 U.S.C. 1721(j)), as previously amended by the Federal Oil and Gas Royalty Simplification and Fairness Act of 1996 (Public Law 104-185), to require the Secretary to issue all determinations of allocations of production for units and communitization agreements within 120 days of a request. Pending the Secretary's determination, the lessee or its designee must report and pay royalties on oil and gas production for each production month in accordance with the terms of the proposed allocation. Upon issuance of the determination, the lessee or its designee must correct such reports and royalty payments by no later than the end of the third month following the month in which the determination is received from the Secretary.\n\nThe amendment provides for a conditional waiver of interest. Subject to the full and timely monthly payment of royalties to all parties in accordance with the terms of the proposed allocation, the Secretary shall waive interest due on obligations subject to the determination until the end of the third month following the month in which the lessee or its designee receives the determination. \n\nThe amendment contains a material exception, providing that the subsection shall not apply to unit or communitization agreements containing Indian lands. The Act does not include any authorizations or appropriations of funds. The Act was approved on September 20, 2024, and applies upon enactment.",
+  "prompt_tokens": 846,
+  "completion_tokens": 1560,
+  "total_tokens": 2406,
+  "cost_usd": 0.003139,
+  "latency_s": 10.475,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

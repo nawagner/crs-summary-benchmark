@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Kids Online Safety and Privacy Act. It aims to protect children and teenagers when they use the internet. \n\nThe bill does three main things:\n\nFirst, it creates safety rules for online platforms like social media and video games used by minors (people under 17 years old). These platforms must protect young users from online bullying, drug marketing, and mental health harms. Platforms must also provide easy-to-use tools. These tools let kids and parents turn off features like auto-play, limit screen time, and block private messages. \n\nSecond, it protects online privacy. It updates a federal law called the Children's Online Privacy Protection Act. It stops companies from collecting personal data from kids and teens to show them targeted ads. It also gives teens the right to delete their online data. \n\nThird, the bill lets users opt out of \"opaque algorithms.\" These are computer programs that track what you do online to choose what you see next. Platforms must let users switch to a simple system that does not track them.\n\nFinally, the bill requires government agencies to list and eliminate outdated or useless reports to save money. \n\nMost of these rules would start 18 months after the bill becomes a law.",
+  "prompt_tokens": 26786,
+  "completion_tokens": 253,
+  "total_tokens": 27039,
+  "cost_usd": 0.042456,
+  "latency_s": 3.395,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

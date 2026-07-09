@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a law that cancels a new rule about gas water heaters. The rule came from the Department of Energy, a part of the government that sets energy-saving standards for appliances. The rule would have required new gas-powered instant water heaters to meet stricter energy conservation standards. That means they would have had to use less energy to heat water.\n\nCongress used a special review process called the Congressional Review Act to say “no” to this rule. The House of Representatives voted on February 27, 2025, and the Senate voted on April 9 and 10, 2025, to reject the rule. The President approved the decision on May 9, 2025. Now the rule has no force or effect. It is as if the rule never existed.\n\nBecause of this law, the energy conservation standards for consumer gas-fired instantaneous water heaters will not change. The rule was published on December 26, 2024, in the Federal Register, which is the daily journal of the U.S. government where new rules are announced. That rule is now blocked.",
+  "prompt_tokens": 471,
+  "completion_tokens": 955,
+  "total_tokens": 1426,
+  "cost_usd": 0.001036,
+  "latency_s": 23.12,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a law to cancel a new energy rule. The rule was about big refrigerators and freezers used in stores, restaurants, and other businesses. These are called commercial refrigerators, freezers, and refrigerator-freezers.\n\nThe rule was made by the Department of Energy, which sets energy-saving standards. It said these appliances had to meet higher efficiency levels, meaning they would use less energy. The rule was published on January 21, 2025.\n\nThis new law says Congress disapproves of that rule. Because of the law, the rule will not take effect. It will have no force or effect, which means it is like it never happened. The government cannot enforce it.\n\nThe law is called a joint resolution of disapproval. It passed the House of Representatives on March 26 and 27, 2025. It passed the Senate on April 30 and May 1, 2025. The President approved it on May 9, 2025, making it Public Law 119-9.\n\nAs a result, the energy conservation standards the Department of Energy had set for those commercial cooling appliances are now blocked. The companies that make or use those appliances do not have to follow the new standards.",
+  "prompt_tokens": 501,
+  "completion_tokens": 599,
+  "total_tokens": 1100,
+  "cost_usd": 0.000739,
+  "latency_s": 12.765,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

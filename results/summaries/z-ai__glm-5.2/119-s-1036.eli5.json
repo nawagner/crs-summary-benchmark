@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Improving Access to Addiction Medicine Providers Act.\" It was introduced in the Senate on March 13, 2025. \n\nThe bill changes an older law called the Public Health Service Act. To \"amend\" a law means to change or add to it. \n\nRight now, there is a program called the Minority Fellowship Program. This program gives money and training, called a \"fellowship,\" to help professionals learn more about health care. \n\nThe bill makes two main changes to this program. First, it adds the word \"diagnosis\" to the rules. A diagnosis is when a doctor figures out what illness a person has. Second, it adds \"addiction medicine\" to the list of health fields that can get this training. Addiction medicine is the area of health care that helps people who are struggling with drug or alcohol addiction. \n\nIf this bill becomes a law, the Minority Fellowship Program will be able to give fellowships to professionals who want to train in addiction medicine. This means more doctors and health workers could learn how to help people with addictions.",
+  "prompt_tokens": 498,
+  "completion_tokens": 925,
+  "total_tokens": 1423,
+  "cost_usd": 0.001859,
+  "latency_s": 4.067,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

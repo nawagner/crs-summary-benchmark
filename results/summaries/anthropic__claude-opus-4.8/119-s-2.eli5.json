@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Secure America Act.\" It gives money to the government to work on America's borders. The money comes from the U.S. Treasury, which is where the country keeps its money.\n\nHere are the big amounts of money the law gives out. All of it can be used until September 30, 2029.\n\n- $9.55 billion to hire, pay, train, and equip Border Patrol agents and helpers.\n- $7.45 billion for Homeland Security Investigations agents. Part of this ($108.5 million) is to help find and rescue children who are hurt or abused.\n- $3.45 billion for new tools and technology. This includes machines that scan for illegal drugs like fentanyl, better planes and boats, and cameras to watch the borders.\n- $13.02 billion to hire and train border officers to do immigration work. Immigration means the rules about who can come into the country.\n- $31.075 billion for Immigration and Customs Enforcement (called ICE). This pays for workers, moving people out of the country, computers, buildings, and cars.\n\nPart of the ICE money (at least $350 million) is for arresting certain people who broke the law and are living here without permission.\n\nThe law also sets some rules. For example, money can't be used for camera towers that were not tested and accepted.\n\nThe President approved this law on June 10, 2026.",
+  "prompt_tokens": 5068,
+  "completion_tokens": 414,
+  "total_tokens": 5482,
+  "cost_usd": 0.03569,
+  "latency_s": 7.571,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

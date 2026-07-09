@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Safe Response Act (S. 2532), introduced July 30, 2025, is a single-purpose reauthorization bill amending Section 546 of the Public Health Service Act (42 U.S.C. 290ee-1), which authorizes the first responder training program administered under that Act. The bill effects both substantive scope changes and a reauthorization of appropriations.\n\nThe operative mechanism is a series of textual amendments to Section 546. First, in subsection (a), the bill conforms capitalization by striking \"tribes and tribal\" and inserting \"Tribes and Tribal.\"\n\nSecond, the bill expands the class of covered drugs and devices. Throughout subsections (a), (c), (d), and (f), it strikes \"approved or cleared\" and inserts \"approved, cleared, or otherwise legally marketed\"—broadening the categories of products (e.g., overdose-reversal drugs and devices) that fall within the program's scope to include those legally marketed outside formal approval or clearance pathways.\n\nThird, the bill removes the program's exclusive focus on opioids. It strikes the word \"opioid\" wherever it appears in subsections (a), (c), and (d), and in subsection (f)(1). In subsection (f)(2), it strikes \"opioid and heroin\" and inserts \"opioid, heroin, and other drug,\" and strikes \"opioid overdose\" in favor of the broader \"overdose.\" In subsection (f)(3), it strikes \"opioid and heroin.\" The cumulative effect is to extend the training program's authorized activities—including training on administration of overdose-reversal products and on the treatment and recognition of overdoses—to drug overdoses generally rather than limiting them to opioid- and heroin-related overdoses.\n\nFourth, the bill reauthorizes the program's funding. In subsection (h), it strikes the prior authorization of \"$36,000,000 for each of fiscal years 2019 through 2023\" and inserts \"$57,000,000 for each of fiscal years 2026 through 2030.\" This is an authorization of appropriations, not an appropriation; it establishes a ceiling of $57,000,000 per fiscal year over the FY2026–FY2030 period and does not itself provide budget authority.\n\nThe bill contains no separate effective-date provision, severability clause, or conditions precedent; the amendments take effect upon enactment. No new deadlines or reporting requirements are added beyond those already contained in existing Section 546. The bill was referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+  "prompt_tokens": 1193,
+  "completion_tokens": 822,
+  "total_tokens": 2015,
+  "cost_usd": 0.026515,
+  "latency_s": 12.218,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution cancels a government rule. The rule was made by the Consumer Financial Protection Bureau (CFPB), a federal agency. The rule’s title is “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B).” It was published on May 31, 2023. If Congress passes this resolution and the President signs it, the rule will have no force or effect. That means it will be thrown out and cannot be enforced.\n\nThe Senate already passed the resolution on October 18, 2023. Now the House of Representatives must vote. Congress is using a special process called the Congressional Review Act. This law lets Congress overturn new agency rules with a simple majority vote in both chambers.\n\nThe resolution does not change the underlying Equal Credit Opportunity Act. It only stops this specific rule. The rule would have applied to certain small business loans, but the resolution would prevent it from taking effect. If both the House and the President agree, the rule will be wiped away.",
+  "prompt_tokens": 472,
+  "completion_tokens": 1348,
+  "total_tokens": 1820,
+  "cost_usd": 0.001378,
+  "latency_s": 18.439,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

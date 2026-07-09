@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "openai/gpt-5.5",
+  "summary": "S.J. Res. 185 is a war-powers joint resolution directing the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The resolution does not amend the United States Code, authorize appropriations, or make appropriations; its operative mechanism is a congressional directive issued pursuant to section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, 50 U.S.C. 1546a, and to be considered under the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976, Public Law 94-329.\n\nSection 1 sets forth findings that Congress has the sole constitutional power to declare war under article I, section 8, clause 11; that the President has constitutional responsibility to defend the United States and its territories, possessions, citizens, servicemembers, and diplomats from attack; that Congress has neither declared war on Iran or any person or organization within Iran nor enacted a specific statutory authorization for the use of military force within or against Iran; and that the use of military force within or against Iran, including enforcement of a naval blockade, constitutes introduction of United States Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution, 50 U.S.C. 1543(a).\n\nSection 2(a) directs the President to remove United States Armed Forces from hostilities within or against Iran unless such hostilities are explicitly authorized by a declaration of war or a specific authorization for use of military force. Section 2(b) provides a rule of construction preserving the ability of the United States to defend against attacks on the United States or its personnel or facilities in other nations; to collect, analyze, or share intelligence with partner countries attacked by Iran since February 28, 2026, and with other nations and international organizations as appropriate, concerning threats from Iran or its proxies; and to assist such partner countries and other nations in intercepting retaliatory attacks by Iran or its proxies or by providing defensive materiel support for those defensive measures. The resolution specifies no separate effective date, deadline, sunset, or reporting requirement.",
+  "prompt_tokens": 1147,
+  "completion_tokens": 645,
+  "total_tokens": 1792,
+  "cost_usd": 0.025085,
+  "latency_s": 19.863,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the DETECT Fentanyl and Xylazine Act of 2024. It was approved on December 23, 2024. The law tells a part of the government called the Science and Technology Directorate to find better ways to detect illegal drugs, like fentanyl and xylazine, even when there is only a tiny bit of the drug. \n\nTo do this, they will work with the Drug Enforcement Administration (DEA), which is the government group that fights illegal drugs. They will research and test new equipment for police and other law enforcement to use. The equipment must be able to find drugs without people having to touch the drugs much. It also needs to separate drugs from other things they might be mixed with. They will also use artificial intelligence, which means computer programs that can learn, to guess if a sample has new drugs that are not in current databases. \n\nThe leader of this directorate must follow safety rules for using artificial intelligence. They must also look at government threat reports to decide which drugs are the most important to focus on. This law does not stop other government groups from doing their own work with drug equipment.",
+  "prompt_tokens": 1144,
+  "completion_tokens": 1214,
+  "total_tokens": 2358,
+  "cost_usd": 0.002708,
+  "latency_s": 19.954,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

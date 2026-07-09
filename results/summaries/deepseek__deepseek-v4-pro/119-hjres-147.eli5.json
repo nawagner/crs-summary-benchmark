@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a plan to end a special presidential power. In July 2025, the President said there was a national emergency. An emergency gives the President extra authority. The President used that emergency to add new taxes, called duties, on goods brought into the United States from Brazil. This bill would cancel that emergency.\n\nIf the bill passes, the national emergency declared on July 30, 2025, in Executive Order 14323 would be ended. The bill uses a rule from the National Emergencies Act, a law that lets Congress vote to stop a president's emergency declaration. The bill itself is called a joint resolution, which is a type of rule that needs approval from both the House and the Senate.\n\nEnding the emergency would remove the basis for those extra taxes on Brazilian imports. The resolution does not change any other trade rules, and it does not end any other emergencies. It only applies to that one specific order from July 2025.",
+  "prompt_tokens": 437,
+  "completion_tokens": 615,
+  "total_tokens": 1052,
+  "cost_usd": 0.000725,
+  "latency_s": 14.985,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

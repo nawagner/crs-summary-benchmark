@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "z-ai/glm-5.2",
+  "summary": "The \"Police Our Border Act\" (H.R. 8146) directs the Attorney General to submit a report to Congress assessing the impact of the southwest border crisis on Federal, State, local, and Tribal law enforcement officers. The bill's operative mechanism is a reporting requirement rather than an appropriation or an amendment to existing statutory law.\n\nSection 1 designates the Act's short title. Section 2 sets forth congressional findings regarding line-of-duty deaths, the strain on law enforcement resources, officer exposure to fentanyl, and the assertion that the border crisis has affected every state. It also references section 212(f) of the Immigration and Nationality Act (8 U.S.C. 1182(f)) regarding presidential authority to secure the southern border.\n\nSection 3 establishes the sole substantive mandate of the legislation. Not later than 180 days after the date of enactment, the Attorney General shall submit to Congress a report detailing the impact of the border crisis on law enforcement at all jurisdictional levels. The report must specifically include: (1) the estimated dollar amount of resources devoted to addressing the border crisis and the extent to which such resources are unavailable to law enforcement agencies; (2) law enforcement officers' exposure to fentanyl resulting from encounters with illegal aliens at the border and within the United States, including the nationality of each such alien; (3) injuries to law enforcement officers connected to the border crisis or fentanyl exposure; (4) the morale of law enforcement officers; (5) the impact of the border crisis on law enforcement recruiting and hiring; (6) the estimated dollar amount States have expended on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the United States border, encompassing the entire evidence lifecycle from collection and analysis to storage and final destruction; and (7) the number of law enforcement officers reassigned and local resources reallocated to investigate, intercept, and process such fentanyl, similarly encompassing the entire evidence lifecycle.\n\nThe bill does not authorize or appropriate funds, nor does it amend any provision of the United States Code. It imposes no penalties, creates no new enforcement authorities, and contains no sunset provision. The sole legal obligation created by the Act is the Attorney General's duty to compile and transmit the specified report within the statutory deadline.",
+  "prompt_tokens": 1013,
+  "completion_tokens": 780,
+  "total_tokens": 1793,
+  "cost_usd": 0.001892,
+  "latency_s": 7.115,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

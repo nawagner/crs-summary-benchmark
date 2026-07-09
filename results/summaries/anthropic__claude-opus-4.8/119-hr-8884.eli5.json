@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Removing Barriers to Work for Disabled Americans Act.\" It deals with Social Security, which is a government program that helps people with money. One part of it, called disability insurance, helps people who cannot work because they have a disability.\n\nThe government sometimes runs test programs, called \"demonstration projects.\" These are like experiments to try new ideas and see if they work better. The rules that let the government run these tests had already ended years ago.\n\nThis bill brings back that permission. It lets the government start new test programs until December 31, 2030. The programs must fully stop by December 31, 2031.\n\nThe bill also makes some other changes:\n- Before starting a test, the government must tell Congress about it 120 days ahead, instead of 90 days. It must also explain how it will measure if the test works.\n- It says a person's total income will not go down just because they join one of these test programs.\n- It explains which money funds pay for the tests and the benefits.\n\nMost of these changes would begin on January 1, 2027.\n\nRight now, this bill is not yet a law. It has been \"reported,\" which means a group in the House of Representatives looked at it, made a small change, and passed it along for more people to vote on.",
+  "prompt_tokens": 1856,
+  "completion_tokens": 368,
+  "total_tokens": 2224,
+  "cost_usd": 0.01848,
+  "latency_s": 7.482,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

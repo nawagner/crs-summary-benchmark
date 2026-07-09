@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "openai/gpt-5.5",
+  "summary": "This law lets the Department of Defense sell certain aircraft and aircraft parts to help fight wildfires. The Department of Defense is the part of the government that runs the military.\n\nIt renews an older law from 1996. The renewed power starts on June 12, 2025, and ends on October 1, 2035.\n\nThe aircraft and parts sold under this law may be used only to provide aircraft services for wildfire fighting. This means they are for jobs like dropping fire retardant or water on wildfires. Fire retardant is a substance used to slow or stop fire.\n\nThe law also updates the old wording to clearly include aircraft that carry and drop water, not just fire retardant. It does not create a new firefighting agency. It gives the Department of Defense more time to sell aircraft and parts for wildfire suppression purposes.",
+  "prompt_tokens": 741,
+  "completion_tokens": 278,
+  "total_tokens": 1019,
+  "cost_usd": 0.012045,
+  "latency_s": 6.213,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

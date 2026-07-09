@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress. It says that Congress does not agree with a new rule from a government agency. The rule would have given guidance about a type of financial product. If this resolution passes, the rule will be canceled and will have no power.\n\nThe rule came from the Commodity Futures Trading Commission. That is a federal agency that oversees markets for futures and swaps. The rule was about \"voluntary carbon credit derivative contracts.\" A carbon credit is like a permit that says a company reduced or removed a certain amount of greenhouse gas. A derivative is a financial agreement whose value is based on something else, like a carbon credit. The rule was meant to tell exchanges how to list these contracts for trading.\n\nThe rule was published on October 15, 2024. Congress can use a special process to stop a new rule within a certain time. This resolution would make the rule have no effect at all. It would be as if the rule never existed. The resolution was introduced on April 3, 2025, and sent to the House Agriculture Committee for review.",
+  "prompt_tokens": 461,
+  "completion_tokens": 692,
+  "total_tokens": 1153,
+  "cost_usd": 0.000803,
+  "latency_s": 11.194,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

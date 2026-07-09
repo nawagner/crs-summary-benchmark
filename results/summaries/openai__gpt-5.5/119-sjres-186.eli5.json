@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill proposes a change to the U.S. Constitution about voting.\n\nIt says every U.S. citizen who is old enough to vote would have a basic right to vote in public elections where they live. A public election means an election for government offices or issues.\n\nThe bill says the federal government, states, and local governments could not take away or limit this voting right unless they meet a very strong test. They would have to show they have a very important government reason. They would also have to use the least limiting way to meet that reason.\n\nThe bill would also remove the words “or other crime” from part of the 14th Amendment. That is an older part of the Constitution.\n\nCongress would have the power to pass laws to enforce this new voting right and protect people from having it denied or limited.\n\nBecause this is a constitutional amendment, it would not become law right away. It would need support from two-thirds of both the Senate and the House. Then three-fourths of the states would have to approve it.",
+  "prompt_tokens": 663,
+  "completion_tokens": 398,
+  "total_tokens": 1061,
+  "cost_usd": 0.015255,
+  "latency_s": 7.939,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

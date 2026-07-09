@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law gives a special name to a park in Harlem, New York. The park is called Holcombe Rucker Park. Now it will also be known as the \"Holcombe Rucker Park National Commemorative Site.\" A commemorative site is a place chosen to honor and remember something important.\n\nThe park is being honored for two reasons. First, it remembers a man named Holcombe Rucker and the good things he did. Second, it recognizes how the park helped grow the game of basketball. Many great basketball players played there.\n\nThe law lets the Secretary of the Interior (a top government leader who cares for public lands) work together with other groups. This could include the Mayor of New York City. They can put up a plaque, an exhibit, or a sign to teach people about the park. But they can only do this if the park's owner says yes in writing.\n\nThe law also sets clear limits. The park will not become part of the National Park System. The government cannot take over the land. The government cannot bother private property owners or change local land rules. New York City and New York State will still be in charge of running the park.\n\nThis law was approved on January 4, 2025.",
+  "prompt_tokens": 1374,
+  "completion_tokens": 338,
+  "total_tokens": 1712,
+  "cost_usd": 0.01532,
+  "latency_s": 6.093,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the KIDS Act. It is a plan to make the internet safer for kids and teens under 17 years old. \n\nIf this bill becomes a law, it will change how websites, social media, video games, and AI chatbots work. Websites with adult content must use age-verification tools to block minors. Social media platforms must turn on the strongest privacy settings by default for kids. They must also give parents tools to limit screen time, track purchases, and control who can message their children. \n\nUnder the bill, apps cannot let kids under 13 use direct messaging. Teens aged 13 to 16 cannot use messaging that makes texts disappear. Video games must let parents block chats and limit game time. AI chatbots must tell kids they are talking to a computer, not a real person. Chatbots must also tell kids to take a break after three hours of use. \n\nThe Federal Trade Commission (FTC)—a government group that protects consumers—will enforce these rules. Companies that break the rules can be penalized. Most parts of the law would start one year after it is passed.",
+  "prompt_tokens": 19741,
+  "completion_tokens": 230,
+  "total_tokens": 19971,
+  "cost_usd": 0.031682,
+  "latency_s": 2.971,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

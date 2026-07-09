@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the Department of Energy. The rule was about saving energy in walk-in coolers and walk-in freezers. These are the big refrigerators used in places like restaurants and grocery stores. \n\nThe Department of Energy made this rule on December 23, 2024. The new law says this rule will have no force or effect. This means the rule is stopped and will not be used. \n\nBecause of this law, the energy-saving standards for these big coolers and freezers will not change as the Department of Energy had planned. The President approved this law on May 9, 2025.",
+  "prompt_tokens": 474,
+  "completion_tokens": 682,
+  "total_tokens": 1156,
+  "cost_usd": 0.001429,
+  "latency_s": 3.505,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

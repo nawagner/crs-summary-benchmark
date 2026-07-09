@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This enacted measure (Pub. L. 119-18, S. 160), the \"Aerial Firefighting Enhancement Act of 2025,\" amends the Wildfire Suppression Aircraft Transfer Act of 1996 (Pub. L. 104-307; codified as a note to 10 U.S.C. 2576) to reauthorize and modify the Department of Defense's authority to sell aircraft and parts for wildfire suppression purposes. The operative mechanism is a series of amendments to Section 2 of the 1996 Act.\n\nSection 1 provides the short title (10 U.S.C. 101 note).\n\nSection 2 makes five amendments:\n\n(1) In subsection (a)(1), a conforming change strikes \"a period\" and inserts \"the period,\" and expands the authorized delivery mechanism by inserting \"or water\" after \"fire retardant,\" thereby extending the covered use to aircraft equipped for water delivery in addition to fire retardant.\n\n(2) Subsection (b) is rewritten so that aircraft and parts sold under subsection (a) \"may be used only for the provision of aircraft services for wildfire suppression purposes,\" replacing the prior use-restriction language.\n\n(3) Subsection (c) is likewise amended to insert \"or water\" after \"fire retardant.\"\n\n(4) In the second sentence of subsection (d)(1), the cross-reference to \"subsection (a)(1)\" is replaced with \"subsection (g),\" conforming the internal reference to the relocated authority period.\n\n(5) Subsection (g) is struck and replaced with a new \"Period for Exercise of Authority\" provision establishing that the authority runs from the date of enactment of the Aerial Firefighting Enhancement Act of 2025 through October 1, 2035—effectively a reauthorization with a fixed sunset date of October 1, 2035.\n\nThe Act contains no appropriations and provides no separate authorization of appropriations; it operates solely as a reauthorization and modification of existing DoD sale authority. No separate effective date is specified beyond the date of enactment, which governs the commencement of the authority period under new subsection (g).\n\nThe bill was approved June 12, 2025. Legislative history: S. 160 was considered and passed by the Senate on April 8, 2025, and considered and passed by the House on June 3, 2025 (Cong. Rec. Vol. 171 (2025)).",
+  "prompt_tokens": 1338,
+  "completion_tokens": 772,
+  "total_tokens": 2110,
+  "cost_usd": 0.02599,
+  "latency_s": 11.858,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

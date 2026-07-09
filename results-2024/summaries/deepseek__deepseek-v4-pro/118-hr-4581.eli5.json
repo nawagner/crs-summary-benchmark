@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill changes an existing law to make it clear that federal money can be used to help prevent stillbirths. A stillbirth is when a baby dies before or during delivery after 20 weeks of pregnancy.\n\nRight now, a program called the Maternal and Child Health Services Block Grant gives money to states to help mothers and children stay healthy. This bill adds new language to that law. It says that states can use some of this money for programs and research that try to lower the number of stillbirths.\n\nThe bill lists examples of what these programs could look like. They include teaching pregnant women to track their baby’s movements, helping women quit smoking during pregnancy, and checking for babies who are growing too slowly. It also includes programs that teach safe sleeping positions during pregnancy and community support like home visits. The money can also be used for research to find better ways to prevent stillbirths.\n\nThe bill does not give out new money. It simply says that the money already given to states for mother and child health can now clearly be spent on these stillbirth prevention activities. The bill became law on July 12, 2024.",
+  "prompt_tokens": 654,
+  "completion_tokens": 230,
+  "total_tokens": 884,
+  "cost_usd": 0.000485,
+  "latency_s": 4.927,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

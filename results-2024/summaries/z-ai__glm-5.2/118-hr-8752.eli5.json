@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill gives money to the Department of Homeland Security (DHS) for the year ending September 30, 2025. DHS is the part of the government that protects the country, controls who comes into the United States, helps during disasters, and guards the president. \n\nThe bill gives billions of dollars to different groups under DHS. For example, it gives money to Customs and Border Protection, Immigration and Customs Enforcement, the Coast Guard, and the Secret Service. It also gives money for disaster relief and cybersecurity, which means protecting computers from hackers.\n\nThe bill sets many rules on how the money can be used. For example, it says the government must keep at least 50,000 beds for people waiting for immigration decisions. It says money can be used to build tall steel fences at the border, but it cannot be used to take down existing fences. It also says no money can be used to buy electric vehicles, enforce COVID-19 mask rules, or carry out certain rules about the environment and immigration.\n\nIf this bill becomes law, DHS will have money to run its programs for a year, but it will have to follow all these specific rules.",
+  "prompt_tokens": 28213,
+  "completion_tokens": 1156,
+  "total_tokens": 29369,
+  "cost_usd": 0.017388,
+  "latency_s": 21.495,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

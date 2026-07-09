@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "openai/gpt-5.5",
+  "summary": "S.J. Res. 24 is a joint resolution of congressional disapproval under the Congressional Review Act, chapter 8 of title 5, United States Code. Its sole operative provision disapproves the rule submitted by the United States Fish and Wildlife Service entitled “Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,” published at 87 Fed. Reg. 73488 on November 30, 2022.\n\nThe resolution provides that, upon enactment, the specified Fish and Wildlife Service rule “shall have no force or effect.” It does not amend the Endangered Species Act of 1973 or any provision of the United States Code, does not create replacement regulatory standards, and contains no appropriations, authorizations of appropriations, transition provisions, exceptions, deadlines, or express effective-date provision beyond the legal effect supplied by chapter 8 of title 5 for a joint resolution of disapproval.",
+  "prompt_tokens": 521,
+  "completion_tokens": 195,
+  "total_tokens": 716,
+  "cost_usd": 0.008455,
+  "latency_s": 4.497,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

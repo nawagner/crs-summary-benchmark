@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "openai/gpt-5.5",
+  "summary": "This law lets the Department of Veterans Affairs, or VA, do big building projects for veterans’ medical care in fiscal year 2024. A fiscal year is a budget year.\n\nThe law allows up to $3,354,048,000 for these projects, if the money is provided. The projects include building, fixing, or expanding VA medical sites in 11 places.\n\nThe VA may build or improve medical space, parking, utility plants, research space, and care buildings. Some projects also include buying land, tearing down old buildings, or making buildings safer during earthquakes.\n\nThe projects are in American Lake, Washington; Dallas and El Paso, Texas; Perry Point, Maryland; Portland, Oregon; Reno, Nevada; San Diego and San Francisco, California; San Juan, Puerto Rico; St. Louis, Missouri; and West Haven, Connecticut.\n\nEach place has its own spending limit. The largest is El Paso, Texas, at up to $759.2 million for a new health care center and utility plant. Other projects range from about $93.1 million in Dallas to about $613 million in Portland. The law was approved on November 25, 2024.",
+  "prompt_tokens": 1121,
+  "completion_tokens": 324,
+  "total_tokens": 1445,
+  "cost_usd": 0.015325,
+  "latency_s": 7.192,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

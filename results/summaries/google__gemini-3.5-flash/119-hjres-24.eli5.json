@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the Senate and the House of Representatives. These two groups make up the United States Congress, the part of our government that writes and passes laws. \n\nThis law stops a specific rule created by the Department of Energy. The Department of Energy is a government group that helps manage the country's power and fuel. On December 23, 2024, they made a rule about energy saving standards for walk-in coolers and walk-in freezers. These are the very large refrigerators and freezers that supermarkets and restaurants use to keep food cold. \n\nWith this new law, Congress officially disapproves of that rule. Because of this, the rule will have no force or effect. This means the rule is canceled, and people do not have to follow it. \n\nThe House of Representatives voted to pass this law on March 27, 2025. The Senate voted to pass it on April 3, 2025. Finally, it was approved and became a law on May 9, 2025.",
+  "prompt_tokens": 526,
+  "completion_tokens": 232,
+  "total_tokens": 758,
+  "cost_usd": 0.002877,
+  "latency_s": 2.182,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

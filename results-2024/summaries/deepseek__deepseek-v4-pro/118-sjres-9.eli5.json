@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a joint resolution, which is a special kind of law that lets Congress cancel a rule made by a government agency. The rule it targets comes from the U.S. Fish and Wildlife Service. That agency had created protections for the lesser prairie‑chicken, a type of bird.\n\nThe rule split the bird into two groups. The northern group was listed as “threatened” with a special rule that allowed some activities to continue. The southern group was listed as “endangered,” the highest level of protection. The rule was published on November 25, 2022.\n\nIf this resolution passes the House of Representatives and is signed by the President, it would wipe the rule away completely. The rule would have no force or effect. That means the northern group would not be treated as threatened and the southern group would not be treated as endangered under that specific rule. The protections the rule created would disappear.\n\nThe Senate passed this resolution on May 3, 2023. It still needs action from the House and the President to become law.",
+  "prompt_tokens": 549,
+  "completion_tokens": 1339,
+  "total_tokens": 1888,
+  "cost_usd": 0.001404,
+  "latency_s": 23.226,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

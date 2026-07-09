@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Safer Response Act of 2025.\" It changes a law that gives money to train first responders, like emergency medical workers.\n\nHere is what the bill does:\n\nIt gives more money for this training. The old law said the government could spend $36 million each year from 2019 to 2023. This bill changes that to $57 million each year from 2026 to 2030.\n\nIt also changes some words in the law. It makes sure the training covers more than just opioid drugs. The old law talked about \"opioid and heroin\" overdoses. The new bill changes this to \"opioid, heroin, and other drug\" overdoses. This means the training will include more types of drugs.\n\nThe bill also changes a rule about the tools or medicines used in the training. The old law said they must be \"approved or cleared\" by the government. The new bill says they must be \"approved, cleared, or otherwise legally marketed.\" This means they just need to be legally sold.\n\nFinally, it makes sure the word \"Tribes\" is capitalized when talking about Native American groups.\n\nIf this bill becomes a law, first responders will get more money for training about all types of drug overdoses, not just opioids.",
+  "prompt_tokens": 691,
+  "completion_tokens": 809,
+  "total_tokens": 1500,
+  "cost_usd": 0.001766,
+  "latency_s": 21.226,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

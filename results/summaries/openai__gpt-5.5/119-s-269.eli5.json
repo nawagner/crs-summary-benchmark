@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "openai/gpt-5.5",
+  "summary": "This law is meant to help the government avoid sending money to people who have died.\n\nIt says the Social Security Administration should share death information, when it can, with the agency that runs the “Do Not Pay” system. The Do Not Pay system is a government tool that helps agencies check if a payment may be wrong. Agencies use it to stop improper payments and help get back money that was paid by mistake.\n\nThe law also says Social Security and the Do Not Pay agency must make an agreement about paying a fair share of the costs for state death records. They may review that agreement from time to time.\n\nSocial Security may not mark someone as dead in these records unless it has clear and convincing evidence that the person should be treated as deceased.\n\nIf Social Security finds that someone was wrongly listed as dead, it must tell any agency that has a data-sharing agreement with Social Security.\n\nThese changes take effect on December 27, 2026.",
+  "prompt_tokens": 1049,
+  "completion_tokens": 289,
+  "total_tokens": 1338,
+  "cost_usd": 0.013915,
+  "latency_s": 6.347,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

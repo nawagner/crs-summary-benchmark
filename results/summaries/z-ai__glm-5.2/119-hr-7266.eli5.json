@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Rural and Municipal Utility Cybersecurity Act.\" It restarts a government program to help small and rural electric companies protect their computers from hackers. \n\nThe program gives money and expert help to certain electric utilities. These include rural electric cooperatives, city-owned utilities, and small private companies that sell less than 4,000,000 megawatt hours of electricity each year. The goal is to help them stop, find, fix, and recover from computer threats. \n\nThe government will give priority to companies that do not have many resources to protect themselves, or that own important power systems. If a company shares information with the government under this program, that information is kept secret and cannot be shared with the public. \n\nIf this bill becomes law, the government can spend up to $250,000,000 on this program from 2026 through 2030. This money will help keep the electricity running safely in towns and rural areas.",
+  "prompt_tokens": 1589,
+  "completion_tokens": 1013,
+  "total_tokens": 2602,
+  "cost_usd": 0.002606,
+  "latency_s": 15.533,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

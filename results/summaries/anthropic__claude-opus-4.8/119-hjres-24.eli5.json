@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a special kind of law called a \"joint resolution.\" Congress uses it to cancel a rule made by a part of the government.\n\nHere is what happened. A group in the government called the Department of Energy made a new rule. That rule was about walk-in coolers and walk-in freezers. These are big cold rooms that stores and restaurants use to keep food cold or frozen. The rule set new standards for how these coolers and freezers should save energy.\n\nCongress decided it did not want that rule to happen. So Congress voted to \"disapprove\" it. That means they said no to the rule.\n\nBecause of this new law, the Department of Energy's rule will not count anymore. The bill says the rule \"shall have no force or effect.\" In simple words, the rule is turned off. It cannot be used.\n\nThe rule was first published on December 23, 2024. The House of Representatives voted yes on March 27, 2025. The Senate voted yes on April 2 and 3, 2025. The law was approved on May 9, 2025.\n\nSo, after this law, the energy rules for walk-in coolers and freezers go back to the way they were before. The new rule the Department of Energy wanted will not be used.",
+  "prompt_tokens": 791,
+  "completion_tokens": 367,
+  "total_tokens": 1158,
+  "cost_usd": 0.01313,
+  "latency_s": 6.144,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

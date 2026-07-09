@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Energy Threat Analysis Center Act of 2026.\" It deals with keeping America's energy systems safe from computer attacks. Energy systems are things like power plants and electric grids that give us electricity.\n\nThe bill updates an older law. It keeps a special program going. This program helps the government and energy companies work together. They share information about threats. A threat is anything bad that could hurt or break into energy systems.\n\nThe program lets the government and companies study these threats. They warn each other and give tips on how to stay safe. Some of this sharing is secret, and some is not.\n\nThe bill lets the Energy Department run this work through an \"Energy Threat Analysis Center.\" This center could be in one place or many places.\n\nThe bill also says a few important things. The Energy Secretary gets to decide who receives help. No one can force the government to give them help. Information shared in the program is kept private and does not have to be shown to the public.\n\nThe bill also lets the Energy Secretary make deals with companies and groups to do this work. It allows faster, simpler ways to set up these deals.\n\nFinally, the bill gives the program money for the years 2027 through 2031. The old law only covered 2022 through 2026.",
+  "prompt_tokens": 2819,
+  "completion_tokens": 374,
+  "total_tokens": 3193,
+  "cost_usd": 0.023445,
+  "latency_s": 7.871,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

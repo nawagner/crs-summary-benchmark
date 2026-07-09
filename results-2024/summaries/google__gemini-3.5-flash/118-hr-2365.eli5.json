@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the \"Dr. Emmanuel Bilirakis and Honorable Jennifer Wexton National Plan to End Parkinson's Act.\" It creates a new national project to fight Parkinson's. Parkinson's is a brain disease that makes it hard for people to move and control their bodies. \n\nThe Secretary of Health and Human Services, who is the head of the government's health department, will lead this project. The main goal is to find ways to prevent, diagnose, treat, and cure Parkinson's. \n\nUnder this law, the government must:\n* Create and update a national plan to stop Parkinson's and help patients.\n* Coordinate research across different government agencies.\n* Share information about how much money the government spends on Parkinson's.\n* Check the nation's progress every year, starting within 24 months.\n\nThe law also sets up an Advisory Council. This is a group of experts who give advice. The group will have members from 13 government agencies and 10 outside experts, including doctors, researchers, and patients. They must meet regularly and write a report for Congress every year. \n\nThis law and the Advisory Council will end at the close of the year 2035.",
+  "prompt_tokens": 2851,
+  "completion_tokens": 257,
+  "total_tokens": 3108,
+  "cost_usd": 0.006589,
+  "latency_s": 2.375,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

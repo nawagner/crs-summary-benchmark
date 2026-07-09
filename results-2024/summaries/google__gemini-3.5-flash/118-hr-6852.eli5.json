@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the Holcombe Rucker Park National Commemorative Site Act. It was signed into law on January 4, 2025. \n\nThe law gives a special new name to a famous park in Harlem, New York. The park is now officially called the \"Holcombe Rucker Park National Commemorative Site.\" \n\nA commemorative site is a special place that honors an important person or event. This park is famous for its history with the game of basketball and its many talented players. \n\nThe law lets a government official, the Secretary of the Interior, make agreements with the Mayor of New York City or other groups. Together, they can put up signs, plaques, or exhibits at the park. These signs will teach people about Holcombe Rucker and the park's basketball history. The owner of the park must agree to this in writing first.\n\nEven with this new name, the park does not become a National Park. The national government cannot buy the land, and it cannot change any local rules. New York City and New York State will still run the park just like they did before.",
+  "prompt_tokens": 915,
+  "completion_tokens": 231,
+  "total_tokens": 1146,
+  "cost_usd": 0.003452,
+  "latency_s": 2.17,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

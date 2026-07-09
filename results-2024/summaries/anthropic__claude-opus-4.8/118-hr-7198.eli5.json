@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Prove It Act of 2024.\" It is about rules the government makes and how those rules affect small businesses. A small business is a company with only a few workers or a small amount of money.\n\nWhen the government wants to make a new rule, it sometimes says the rule will not really hurt small businesses. This bill lets small businesses argue about that. They can send a letter, called a petition, to a special helper called the Chief Counsel for Advocacy. This helper works for the Small Business Administration, which is the part of government that helps small businesses.\n\nThe Chief Counsel looks at the petition. Within 10 days, they decide if it needs a closer look. If yes, they do a full review within 30 days. They hold a meeting with the business and the government workers who made the rule.\n\nIf the review shows the rule will hurt many small businesses, the government must do a deeper study of the rule's costs. If the government skips the meeting or does not help, the rule will not apply to small businesses.\n\nThe bill also says the government must post its rule instructions online and let small businesses comment on them.\n\nFinally, the government must check its rules every 10 years. If it does not, the rule stops working until the government reviews it again.",
+  "prompt_tokens": 5105,
+  "completion_tokens": 369,
+  "total_tokens": 5474,
+  "cost_usd": 0.03475,
+  "latency_s": 7.443,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

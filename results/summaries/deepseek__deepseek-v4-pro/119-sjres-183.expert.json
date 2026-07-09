@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran, absent explicit congressional authorization. The operative mechanism is a statutory directive under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a), in accordance with the expedited parliamentary procedures of section 601(b) of the International Security and Arms Export Control Act of 1976 (Public Law 94-329). Section 2(a) commands removal of U.S. Armed Forces from such hostilities “unless explicitly authorized by a declaration of war or a specific authorization for use of military force.” The resolution does not itself authorize or appropriate funds, and it contains no sunset clause or deadline for the removal.\n\nSection 2(b) provides a rule of construction that preserves authority to: (1) defend against an attack on the United States, its personnel, or facilities in other nations; (2) collect, analyze, or share intelligence—including with Israel, partner countries attacked by Iran since February 28, 2026, and other nations and international organizations—related to threats from Iran or its proxies; and (3) assist Israel, such partner countries, and other nations in directly defending against retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for those defensive measures. The resolution does not create new spending authority, nor does it condition the removal on any event other than the absence of a declaration of war or specific statutory authorization.\n\nSection 1 contains findings that assert Congress’s exclusive constitutional power to declare war, note the absence of a declaration or specific authorization for use of military force against Iran, characterize the February 2026 “Operation Epic Fury” as an introduction of forces into hostilities under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)), and state that the resolution qualifies for the expedited-consideration procedures of 50 U.S.C. 1546a. The resolution does not modify any other provision of law, and its directive is self-executing upon enactment.",
+  "prompt_tokens": 1441,
+  "completion_tokens": 1700,
+  "total_tokens": 3141,
+  "cost_usd": 0.002106,
+  "latency_s": 21.858,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

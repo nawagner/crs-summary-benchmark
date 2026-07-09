@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-47 (S.J. Res. 80), enacted on December 5, 2025, is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to disapprove a federal agency rule. Specifically, the resolution provides for congressional disapproval of the rule submitted by the Bureau of Land Management (BLM) titled \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.\" \n\nThe operative mechanism of the resolution is the statutory nullification of the specified rule, declaring that it \"shall have no force or effect.\" Under the CRA (5 U.S.C. § 801 et seq.), this disapproval also triggers a permanent statutory bar, prohibiting the BLM from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless specifically authorized by a subsequent Act of Congress.\n\nThe resolution identifies the targeted agency action as the Record of Decision issued by the BLM on April 25, 2022. Because the action was not originally promulgated through standard notice-and-comment rulemaking, the resolution references a formal letter of opinion from the Government Accountability Office (GAO) dated July 24, 2025 (printed in the Congressional Record on July 28, 2025, at pages S4768-S4770). The GAO opinion concluded that the April 25, 2022 Record of Decision constitutes a \"rule\" for the purposes of the CRA, thereby establishing the jurisdictional and procedural foundation for congressional review and disapproval under 5 U.S.C. chapter 8. \n\nThe joint resolution contains no authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; the nullification of the rule was effective immediately upon the President's signature on December 5, 2025.",
+  "prompt_tokens": 591,
+  "completion_tokens": 405,
+  "total_tokens": 996,
+  "cost_usd": 0.004531,
+  "latency_s": 3.009,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

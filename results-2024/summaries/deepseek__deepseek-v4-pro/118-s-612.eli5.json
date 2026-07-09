@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law extends a program that helps protect and restore Lake Tahoe, a large, clear lake in the Sierra Nevada mountains. The original program was set to expire. This new law pushes the end date to September 30, 2034.\n\nThe law does two main things. First, it keeps in place the ability of different government groups—like federal, state, local, and tribal agencies—to work together on Lake Tahoe projects. This teamwork was going to run out, but now it can continue until the same 2034 deadline. Second, it allows money that Congress sets aside for these projects to be spent through September 30, 2034. Before, the money had an earlier expiration date.\n\nIn short, the law gives more time for environmental projects around Lake Tahoe. It does not provide new money itself, but it keeps the door open for future funding and cooperation until 2034. The law was approved on October 1, 2024.",
+  "prompt_tokens": 593,
+  "completion_tokens": 719,
+  "total_tokens": 1312,
+  "cost_usd": 0.000883,
+  "latency_s": 18.952,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

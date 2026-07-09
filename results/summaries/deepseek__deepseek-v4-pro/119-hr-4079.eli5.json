@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Safer Response Act of 2025. It keeps a government program going that gives money to train first responders like police, firefighters, and paramedics. The training teaches them how to help someone who has taken too much of a drug (an overdose).\n\nThe bill makes a few changes. Before, the training only covered overdoses from a certain kind of drug called opioids. Now it covers overdoses from any drug, including heroin and others. It also allows trainers to teach about more medicines that can reverse an overdose, as long as those medicines are legally sold.\n\nAnother change is about money. The program used to provide $36 million each year. The bill raises that amount to $57 million each year. It also sets new dates for the program to run from 2026 through 2030. Finally, the bill fixes a small writing mistake by capitalizing the word “Tribes.”\n\nIf the bill becomes law, first responders will have broader training and more funding to help save lives in overdose emergencies.",
+  "prompt_tokens": 689,
+  "completion_tokens": 1269,
+  "total_tokens": 1958,
+  "cost_usd": 0.001404,
+  "latency_s": 17.197,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 24 is a joint resolution that provides for congressional disapproval of a federal agency rule pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe sole operative mechanism of the joint resolution is the express disapproval of the final rule submitted by the United States Fish and Wildlife Service (FWS) titled \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat,\" published at 87 Fed. Reg. 73488 on November 30, 2022. \n\nUnder the statutory framework of the CRA, specifically 5 U.S.C. § 801(b)(1), the enactment of this joint resolution mandates that the specified FWS rule shall have no force or effect. By operation of law under the CRA, the rule may not be implemented or enforced, and the FWS is prohibited from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the disapproval joint resolution. \n\nThe text contains no appropriations, authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; the invalidation of the rule is effective immediately upon the joint resolution's enactment.",
+  "prompt_tokens": 565,
+  "completion_tokens": 280,
+  "total_tokens": 845,
+  "cost_usd": 0.003368,
+  "latency_s": 1.96,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

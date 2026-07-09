@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a plan for how the United States government will spend money for the year ending September 30, 2025. It mainly does two big things. First, it gives money to build, fix, and improve military bases, training centers, and family housing for the Army, Navy, Marine Corps, Air Force, and their reserve and National Guard parts. Second, it provides money for the Department of Veterans Affairs, or VA, to give benefits and medical care to people who served in the military.\n\nFor military construction, the bill sets aside specific amounts. For example, it provides about $2.2 billion for the Army and $4.3 billion for the Navy and Marine Corps. This money can be used for several years, until September 30, 2029. It also includes money for family housing on bases and for closing or adjusting old bases.\n\nFor veterans, the bill provides money for several areas. It sets aside over $75 billion for medical services at VA hospitals and clinics. It also provides money for community care outside the VA, medical research, running veterans' cemeteries, and building new VA facilities. A large part, over $200 billion, goes to benefit payments like compensation for disabilities and pensions. The bill also includes rules about how this money can and cannot be used. For instance, it says no money can be used for certain executive orders or for gender-affirming surgeries. It also requires reports to Congress on how some of the money is spent.",
+  "prompt_tokens": 26046,
+  "completion_tokens": 704,
+  "total_tokens": 26750,
+  "cost_usd": 0.011942,
+  "latency_s": 8.164,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

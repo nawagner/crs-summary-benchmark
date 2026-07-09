@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a spending plan for the Department of Homeland Security (DHS) for the government’s budget year that ends on September 30, 2025. It lists exactly how much money different parts of DHS can spend and sets rules for how that money can be used.\n\nThe bill provides large amounts of money for border security and immigration enforcement. It gives more than $16 billion to Customs and Border Protection, which includes a requirement to build more steel border barriers that are 18 to 30 feet tall. It also gives over $10 billion to Immigration and Customs Enforcement and requires the agency to keep at least 50,000 spaces in detention centers available. It stops the use of a phone app to allow certain people to enter the country before being fully checked. It also prevents funds from being used to release certain people into the country who could be a public safety risk.\n\nThe bill funds other security agencies, including the Coast Guard, Secret Service, and Transportation Security Administration. It provides more than $22 billion for a Disaster Relief Fund to help states and communities after major emergencies. It also includes money for local grants to help firefighters, police, and nonprofit groups improve security.\n\nMany rules are attached to the money. For example, it says no funds can be used to pay the salary of the current DHS Secretary, to operate a government disinformation board, or to carry out certain executive orders on climate change and diversity programs. It also requires DHS to report regularly to Congress on spending, contracts, and border arrival estimates.",
+  "prompt_tokens": 27894,
+  "completion_tokens": 1765,
+  "total_tokens": 29659,
+  "cost_usd": 0.013669,
+  "latency_s": 33.883,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law is called the Confirmation Of Congressional Observer Access Act of 2024, or the COCOA Act. It tells states that during elections for Congress, they must let special watchers called “designated congressional election observers” see how the election is run.\n\nThese observers are employees of the U.S. House of Representatives or Senate. They are chosen in writing by the top leaders of certain committees. They can go to all places where voting happens, where ballots are sorted or counted, and where results are double-checked or made official. They can watch steps before, during, and after the election.\n\nObservers may not touch any ballots or voting machines. They cannot cheer for a candidate, try to change how someone votes, or get in the way of voters or election workers. They are allowed to ask questions of election officials.\n\nIf an election official has a strong reason to believe an observer is scaring people, breaking federal rules, or disrupting the process, the official can remove that observer. The official must then notify Congress in writing within 24 hours, explaining why. Simply being present and watching is never a good enough reason to remove someone.\n\nIf an observer is taken out, the same committee leaders can send a replacement.\n\nThis law covers all 50 states, Washington, D.C., and U.S. territories. It puts into writing powers that Congress says it already had under the Constitution.",
+  "prompt_tokens": 1756,
+  "completion_tokens": 1000,
+  "total_tokens": 2756,
+  "cost_usd": 0.001634,
+  "latency_s": 14.229,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

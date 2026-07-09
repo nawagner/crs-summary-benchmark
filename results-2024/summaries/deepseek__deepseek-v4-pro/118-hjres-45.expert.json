@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, H.J. Res. 45 (118th Congress), exercises congressional review authority under chapter 8 of title 5, United States Code (the Congressional Review Act, or CRA). Its purpose is to disapprove a rule submitted by the Department of Education. The rule is identified as the “Waivers and Modifications of Federal Student Loans,” a term that encompasses both the website announcement entitled “One-Time Federal Student Loan Debt Relief” and the Federal Register document titled “Federal Student Aid Programs (Federal Perkins Loan Program, Federal Family Education Loan Program, and William D. Ford Federal Direct Loan Program),” published at 87 Fed. Reg. 61512 (October 12, 2022). The measure also references the printing of the rule in the Congressional Record on March 22, 2023 (pages S903–S906) and a Government Accountability Office opinion letter dated March 17, 2023, concluding that the Waivers and Modifications constitute a rule for purposes of the CRA. The operative provision states: “Congress disapproves the rule … and such rule shall have no force or effect.” The resolution itself does not contain any exceptions, conditions precedent, delayed effective dates, sunset clauses, authorizations of appropriations, or direct amendments to the United States Code. Upon enactment of the joint resolution, the rule is rendered void, and by operation of 5 U.S.C. § 801(b)(2) the agency is barred from issuing a substantially similar rule absent subsequent statutory authorization. As a joint resolution, it requires adoption by both chambers and presentment to the President. The House of Representatives passed the resolution on May 24, 2023; it was received in the Senate on May 30, 2023.",
+  "prompt_tokens": 566,
+  "completion_tokens": 2304,
+  "total_tokens": 2870,
+  "cost_usd": 0.002251,
+  "latency_s": 38.861,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

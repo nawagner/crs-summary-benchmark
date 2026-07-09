@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the AACE Act. It was signed into law on January 4, 2025. It changes the rules for land appraisers who work with the Department of the Interior. The Department of the Interior is a part of the government that looks after America’s natural land and parks. \n\nAn appraiser is a professional who figures out how much a piece of land is worth. Usually, appraisers must have a license in the specific state where the land is located. This law changes that. Now, an appraiser only needs a license from one state to value land in any state, as long as the job is for this government department. \n\nThe government must still try to hire local appraisers first. They can only hire an out-of-state appraiser if a local one is not available, cannot do the job, or costs too much. \n\nThe law also says the department must put all of its appraisal rules and handbooks online for the public to see within 90 days. Finally, the Secretary, who is the leader of the department, must send a report to Congress every year for five years. This report will show if the new rules are helping the government finish its land work faster.",
+  "prompt_tokens": 1787,
+  "completion_tokens": 254,
+  "total_tokens": 2041,
+  "cost_usd": 0.004967,
+  "latency_s": 2.447,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

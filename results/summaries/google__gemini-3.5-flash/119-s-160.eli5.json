@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the Aerial Firefighting Enhancement Act of 2025. It changes an older law to help fight wildfires. \n\nThe main thing this bill does is let the Department of Defense sell extra military airplanes and airplane parts to groups that fight wildfires. The Department of Defense is the part of the government in charge of the nation's military. \n\nIf this bill becomes law, it will make a few key changes. First, it allows these sold airplanes to carry and drop water, not just fire retardant. Fire retardant is a special chemical used to slow down fires. Second, the bill says these airplanes can only be used to help put out wildfires. \n\nFinally, the bill sets a specific timeline. The government is allowed to sell these airplanes and parts starting on the day this bill becomes a law. This permission will last until October 1, 2035.",
+  "prompt_tokens": 826,
+  "completion_tokens": 187,
+  "total_tokens": 1013,
+  "cost_usd": 0.002922,
+  "latency_s": 2.102,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

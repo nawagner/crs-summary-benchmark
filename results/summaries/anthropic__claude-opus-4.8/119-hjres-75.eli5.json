@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law cancels a rule that a part of the government made.\n\nFirst, here is some background. A government office called the Department of Energy made a rule. This rule was about big refrigerators and freezers, like the ones stores and restaurants use. The rule set new standards for how much energy those machines could use. It was published on January 21, 2025.\n\nCongress is the group of people who make laws for the country. Congress has a way to say \"no\" to certain government rules. This law is Congress using that power.\n\nWith this law, Congress says it disapproves of the refrigerator and freezer rule. That means the rule will have \"no force or effect.\" In plain words, the rule is thrown out. It does not count anymore, and no one has to follow it.\n\nThis law was approved on May 9, 2025.\n\nSo, if you own a store or restaurant, the new energy rules for your big fridges and freezers no longer apply.",
+  "prompt_tokens": 862,
+  "completion_tokens": 270,
+  "total_tokens": 1132,
+  "cost_usd": 0.01106,
+  "latency_s": 5.188,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the HEARTS Act of 2024. It helps schools and families learn about cardiomyopathy, which is a disease of the heart muscle. The law says the government must make learning materials about the signs of heart problems that can cause sudden cardiac arrest in kids and young adults.\n\nThe government has 18 months to make these materials and write reports to Congress. Congress is the part of the government that makes laws. The government has 30 months to share the materials with schools, families, and doctors. The materials will include rules for putting AEDs in schools. An AED is a machine that can help restart a heart. The materials will also include CPR training information and plans for heart emergencies. The CDC, a government health agency, will help make and share this information.\n\nThe law also asks the NIH, a government research agency, to study cardiomyopathy more and report to Congress within 18 months. They will look at what causes the disease and how to treat it.\n\nFinally, the government can give money, called grants, to public schools. Schools can use this money to buy AEDs, train students and staff in CPR, and make emergency plans. However, the law says Congress will not provide any extra money for these tasks. The government must use the money it already has.",
+  "prompt_tokens": 3394,
+  "completion_tokens": 915,
+  "total_tokens": 4309,
+  "cost_usd": 0.003423,
+  "latency_s": 6.507,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

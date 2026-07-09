@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is called the “Police Our Border Act.” It would require the Attorney General, the head lawyer for the U.S. government, to give Congress a report within 180 days after the bill becomes law.\n\nThe report would look at how the bill calls the “Biden border crisis” is affecting law enforcement officers. This includes federal, state, local, and Tribal officers. Tribal officers work for Native nations.\n\nThe report must include the estimated money and resources used to respond to the border situation. It must say how those resources are no longer available for other police work. It must also describe officer exposure to fentanyl, a dangerous illegal drug, during encounters with people who entered the country illegally. The report must include the nationality of each such person.\n\nThe report must also cover officer injuries, officer morale, and how hiring police officers has been affected. It must estimate how much states spent on local police work tied to fentanyl trafficked from the U.S. border. It must also say how many officers and local resources were moved to work on fentanyl cases.",
+  "prompt_tokens": 978,
+  "completion_tokens": 374,
+  "total_tokens": 1352,
+  "cost_usd": 0.01611,
+  "latency_s": 10.416,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

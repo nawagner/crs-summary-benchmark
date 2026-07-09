@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill cancels a rule made by a government group called the U.S. Fish and Wildlife Service. That group takes care of wild animals and plants. In November 2022, they made a rule that put a type of animal called the Northern Long-Eared Bat on the \"endangered\" list. When an animal is on this list, it gets special protection from the government so it does not disappear forever. This bill says Congress does not approve of that rule. Congress is the part of the government that makes laws. If this bill becomes a law, the rule about the bat would \"have no force or effect.\" That means the rule would be stopped completely. The bat would not get the special protections that the rule was supposed to give it. The Senate passed this bill on May 11, 2023. For it to become a real law, the House of Representatives would also need to agree, and the President would need to sign it. The bill does not say what would happen instead, or whether the bat would get protection in any other way. It only cancels this one rule from November 30, 2022.",
+  "prompt_tokens": 494,
+  "completion_tokens": 388,
+  "total_tokens": 882,
+  "cost_usd": 0.000936,
+  "latency_s": 11.717,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill proposes a change to the U.S. Constitution, which is the highest set of rules for our country. The main goal is to create a clear, basic right to vote for all citizens.\n\nIf it becomes law, it would add a new rule saying every U.S. citizen old enough to vote has a fundamental right to vote in elections where they live. A fundamental right is a very important freedom that is strongly protected.\n\nThe bill makes it much harder for the government to take away or limit this right. Any limit would only be allowed if the government has a very strong reason, called a “compelling governmental interest,” and the limit is the smallest possible way to achieve that reason.\n\nThe bill also removes a small phrase from the 14th Amendment, which currently allows states to stop people from voting for committing “or other crime.” Repealing that phrase means it would be removed.\n\nFinally, the bill gives Congress the power to make laws that protect this right to vote. For this to actually become part of the Constitution, two-thirds of both the Senate and the House must approve it, and then three-fourths of all the states must agree to ratify it.",
+  "prompt_tokens": 658,
+  "completion_tokens": 238,
+  "total_tokens": 896,
+  "cost_usd": 0.000493,
+  "latency_s": 5.168,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

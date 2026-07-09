@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "openai/gpt-5.5",
+  "summary": "This law ends a national emergency that the President declared on March 13, 2020. The emergency was listed in Proclamation 9994.\n\nA “national emergency” is a special legal status. It can let the federal government use certain powers during a serious problem. This law uses the National Emergencies Act, which is a law that explains how national emergencies can start and end.\n\nThe main change is that this national emergency is now terminated, or officially ended. The law does not create a new program. It does not give money. It does not list new rules for people or businesses.\n\nThe House of Representatives passed it on February 1, 2023. The Senate passed it on March 29, 2023. It was approved on April 10, 2023.",
+  "prompt_tokens": 413,
+  "completion_tokens": 365,
+  "total_tokens": 778,
+  "cost_usd": 0.013015,
+  "latency_s": 7.899,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

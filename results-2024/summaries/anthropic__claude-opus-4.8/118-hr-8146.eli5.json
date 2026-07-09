@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Police Our Border Act.\" It asks the government to write a report.\n\nThe report would be made by the Attorney General. That is the top lawyer for the United States government. The report has to be given to Congress within 180 days after the bill becomes law. That is about six months.\n\nThe report would look at how problems at the border affect police officers. This includes police who work for the whole country, for states, for local towns, and for Native American Tribes.\n\nThe report would try to answer these questions:\n- How much money is being spent on border problems, and how much less money police have because of it.\n- How police officers get exposed to fentanyl, a very dangerous drug. It would also list where the people they met came from.\n- How many police officers got hurt.\n- How police officers feel about their jobs.\n- Whether it is harder to hire new police officers.\n- How much money states spent to deal with fentanyl.\n- How many police officers were moved to different jobs to work on fentanyl.\n\nThe bill also lists reasons Congress gives for wanting this report. For example, it says 136 police officers died on duty in 2023.\n\nThe bill has passed the House of Representatives. It has not yet become a law.",
+  "prompt_tokens": 1637,
+  "completion_tokens": 360,
+  "total_tokens": 1997,
+  "cost_usd": 0.017185,
+  "latency_s": 7.221,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

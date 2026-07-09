@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.J. Res. 39 is a joint resolution of disapproval under the Congressional Review Act (5 U.S.C. §§ 801–808) that nullifies a specific Department of Commerce rule. The resolution provides that Congress disapproves the rule entitled “Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,” published at 87 Federal Register 56868, and declares that the rule “shall have no force or effect.” The operative mechanism is a legislative veto under the Congressional Review Act’s expedited procedures; upon enactment, the rule is treated as though it never took effect, and the agency is barred from reissuing the rule in substantially the same form without subsequent statutory authorization. The resolution contains no exceptions, conditions precedent, or delayed effective dates, and it does not authorize appropriations or amend any provision of the U.S. Code. The effect of the resolution is immediate upon enactment or upon a veto override. The rule at issue addresses the suspension of liquidation and the collection of duties and estimated duties pursuant to Presidential Proclamation 10414, which imposed import restrictions on certain solar cells and modules.",
+  "prompt_tokens": 449,
+  "completion_tokens": 865,
+  "total_tokens": 1314,
+  "cost_usd": 0.000948,
+  "latency_s": 18.883,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

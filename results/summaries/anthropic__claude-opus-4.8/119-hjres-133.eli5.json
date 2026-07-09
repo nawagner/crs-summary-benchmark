@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about celebrating America's 250th birthday. The United States was founded on July 4, 1776. That means July 4, 2026, will be its 250th birthday.\n\nThe bill asks the Secretary of the Interior to allow a special, one-time event. The Secretary of the Interior is the government leader who helps take care of national parks and monuments.\n\nThe event would happen on the National Mall in Washington, D.C. The National Mall is a big open park with famous monuments. The event would last 5 nights, from December 31, 2025, to January 5, 2026.\n\nDuring the event, people could see displays and artifacts. Artifacts are important old objects. There could also be videos, pictures, sounds, and film footage. Some of these could be shined, or \"projected,\" right onto the outside of the Washington Monument, a tall stone tower that honors George Washington.\n\nThe bill points out that a similar thing happened in 2019. Back then, videos about the Apollo 11 Moon landing were shown on the Washington Monument. Over 500,000 people came to watch.\n\nThe bill also asks that a copy of this resolution be sent to two people: the Secretary of the Interior, and the leader of the group planning the 250th birthday celebrations.\n\nThis bill mostly makes a request. It does not force anyone to do these things.",
+  "prompt_tokens": 1866,
+  "completion_tokens": 411,
+  "total_tokens": 2277,
+  "cost_usd": 0.019605,
+  "latency_s": 7.152,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

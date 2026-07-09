@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law cancels a rule made by the Department of Energy. That department is part of the government that deals with energy, like electricity and gas.\n\nThe rule was about gas-fired instant water heaters. These are machines that heat water using gas, and they heat it right when you need it. The rule set new energy-saving standards for these heaters. That means it made rules about how much energy the heaters could use.\n\nCongress used a special power to say \"no\" to this rule. Congress is the group of people who make laws for the country. When they disapprove a rule this way, the rule stops working.\n\nBecause of this law, that energy rule now has no force or effect. That means the rule does not count anymore, as if it never happened.\n\nThe rule was first written down on December 26, 2024. The House of Representatives passed this law on February 27, 2025. The Senate passed it on April 9 and 10, 2025. It was approved and became law on May 9, 2025.",
+  "prompt_tokens": 806,
+  "completion_tokens": 284,
+  "total_tokens": 1090,
+  "cost_usd": 0.01113,
+  "latency_s": 5.436,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

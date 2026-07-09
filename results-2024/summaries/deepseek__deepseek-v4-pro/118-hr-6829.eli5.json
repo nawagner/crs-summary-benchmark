@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law is called the HEARTS Act of 2024. It focuses on cardiomyopathy and other heart conditions that can cause sudden cardiac arrest, especially in young people. Cardiomyopathy is a disease of the heart muscle.\n\nThe law tells the Department of Health and Human Services to create easy‑to‑understand educational materials. These will explain warning signs, risk factors, and emergency steps. They will be shared with schools, families, and health professionals within 30 months. The materials include guidelines for placing AEDs in schools. An AED is a device that can shock a heart back into a normal rhythm. They also include training information about CPR, which is a way to pump blood when someone’s heart stops.\n\nA risk assessment will be developed so health care providers and individuals can check if someone might have cardiomyopathy. The National Institutes of Health may expand research on what causes cardiomyopathy, how it affects people over time, and the best treatments. Two reports are due to Congress within 18 months: one on the nation’s current knowledge about cardiomyopathy, and one on future research plans.\n\nThe law allows grants for public elementary and secondary schools to create or improve programs that give students access to AEDs and CPR training. Grant money can be used for things like buying AEDs, replacing old equipment, and training staff and volunteers.\n\nNo new tax dollars are authorized for these activities. The work must be done using money already available to the agencies.",
+  "prompt_tokens": 3347,
+  "completion_tokens": 1091,
+  "total_tokens": 4438,
+  "cost_usd": 0.002405,
+  "latency_s": 21.422,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

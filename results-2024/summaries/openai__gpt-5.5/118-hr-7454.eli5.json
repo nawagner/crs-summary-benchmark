@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "openai/gpt-5.5",
+  "summary": "This law keeps many federal aviation programs running for a short time. It extends them from March 8 or March 9, 2024, to May 10 or May 11, 2024.\n\nIt gives the Federal Aviation Administration, or FAA, permission to spend money on airports, air traffic systems, safety, and research. The FAA is the agency that oversees air travel. The law provides about $2.04 billion for airport improvement grants for the period from October 1, 2023, to May 10, 2024. These grants help airports with projects. It also provides about $7.26 billion for FAA operations, about $1.79 billion for air navigation equipment, and about $155 million for research.\n\nThe law also continues money for small community air service. This includes about $216 million for Essential Air Service, which helps some small towns keep airline flights.\n\nIt extends taxes on airline tickets, air cargo, and aviation fuel through May 10, 2024. These taxes support the Airport and Airway Trust Fund, which pays for aviation programs.\n\nIt also extends several rules and programs about drones, airport safety, weather reporting, consumer protection, and counter-drone powers through May 2024.",
+  "prompt_tokens": 3683,
+  "completion_tokens": 368,
+  "total_tokens": 4051,
+  "cost_usd": 0.029455,
+  "latency_s": 7.291,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

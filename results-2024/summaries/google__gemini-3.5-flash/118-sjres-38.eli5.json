@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of proposal that can become a law if Congress passes it and the President signs it. \n\nThis bill is about electric vehicle chargers, which are used to power up electric cars. The Federal Highway Administration, which is a government group that helps take care of roads, made a rule on February 21, 2023. This rule is called the \"Waiver of Buy America Requirements for Electric Vehicle Chargers.\" A waiver means the government is letting people skip a rule. In this case, the rule usually says that materials used for these chargers must be made in America. The waiver would let people buy chargers or parts made in other countries instead.\n\nIf this bill becomes a law, it would stop that waiver. It says that Congress disapproves of the rule. This means the rule would have no force or effect. People would not be allowed to skip the \"Buy America\" requirements for electric vehicle chargers anymore.",
+  "prompt_tokens": 502,
+  "completion_tokens": 200,
+  "total_tokens": 702,
+  "cost_usd": 0.002553,
+  "latency_s": 1.911,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

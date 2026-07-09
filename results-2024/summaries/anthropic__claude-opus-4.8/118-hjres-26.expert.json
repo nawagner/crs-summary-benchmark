@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 118-1, exercises Congress's authority under the District of Columbia Home Rule Act to disapprove an act of the Council of the District of Columbia, thereby preventing that act from taking effect as District law.\n\nThe operative mechanism is a congressional resolution of disapproval issued pursuant to section 602(c)(1) of the District of Columbia Home Rule Act, which subjects certain enactments of the D.C. Council to a period of congressional review following their transmittal to Congress. Under that framework, an act may be nullified if a joint resolution disapproving it is enacted into law within the applicable review period.\n\nThe single operative provision states that Congress disapproves of the action of the District of Columbia Council in enacting the Revised Criminal Code Act of 2022 (D.C. Act 24-789). The resolution identifies the enactment as having been adopted by the Council on January 17, 2023, and transmitted to Congress pursuant to section 602(c)(1) of the District of Columbia Home Rule Act on January 27, 2023. The legal effect of enactment is to prevent D.C. Act 24-789 from becoming effective District law.\n\nThe resolution originated as H.J. Res. 26 in the 118th Congress. It was considered and passed by the House on February 9, 2023, and considered and passed by the Senate on March 8, 2023. It was approved on March 20, 2023.\n\nThe measure contains no amendments to the U.S. Code, no authorizations of appropriations, no appropriations, no sunset provisions, and no delegations of new regulatory authority. It effects no statutory text changes and creates no ongoing program; its sole function and effect is the disapproval and consequent nullification of the specified District of Columbia enactment. The resolution includes no severability clause, no separate effective-date provision beyond the date of approval, and no conditions precedent apart from the procedural predicate of transmittal under the Home Rule Act.",
+  "prompt_tokens": 797,
+  "completion_tokens": 638,
+  "total_tokens": 1435,
+  "cost_usd": 0.019935,
+  "latency_s": 9.039,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, enacted as Public Law 119-6, is a congressional disapproval under the Congressional Review Act (chapter 8 of title 5, United States Code). The resolution exercises the legislative veto mechanism provided by the Act to nullify a specified final rule of the Department of Energy.\n\nThe operative provision disapproves the rule entitled “Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters,” which was published at 89 Federal Register 105188 on December 26, 2024. The resolution declares that the disapproved rule “shall have no force or effect.” This language invokes the statutory consequence set forth in 5 U.S.C. § 801(b)(1), which provides that a rule disapproved by a joint resolution of Congress under the Act shall be treated as though it had never taken effect, and the agency may not reissue the same rule or a substantially similar rule absent specific subsequent statutory authorization.\n\nThe resolution contains no exceptions, severability clauses, or delayed effective dates. Once approved, the nullification is self-executing, and the underlying rule is void ab initio. The measure does not amend any permanent provision of the United States Code, nor does it authorize or appropriate any funds; its sole function is to vacate the identified agency action.\n\nThe resolution originated as H.J. Res. 20 (with a companion measure, S.J. Res. 4) and was passed by the House on February 27, 2025, and by the Senate on April 9 and 10, 2025. It was presented to the President and approved on May 9, 2025, thereby completing the expedited legislative process prescribed by chapter 8 of title 5.",
+  "prompt_tokens": 503,
+  "completion_tokens": 651,
+  "total_tokens": 1154,
+  "cost_usd": 0.000785,
+  "latency_s": 14.271,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

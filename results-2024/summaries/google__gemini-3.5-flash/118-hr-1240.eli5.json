@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the Winnebago Land Transfer Act of 2023. It was approved on July 12, 2024. \n\nThe law moves three specific pieces of land from the United States government to the Winnebago Tribe of Nebraska. These pieces of land are called Tract 119, Tract 210, and Tract 113. They are located in Woodbury County, Iowa, and in Nebraska. \n\nIf this bill becomes law, these lands will officially become part of the Winnebago Reservation. A reservation is an area of land kept for Native American tribes. The United States government will hold this land \"in trust\" for the tribe. This means the government will protect the land, but the Winnebago Tribe gets to use it and benefit from it. This trust will follow the rules of an old treaty, which is a formal agreement, made between the United States and the tribe in 1865.\n\nThere is one important rule about this land. The law says that no one can build or run any casinos or gambling games on these specific pieces of land.",
+  "prompt_tokens": 1076,
+  "completion_tokens": 237,
+  "total_tokens": 1313,
+  "cost_usd": 0.003747,
+  "latency_s": 2.662,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

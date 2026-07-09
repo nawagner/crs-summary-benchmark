@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-229, cited as the \"Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act\" or the \"FISHES Act,\" amends Section 312(a)(6) of the Magnuson-Stevens Fishery Conservation and Management Act (16 U.S.C. 1861a(a)(6)) to impose statutory deadlines on the submission, review, and funding of fishery resource disaster spend plans.\n\nSection 2 amends subsection (a)(6)(D) to establish the conditions precedent for receiving an allocation from funds available under paragraph (9). A requester with an affirmative fishery resource disaster determination must submit a spend plan to the Secretary not more than 120 days after receiving notification that funds are available. The spend plan must include, if applicable: (I) objectives and outcomes emphasizing the factors contributing to the disaster and minimizing future uninsured losses; (II) a statement of work; and (III) budget details. The Secretary is required to review the spend plan for completeness and provide notice to the requester within 10 days. If the Secretary determines the plan is incomplete, the notice must include a detailed description of the information necessary to render the plan complete.\n\nAdditionally, Section 2 amends subsection (a)(6)(F)(i) to mandate that funds be made available to grantees not later than 90 days after the date the Secretary receives a complete spend plan. The amendment provides that the Director of the Office of Management and Budget (OMB) may review a completed spend plan concurrently with the Secretary if so requested. However, the OMB Director is expressly prohibited from delaying the 90-day timeline for making funds available to grantees.\n\nThe Act was approved on January 4, 2025, and is effective upon enactment. It does not contain new authorizations of appropriations, relying instead on the existing funding availability mechanisms under paragraph (9) of the amended statute.",
+  "prompt_tokens": 941,
+  "completion_tokens": 1287,
+  "total_tokens": 2228,
+  "cost_usd": 0.002722,
+  "latency_s": 6.851,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

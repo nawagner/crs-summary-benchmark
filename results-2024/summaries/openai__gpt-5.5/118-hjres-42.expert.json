@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "openai/gpt-5.5",
+  "summary": "H.J. Res. 42 is a joint resolution of congressional disapproval concerning District of Columbia legislation. Its sole operative provision states that Congress disapproves the action of the Council of the District of Columbia approving the “Comprehensive Policing and Justice Reform Amendment Act of 2022,” designated D.C. Act 24-781.\n\nThe resolution identifies the disapproved District measure with statutory specificity: D.C. Act 24-781 was enacted by the Council of the District of Columbia on January 19, 2023, and transmitted to Congress on January 26, 2023, pursuant to section 602(c)(1) of the District of Columbia Home Rule Act. The resolution does not amend any provision of the United States Code, does not create or repeal federal statutory authorities, and does not set forth substantive amendments to the District of Columbia Code. Its mechanism is the enactment of a congressional joint resolution disapproving the specified District Council action under the congressional review framework referenced in the Home Rule Act.\n\nThe measure contains no appropriations, authorizations of appropriations, delegations of rulemaking authority, reporting requirements, deadlines, exceptions, conditions precedent other than enactment of the joint resolution itself, or express effective-date provision. It is limited to disapproval of the identified District of Columbia Council action approving D.C. Act 24-781.",
+  "prompt_tokens": 483,
+  "completion_tokens": 683,
+  "total_tokens": 1166,
+  "cost_usd": 0.022905,
+  "latency_s": 14.3,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

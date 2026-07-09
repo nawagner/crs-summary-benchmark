@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, cited as the “Treatment, Recovery, Education, Awareness, and Training for Youth Act” or the “TREAT Youth Act,” amends the SUPPORT for Patients and Communities Act to reauthorize appropriations for the youth prevention and recovery initiative established under section 7102(c) of that Act. The operative mechanism is a direct textual substitution: section 2 strikes the existing authorization of appropriations at section 7102(c)(9) (42 U.S.C. 290bb-7a(c)(9)) and inserts a new paragraph (9) that authorizes specific, incrementally increasing amounts for each of five fiscal years. The new authorization provides $10,000,000 for fiscal year 2026, $12,000,000 for fiscal year 2027, $13,000,000 for fiscal year 2028, $14,000,000 for fiscal year 2029, and $15,000,000 for fiscal year 2030. The amendment does not appropriate funds; it solely extends and adjusts the authorization ceiling for the initiative. The bill contains no substantive changes to the underlying program, no conditions precedent, no sunset or repeal of other provisions, and no separate effective date, meaning the amendment would take effect upon enactment. The measure was referred to the Committee on Energy and Commerce and the Committee on Education and Workforce.",
+  "prompt_tokens": 644,
+  "completion_tokens": 748,
+  "total_tokens": 1392,
+  "cost_usd": 0.000931,
+  "latency_s": 22.487,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

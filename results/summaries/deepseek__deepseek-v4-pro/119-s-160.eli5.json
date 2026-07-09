@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law lets the U.S. military keep selling certain airplanes and parts to help fight wildfires. The original program was created by an older law, but it was going to end. This new law extends the time the military can make these sales, starting from June 12, 2025, until October 1, 2035.\n\nThe law also makes two small updates. It says the planes can drop either water or fire retardant (a special red chemical mix that slows fires). Before, the rule only talked about fire retardant. The law also fixes a small numbering mistake from the old text. All airplanes sold must still be used only for fighting wildfires, not for anything else.",
+  "prompt_tokens": 739,
+  "completion_tokens": 919,
+  "total_tokens": 1658,
+  "cost_usd": 0.001121,
+  "latency_s": 12.952,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

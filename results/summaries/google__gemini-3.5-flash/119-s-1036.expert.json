@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S. 1036, the \"Improving Access to Addiction Medicine Providers Act,\" is a bill introduced in the 119th Congress that amends the Public Health Service Act to expand the scope of the Minority Fellowship Program administered by the Substance Abuse and Mental Health Services Administration. \n\nThe bill’s primary operative mechanism is the modification of Section 597 of the Public Health Service Act (codified at 42 U.S.C. 290ll) to explicitly incorporate addiction medicine and diagnosis into the program's statutory framework. Specifically, Section 2(1) of the bill amends subsection (a)(1) of 42 U.S.C. 290ll by inserting \"diagnosis,\" after \"related to\", thereby expanding the authorized scope of the fellowships to include training in the diagnosis of mental and substance use disorders. Section 2(2) of the bill amends subsection (b) of 42 U.S.C. 290ll by inserting \"addiction medicine,\" after \"psychiatry,\". This amendment expands the statutory list of eligible professional fields for which the Secretary of Health and Human Services may award these fellowships to include addiction medicine professionals, alongside the existing fields of psychiatry, psychology, school psychology, behavioral pediatrics, psychiatric nursing, social work, school social work, marriage and family therapy, professional counseling, and substance use disorder counseling.\n\nThe bill contains no appropriations, authorizations of appropriations, effective dates, sunsets, or reporting requirements. It relies on the existing administrative and funding structures of the Minority Fellowship Program under the Public Health Service Act.",
+  "prompt_tokens": 570,
+  "completion_tokens": 332,
+  "total_tokens": 902,
+  "cost_usd": 0.003843,
+  "latency_s": 2.861,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

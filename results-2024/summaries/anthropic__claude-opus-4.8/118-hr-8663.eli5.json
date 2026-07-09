@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"DETECT Fentanyl and Xylazine Act of 2024.\" It became law on December 23, 2024.\n\nThe law is about finding dangerous drugs. Two drugs it names are fentanyl and xylazine. These are harmful drugs.\n\nThe law asks a part of the government called the Science and Technology Directorate. This group is inside the Department of Homeland Security, which works to keep the country safe. The law wants them to build better tools to find drugs, even when there is only a tiny amount.\n\nThe group must work together with the Drug Enforcement Administration. That is the agency that deals with illegal drugs. Together they will study, test, and build better equipment. The bill lists what kind of tools:\n\n- Small tools you can carry that spot drugs without much touching of the sample.\n- Tools that can pull apart mixtures so they can find the drug hidden inside other stuff.\n- Computer programs that use artificial intelligence (smart computer learning) to guess if a new drug is in a sample, even one not seen before.\n\nThe law also says the workers must follow safety rules for artificial intelligence made by a group called the National Institute of Standards and Technology. They must pick which drugs to study using the newest reports about drug dangers.\n\nFinally, the law says it does not take away power from other agencies already doing this kind of work.",
+  "prompt_tokens": 1954,
+  "completion_tokens": 421,
+  "total_tokens": 2375,
+  "cost_usd": 0.020295,
+  "latency_s": 7.606,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

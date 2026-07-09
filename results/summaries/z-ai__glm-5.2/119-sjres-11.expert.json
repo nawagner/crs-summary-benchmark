@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 119-3 (S.J. Res. 11) is a joint resolution enacted pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act), providing for congressional disapproval of a final rule issued by the Bureau of Ocean Energy Management (BOEM). The resolution's primary purpose is to invalidate the BOEM rule titled \"Protection of Marine Archaeological Resources,\" published at 89 Federal Register 71160 on September 3, 2024. \n\nThe operative mechanism of the joint resolution is a formal declaration of congressional disapproval. The resolution provides that the specified BOEM rule \"shall have no force or effect,\" thereby nullifying the rule as a matter of law. The resolution contains no new authorizations, appropriations, exceptions, or conditions precedent. The joint resolution was approved by the President on March 14, 2025, establishing the effective date of the rule's invalidation.",
+  "prompt_tokens": 460,
+  "completion_tokens": 654,
+  "total_tokens": 1114,
+  "cost_usd": 0.001373,
+  "latency_s": 5.661,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

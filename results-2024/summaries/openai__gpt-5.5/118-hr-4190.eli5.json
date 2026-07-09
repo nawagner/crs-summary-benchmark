@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "openai/gpt-5.5",
+  "summary": "This law changes rules for the Department of Veterans Affairs, or VA. The VA is the government office that helps veterans.\n\nSometimes the VA sends money to a person called a fiduciary. A fiduciary is someone trusted to manage benefits for a veteran or another person who gets VA benefits. If that fiduciary steals or wrongly uses the money, the VA can repay the lost benefits.\n\nThis law says what happens if the person who was supposed to get the benefits dies before the VA makes that repayment. In that case, the VA must pay the money to the right person or group under existing VA rules for unpaid benefits after death.\n\nThe VA may not send this repayment to the fiduciary who misused the benefits.\n\nThe law is called the “Restoring Benefits to Defrauded Veterans Act.” It was approved on November 25, 2024.",
+  "prompt_tokens": 706,
+  "completion_tokens": 329,
+  "total_tokens": 1035,
+  "cost_usd": 0.0134,
+  "latency_s": 5.947,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

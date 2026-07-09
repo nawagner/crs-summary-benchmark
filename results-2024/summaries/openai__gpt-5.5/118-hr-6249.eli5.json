@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "openai/gpt-5.5",
+  "summary": "This law tells FEMA to study how it helps people with disabilities after big disasters. FEMA is the federal agency that helps during disasters.\n\nWithin 120 days after November 25, 2024, FEMA must send Congress a report. The report must explain what help and resources FEMA gives to states, towns, nonprofit groups, and people directly. It must focus on people with intellectual and developmental disabilities and their families after major disasters.\n\nThe report must describe FEMA’s tools, good practices, training, and outreach. It must say how FEMA sends trained workers to disaster areas. It must list FEMA programs that help these people prepare for and recover from disasters. It must also name ways FEMA can do better.\n\nWithin 1 year after the law was signed, FEMA and the Comptroller General must each review this help. The Comptroller General leads a government office that checks how federal programs work. Their reviews must include people with intellectual, developmental, and physical disabilities, and their families.\n\nThey must look for legal problems that may block help. They must give Congress ideas to improve help, work better with local groups, make applications easier, and suggest any needed law changes.",
+  "prompt_tokens": 1208,
+  "completion_tokens": 313,
+  "total_tokens": 1521,
+  "cost_usd": 0.01543,
+  "latency_s": 6.138,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

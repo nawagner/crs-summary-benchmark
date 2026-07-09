@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Energy Threat Analysis Center Act of 2026. It is a proposal, which is a plan for a new law. The bill wants to protect the systems that give us electricity and power. \n\nIf this bill becomes law, it will help the government and energy companies work together to stop cyberattacks. A cyberattack is when bad guys use computers to try to damage or steal information from other computer systems. \n\nTo do this, the Secretary of Energy, who is the leader of the government's energy department, can set up a special place called the Energy Threat Analysis Center. At this center, people will share secret and public computer data. They will use advanced technology to study threats and learn how bad guys try to hack into energy systems. \n\nThe bill says that any information shared with the government through this program must be kept secret from the public to keep it safe. It also allows the Secretary to make quick deals and agreements with private companies to get this work done. Finally, the bill keeps this security program running from the year 2027 through the year 2031.",
+  "prompt_tokens": 1802,
+  "completion_tokens": 231,
+  "total_tokens": 2033,
+  "cost_usd": 0.004782,
+  "latency_s": 2.48,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

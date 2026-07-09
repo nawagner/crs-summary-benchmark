@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Energy Threat Analysis Center Act of 2026. It updates an older law to keep a Department of Energy program going. The program protects the country's energy systems—like power plants and electric grids—from cyber attacks, which are computer attacks that try to mess things up.\n\nThe bill extends the program for five more years, from 2027 through 2031. It adds a new main purpose: to build stronger teamwork between the government and energy companies. They will share secret and non-secret information about threats, learn about attackers’ methods, and work together to stop or limit damage.\n\nThe bill also lets the Department of Energy create an Energy Threat Analysis Center. This could be one or more real-world locations where experts study dangers and test defenses.\n\nThere are some important rules. Any help or information the program gives out is up to the Energy Secretary—no company or group can demand it as a right. The program will not be treated as a federal advisory committee, so it avoids certain complicated rules. Information shared through the program is kept secret and cannot be made public through open-records laws. Finally, the Secretary can use quick, pre-approved agreements and contracts to get work done faster, without long delays. All of this is meant to make the energy sector safer against computer threats.",
+  "prompt_tokens": 1625,
+  "completion_tokens": 1685,
+  "total_tokens": 3310,
+  "cost_usd": 0.002173,
+  "latency_s": 23.595,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

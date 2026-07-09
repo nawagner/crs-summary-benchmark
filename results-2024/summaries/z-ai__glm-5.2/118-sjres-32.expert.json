@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 32 is a joint resolution providing for congressional disapproval of a specified agency rule pursuant to the authority vested in Congress under chapter 8 of title 5, United States Code (the Congressional Review Act). The primary purpose of the resolution is to nullify a final rule promulgated by the Bureau of Consumer Financial Protection (CFPB) relating to \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B).\" \n\nThe resolution contains a single operative provision. It formally expresses that Congress disapproves of the CFPB rule published at 88 Federal Register 35150 on May 31, 2023. As a direct statutory consequence of this disapproval, the resolution mandates that \"such rule shall have no force or effect.\" \n\nBy invoking chapter 8 of title 5, U.S.C., the resolution utilizes the expedited legislative review and disapproval procedures established therein to prevent the identified rule from taking legal effect. The text does not include any severability clauses, material exceptions, conditions precedent, or specific effective dates beyond the standard operation of law upon enactment. Furthermore, the resolution does not contain any authorizations of appropriations or direct spending; its sole mechanism is the statutory nullification of the identified CFPB rule. The engrossed text reflects passage by the Senate on October 18, 2023, and awaits further legislative action by the House of Representatives to complete the congressional disapproval process under the aforementioned statutory framework.",
+  "prompt_tokens": 512,
+  "completion_tokens": 1697,
+  "total_tokens": 2209,
+  "cost_usd": 0.003192,
+  "latency_s": 30.301,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

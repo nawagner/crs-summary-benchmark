@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8997",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a big money plan for the United States government for one year. It decides how much money different agencies can spend on energy projects, water projects, and building things like dams. The plan covers the time from October 2024 to September 2025.\n\nThe bill gives money to the Army Corps of Engineers to work on rivers and harbors, reduce flood damage, and clean up old atomic sites. It sets aside billions for building new projects and keeping old ones working, including special funds for ports and inland waterways. It also says the agency cannot change its detailed work plan without telling certain parts of Congress.\n\nIt gives money to the Bureau of Reclamation to manage water in the West, including big projects in California. There are rules for how water is released from dams and instructions to follow specific plans from 2019 to protect fish.\n\nA large part of the money goes to the Department of Energy. This pays for things like making energy use cleaner and more efficient, working on new types of nuclear power, doing science research, and cleaning up pollution from making nuclear weapons. It also pays for the government's emergency oil stockpile and a smaller heating oil reserve in the Northeast. Important limits are set, such as requiring special oversight for building very dangerous nuclear facilities and stopping the use of money for certain training ideas or to enforce specific rules about gas stoves and transformers.\n\nMoney is also given to smaller independent agencies that help poorer regions and rural areas get power and clean water. The Nuclear Regulatory Commission, which oversees nuclear safety, gets its funding mostly from the fees it collects. The bill ends with rules that apply to all the money, including bans on flying certain flags at government buildings and a rule that computer networks must block pornography.",
+  "prompt_tokens": 22099,
+  "completion_tokens": 794,
+  "total_tokens": 22893,
+  "cost_usd": 0.010304,
+  "latency_s": 13.831,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

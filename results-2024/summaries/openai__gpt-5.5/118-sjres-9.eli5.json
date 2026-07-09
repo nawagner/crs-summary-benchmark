@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule made by the United States Fish and Wildlife Service. That agency helps protect wild animals and plants.\n\nThe rule was about the lesser prairie-chicken, a bird that lives in parts of the central United States. The rule said the northern group of these birds was “threatened.” That means it could become endangered. It also said the southern group was “endangered.” That means it is in serious danger of dying out. The rule also included special rules for the northern group under a part of the law called section 4(d).\n\nCongress can review and reject some agency rules. This bill says Congress disapproves of this Fish and Wildlife Service rule. If the bill becomes law, the rule would have no force or effect. In other words, the rule would not count anymore.\n\nThe rule being canceled was published in the Federal Register, the government’s official rule book, on November 25, 2022. The Senate passed this joint resolution on May 3, 2023.",
+  "prompt_tokens": 562,
+  "completion_tokens": 304,
+  "total_tokens": 866,
+  "cost_usd": 0.01193,
+  "latency_s": 6.055,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

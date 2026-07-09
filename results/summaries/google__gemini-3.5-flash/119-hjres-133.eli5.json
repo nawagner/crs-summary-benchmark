@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by Congress and signed by the president. It asks the Secretary of the Interior, the government official in charge of national parks, to allow a special event in Washington, D.C. \n\nThe event will celebrate the 250th birthday of the United States. The law asks for special displays on the National Mall, a large park in the capital city. These displays will include historical objects, digital art, movies, and sound. Some of these videos and pictures will be projected directly onto the outside of the Washington Monument. \n\nThe show will last for five nights. It will start on December 31, 2025, and end on January 5, 2026. This time is important because New Year's Eve in 2025 marks the official start of the country's 250th year. The law also asks for copies of this decision to be sent to the Secretary of the Interior and the leader of the group planning the country's big birthday celebration.",
+  "prompt_tokens": 1279,
+  "completion_tokens": 222,
+  "total_tokens": 1501,
+  "cost_usd": 0.003916,
+  "latency_s": 2.326,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

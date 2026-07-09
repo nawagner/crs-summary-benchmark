@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law stops a rule made by the Department of Energy, which is the part of the government that handles energy rules. The rule was about saving energy in big refrigerators and freezers used in stores and businesses. \n\nCongress, the part of the government that makes laws, used a special power to cancel this rule. The rule was published on January 21, 2025. Because of this new law, the energy rule is canceled. It will not happen and has no power.\n\nIf this law had not passed, the government would have put the energy rule into action. Now, those new rules for big fridges and freezers will not be used. The President approved this law on May 9, 2025.",
+  "prompt_tokens": 506,
+  "completion_tokens": 773,
+  "total_tokens": 1279,
+  "cost_usd": 0.001603,
+  "latency_s": 14.08,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

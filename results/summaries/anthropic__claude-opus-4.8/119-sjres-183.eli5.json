@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-183",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a special kind of order from Congress called a joint resolution. It deals with fighting between the United States and Iran, a country in the Middle East.\n\nHere is the main idea. The people who wrote the bill say the U.S. military started attacks inside Iran in February 2026. This was called \"Operation Epic Fury.\" The bill says Congress never voted to allow this fighting.\n\nThe bill points to a rule in the Constitution. It says only Congress — not the President alone — has the power to declare war. It also mentions a law called the War Powers Resolution, which says the President should talk with Congress before sending soldiers into fighting.\n\nThe bill lists some facts. It says more than 50,000 U.S. troops joined the operation. It says Iran struck back, killing 13 U.S. service members and hurting more than 350. It also says prices for things like oil, gas, and food went up.\n\nHere is what the bill would do if it becomes law. It tells the President to pull U.S. troops out of the fighting with Iran, unless Congress votes to allow it.\n\nBut the bill says a few things are still okay. The U.S. can still defend itself and its people. It can still gather and share information about threats. And it can still help Israel and other attacked countries defend themselves.",
+  "prompt_tokens": 2384,
+  "completion_tokens": 394,
+  "total_tokens": 2778,
+  "cost_usd": 0.02177,
+  "latency_s": 6.756,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

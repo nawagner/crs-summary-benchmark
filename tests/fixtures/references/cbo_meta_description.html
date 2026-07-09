@@ -1,0 +1,30 @@
+<!--
+Synthetic fixture modeled on cbo.gov publication-page markup (Drupal). CBO.gov itself
+returns 403s to non-browser clients (Datadome bot-check) from this environment, so this
+is a maintainer TODO: swap in a real `curl -A "Mozilla/5.0 ..." https://www.cbo.gov/publication/<id>`
+capture (from a normal browser session) once available, and confirm the exact meta-tag
+shape still matches. Structure below (title, meta description/og:description, main
+content wrapper) mirrors what CBO publication pages render.
+-->
+<html lang="en">
+<head>
+<title>H.R. 1234, Some Act of 2025 | Congressional Budget Office</title>
+<meta name="description" content="CBO estimates that enacting H.R. 1234 would increase direct spending by $2.3 billion over the 2025-2034 period and would not affect revenues. Enacting the bill would not increase net direct spending or on-budget deficits in any of the four consecutive 10-year periods beginning in 2035.">
+<meta property="og:title" content="H.R. 1234, Some Act of 2025">
+<meta property="og:description" content="CBO cost estimate summary (og fallback, should not be used when name=description is present).">
+</head>
+<body>
+<nav class="main-nav"><a href="#main-content">Skip to main content</a><a href="/">Menu</a></nav>
+<main id="main-content">
+<h1>H.R. 1234, Some Act of 2025</h1>
+<div class="field field-name-body">
+<p>As ordered reported by the House Committee on Energy and Commerce on March 5, 2025</p>
+<p>CBO estimates that enacting H.R. 1234 would increase direct spending by $2.3 billion over
+the 2025-2034 period and would not affect revenues. Enacting the bill would not increase net
+direct spending or on-budget deficits in any of the four consecutive 10-year periods beginning
+in 2035.</p>
+</div>
+</main>
+<footer>Congressional Budget Office | Second and D Streets, SW | Washington, DC 20515</footer>
+</body>
+</html>

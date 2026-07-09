@@ -66,7 +66,7 @@ chunk_max_output_tokens: 1200
 merge_summary_words: "300-700"   # omnibus bills warrant longer summaries than 150-350
 judge_text_char_cap: 400000      # judge reads index + relevant sections up to this size
 
-# --- Same models and judge as the other runs, for apples-to-apples comparison ---
+# --- Same models as the other runs, for apples-to-apples comparison ---
 models:
   - anthropic/claude-opus-4.8
   - openai/gpt-5.5
@@ -74,7 +74,10 @@ models:
   - z-ai/glm-5.2
   - deepseek/deepseek-v4-pro
 
-judge_model: anthropic/claude-opus-4.8
+# Judged (like the 2024 set) by parallel Claude Code subagents to save API cost, using
+# the sectional grounding (section index + summary-relevant excerpts) that evaluate.py
+# would use — see judge_text_char_cap. Swap back to an OpenRouter slug to judge via API.
+judge_model: Claude (parallel Claude Code subagents, sectional grounding)
 judge_temperature: 0
 judge_web_search: true
 judge_web_max_results: 3

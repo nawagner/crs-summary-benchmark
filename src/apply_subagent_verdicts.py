@@ -3,6 +3,7 @@
 Reads every *.json in a directory; each file is a list of
   {"bill_id": ..., "candidate": <model_slug|crs_reference>, "verdicts": {cid: {applicable,pass,why}}}.
 Writes one score file per (candidate, bill) with derived fields. Run with CRS_DATASET set.
+Usage: apply_subagent_verdicts.py <verdict_dir> [judged_via_label]
 """
 from __future__ import annotations
 
@@ -17,7 +18,7 @@ import common as C
 JUDGED_VIA = "claude-opus-4-8 via parallel Claude Code subagents (full bill text, web/knowledge-verified)"
 
 
-def main(indir: str) -> None:
+def main(indir: str, judged_via: str = JUDGED_VIA) -> None:
     criteria_ids = [c["id"] for c in C.load_criteria()]
     seen = 0
     for f in sorted(glob.glob(f"{indir}/*.json")):
@@ -40,7 +41,7 @@ def main(indir: str) -> None:
                 "bill_id": e["bill_id"], "candidate": e["candidate"], "verdicts": clean,
                 "n_applicable": n_appl, "n_passed": n_pass,
                 "meets_standard": all(v["pass"] for v in clean.values()),
-                "judge_cost_usd": 0.0, "judge_latency_s": 0.0, "judged_via": JUDGED_VIA,
+                "judge_cost_usd": 0.0, "judge_latency_s": 0.0, "judged_via": judged_via,
             }
             C.write_json(C.SCORES_DIR / e["candidate"] / f"{e['bill_id']}.json", rec)
             seen += 1
@@ -48,4 +49,4 @@ def main(indir: str) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], *sys.argv[2:3])

@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-7024",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Substantively faithful across all six titles with correct figures and effects."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the 12.5% ceiling is accurate real-world context for the section 42(h)(3)(I) increase."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States each title's purpose in a structured summary."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes modifications to the CTC, R&D deduction, LIHTC, and reporting rules."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the wildfire payment window and the timing condition on the Taiwan agreement authority."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 2023-2025 windows, after-2019/before-2026 wildfire dates, and Feb 3 2023."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers the essential effect of every title."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear title-by-title structure."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Terse with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": false,
+      "why": "Calls the prior-year earned income election part of the 'earned income tax credit,' but section 104 amends the child tax credit's earned-income rule, not the EITC."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1,800/$1,900/$2,000, 12.5%, $600 to $1,000, and the disaster dates are all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

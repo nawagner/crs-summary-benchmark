@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2882",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified claims (Israeli missile defense $500M, shipbuilding $1,290,093,000, CISA $2,382,814,000, FEMA $3,497,019,369, Afghan SIV 50,500) match the grounding."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented claims; rescission and program details are plausible and uncontradicted."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies FY2024 consolidated appropriations plus policy provisions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes FLSA exemption, H-2B rule changes, Afghan SIV amendments, and numerous rescissions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes notification thresholds, embassy-security withholding, Ukraine oversight caps, and waivers."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites FY end Sept 30 2024, HIDTA through 2025, transfer authority through 2028, Afghan deadlines to Dec 31 2025/Jan 31 2026."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive coverage of all divisions and their key provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically structured by division and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but proportionate to bill scope, minimal filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CISA, FEMA, CBO, JCT, DFC, and others named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified figures match; others plausible and uncontradicted."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

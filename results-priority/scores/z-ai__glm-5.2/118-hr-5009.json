@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5009",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified figures (procurement $167,849,488K, RDT&E $143,768,041K, $6B transfer authority, CTR $209,858,000) match the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named honors and provisions are plausible NDAA items and no claim contradicts the grounding; verifiable figures are all correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by identifying the Act's authorization and policy purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes extensions (DoD audit through 2034) and modifications to reporting and personnel authorities."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes exceptions such as the transfer-authority carve-out for military personnel and the $5M humanitarian notice threshold."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites deadlines and dates (120 days, 180 days, March 1 2025, Oct 1 2031)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding, personnel, industrial base, foreign affairs, space, milcon, and State provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Organized by theme and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact coverage with minimal filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and named entities (MEPCOM, Lovell Federal Health Care Center, Naval Postgraduate School) are correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified dollar figures ($167.8B, $143.8B, $6B, $209.858M, $162.5M Lovell, $1M/$100M foundation) are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

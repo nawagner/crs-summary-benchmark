@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly describes the 6 included appropriations bills, departments funded, extensions, and Compact modifications."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated or incorrect claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states it provides FY2024 appropriations and extends expiring programs."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes extension/modification of programs and modification of the Compacts of Free Association."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "High-level overview does not engage individual carve-outs; not material at its altitude."
+    },
+    "effective_dates": {
+      "applicable": false,
+      "pass": true,
+      "why": "Overview intentionally omits granular timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Enumerates the six appropriations acts, the departments/agencies funded, extensions, and the Compact amendments."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear, well-structured overview."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and free of filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Departments, agencies, and the three Freely Associated States correctly named."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "States no dollar figures, so nothing to misstate."
+    }
+  },
+  "n_applicable": 9,
+  "n_passed": 9,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

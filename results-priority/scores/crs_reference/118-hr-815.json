@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Section-by-section content matches the bill text across all 20 divisions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "All programs, agencies, and authorities are accurately described with no invented claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by identifying FY2024 supplemental appropriations for Ukraine, Israel, and Indo-Pacific allies plus foreign-policy measures."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Details amendments to the Foreign Assistance Act, DOD Appropriations Act 2005, Human Shields Act, and new sanctions codifications."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes waivers, humanitarian exceptions, divestiture carve-outs, and eligibility conditions throughout."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the 270-day TikTok prohibition, extension windows, sunsets, and reporting deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensively covers all divisions including Ukraine, Indo-Pacific, REPO, TikTok, and every sanctions title."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive CRS style."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Systematically organized by division, title, and section."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but proportional to a 20-division bill, with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies, programs, and statutes (FEMA, USAID, ByteDance/TikTok, FTC, MTCR, etc.) named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The $5,000 and $500 per-user TikTok penalty multipliers it cites match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5894",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Broadest coverage; all figures (Education titles, Pell $6,335, SSA, NLRB, CNCS) and riders (EcoHealth, fetal tissue, EO 13988, civil action) verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the $1B/CDC and $243M National Service Trust rescissions are real distinct provisions correctly cited."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States FY2024 Labor-HHS-Education appropriations with funding, program, and policy-restriction effects."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes WIOA, IDEA, HEA/Pell, Title IX, borrower defense, and income-driven repayment provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes abortion-funding exceptions for rape, incest, or life endangerment."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FY2024, the 2028 obligation extension, the Jan 1, 2025 breast-cancer sunset, and the 2024-2025 Pell award year."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Only summary covering all three departments plus related agencies, riders, and rescissions; strongest scope coverage."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral factual tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by department and topic."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Efficiently compressed given the breadth covered."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "EcoHealth Alliance, CMS, IDEA, HEA, NLRB, SSA, CNCS all correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures verified against the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

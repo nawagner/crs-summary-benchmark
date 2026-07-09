@@ -43,6 +43,8 @@ def main(indir: str, judged_via: str = JUDGED_VIA) -> None:
                 "meets_standard": all(v["pass"] for v in clean.values()),
                 "judge_cost_usd": 0.0, "judge_latency_s": 0.0, "judged_via": judged_via,
             }
+            if e.get("judge_grounding"):
+                rec["judge_grounding"] = e["judge_grounding"]
             C.write_json(C.SCORES_DIR / e["candidate"] / f"{e['bill_id']}.json", rec)
             seen += 1
     print(f"wrote {seen} score files into {C.SCORES_DIR}")

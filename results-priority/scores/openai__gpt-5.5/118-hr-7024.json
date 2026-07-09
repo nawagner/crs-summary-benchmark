@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-7024",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims align with the bill including R&D after-2021/before-2026, 163(j) retroactive election, and Taiwan reciprocity via Treasury."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented claims; disclosure/listed-transaction reference is supported by section 602(d)."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the bill amends the IRC across credits, business, international, disaster, housing, and administration."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes amendments to the IRC and related laws with specific mechanics."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Taiwan eligibility limits and reciprocity condition and wildfire window."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes after-2022/2023 dates, before-2026 windows, Feb 3 2023, Jan 31 2024, and six-year assessment."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers every title's operative effect in detail."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but not padded or repetitive."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Treasury, section 179, ERTC, and the U.S.-Taiwan agreement are correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1,800/$1,900/$2,000, $1,290,000/$3,220,000, $600 to $1,000, and the before-2026 windows are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

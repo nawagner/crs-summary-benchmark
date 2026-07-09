@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The few concrete claims (21 U.S.C. 2351 codification, MAHSA Supreme-Leader sanctions) are correct; nothing stated is positively false."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; the summary largely disclaims knowledge rather than inventing facts."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Quotes the bill's title identifying it as emergency supplemental appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly notes section 3101 is codified at 21 U.S.C. 2351."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Explicitly declines to state any exceptions, though the divisions it discusses (E, L) contain material ones."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Explicitly states no effective dates are provided, though the bill contains numerous deadlines and sunsets."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Covers only Divisions E and L; omits all appropriations (Israel, Ukraine, Indo-Pacific) and every other operative division."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral in tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Internally consistent and readable, if minimal."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Dominated by non-informative meta-statements about what 'the notes do not detail,' which is filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "21 U.S.C. 2351, the Mahsa Amini Act, and the Supreme Leader's office are all named correctly."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no dollar amounts or quantities to assess."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

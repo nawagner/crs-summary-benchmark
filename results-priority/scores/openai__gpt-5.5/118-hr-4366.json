@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Extensive figures verified (DOJ accounts, EPA SRF $1.638B/$1.126B, $113.5M Medicaid grants, RMI grants); none contradict the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Riders and added context (SNAP variety rule, Arms Trade Treaty, CCBHC) are accurate; nothing fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by stating it provides FY2024 appropriations plus policy directions and amendments."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Medicaid/CHIP amendments, veterans law, bankruptcy priority, and trafficking-grant matching changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency-designation condition, firearms/Guantanamo carve-outs, and numerous eligibility limits."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Sep 30 2028 availability, Jan 1 2026 incarceration limit, and various deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all divisions and key appropriations and riders."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Organized by subject-matter division, reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but substantive; no filler or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FBI, BOP, DEA, ATF, NRC, EPA, FRA, HUD, FSM/RMI/Palau all correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures match the bill text and section index."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

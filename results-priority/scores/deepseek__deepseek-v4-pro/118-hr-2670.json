@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2670",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States multiyear procurement for up to 13 Virginia-class submarines; enacted Sec. 123 authorizes 10 (5.2% raise, CATL/BYD Oct 2027, JROTC 3,400-4,000 all verified correct)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented provisions; CRT-funding, DEI-hiring-pause, and foreign-bribery claims verified as real enacted provisions."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the FY2024 NDAA and the departments/community it covers."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes renamed Never Contract with the Enemy program, continuation-pay and Space Force personnel-code changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes numerical floors, sunset dates, and conditional prohibitions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites dates (Oct. 1, 2024; Oct. 1, 2027; Dec. 31, 2024; 30-day deadline)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers appropriations, personnel, force structure, acquisition, foreign/intelligence, and miscellaneous provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and substantive."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named entities (CATL, BYD, Blended Retirement System, ICMA) identified correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says up to 13 Virginia-class submarines; enacted figure is 10 (5.2%, $38.3B DHP, $198.5M academy verified correct)."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

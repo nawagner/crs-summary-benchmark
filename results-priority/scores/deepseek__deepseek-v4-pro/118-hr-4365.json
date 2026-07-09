@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4365",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Mischaracterizes Section 8062 (actually bars NIP account-structure changes) as a personnel/force-structure restriction, and states reserve/Guard total as $27.2B when the components sum to ~$26.2B."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "Fabricates the content of Section 8062 (force-structure/approved-test language found nowhere in the bill) and mislabels it as Title IV."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the bill as FY2024 DoD appropriations for personnel and O&M."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly references statutory authorities under titles 10/32 and 10 U.S.C. 2411 for the accounts it covers."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency-expense caps, the PTACAP set-aside, and the liaison-office consolidation bar."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the FY2024 appropriation timeframe; does not misstate any timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Frames the bill as only personnel and O&M, omitting procurement, RDT&E, and other titles, and closes with a fabricated provision."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Readable and organized, though the final paragraph is disconnected."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": false,
+      "why": "Misidentifies Section 8062's subject matter and places it in the wrong title (Title IV rather than the general provisions title)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "The stated $27.2 billion combined reserve/National Guard total is wrong; the listed components sum to roughly $26.2 billion."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 7,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

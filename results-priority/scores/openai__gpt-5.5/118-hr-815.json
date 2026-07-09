@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Characterizes the Act's funding as 'primarily for Israel security,' but the bill's largest appropriations are for Ukraine (Division B), which it omits."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented facts; the Israel-emphasis is a mischaracterization of proportion, not a fabricated claim."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies FY2024 emergency supplemental funding plus sanctions/financial authorities."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes raised FAA drawdown caps, amended DOD stockpile-transfer law, the IEEPA/TWEA limitations period, and EAR application."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Lists waiver, humanitarian, intelligence, law-enforcement, and international-obligation exceptions and carveouts."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Sept-30 availability dates, Division N's 90-day start, the 180-day cyber provision, and seven-year sunsets."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the Ukraine Security appropriations (Division B), Indo-Pacific (Division C), and the TikTok divestiture (Division H)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Organized by division and reads clearly."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but densely packed with substance, no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IEEPA, FinCEN, EAR, Multinational Force and Observers, Iron Dome/David's Sling/Iron Beam all correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All appropriations figures plus $300B immobilized and $4-5B U.S.-jurisdiction figures verified against the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

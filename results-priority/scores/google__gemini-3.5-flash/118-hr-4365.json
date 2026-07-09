@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4365",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Personnel/O&M amounts, Israeli program breakdown, shipbuilding, reserve fleet ($667,508,000/$142,008,000), and NIP provisions all verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; context is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it appropriates FY2024 funds for DoD personnel, operations, procurement, and intelligence."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes NIP budget-structure restrictions and financial-management study provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency caps, vetting, Syria stipend withholding, and Expenditure Center exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes availability periods through 9/30/2025, 9/30/2026, and 9/30/2028."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers personnel, O&M, intelligence, and multiple targeted appropriations and transfers."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear section headers."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but not padded."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Programs (Iron Dome, SRBMD, Arrow, Fisher House) correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures, including Israeli component amounts summing to $500M, verified."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

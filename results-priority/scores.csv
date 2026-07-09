@@ -1,0 +1,7 @@
+candidate,meets_standard_rate,meets_standard_count,n_bills,mean_cost_usd,mean_latency_s,accurate,no_hallucinations,states_purpose,changes_to_existing_law,exceptions_conditions,effective_dates,major_provisions_covered,objective_tone,coherent,concise,correct_entities,correct_figures
+anthropic/claude-opus-4.8,0.8000,8,10,2.0665780000000002,151.0072,0.9,1.0,1.0,1.0,1.0,1.0,0.9,1.0,1.0,1.0,1.0,0.9
+openai/gpt-5.5,0.8000,8,10,1.3970090000000002,204.3256,0.8,1.0,1.0,1.0,1.0,1.0,0.9,1.0,1.0,1.0,1.0,0.9
+google/gemini-3.5-flash,0.6000,6,10,0.46775510000000003,63.41859999999999,0.8,1.0,1.0,1.0,1.0,1.0,0.9,1.0,0.9,0.9,1.0,0.8
+z-ai/glm-5.2,0.6000,6,10,0.13835640000000002,296.2268,0.9,1.0,1.0,1.0,1.0,1.0,0.7,1.0,1.0,1.0,1.0,0.9
+deepseek/deepseek-v4-pro,0.5000,5,10,0.1075057,415.57339999999994,0.8,0.9,1.0,1.0,0.9,0.9,0.7,1.0,1.0,0.9,0.9,0.6666666666666666
+CRS (human),0.6000,6,10,,,0.9,0.9,0.9,0.8,0.75,0.8888888888888888,0.9,1.0,1.0,1.0,0.8,0.8333333333333334

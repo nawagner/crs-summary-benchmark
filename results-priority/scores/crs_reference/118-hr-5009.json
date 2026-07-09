@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5009",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Summary describes the WILD Act reauthorizing wildlife conservation programs, which is an entirely different bill and contradicts HR 5009 (the FY2025 NDAA)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": false,
+      "why": "Every substantive claim (Fish and Wildlife Service, elephant/rhino/tiger programs) belongs to a different bill and is false for this NDAA."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": false,
+      "why": "States the purpose of the WILD Act, not the FY2025 NDAA's defense authorization purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "Describes reauthorizing conservation statutes rather than any law this bill actually amends."
+    },
+    "exceptions_conditions": {
+      "applicable": false,
+      "pass": true,
+      "why": "The mismatched summary does not address exceptions relevant to this bill."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": false,
+      "why": "Cites FY2028 reauthorization timing, which is wrong for this bill's provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "None of the NDAA's operative provisions are covered; content is about a different bill entirely."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "The text itself is neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "The summary is internally clear and well-written on its own terms."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "It is brief with no padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": false,
+      "why": "Names the Fish and Wildlife Service and wildlife programs that appear nowhere in this bill."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "The FY2028 reauthorization date is incorrect for the actual bill (HR 5009)."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 3,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

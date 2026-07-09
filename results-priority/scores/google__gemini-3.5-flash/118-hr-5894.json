@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5894",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "UI trigger ($28.6M per 2,365,000 AWIU increment), rescission total ($20.774B), and Labor/HHS figures all verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; characterizing the Employment Security Account as within the Unemployment Trust Fund is accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states FY2024 appropriations with funding levels and policy restrictions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes WIOA low-income eligibility modification, Title X conditions, and EO prohibitions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes outlying-area exemptions, the 10% cap, transfer conditions, and Title X carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Oct 2024-June 2025 availabilities and the Sept 30, 2028 obligation window."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers Labor, HHS Office of Secretary, riders, and rescissions; captures essential effect (omits Education program figures)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral factual tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear structure with headers and bullets."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed but well-compressed, no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "WIOA, PHS Act, EO numbers, and agency names correct; general provisions correctly labeled Title V."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures including the $20.774B rescission total verified."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

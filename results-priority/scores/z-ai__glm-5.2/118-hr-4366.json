@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "MilCon, transit ($13.99B), Amtrak, SRF, NRC, and Compact figures/provisions all accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Riders (broadband rescission, SNAP variety rule, Russia/China nuclear-facility rider) are accurate; nothing fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it funds the government for FY2024 and makes changes to existing law."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes permanent IMD state option, incarceration coverage rule, VA FAS care, and Compact amendments."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency-designation condition, Guantanamo bar, overtime-cap waiver, and SNAP rule condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Oct 1 2025 IMD effective date, Jan 1 2026 incarceration date, and 90-day agreement submission."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Concisely covers all seven divisions and their key provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cleanly organized division-by-division."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Tight and efficient with no padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies, programs, and statutes correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar figures match bill text and index."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

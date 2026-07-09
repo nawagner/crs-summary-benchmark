@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5009",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified RDT&E total $143,768,041K and Army/Navy subtotals, O&M $294,464,130K, and CTR amounts all match the funding tables."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (PL number, 10 U.S.C. 701(k), NNSA project names) is accurate with no fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dedicated 'Primary Purpose' section clearly states the Act's aims."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites specific amendments such as 10 U.S.C. 701(k) and codification of the Middle Tier of Acquisition."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes conditions like the 95% frigate certification and the foundation's foreign-land prohibition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites effective dates and sunsets (April 1 2025, Oct 1 2025, Oct 1 2027)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding, personnel, procurement, tech, milcon, and foreign/homeland/State provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral; 'massive funding' is mildly descriptive but not advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear header-based structure that reads well."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed and formatted but substantive without significant filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Los Alamos, NNSA, DHS, and State Department entities are named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cited totals, CTR amounts, and A-10 minimum (135 to 96) match the grounding."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

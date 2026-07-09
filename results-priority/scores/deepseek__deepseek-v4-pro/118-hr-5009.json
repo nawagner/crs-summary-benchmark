@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5009",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified figures (procurement $167.8B, Army RDT&E $14.3B, Army O&M $59.0B, Navy O&M $75.3B, A-10 135 to 96) all match the funding tables and grounding."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Provisions (Quantum Benchmarking Initiative, Agility Prime Working Group) match grounding; the minor $13M rescission detail is unverified but not shown to be false."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by stating the Act authorizes FY2025 DoD/milcon appropriations and policy reforms."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes removal of the Vietnam-era retired-pay cap and force-structure statutory limits."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes conditions like F-35 acceptance certifications, 95% frigate design, and case-by-case F-15E exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites effective dates and sunsets (April 1 2025, Oct 1 2025, Sept 30 2027, Dec 31 2025)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding, quality-of-life, weapon-system limits, tech, space, milcon, and homeland security provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by topic and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact and focused with little filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "DARPA, DHS, Naval Postgraduate School, and other entities are named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Confirmed figures (Army O&M $59.0B, Navy O&M $75.3B, Army RDT&E $14.3B, A-10 135 to 96) are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

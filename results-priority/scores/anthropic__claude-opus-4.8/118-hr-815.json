@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures, executive orders, forfeiture funds, and program details verified against the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (IEEPA, CISADA, EOs 13553/13224/13818/13876, section 7031(c)) is all accurate, not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the bill as emergency supplemental appropriations plus sanctions/national-security measures across Divisions A-T."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes IEEPA property-blocking, the new 10-year statute of limitations under IEEPA/TWEA, and MAHSA sanctions authorities."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes national-security waivers, the humanitarian exemption (food/medicine/agricultural), and the up-to-180-day case-by-case waiver."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 180-day and annual reporting, the 30-day execution-plan bar, and 90-day/60-day MAHSA and Hamas deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the Ukraine Security Supplemental (Division B, the largest appropriation), Indo-Pacific (Division C), REPO (F), and the TikTok divestiture (Division H)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive, non-partisan throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well organized by division and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense and substantive with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Iron Dome, David's Sling, Iron Beam, CENTCOM, IEEPA/TWEA, OFAC, Al-Aqsa Martyrs Brigade, Lion's Den all named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$4.4B, $801.4M, $5.2B ($4B/$1.2B split), $198.6M, $2.44B, $390M, $5.655B, $3.495B all match the bill."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

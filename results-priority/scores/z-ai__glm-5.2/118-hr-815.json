@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Israel figures, the $250M consular transfer, and the $300B/$190B-Belgium/$4-5B-U.S. asset findings all verified correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Defines 'Russian aggressor state' (incl. Belarus) accurately; the FEND name is truncated but not fabricated."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the bill as emergency supplemental appropriations organized into 20 divisions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes amendment of the Foreign Assistance Act and the new 10-year IEEPA/TWEA limitations period."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FEND intelligence/law-enforcement/humanitarian exceptions and the importation-of-goods exemption."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 180-day reporting, 180-day FinCEN guidance, Sept-30 availability dates, and the 30-day execution plan."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Covers only Divisions A, E, F and a truncated L; omits Ukraine (B), Indo-Pacific (C), TikTok (H), and most sanctions divisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Reads clearly, though it ends by flagging Division L as not fully detailed."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no significant padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IEEPA, FinCEN, Foreign Military Financing, Russian aggressor state/Belarus, and Mahsa Amini all correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$4.4B, $801.4M, $5.2B, $198.6M, $2.44B, $3.5B FMF, $250M, $300B, $190B, $4-5B all verified."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

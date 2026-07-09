@@ -42,18 +42,37 @@ client or manual download — validate against a real page as a first live-run s
 otherwise sits in GovInfo markup drift and Senate-report heterogeneity — both contained because
 the fetcher records source URLs, so every extraction is auditable.
 
-## Coverage expectations
+## Coverage — measured on the 2024 high-activity set
 
 Only bills that were **reported** have committee reports, and only bills that were **scored** have
-CBO estimates. In the 119th 50-bill set (mixed activity) expect low coverage; in the 2024
-high-activity set (bills selected for movement) expect substantially higher. The fetcher prints an
-exact per-corpus tally (`committee: X/50, cbo: Y/50`) — run it once per dataset to replace these
-expectations with numbers:
+CBO estimates. Running the fetcher against the live API on the 2024 high-activity corpus gave:
+
+- **Committee reports: 20/50 bills** had a report with an extractable "Purpose and Summary"
+  section (after excluding one mismatch, see below → **19 shipped**). The joint resolutions of
+  disapproval (hjres/sjres) mostly have no committee report, as expected; the substantive hr/s
+  bills mostly do. Extracted summaries range ~185–8,100 chars (median ~700).
+- **CBO: 0/50.** cbo.gov serves a DataDome bot challenge (HTTP 403) to the fetcher on every
+  publication page. The `cboCostEstimates` URLs are present in the bill detail, so the estimates
+  exist — they just need a browser-like client or manual download. This is the main open item.
+
+Reproduce (119th set will show lower coverage — mixed activity):
 
 ```bash
 python src/fetch_references.py                                     # 119th
 CRS_DATASET=2024 CRS_CONFIG=config-2024.yaml python src/fetch_references.py
 ```
+
+### Caveat surfaced by the run: legislative-vehicle text swaps
+
+`118-s-2073` in the dataset is titled "Kids Online Safety and Privacy Act" and its `bill_text` is
+the KOSA/COPPA substitute (the July 30, 2024 engrossed amendment). But its committee report
+(S. Rept. 118-91) is for the bill's **original** text — the "Eliminate Useless Reports Act of 2023"
+that S.2073 was before it became the KOSA vehicle. The committee summary therefore describes
+different text than the models summarized, so it was **excluded** from the shipped references.
+(Note: the dataset's own `crs_summary` for this bill is *also* the Eliminate-Useless-Reports text,
+i.e. it doesn't match the KOSA `bill_text` either — a pre-existing corpus quirk worth flagging
+separately.) A future hardening of the fetcher could compare the report's bill title against the
+dataset title and skip on divergence; for this spike the one case was handled by hand.
 
 ## What ships now vs. later
 

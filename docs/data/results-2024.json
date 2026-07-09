@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09 13:30:33 UTC",
+  "generated_at": "2026-07-09 14:03:37 UTC",
   "dataset_id": "2024",
   "judge_model": "claude-opus-4-8 (parallel Claude Code subagents)",
   "congress": 118,
@@ -3865,6 +3865,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 18.6
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "Introduced on February 1, 2024, by Representative Mike Flood, H.J. Res 109, Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Securities and Exchange Commission relating to ``Staff Accounting Bulletin No. 121, would rescind the Securities and Exchange Commission's (SEC) Staff Accounting Bulletin (SAB) 121, which expresses the view of SEC staff regarding how certain entities should account for and disclose their custodial obligations when safeguarding digital assets held for their platform users. H.J. Res 109 is cosponsored by Reps. Nickel, Emmer, Soto, and Hill. Senator Cynthia Lummis (R- WY) introduced a companion Resolution in the Senate. On August 2, 2022, Senator Cynthia Lummis (R-WY) sent a congressional request to the Government Accountability Office (GAO) for a decision regarding whether the Bulletin is subject to the Congressional Review Act (CRA). On October 31, 2023, the GAO issued its decision concluding that the Bulletin is a rule for purposes of CRA because it meets the APA definition of a rule, and no exceptions apply.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt480/generated/CRPT-118hrpt480.htm",
+          "fk_grade": 14.3
         }
       }
     },
@@ -4318,6 +4326,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 14.8
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 1042 would amend the USEC Privatization Act to prohibit the importation into the United States of unirradiated, low-enriched uranium that is produced in the Russian Federation. H.R. 1042 would provide a date certain, after which no Russian-sourced unirradiated, low-enriched uranium\\1\\ will be available for U.S. nuclear reactors through at least 2040. This would create the market conditions for the long-term commercial contracts that domestic fuel producers need to invest in new U.S. supply capacity, including uranium conversion and enrichment capacity, which has atrophied substantially over the past decade. --------------------------------------------------------------------------- \\1\\Unirradiated, or fresh, fuel has not yet been used in a reactor. --------------------------------------------------------------------------- To reduce supply disruption risks and to allow time for new production capacity to come on-line, H.R. 1042 would provide the Secretary of Energy waiver authority through 2027 to authorize certain imports of such low-enriched uranium, subject to specific limits, if no alternative source of the uranium is available to sustain U.S. nuclear operations or if such imports are in the public interest. (The prohibition on imports would not apply to imports for national security purposes.) In addition, H.R. 1042 would require the Secretary to conduct a thorough market evaluation of the anticipated supply of low- enriched uranium, to determine what, if any, U.S. federal assistance may be needed to support expansion of production capacity sufficient to replace Russian supplies.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt296/generated/CRPT-118hrpt296.htm",
+          "fk_grade": 15.1
         }
       }
     },
@@ -4771,6 +4787,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 29.9
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "Introduced on February 17, 2023, by Representative Monica De La Cruz, H.R. 1076, the Preventing the Financing of Illegal Synthetic Drugs Act, instructs the Comptroller General of the United States to carry out a study on illicit financing in connection with the trafficking of synthetic drugs and related illicit finance. Without financing, a business cannot operate. The study will provide policymakers with better information on how traffickers operate and facilitate illicit activity to draft effective legislation.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt75/generated/CRPT-118hrpt75.htm",
+          "fk_grade": 16.0
         }
       }
     },
@@ -5677,6 +5701,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 16.9
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 2365 requires the Department of Health and Human Services (HHS) to carry out a national project to prevent, diagnose, treat, and cure Parkinson's disease and other neurodegenerative Parkinsonisms and related diseases, to be known as the National Parkinson's Project. In carrying out the project, the Secretary must provide an annual assessment of the nation's progress in preparing for and responding to the increased burden of Parkinson's; provide information, facilitate collaboration, and encourage development of innovative approaches to prevent, diagnose, treat, and cure Parkinson's and related diseases; and coordinate and avoid duplication of related research activities across involved entities; among other things. The bill also establishes an Advisory Council, comprised of federal and nonfederal stakeholders, to advise HHS on Parkinson's-related issues, including providing an annual report outlining current activities, recommendations, and priority actions to improve efforts related to the prevention, diagnosis, treatment, and curing of Parkinson's and related diseases. The provisions of the bill terminate at the end of calendar year 2035.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt313/generated/CRPT-118hrpt313.htm",
+          "fk_grade": 20.6
         }
       }
     },
@@ -6583,6 +6615,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 19.7
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 3821 reauthorizes funding for the voluntary registry for firefighter cancer incidents under the Centers for Disease Control and Prevention (CDC) for fiscal years 2024 through 2028.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt247/generated/CRPT-118hrpt247.htm",
+          "fk_grade": 12.4
         }
       }
     },
@@ -7036,6 +7076,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 19.1
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 4190, the ``Restoring Benefits to Defrauded Veterans Act,'' was introduced by Rep. David J. Trone of Maryland on June 15, 2023. The bill, as amended, would prohibit the Secretary of the Department of Veterans Affairs (VA) from repaying a deceased beneficiary's misused benefits to a fiduciary who misused the beneficiary's benefits. Further, if a beneficiary whose benefits were misused predeceases repayment of such misused benefits, the bill would require VA to pay such misused benefits to an individual or individuals first on the list provided in Title 38 U.S.C. Sec. 5121: the veteran's spouse, the veteran's children (in equal shares), the veteran's dependent parents (in equal shares), etc.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt655/generated/CRPT-118hrpt655.htm",
+          "fk_grade": 13.0
         }
       }
     },
@@ -7489,6 +7537,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 14.4
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 4581 clarifies that evidence-based activities and research focused on reducing the incidence of stillbirth are permissible uses of the Maternal and Child Health Services Block Grant funding in Title V.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt490/generated/CRPT-118hrpt490.htm",
+          "fk_grade": 11.4
         }
       }
     },
@@ -8395,6 +8451,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 10.2
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "The ``Michel O. Maceda Memorial Act'' seeks to memorialize Agent Maceda's heroism by requiring the Department of Homeland Security to rename the Air and Marine Operations (AMO) facility in Puerto Rico as the ``Michel O. Maceda Marine Unit''.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt542/generated/CRPT-118hrpt542.htm",
+          "fk_grade": 12.6
         }
       }
     },
@@ -10207,6 +10271,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 15.6
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 6324, the ``Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act,'' was introduced by Representative Mike Bost of Illinois, Chairman of the Committee on Veterans' Affairs, on November 9, 2023. The bill would authorize the Department of Veterans Affairs (VA) to complete certain major medical facility construction projects and authorize the appropriations for each project for Fiscal Year (FY) 2024 in: American Lake, Washington; Dallas, Texas; El Paso, Texas; Perry Point, Maryland; Portland, Oregon; Reno, Nevada; San Diego, California; San Fransisco, California; San Juan, Puerto Rico; St. Louis, Missouri; and West Haven, Connecticut.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt627/generated/CRPT-118hrpt627.htm",
+          "fk_grade": 20.2
         }
       }
     },
@@ -10660,6 +10732,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 25.3
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 6513, the Confirmation Of Congressional Observer Access Act (COCOA Act) of 2023, introduced by Representative Mike Carey (OH-15), and co-sponsored by Representative Bryan Steil (WI-01), Chairman of the Committee on House Administration, and Representative Joseph D. Morelle (NY-25), Ranking Member of the Committee on House Administration, provides a statutory citation for the long-running, constitutionally authorized congressional observer program operated by the House of Representatives.\\1\\ It ensures that congressional observers authorized by the House have full access to view congressional election administration processes, including polling places and election tabulation facilities. The House's congressional election observer program is authorized under the Constitution but is not codified in federal statute. While the constitutional authority of Congress to deploy election observers supersedes any state law to the contrary, the lack of statutorily codified authorization for the program has created difficulties for House observers and confusion for elections officials. The Committee on House Administration and its observers have received requests from state and county elections officials for a ``statutory citation of convenience'' for the Constitution's grant of authority for the existing House program. Without purporting to expand the House's authority or its existing observer program, this legislation provides that statutory citation. --------------------------------------------------------------------------- \\1\\Nothing in the COCOA Act should be construed as affecting or limiting in any way any similar constitutional activities conducted by the U.S. Senate. ---------------------------------------------------------------------------",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt361/generated/CRPT-118hrpt361.htm",
+          "fk_grade": 18.2
         }
       }
     },
@@ -11113,6 +11193,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 20.7
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 6829 directs the Department of Health and Human Services (HHS) to develop and distribute certain educational materials and resources regarding cardiomyopathy, automated external defibrillators (AEDs), and cardiopulmonary resuscitation (CPR), to school administrators, educators, school health professionals, coaches, families, guardians, caregivers, State and local health departments, certain health professionals, and other relevant individuals. In addition, this bill would require the Secretary to submit a report to Congress on the Centers for Disease Control and Prevention's (CDC's) existing activities related to cardiomyopathy, as well as develop a risk assessment for individuals at risk of cardiomyopathy. This bill would also allow the Secretary, in consultation with the Director of the National Institutes of Health (NIH), to expand and coordinate research with respect to cardiomyopathy and requires a report on NIH's ongoing research efforts. The bill also includes a program to promote student access to AEDs and CPR in schools, including educational materials, training programs, and equipment.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt520/generated/CRPT-118hrpt520.htm",
+          "fk_grade": 19.9
         }
       }
     },
@@ -12019,6 +12107,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 19.5
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 7189 reauthorizes the national congenital heart disease research, surveillance, and awareness program at the Centers for Disease Control and Prevention (CDC). The bill also requires the Secretary to issue a report and strategy for improvement to Congress on activities related to congenital heart disease for both the public and health care providers, as well as the current workforce capacity of health care providers who treat adult patients living with congenital heart disease (CHD). The bill reauthorizes the program for five fiscal years from 2025 through 2029.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt517/generated/CRPT-118hrpt517.htm",
+          "fk_grade": 13.6
         }
       }
     },
@@ -12472,6 +12568,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 19.3
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 7198, the Prove It Act of 2024, introduced by Rep. Brad Finstad (R-MN), amends the Regulatory Flexibility Act (RFA) to require agencies to better account for the effects of regulations on small businesses. The bill empowers small businesses to petition the Small Business Administration's Chief Counsel for Advocacy to review an agency's certification that a proposed regulation will not have a significant economic impact on small businesses, requires agencies to publish guidance documents interpreting regulations that have a significant economic impact on small businesses, and improves the periodic review process for regulations.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt761/generated/CRPT-118hrpt761.htm",
+          "fk_grade": 20.1
         }
       }
     },
@@ -12925,6 +13029,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 24.1
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "The Autism Collaboration, Accountability, Research, Education, and Support (CARES) Act of 2024 reauthorizes and makes improvements to certain programs related to autism spectrum disorder, including the Developmental Disabilities Surveillance and Research Program; Autism education, early detection, and intervention; and the Interagency Autism Coordination Committee at currently appropriated levels for fiscal years 2025 through 2029.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt620/generated/CRPT-118hrpt620.htm",
+          "fk_grade": 32.8
         }
       }
     },
@@ -13378,6 +13490,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 26.3
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 7218 reauthorizes programs to support states, local public health departments, and other entities that educate and support early detection and diagnosis, support patients and caregivers needs, and promote public health knowledge and awareness of Alzheimer's disease and related dementias, among other activities, for fiscal years 2025 through 2029.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt515/generated/CRPT-118hrpt515.htm",
+          "fk_grade": 16.6
         }
       }
     },
@@ -15190,6 +15310,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 19.6
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 7777, the ``Veterans' Compensation Cost-of-Living Adjustment Act of 2024,'' was introduced by Rep. Morgan Luttrell of Texas on March 21, 2024. The bill would require the Department of Veterans Affairs (VA) to increase the amounts payable for wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children. Specifically, VA would increase these amounts by the same percentage as the cost-of- living increase in benefits for Social Security recipients that is effective on December 1, 2024. The bill would also require VA to publish the amounts payable, as increased, in the Federal Register. VA would also be authorized to make a similar adjustment to the rates of disability compensation payable to persons who have not received compensation for service- connected disability or death.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt591/generated/CRPT-118hrpt591.htm",
+          "fk_grade": 16.0
         }
       }
     },
@@ -15643,6 +15771,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 18.1
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 8146, the Police our Borders Act, introduced by Rep. Anthony D'Esposito (R-NY), would require the Attorney General to report to Congress on how the border crisis affects law enforcement at various levels. The report must detail the financial and operational burdens imposed on law enforcement by the crisis, the exposure of officers to dangers like fentanyl, injuries incurred, and overall impact on law enforcement morale.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt482/generated/CRPT-118hrpt482.htm",
+          "fk_grade": 14.6
         }
       }
     },
@@ -17002,6 +17138,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 26.6
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "H.R. 8663, the DETECT Fentanyl and Xylazine Act of 2024, will provide the Department of Homeland Security's Science and Technology Directorate (S&T) with the authority to do research, development, testing, evaluation, and cost benefit analyses to improve the safety, effectiveness, and efficiency of drug detection equipment and reference libraries used by Federal, state, local, tribal, and territorial law enforcement agencies. For the accurate detection of drugs or the disruption of drug trafficking, H.R. 8663 includes three focus areas that include: portable equipment that can detect and identify drugs with minimal or no handling of the sample; equipment that can separate complex mixtures containing low concentrations of drugs and high concentrations of cutting agents into their component parts to enable signature extraction for field identification and detection; and technologies that use machine learning or artificial intelligence and other techniques to predict whether the substances in a sample are controlled substance analogues or other new psychoactive substances not yet included in available reference libraries. Lastly, H.R. 8663 requires S&T to follow the recommendations, guidelines, and best practices outlined in the Federal government's Artificial Intelligence Risk Management Framework and directs S&T to utilize the Drug Enforcement Agency's (DEA) State and Territory Report on Enduring and Emerging Threats in establishing priorities.",
+          "source_url": "https://www.congress.gov/118/crpt/hrpt634/generated/CRPT-118hrpt634.htm",
+          "fk_grade": 21.1
         }
       }
     },
@@ -20173,6 +20317,14 @@
           "cost_usd": null,
           "latency_s": null,
           "fk_grade": 25.2
+        },
+        "committee_reference": {
+          "label": "Committee report",
+          "is_human": true,
+          "reference_kind": "committee",
+          "summary": "S. 3613, the Improving Federal Building Security Act, would require Facility Security Committees (FSCs) to adequately respond to security recommendations issued by the Federal Protective Service (FPS) within 90 days of the recommendations' issuance. While agencies may choose to adopt or reject FPS recommendations, they must provide an explanation to the Department of Homeland Security (DHS) detailing their reasons for rejecting any recommendations in whole or in part. The legislation would also require DHS to develop a method to monitor these responses to FPS security assessments and take reasonable actions to ensure agency responses. This bill would require DHS to report annually to Congress on agency responses to FPS security assessments, which would provide a regular snapshot of the security landscape for federal facilities across the country.",
+          "source_url": "https://www.congress.gov/118/crpt/srpt160/generated/CRPT-118srpt160.htm",
+          "fk_grade": 17.5
         }
       }
     },

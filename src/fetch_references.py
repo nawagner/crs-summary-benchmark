@@ -213,10 +213,15 @@ async def fetch_committee_report_text(get, http, citation: str) -> tuple[str, st
     except Exception as e:  # noqa: BLE001
         print(f"    committee-report/{congress}/{chamber}/{number}: fetch error ({str(e)[:60]})")
         return "", ""
+    # The committee-report text response nests formats one level down:
+    #   {"text": [{"formats": [{"type": "Formatted Text", "url": ...}, ...]}, ...]}
     url = None
     for t in d.get("text") or []:
-        if t.get("type") == "Formatted Text" and t.get("url"):
-            url = t["url"]
+        for fmt in t.get("formats") or []:
+            if fmt.get("type") == "Formatted Text" and fmt.get("url"):
+                url = fmt["url"]
+                break
+        if url:
             break
     if not url:
         return "", ""

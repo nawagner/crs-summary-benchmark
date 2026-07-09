@@ -65,6 +65,34 @@
       "completion_tokens": 1200,
       "cost_usd": 0.011391,
       "latency_s": 15.039
+    },
+    "9": {
+      "notes": "",
+      "prompt_tokens": 26725,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012669,
+      "latency_s": 20.581
+    },
+    "10": {
+      "notes": "",
+      "prompt_tokens": 28744,
+      "completion_tokens": 1200,
+      "cost_usd": 0.013548,
+      "latency_s": 14.816
+    },
+    "11": {
+      "notes": "# Working Notes: Compact of Free Association Amendments Act of 2024\n\n## Section 209 — Programs and Services\n\n### (a) Veterans Affairs Healthcare\n\n- **Purpose:** Extend VA hospital care/medical services to veterans in Freely Associated States (FAS)\n- **Mechanism:** Amends 38 U.S.C. §1724(f) to authorize Secretary of Veterans Affairs to furnish care/services in FAS\n- **Definition of FAS:** FSM, RMI, and Palau — each only while a party to their respective Compacts (Public",
+      "prompt_tokens": 26280,
+      "completion_tokens": 1201,
+      "cost_usd": 0.012477,
+      "latency_s": 23.629
+    },
+    "12": {
+      "notes": "",
+      "prompt_tokens": 3237,
+      "completion_tokens": 1200,
+      "cost_usd": 0.002452,
+      "latency_s": 14.575
     }
   }
 }

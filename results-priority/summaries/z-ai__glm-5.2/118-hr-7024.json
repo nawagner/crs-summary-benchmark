@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7024",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Tax Relief for American Families and Workers Act of 2024 amends the Internal Revenue Code to provide tax relief to families and businesses, establish tax rules for Taiwan, assist disaster-impacted communities, increase affordable housing, and combat tax fraud.\n\nTitle I expands the Child Tax Credit by increasing the refundable portion on a per-child basis for 2023 through 2025, adjusting the credit for inflation starting in 2024, and allowing taxpayers to use prior-year earned income to calculate the credit. It also directs the IRS to automatically redetermine credits for early-filed 2023 returns.\n\nTitle II promotes business investment by delaying the amortization of domestic research and experimental expenditures until after 2025, extending 100 percent bonus depreciation for property placed in service through 2025, and increasing the Section 179 expensing limits to $1.29 million. It also extends the allowance for depreciation in calculating business interest limitations.\n\nTitle III creates a new tax framework for qualified residents of Taiwan, reducing withholding rates on certain U.S.-source income and defining permanent establishment rules, contingent on Taiwan providing reciprocal benefits. It also authorizes the President to negotiate a formal tax agreement with Taiwan, subject to congressional approval.\n\nTitle IV provides disaster relief by extending casualty loss deductions and excluding qualified wildfire relief payments and East Palestine train derailment compensation from gross income.\n\nTitle V increases the low-income housing tax credit ceiling for states for 2023 through 2025 and lowers the tax-exempt bond financing threshold for certain housing projects.\n\nTitle VI increases the information reporting threshold from $600 to $1,000, adjusted for inflation. It also establishes strict penalties and due diligence requirements for promoters of COVID-related Employee Retention Tax Credits, sets a January 31, 2024, deadline for filing ERTC claims, and extends the assessment statute of limitations for these credits to six years.",
+  "prompt_tokens": 19729,
+  "completion_tokens": 1848,
+  "total_tokens": 21577,
+  "cost_usd": 0.013943,
+  "latency_s": 9.449,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

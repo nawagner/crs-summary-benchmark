@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4367",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill appropriates funding for the Department of Homeland Security (DHS) for fiscal year 2024, ending September 30, 2024. It sets specific dollar amounts for DHS components, including U.S. Customs and Border Protection, U.S. Immigration and Customs Enforcement (ICE), the Transportation Security Administration, the Coast Guard, the Secret Service, the Cybersecurity and Infrastructure Security Agency, the Federal Emergency Management Agency, and others.\n\nBeyond funding, the bill imposes numerous policy restrictions and conditions. It prohibits using funds to implement several Biden administration immigration policies, such as the September 2021 civil immigration enforcement guidelines, the “Circumvention of Lawful Pathways” rule, and the use of the CBP One application to parole aliens. It requires DHS to maintain at least 41,500 ICE detention beds and to enroll all non-detained aliens in the Alternatives to Detention Program with mandatory GPS monitoring. Funds are barred for gender-affirming care and, with limited exceptions for life of the mother, rape, or incest, for abortion in ICE custody.\n\nThe bill allocates $2.104 billion for constructing steel bollard pedestrian barriers along the southwest border, prohibits dismantling existing barriers unless they are simultaneously repaired or replaced, and rescinds over $2.1 billion in prior border barrier appropriations. It also prohibits new border crossing fees and restricts funds for certain executive orders relating to climate, equity, and diversity, equity, and inclusion. It bars COVID-19 vaccine or mask mandates for DHS employees and travelers.\n\nSeveral provisions reduce the salaries of specific officials—including the Secretary of Homeland Security and the Director of U.S. Citizenship and Immigration Services—to $1. The bill includes reporting requirements on acquisition programs, border migration estimates, and unfunded priorities. It also contains provisions on religious liberty related to marriage beliefs, personal-use prescription drug importation from Canada, and a prohibition on funding for a Disinformation Governance Board or similar activities. Funds are generally available through September 30, 2024, with some amounts available for longer periods as specified.",
+  "prompt_tokens": 27156,
+  "completion_tokens": 1908,
+  "total_tokens": 29064,
+  "cost_usd": 0.013473,
+  "latency_s": 41.656,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

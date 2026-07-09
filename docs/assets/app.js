@@ -77,6 +77,19 @@ function fail(el, err) {
   el.innerHTML = `<div class="empty">Could not load results: ${esc(err.message)}</div>`;
 }
 
+/* Perspectives (issue #9): lazily fetched once per page and cached (including a
+   null marker on any failure — missing file, non-2xx, bad JSON) so the bill
+   detail panel can re-render on every reading-level toggle without re-fetching. */
+let perspectivesPromise = null;
+function loadPerspectives() {
+  if (!perspectivesPromise) {
+    perspectivesPromise = fetch("data/perspectives.json", { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : null))
+      .catch(() => null);
+  }
+  return perspectivesPromise;
+}
+
 /* ----------------------------------------------------------- index / leaderboard */
 async function initIndex() {
   renderDatasetToggle("dataset-toggle");
@@ -278,7 +291,41 @@ async function initBills() {
     };
   }
 
-  function showDetail(id, levelId) {
+  // Reference candidates (issue #8) — e.g. committee_reference / cbo_reference —
+  // are entries in b.candidates that never made it into the leaderboard/candIds
+  // list and carry no verdicts. They have no `levels`, so unlike scored human
+  // baselines their non-default-level note is a fixed "as published" caption.
+  function referenceContent(c, isDefault) {
+    if (isDefault) return { text: c.summary, note: null, fk: c.fk_grade };
+    return { text: c.summary, note: "reference — as published", fk: null };
+  }
+
+  function perspKindLabel(kind) {
+    return (
+      { press_release: "press release", floor_statement: "floor statement",
+        dear_colleague: "Dear Colleague letter", op_ed: "op-ed" }[kind] || kind
+    );
+  }
+
+  function perspCard(e) {
+    const metaBits = [esc(perspKindLabel(e.source_kind))];
+    if (e.date) metaBits.push(esc(e.date));
+    if (e.source_url) metaBits.push(`<a href="${esc(e.source_url)}" target="_blank" rel="noopener">source →</a>`);
+    return `<div class="persp-card">
+      <blockquote>${esc(e.excerpt)}</blockquote>
+      <div class="persp-attr">— ${esc(e.name)}</div>
+      <div class="persp-meta">${metaBits.join(" · ")}</div>
+    </div>`;
+  }
+
+  function perspColumn(entries) {
+    if (!entries || !entries.length) return `<div class="persp-empty">none curated yet</div>`;
+    return entries.map(perspCard).join("");
+  }
+
+  let detailToken = 0;
+  async function showDetail(id, levelId) {
+    const token = ++detailToken;
     const b = data.bills.find((x) => x.bill_id === id);
     if (!b) return;
     const showLevelToggle = levels.length > 1 && billHasLevelData(b);
@@ -313,8 +360,56 @@ async function initBills() {
         <div class="verdicts">${judgedNote}${verdicts}<div style="margin-top:8px;color:var(--muted);font-size:12px">${meta}</div></div>
       </div>`;
     }).join("");
+
+    // Unscored reference cards (issue #8): candidates present on the bill but
+    // absent from the leaderboard and lacking verdicts (e.g. committee_reference,
+    // cbo_reference). Silently absent when report.py hasn't emitted any yet.
+    const scoredIds = new Set(candIds);
+    const refCards = Object.keys(b.candidates)
+      .filter((k) => !scoredIds.has(k) && !b.candidates[k].verdicts)
+      .map((k) => {
+        const c = b.candidates[k];
+        const { text, note, fk } = referenceContent(c, isDefault);
+        const noteHtml = note ? `<div class="lvl-note">${esc(note)}</div>` : "";
+        const sourceHtml = c.source_url
+          ? `<div style="margin-top:8px;color:var(--muted);font-size:12px"><a href="${esc(c.source_url)}" target="_blank" rel="noopener">source →</a></div>` : "";
+        return `<div class="summary-card reference">
+          <header>
+            <h4>${esc(c.label)}</h4>
+            <span class="header-badges">${fkChip(fk, curLevel)}<span class="refbadge">reference — not judged</span></span>
+          </header>
+          <div class="body">${esc(text)}</div>
+          ${noteHtml}
+          ${sourceHtml}
+        </div>`;
+      }).join("");
+
     const longNote = b.long_text
       ? ' · <span style="color:#8a5a00" title="full text exceeds the single-prompt budget; summarized hierarchically">summarized via map-reduce (full text, no truncation)</span>' : "";
+
+    // Perspectives (issue #9): fetched lazily/cached; only rendered when this
+    // bill has at least one curated quote. A newer showDetail call (e.g. the
+    // user clicked another bill, or the level toggle, before this resolved)
+    // makes `token` stale, so we bail rather than clobber the latest render.
+    const persp = await loadPerspectives();
+    if (token !== detailToken) return;
+    const perspEntry = persp && persp.bills ? persp.bills[b.bill_id] : null;
+    const perspSponsor = (perspEntry && perspEntry.sponsor) || [];
+    const perspOpponents = (perspEntry && perspEntry.opponents) || [];
+    const perspectivesHtml = (perspSponsor.length || perspOpponents.length) ? `
+      <h2>Perspectives</h2>
+      <div class="persp-banner">Partisan framing, quoted verbatim — not part of the graded benchmark.</div>
+      <div class="persp-grid">
+        <div class="persp-col">
+          <h3>Sponsor &amp; supporters</h3>
+          ${perspColumn(perspSponsor)}
+        </div>
+        <div class="persp-col">
+          <h3>Opponents</h3>
+          ${perspColumn(perspOpponents)}
+        </div>
+      </div>` : "";
+
     detail.innerHTML = `
       <button class="detail-back">← Back to all bills</button>
       <div class="card" style="margin-top:14px">
@@ -326,7 +421,8 @@ async function initBills() {
         </p>
       </div>
       ${levelToggleHtml}
-      <div class="summaries-grid">${cards}</div>`;
+      <div class="summaries-grid">${cards}${refCards}</div>
+      ${perspectivesHtml}`;
     detail.querySelector(".detail-back").addEventListener("click", () => {
       detail.classList.add("hidden"); listWrap.classList.remove("hidden");
       window.scrollTo({ top: 0 });

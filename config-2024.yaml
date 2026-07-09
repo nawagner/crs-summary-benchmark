@@ -34,3 +34,11 @@ max_output_tokens: 4000
 prompts:
   summarize: prompts/summarize.txt
   judge: prompts/judge.txt
+
+# Reading levels (issue #10) — same variants as the main run; only the default level
+# is judged. Generate the extras with:
+#   CRS_DATASET=2024 CRS_CONFIG=config-2024.yaml python src/run_models.py --levels eli5,expert
+reading_levels:
+  - {id: eli5,    label: "Grade 5",        prompt: prompts/summarize_eli5.txt,   target_fk_grade: 5}
+  - {id: general, label: "General public", prompt: prompts/summarize.txt,        default: true, target_fk_grade: 11}
+  - {id: expert,  label: "Expert / JD",    prompt: prompts/summarize_expert.txt, target_fk_grade: 16}

@@ -1,12 +1,17 @@
 /* CRS Summary Benchmark — static site logic. Reads docs/data/results.json. */
 "use strict";
 
-/* Two datasets; users switch between them. The choice persists in localStorage. */
+/* Three datasets; users switch between them. The choice persists in localStorage.
+   The "priority" (long-bill) dataset file may not exist yet — see the availability
+   probe in renderDatasetToggle below, which only renders buttons for datasets whose
+   file actually resolves. */
 const DATASETS = [
   { id: "119", file: "data/results.json", short: "119th Congress",
     label: "119th Congress · 2025–26", desc: "Recent bills (mixed activity)." },
   { id: "2024", file: "data/results-2024.json", short: "2024 · high-activity",
     label: "2024 · 118th · high-activity", desc: "The 50 most legislatively-active 2024 bills whose full text fits the model input (omnibus bills excluded)." },
+  { id: "priority", file: "data/results-priority.json", short: "Priority · long bills",
+    label: "118th · appropriations & NDAA", desc: "Appropriations, the NDAA, and other very large bills — summarized hierarchically (map-reduce over structure-aware chunks); judging grounded in a section index plus the sections most relevant to each summary." },
 ];
 function currentDataset() {
   const id = localStorage.getItem("crs_dataset") || "119";
@@ -16,12 +21,33 @@ function setDataset(id) {
   localStorage.setItem("crs_dataset", id);
   location.reload();
 }
-function renderDatasetToggle(elId) {
+/* Probe each dataset file once with HEAD and cache the result on window so index.html
+   and bills.html don't each re-probe more than once per page load. */
+function probeDatasets() {
+  if (window.__crsDatasetProbe) return window.__crsDatasetProbe;
+  window.__crsDatasetProbe = Promise.all(
+    DATASETS.map((d) =>
+      fetch(d.file, { method: "HEAD", cache: "no-store" })
+        .then((res) => [d.id, res.ok])
+        .catch(() => [d.id, false])
+    )
+  ).then((pairs) => Object.fromEntries(pairs));
+  return window.__crsDatasetProbe;
+}
+async function renderDatasetToggle(elId) {
   const el = document.getElementById(elId);
   if (!el) return;
   const cur = currentDataset().id;
+  const avail = await probeDatasets();
+  if (avail[cur] === false) {
+    // the persisted choice no longer resolves (e.g. priority dataset not generated yet) — fall back
+    localStorage.setItem("crs_dataset", "119");
+    location.reload();
+    return;
+  }
+  const visible = DATASETS.filter((d) => d.id === cur || avail[d.id]);
   el.innerHTML = `<div class="ds-toggle">` +
-    DATASETS.map((d) => `<button class="${d.id === cur ? "active" : ""}" data-ds="${d.id}">${esc(d.label)}</button>`).join("") +
+    visible.map((d) => `<button class="${d.id === cur ? "active" : ""}" data-ds="${d.id}">${esc(d.label)}</button>`).join("") +
     `</div><p class="ds-desc">${esc(currentDataset().desc)}</p>`;
   el.querySelectorAll("[data-ds]").forEach((b) =>
     b.addEventListener("click", () => { if (b.dataset.ds !== cur) setDataset(b.dataset.ds); }));
@@ -142,6 +168,8 @@ async function initBills() {
   const crits = data.criteria;
   const candIds = data.leaderboard.map((r) => r.id);
   const candLabel = Object.fromEntries(data.leaderboard.map((r) => [r.id, r.label]));
+  const levels = data.reading_levels || [];
+  const dfltLevel = levels.find((l) => l.default) || levels[0];
 
   // populate filter controls
   const modelSel = document.getElementById("f-model");
@@ -202,9 +230,11 @@ async function initBills() {
       }).join("");
       const acts = b.actions_count != null
         ? `<span class="actions-badge" title="legislative actions — the activity signal used to pick this set">${b.actions_count} actions</span>` : "";
+      const longBadge = b.long_text
+        ? `<span class="long-badge" title="full text exceeds the single-prompt budget; summarized hierarchically">long bill</span>` : "";
       return `<div class="bill-row" data-id="${esc(b.bill_id)}">
         <div class="meta">
-          <div class="bnum">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th${acts}</div>
+          <div class="bnum">${esc(b.type.toUpperCase())} ${esc(String(b.number))} · ${esc(b.congress)}th${acts}${longBadge}</div>
           <div class="btitle">${esc(b.title || "(untitled)")}</div>
         </div>
         <div class="mini">${dots}</div>
@@ -222,23 +252,69 @@ async function initBills() {
       <span class="why">${esc(v ? (v.applicable ? v.why : "not applicable to this bill") : "")}</span></div>`;
   }
 
-  function showDetail(id) {
+  function billHasLevelData(b) {
+    return candIds.some((m) => {
+      const c = b.candidates[m];
+      return c && c.levels && Object.keys(c.levels).length > 0;
+    });
+  }
+
+  function fkChip(fkVal, curLevel) {
+    if (fkVal == null) return "";
+    const target = curLevel && curLevel.target_fk_grade != null
+      ? ` (target for this level: ${curLevel.target_fk_grade})` : "";
+    return `<span class="fk-chip" title="Flesch-Kincaid grade level${target}">FK ${Number(fkVal).toFixed(1)}</span>`;
+  }
+
+  // Resolves which summary text / fk_grade / fallback note to show for a candidate at a level.
+  function levelContent(c, curLevel, isDefault) {
+    if (isDefault || !curLevel) return { text: c.summary, note: null, fk: c.fk_grade };
+    const lv = c.levels && c.levels[curLevel.id];
+    if (lv && lv.summary) return { text: lv.summary, note: null, fk: lv.fk_grade };
+    return {
+      text: c.summary,
+      note: c.is_human ? "human summary — as published" : "not generated at this level",
+      fk: null,
+    };
+  }
+
+  function showDetail(id, levelId) {
     const b = data.bills.find((x) => x.bill_id === id);
     if (!b) return;
+    const showLevelToggle = levels.length > 1 && billHasLevelData(b);
+    const curLevel = levelId ? (levels.find((l) => l.id === levelId) || dfltLevel) : dfltLevel;
+    const isDefault = !curLevel || curLevel === dfltLevel;
+
+    const levelToggleHtml = showLevelToggle ? `
+      <div class="lvl-row">
+        <div class="ds-toggle lvl-toggle">
+          ${levels.map((l) => `<button class="${curLevel && curLevel.id === l.id ? "active" : ""}" data-lvl="${esc(l.id)}">${esc(l.label)}</button>`).join("")}
+        </div>
+        <span class="lvl-caption">Reading level — same bills, same models, different register. Only the ${esc(dfltLevel.label)} level is judged.</span>
+      </div>` : "";
+
     const cards = candIds.filter((m) => b.candidates[m]).map((m) => {
       const c = b.candidates[m];
       const verdicts = crits.map((cr) => verdictRow(cr, c.verdicts[cr.id])).join("");
-      const meta = c.is_human ? "human baseline"
-        : `${money(c.cost_usd)} · ${secs(c.latency_s)}`;
+      let meta = c.is_human ? "human baseline" : `${money(c.cost_usd)} · ${secs(c.latency_s)}`;
+      if (c.strategy === "map_reduce" && c.n_chunks != null) meta += ` · map-reduce over ${c.n_chunks} chunks`;
+      if (c.judge_grounding === "sectional") meta += ` · judged on section index + relevant excerpts`;
+      const { text, note, fk } = levelContent(c, curLevel, isDefault);
+      const noteHtml = note ? `<div class="lvl-note">${esc(note)}</div>` : "";
+      const judgedNote = !isDefault
+        ? `<div class="lvl-judged-note">criteria were judged at the ${esc(dfltLevel.label)} level</div>` : "";
       return `<div class="summary-card ${c.is_human ? "human" : ""}">
         <header>
           <h4>${esc(c.label)}</h4>
-          <span class="scorebadge ${c.meets_standard ? "meets" : "misses"}">${c.meets_standard ? "Passed all" : c.n_passed + "/" + c.n_applicable}</span>
+          <span class="header-badges">${fkChip(fk, curLevel)}<span class="scorebadge ${c.meets_standard ? "meets" : "misses"}">${c.meets_standard ? "Passed all" : c.n_passed + "/" + c.n_applicable}</span></span>
         </header>
-        <div class="body">${esc(c.summary)}</div>
-        <div class="verdicts">${verdicts}<div style="margin-top:8px;color:var(--muted);font-size:12px">${meta}</div></div>
+        <div class="body">${esc(text)}</div>
+        ${noteHtml}
+        <div class="verdicts">${judgedNote}${verdicts}<div style="margin-top:8px;color:var(--muted);font-size:12px">${meta}</div></div>
       </div>`;
     }).join("");
+    const longNote = b.long_text
+      ? ' · <span style="color:#8a5a00" title="full text exceeds the single-prompt budget; summarized hierarchically">summarized via map-reduce (full text, no truncation)</span>' : "";
     detail.innerHTML = `
       <button class="detail-back">← Back to all bills</button>
       <div class="card" style="margin-top:14px">
@@ -246,14 +322,17 @@ async function initBills() {
         <h2 style="margin:4px 0 8px">${esc(b.title || "(untitled)")}</h2>
         <p class="lede" style="margin:0">
           <a href="${esc(b.congress_gov_url)}" target="_blank" rel="noopener">View full bill text on congress.gov →</a>
-          ${b.text_truncated ? ' · <span style="color:#8a5a00">bill text truncated for model input</span>' : ""}
+          ${b.text_truncated ? ' · <span style="color:#8a5a00">bill text truncated for model input</span>' : ""}${longNote}
         </p>
       </div>
+      ${levelToggleHtml}
       <div class="summaries-grid">${cards}</div>`;
     detail.querySelector(".detail-back").addEventListener("click", () => {
       detail.classList.add("hidden"); listWrap.classList.remove("hidden");
       window.scrollTo({ top: 0 });
     });
+    detail.querySelectorAll("[data-lvl]").forEach((btn) =>
+      btn.addEventListener("click", () => showDetail(id, btn.dataset.lvl)));
     listWrap.classList.add("hidden"); detail.classList.remove("hidden");
     window.scrollTo({ top: 0 });
   }
@@ -280,6 +359,21 @@ async function initMethodology() {
   document.getElementById("m-judge").innerHTML = `<code>${esc(data.judge_model)}</code>`;
   document.getElementById("m-summarize").textContent = data.prompts.summarize;
   document.getElementById("m-judge-prompt").textContent = data.prompts.judge;
+
+  const levelsBox = document.getElementById("m-summarize-levels");
+  if (levelsBox) {
+    if (data.prompts.summarize_levels) {
+      const sl = data.prompts.summarize_levels;
+      const levels = data.reading_levels || [];
+      const ids = levels.length ? levels.map((l) => l.id).filter((id) => sl[id]) : Object.keys(sl);
+      const labelFor = (id) => (levels.find((l) => l.id === id) || {}).label || id;
+      levelsBox.innerHTML =
+        `<p style="color:var(--muted);font-size:13px;margin:10px 0 6px">Per-level variants of the summarization prompt:</p>` +
+        ids.map((id) => `<details><summary>${esc(labelFor(id))}</summary><pre>${esc(sl[id])}</pre></details>`).join("");
+    } else {
+      levelsBox.innerHTML = "";
+    }
+  }
 }
 
 /* --------------------------------------------------------------------- CRS lag */

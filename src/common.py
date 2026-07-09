@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATASET = os.environ.get("CRS_DATASET", "").strip()
 _SFX = f"-{DATASET}" if DATASET else ""
 DATA_BILLS = ROOT / "data" / f"bills{_SFX}"
+DATA_REFERENCES = ROOT / "data" / f"references{_SFX}"  # committee/CBO baselines (issue #8)
 RESULTS = ROOT / f"results{_SFX}"
 SUMMARIES_DIR = RESULTS / "summaries"
 SCORES_DIR = RESULTS / "scores"

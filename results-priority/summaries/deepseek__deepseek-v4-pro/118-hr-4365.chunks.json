@@ -1,0 +1,21 @@
+{
+  "bill_id": "118-hr-4365",
+  "model": "deepseek/deepseek-v4-pro",
+  "n_chunks": 2,
+  "notes": {
+    "0": {
+      "notes": "Here are dense, factual working notes on the operative provisions in this text.\n\n### TITLE I — MILITARY PERSONNEL\n\n- **Purpose & Mechanism:** Appropriates funds for active and reserve component pay, allowances, travel, and payments to the DoD Military Retirement Fund. Covers specific duty statuses under title 10 and title 32 U.S.C.\n- **Military Personnel, Army:** $50,230,906,000.\n- **Military Personnel, Navy:** $37,615,388,000.\n- **Military Personnel, Marine Corps:** $15,556,629,000.\n- **Military Personnel, Air Force:** $36,512,530,000.\n- **Military Personnel, Space Force:** $1,239,573,000.\n- **Reserve Personnel, Army:** $5,367,436,000. Covers duty under 10 U.S.C. §§ 10211, 10302, 7038, 12301(d), 12310(a), 16131.\n- **Reserve Personnel, Navy:** $2,486,718,000. Covers duty under 10 U.S.C. §§ 10211, 12301(d), 12310(a), 16131.\n- **Reserve Personnel, Marine Corps:** $898,928,000. Covers duty under 10 U.S.C. §§ 10211, 12301(d), 12310(a), 16131, plus Marine Corps platoon leaders class.\n- **Reserve Personnel, Air Force:** $2,459,466,000. Covers duty under 10 U.S.C. §§ 10211, 10305, 9038, 12301(d), 12310(a), 16131.\n- **National Guard Personnel, Army:** $9,766,369,000. Covers duty under 10 U.S.C. §§ 10211, 10302, 12402, 12301(d), 12310(a); 32 U.S.C. §§ 502(f), 708; and 10 U.S.C. § 16131.\n- **National Guard Personnel, Air Force:** $5,234,625,000. Covers duty under same authorities as Army National Guard.\n\n### TITLE II — OPERATION AND MAINTENANCE\n\n- **Operation and Maintenance (O&M), Army:** $60,525,399,000, with numerous offsetting adjustments (e.g., -$15M, -$3M, +$3M, +$1M). Emergency/extraordinary expenses cap: $12,478,000, authorized by the Secretary of the Army.\n- **O&M, Navy:** $73,547,305,000 (adjustments inc. +$1M, -$5M, +$8.6M, -$55M). Emergency/extraordinary expenses cap: $15,055,000, authorized by the Secretary of the Navy.\n- **O&M, Marine Corps:** $10,909,609,000 (+$1M).\n- **O&M, Air Force:** $63,460,822,000 (adjustments inc. +$1M, -$5M). Emergency/extraordinary expenses cap: $7,699,000, authorized by the Secretary of the Air Force.\n- **O&M, Space Force:** $4,890,886,000 (adjustments inc. +$5M, -$8M).\n- **O&M, Defense-Wide:** $52,453,715,000, with numerous adjustments (e.g., -$1M, -$300M, +$5M).\n    - **Key Conditions & Set-Asides:**\n        - Combatant Commander Initiative Fund (10 U.S.C. § 166a) cap: $2,981,000.\n        - Emergency/extraordinary expenses cap: $36,000,000 (Secretary of Defense).\n        - Procurement Technical Assistance Cooperative Agreement Program: Not less than $55,000,000, with ≥$5M for centers (10 U.S.C. § 2411(1)(D)).\n        - Prohibits consolidation of budget/appropriations liaison offices into legislative affairs offices",
+      "prompt_tokens": 27049,
+      "completion_tokens": 1200,
+      "cost_usd": 0.01281,
+      "latency_s": 20.156
+    },
+    "1": {
+      "notes": "",
+      "prompt_tokens": 16131,
+      "completion_tokens": 1200,
+      "cost_usd": 0.008061,
+      "latency_s": 18.068
+    }
+  }
+}

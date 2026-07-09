@@ -1,0 +1,49 @@
+{
+  "bill_id": "118-hr-5009",
+  "model": "z-ai/glm-5.2",
+  "n_chunks": 21,
+  "notes": {
+    "0": {
+      "notes": "",
+      "prompt_tokens": 26670,
+      "completion_tokens": 1201,
+      "cost_usd": 0.016623,
+      "latency_s": 51.027
+    },
+    "1": {
+      "notes": "",
+      "prompt_tokens": 24973,
+      "completion_tokens": 1200,
+      "cost_usd": 0.015694,
+      "latency_s": 18.102
+    },
+    "2": {
+      "notes": "",
+      "prompt_tokens": 27807,
+      "completion_tokens": 1200,
+      "cost_usd": 0.017242,
+      "latency_s": 23.5
+    },
+    "3": {
+      "notes": "**SEC. 525 – Honorary Space Force Designation for Separated Air Force Members**\n- Adds new §9254 to Chapter 933, Title 10, U.S. Code.\n- Secretary of the Air Force may prescribe regulations designating eligible individuals as \"honorary separated members of the Space Force\" (\"Legacy Guardian\").\n- Eligible individual: determined by SecAF to have served in support of space operations as an Air Force member, and who separated (or previously separated) as an Air Force member.\n- Regulations may include: eligibility criteria (dates of service, constructive service credit), application process (by individual or survivor of deceased individual), and certificate/insignia.\n- Designation confers no additional benefits beyond those established by the section or its regulations.\n\n**SEC. 526 – Medal of Honor and Distinguished Service Cross Authorizations**\n- (a) President may posthumously award Medal of Honor to Roderick W. Edmonds (Master Sergeant, Army) for actions Jan 27–Mar 30, 1945. Waives time limitations in 10 U.S.C. §7274 and any other time limitation. Award under §7271.\n- (b) President may posthumously award Distinguished Service Cross to William D. Owens (Staff Sergeant, Army) for actions Jun 6–8, 1944, at La Fiere Bridge (previously awarded Bronze Star). Same time-limit waivers. Award under §7272.\n\n**SEC. 527 – Posthumous Advancement of General John D. Lavelle**\n- General John D. Lavelle (USAF, retired) entitled to hold rank of lieutenant general on the Air Force retired list.\n- No additional retired pay or other benefits accrue from the advancement; benefits to other persons unaffected.\n- Does not authorize advancement above lieutenant general.\n\n**SEC. 531 – Expansion of Report on Future Servicemember Preparatory Course**\n- Amends §546 of FY2024 NDAA (Public Law 118-31; 10 U.S.C. 520 note).\n- Subsection (c)(2): Graduation requirement changed — enlisted persons must achieve AFQT score at least 10 points higher than most recent pre-enlistment score, OR no longer be subject to restrictions of 10 U.S.C. §520.\n- Subsection (c)(3): \"course graduation requirements within 180 days of enlistment\" replaced with \"meaningful progress, as determined by the Secretary concerned, within 90 days of enlistment.\"\n- Subsection (d): Redesignates existing paragraph (4) as (6); adds new paragraphs (4) (Secretary's determination on course effectiveness) and (5) (recommendations on improving/expanding the course).\n\n**SEC. 532 – Promoting Military, National, and Public Service: Selective Service Data Sharing**\n- Amends §15(e) of the Military Selective Service Act (50 U.S.C. §3813(e)).\n- Expands data shared from \"names and addresses\" to \"full names, email addresses (if available), dates of birth, phone numbers (if available), and mailing addresses.\"\n- Conforming amendment to the sentence beginning \"Names and addresses furnished.\"\n- Effective date: 120 days after enactment of this Act.\n\n**SEC. 533 – Military Recruiter Physical Access to Secondary School Campuses**\n- (a) Adds new §8528A to the Elementary and Secondary Education Act of 1965 (20 U.S.C. §7908a): Each LEA receiving assistance must provide military recruiters the same access to secondary school campuses for recruiting students ≥17 years of age as provided to any prospective employer, institution of higher education, or other recruiter.\n- (b) Effective date: one year after enactment.\n- (c) Annual compliance monitoring: Secretary of Defense collects information from military recruiters on LEA compliance; prepares and submits report to Senate and House Armed Services Committees identifying each noncompliant LEA and explaining reasons.\n\n**SEC. 534 – MEPCOM: Acceleration of Review of Medical Records**\n- (a) Not later than 120 days after enactment, Secretary of Defense implements a program using health care providers from any Armed Forces component under DoD jurisdiction to support MEPCOM and accelerate medical records review.\n- (b) Not later than 180 days after enactment, Secretary provides briefing to SASC/HASC on actions taken.\n- (c) Not later than one year after enactment, Secretary submits report to SASC/HASC on program effects on recruitment, including speed of medical waiver processing.\n\n**SEC. 535 – Medical Accession Records Pilot Program: Notice of Termination**\n- Secretary of Defense must notify SASC/HASC at least one year before terminating the Medical Accession Records Pilot program.\n\n**SEC. 536 – Provision of Federal Service Information to Persons Ineligible to Enlist**\n- (a) Not later than 180 days after enactment, Secretary of Defense prescribes regulations directing the Secretary of a military department to provide ineligible persons information on Federal or other public service opportunities for which they may be qualified.\n- (b) Person described: ineligible to serve in a covered Armed Force.\n- (c) \"Covered Armed Force\" = Army, Navy, Marine Corps, Air Force, or Space Force.\n\n**SEC. 537 – Reimbursement of Applicants for Certain Medical Costs During Military Entrance Processing**\n- (a) Secretary of Defense may reimburse individuals applying to join a covered Armed Force for costs of a medical appointment required for military entrance processing.\n- (b) Maximum reimbursement: $100 per individual.\n- (c) Briefings to SASC/HASC: not",
+      "prompt_tokens": 27237,
+      "completion_tokens": 1200,
+      "cost_usd": 0.016931,
+      "latency_s": 12.486
+    },
+    "4": {
+      "notes": "",
+      "prompt_tokens": 26759,
+      "completion_tokens": 1200,
+      "cost_usd": 0.01667,
+      "latency_s": 22.218
+    },
+    "5": {
+      "notes": "",
+      "prompt_tokens": 26839,
+      "completion_tokens": 1201,
+      "cost_usd": 0.016715,
+      "latency_s": 19.837
+    }
+  }
+}

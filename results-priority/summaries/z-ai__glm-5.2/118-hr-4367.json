@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4367",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill, the Department of Homeland Security Appropriations Act, 2024, provides fiscal year 2024 funding for the Department of Homeland Security (DHS) and its components, including Customs and Border Protection (CBP), Immigration and Customs Enforcement (ICE), the Transportation Security Administration (TSA), the Coast Guard, the Secret Service, the Cybersecurity and Infrastructure Security Agency (CISA), and the Federal Emergency Management Agency (FEMA). \n\nThe bill sets specific funding levels for operations, procurement, and research across these agencies, while attaching numerous conditions and restrictions. It requires ICE to maintain at least 41,500 detention beds and mandates GPS monitoring for aliens on the non-detained docket. It prohibits funds from being used to implement specific immigration policies, including the \"Guidelines for the Enforcement of Civil Immigration Law,\" the \"Circumvention of Lawful Pathways\" rule, the Public Charge rule, and the Uniting for Ukraine program, while also preventing the termination of the Migrant Protection Protocols. It also restricts the use of the CBP One app to facilitate parole and bans the transportation of unlawfully present aliens into the interior for non-enforcement purposes.\n\nAdditionally, the bill prohibits funding for the Disinformation Governance Board, environmental justice strategies, climate-related executive orders, and COVID-19 vaccine or mask mandates. It bans the purchase of Chinese-manufactured drone systems and rescinds over $2 billion in prior-year unobligated balances. The legislation reduces the salaries of the Secretary of Homeland Security, the USCIS Director, and the DHS Chief of Staff to $1. It also includes general provisions requiring congressional notification for reprogramming funds, mandating quarterly acquisition briefings, and prohibiting DHS from restricting Members of Congress from inspecting detention facilities without prior notice. The appropriations and provisions apply to the fiscal year ending September 30, 2024.",
+  "prompt_tokens": 27508,
+  "completion_tokens": 3023,
+  "total_tokens": 30531,
+  "cost_usd": 0.020207,
+  "latency_s": 214.393,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

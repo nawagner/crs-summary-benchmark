@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7024",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The **Tax Relief for American Families and Workers Act of 2024** (H.R. 7024) makes several changes to federal tax law across six areas.\n\n**Child Tax Credit (Title I):** The bill changes how the refundable portion of the child tax credit is calculated so it is applied per qualifying child. It raises the maximum refundable amount from $1,400 to $1,800 (2023), $1,900 (2024), and $2,000 (2025), and indexes the credit for inflation beginning in 2024. Taxpayers may elect to use the prior year's earned income if it was higher. The IRS is directed to automatically recalculate credits for taxpayers who filed early 2023 returns.\n\n**Business tax incentives (Title II):** For tax years 2022–2025, the bill restores immediate deduction of domestic research and experimental expenditures (rather than requiring amortization), extends a more favorable calculation for the business interest deduction limitation and 100% bonus depreciation through 2025/2026, and raises Section 179 expensing limits to $1,290,000 (with a $3,220,000 phaseout threshold).\n\n**Taiwan (Title III):** It creates special tax rules (new Section 894A) reducing withholding rates and applying treaty-like \"permanent establishment\" concepts for qualified residents of Taiwan, contingent on Taiwan providing reciprocal benefits. It also authorizes the President to negotiate a tax agreement with Taiwan, subject to congressional notification, consultation, and approval/implementing legislation.\n\n**Disaster relief (Title IV):** The bill extends special rules for disaster-related personal casualty losses, excludes from income certain wildfire relief payments (for disasters declared after 2014, received 2020–2025), and treats East Palestine train derailment payments as tax-free disaster relief.\n\n**Housing (Title V):** It increases the state low-income housing credit ceiling for 2023–2025 and lowers (to 30%, under certain conditions) the tax-exempt bond financing threshold for the credit.\n\n**Tax administration (Title VI):** It raises the information-reporting threshold from $600 to $1,000 (indexed). It also imposes new penalties on promoters of COVID-related employee retention credits, bars claims filed after January 31, 2024, and extends the assessment period to six years.\n\nMost provisions apply to tax years beginning after December 31, 2022 or 2023.",
+  "prompt_tokens": 33223,
+  "completion_tokens": 796,
+  "total_tokens": 34019,
+  "cost_usd": 0.186015,
+  "latency_s": 11.76,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

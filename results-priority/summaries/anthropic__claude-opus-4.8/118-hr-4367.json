@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4367",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "# Summary of H.R. 4367 – Department of Homeland Security Appropriations Act, 2024\n\n## Primary Purpose\nThis bill provides funding for the Department of Homeland Security (DHS) for fiscal year 2024 (ending September 30, 2024), setting appropriations levels for the department's various components and attaching numerous conditions on how those funds may be used.\n\n## Major Funding Provisions\nThe bill appropriates money across five titles covering:\n- **Departmental management and oversight** (Office of the Secretary, Management Directorate, Intelligence and Analysis, Inspector General)\n- **Security and enforcement**: U.S. Customs and Border Protection (approximately $16.2 billion for operations plus roughly $2.97 billion for procurement/construction), Immigration and Customs Enforcement (approximately $9.8 billion, requiring at least 41,500 detention beds), Transportation Security Administration, Coast Guard, and Secret Service\n- **Preparedness and response**: Cybersecurity and Infrastructure Security Agency, FEMA (including grants and a $20.4 billion Disaster Relief Fund), and the National Flood Insurance Fund\n- **Research, training, and services**: E-Verify, Federal Law Enforcement Training Centers, Science and Technology Directorate, and the Countering Weapons of Mass Destruction Office\n\n## Notable Border and Immigration Provisions\n- Directs specific funding for physical barriers (steel bollard barriers 18–30 feet high) and prohibits dismantling existing barriers unless simultaneously repaired.\n- Blocks funds for certain immigration enforcement guidance memos, the CBP One parole application, the \"Circumvention of Lawful Pathways\" rule, and asylum-related rules.\n- Requires full detention capacity and GPS monitoring for non-detained individuals.\n\n## Policy Restrictions and Reductions\nThe bill bars funds for numerous specified activities, including a Disinformation Governance Board, COVID-19 vaccine/mask mandates, various climate and equity executive orders, and the Uniting for Ukraine program. Several provisions reduce specified officials' salaries (including the Secretary) to $1.\n\n## Rescissions and Reporting\nThe bill rescinds prior-year funds (including over $2 billion in border-barrier balances) and imposes extensive reporting, notification, and reprogramming requirements, generally requiring congressional notification 15–30 days before fund transfers.\n\nThe bill passed the House on September 28, 2023.",
+  "prompt_tokens": 43229,
+  "completion_tokens": 842,
+  "total_tokens": 44071,
+  "cost_usd": 0.237195,
+  "latency_s": 11.878,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

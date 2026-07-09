@@ -1,0 +1,14 @@
+{
+  "bill_id": "118-hr-4365",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill appropriates funds for military personnel and operation and maintenance accounts within the Department of Defense for fiscal year 2024. It provides specific dollar amounts for pay, allowances, travel, retirement contributions, and base operations across the active and reserve components, and it imposes conditions on the use of those funds.\n\nTitle I appropriates a total of $167.3 billion for military personnel. The largest allocations go to the active Army ($50.2 billion), Navy ($37.6 billion), Air Force ($36.5 billion), and Marine Corps ($15.6 billion), with $1.2 billion for the Space Force. Reserve and National Guard components receive an additional $27.2 billion combined: $5.4 billion for Army Reserve, $2.5 billion for Navy Reserve, $899 million for Marine Corps Reserve, $2.5 billion for Air Force Reserve, $9.8 billion for Army National Guard, and $5.2 billion for Air National Guard. These funds cover service under specific statutory duty authorities, including various sections of titles 10 and 32 of the U.S. Code.\n\nTitle II appropriates funds for operation and maintenance (O&M). Major amounts include $60.5 billion for the Army, $73.5 billion for the Navy, $10.9 billion for the Marine Corps, $63.5 billion for the Air Force, $4.9 billion for the Space Force, and $52.5 billion for defense-wide activities. Each O&M account carries a ceiling on emergency and extraordinary expenses: $12.5 million for the Secretary of the Army, $15.1 million for the Secretary of the Navy, $7.7 million for the Secretary of the Air Force, and $36 million for the Secretary of Defense. The defense-wide O&M appropriation also sets a cap of $2.98 million on the Combatant Commander Initiative Fund, requires not less than $55 million for the Procurement Technical Assistance Cooperative Agreement Program (with at least $5 million for centers under 10 U.S.C. § 2411), and explicitly prohibits consolidating budget and appropriations liaison offices into legislative affairs offices.\n\nA general provision in Title IV (Section 8062) restricts the use of funds appropriated in this or any other act, providing that none may be used to reduce certain personnel numbers if the force structure already exceeds a level specified in an approved test.",
+  "prompt_tokens": 44323,
+  "completion_tokens": 4862,
+  "total_tokens": 49185,
+  "cost_usd": 0.02351,
+  "latency_s": 69.566,
+  "ok": true,
+  "strategy": "map_reduce",
+  "n_chunks": 2,
+  "level": "general"
+}

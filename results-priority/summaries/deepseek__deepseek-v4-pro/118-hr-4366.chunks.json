@@ -1,0 +1,70 @@
+{
+  "bill_id": "118-hr-4366",
+  "model": "deepseek/deepseek-v4-pro",
+  "n_chunks": 13,
+  "notes": {
+    "0": {
+      "notes": "Here are the working notes for the PREAMBLE of the Consolidated Appropriations Act, 2024.\n\n**Sec. 1. Short Title**\n- **Purpose/Mechanism:** Establishes the Act's official name.\n- **Citation:** This Act may be cited as the \"Consolidated Appropriations Act, 2024\".\n\n**Sec. 2. Table of Contents**\n- **Purpose/Mechanism:** Lists the organizational structure of the Act, comprising the Preamble and six divisions (A through G).\n- **Divisions:**\n    - Division A: Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2024\n    - Division B: Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024\n    - Division C: Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024\n    - Division D: Energy and Water Development and Related Agencies Appropriations Act, 2024\n    - Division E: Department of the Interior, Environment, and Related Agencies Appropriations Act, 2024\n    - Division F: Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2024\n    - Division G: Other Matters\n\n**Sec. 3. References**\n- **Purpose/Mechanism:** Rule of construction for internal references within the Act.\n- **Provision:** Unless expressly provided otherwise, any reference to \"this Act\" contained in any division of this Act shall be treated as referring only to the provisions of that division.\n- **U.S. Code Note:** 1 USC 1 note.\n\n**Sec. 4. Explanatory Statement**\n- **Purpose/Mechanism:** Gives the force of a joint conference committee explanatory statement to a specific Senate document for the allocation and implementation of funds.\n- **Document Specified:** The explanatory statement regarding this Act, printed in the Senate section of the Congressional Record on or about March 5, 2024, and submitted by the chair of the Senate Committee on Appropriations.\n- **Scope of Effect:** The statement’s effect applies to Divisions A through F of this Act.\n\n**Sec. 5. Statement of Appropriations**\n- **Purpose/Mechanism:** Establishes the source of funds and the duration of their availability.\n- **Source:** Any money in the Treasury not otherwise appropriated.\n- **Fiscal Year:** For the fiscal year ending September 30, 2024.\n\n**Sec. 6. Availability of Funds**\n- **Purpose/Mechanism:** Establishes a condition precedent for the availability of funds designated as an \"emergency requirement.\"\n- **Condition:** Each amount designated by Congress as an emergency requirement per the Balanced Budget and Emergency Deficit Control Act of 1985 (sec. 251(b)(2)(A)(i)) shall be available (or repurposed, rescinded, or transferred) **only if** the President subsequently so designates **all** such amounts and transmits those designations to Congress.",
+      "prompt_tokens": 26025,
+      "completion_tokens": 1023,
+      "cost_usd": 0.012211,
+      "latency_s": 17.601
+    },
+    "1": {
+      "notes": "**Division A – Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2024**\n\n**TITLE IV – GENERAL PROVISIONS**\n\n-   **Sec. 401 (Duration of Obligational Authority):** Appropriations in this Act are not available for obligation beyond the current fiscal year unless expressly provided.\n-   **Sec. 402 (Compliance with Federal Law):** Prohibits use of funds for any program, project, or activity known by the receiving Federal entity to be out of compliance with Federal law regarding risk assessment, private property rights protection, or unfunded mandates.\n-   **Sec. 403 (E-Commerce):** Encourages departments/agencies to expand use of \"E-Commerce\" technologies within existing authority and funding.\n-   **Sec. 404 (Reporting):** Unless stated otherwise, all reports and notifications required by this Act must be submitted to the House and Senate Subcommittees on Military Construction and Veterans Affairs, and Related Agencies.\n-   **Sec. 405 (Transfer of Funds):** Prohibits transfer of funds to any US Government department, agency, or instrumentality except pursuant to a transfer made by, or authority provided in, this or another appropriations Act.\n-   **Sec. 406 (Naming for Members of Congress):** Prohibits use of funds for a project or program named for an individual currently serving as a Member, Delegate, or Resident Commissioner of the U.S. House of Representatives.\n-   **Sec. 407 (Public Posting of Reports):**\n    -   (a) Agencies must post any report required by Congress on their public website if the agency head determines it serves the national interest.\n    -   (b) Exception: Posting is not required if it compromises national security or contains confidential/proprietary information.\n    -   (c) Posting may only occur after the report has been available to the requesting Congressional Committees for at least 45 days.\n-   **Sec. 408 (Pornography on Networks):**\n    -   (a) Prohibits use of funds to maintain/establish a computer network unless it blocks viewing, downloading, and exchanging of pornography.\n    -   (b) Exception: Subsection (a) does not limit funds for Federal, State, tribal, or local law enforcement criminal investigations, prosecutions, or adjudications.\n-   **Sec. 409 (First-Class Travel):** Prohibits funds for first-class travel by executive branch employees in contravention of 41 CFR §§ 301-10.122 through 301-10.124.\n-   **Sec. 410 (Contracts and Executive Order 12989):** Prohibits use of funds to execute a contract for goods/services where the contractor has not complied with Executive Order No. 12989.\n-   **Sec. 411 (Contravention of 10 U.S.C. § 101(e)(8)):** Prohibits use of funds in contravention of 10 U.S.C. § 101(e)(8).\n-   **Sec. 412 (Guantanamo Bay Detainees):**\n    -   (a) Prohibits use of DoD funds in this Act to construct, renovate, or expand any U.S. facility to house any individual detained at U.S. Naval Station, Guantanamo Bay, Cuba, for detention/imprisonment under DoD custody/control.\n    -   (b) Exception: Prohibition does not apply to modifications of facilities at U.S. Naval Station, Guantanamo Bay, Cuba.\n    -   (c) Defines affected individuals as those located at Guantanamo Bay as of June 24, 2009, who are not U.S. citizens/Armed Forces members and are under DoD custody/effective control or otherwise under detention there.\n-   **Sec. 413 (VA Reporting on Mental Incompetency):** Prohibits use of funds by the Secretary of Veterans Affairs to report a person as \"adjudicated as a mental defective\" under 18 U.S.C. § 922(d)(4) or (g)(4) under the authority of 38 U.S.C. § 5502, without",
+      "prompt_tokens": 26493,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012568,
+      "latency_s": 14.895
+    },
+    "2": {
+      "notes": "",
+      "prompt_tokens": 24455,
+      "completion_tokens": 1200,
+      "cost_usd": 0.011682,
+      "latency_s": 28.625
+    },
+    "3": {
+      "notes": "",
+      "prompt_tokens": 27007,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012792,
+      "latency_s": 23.106
+    },
+    "4": {
+      "notes": "Here are the working notes for the operative provisions in the provided text, covering parts of Division C, TITLE V (Sec. 534-546) and Division D, TITLES I-III.\n\n### Division C (Commerce, Justice, Science, and Related Agencies Appropriations Act, 2024) – Title V Provisions\n\n**Sec. 534. Exports and imports. Canada. Firearms.**\n- **(a) Export License Exemption:** Prohibits use of funds by any U.S. department/agency to require an export license for exporting to Canada components, parts, accessories, or attachments for firearms listed in Category I of ITAR (22 CFR 121.1, as it existed April 1, 2005) if the total transaction value does not exceed $500 wholesale.\n    - **Condition:** The exporting party must meet the conditions of subsection (b).\n- **(b) Conditions on Exemption:**\n    - Does not exempt exporters from filing required Shipper's Export Declarations or notification letters, or from meeting general legal eligibility requirements.\n    - The exemption does not permit unlicensed export of:\n        - Fully automatic firearms and their parts/components (except for end use by Federal, Provincial, or Municipal Canadian governments).\n        - Barrels, cylinders, receivers (frames), or complete breech mechanisms for any Category I firearm (except for end use by said Canadian governments).\n        - Articles intended for export from Canada to another foreign destination.\n- **(c) Implementation:** Directs District Directors of Customs and postmasters to permit license-free export/import of specified unclassified articles for end-use in the U.S. or Canada, or return.\n- **(d) Presidential Authority:** The President may temporarily require export licenses under this section upon a determination, first published in the Federal Register, that Canada's import controls are inadequate, causing significant diversion of articles for international terrorism or conflict escalation. The requirement terminates when reasons cease.\n\n**Sec. 535. Firearms. Ammunition.**\n- Prohibits any department/agency from using funds to pay administrative expenses or compensation to deny any application submitted pursuant to 22 U.S.C. 2778(b)(1)(B) and qualified pursuant to 27 CFR 478.112 or .113, for a permit to import U.S.-origin \"curios or relics\" firearms, parts, or ammunition.\n\n**Sec. 536. Exports and imports. Firearms.**\n- Prohibits use of funds to pay salaries or expenses to deny, or fail to act on, an application to import any shotgun model if:\n    - (1) All other legal requirements are met; and\n    - (2) No application for that model in the same configuration was denied by the Attorney General before January 1, 2011, on the basis of lacking a sporting purpose.\n\n**Sec. 537. Arms Trade Treaty.**\n- Prohibits use of funds to implement the Arms Trade Treaty until the Senate approves a resolution of ratification.\n\n**Sec. 538. Khalid Sheikh Mohammed. Detainees.**\n- Prohibits use of funds to transfer, release, or assist in the transfer/release of Khalid Sheikh Mohammed or any other detainee to/within the U.S., its territories, or possessions if the detainee:\n    - (1) Is not a U.S. citizen or member of the U.S. Armed Forces; and\n    - (2) Is or was held at U.S. Naval Station, Guantanamo Bay, Cuba, by the Department of Defense on or after June 24, 2009.\n\n**Sec. 539. Detainees. Cuba.**\n- **(a) Prohibition:** Prohibits use of funds to construct, acquire, or modify any facility in the U.S. to house individuals described in subsection (c) for detention/imprisonment under DoD custody/control.\n- **(b) Exception:** The prohibition does not apply to modifications at U.S. Naval Station, Guantanamo Bay, Cuba.\n- **(c) Described Individuals:** Those located at Guantanamo as of June 24, 2009, who are not U.S. citizens/military members and are in DoD custody/control or otherwise detained there.\n\n**Sec. 540. Rescission and Reappropriation.**\n- **(a) USTR Salaries and Expenses:** Rescinds remaining unobligated balances as of Sept 30, 2024, from funds in Sec. 540(a) of division B of the Consolidated Appropriations Act, 2023 (P.L. 117-328). Appropriates an equivalent amount of new budget authority on Sept 30, 2024, for FY2024, to remain available until Sept 30, 2026, for the same purposes/authorities as in P.L. 116-113, with \"2023\" references changed to \"2026\".\n- **(b) USTR Trade Enforcement Trust Fund:** Rescinds remaining unobligated balances as of Sept 30, 2024, from funds in Sec. 540(b) of division B of P.L. 117-328. Appropriates an equivalent amount on Sept 30, 2024, for FY2024, available until Sept 30, 2026, for the same purposes/authorities as P.L. 116-113, with \"2023\" changed to \"2026\".\n- **(c) & (d) Emergency Designation:** Designates the rescinded amounts (previously designated as emergency under S. Con. Res. 14) and the new amounts provided as emergency requirements under section 251(b)(2)(A)(i) of the Balanced Budget and Emergency Deficit Control Act of 1985.\n\n**Sec. 541. Payments to the Judgment",
+      "prompt_tokens": 26792,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012699,
+      "latency_s": 27.096
+    },
+    "5": {
+      "notes": "",
+      "prompt_tokens": 25448,
+      "completion_tokens": 1201,
+      "cost_usd": 0.012115,
+      "latency_s": 30.448
+    },
+    "6": {
+      "notes": "",
+      "prompt_tokens": 26132,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012411,
+      "latency_s": 18.192
+    },
+    "7": {
+      "notes": "",
+      "prompt_tokens": 26251,
+      "completion_tokens": 1200,
+      "cost_usd": 0.012463,
+      "latency_s": 21.611
+    },
+    "8": {
+      "notes": "",
+      "prompt_tokens": 23786,
+      "completion_tokens": 1200,
+      "cost_usd": 0.011391,
+      "latency_s": 15.039
+    }
+  }
+}

@@ -1,10 +1,9 @@
-"""Tests for src/plot_lag.py: rendering docs/data/lag.json to a chart PNG.
+"""Tests for src/plot_lag.py: rendering docs/data/lag.json to chart PNGs.
 
-Covers both the old lag.json shape (no advanced-bills fields) and the new shape
-(additive advanced_n/advanced_summarized/advanced_coverage per month, plus a
-top-level stages block) — the old shape must render identically to today's
-chart (no overlay line, no legend), and the new shape must draw the rust-colored
-"advanced" overlay line only for months with enough advanced bills.
+The monthly chart is always just clean coverage-by-month bars (no overlay line).
+The stage-coverage story lives in a SEPARATE horizontal bar chart drawn from the
+`stages` census block — produced only when that block is present, so old lag.json
+files (without stages) still render the monthly chart and simply skip the second one.
 """
 from __future__ import annotations
 
@@ -45,23 +44,15 @@ def _old_shape_lag() -> dict:
 
 def _new_shape_lag() -> dict:
     d = _old_shape_lag()
-    for i, m in enumerate(d["months"]):
-        # alternate between well-sampled months (>= threshold) and thin months
-        # (below the ADVANCED_MIN_N threshold) so the overlay line has a gap.
-        advanced_n = 25 if i % 2 == 0 else 3
-        advanced_summarized = int(advanced_n * (0.4 + 0.03 * i))
-        m["advanced_n"] = advanced_n
-        m["advanced_summarized"] = advanced_summarized
-        m["advanced_coverage"] = advanced_summarized / advanced_n
     d["stages"] = {
-        "floor": {"total": 300, "summarized": 291, "pct": 0.97},
-        "committee": {"total": 900, "summarized": 500, "pct": 0.556},
-        "introduced": {"total": 9000, "summarized": 2700, "pct": 0.3},
+        "floor": {"total": 631, "summarized": 601, "pct": 0.952},
+        "committee": {"total": 1336, "summarized": 471, "pct": 0.352},
+        "introduced": {"total": 12562, "summarized": 3174, "pct": 0.253},
     }
     return d
 
 
-def test_old_shape_renders_png_without_error(tmp_path: Path) -> None:
+def test_monthly_chart_renders_without_error(tmp_path: Path) -> None:
     data_path = tmp_path / "lag.json"
     out_path = tmp_path / "crs-lag.png"
     data_path.write_text(json.dumps(_old_shape_lag()))
@@ -73,59 +64,59 @@ def test_old_shape_renders_png_without_error(tmp_path: Path) -> None:
     assert fig is not None
 
 
-def test_old_shape_has_no_advanced_overlay_or_legend(tmp_path: Path) -> None:
+def test_monthly_chart_has_no_overlay_line_or_legend(tmp_path: Path) -> None:
+    # the monthly chart is always clean bars — no overlay line, regardless of
+    # whether the data carries the stages block.
+    for shape in (_old_shape_lag(), _new_shape_lag()):
+        data_path = tmp_path / "lag.json"
+        out_path = tmp_path / "crs-lag.png"
+        data_path.write_text(json.dumps(shape))
+
+        fig = P.main(data_path, out_path)
+        ax = fig.axes[0]
+
+        assert len(ax.lines) == 0
+        assert ax.get_legend() is None
+
+
+def test_old_shape_writes_no_stages_chart(tmp_path: Path) -> None:
     data_path = tmp_path / "lag.json"
     out_path = tmp_path / "crs-lag.png"
+    stages_out = tmp_path / "crs-lag-stages.png"
     data_path.write_text(json.dumps(_old_shape_lag()))
 
-    fig = P.main(data_path, out_path)
-    ax = fig.axes[0]
+    P.main(data_path, out_path, stages_out)
 
-    # bars are patches, not Line2D objects, so an unmodified chart has no lines
-    assert len(ax.lines) == 0
-    assert ax.get_legend() is None
+    assert out_path.exists()          # monthly chart still drawn
+    assert not stages_out.exists()    # no stages block -> no second chart
 
 
-def test_new_shape_renders_png_without_error(tmp_path: Path) -> None:
+def test_new_shape_writes_stages_chart(tmp_path: Path) -> None:
     data_path = tmp_path / "lag.json"
     out_path = tmp_path / "crs-lag.png"
+    stages_out = tmp_path / "crs-lag-stages.png"
     data_path.write_text(json.dumps(_new_shape_lag()))
 
-    fig = P.main(data_path, out_path)
+    P.main(data_path, out_path, stages_out)
 
-    assert out_path.exists()
-    assert out_path.stat().st_size > 0
-
-
-def test_new_shape_draws_advanced_overlay_line(tmp_path: Path) -> None:
-    data_path = tmp_path / "lag.json"
-    out_path = tmp_path / "crs-lag.png"
-    data_path.write_text(json.dumps(_new_shape_lag()))
-
-    fig = P.main(data_path, out_path)
-    ax = fig.axes[0]
-
-    assert len(ax.lines) == 1
-    line = ax.lines[0]
-    assert line.get_color() == P.ADVANCED_COLOR
-    assert ax.get_legend() is not None
+    assert stages_out.exists()
+    assert stages_out.stat().st_size > 0
 
 
-def test_new_shape_overlay_has_gaps_below_threshold(tmp_path: Path) -> None:
-    data_path = tmp_path / "lag.json"
-    out_path = tmp_path / "crs-lag.png"
+def test_plot_stages_bars_match_census(tmp_path: Path) -> None:
+    stages_out = tmp_path / "crs-lag-stages.png"
     d = _new_shape_lag()
-    data_path.write_text(json.dumps(d))
 
-    fig = P.main(data_path, out_path)
-    line = fig.axes[0].lines[0]
-    ydata = line.get_ydata()
+    fig = P.plot_stages(d, stages_out)
+    ax = fig.axes[0]
 
-    # months with advanced_n below ADVANCED_MIN_N (the odd-indexed months, set to
-    # 3 above) should be NaN gaps rather than interpolated values.
-    for i, m in enumerate(d["months"]):
-        if m["advanced_n"] < P.ADVANCED_MIN_N:
-            assert ydata[i] != ydata[i]  # NaN != NaN
-        else:
-            assert ydata[i] == pytest.approx(m["advanced_coverage"] * 100)
+    # one rounded bar patch per stage, widths proportional to pct
+    from matplotlib.patches import FancyBboxPatch
+    widths = sorted(p.get_width() for p in ax.patches if isinstance(p, FancyBboxPatch))
+    assert widths == pytest.approx([25.3, 35.2, 95.2], abs=0.5)
+
+
+def test_plot_stages_returns_none_without_stages(tmp_path: Path) -> None:
+    assert P.plot_stages(_old_shape_lag(), tmp_path / "x.png") is None
+    assert not (tmp_path / "x.png").exists()
 

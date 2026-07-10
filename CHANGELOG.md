@@ -19,7 +19,9 @@ parallel Claude Code subagents. 137 offline tests pass (`pytest tests/`).
   bill's latest action (the random sample alone was too sparse to measure floor bills),
   plus per-stage coverage and a census-vs-full-history classifier agreement check. Added
   `--out` and an offline `--fixture` dry-run mode.
-- `src/plot_lag.py` overlays an "advanced bills" coverage line on the monthly chart;
+- `src/plot_lag.py` now renders **two** charts: coverage by month of introduction
+  (`crs-lag.png`, the timing lag) and a separate coverage-by-stage bar chart
+  (`crs-lag-stages.png`, from the census — the clean "CRS covers what moves" signal).
   `docs/lag.html` and `initLag()` reframe the headline around coverage of bills that move.
 - **Real data (live API, 1,098 bills sampled):** floor **95.2%** (601/631), committee
   **35.2%** (471/1,336), introduced-only **25.3%** (3,174/12,562); classifiers agree

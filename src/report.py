@@ -124,9 +124,16 @@ def build_pavement_html(ordered, bills_out) -> str:
     allv = sorted(v for vs in lengths.values() for v in vs)
     if not allv:
         return ""
+    # A few extreme outliers — e.g. CRS summaries of thousand-page omnibus appropriations
+    # bills, 5-25x a normal summary — would compress every real lane if the axis had to
+    # reach them. Fit all in-family values on the axis (so the right edge is the largest
+    # *real* summary, not an arbitrary clip), and push only the extreme outliers off-scale,
+    # where the range column still reports each lane's true span. Threshold: a generous
+    # multiple of the 90th percentile, so genuine long summaries stay on-axis.
     p90 = allv[min(len(allv) - 1, int(0.90 * len(allv)))]
-    dmax = max(_nice_ceil(p90), 200)
-    clipped = allv[-1] > dmax  # any lane runs past the shared axis
+    inliers = [v for v in allv if v <= 2.5 * p90]
+    dmax = max(_nice_ceil(inliers[-1] if inliers else allv[-1]), 200)
+    n_off = sum(1 for v in allv if v > dmax)  # values pushed off the right edge
 
     # one distinct hue per summarizer (matched by id substring, with a fallback cycle)
     PALETTE = {"anthropic": "#c0392b", "openai": "#1a7f4b", "google": "#1f6fb2",
@@ -168,8 +175,8 @@ def build_pavement_html(ordered, bills_out) -> str:
         f'<span style="position:absolute;left:{v / dmax * 100:.2f}%;transform:translateX(-50%)">{v:,}</span>'
         for v in range(0, dmax + 1, step)
     )
-    note = (f" &middot; axis clipped at {dmax:,}w; ranges at right show each lane's true span"
-            if clipped else "")
+    note = (f" &middot; {n_off} outlier summar{'y' if n_off == 1 else 'ies'} above {dmax:,}w "
+            f"omitted from the axis; true spans at right" if n_off else "")
     axis = (f'<tr><td></td><td class="pv-axis"><div style="position:relative;height:1.1em">{ticks}</div>'
             f'<div class="pv-axis-lab">words per summary{note}</div></td><td></td></tr>')
     style = (

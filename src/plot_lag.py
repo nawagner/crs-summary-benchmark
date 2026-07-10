@@ -150,6 +150,11 @@ def _draw_monthly_volume(ax, months, labels, xs) -> None:
         if t:
             ax.text(x, t + top * 0.012, f"{t:,}", ha="center", va="bottom",
                     fontsize=6.5, color=MUTED)
+    # summarized count, in blue, just above each blue (summarized) segment
+    for x, s in zip(xs, summ):
+        if s:
+            ax.text(x, s + top * 0.012, f"{s:,}", ha="center", va="bottom",
+                    fontsize=6.5, color=SUMMARIZED_BLUE, fontweight="bold", zorder=4)
 
     ax.set_ylim(0, top)
     ax.set_yticks(list(range(0, top + 1, step)))

@@ -62,3 +62,18 @@ def test_monthly_advanced_coverage(tmp_path, monkeypatch):
     assert (feb["n"], feb["summarized"], feb["advanced_n"], feb["advanced_summarized"]) == (3, 3, 3, 3)
     assert (mar["n"], mar["summarized"], mar["advanced_n"], mar["advanced_summarized"]) == (4, 2, 3, 2)
     assert mar["advanced_coverage"] == round(2 / 3, 4)
+
+
+def test_monthly_volume_from_full_census(tmp_path, monkeypatch):
+    monkeypatch.delenv("CRS_CONFIG", raising=False)
+    out, _ = run(tmp_path)
+    months = {m["month"]: m for m in out["months"]}
+    # every censused bill placed on the timeline via the number->month curve; in this
+    # fixture the sample covers the whole population, so volume == census counts.
+    assert (months["2025-01"]["volume_total"], months["2025-01"]["volume_summarized"]) == (3, 1)
+    assert (months["2025-02"]["volume_total"], months["2025-02"]["volume_summarized"]) == (3, 3)
+    assert (months["2025-03"]["volume_total"], months["2025-03"]["volume_summarized"]) == (4, 2)
+    # volume is the full population (10 bills), not the sample
+    assert sum(m["volume_total"] for m in out["months"]) == 10
+    assert sum(m["volume_summarized"] for m in out["months"]) == 6
+    assert "volume_method" in out

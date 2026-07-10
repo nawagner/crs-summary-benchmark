@@ -120,6 +120,63 @@ def plot_stages(d: dict, out_path: Path) -> plt.Figure | None:
     return fig
 
 
+SUMMARIZED_BLUE = "#2b6aa3"
+UNSUMMARIZED = "#eef1f4"
+UNSUMMARIZED_EDGE = "#cfd6de"
+
+
+def _nice_step(ymax: int) -> int:
+    for step in (25, 50, 100, 200, 250, 500, 1000, 2000, 5000):
+        if ymax / step <= 6:
+            return step
+    return 10000
+
+
+def _draw_monthly_volume(ax, months, labels, xs) -> None:
+    """Stacked bars of bills introduced per month: summarized (blue) vs not yet (off-white).
+    Shows both volume over time and the coverage within each month at a glance."""
+    summ = [m.get("volume_summarized", 0) for m in months]
+    tot = [m.get("volume_total", 0) for m in months]
+    nots = [t - s for t, s in zip(tot, summ)]
+
+    ax.bar(xs, summ, width=0.72, color=SUMMARIZED_BLUE, zorder=3, label="has a CRS summary")
+    ax.bar(xs, nots, width=0.72, bottom=summ, color=UNSUMMARIZED, edgecolor=UNSUMMARIZED_EDGE,
+           linewidth=0.7, zorder=3, label="no summary yet")
+
+    ymax = max(tot) if tot else 1
+    step = _nice_step(ymax)
+    top = ((ymax // step) + 1) * step
+    for x, t in zip(xs, tot):
+        if t:
+            ax.text(x, t + top * 0.012, f"{t:,}", ha="center", va="bottom",
+                    fontsize=6.5, color=MUTED)
+
+    ax.set_ylim(0, top)
+    ax.set_yticks(list(range(0, top + 1, step)))
+    ax.set_yticklabels([f"{v:,}" for v in range(0, top + 1, step)], fontsize=9, color=FAINT)
+    ax.set_ylabel("bills introduced", fontsize=9.5, color=MUTED)
+    ax.legend(loc="upper right", frameon=False, fontsize=8.5, labelcolor=MUTED,
+              handlelength=1.1, borderaxespad=0.4)
+
+
+def _draw_monthly_coverage(ax, months, labels, xs) -> None:
+    """Legacy view for lag.json without volume fields: coverage % bars by month."""
+    cov = [m["coverage"] * 100 for m in months]
+    rounded_bars(ax, xs, cov)
+    for x, v in zip(xs, cov):
+        ax.text(x, v + 2.2, f"{round(v)}", ha="center", va="bottom", fontsize=8, color=MUTED)
+    ax.set_ylim(0, 100)
+    ax.set_yticks([0, 25, 50, 75, 100])
+    ax.set_yticklabels(["0", "25", "50", "75", "100%"], fontsize=9.5, color=FAINT)
+    recent_from = max(0, len(cov) - 6)
+    ax.axvspan(recent_from - 0.5, len(cov) - 0.5, color="#f4a26122", zorder=1)
+    ax.annotate("recent bills: mostly\nnot yet summarized",
+                xy=(len(cov) - 2.4, 9), xytext=(len(cov) - 6.2, 62),
+                fontsize=9, color="#9a5b1d", ha="left", va="center",
+                arrowprops=dict(arrowstyle="-|>", color="#c47a2c", lw=1.2,
+                                connectionstyle="arc3,rad=-0.2"))
+
+
 def main(data_path: Path | None = None, out_path: Path | None = None,
          stages_out: Path | None = None) -> plt.Figure:
     if data_path is None:
@@ -132,22 +189,19 @@ def main(data_path: Path | None = None, out_path: Path | None = None,
     d = json.load(open(data_path))
     months = d["months"]
     labels = [datetime.strptime(m["month"], "%Y-%m").strftime("%b '%y") for m in months]
-    cov = [m["coverage"] * 100 for m in months]
-    xs = list(range(len(cov)))
+    xs = list(range(len(months)))
+    has_volume = any(m.get("volume_total") for m in months)
 
     fig, ax = plt.subplots(figsize=(9.6, 4.6), dpi=200)
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
 
-    rounded_bars(ax, xs, cov)
-    for x, v in zip(xs, cov):
-        ax.text(x, v + 2.2, f"{round(v)}", ha="center", va="bottom",
-                fontsize=8, color=MUTED)
+    if has_volume:
+        _draw_monthly_volume(ax, months, labels, xs)
+    else:
+        _draw_monthly_coverage(ax, months, labels, xs)
 
-    ax.set_xlim(-0.7, len(cov) - 0.3)
-    ax.set_ylim(0, 100)
-    ax.set_yticks([0, 25, 50, 75, 100])
-    ax.set_yticklabels(["0", "25", "50", "75", "100%"], fontsize=9.5, color=FAINT)
+    ax.set_xlim(-0.7, len(months) - 0.3)
     ax.set_xticks(xs)
     ax.set_xticklabels(labels, rotation=0, fontsize=8.2, color=MUTED)
     ax.tick_params(length=0)
@@ -157,20 +211,12 @@ def main(data_path: Path | None = None, out_path: Path | None = None,
     for s in ax.spines.values():
         s.set_visible(False)
 
-    # callout over the recent, barely-covered stretch
-    recent_from = max(0, len(cov) - 6)
-    ax.axvspan(recent_from - 0.5, len(cov) - 0.5, color="#f4a26122", zorder=1)
-    ax.annotate("recent bills: mostly\nnot yet summarized",
-                xy=(len(cov) - 2.4, 9), xytext=(len(cov) - 6.2, 62),
-                fontsize=9, color="#9a5b1d", ha="left", va="center",
-                arrowprops=dict(arrowstyle="-|>", color="#c47a2c", lw=1.2,
-                                connectionstyle="arc3,rad=-0.2"))
-
     asof = d.get("generated_at", "").split(" ")[0]
-    ax.text(0.5, -0.16, f"119th Congress · House + Senate bills · {d.get('sampled')} sampled · as of {asof}",
+    tail = "full House + Senate population" if has_volume else f"{d.get('sampled')} sampled"
+    ax.text(0.5, -0.16, f"119th Congress · {tail} · as of {asof}",
             transform=ax.transAxes, ha="center", va="top", fontsize=8.5, color=FAINT)
 
-    fig.subplots_adjust(top=0.94, bottom=0.16, left=0.06, right=0.985)
+    fig.subplots_adjust(top=0.94, bottom=0.16, left=0.075, right=0.985)
     fig.savefig(out_path, facecolor="white")
     print(f"wrote {out_path}")
 

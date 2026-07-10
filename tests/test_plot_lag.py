@@ -52,6 +52,14 @@ def _new_shape_lag() -> dict:
     return d
 
 
+def _volume_shape_lag() -> dict:
+    d = _new_shape_lag()
+    for i, m in enumerate(d["months"]):
+        m["volume_total"] = 2400 - i * 120          # declining volume over the session
+        m["volume_summarized"] = int(m["volume_total"] * m["coverage"])
+    return d
+
+
 def test_monthly_chart_renders_without_error(tmp_path: Path) -> None:
     data_path = tmp_path / "lag.json"
     out_path = tmp_path / "crs-lag.png"
@@ -65,8 +73,8 @@ def test_monthly_chart_renders_without_error(tmp_path: Path) -> None:
 
 
 def test_monthly_chart_has_no_overlay_line_or_legend(tmp_path: Path) -> None:
-    # the monthly chart is always clean bars — no overlay line, regardless of
-    # whether the data carries the stages block.
+    # without volume data the monthly chart is the legacy coverage view: clean bars,
+    # no overlay line, no legend, regardless of whether the stages block is present.
     for shape in (_old_shape_lag(), _new_shape_lag()):
         data_path = tmp_path / "lag.json"
         out_path = tmp_path / "crs-lag.png"
@@ -77,6 +85,29 @@ def test_monthly_chart_has_no_overlay_line_or_legend(tmp_path: Path) -> None:
 
         assert len(ax.lines) == 0
         assert ax.get_legend() is None
+
+
+def test_volume_shape_draws_stacked_count_bars(tmp_path: Path) -> None:
+    import matplotlib.pyplot as plt  # noqa: E402
+
+    data_path = tmp_path / "lag.json"
+    out_path = tmp_path / "crs-lag.png"
+    d = _volume_shape_lag()
+    data_path.write_text(json.dumps(d))
+
+    fig = P.main(data_path, out_path)
+    ax = fig.axes[0]
+
+    # two stacked bar series (summarized + not-summarized) => a labeled legend
+    legend = ax.get_legend()
+    assert legend is not None
+    labels = {t.get_text() for t in legend.get_texts()}
+    assert "has a CRS summary" in labels and "no summary yet" in labels
+    # one rectangle per series per month (plus matplotlib may add a frame patch)
+    n = len(d["months"])
+    rects = [p for p in ax.patches if isinstance(p, plt.Rectangle)]
+    assert len(rects) >= 2 * n
+    assert out_path.exists() and out_path.stat().st_size > 0
 
 
 def test_old_shape_writes_no_stages_chart(tmp_path: Path) -> None:

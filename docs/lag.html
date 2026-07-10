@@ -40,11 +40,13 @@
     <img src="assets/crs-lag-stages.png" alt="Horizontal bar chart: CRS summary coverage by furthest legislative stage reached — bills that reached the floor 95% (601 of 631), bills with committee action 35% (471 of 1,336), bills introduced only 25% (3,174 of 12,562)." style="width:100%;height:auto;display:block">
   </div>
 
-  <h2>Coverage by month of introduction</h2>
-  <p style="margin:0 0 12px;color:var(--muted)">The timing lag, from a random sample of bills: recent
-  bills have barely been summarized yet, and coverage builds only over a year or more.</p>
+  <h2>Volume and coverage by month of introduction</h2>
+  <p style="margin:0 0 12px;color:var(--muted)">How many bills were introduced each month, split into
+  those that already have a CRS summary (blue) and those that don't yet (off-white). Two things stand out:
+  far more bills are introduced early in a Congress, and the summarized share shrinks steadily toward the
+  present — recent bills have barely been covered yet.</p>
   <div class="card" style="padding:16px 18px">
-    <img src="assets/crs-lag.png" alt="Bar chart: share of 119th-Congress bills with a CRS summary by month of introduction, falling from about 92% for January 2025 to near 0% for mid-2026." style="width:100%;height:auto;display:block">
+    <img src="assets/crs-lag.png" alt="Stacked bar chart: bills introduced per month in the 119th Congress, each bar split into the number with a CRS summary (blue) and without one yet (off-white). Volume is highest in early 2025 and declines; the summarized share falls from most of the bar early on to almost none for recent months." style="width:100%;height:auto;display:block">
   </div>
 
   <h2>What this shows</h2>
@@ -67,13 +69,15 @@
 
   <h2>How it's measured</h2>
   <div class="card">
-    <p style="margin-top:0">We take the count of bills that have a CRS summary (from the Congress.gov
-    <code>/summaries</code> listing), then sample bills across the numbering range, look up each one's
-    <code>introducedDate</code>, and check whether it has a summary now — giving coverage by introduction
-    month. We measure <em>whether a summary exists today</em> rather than its exact authoring date, because
-    Congress.gov's <code>updateDate</code> fields are bulk-refreshed and unreliable for timing. Monthly
-    samples are ~20–120 bills each, so individual months are noisy. Reproduce with
-    <code>python src/analyze_lag.py</code> then <code>python src/plot_lag.py</code>.</p>
+    <p style="margin-top:0">The monthly chart counts the <em>full population</em> of House and Senate bills,
+    not a sample. We list every bill (the Congress.gov bill endpoint) and note which have a CRS summary
+    (the <code>/summaries</code> listing). Bill numbers are assigned in order of introduction, so we fetch
+    the <code>introducedDate</code> for ~1,100 bills spread across the numbering range to build a
+    number&nbsp;&rarr;&nbsp;month curve, then place every bill on the timeline through it — giving true
+    monthly volume without fetching all ~14,500 dates. We measure <em>whether a summary exists today</em>
+    rather than its exact authoring date, because Congress.gov's <code>updateDate</code> fields are
+    bulk-refreshed and unreliable for timing. Reproduce with <code>python src/analyze_lag.py</code> then
+    <code>python src/plot_lag.py</code>.</p>
     <p>Stage figures come from a census of every House and Senate bill's latest action (the Congress.gov
     list endpoint), classified into introduced / committee / floor by a small pattern table
     (<code>src/stages.py</code>). Sampled bills' full action histories are classified the same way, and the

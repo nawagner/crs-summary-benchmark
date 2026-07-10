@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import bisect
 import json
 import os
 import random
@@ -108,7 +109,7 @@ async def census_latest_actions(get, congress, btype):
 
 async def sample_bills(get, congress, btype, total, k, summ):
     """Sample bill numbers; per resolved bill return
-    (intro_date, has_summary, stage_from_full_actions, latest_action_text)."""
+    (number, intro_date, has_summary, stage_from_full_actions, latest_action_text)."""
     nums = sorted(random.sample(range(1, total + 1), min(k, total)))
     sem = asyncio.Semaphore(12)
 
@@ -121,11 +122,32 @@ async def sample_bills(get, congress, btype, total, k, summ):
                 latest = (bill.get("latestAction") or {}).get("text") or ""
                 acts = await get(f"bill/{congress}/{btype}/{n}/actions", limit=250)
                 stage = stages.classify_stage(acts.get("actions", []))
-                return intro, (n in summ), stage, latest
+                return n, intro, (n in summ), stage, latest
             except Exception:  # noqa: BLE001
-                return None, (n in summ), None, ""
+                return n, None, (n in summ), None, ""
 
-    return [r for r in await asyncio.gather(*[one(n) for n in nums]) if r[0]]
+    return [r for r in await asyncio.gather(*[one(n) for n in nums]) if r[1]]
+
+
+def month_mapper(rows):
+    """Build number -> introduction-month lookup from sampled (number, intro, ...) rows.
+
+    Bill numbers within a chamber are assigned in introduction order, so the sample is a
+    dense number->month curve (~1 point per dozen bills). For any bill number we take the
+    month of the sampled bill with the largest number <= it (a step function) — letting us
+    place every bill in the full census on the timeline without fetching each one's date.
+    """
+    pts = sorted((num, intro[:7]) for num, intro, *_ in rows if intro)
+    nums = [p[0] for p in pts]
+    mons = [p[1] for p in pts]
+
+    def month_for(n):
+        if not nums:
+            return None
+        i = max(0, bisect.bisect_right(nums, n) - 1)
+        return mons[i]
+
+    return month_for
 
 
 async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
@@ -147,12 +169,14 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
     try:
         chambers, sample = {}, []
         stage_counts = {st: [0, 0] for st in stages.STAGE_ORDER}  # stage -> [total, summarized]
+        volume = defaultdict(lambda: [0, 0])  # month -> [total_bills, summarized_bills]
         for btype, k in (("hr", hr_k), ("s", s_k)):
             total = (await get(f"bill/{congress}/{btype}", limit=1))["pagination"]["count"]
             summ = await summarized_numbers(get, congress, btype, from_date, to_date)
 
+            census = await census_latest_actions(get, congress, btype)
             # full census: exact per-stage totals from every bill's latestAction text
-            for n, latest in await census_latest_actions(get, congress, btype):
+            for n, latest in census:
                 st = stages.classify_action_text(latest)
                 stage_counts[st][0] += 1
                 if n in summ:
@@ -160,6 +184,18 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
 
             rows = await sample_bills(get, congress, btype, total, k, summ)
             sample += rows
+
+            # true monthly VOLUME: place every censused bill on the timeline via the
+            # sampled number->month curve, then tally introduced vs. summarized per month.
+            month_for = month_mapper(rows)
+            for n, latest in census:
+                m = month_for(n)
+                if m is None:
+                    continue
+                volume[m][0] += 1
+                if n in summ:
+                    volume[m][1] += 1
+
             chambers[btype] = {"total": total, "summarized": len(summ),
                                "pct": round(len(summ) / total, 4)}
             print(f"{btype}: {len(summ)}/{total} summarized ({len(summ)/total*100:.0f}%), sampled {len(rows)}")
@@ -167,22 +203,28 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
         # validity check: does the cheap latestAction classifier agree with the
         # full-action-history classifier on the sampled bills?
         pairs = [(stages.classify_action_text(latest), st)
-                 for _, _, st, latest in sample if st is not None and latest]
+                 for _, _, _, st, latest in sample if st is not None and latest]
         agreement = round(sum(1 for a, b in pairs if a == b) / len(pairs), 4) if pairs else None
 
         by = defaultdict(lambda: [0, 0, 0, 0])  # month -> [n, summarized, advanced_n, advanced_summarized]
-        for intro, has, stage, _ in sample:
+        for _, intro, has, stage, _ in sample:
             row = by[intro[:7]]
             row[0] += 1
             row[1] += 1 if has else 0
             if stage in ADVANCED:
                 row[2] += 1
                 row[3] += 1 if has else 0
-        months = [{"month": m, "n": by[m][0], "summarized": by[m][1],
-                   "coverage": round(by[m][1] / by[m][0], 4),
-                   "advanced_n": by[m][2], "advanced_summarized": by[m][3],
-                   "advanced_coverage": round(by[m][3] / by[m][2], 4) if by[m][2] else None}
-                  for m in sorted(by)]
+        months = []
+        for m in sorted(set(by) | set(volume)):
+            n, summ_n, adv_n, adv_s = by.get(m, [0, 0, 0, 0])
+            vt, vs = volume.get(m, [0, 0])
+            months.append({
+                "month": m, "n": n, "summarized": summ_n,
+                "coverage": round(summ_n / n, 4) if n else None,
+                "advanced_n": adv_n, "advanced_summarized": adv_s,
+                "advanced_coverage": round(adv_s / adv_n, 4) if adv_n else None,
+                "volume_total": vt, "volume_summarized": vs,
+            })
 
         out = {
             "generated_at": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
@@ -195,6 +237,9 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
             "stage_method": ("latestAction-text census over every hr/s bill (list endpoint), "
                              "validated against full /actions classification on the sample"),
             "stage_agreement": agreement,
+            "volume_method": ("every censused bill placed on the timeline via the sampled "
+                              "bill-number->introduction-month curve (numbers are assigned in "
+                              "introduction order); counts are the full population, not the sample"),
             "months": months,
         }
         C.write_json(out_path, out)

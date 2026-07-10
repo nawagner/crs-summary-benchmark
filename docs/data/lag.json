@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10 14:47:32 UTC",
+  "generated_at": "2026-07-10 16:00:03 UTC",
   "congress": 119,
-  "sampled": 1098,
+  "sampled": 500,
   "chambers": {
     "hr": {
       "total": 9640,
-      "summarized": 2917,
-      "pct": 0.3026
+      "summarized": 2920,
+      "pct": 0.3029
     },
     "s": {
       "total": 4928,
-      "summarized": 1343,
-      "pct": 0.2725
+      "summarized": 1347,
+      "pct": 0.2733
     }
   },
   "stages": {
@@ -22,8 +22,8 @@
     },
     "committee": {
       "total": 1336,
-      "summarized": 480,
-      "pct": 0.3593
+      "summarized": 487,
+      "pct": 0.3645
     },
     "floor": {
       "total": 631,
@@ -32,215 +32,101 @@
     }
   },
   "stage_method": "latestAction-text census over every hr/s bill (list endpoint), validated against full /actions classification on the sample",
-  "stage_agreement": 0.9153,
-  "volume_method": "every censused bill placed on the timeline via the sampled bill-number->introduction-month curve (numbers are assigned in introduction order); counts are the full population, not the sample",
+  "stage_agreement": 0.914,
+  "volume_method": "exact introducedDate for every House and Senate bill (GovInfo BILLSTATUS bulk data); full population, no sampling or interpolation",
   "months": [
     {
       "month": "2025-01",
-      "n": 91,
-      "summarized": 84,
-      "coverage": 0.9231,
-      "advanced_n": 28,
-      "advanced_summarized": 27,
-      "advanced_coverage": 0.9643,
-      "volume_total": 1213,
-      "volume_summarized": 1082
+      "volume_total": 1228,
+      "volume_summarized": 1094
     },
     {
       "month": "2025-02",
-      "n": 114,
-      "summarized": 76,
-      "coverage": 0.6667,
-      "advanced_n": 27,
-      "advanced_summarized": 23,
-      "advanced_coverage": 0.8519,
-      "volume_total": 1343,
-      "volume_summarized": 898
+      "volume_total": 1315,
+      "volume_summarized": 881
     },
     {
       "month": "2025-03",
-      "n": 90,
-      "summarized": 35,
-      "coverage": 0.3889,
-      "advanced_n": 30,
-      "advanced_summarized": 17,
-      "advanced_coverage": 0.5667,
-      "volume_total": 1162,
-      "volume_summarized": 503
+      "volume_total": 1173,
+      "volume_summarized": 520
     },
     {
       "month": "2025-04",
-      "n": 57,
-      "summarized": 15,
-      "coverage": 0.2632,
-      "advanced_n": 8,
-      "advanced_summarized": 4,
-      "advanced_coverage": 0.5,
-      "volume_total": 917,
-      "volume_summarized": 267
+      "volume_total": 931,
+      "volume_summarized": 272
     },
     {
       "month": "2025-05",
-      "n": 80,
-      "summarized": 22,
-      "coverage": 0.275,
-      "advanced_n": 15,
-      "advanced_summarized": 2,
-      "advanced_coverage": 0.1333,
-      "volume_total": 951,
-      "volume_summarized": 228
+      "volume_total": 914,
+      "volume_summarized": 223
     },
     {
       "month": "2025-06",
-      "n": 74,
-      "summarized": 20,
-      "coverage": 0.2703,
-      "advanced_n": 12,
-      "advanced_summarized": 7,
-      "advanced_coverage": 0.5833,
-      "volume_total": 882,
-      "volume_summarized": 189
+      "volume_total": 893,
+      "volume_summarized": 186
     },
     {
       "month": "2025-07",
-      "n": 82,
-      "summarized": 17,
-      "coverage": 0.2073,
-      "advanced_n": 23,
-      "advanced_summarized": 11,
-      "advanced_coverage": 0.4783,
-      "volume_total": 997,
-      "volume_summarized": 215
+      "volume_total": 990,
+      "volume_summarized": 212
     },
     {
       "month": "2025-08",
-      "n": 19,
-      "summarized": 1,
-      "coverage": 0.0526,
-      "advanced_n": 7,
-      "advanced_summarized": 0,
-      "advanced_coverage": 0.0,
-      "volume_total": 303,
+      "volume_total": 292,
       "volume_summarized": 50
     },
     {
       "month": "2025-09",
-      "n": 54,
-      "summarized": 18,
-      "coverage": 0.3333,
-      "advanced_n": 12,
-      "advanced_summarized": 5,
-      "advanced_coverage": 0.4167,
-      "volume_total": 858,
-      "volume_summarized": 182
+      "volume_total": 871,
+      "volume_summarized": 179
     },
     {
       "month": "2025-10",
-      "n": 29,
-      "summarized": 6,
-      "coverage": 0.2069,
-      "advanced_n": 6,
-      "advanced_summarized": 1,
-      "advanced_coverage": 0.1667,
-      "volume_total": 361,
-      "volume_summarized": 91
+      "volume_total": 362,
+      "volume_summarized": 95
     },
     {
       "month": "2025-11",
-      "n": 42,
-      "summarized": 3,
-      "coverage": 0.0714,
-      "advanced_n": 9,
-      "advanced_summarized": 3,
-      "advanced_coverage": 0.3333,
-      "volume_total": 643,
-      "volume_summarized": 99
+      "volume_total": 617,
+      "volume_summarized": 94
     },
     {
       "month": "2025-12",
-      "n": 73,
-      "summarized": 9,
-      "coverage": 0.1233,
-      "advanced_n": 13,
-      "advanced_summarized": 4,
-      "advanced_coverage": 0.3077,
-      "volume_total": 885,
-      "volume_summarized": 106
+      "volume_total": 905,
+      "volume_summarized": 111
     },
     {
       "month": "2026-01",
-      "n": 35,
-      "summarized": 4,
-      "coverage": 0.1143,
-      "advanced_n": 12,
-      "advanced_summarized": 4,
-      "advanced_coverage": 0.3333,
-      "volume_total": 539,
-      "volume_summarized": 55
+      "volume_total": 544,
+      "volume_summarized": 59
     },
     {
       "month": "2026-02",
-      "n": 50,
-      "summarized": 7,
-      "coverage": 0.14,
-      "advanced_n": 15,
-      "advanced_summarized": 5,
-      "advanced_coverage": 0.3333,
-      "volume_total": 629,
-      "volume_summarized": 77
+      "volume_total": 640,
+      "volume_summarized": 75
     },
     {
       "month": "2026-03",
-      "n": 58,
-      "summarized": 8,
-      "coverage": 0.1379,
-      "advanced_n": 10,
-      "advanced_summarized": 0,
-      "advanced_coverage": 0.0,
-      "volume_total": 766,
-      "volume_summarized": 83
+      "volume_total": 748,
+      "volume_summarized": 85
     },
     {
       "month": "2026-04",
-      "n": 56,
-      "summarized": 6,
-      "coverage": 0.1071,
-      "advanced_n": 11,
-      "advanced_summarized": 3,
-      "advanced_coverage": 0.2727,
-      "volume_total": 661,
-      "volume_summarized": 56
-    },
-    {
-      "month": "2026-05",
-      "n": 45,
-      "summarized": 7,
-      "coverage": 0.1556,
-      "advanced_n": 6,
-      "advanced_summarized": 3,
-      "advanced_coverage": 0.5,
-      "volume_total": 617,
+      "volume_total": 678,
       "volume_summarized": 55
     },
     {
+      "month": "2026-05",
+      "volume_total": 602,
+      "volume_summarized": 51
+    },
+    {
       "month": "2026-06",
-      "n": 44,
-      "summarized": 1,
-      "coverage": 0.0227,
-      "advanced_n": 2,
-      "advanced_summarized": 0,
-      "advanced_coverage": 0.0,
-      "volume_total": 770,
-      "volume_summarized": 24
+      "volume_total": 788,
+      "volume_summarized": 25
     },
     {
       "month": "2026-07",
-      "n": 5,
-      "summarized": 0,
-      "coverage": 0.0,
-      "advanced_n": 0,
-      "advanced_summarized": 0,
-      "advanced_coverage": null,
       "volume_total": 71,
       "volume_summarized": 0
     }

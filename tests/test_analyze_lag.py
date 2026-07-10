@@ -51,29 +51,17 @@ def test_stage_agreement_flags_latestaction_blindspots(tmp_path, monkeypatch):
     assert out["stage_agreement"] == 0.9
 
 
-def test_monthly_advanced_coverage(tmp_path, monkeypatch):
+def test_monthly_volume_is_exact_full_population(tmp_path, monkeypatch):
     monkeypatch.delenv("CRS_CONFIG", raising=False)
     out, _ = run(tmp_path)
     months = {m["month"]: m for m in out["months"]}
-    jan, feb, mar = months["2025-01"], months["2025-02"], months["2025-03"]
-    assert (jan["n"], jan["summarized"], jan["advanced_n"], jan["advanced_summarized"]) == (3, 1, 1, 1)
-    assert jan["advanced_coverage"] == 1.0
-    # hr4 counts as advanced here via its full action history (hearings held)
-    assert (feb["n"], feb["summarized"], feb["advanced_n"], feb["advanced_summarized"]) == (3, 3, 3, 3)
-    assert (mar["n"], mar["summarized"], mar["advanced_n"], mar["advanced_summarized"]) == (4, 2, 3, 2)
-    assert mar["advanced_coverage"] == round(2 / 3, 4)
-
-
-def test_monthly_volume_from_full_census(tmp_path, monkeypatch):
-    monkeypatch.delenv("CRS_CONFIG", raising=False)
-    out, _ = run(tmp_path)
-    months = {m["month"]: m for m in out["months"]}
-    # every censused bill placed on the timeline via the number->month curve; in this
-    # fixture the sample covers the whole population, so volume == census counts.
+    # each bill placed by its exact introducedDate (offline path reads the bill endpoint);
+    # every censused bill is counted, so months carry only exact volume — no sampled fields.
+    assert set(months["2025-01"]) == {"month", "volume_total", "volume_summarized"}
     assert (months["2025-01"]["volume_total"], months["2025-01"]["volume_summarized"]) == (3, 1)
     assert (months["2025-02"]["volume_total"], months["2025-02"]["volume_summarized"]) == (3, 3)
     assert (months["2025-03"]["volume_total"], months["2025-03"]["volume_summarized"]) == (4, 2)
-    # volume is the full population (10 bills), not the sample
+    # the full population (10 bills, 6 summarized), not a sample
     assert sum(m["volume_total"] for m in out["months"]) == 10
     assert sum(m["volume_summarized"] for m in out["months"]) == 6
-    assert "volume_method" in out
+    assert "volume_method" in out and "no sampling" in out["volume_method"]

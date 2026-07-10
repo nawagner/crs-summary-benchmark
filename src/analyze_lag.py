@@ -2,18 +2,19 @@
 
 "How behind" has three parts now (issue #6):
 - the backlog: what share of bills have no CRS summary yet,
-- the timing lag: coverage as a function of how recently a bill was introduced,
+- monthly volume: how many bills are introduced each month and how many are summarized —
+  the FULL population, every bill placed by its exact introducedDate,
 - coverage by legislative stage: CRS prioritizes bills that MOVE, so coverage is also
   measured against bills that advanced (committee action / floor consideration), not
   just against everything introduced.
 
-Stage data comes from two layers. A full census pages the `bill/{congress}/{type}`
-list endpoint (~250 bills/request) and classifies every bill's `latestAction` text with
-src/stages.py — floor-stage bills are far too rare for a random sample to measure, so
-the census provides exact per-stage denominators. The random sample (unchanged, for the
-by-month series) additionally fetches each sampled bill's `/actions` list and classifies
-the full action history; agreement between the two classifiers is reported as
-`stage_agreement`, a validity check on the cheaper latestAction census.
+All three are exact, not sampled. A full census pages the `bill/{congress}/{type}` list
+endpoint and classifies every bill's `latestAction` text with src/stages.py for the
+per-stage totals. Monthly volume reads every bill's exact `introducedDate` from the
+GovInfo BILLSTATUS bulk data (one small zip per chamber). A small random sample survives
+only as QA: it fetches each sampled bill's `/actions` history and reports `stage_agreement`
+— how often the cheap latestAction classifier matches the full-history one — and feeds no
+displayed count.
 
 Note: Congress.gov `updateDate` fields are bulk-refreshed, so we measure *whether a
 summary exists today* (reliable), not the exact authoring date. Usage:
@@ -24,12 +25,14 @@ from __future__ import annotations
 
 import argparse
 import asyncio
-import bisect
 import json
 import os
 import random
+import re
 import sys
+import tempfile
 import time
+import zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -129,25 +132,48 @@ async def sample_bills(get, congress, btype, total, k, summ):
     return [r for r in await asyncio.gather(*[one(n) for n in nums]) if r[1]]
 
 
-def month_mapper(rows):
-    """Build number -> introduction-month lookup from sampled (number, intro, ...) rows.
+GOVINFO_ZIP = ("https://www.govinfo.gov/bulkdata/BILLSTATUS/"
+               "{congress}/{btype}/BILLSTATUS-{congress}-{btype}.zip")
+_INTRO_RE = re.compile(rb"<introducedDate>(\d{4}-\d{2}-\d{2})</introducedDate>")
 
-    Bill numbers within a chamber are assigned in introduction order, so the sample is a
-    dense number->month curve (~1 point per dozen bills). For any bill number we take the
-    month of the sampled bill with the largest number <= it (a step function) — letting us
-    place every bill in the full census on the timeline without fetching each one's date.
-    """
-    pts = sorted((num, intro[:7]) for num, intro, *_ in rows if intro)
-    nums = [p[0] for p in pts]
-    mons = [p[1] for p in pts]
 
-    def month_for(n):
-        if not nums:
-            return None
-        i = max(0, bisect.bisect_right(nums, n) - 1)
-        return mons[i]
+async def govinfo_intro_months(client, congress, btype):
+    """{bill_number: 'YYYY-MM'} for EVERY bill of this type, parsed from the GovInfo
+    BILLSTATUS bulk zip — the exact introduced date for the full population, no sampling
+    and no interpolation. The bill number comes from each entry's filename; the date from
+    its <introducedDate>."""
+    url = GOVINFO_ZIP.format(congress=congress, btype=btype)
+    r = await client.get(url, timeout=300, follow_redirects=True)
+    r.raise_for_status()
+    name_re = re.compile((rf"BILLSTATUS-{congress}{btype}(\d+)\.xml$").encode())
+    out: dict[int, str] = {}
+    with tempfile.NamedTemporaryFile(suffix=".zip") as tf:
+        tf.write(r.content)
+        tf.flush()
+        with zipfile.ZipFile(tf.name) as z:
+            for name in z.namelist():
+                m = name_re.search(name.encode())
+                if not m:
+                    continue
+                dm = _INTRO_RE.search(z.read(name))
+                if dm:
+                    out[int(m.group(1))] = dm.group(1).decode()[:7]
+    return out
 
-    return month_for
+
+async def api_intro_months(get, congress, btype, numbers):
+    """Exact introduced month per bill from the bill endpoint — the offline/fixture path
+    (when the GovInfo bulk download isn't available, e.g. tests). Still exact, no sampling."""
+    out: dict[int, str] = {}
+    for n in numbers:
+        try:
+            d = await get(f"bill/{congress}/{btype}/{n}")
+            intro = d.get("bill", {}).get("introducedDate")
+            if intro:
+                out[n] = intro[:7]
+        except Exception:  # noqa: BLE001
+            pass
+    return out
 
 
 async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
@@ -156,6 +182,7 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
     to_date = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
     own_client = None
+    live = get is None  # live run downloads GovInfo bulk data; fixture path stays offline
     if get is None:
         C.load_env()
         key = os.environ.get("CONGRESS_API_KEY")
@@ -185,46 +212,34 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
             rows = await sample_bills(get, congress, btype, total, k, summ)
             sample += rows
 
-            # true monthly VOLUME: place every censused bill on the timeline via the
-            # sampled number->month curve, then tally introduced vs. summarized per month.
-            month_for = month_mapper(rows)
-            for n, latest in census:
-                m = month_for(n)
-                if m is None:
-                    continue
-                volume[m][0] += 1
+            # exact monthly VOLUME: the true introduced date of EVERY bill — the full
+            # population, no sampling and no interpolation. Live runs read the GovInfo
+            # BILLSTATUS bulk zip; the offline/fixture path reads the bill endpoint.
+            if live:
+                intro_months = await govinfo_intro_months(own_client, congress, btype)
+            else:
+                intro_months = await api_intro_months(get, congress, btype,
+                                                      [n for n, _ in census])
+            for n, month in intro_months.items():
+                volume[month][0] += 1
                 if n in summ:
-                    volume[m][1] += 1
+                    volume[month][1] += 1
 
             chambers[btype] = {"total": total, "summarized": len(summ),
                                "pct": round(len(summ) / total, 4)}
             print(f"{btype}: {len(summ)}/{total} summarized ({len(summ)/total*100:.0f}%), sampled {len(rows)}")
 
-        # validity check: does the cheap latestAction classifier agree with the
-        # full-action-history classifier on the sampled bills?
+        # QA only: does the cheap latestAction stage classifier (used for the full census)
+        # agree with the full-action-history classifier on a sample of bills? This is a
+        # classifier validity check — it does not feed any displayed count.
         pairs = [(stages.classify_action_text(latest), st)
                  for _, _, _, st, latest in sample if st is not None and latest]
         agreement = round(sum(1 for a, b in pairs if a == b) / len(pairs), 4) if pairs else None
 
-        by = defaultdict(lambda: [0, 0, 0, 0])  # month -> [n, summarized, advanced_n, advanced_summarized]
-        for _, intro, has, stage, _ in sample:
-            row = by[intro[:7]]
-            row[0] += 1
-            row[1] += 1 if has else 0
-            if stage in ADVANCED:
-                row[2] += 1
-                row[3] += 1 if has else 0
-        months = []
-        for m in sorted(set(by) | set(volume)):
-            n, summ_n, adv_n, adv_s = by.get(m, [0, 0, 0, 0])
-            vt, vs = volume.get(m, [0, 0])
-            months.append({
-                "month": m, "n": n, "summarized": summ_n,
-                "coverage": round(summ_n / n, 4) if n else None,
-                "advanced_n": adv_n, "advanced_summarized": adv_s,
-                "advanced_coverage": round(adv_s / adv_n, 4) if adv_n else None,
-                "volume_total": vt, "volume_summarized": vs,
-            })
+        # monthly series is the exact full population: total introduced and summarized per
+        # month, every bill placed by its real introducedDate.
+        months = [{"month": m, "volume_total": volume[m][0], "volume_summarized": volume[m][1]}
+                  for m in sorted(volume)]
 
         out = {
             "generated_at": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
@@ -237,9 +252,9 @@ async def main_async(hr_k: int, s_k: int, out_path: Path, get=None) -> dict:
             "stage_method": ("latestAction-text census over every hr/s bill (list endpoint), "
                              "validated against full /actions classification on the sample"),
             "stage_agreement": agreement,
-            "volume_method": ("every censused bill placed on the timeline via the sampled "
-                              "bill-number->introduction-month curve (numbers are assigned in "
-                              "introduction order); counts are the full population, not the sample"),
+            "volume_method": ("exact introducedDate for every House and Senate bill "
+                              "(GovInfo BILLSTATUS bulk data); full population, no sampling "
+                              "or interpolation"),
             "months": months,
         }
         C.write_json(out_path, out)

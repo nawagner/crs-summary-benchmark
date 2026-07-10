@@ -105,11 +105,13 @@ spend OpenRouter credit. Run `pip install -r requirements-dev.txt && pytest test
 pipeline's pure logic (stage classification, chunking, retrieval, readability, extractors) is fully
 tested offline.
 
-- **CRS lag page** (issue #6): `python src/analyze_lag.py && python src/plot_lag.py` — now also runs
-  a latest-action census of every hr/s bill (~60 list requests) plus the sampled bills' action
-  histories (~1.1k requests) to produce per-stage coverage (floor / committee / introduced).
-  `plot_lag.py` writes two charts: `crs-lag.png` (coverage by month) and `crs-lag-stages.png`
-  (coverage by legislative stage, from the census).
+- **CRS lag page** (issue #6): `python src/analyze_lag.py && python src/plot_lag.py`. Everything
+  displayed is the exact full population: a latest-action census of every hr/s bill for per-stage
+  coverage (floor / committee / introduced), and every bill's exact `introducedDate` from the
+  **GovInfo BILLSTATUS bulk data** (one small zip per chamber, ~38 MB) for monthly volume — no
+  sampling or interpolation. A small `/actions` sample survives only as a stage-classifier QA
+  check (`stage_agreement`). `plot_lag.py` writes two charts: `crs-lag.png` (bills introduced per
+  month, summarized vs not) and `crs-lag-stages.png` (coverage by legislative stage).
 - **Reading levels** (issue #10): `python src/run_models.py --levels eli5,expert` then
   `python src/report.py` (per dataset, with the usual `CRS_DATASET`/`CRS_CONFIG` pair) — ~500
   generation calls per dataset for the two extra levels; no re-judging needed (only the default

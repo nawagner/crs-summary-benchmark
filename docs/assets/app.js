@@ -482,13 +482,17 @@ async function initLag() {
 
   const hr = d.chambers.hr, s = d.chambers.s;
   const totBills = hr.total + s.total, totSum = hr.summarized + s.summarized;
+  // recent coverage from the exact monthly volume (pooled over the last 3 months)
   const recent = d.months.slice(-3);
-  const recentCov = recent.reduce((a, m) => a + m.coverage, 0) / recent.length;
+  const recentTot = recent.reduce((a, m) => a + (m.volume_total || 0), 0);
+  const recentSum = recent.reduce((a, m) => a + (m.volume_summarized || 0), 0);
+  const recentCov = recentTot ? recentSum / recentTot
+    : (recent.length ? recent.reduce((a, m) => a + (m.coverage || 0), 0) / recent.length : null);
   const fmtK = (n) => n.toLocaleString("en-US");
 
-  meta.textContent = `${d.congress}th Congress · ${fmtK(d.sampled)} bills sampled · as of ${d.generated_at}` +
+  meta.textContent = `${d.congress}th Congress · full House + Senate population · as of ${d.generated_at}` +
     (typeof d.stage_agreement === "number"
-      ? ` · stage classifiers agree on ${pct(d.stage_agreement)} of sampled bills`
+      ? ` · stage classifiers agree on ${pct(d.stage_agreement)} of a QA sample`
       : "");
 
   let cards;

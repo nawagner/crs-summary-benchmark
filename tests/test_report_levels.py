@@ -187,8 +187,8 @@ def test_pavement_domain_ignores_giant_outlier():
     lengths = {"anthropic__m": [300, 340, 380, 420, 460, 500, 540, 580, 600, 320],
                "crs_reference": [80, 110, 140, 180, 220, 260, 300, 340, 370, 16530]}
     html = R.build_pavement_html(ordered, _pav_bills(lengths))
-    # axis clipped to a robust ~p90 value, not 16k; few ticks, not ~80
-    assert "axis clipped at" in html
+    # the 16k outlier is dropped from the axis (not used as the max); few ticks, not ~80
+    assert "omitted from the axis" in html
     assert "16,530" not in html.split("words per summary")[1]  # not a tick label
     n_ticks = html.count("translateX(-50%)")
     assert n_ticks <= 8
@@ -201,5 +201,5 @@ def test_pavement_no_clip_note_when_all_in_domain():
     ordered = [{"id": "anthropic__m", "label": "A", "is_human": False}]
     lengths = {"anthropic__m": [180, 210, 250, 300]}
     html = R.build_pavement_html(ordered, _pav_bills(lengths))
-    assert "axis clipped" not in html
+    assert "omitted from the axis" not in html
     assert 'class="pv-off"' not in html

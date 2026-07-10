@@ -91,19 +91,42 @@ def candidate_entry(slug: str, model_id: str | None, bill: dict, score: dict,
     return entry
 
 
+def _nice_ceil(x: float) -> int:
+    """Round x up to a clean 1/2/5 x 10^k value for a readable axis maximum."""
+    if x <= 0:
+        return 50
+    import math
+    mag = 10 ** math.floor(math.log10(x))
+    for m in (1, 2, 2.5, 5, 10):
+        if x <= m * mag:
+            return int(m * mag)
+    return int(10 * mag)
+
+
 def build_pavement_html(ordered, bills_out) -> str:
     """Render real pavement-library sparks of summary word counts — one row per summarizer,
-    all on a shared 0-anchored domain so the lanes are directly comparable."""
+    on a shared, outlier-robust domain so the lanes are directly comparable.
+
+    The domain is anchored to the 90th percentile (not the raw max): a single giant
+    outlier — e.g. a 16k-word CRS summary of an omnibus appropriations bill — would
+    otherwise flatten every other lane and crowd the axis with unreadable ticks. Sparks
+    are clipped to that domain; the range column always shows each lane's TRUE span, and
+    lanes that run off-scale are marked so nothing is hidden.
+    """
     import pavement
 
+    ordered_ids = {a["id"] for a in ordered}  # unscored reference lanes must not skew the axis
     lengths: dict[str, list[int]] = {}
     for b in bills_out:
         for cid, c in b["candidates"].items():
-            lengths.setdefault(cid, []).append(len((c.get("summary") or "").split()))
-    allv = [v for vs in lengths.values() for v in vs]
+            if cid in ordered_ids:
+                lengths.setdefault(cid, []).append(len((c.get("summary") or "").split()))
+    allv = sorted(v for vs in lengths.values() for v in vs)
     if not allv:
         return ""
-    dmax = (max(allv) // 50 + 1) * 50
+    p90 = allv[min(len(allv) - 1, int(0.90 * len(allv)))]
+    dmax = max(_nice_ceil(p90), 200)
+    clipped = allv[-1] > dmax  # any lane runs past the shared axis
 
     # one distinct hue per summarizer (matched by id substring, with a fallback cycle)
     PALETTE = {"anthropic": "#c0392b", "openai": "#1a7f4b", "google": "#1f6fb2",
@@ -117,7 +140,10 @@ def build_pavement_html(ordered, bills_out) -> str:
         return FALLBACK[idx % len(FALLBACK)]
 
     def spark(vals, color):
-        s = pavement.svg.spark(vals, domain=(0, dmax), bins=8, color=color,
+        # clip to the shared domain so one lane's outliers don't flatten the rest;
+        # clipped values pile at the right edge (the range column shows the true span).
+        cvals = [min(v, dmax) for v in vals]
+        s = pavement.svg.spark(cvals, domain=(0, dmax), bins=8, color=color,
                                fill_alpha=0.32, line_color=color, height="30px", hover=True)
         return s.replace("width:auto", "width:100%").replace("height:1em", "height:30px")
 
@@ -129,19 +155,23 @@ def build_pavement_html(ordered, bills_out) -> str:
         sv = sorted(vals)
         col = color_for(a["id"], i)
         human = ' <span class="pv-h">human</span>' if a.get("is_human") else ""
+        off = ' <span class="pv-off" title="longest summary runs past the axis">&rsaquo;</span>' \
+            if sv[-1] > dmax else ""
         rows.append(
             f'<tr><td class="pv-lbl"><span class="pv-dot" style="background:{col}"></span>{a["label"]}{human}'
-            f'<br><span class="pv-sub" style="color:{col}">med {sv[len(sv)//2]}w</span></td>'
+            f'<br><span class="pv-sub" style="color:{col}">med {sv[len(sv)//2]:,}w</span></td>'
             f'<td class="pv-spark">{spark(vals, col)}</td>'
-            f'<td class="pv-rng">{sv[0]}&ndash;{sv[-1]}w</td></tr>'
+            f'<td class="pv-rng">{sv[0]:,}&ndash;{sv[-1]:,}w{off}</td></tr>'
         )
-    step = 150 if dmax <= 750 else 200
+    step = _nice_ceil(dmax / 5)  # ~5-6 evenly spaced ticks, never crowded
     ticks = "".join(
-        f'<span style="position:absolute;left:{v / dmax * 100:.2f}%;transform:translateX(-50%)">{v}</span>'
+        f'<span style="position:absolute;left:{v / dmax * 100:.2f}%;transform:translateX(-50%)">{v:,}</span>'
         for v in range(0, dmax + 1, step)
     )
+    note = (f" &middot; axis clipped at {dmax:,}w; ranges at right show each lane's true span"
+            if clipped else "")
     axis = (f'<tr><td></td><td class="pv-axis"><div style="position:relative;height:1.1em">{ticks}</div>'
-            f'<div class="pv-axis-lab">words per summary</div></td><td></td></tr>')
+            f'<div class="pv-axis-lab">words per summary{note}</div></td><td></td></tr>')
     style = (
         "<style>"
         ".pv-table{border-collapse:collapse;width:100%;table-layout:fixed}"
@@ -151,7 +181,8 @@ def build_pavement_html(ordered, bills_out) -> str:
         ".pv-sub{font-weight:600;font-size:11px}"
         ".pv-h{font-size:10px;font-weight:700;color:#1f4e79;background:#eaf1f8;border:1px solid #cfe0ef;padding:0 6px;border-radius:99px}"
         ".pv-spark{padding:0 4px}"
-        ".pv-rng{width:92px;padding-left:12px;font-size:11.5px;color:#5d6775;white-space:nowrap}"
+        ".pv-rng{width:104px;padding-left:12px;font-size:11.5px;color:#5d6775;white-space:nowrap}"
+        ".pv-off{color:#c0392b;font-weight:700}"
         ".pv-axis{font-size:11.5px;color:#5d6775;padding:6px 4px 0}"
         ".pv-axis-lab{text-align:center;margin-top:13px;color:#5d6775}"
         "</style>"

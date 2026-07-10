@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress and the President agree. It was introduced in the United States Senate on April 13, 2026. \n\nThe bill tells the President to remove U.S. military forces from fighting in or against the country of Iran. Under the U.S. Constitution, only Congress has the power to declare war. The bill says Congress has not declared war on Iran or allowed this fighting. It notes that the military started fighting there on February 28, 2026, in a mission called Operation Epic Fury. By April 8, 2026, 13 U.S. service members had died and 380 were hurt.\n\nIf this bill becomes law, the President must stop the fighting against Iran unless Congress officially approves it. However, the bill does allow the U.S. military to do a few things. The military can still defend the U.S. and its people from attacks. It can also share information about threats, help friendly countries defend themselves from Iranian attacks, and help U.S. citizens safely leave the area.",
+  "prompt_tokens": 1410,
+  "completion_tokens": 244,
+  "total_tokens": 1654,
+  "cost_usd": 0.004311,
+  "latency_s": 2.079,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

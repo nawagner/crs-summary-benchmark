@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill makes several changes to the way bankruptcy courts work. Bankruptcy is a legal process for people or businesses who cannot pay their debts. The bill focuses on the people who help run the system and the fees that pay for it.\n\nFirst, it raises the pay for certain trustees. A trustee is a person appointed to handle a bankruptcy case, often by selling property and giving the money to people who are owed. In the most common type of personal bankruptcy, called Chapter 7, trustees used to get $60 per case. This bill raises that amount to $120 per case.\n\nSecond, it changes how some court fees are divided. When someone files for bankruptcy, they pay a fee. The bill sets exact dollar amounts that go into different funds that support the courts and trustees.\n\nThird, it extends the time limit for some temporary bankruptcy judge positions. These judgeships were set to last 5 years. The bill makes them last 10 years instead.\n\nFinally, it adjusts quarterly fees paid by businesses in another type of bankruptcy, Chapter 11. It raises one fee percentage and changes the number of years some rules apply. The changes take effect on specific dates, mostly starting with the next calendar quarter after the law is passed.",
+  "prompt_tokens": 2943,
+  "completion_tokens": 1023,
+  "total_tokens": 3966,
+  "cost_usd": 0.00217,
+  "latency_s": 24.722,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

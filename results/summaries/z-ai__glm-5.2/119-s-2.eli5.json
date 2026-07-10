@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the \"Secure America Act.\" It gives a large amount of money to the Department of Homeland Security for the year 2026. The money can be used until September 30, 2029.\n\nThe law gives money to two main groups: Customs and Border Protection (CBP) and Immigration and Customs Enforcement (ICE). \n\nFor CBP, it gives billions of dollars to hire Border Patrol agents and buy new technology. This technology includes artificial intelligence and tools to stop illegal drugs like fentanyl at the borders. It also gives money for immigration enforcement. However, it cannot use some money to hire certain processing coordinators after October 31, 2028. It also cannot buy border surveillance towers unless they have been tested to work on their own.\n\nFor ICE, it gives billions of dollars to hire agents, lawyers, and support staff. Some of this money is for investigating child exploitation. A large amount is for enforcing immigration laws, including transporting people who are being removed from the country. At least $350 million must be used to arrest certain adults who are in the country without permission, especially in areas that do not cooperate with federal immigration rules.",
+  "prompt_tokens": 2923,
+  "completion_tokens": 921,
+  "total_tokens": 3844,
+  "cost_usd": 0.003176,
+  "latency_s": 9.693,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

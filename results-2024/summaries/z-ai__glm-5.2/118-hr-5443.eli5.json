@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law changes the rules for people who figure out how much land is worth. These people are called appraisers. The law says an appraiser only needs a license to work in one state to do a job for the Department of the Interior in any state.\n\nBefore this law, an appraiser usually needed a license in the exact state where the land was. Now, the government must first try to find an appraiser from that state. But if no one is available in time, is not qualified, or costs too much, they can hire an appraiser from another state.\n\nThe law also says the government must send a report to Congress every year for five years. Congress is the group that makes national laws. The report will show how many jobs were done and how long they took. It will also list every time they used an appraiser from another state.\n\nWithin 90 days of January 4, 2025, the government must put all its rules about appraisals online for anyone to read. This law only applies to jobs that the Secretary of the Interior controls.",
+  "prompt_tokens": 1659,
+  "completion_tokens": 1359,
+  "total_tokens": 3018,
+  "cost_usd": 0.003238,
+  "latency_s": 19.182,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3746",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "# Summary of the Fiscal Responsibility Act of 2023 (Public Law 118-5)\n\n**Primary purpose:** This law suspends the federal debt ceiling to allow continued government borrowing while imposing limits on federal spending and making various policy changes. It was enacted June 3, 2023.\n\n**Debt limit (Division D):** The law suspends the statutory debt limit from the date of enactment through January 1, 2025. On January 2, 2025, the limit is automatically raised to accommodate obligations issued during the suspension period, with restrictions preventing the Treasury from borrowing to build up a cash reserve in anticipation of the period's end.\n\n**Spending limits (Division A):** The law sets caps on discretionary spending for fiscal years 2024 and 2025 (roughly $886 billion for defense/security and $704 billion for nonsecurity in 2024, with modest increases in 2025). It establishes procedures triggering a 1% across-the-board reduction if full-year appropriations are not enacted and a continuing resolution is in effect. The law sets additional spending targets for fiscal years 2026 through 2029 and enacts budget enforcement rules for the House and Senate. It also appropriates funds for a veterans' toxic-exposure health fund and a Commerce Department fund.\n\n**Spending reductions (Division B):** The law rescinds unobligated balances from numerous prior COVID-19 and other appropriations, and rescinds approximately $1.39 billion previously provided to the IRS under the Inflation Reduction Act. It establishes a temporary \"Administrative Pay-As-You-Go\" system requiring agencies to offset administrative actions that increase mandatory spending (exempting smaller actions and expiring December 31, 2024). It also ends the pandemic-era suspension of federal student loan payments and interest, effective 60 days after June 30, 2023.\n\n**Policy changes (Division C):** The law modifies work requirements and exemptions in the TANF and SNAP programs (raising SNAP's work-requirement age threshold while adding exemptions for veterans, homeless individuals, and former foster youth). It streamlines environmental permitting by amending the National Environmental Policy Act (setting page limits, deadlines, and lead-agency procedures) and specifically directs completion of the Mountain Valley Pipeline, limiting judicial review of that project.\n\nSeveral SNAP provisions sunset October 1, 2030; TANF changes take effect October 1, 2024 or 2025.",
+  "prompt_tokens": 44867,
+  "completion_tokens": 824,
+  "total_tokens": 45691,
+  "cost_usd": 0.244935,
+  "latency_s": 14.429,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

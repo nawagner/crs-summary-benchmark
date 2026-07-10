@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 119-48 is a joint resolution of disapproval under the Congressional Review Act (CRA), chapter 8 of title 5, United States Code. The resolution exercises Congress’s authority under 5 U.S.C. § 802 to nullify a specified agency rule. The rule disapproved is the Bureau of Land Management’s “Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment,” issued on November 20, 2024, as a record of decision and resource management plan amendment. The Government Accountability Office, by letter opinion dated June 25, 2025, printed in the Congressional Record on June 26, 2025 (pages S3552–S3554), concluded that this action constitutes a rule for purposes of the CRA. The resolution declares that Congress disapproves that rule and that it “shall have no force or effect.”\n\nThe operative effect is governed by the CRA’s default provisions: upon enactment, the rule is treated as though it never took effect, and under 5 U.S.C. § 801(b)(2) the Bureau of Land Management may not reissue the rule in substantially the same form, or issue a new rule that is substantially the same, unless a subsequently enacted law specifically authorizes such action. The resolution contains no separate authorization of appropriations, no sunset clause, and no exceptions; its sole legal consequence is disapproval of the identified rule and activation of the CRA’s bar on substantially similar rulemaking. The resolution was approved December 11, 2025, and took effect immediately.",
+  "prompt_tokens": 548,
+  "completion_tokens": 1453,
+  "total_tokens": 2001,
+  "cost_usd": 0.001502,
+  "latency_s": 21.733,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

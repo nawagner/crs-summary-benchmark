@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a type of bill that both the Senate and the House of Representatives have passed and the President has signed. \n\nThis law stops a specific government rule from taking effect. The rule was created by a government group called the Bureau of Ocean Energy Management. The rule was called \"Protection of Marine Archaeological Resources,\" and it was published on September 3, 2024. \n\nBecause Congress disapproved of this rule, the rule is canceled. It will have no power, and it will not be treated as a law. If this new law had not passed, the rule about protecting old, historical items in the ocean would have gone into effect. Now, that rule is stopped completely. \n\nThe Senate passed this law on February 25, 2025. The House of Representatives passed it on March 6, 2025. It was officially approved on March 14, 2025.",
+  "prompt_tokens": 472,
+  "completion_tokens": 200,
+  "total_tokens": 672,
+  "cost_usd": 0.002508,
+  "latency_s": 1.951,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-2 (H.J. Res. 35), enacted on March 14, 2025, is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to disapprove a final rule submitted by the Environmental Protection Agency (EPA). \n\nThe primary operative mechanism of the joint resolution is the express disapproval of the EPA rule titled \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions,\" which was published in the Federal Register at 89 Fed. Reg. 91094 on November 18, 2024. \n\nPursuant to the statutory framework of the CRA, specifically 5 U.S.C. § 801(b), the enactment of this joint resolution dictates that the disapproved rule shall have no force or effect. Under the operation of the CRA, this disapproval also prohibits the EPA from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the date of the joint resolution's disapproval.",
+  "prompt_tokens": 555,
+  "completion_tokens": 260,
+  "total_tokens": 815,
+  "cost_usd": 0.003172,
+  "latency_s": 2.34,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

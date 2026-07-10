@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 118-69, the “Maternal and Child Health Stillbirth Prevention Act of 2024,” amends section 501(a) of the Social Security Act (42 U.S.C. 701(a)) to explicitly include stillbirth prevention and research among the permissible uses of Maternal and Child Health Services Block Grant funds under title V. The Act makes two targeted insertions. First, in paragraph (1)(B)—which enumerates the purposes for which state allotments are available—it inserts “to reduce the incidence of stillbirth,” immediately after “among children,” thereby adding stillbirth reduction as a stated program objective. Second, in paragraph (2)—which lists allowable services—it inserts after “follow-up services” a new clause authorizing expenditures “for evidence-based programs and activities and outcome research to reduce the incidence of stillbirth (including tracking and awareness of fetal movements, improvement of birth timing for pregnancies with risk factors, initiatives that encourage safe sleeping positions during pregnancy, screening and surveillance for fetal growth restriction, efforts to achieve smoking cessation during pregnancy, community-based programs that provide home visits or other types of support, and any other research or evidence-based programming to prevent stillbirths).” The parenthetical list is illustrative and non-exhaustive. The amendment does not appropriate new funds, create a separate grant program, or modify the existing allocation formula; it solely clarifies and expands the scope of activities for which states may expend their existing title V block grant awards. The Act contains no separate effective date, taking effect upon enactment on July 12, 2024. No sunset, reporting requirement, condition precedent, or authorization-versus-appropriation distinction is established.",
+  "prompt_tokens": 686,
+  "completion_tokens": 1730,
+  "total_tokens": 2416,
+  "cost_usd": 0.001804,
+  "latency_s": 39.219,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

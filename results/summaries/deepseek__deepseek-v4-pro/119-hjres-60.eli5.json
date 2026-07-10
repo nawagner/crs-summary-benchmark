@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a law to cancel a new rule about driving vehicles in a large outdoor area called the Glen Canyon National Recreation Area. The National Park Service, which takes care of this land, had created a rule to set rules for cars, trucks, and other motor vehicles there. Congress used a special process to say it did not agree with that rule. The House of Representatives and the Senate both voted to disapprove the rule. The President signed the disapproval into law on May 23, 2025. Because of this law, the Park Service’s new rule now has no force or effect. That means it is completely blocked, and the rules that were in place before will stay the same. This law does not make any other changes.",
+  "prompt_tokens": 422,
+  "completion_tokens": 929,
+  "total_tokens": 1351,
+  "cost_usd": 0.000992,
+  "latency_s": 17.537,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

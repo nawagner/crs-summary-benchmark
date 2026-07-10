@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Airport and Airway Extension Act of 2024 extends authorizations of appropriations and expenditure authorities for federal aviation programs and the Airport and Airway Trust Fund through May 10, 2024, and extends related aviation excise taxes and miscellaneous authorities through May 11, 2024.\n\nTitle I amends Title 49, United States Code, to authorize specific funding levels for the period beginning October 1, 2023, and ending May 10, 2024. Section 101 amends 49 U.S.C. 48103(a)(7) to authorize $2,041,120,218 for the Airport Improvement Program (AIP), with obligation authority available through September 30, 2024, and remaining available until expended. It directs the FAA Administrator to calculate apportionments under 49 U.S.C. 47114–47117 on an annualized basis assuming $3,350,000,000 for FY2024, then reduce those amounts by 39 percent. Sections 102 through 106 authorize appropriations for FAA operations (49 U.S.C. 106(k)(1)(G): $7,259,685,792), facilities and equipment (49 U.S.C. 48101(a)(7): $1,794,357,923), research and development (49 U.S.C. 48102(a)(16): $155,368,852), small community air service (49 U.S.C. 41742(a)(2): $216,192,407; 49 U.S.C. 41743(e)(2): $6,092,896), supplemental discretionary funds (49 U.S.C. 47115(j)(4)(A): $340,321,762), and weather reporting (49 U.S.C. 48105(5): $23,762,295). Section 102 also extends numerous expiring authorities and pilot programs in Titles 49 and 51, and prior aviation acts, from March 8 or 9, 2024, to May 10 or 11, 2024.\n\nTitle II amends the Internal Revenue Code of 1986 to extend the Airport and Airway Trust Fund expenditure authority (IRC 9502(d)(1), (e)(2)) and aviation excise taxes (IRC 4081, 4261, 4271, 4043, 4083) to May 10 or 11, 2024. Title III amends Section 210G(i) of the Homeland Security Act of 2002 (6 U.S.C. 124n(i)) to extend Counter-UAS authorities to May 11, 2024. The Act was approved on March 8, 2024.",
+  "prompt_tokens": 3798,
+  "completion_tokens": 3028,
+  "total_tokens": 6826,
+  "cost_usd": 0.00727,
+  "latency_s": 20.663,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-201",
+  "model": "openai/gpt-5.5",
+  "summary": "The ACES Act of 2025 tells the Secretary of Veterans Affairs to try to make an agreement with the National Academies of Sciences, Engineering, and Medicine. The National Academies is a group of experts that studies science and health questions.\n\nThe study will look at cancer in people who served on active duty in the Army, Navy, Air Force, or Marine Corps as aircrew on fixed-wing aircraft. This includes pilots, navigators, weapons systems operators, aircraft system operators, and other crew members who often flew on these aircraft.\n\nThe Secretary must try to start the agreement within 30 days after the law was approved on August 14, 2025. The agreement must be finished within 60 days after talks begin. If it is not finished on time, the Secretary must explain why to Congress and give updates every 60 days.\n\nThe study will look at job-related exposures, such as chemicals or other hazards. It will review links between those exposures and many cancers, including brain, lung, kidney, prostate, thyroid, and other cancers. It will also study how common these cancers are and how often they cause death. The National Academies must send a report with the results to the Secretary and to Congress.",
+  "prompt_tokens": 1307,
+  "completion_tokens": 287,
+  "total_tokens": 1594,
+  "cost_usd": 0.015145,
+  "latency_s": 5.138,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

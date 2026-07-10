@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This is a joint resolution. That means both parts of Congress, the House and the Senate, must agree on it.\n\nThe resolution is about a rule made by the Department of Education. The Department of Education is the part of the government that helps with schools and student loans. A student loan is money people borrow to pay for college. They must pay it back later.\n\nThe Department of Education made a rule to forgive some of this loan money. That rule was called \"One-Time Federal Student Loan Debt Relief.\" It would have let some people skip paying back part of what they owe.\n\nThis resolution uses a law called the Congressional Review Act. That law lets Congress cancel rules made by government departments.\n\nIf this resolution becomes law, the Department of Education's rule would be canceled. It would have \"no force or effect.\" That means the rule would not count anymore. People would not get their loan money forgiven under that rule.\n\nThe House of Representatives already voted yes on this resolution on May 24, 2023. The Senate got it on May 30, 2023. For it to become law, the Senate would also need to agree.",
+  "prompt_tokens": 907,
+  "completion_tokens": 328,
+  "total_tokens": 1235,
+  "cost_usd": 0.012735,
+  "latency_s": 6.444,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

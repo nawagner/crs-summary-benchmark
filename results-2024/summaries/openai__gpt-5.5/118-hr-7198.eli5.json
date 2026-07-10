@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill changes how federal agencies handle rules that may affect small businesses and other small groups.\n\nWhen an agency writes a proposed rule, it must look at more costs for small groups. This includes indirect costs. For example, a small business may be affected because it buys from, sells to, or works with a business that is directly covered by the rule.\n\nIf an agency says a proposed rule will not have a big economic effect on many small groups, it must publish that statement within 10 days. Small groups, or groups that represent them, may ask the Small Business Administration’s Chief Counsel for Advocacy to review that statement. The Chief Counsel must first decide within 10 days if the request needs more review. If it does, the Chief Counsel must finish and publish the review within 30 days.\n\nIf the Chief Counsel finds the rule would have a big effect on many small groups, the agency must do special cost and impact studies. If the agency does not help with the review, the final rule will not apply to small groups.\n\nFor rules that likely affect many small groups, agencies must post guidance documents online and allow comments.\n\nAgencies must also review certain rules every 10 years. If they do not, the rule stops working unless the agency later reviews and reinstates it within 180 days.",
+  "prompt_tokens": 3061,
+  "completion_tokens": 473,
+  "total_tokens": 3534,
+  "cost_usd": 0.029495,
+  "latency_s": 8.426,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

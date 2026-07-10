@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2670",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says multiyear contracts for up to 13 Block VI Virginia-class submarines; enacted Sec. 123 authorizes 10."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated entities; toplines and added context verified accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by stating it authorizes FY2024 DOD/DOE/national security funding and prescribes personnel strengths."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes restructuring of Never Contract with the Enemy, inflation-adjustment authority, and criminal-law revisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes national-security certifications, waivers, and specified retirement exceptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites multiple dates (e.g., Dec. 31, 2033 effective 180 days after enactment; Dec. 31, 2028; Sept. 30, 2028)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive coverage of all divisions and major operative provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but dense; no filler or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Programs and agencies (USAI, LOGINK, Defense Health Program) correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says up to 13 Virginia-class submarines; enacted figure is 10 (other toplines verified correct)."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

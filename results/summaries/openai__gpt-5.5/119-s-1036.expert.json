@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "openai/gpt-5.5",
+  "summary": "The Improving Access to Addiction Medicine Providers Act amends section 597 of the Public Health Service Act, codified at 42 U.S.C. § 290ll, which establishes the Minority Fellowship Program, to expand the program’s eligible training purposes and covered professional disciplines.\n\nSection 1 provides the short title.\n\nSection 2 amends 42 U.S.C. § 290ll in two respects. First, it amends subsection (a)(1) by inserting “diagnosis,” after “related to,” thereby adding diagnosis to the subject matter for which Minority Fellowship Program fellowships may support training under that paragraph. Second, it amends subsection (b) by inserting “addiction medicine,” after “psychiatry,” thereby adding addiction medicine to the statutory list of professional fields for which fellowships may be awarded.\n\nThe bill does not amend any authorization of appropriations, provide a direct appropriation, establish new funding levels, or include implementation deadlines, reporting requirements, sunsets, or express exceptions. In the absence of a specified effective date, the amendments would take effect upon enactment.",
+  "prompt_tokens": 525,
+  "completion_tokens": 742,
+  "total_tokens": 1267,
+  "cost_usd": 0.024885,
+  "latency_s": 26.042,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

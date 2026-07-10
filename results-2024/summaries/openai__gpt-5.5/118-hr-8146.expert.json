@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "openai/gpt-5.5",
+  "summary": "The “Police Our Border Act” would require the Attorney General to submit a one-time report to Congress concerning the impact of what the bill terms the “Biden border crisis” on law enforcement officers at the Federal, State, local, and Tribal levels.\n\nSection 1 provides the short title. Section 2 sets forth congressional findings regarding law enforcement line-of-duty deaths, congressional support for law enforcement, asserted effects of conditions at the southwest border on law enforcement resources and officer safety, fentanyl exposure, and the asserted need for border security legislation and use of existing authority, including section 212(f) of the Immigration and Nationality Act, 8 U.S.C. § 1182(f). These findings do not amend existing law or create operative authorities.\n\nSection 3 contains the bill’s sole operative requirement. Not later than 180 days after enactment, the Attorney General must submit to Congress a report on the impact of the “Biden border crisis” on Federal, State, local, and Tribal law enforcement officers. The required report must include: the estimated dollar amount of all resources devoted to addressing the “Biden border crisis” and the extent to which those resources are unavailable to law enforcement agencies; exposure of law enforcement officers to fentanyl resulting from encounters with “illegal aliens” at the border and within the United States, including the nationality of each such alien; injuries to law enforcement officers connected to the “Biden border crisis” or fentanyl exposure; law enforcement officer morale; recruiting effects on law enforcement hiring attributable to the “Biden border crisis”; the estimated dollar amount expended by States on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the United States border, including the full evidence lifecycle from collection and analysis through storage and final destruction; and the number of law enforcement officers reassigned and local resources reallocated for those fentanyl-related investigative, interdiction, and evidence-processing functions.\n\nThe bill does not amend the United States Code, authorize appropriations, appropriate funds, establish enforcement mechanisms, or provide exceptions or additional effective-date provisions beyond the 180-day reporting deadline.",
+  "prompt_tokens": 1010,
+  "completion_tokens": 488,
+  "total_tokens": 1498,
+  "cost_usd": 0.01969,
+  "latency_s": 9.815,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

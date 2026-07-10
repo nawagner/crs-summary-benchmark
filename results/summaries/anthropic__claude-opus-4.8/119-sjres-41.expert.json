@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, introduced as S.J. Res. 41 in the 119th Congress, is a measure of congressional disapproval brought under the expedited procedures of the Arms Export Control Act (AECA) to block a specific proposed arms export to Israel.\n\nThe operative provision prohibits the proposed export described in Transmittal No. DDTC 23-077, which was submitted to Congress by the Executive Branch pursuant to section 36(c) of the Arms Export Control Act (22 U.S.C. 2776(c)) and published in the Congressional Record on March 24, 2025 (Executive Communication 510). Section 36(c) governs commercial (Directorate of Defense Trade Controls, or DDTC) export licensing of significant military equipment and requires prior congressional notification, subject to a statutory review period during which Congress may enact a joint resolution of disapproval.\n\nThe specific transaction barred is the export of firearms, parts, and components controlled under Category I of the United States Munitions List valued at $1,000,000 or more—namely, 20,000 Colt carbine rifles (11.5-inch barrel, 5.56mm caliber, fully automatic) to M.R.D. Efram Investments Ltd. in Israel, for ultimate end use by the Israel National Police.\n\nThe resolution effects no amendment to the U.S. Code and enacts no standing statutory authority; it operates solely to exercise Congress's disapproval authority with respect to the single identified transmittal, thereby prohibiting the enumerated export. It contains no appropriation, authorization, sunset provision, or separate effective-date clause. As a joint resolution, it would require passage by both chambers and presentment to the President to take legal effect (subject to the AECA's expedited-procedure framework governing such disapproval measures).\n\nThe resolution is confined in scope to the transaction described; it does not address other pending or future arms transfers, and it imposes no conditions precedent beyond the prohibition itself. As introduced, it stands referred to the Senate Committee on Foreign Relations.",
+  "prompt_tokens": 943,
+  "completion_tokens": 672,
+  "total_tokens": 1615,
+  "cost_usd": 0.021515,
+  "latency_s": 10.064,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

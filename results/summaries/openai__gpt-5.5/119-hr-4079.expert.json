@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "openai/gpt-5.5",
+  "summary": "The Safer Response Act of 2025 amends section 546 of the Public Health Service Act, 42 U.S.C. 290ee-1, governing grants for first responder training, principally to reauthorize the program for fiscal years 2026 through 2030 and to broaden statutory terminology relating to overdose response drugs and devices.\n\nSection 1 designates the Act as the “Safer Response Act of 2025.”\n\nSection 2 amends 42 U.S.C. 290ee-1. In subsection (a), it makes a capitalization correction by replacing “tribes and tribal” with “Tribes and Tribal.” In subsections (a), (c), and (d), it replaces each reference to products “approved or cleared” with products “approved, cleared, or otherwise legally marketed,” thereby extending the relevant statutory references beyond products approved or cleared by the Food and Drug Administration to include products otherwise legally marketed. In the same subsections, it strikes each occurrence of “opioid,” removing the opioid-specific limitation in those provisions.\n\nSection 2 also amends subsection (f). It similarly replaces each occurrence of “approved or cleared” with “approved, cleared, or otherwise legally marketed.” In paragraph (1), it strikes “opioid.” In paragraph (2), it replaces “opioid and heroin” with “opioid, heroin, and other drug,” and replaces “opioid overdose” with “overdose.” In paragraph (3), it strikes “opioid and heroin.” These amendments broaden the subsection’s terminology from opioid- and heroin-specific formulations to overdose and other drug-related formulations as specified.\n\nFinally, section 2 amends subsection (h) by replacing the authorization of appropriations of $36,000,000 for each of fiscal years 2019 through 2023 with an authorization of $57,000,000 for each of fiscal years 2026 through 2030. The bill provides an authorization of appropriations only and does not itself appropriate funds. It contains no separate effective date.",
+  "prompt_tokens": 717,
+  "completion_tokens": 749,
+  "total_tokens": 1466,
+  "cost_usd": 0.026055,
+  "latency_s": 23.836,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

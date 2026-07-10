@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 118-229, cited as the “Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act” or “FISHES Act,” amends section 312(a)(6) of the Magnuson-Stevens Fishery Conservation and Management Act (16 U.S.C. § 1861a(a)(6)) to establish statutory deadlines and procedural requirements governing the submission, review, and disbursement of spend plans for fishery resource disaster assistance. The Act replaces subparagraph (D) and subparagraph (F)(i) in their entirety.\n\nNew subparagraph (D) requires a requester with an affirmative fishery resource disaster determination to submit a spend plan to the Secretary of Commerce not more than 120 days after receiving notification that funds are available under paragraph (9). The spend plan must include, if applicable: objectives and outcomes emphasizing the factors contributing to the disaster and minimizing future uninsured losses; a statement of work; and budget details. The Secretary must review the submitted spend plan to determine whether it is complete and provide notice of that determination within 10 days. If the Secretary finds the plan incomplete, the notice must include a detailed description of the information necessary for the plan to be deemed complete.\n\nNew subparagraph (F)(i) provides that funds shall be made available to grantees not later than 90 days after the date the Secretary receives a complete spend plan. It further permits the Director of the Office of Management and Budget, if requested, to review a completed spend plan concurrently with the Secretary, but expressly prohibits the Director from delaying the 90-day timeline for making funds available.\n\nThe Act does not authorize or appropriate new funds; it imposes procedural constraints on the administration of funds already available under the fishery resource disaster assistance program. No separate effective date is specified; the amendments took effect upon enactment on January 4, 2025.",
+  "prompt_tokens": 940,
+  "completion_tokens": 1890,
+  "total_tokens": 2830,
+  "cost_usd": 0.002053,
+  "latency_s": 39.679,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

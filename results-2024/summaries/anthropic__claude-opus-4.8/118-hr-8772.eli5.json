@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8772",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a spending plan. It says how much money the government can use to run Congress and its helper offices for one year. The year ends on September 30, 2025.\n\nHere are some of the big amounts:\n- The House of Representatives gets about $1.9 billion for pay and costs.\n- The Capitol Police (who keep the Capitol safe) get money for salaries and equipment.\n- The Library of Congress, which keeps books and records, gets $617 million.\n- Money also goes to places like the Botanic Garden, the Capitol Visitor Center, and offices that check government spending.\n- It gives $174,000 to the widow of a Representative who died.\n\nThe bill also sets some rules:\n- Leftover money for House members' office costs must go toward paying down the country's debt.\n- Members can spend no more than $1,000 a month to lease a car.\n- No money can buy certain drones or phone equipment made by some Chinese companies, for safety reasons.\n- Government computers must block viewing of adult (pornographic) websites.\n- No money can pay for \"diversity, equity, and inclusion\" trainings that say one race or sex is better than another.\n- Members of Congress will not get a cost-of-living pay raise this year.\n- Guided tours of the Capitol led by staff cannot be stopped, except for safety.\n\nThe bill's short name is the \"Legislative Branch Appropriations Act, 2025.\"",
+  "prompt_tokens": 19532,
+  "completion_tokens": 445,
+  "total_tokens": 19977,
+  "cost_usd": 0.108785,
+  "latency_s": 9.992,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

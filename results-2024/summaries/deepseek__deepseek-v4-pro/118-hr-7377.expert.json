@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Royalty Resiliency Act (Public Law 118-81) amends section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982 (30 U.S.C. § 1721(j)) by striking the existing text—as previously amended by the Federal Oil and Gas Royalty Simplification and Fairness Act of 1996 (Public Law 104-185)—and inserting a new subsection (j). The amendment establishes a mandatory deadline for the Secretary of the Interior to issue determinations of allocations of production for units and communitization agreements, prescribes an interim royalty reporting and payment rule, and provides a conditional interest waiver.\n\nSpecifically, new subsection (j) requires the Secretary to issue all such allocation determinations within 120 days of a request for determination. Until the Secretary issues the determination, the lessee or its designee shall report and pay royalties on oil and gas production for each production month in accordance with the terms of the proposed allocation of production for the unit or communitization agreement. Following the Secretary’s determination, the lessee or its designee shall, as necessary, correct those reports and royalty amounts by no later than the end of the third month following the month in which the determination is received. Subject to the condition that the lessee made full and timely monthly royalty payments to all parties consistent with the proposed allocation, the Secretary shall waive interest due on obligations subject to the determination until the end of that same correction period (i.e., the end of the third month following the month of receipt of the determination). The new subsection explicitly excludes from its application any unit or communitization agreements that contain Indian lands.\n\nThe Act contains no new authorization of appropriations, no sunset provision, and no retroactive application beyond the immediate effect of the statutory amendment. It took effect upon enactment on September 20, 2024.",
+  "prompt_tokens": 839,
+  "completion_tokens": 1824,
+  "total_tokens": 2663,
+  "cost_usd": 0.001952,
+  "latency_s": 36.814,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

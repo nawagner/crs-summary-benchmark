@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels an IRS rule about reporting sales of digital assets. The IRS is the government agency that collects federal taxes. Digital assets are things bought and sold electronically.\n\nThe rule was called “Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales.” In simple words, it dealt with brokers who often help people sell digital assets. A broker is a person or business that helps make a sale happen. “Gross proceeds” means the total money from a sale before costs are taken out.\n\nCongress used a process that lets it reject some agency rules. The rule was published in the Federal Register on December 30, 2024. The House passed the measure on March 11, 2025. The Senate passed it on March 26, 2025.\n\nBecause this law was approved on April 10, 2025, the IRS rule has no force or effect. That means the canceled rule cannot be used or enforced.",
+  "prompt_tokens": 466,
+  "completion_tokens": 441,
+  "total_tokens": 907,
+  "cost_usd": 0.01556,
+  "latency_s": 8.559,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

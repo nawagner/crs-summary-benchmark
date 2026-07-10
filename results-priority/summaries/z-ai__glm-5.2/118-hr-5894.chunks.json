@@ -1,0 +1,28 @@
+{
+  "bill_id": "118-hr-5894",
+  "model": "z-ai/glm-5.2",
+  "n_chunks": 3,
+  "notes": {
+    "0": {
+      "notes": "",
+      "prompt_tokens": 26491,
+      "completion_tokens": 1200,
+      "cost_usd": 0.016523,
+      "latency_s": 22.592
+    },
+    "1": {
+      "notes": "**Working Notes — Part 2/3 (Title I §229 PHS Act through Title V §528)**\n\n**Office of the Secretary / General Departmental Management**\n- $402,341,000 + $58,028,000 from PHS Act §241 for national health/human services research & evaluation.\n- $28,000,000 for minority AIDS prevention/treatment.\n- $40,000,000 for competitive grants exclusively implementing sexual risk avoidance education (voluntarily refraining from non-marital sexual activity); must use medically accurate peer-reviewed info, evidence-based approach, teach self-regulation, success sequencing, healthy relationships, goal setting, resisting coercion/violence/youth risk behaviors; no normalizing teen sexual activity; ≤10% for technical assistance/admin.\n- Embryo adoption funds may provide medical/administrative services to individuals adopting embryos, consistent with 42 CFR 59.5(a)(4).\n- $5,000,000 for prize competitions (Stevenson-Wydler Act §24, 15 U.S.C. 3719) on kidney disease prevention/diagnosis/treatment.\n\n**Medicare Hearings and Appeals** — $196,000,000; $40,000,000 available through Sept 30, 2025; transferred from Federal Hospital Insurance & Supplementary Medical Insurance Trust Funds.\n\n**ONC for Health IT** — $56,238,000 from PHS Act §241 for interoperable health IT grants/contracts/cooperative agreements.\n\n**Office of Inspector General (HHS)** — $80,000,000; includes protective services for Secretary and child support non-payment investigations (18 U.S.C. 228); activities under PHS Act §3022 (42 U.S.C. 300jj-52).\n\n**Office for Civil Rights (HHS)** — $32,000,000.\n\n**Retirement Pay & Medical Benefits (PHS Commissioned Officers)** — Such amounts as may be required; covers Retired Serviceman's Family Protection Plan, Survivor Benefit Plan, Dependents' Medical Care Act.\n\n**Title I General Provisions (§§201–248)**\n- §201: ≤$50,000 for official reception/representation (Secretary-approved).\n- §202: Salary cap at Executive Level II for extramural grants; exception allows NIH to pay up to 100% at that rate.\n- §203: No §241 PHS Act funds expended until Secretary reports planned uses to Appropriations Committees.\n- §204: Notwithstanding §241(a) PHS Act, up to 2.5% of appropriated program funds available for evaluation.\n- §205: ≤1% transfer between HHS appropriations; no appropriation increased >3%; no new programs; 15-day advance notice to Committees.\n- §206: PHS Act §338E(c)(2) terminations may occur up to 60 days after FY2024 contract effective date under §338B, or anytime if unpaid.\n- §207: Title X PHS Act applicants must certify encouraging family participation for minors seeking family planning and counseling on resisting sexual coercion.\n- §208: Title X providers not exempt from State child abuse/molestation/rape/incest reporting laws.\n- §209: No Medicare Advantage denial for entities refusing abortion provision/referral; Secretary adjusts capitation payments actuarially; entity must inform enrollees where to obtain Medicare-covered service info.\n- §210: No funds to advocate/promote gun control.\n- §211: ≤60 PHS employees assigned to child survival/AIDS programs via USAID, UNICEF, WHO.\n- §212: HHS international health authority — Secretary may exercise State Dept. equivalent authority (State Dept. Basic Authorities Act §2(c)); fund facility acquisition/lease/renovation abroad; provide allowances/benefits similar to Foreign Service Act ch. 9 and 22 U.S.C. 4081–4086; locality-based comparability payments up to D.C. rate (5 U.S.C. §5304); leave per 5 U.S.C. ch. 63 subch. I or Foreign Service Act §903.\n- §213: NIH Director + Office of AIDS Research Director may transfer ≤3% among institutes/centers for HIV research; 15-day notice.\n- §214: HIV research amounts transferred to \"Office of AIDS Research\" account; Director transfers amounts for PHS Act §2353(d)(3).\n- §215: NIH Director may use PHS Act §402(b)(12) funds for non-standard transactions; alternative peer review per Director's procedures in lieu of §§301(a)(3), 405(b)(1)(B), 405(b)(2), 406(a)(3)(A), 492, 494.\n- §216: ≤$100,000,000 NIH funds for facility alteration/repair/improvement; ≤$5,000,000/project.\n- §217: 1% of NRSA funds to HRSA Administrator for primary medical care research (entities under PHS Act §§736, 739, 747); 1% to AHRQ Director for health services research.\n- §218: BARDA multi-year contracts (1–10 program years) for research services/security countermeasures (PHS Act §319F-2(c)(1)(B)); funds must be obligated for full period or first FY + termination costs; Secretary determines best interests; termination clause per 41 U.S.C. §3903(c); congressional notice per §3903(d).\n- §2",
+      "prompt_tokens": 26692,
+      "completion_tokens": 1200,
+      "cost_usd": 0.016633,
+      "latency_s": 22.412
+    },
+    "2": {
+      "notes": "- **Sec. 529**\n  - **Applicability:** (1) Administration for Children and Families (HHS); (2) Chief Evaluation Office and statistical-related cooperative/interagency agreements/contracting activities of the Bureau of Labor Statistics (DOL).\n  - **Availability:** Funds for research, evaluation, or statistical purposes are available for obligation through September 30, 2028.\n  - **Accounting:** Offices receiving research/evaluation funding from",
+      "prompt_tokens": 2107,
+      "completion_tokens": 1200,
+      "cost_usd": 0.00321,
+      "latency_s": 9.561
+    }
+  }
+}

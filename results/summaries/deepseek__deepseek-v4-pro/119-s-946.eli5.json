@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, called the MATE Improvement Act, changes training rules for health care workers who can prescribe controlled substances. Controlled substances are special medicines (like some strong pain relievers) that have tight rules because they can be misused.\n\nThe bill adds more professional groups to the list of organizations that can create or approve this required training. The new groups include family doctors, foot doctors (podiatrists), general dentists, eye doctors (optometrists), pharmacists, psychiatric nurses, and nursing academies. It also says training can come from accredited schools of podiatric medicine or pharmacy.\n\nThe change does not add new training content—it only makes sure these additional health care groups and schools are officially recognized as sources for the required training. If the bill becomes law, the new list would be treated as if it had been in place since December 29, 2022.",
+  "prompt_tokens": 901,
+  "completion_tokens": 879,
+  "total_tokens": 1780,
+  "cost_usd": 0.001157,
+  "latency_s": 20.669,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

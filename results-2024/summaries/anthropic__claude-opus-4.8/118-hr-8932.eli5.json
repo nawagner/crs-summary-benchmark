@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"FAFSA Deadline Act.\" FAFSA is a form students fill out to ask for money to help pay for college. This money is called financial aid.\n\nBefore this law, the form was supposed to be ready around October 1, but the rules only firmly required it by January 1. This law makes October 1 the real deadline. That means the form must be ready by October 1 each year, before the year students plan to start school.\n\nThe law also gives new jobs to the Secretary of Education. The Secretary is the leader of the Department of Education, which runs school programs for the country. Here is what the Secretary must do for each year's form:\n\nBy September 1, the Secretary must tell certain groups in Congress one of two things: that the Department will have the form ready by October 1, or that it will not.\n\nIf the Department will miss the October 1 deadline, the Secretary must speak to those groups in Congress by September 30. The Secretary must explain why the form will be late and how being late will affect students and families with money.\n\nThis law was approved on December 11, 2024.",
+  "prompt_tokens": 1320,
+  "completion_tokens": 321,
+  "total_tokens": 1641,
+  "cost_usd": 0.014625,
+  "latency_s": 5.982,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

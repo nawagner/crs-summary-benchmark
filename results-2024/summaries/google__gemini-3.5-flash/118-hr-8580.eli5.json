@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a plan for how the United States government will spend money on military buildings and veterans. Veterans are people who used to serve in the military. The bill gives money for the budget year that ends on September 30, 2025. \n\nFirst, the bill gives billions of dollars to build and fix things for the Army, Navy, Marine Corps, and Air Force. This includes building houses for military families and barracks for single service members. These building funds can be used until September 30, 2029. \n\nSecond, the bill gives money to the Department of Veterans Affairs. This department is a government group that helps veterans. The bill provides $75 billion for medical services starting on October 1, 2025. It also gives $22.8 billion to help veterans who were hurt by breathing in toxic chemicals while serving. \n\nFinally, the bill has strict rules about how the money can be used. It says no money can be spent on abortions, except in very rare cases. It also stops the government from using this money for gender-affirming medical care, COVID-19 mask rules, or diversity training.",
+  "prompt_tokens": 29663,
+  "completion_tokens": 243,
+  "total_tokens": 29906,
+  "cost_usd": 0.046682,
+  "latency_s": 3.46,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

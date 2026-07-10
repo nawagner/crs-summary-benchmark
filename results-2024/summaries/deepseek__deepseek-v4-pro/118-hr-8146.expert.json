@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8146",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "H.R. 8146, the “Police Our Border Act,” is a single-subject reporting measure. Its operative provision, Section 3, directs the Attorney General to submit a report to Congress not later than 180 days after the date of enactment analyzing the impact of the “Biden border crisis” on Federal, State, local, and Tribal law enforcement officers. The mandated report must address seven enumerated items: (1) the estimated dollar amount of all resources devoted to addressing the crisis and the extent to which those resources are unavailable to law enforcement agencies; (2) law enforcement officers’ exposure to fentanyl resulting from encounters with illegal aliens at the border and within the United States, including the nationality of each such alien; (3) injuries to officers connected to the crisis or fentanyl exposure; (4) officer morale; (5) the recruiting and hiring impact on law enforcement; (6) estimated dollar amounts States expended on local law enforcement efforts to investigate, intercept, and process fentanyl trafficked from the United States border, encompassing the entire evidence lifecycle—from collection and analysis through storage and final destruction; and (7) how many officers have been reassigned and local resources reallocated to such investigative, interdiction, and processing activities concerning fentanyl trafficked from the border. Section 2 sets forth non-operative congressional findings describing the asserted burdens the border crisis places on law enforcement, referencing fentanyl exposure, resource strain, and the need for border security legislation and executive action under section 212(f) of the Immigration and Nationality Act (8 U.S.C. 1182(f)). The Act does not amend or repeal any existing statute, authorizes no appropriations, and creates no regulatory or enforcement authority beyond the single reporting directive. It contains no exceptions, sunset provisions, or conditions precedent. The bill passed the House of Representatives on May 16, 2024, and was received in the Senate and referred to the Committee on the Judiciary.",
+  "prompt_tokens": 1007,
+  "completion_tokens": 1430,
+  "total_tokens": 2437,
+  "cost_usd": 0.001682,
+  "latency_s": 24.097,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

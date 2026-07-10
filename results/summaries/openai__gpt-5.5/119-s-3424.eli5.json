@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "openai/gpt-5.5",
+  "summary": "This law changes how some bankruptcy cases are paid for and run. Bankruptcy is a court process for people or businesses that cannot pay their debts.\n\nIt raises the pay for Chapter 7 bankruptcy trustees. A trustee is a person who helps manage the case and sends money to creditors. Their pay from one part of the fee goes from $45 to $105 per case. The law says their total pay is meant to be $120 per case. It does not raise the Chapter 7 filing fee. Courts can still waive filing fees for people who cannot afford them.\n\nThe law also changes where some bankruptcy fees go. Parts of the fees are sent to special Treasury funds and to the United States Trustee System Fund, which helps pay for the bankruptcy system.\n\nFor Chapter 11 business bankruptcy cases, it changes some quarterly fees. Some rules that lasted 5 years now last 10 years. For fiscal years 2026 through 2031, $5,400,000 of these fees each year goes to the general Treasury fund.\n\nThe law also keeps certain temporary bankruptcy judge jobs for 10 years instead of 5 years.\n\nMost changes start at the next calendar quarter after the law is enacted. Some trustee pay changes apply to Chapter 7 cases starting on the next October 1 after enactment.",
+  "prompt_tokens": 2945,
+  "completion_tokens": 563,
+  "total_tokens": 3508,
+  "cost_usd": 0.031615,
+  "latency_s": 9.865,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "openai/gpt-5.5",
+  "summary": "This law continues and updates federal autism programs through September 30, 2029.\n\nIt tells the National Institutes of Health, or NIH, to do and support more autism research. The research must look at autism across a person’s whole life. It must also include people who have other conditions, people with many support needs, and caregivers. NIH autism research centers may now get support for up to 7 years.\n\nThe law asks NIH to get comments from the public. This includes autistic people, family members, guardians, advocates, and care providers.\n\nIt continues programs that track autism and other developmental disabilities. It also continues programs for education, early finding of autism, diagnosis, training, and intervention. These programs must use information and services that fit people’s cultures and languages.\n\nThe law sets funding levels for 2025 through 2029. It allows $28.1 million each year for tracking and research programs. It allows $56.344 million each year for education, early detection, and intervention programs. It allows $306 million each year for NIH autism research.\n\nIt also requires reports to Congress. These reports must cover autism work, mental health needs, and young people moving from school services to adult services.\n\nThe law lets the health secretary help states, Tribes, and local governments use federal funds for communication tools and services.",
+  "prompt_tokens": 4149,
+  "completion_tokens": 445,
+  "total_tokens": 4594,
+  "cost_usd": 0.034095,
+  "latency_s": 9.22,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

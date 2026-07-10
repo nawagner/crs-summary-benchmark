@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5894",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "The enumerated departments, agencies, and offices funded are all accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; a straightforward accurate agency listing."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the bill provides FY2024 appropriations to Labor, HHS, Education, and related agencies."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": false,
+      "why": "Bill makes numerous substantive law changes but the summary describes none, only vaguely noting 'requirements and restrictions.'"
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": false,
+      "why": "Does not note any of the bill's material conditions, eligibility limits, or carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the appropriations period (fiscal year ending September 30, 2024)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Enumerates every funded agency across all three departments and related agencies, capturing the appropriations bill's essential structural effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear, well-organized agency-by-agency listing."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "A structured list with no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named agencies and offices are correct."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "The summary states no dollar figures, so there is nothing to verify."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 9,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

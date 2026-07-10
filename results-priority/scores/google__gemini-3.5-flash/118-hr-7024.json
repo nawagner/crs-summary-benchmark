@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-7024",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims match the bill including qualified-wage exemption, 30% bond threshold, and ERC listed-transaction treatment (section 602(d))."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabrication; the listed-transaction and reciprocity-determiner claims are both supported by the text."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill modifies the IRC across the listed areas."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes amendments to the CTC, section 179, LIHTC, and information-reporting rules."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the reciprocity condition and the conditional 30% bond threshold before 2026."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 2023-2025 windows, before-2026 obligations, Feb 3 2023, and Jan 31 2024 deadline."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the operative effect of all titles."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-structured with clear headings."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Appropriately concise with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Secretary of the Treasury, section 894A concepts, and ERC are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1,800/$1,900/$2,000, $1,290,000, $600 to $1,000, 30%, and bonus through 2025/2026 are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

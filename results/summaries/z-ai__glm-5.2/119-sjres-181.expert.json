@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "z-ai/glm-5.2",
+  "summary": "This joint resolution directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. It is enacted pursuant to section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth twelve findings, including that Congress has not declared war on Iran or enacted a specific statutory authorization for the use of military force within or against Iran; that the Administration launched \"Operation Epic Fury\" on February 28, 2026; that the operation has involved more than 50,000 service members and resulted in combat deaths and injuries; and that the use of military force within or against Iran constitutes the introduction of Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) directs the President, pursuant to 50 U.S.C. 1546a and Public Law 94-329, to remove United States Armed Forces from hostilities within or against Iran, unless explicitly authorized by a declaration of war or a specific authorization for use of military force.\n\nSection 2(b) establishes a rule of construction providing that nothing in the resolution may be construed to prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities abroad; (2) collecting, analyzing, or sharing intelligence related to threats from Iran or its proxies, including with Israel and partner countries attacked by Iran since February 28, 2026; or (3) assisting Israel and partner countries attacked by Iran since February 28, 2026, and other nations, either in directly defending against retaliatory attacks upon their territories by Iran or its proxies, or by providing defensive materiel support for such defensive measures.\n\nThe resolution contains no appropriation. No express effective date is specified beyond the operative directive in section 2(a).",
+  "prompt_tokens": 1796,
+  "completion_tokens": 647,
+  "total_tokens": 2443,
+  "cost_usd": 0.002091,
+  "latency_s": 5.197,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a joint resolution, which is a type of proposal for a law. It stops a rule made by a government group called the Bureau of Consumer Financial Protection. The rule is about small business lending under a law called the Equal Credit Opportunity Act. The government group published this rule on May 31, 2023.\n\nIf this bill becomes a law, Congress will officially disapprove of the rule. The rule will have no force or effect. This means the rule will not be used and cannot be enforced. \n\nThe Senate passed this bill on October 18, 2023.",
+  "prompt_tokens": 480,
+  "completion_tokens": 1353,
+  "total_tokens": 1833,
+  "cost_usd": 0.002584,
+  "latency_s": 18.785,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

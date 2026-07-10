@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7266",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the Rural and Municipal Utility Cybersecurity Act. It keeps a government program running that helps certain electric companies protect their computer systems from hackers and other digital threats.\n\nThe program is run by the Department of Energy. It gives money (called grants) and expert help to smaller electric utilities. This includes electric co-ops in rural areas, electric companies owned by cities or towns, and small investor-owned electric companies that sell less than 4 million megawatt hours of electricity each year. The money can be used to buy new security technology, train workers, and detect or recover from cyberattacks.\n\nThe bill sets aside up to $250 million total for the program over five years, from 2026 to 2030. When deciding who gets help, the Department of Energy must give priority to utilities that have very few security resources, that own parts of the main power grid, or that serve important military bases.\n\nIf the bill becomes law, any information about security problems that companies share with the government under this program will be kept secret. It cannot be released through open records requests, like the Freedom of Information Act, which normally lets people ask for government documents.\n\nThe goal is to make the electric grid safer from online threats, especially for smaller utilities that may not have enough money or staff to do it on their own.",
+  "prompt_tokens": 1597,
+  "completion_tokens": 890,
+  "total_tokens": 2487,
+  "cost_usd": 0.001469,
+  "latency_s": 18.648,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

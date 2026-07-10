@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-232 (enacted from H.R. 6062, 118th Congress) restores the capacity of American Samoa to amend its territorial constitution through a majority-rule process of self-determination without requiring additional congressional action, subject to Congress's plenary authority under the Territorial Clause (U.S. Const. art. IV, § 3, cl. 2).\n\nThe Act's operative mechanism is a single repeal. Section 1 repeals Section 12 of Public Law 98-213, codified at 48 U.S.C. 1662a. That provision had barred amendments to or modifications of the Constitution of American Samoa except by Act of Congress—effectively superseding the pre-existing administrative framework under which the constitution had been approved and could be amended. By eliminating 48 U.S.C. 1662a, the Act removes the statutory requirement for congressional action to effect constitutional amendments, thereby reinstating the prior delegated-administration regime.\n\nAs reflected in the Act's title, that regime derives from a congressional delegation of the administration of federal territorial law to the President, and in turn to the Secretary of the Interior, pursuant to Executive Order 10264 (June 29, 1951), under which the Constitution of American Samoa was approved and, as the title recites, may be amended without further congressional action. The Act itself does not re-enact, amend, or codify any provision governing the amendment procedure; it operates solely by repeal, leaving the amendment mechanism to the antecedent executive framework referenced in the title. The title expressly preserves Congress's continuing authority under the Territorial Clause.\n\nThe Act contains no severability clause, no authorization of appropriations, no appropriation, no sunset, and no delayed effective date; it took effect upon approval on January 4, 2025. It establishes no conditions precedent, deadlines, or reporting requirements, and creates no new statutory authority beyond the effect flowing from the repeal.\n\nThe legislative history reflects that H.R. 6062 was reported by the House Committee on Natural Resources (H. Rep. No. 118-564), passed the House on July 8, 2024, and passed the Senate on December 18, 2024, and was approved January 4, 2025.",
+  "prompt_tokens": 985,
+  "completion_tokens": 721,
+  "total_tokens": 1706,
+  "cost_usd": 0.02295,
+  "latency_s": 10.306,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

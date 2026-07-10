@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4663",
+  "model": "openai/gpt-5.5",
+  "summary": "The Florida Freeze Disaster Assistance Act, S. 4663, makes a direct emergency supplemental appropriation to the Secretary of Agriculture to provide State-administered block grant assistance for specified agricultural losses attributable to freeze or cold weather conditions. The bill does not amend existing provisions of the United States Code or establish a separate authorization of appropriations; it appropriates funds directly.\n\nSection 1 provides the short title, the “Florida Freeze Disaster Assistance Act.”\n\nSection 2 appropriates, out of any money in the Treasury not otherwise appropriated, $3,500,000,000 for the fiscal year ending September 30, 2027, as an additional amount for “Agricultural Programs—Office of the Secretary.” The funds are to remain available until expended. The appropriation is for the Secretary of Agriculture to provide assistance, in the form of block grants to States, for losses of revenue, quality, or production of crops, including crops prevented from planting, and of trees, bushes, and vines, when such losses are a consequence of a freeze or cold weather condition.\n\nSection 2 includes several conditions and limitations on the availability and use of the appropriated funds. The assistance must include compensation to producers for losses of multi-year crops. Funds are available exclusively for losses occurring in counties that received a disaster designation for freeze and related cold weather conditions issued by the Secretary on March 4, 2026. Funds are to be made available upon the request of a State department of agriculture or another appropriate State agency, as determined by the Secretary.\n\nSection 2 also imposes a reporting requirement. Not later than 120 days after enactment, and for each fiscal quarter thereafter until the amounts appropriated under the section are expended, the Secretary must submit a report to the House and Senate Committees on Appropriations describing implementation of the assistance provided under the section.\n\nFinally, section 2 designates the full appropriated amount as an emergency requirement pursuant to section 251(b)(2)(A)(i) of the Balanced Budget and Emergency Deficit Control Act of 1985, codified at 2 U.S.C. 901(b)(2)(A)(i).",
+  "prompt_tokens": 809,
+  "completion_tokens": 608,
+  "total_tokens": 1417,
+  "cost_usd": 0.022285,
+  "latency_s": 10.383,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

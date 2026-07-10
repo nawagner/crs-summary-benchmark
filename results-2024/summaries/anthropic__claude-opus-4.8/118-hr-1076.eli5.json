@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Preventing the Financing of Illegal Synthetic Drugs Act.\" It became law on September 13, 2024.\n\nThe law asks the government to study how bad drugs are made, sold, and paid for. These drugs are called \"synthetic drugs.\" They are made in labs. Some examples are fentanyl and methamphetamine. These drugs can be very dangerous. The law says that over 107,000 people in the United States died from drug overdoses in one year, and most of those deaths involved drugs like fentanyl.\n\nThe study will be done by the Comptroller General. That is a person who checks how the government works. The study will look at:\n\n- Who makes and sells these drugs, and where they come from.\n- How criminal groups do this business, from start to finish.\n- How drugs are sold online and on social media apps like Snapchat, Discord, and Facebook.\n- How people pay for drugs, including apps like CashApp.\n- How criminals hide their money.\n- What the government is already doing to stop this, and what help is still needed.\n\nThe person doing the study must send a report to Congress. Congress is the group that makes laws. The report is due within one year after the law started. The report will share everything they learned.\n\nThis law does not create new rules or punishments. It just asks for information.",
+  "prompt_tokens": 2393,
+  "completion_tokens": 397,
+  "total_tokens": 2790,
+  "cost_usd": 0.02189,
+  "latency_s": 7.297,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

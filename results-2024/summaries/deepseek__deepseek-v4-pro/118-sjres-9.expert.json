@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the Congressional Review Act (CRA), codified at 5 U.S.C. chapter 8, to disapprove a final rule issued by the United States Fish and Wildlife Service. The rule, published at 87 Fed. Reg. 72674 (November 25, 2022), is titled “Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment.” The resolution provides that Congress disapproves the specified rule and declares that the rule “shall have no force or effect.”\n\nAs a CRA joint resolution of disapproval, enactment would trigger the statutory consequences set forth in 5 U.S.C. § 801(b) and (f): the rule would be treated as though it had never taken effect, and the agency would be prohibited from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, absent specific statutory authorization enacted after the date of the joint resolution’s enactment. The resolution does not contain any exceptions, delayed effective dates, or sunset provisions; its operative effect is immediate upon enactment. The measure is a joint resolution, requiring passage by both Houses and presentment to the President. The text reflects passage by the Senate on May 3, 2023.",
+  "prompt_tokens": 581,
+  "completion_tokens": 1045,
+  "total_tokens": 1626,
+  "cost_usd": 0.001162,
+  "latency_s": 73.541,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

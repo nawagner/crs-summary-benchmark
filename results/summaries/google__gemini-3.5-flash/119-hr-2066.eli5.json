@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a law called the \"Investing in All of America Act of 2025.\" It changes how the government helps small businesses get money to grow. \n\nThe government has a program that helps special investment companies get extra money, called leverage, to invest in small businesses. Usually, there is a limit on how much of this extra money these companies can get. \n\nThis new law changes those limits. It says that if these companies invest in certain types of businesses, that money does not count toward their limit. The special businesses are:\n* Small businesses in low-income areas or country areas (called rural areas).\n* Small businesses that work with important new technology.\n* Small manufacturers, which are businesses that make things.\n\nThe law sets new limits on how much money can be ignored this way. The most that can be ignored is either half of the investment company's private money, or $125 million, whichever is smaller. Also, this rule only applies to new investments made after this law was passed. Finally, the law changes some of the general limits on how much total extra money these investment companies can get.",
+  "prompt_tokens": 1755,
+  "completion_tokens": 236,
+  "total_tokens": 1991,
+  "cost_usd": 0.004757,
+  "latency_s": 2.296,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

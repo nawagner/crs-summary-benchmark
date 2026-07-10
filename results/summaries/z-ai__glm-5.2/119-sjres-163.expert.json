@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 163 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent an explicit congressional authorization. The joint resolution invokes the expedited legislative procedures established under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth congressional findings, asserting Congress's sole power to declare war under Article I, section 8, clause 11 of the Constitution, while acknowledging the President's constitutional responsibility to defend the United States and its interests from attack. It notes the absence of a declaration of war or specific statutory authorization for the use of military force within or against Iran, and characterizes the use of such military force as the introduction of Armed Forces into hostilities under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)).\n\nSection 2(a) provides the operative mechanism, expressly directing the President, pursuant to 50 U.S.C. 1546a and Public Law 94-329, to remove United States Armed Forces from hostilities within or against Iran unless explicitly authorized by a declaration of war or a specific authorization for use of military force.\n\nSection 2(b) establishes a rule of construction, specifying that the resolution does not prevent the United States from: (1) defending against an attack on the United States or its personnel or facilities in other nations; (2) collecting, analyzing, or sharing intelligence related to defense from threats from Iran or its proxies, including with partner countries attacked by Iran since February 28, 2026, and other nations and international organizations; or (3) assisting partner countries attacked by Iran since February 28, 2026, and other nations in intercepting retaliatory attacks upon their territory by Iran or its proxies, or by providing defensive materiel support for such defensive measures. The resolution does not specify an authorization of appropriations or a distinct effective date beyond its enactment.",
+  "prompt_tokens": 1004,
+  "completion_tokens": 1335,
+  "total_tokens": 2339,
+  "cost_usd": 0.002839,
+  "latency_s": 10.155,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

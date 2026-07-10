@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.R. 4079, the \"Safer Response Act of 2025,\" amends Section 546 of the Public Health Service Act (42 U.S.C. 290ee-1) to broaden the scope of first responder training grants beyond opioids and to reauthorize appropriations for the program through fiscal year 2030.\n\nSection 2 of the bill amends Section 546 of the Public Health Service Act through several targeted textual modifications. In subsection (a), the bill capitalizes the terms \"Tribes\" and \"Tribal.\" In subsections (a), (c), and (d), the bill replaces the phrase \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\" wherever it appears, and strikes the term \"opioid\" wherever it appears, thereby expanding the scope of the referenced drugs and devices to include all legally marketed products rather than limiting the training to opioid-specific contexts.\n\nSubsection (f) is similarly amended to replace \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed.\" In subsection (f)(1), the term \"opioid\" is struck. In subsection (f)(2), the phrase \"opioid and heroin\" is replaced with \"opioid, heroin, and other drug,\" and the phrase \"opioid overdose\" is replaced with \"overdose.\" In subsection (f)(3), the phrase \"opioid and heroin\" is struck. These changes expand the grant program's focus to encompass other drugs and general overdose events, rather than restricting the training to opioids and heroin.\n\nFinally, subsection (h) is amended to reauthorize the program's funding. The bill strikes \"$36,000,000 for each of fiscal years 2019 through 2023\" and inserts \"$57,000,000 for each of fiscal years 2026 through 2030.\" This constitutes an authorization of appropriations; the bill does not itself appropriate funds. The authorization increases the annual authorized amount by $21,000,000 and extends the authorization period by five fiscal years. The bill does not specify a separate effective date, meaning its amendments would take effect upon enactment.",
+  "prompt_tokens": 723,
+  "completion_tokens": 750,
+  "total_tokens": 1473,
+  "cost_usd": 0.001682,
+  "latency_s": 6.015,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

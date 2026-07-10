@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law creates a national project to fight Parkinson’s disease and other similar brain disorders. It is called the National Parkinson’s Project. The project will be run by the Secretary of Health and Human Services, the top health official in the country.\n\nThe project’s main job is to make and update a big plan to prevent, diagnose, treat, and cure Parkinson’s. It will also work to ease symptoms and slow down the disease. The project will bring together research and services from many government agencies, share information, and work with other countries when possible.\n\nEvery year, starting within two years, the project will check how the country is doing in the fight against Parkinson’s and suggest next steps. It will also estimate how much money the government is spending and what might still be needed.\n\nThe law sets up an Advisory Council to give expert advice. The council will include people from many federal agencies, like the Centers for Disease Control and Prevention and the National Institutes of Health. It will also have ten outside experts, such as patient advocates, a family caregiver, doctors, researchers, and nonprofit leaders. The council must meet at least four times a year for the first two years, and hold a yearly public meeting about research. It will write a yearly report to Congress with a list of all federally funded Parkinson’s efforts and recommendations for improving care, research, and support for patients and families.\n\nThe project and the advisory council will both end at the end of 2035.",
+  "prompt_tokens": 2522,
+  "completion_tokens": 1064,
+  "total_tokens": 3586,
+  "cost_usd": 0.002023,
+  "latency_s": 20.63,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

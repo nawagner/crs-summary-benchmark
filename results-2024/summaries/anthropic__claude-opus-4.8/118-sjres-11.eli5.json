@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about a rule made by the Environmental Protection Agency, or EPA. The EPA is a part of the government that works to keep our air and water clean.\n\nThe EPA made a rule in January 2023. That rule set new limits on air pollution from big, heavy trucks and their engines. It was about how much dirty air these new vehicles are allowed to put out.\n\nThis bill says that Congress does not agree with that rule. Congress is the group of people who make laws for the country.\n\nIf this bill becomes law, the EPA's rule would be canceled. That means the rule \"shall have no force or effect.\" In simple words, the rule would not count anymore, and truck makers would not have to follow it.\n\nThe Senate already voted to pass this bill on April 26, 2023. The Senate is one of the two parts of Congress. For the bill to fully become law, more steps would still need to happen.\n\nThe bill does not say what new rules, if any, would take the place of the old one. It only says the EPA's rule would be stopped.",
+  "prompt_tokens": 828,
+  "completion_tokens": 314,
+  "total_tokens": 1142,
+  "cost_usd": 0.01199,
+  "latency_s": 6.406,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

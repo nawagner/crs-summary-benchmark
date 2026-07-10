@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The *Winnebago Land Transfer Act of 2023* (Public Law 118-68) mandates the transfer of administrative jurisdiction over specified federal lands to the Bureau of Indian Affairs to be held in trust for the benefit of the Winnebago Tribe of Nebraska. \n\nSpecifically, Section 2(a) of the Act declares that, subject to all valid existing rights, all right, title, and interest of the United States—including improvements and appurtenances—in and to the federal lands described in Section 2(b) are part of the Winnebago Reservation established by the Treaty with the Winnebago Tribe, 1865 (14 Stat. 671). Section 2(a)(2) directs that these lands be held in trust by the United States for the benefit of the Winnebago Tribe of Nebraska, subject to the same terms and conditions set forth in the 1865 Treaty.\n\nSection 2(b) defines the subject federal lands by reference to specific real property tracts:\n1. **Tract No. 119:** The portion of Tract No. 119 described in filings with the U.S. District Court for the Northern District of Iowa (Western Division), Civil Case No. 70-C-3015-W, executed May 11, 1973. The tract is situated in Section 8 (and its accretion land), the Southwest Quarter of Section 9, the West Half of Section 16, and the East Half of Section 17, Township 86 North, Range 47 West of the Fifth Principal Meridian, Woodbury County, Iowa, lying easterly of the Nebraska/Iowa State Line and southerly of the easterly extension of the north line of the Winnebago Reservation.\n2. **Tract No. 210:** As described in Schedule \"A\" of the *Declaration of Taking, Legal Description of Tract 210 and Judgment on Stipulation and Order of Distribution*, filed in Civil Case No. 70-C-3015-W in the U.S. District Court for the Northern District of Iowa (Western Division).\n3. **Tract No. 113:** As described in the *Judgment on Declaration of Taking and Legal Description of Tract 113*, filed in the U.S. District Court for the District of Nebraska, Civ. No. 03498.\n\nSection 2(c) establishes a statutory prohibition on gaming, stipulating that Class II and Class III gaming under the Indian Gaming Regulatory Act (25 U.S.C. 2701 et seq.) shall not be permitted at any time on the lands taken into trust pursuant to Section 2(a).",
+  "prompt_tokens": 1109,
+  "completion_tokens": 592,
+  "total_tokens": 1701,
+  "cost_usd": 0.006992,
+  "latency_s": 3.521,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

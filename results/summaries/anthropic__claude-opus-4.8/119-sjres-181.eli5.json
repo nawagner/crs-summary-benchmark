@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill wants the U.S. military to stop fighting in Iran unless Congress says it is okay.\n\nHere is the background the bill gives. The Constitution says only Congress can declare war. Congress did not declare war on Iran. But the bill says that on February 28, 2026, the government started a big military action against Iran called \"Operation Epic Fury.\" Leaders called it a \"war.\"\n\nThe bill says Iran then closed a busy sea passage called the Strait of Hormuz. Ships stopped going through it. Oil prices went up past $100 a barrel. The bill says food supplies around the world could be hurt because a lot of fertilizer travels through that passage.\n\nThe bill also says more than 50,000 U.S. troops joined the fight. It says seven troops were killed in combat, six more died in a plane crash, and 381 were hurt.\n\nThe main rule is in Section 2. It tells the President to pull U.S. troops out of fighting in Iran. The only way to keep fighting would be if Congress declares war or passes a special law giving permission.\n\nThe bill also says a few things are still allowed. The U.S. can still defend itself and its people. It can still gather and share information. It can help friends like Israel defend against attacks from Iran, and give them supplies to help defend.",
+  "prompt_tokens": 2940,
+  "completion_tokens": 403,
+  "total_tokens": 3343,
+  "cost_usd": 0.024775,
+  "latency_s": 7.627,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

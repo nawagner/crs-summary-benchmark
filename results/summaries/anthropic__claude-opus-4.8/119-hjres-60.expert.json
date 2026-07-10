@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-13, exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove and nullify a specified agency rule.\n\nThe operative mechanism is a resolution of disapproval under 5 U.S.C. § 802. The single operative clause provides that Congress disapproves the rule submitted by the National Park Service of the Department of the Interior relating to \"Glen Canyon National Recreation Area: Motor Vehicles\" (90 Fed. Reg. 2621), and states that \"such rule shall have no force or effect.\"\n\nBy operation of the Congressional Review Act, enactment of this resolution renders the identified rule void ab initio, as though it had never taken effect. A collateral legal consequence attaches under 5 U.S.C. § 801(b)(2): a rule disapproved by enacted joint resolution may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution's enactment.\n\nThe resolution contains no severability clause, no delegation of further authority, no authorization or appropriation of funds, and no delayed effective date or sunset provision. It takes effect upon approval.\n\nThe resolution was approved May 23, 2025. Per the recorded legislative history, H.J. Res. 60 was considered and passed by the House on April 29, 2025, and considered and passed by the Senate on May 6 and 8, 2025.\n\nNote on scope: The text amends no provision of the United States Code and does not itself alter the substantive regulatory regime beyond nullifying the identified rule; the practical effect is to reinstate the pre-rule regulatory status quo governing motor vehicle use at the Glen Canyon National Recreation Area, subject to the § 801(b)(2) reissuance bar.",
+  "prompt_tokens": 792,
+  "completion_tokens": 626,
+  "total_tokens": 1418,
+  "cost_usd": 0.01961,
+  "latency_s": 9.878,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

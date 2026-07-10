@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, cited as the \"Declaration of Independence Reaffirmation Act of 2026,\" serves to reaffirm and re-adopt the Declaration of Independence as an Organic Law of the United States and to set forth its text in commemoration of the 250th anniversary of American independence.\n\nSection 2 sets forth congressional findings, articulating the historical and legal significance of the Declaration of Independence, its recognition among the Organic Laws of the United States, its relationship to the Constitution of the United States, and Congress's authority to recognize and carry forward foundational laws and principles of the American political order.\n\nSection 3 contains the operative provision, wherein Congress reaffirms and re-adopts the Declaration of Independence as an Organic Law of the United States, characterizing it as the enduring charter of American independence, national sovereignty, natural rights, equal citizenship, and government by consent. This section does not amend any specific provision of the U.S. Code or enact new regulatory or administrative authority; rather, it operates as a formal legislative declaration and reaffirmation.\n\nSection 4 provides that, in commemoration of the 250th anniversary of American independence, Congress sets forth the full text of the Declaration of Independence. The section reproduces the complete text of the document as adopted by the Continental Congress on July 4, 1776.\n\nThe bill does not include any appropriations, authorizations of appropriations, new regulatory authorities, amendments to existing statutes, effective dates, or sunset provisions. It contains no exceptions or conditions precedent. The legislation operates solely as a symbolic and declaratory reaffirmation of the Declaration of Independence's status within the Organic Laws of the United States.",
+  "prompt_tokens": 2687,
+  "completion_tokens": 1025,
+  "total_tokens": 3712,
+  "cost_usd": 0.003226,
+  "latency_s": 7.914,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

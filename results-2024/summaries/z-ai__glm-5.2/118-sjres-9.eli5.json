@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a joint resolution, which is a type of law Congress can vote on. It cancels a rule made by the United States Fish and Wildlife Service. A rule is a set of directions from a government agency.\n\nThe rule was about the lesser prairie-chicken, a type of bird. It was made on November 25, 2022. The rule gave special protection to two groups of these birds. The northern group was called \"threatened,\" meaning it could become endangered. The southern group was called \"endangered,\" meaning it is at high risk of dying out.\n\nIf this bill becomes law, the rule will have \"no force or effect.\" This means the rule would be canceled and the protections would not happen. The Senate passed this bill on May 3, 2023. The House of Representatives would also need to vote on it for it to become law.",
+  "prompt_tokens": 567,
+  "completion_tokens": 1112,
+  "total_tokens": 1679,
+  "cost_usd": 0.002218,
+  "latency_s": 14.209,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

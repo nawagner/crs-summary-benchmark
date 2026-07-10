@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law if Congress and the president agree to it. It was introduced in Congress on March 24, 2026. \n\nThe bill tells the president to remove United States military forces from any fighting in or against the country of Cuba. Under the U.S. Constitution, only Congress has the power to declare war. The bill says that Congress has not declared war on Cuba. It also says Congress has not given special permission to use military force there. This includes blocking ships from going to Cuba, which is called a blockade or quarantine. \n\nIf this bill becomes law, the president must stop any unauthorized military fighting against Cuba. However, there are some exceptions. The military would still be allowed to defend the United States from an attack or a threat of an attack. The military would also still be allowed to carry out legal missions to stop illegal drugs.",
+  "prompt_tokens": 987,
+  "completion_tokens": 193,
+  "total_tokens": 1180,
+  "cost_usd": 0.003217,
+  "latency_s": 2.27,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

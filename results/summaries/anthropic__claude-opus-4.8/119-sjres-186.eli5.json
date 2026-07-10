@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-186",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill wants to add a new rule to the Constitution. The Constitution is the set of top rules for the United States.\n\nThe new rule is about voting. It says that every U.S. citizen who is old enough to vote has a basic right to vote. This is called a \"fundamental right,\" which means it is very important and strongly protected.\n\nThe bill says the government cannot take away or make it harder for citizens to vote. There is one exception. The government can only limit voting if it has a very strong reason, and only in the smallest way needed to do that.\n\nThe bill also removes a few words from an older part of the Constitution. Those words are \"or other crime.\" This changes an old rule that talked about people losing voting rights because of crimes.\n\nThe bill says Congress can make laws to protect this voting right. Congress is the group of leaders who write the country's laws.\n\nTo become part of the Constitution, this idea needs a lot of support. Two-thirds of both parts of Congress must agree. Then three-fourths of the states must say yes too. This is called being \"ratified,\" which means approved.\n\nThis bill was introduced in the Senate on April 27, 2026, and sent to a group of senators to study it.",
+  "prompt_tokens": 1064,
+  "completion_tokens": 360,
+  "total_tokens": 1424,
+  "cost_usd": 0.01432,
+  "latency_s": 6.411,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

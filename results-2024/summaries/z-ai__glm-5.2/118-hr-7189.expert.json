@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Congenital Heart Futures Reauthorization Act of 2024 (Public Law 118-107) amends Section 399V-2 of the Public Health Service Act (42 U.S.C. 280g-13) to reauthorize the national congenital heart disease research, surveillance, and awareness program through fiscal year 2029 and to impose new reporting and strategic planning requirements on the Secretary of Health and Human Services.\n\nSpecifically, the Act redesignates existing subsections (f) and (g) as subsections (g) and (h), respectively. It inserts a new subsection (f), titled \"Report and Strategy,\" which directs the Secretary, not later than two years after the date of enactment, to submit a report to the House Committee on Energy and Commerce and the Senate Committee on Health, Education, Labor, and Pensions. The report must describe past and present Department of Health and Human Services (HHS) activities to increase public awareness and knowledge of congenital heart disease, assess HHS activities to increase education and training of health care providers regarding the disease, and describe the current workforce capacity of providers treating adult congenital heart disease patients.\n\nNot later than one year after submitting the report, the Secretary must develop and submit to Congress a strategy for improving public awareness and provider education and training. The strategy must include findings and recommendations to address public awareness and research gaps related to lifelong patient needs (including long-term health outcomes, quality of life, mental health, and health care utilization), address workforce shortages of providers treating adult patients (potentially through enhanced fellowship or continuing education programs), and foster collaboration and information dissemination across federal agencies, health care providers, researchers, and patient organizations. In developing this strategy, the Secretary is required to consult with stakeholder groups, including patient organizations, health care professionals, research entities, health insurance providers, accrediting organizations, and relevant federal agencies such as the Centers for Disease Control and Prevention, the National Institutes of Health, and the Health Resources and Services Administration.\n\nFinally, the Act amends subsection (h), as redesignated, by replacing the authorization of appropriations period \"2020 through 2024\" with \"2025 through 2029.\" The Act was enacted on November 21, 2024.",
+  "prompt_tokens": 1153,
+  "completion_tokens": 1318,
+  "total_tokens": 2471,
+  "cost_usd": 0.002891,
+  "latency_s": 7.553,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

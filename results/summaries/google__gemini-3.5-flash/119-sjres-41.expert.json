@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 41, introduced in the 119th Congress, 1st Session, is a joint resolution of disapproval intended to prohibit a specific proposed export of defense articles to Israel. \n\nOperating under the statutory framework of the Arms Export Control Act (AECA), the resolution’s sole operative provision prohibits the export of certain firearms, parts, and components controlled under Category I of the United States Munitions List (USML). To trigger this prohibition, the resolution identifies the subject defense articles by reference to the executive notification procedures mandated by section 36(c) of the AECA (codified at 22 U.S.C. § 2776(c)). Specifically, the prohibition applies to the proposed export described in Transmittal No. DDTC 23-077, which was formally communicated to Congress and published in the Congressional Record on March 24, 2025, as Executive Communication 510. \n\nThe scope of the prohibition is defined by the following statutory parameters and transaction-specific details:\n*   **Valuation Threshold:** The export must be valued in the amount of $1,000,000 or more.\n*   **Quantity and Specifications:** The prohibition is restricted to 20,000 Colt Carbine, 11.5-inch barrel length, 5.56mm caliber fully automatic carbine rifles.\n*   **Designated Intermediary and End User:** The prohibition applies to the transfer of these articles to M.R.D. Efram Investments Ltd in Israel, with the specified ultimate end-use designated for the Israel National Police.\n\nThe resolution contains no authorizations of appropriations, sunsets, effective dates, or severability clauses, relying entirely on the immediate prohibitory effect of its single operative clause upon enactment.",
+  "prompt_tokens": 616,
+  "completion_tokens": 384,
+  "total_tokens": 1000,
+  "cost_usd": 0.00438,
+  "latency_s": 2.878,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

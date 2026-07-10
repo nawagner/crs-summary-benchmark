@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4367",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures and provisions match the bill (CBP $16.2B ops/$2.97B PC&I, ICE $9.8B, 41,500 beds, $20.4B DRF, House passage Sep 28 2023 verified)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; added context (dates, program names) is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies FY2024 DHS appropriations as the purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes rescissions of prior-year balances and blocked rules/guidance."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes barrier repair carve-out, detention conditions, and notification thresholds."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States FY2024 ending Sep 30, 2024 and notification timing windows."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers appropriations across all five titles plus major policy restrictions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive tone throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized with clear headed sections."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense and substantive without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All named agencies/programs correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All stated figures verified accurate against bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

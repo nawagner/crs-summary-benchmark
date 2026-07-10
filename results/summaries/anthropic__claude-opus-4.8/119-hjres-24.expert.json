@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution (H.J. Res. 24), enacted as Public Law 119-7, effects congressional disapproval of an agency rule pursuant to the Congressional Review Act (codified at chapter 8 of title 5, United States Code, §§ 801–808).\n\nThe resolution's sole operative provision states that Congress disapproves the rule submitted by the Department of Energy titled \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers,\" published at 89 Fed. Reg. 104616 (December 23, 2024), and provides that \"such rule shall have no force or effect.\"\n\nBy operation of the CRA disapproval mechanism, the identified DOE energy conservation standards rule is nullified and treated as though it had never taken effect. Under 5 U.S.C. § 801(b)(2), a rule that is the subject of an enacted joint resolution of disapproval may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution's enactment. The resolution itself does not restate this reissuance bar; that consequence arises from the underlying CRA framework invoked in the resolution's title.\n\nThe measure contains no amendment to the United States Code, no new grant of regulatory authority, no authorization of appropriations, no appropriation, and no sunset provision. It operates exclusively as a disapproval instrument directed at a single, specifically identified rule.\n\nThe resolution took effect upon approval. It was passed by the House on March 27, 2025, passed by the Senate on April 2 and 3, 2025, and approved by the President on May 9, 2025. Because the resolution received presidential approval, no question of the CRA's presentment or override procedures is presented on these facts.\n\nThe practical effect is to void the DOE's revised energy conservation standards for walk-in coolers and walk-in freezers, leaving in force the prior applicable standards absent subsequent, specifically authorized rulemaking.",
+  "prompt_tokens": 882,
+  "completion_tokens": 675,
+  "total_tokens": 1557,
+  "cost_usd": 0.021285,
+  "latency_s": 10.364,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

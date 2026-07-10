@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution disapproves, under the Congressional Review Act (chapter 8 of title 5, United States Code), the rule submitted by the Bureau of Land Management (BLM) entitled “National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.” The operative mechanism is a legislative veto: pursuant to 5 U.S.C. § 801(b), Congress invokes its authority to void an agency rule through enactment of a joint resolution of disapproval, thereby rendering the rule without legal force or effect.\n\nThe resolution identifies the disapproved rule as the BLM action issued April 25, 2022, as a record of decision, which a Government Accountability Office letter of opinion dated July 24, 2025 (printed in the Congressional Record on July 28, 2025, at pages S4768–S4770) concluded constitutes a rule subject to the Congressional Review Act. The text provides that Congress disapproves this rule and expressly provides that “such rule shall have no force or effect.” This language tracks the statutory consequence under 5 U.S.C. § 801(b)(1), which provides that a rule that is the subject of an enacted joint resolution of disapproval shall not take effect (or shall not continue in effect). The resolution takes effect immediately upon enactment—December 5, 2025—and operates as a permanent invalidation of the specified agency action. The resolution does not authorize or appropriate funds, establish new authority, or amend organic acts; it is strictly a disapproval under chapter 8. The practical effect is to nullify the BLM’s integrated activity plan record of decision for the National Petroleum Reserve in Alaska and to trigger the bar under 5 U.S.C. § 801(b)(2) against reissuing the same or a substantially similar rule absent subsequent statutory authorization.",
+  "prompt_tokens": 519,
+  "completion_tokens": 900,
+  "total_tokens": 1419,
+  "cost_usd": 0.001009,
+  "latency_s": 16.552,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law ends a national emergency. A national emergency is a special rule that lets the President take extra actions during a big crisis. The President started this emergency on March 13, 2020. This law stops that emergency. The law was approved on April 10, 2023. Because of this law, the special emergency rules from 2020 are officially over. The Senate and the House of Representatives, which are the two parts of Congress, voted to pass this law. The House of Representatives voted on it on February 1, 2023. The Senate voted on it on March 29, 2023. After both parts agreed, the law was finalized.",
+  "prompt_tokens": 418,
+  "completion_tokens": 1404,
+  "total_tokens": 1822,
+  "cost_usd": 0.002637,
+  "latency_s": 30.626,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

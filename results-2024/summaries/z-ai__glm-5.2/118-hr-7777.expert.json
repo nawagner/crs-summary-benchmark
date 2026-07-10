@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-130, cited as the \"Veterans' Compensation Cost-of-Living Adjustment Act of 2024,\" authorizes the Secretary of Veterans Affairs to increase specified rates of disability compensation and dependency and indemnity compensation (DIC) to account for cost-of-living adjustments.\n\nSection 2(a) directs the Secretary, effective December 1, 2024, to increase the dollar amounts in effect on November 30, 2024, for the payment of disability compensation and DIC. Pursuant to section 2(b), the dollar amounts subject to this increase include those under: section 1114 of title 38, United States Code (wartime disability compensation); section 1115(1) of title 38 (additional compensation for dependents); section 1162 of title 38 (clothing allowance); subsections (a) through (d) of section 1311 of title 38 (DIC to surviving spouse); and sections 1313(a) and 1314 of title 38 (DIC to children).\n\nUnder section 2(c), each dollar amount specified in section 2(b) shall be increased by the same percentage applied to benefit amounts payable under title II of the Social Security Act (42 U.S.C. 401 et seq.), as determined under section 215(i) of that Act (42 U.S.C. 415(i)), effective December 1, 2024. Section 2(d) provides a special rule authorizing the Secretary to administratively adjust the rates of disability compensation payable to persons under section 10 of Public Law 85-857 (72 Stat. 1263) who have not received compensation under chapter 11 of title 38, United States Code, consistent with the increases made under section 2(a).\n\nSection 3 imposes a publication requirement, directing the Secretary to publish the adjusted amounts specified in section 2(b) in the Federal Register no later than the date on which the matters specified in section 215(i)(2)(D) of the Social Security Act (42 U.S.C. 415(i)(2)(D)) are required to be published as a result of a determination made under section 215(i) of that Act during fiscal year 2025. The Act does not contain a specific appropriation of funds.",
+  "prompt_tokens": 1117,
+  "completion_tokens": 1470,
+  "total_tokens": 2587,
+  "cost_usd": 0.003132,
+  "latency_s": 11.005,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

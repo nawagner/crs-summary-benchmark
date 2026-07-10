@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is about whether the United States military can be used in or against Cuba. Congress (the part of the government that makes laws) says that only Congress has the power to declare war. Congress has not declared war on Cuba or approved military action there. The bill says the President must remove U.S. military forces from any fighting involving Cuba unless Congress specifically approves it by declaring war or passing a law that allows the use of military force. The bill also says that using the military to block or quarantine Cuba counts as fighting. However, the bill makes clear that the United States can still defend itself if it is attacked or threatened with an attack. It also says the bill does not stop lawful operations against illegal drugs. The bill was introduced in the House of Representatives on March 24, 2026. If it becomes law, the President would have to pull U.S. forces out of any unauthorized military action involving Cuba, while still being able to protect the country from real threats.",
+  "prompt_tokens": 882,
+  "completion_tokens": 427,
+  "total_tokens": 1309,
+  "cost_usd": 0.001214,
+  "latency_s": 16.927,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

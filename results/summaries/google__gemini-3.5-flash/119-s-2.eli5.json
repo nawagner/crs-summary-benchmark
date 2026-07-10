@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Secure America Act.\" It was approved on June 10, 2026. The bill gives a lot of money to the Department of Homeland Security, which is the part of the government that keeps the country safe. \n\nThe bill gives $9.55 billion to hire and train Border Patrol agents for work that does not involve enforcing immigration or customs laws. It also gives $7.45 billion to Homeland Security Investigations. Some of this money, $108.5 million, must go to help rescue children from abuse. \n\nAnother $3.45 billion is for border technology. This includes using artificial intelligence and cameras to stop illegal drugs like fentanyl at the borders. \n\nThe bill also funds immigration enforcement, which is the system that decides who can legally enter or stay in the country. It gives $13.02 billion to Customs and Border Protection and $31.075 billion to Immigration and Customs Enforcement (ICE). This money will pay for agents, court lawyers, computers, and vehicles. It also pays to transport and arrest people who are in the country illegally. \n\nMost of this money is for the year 2026, but the government can spend it until September 30, 2029.",
+  "prompt_tokens": 3353,
+  "completion_tokens": 269,
+  "total_tokens": 3622,
+  "cost_usd": 0.007451,
+  "latency_s": 2.741,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

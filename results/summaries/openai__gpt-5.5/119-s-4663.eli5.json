@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4663",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would set aside $3.5 billion for the U.S. Department of Agriculture. The money would be used to help states pay for farm losses caused by freezes or cold weather.\n\nThe help would come as “block grants.” This means the federal government would give money to states to use for this purpose. States could use the money for losses of crop money, crop quality, or crop production. It would also cover crops that could not be planted, and losses to trees, bushes, and vines. The bill says farmers with multi-year crops must be included.\n\nThe money could only be used for losses in counties that got a federal disaster label for freeze and cold weather on March 4, 2026.\n\nA state agriculture department, or another state agency approved by the Secretary of Agriculture, would have to ask for the money.\n\nThe money would be for the budget year ending September 30, 2027, and would stay available until spent. The Secretary must report to Congress within 120 days, and then every three months, about how the aid is being used.",
+  "prompt_tokens": 777,
+  "completion_tokens": 362,
+  "total_tokens": 1139,
+  "cost_usd": 0.014745,
+  "latency_s": 6.529,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

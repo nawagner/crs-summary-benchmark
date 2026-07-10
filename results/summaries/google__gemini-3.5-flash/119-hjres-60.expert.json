@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-13 (H.J. Res. 60), enacted on May 23, 2025, is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to prevent a federal agency rule from taking effect. \n\nThe sole operative mechanism of the joint resolution is the formal disapproval of a specific administrative rule submitted by the National Park Service of the Department of the Interior. The targeted rule is titled \"Glen Canyon National Recreation Area: Motor Vehicles\" and was published in the Federal Register at 90 Fed. Reg. 2621. \n\nPursuant to the statutory framework of the CRA, specifically 5 U.S.C. § 801(b)(1), the joint resolution explicitly declares that the specified rule \"shall have no force or effect.\" By operation of the CRA, this disapproval not only invalidates the rule but also triggers the statutory limitation under 5 U.S.C. § 801(b)(2), prohibiting the National Park Service from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted after the date of the joint resolution's disapproval. \n\nThe text contains no authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; the invalidation of the rule is effective immediately upon the enactment date of May 23, 2025.",
+  "prompt_tokens": 509,
+  "completion_tokens": 323,
+  "total_tokens": 832,
+  "cost_usd": 0.003671,
+  "latency_s": 2.306,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

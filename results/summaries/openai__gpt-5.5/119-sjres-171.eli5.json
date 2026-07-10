@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill says U.S. troops must be removed from fighting in or against Iran unless Congress clearly approves it. Congress could approve it by declaring war or by passing a specific law allowing military force.\n\nThe bill says Congress has the power to declare war. It also says the President can act to defend the United States, its people, troops, and diplomats from attack. The bill says Congress has not declared war on Iran and has not passed a specific law allowing force there.\n\nThe bill points to statements from President Trump and other officials in February and March 2026 calling the Iran operation a “war.” It also says that, as of April 10, 2026, 13 U.S. service members had been killed and at least 350 had been wounded.\n\nIf this bill becomes law, the President would have to remove U.S. Armed Forces from these hostilities with Iran unless Congress authorizes them.\n\nThe bill also says it would not stop the United States from defending itself or its people and facilities in other countries. It would still allow intelligence work, defensive help for Israel and other nations, and help for U.S. citizens who need safety or evacuation.",
+  "prompt_tokens": 1399,
+  "completion_tokens": 347,
+  "total_tokens": 1746,
+  "cost_usd": 0.017405,
+  "latency_s": 6.355,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

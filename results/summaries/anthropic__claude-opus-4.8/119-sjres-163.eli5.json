@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called a \"joint resolution.\" That is a plan that both parts of Congress can vote on. If it passes, it works like a law.\n\nThe bill is about the United States military and the country of Iran. The people who wrote the bill say only Congress can decide to go to war. That rule comes from the U.S. Constitution, which is the country's top set of rules.\n\nThe bill says Congress has not said yes to any fighting against Iran. So it tells the President to pull U.S. military forces out of any fighting with Iran. The only way the fighting can keep going is if Congress officially says yes, either by declaring war or by passing a special law that allows it.\n\nBut the bill also lists things the military is still allowed to do:\n- Defend the United States, its people, and its buildings if they are attacked.\n- Gather and share secret information (called intelligence) about threats from Iran.\n- Help friendly countries that Iran attacked after February 28, 2026. This help can include stopping attacks against them or giving them tools to protect themselves.\n\nSenator Merkley introduced the bill on April 13, 2026. It was sent to a group called the Committee on Foreign Relations, which studies bills about other countries.",
+  "prompt_tokens": 1610,
+  "completion_tokens": 373,
+  "total_tokens": 1983,
+  "cost_usd": 0.017375,
+  "latency_s": 6.812,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

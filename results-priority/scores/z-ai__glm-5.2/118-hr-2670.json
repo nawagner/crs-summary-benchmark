@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2670",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says multiyear procurement for up to 13 Virginia-class submarines; enacted Sec. 123 authorizes 10 (A-10 153-to-135 and other claims verified correct)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated provisions; specific items (Wuhan/EcoHealth bar, HC-130H transfer) are real."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by identifying the FY2024 NDAA and the departments covered."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes changes to the Defense Production Act 'domestic source' definition and A-10/RQ-4 inventory floors."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes waiver-and-penalty provisions, net-job-loss restriction, and one-year prohibitions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites dates (Aug. 31, 2024; Sept. 30, 2028; FY2029; March 9)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers Divisions A-G with essential operative provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by division and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and programs (MARAD, CIA, EcoHealth Alliance) named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says up to 13 Virginia-class submarines; enacted figure is 10."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

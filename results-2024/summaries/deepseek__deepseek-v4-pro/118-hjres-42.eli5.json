@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-42",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress about a law passed in Washington, D.C. If this resolution becomes law, it would cancel a specific D.C. law called the Comprehensive Policing and Justice Reform Amendment Act of 2022.\n\nThe D.C. Council—the group that makes laws for the District of Columbia—approved that local act on January 19, 2023. Under the District of Columbia Home Rule Act, D.C. must send its laws to Congress for review. Congress can pass a joint resolution to stop a D.C. law from taking effect.\n\nThis resolution says that Congress disapproves of the D.C. policing and justice reform act. That means the D.C. law would not go into effect. The resolution does not change any other laws or create new rules. It only blocks this one D.C. act.\n\nThe House of Representatives passed this resolution on April 19, 2023. After that, it was sent to the Senate and referred to a committee for further review. If both the Senate and the House pass it, and the President signs it, the D.C. act would be stopped.",
+  "prompt_tokens": 449,
+  "completion_tokens": 229,
+  "total_tokens": 678,
+  "cost_usd": 0.000395,
+  "latency_s": 19.583,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

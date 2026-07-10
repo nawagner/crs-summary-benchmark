@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "openai/gpt-5.5",
+  "summary": "This law tells two federal agencies to give certain federal land to Utah so it can be added to three state parks: Antelope Island State Park, Wasatch Mountain State Park, and Fremont Indian State Park.\n\nThe land must be given to Utah within 180 days after December 23, 2024. Utah does not have to pay for the land. But Utah must pay the costs of the transfer, such as surveys and paperwork.\n\nSome existing legal rights on the land still stay in place. For the Fremont Indian State Park land, the federal government keeps access rights for National Forest roads and trails. Utah also gets only certain water rights that serve Castle Rock Campground and the Belknap Historic Guard Station site.\n\nThe agencies may make small map changes, such as changes based on surveys.\n\nUtah must use the land for public purposes. This can include parks, campgrounds, recreation, and allowed livestock grazing. If Utah stops using the land for those public purposes, the land may go back to the United States.",
+  "prompt_tokens": 1671,
+  "completion_tokens": 413,
+  "total_tokens": 2084,
+  "cost_usd": 0.020745,
+  "latency_s": 8.336,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

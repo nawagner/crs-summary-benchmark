@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill cancels a government rule. The rule was about protecting old objects found on the ocean floor, like shipwrecks or ancient tools. The rule came from a government office called the Bureau of Ocean Energy Management. That office handles energy projects in the ocean, such as wind farms or oil drilling, but this rule was about preserving history underwater.\n\nThe rule was published on September 3, 2024. Congress used a special process to review it and voted to say no. The bill is a joint resolution, which means it was passed by both the Senate and the House of Representatives, and then approved on March 14, 2025. Now that it is law, the rule is stopped. It will have no legal power and cannot be enforced.\n\nNo part of the rule will take effect. The bill does not create a new rule; it only removes this one.",
+  "prompt_tokens": 418,
+  "completion_tokens": 779,
+  "total_tokens": 1197,
+  "cost_usd": 0.00086,
+  "latency_s": 15.773,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law stops a new set of rules about crime in Washington, D.C. The leaders of D.C., called the D.C. Council, voted to approve these new rules on January 17, 2023. They sent the rules to Congress on January 27, 2023.\n\nCongress is the part of the U.S. government that makes laws for the whole country. Because Washington, D.C. is the capital city, Congress has the power to approve or block laws made by the D.C. Council. \n\nThis bill says that Congress does not approve of the D.C. Council's new crime rules, which were called the Revised Criminal Code Act of 2022. Because of this, the new crime rules will not become law.\n\nThe House of Representatives and the Senate, which are the two parts of Congress, both voted yes on this bill. The President approved it on March 20, 2023. Now that it is a law, the D.C. crime rules are blocked.",
+  "prompt_tokens": 447,
+  "completion_tokens": 910,
+  "total_tokens": 1357,
+  "cost_usd": 0.001806,
+  "latency_s": 58.48,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

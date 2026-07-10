@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 171, introduced in the 119th Congress, is a joint resolution directing the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nThe operative mechanism of the resolution is set forth in Section 2(a). Pursuant to section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a), and in accordance with the expedited legislative procedures established under section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329), Congress directs the President to remove United States Armed Forces from hostilities within or against Iran. This removal mandate is subject to a condition precedent: it applies unless and until such hostilities are explicitly authorized by a congressional declaration of war or a specific statutory authorization for the use of military force. \n\nSection 2(b) establishes four rules of construction that limit the scope of the removal mandate. The directive to remove forces shall not be construed to prevent the United States from:\n1. Defending against attacks on the United States, its personnel, or its facilities located in other nations;\n2. Collecting, analyzing, or sharing intelligence—including with the State of Israel, international organizations, and other partners and allies—regarding threats from Iran or its proxies;\n3. Assisting Israel and other nations by providing defensive materiel support or aiding in defensive measures to protect their territory from retaliatory attacks by Iran or its proxies; or\n4. Providing security, departure, and evacuation assistance to United States citizens affected by the hostilities.\n\nThe resolution contains no appropriations, authorizations of appropriations, or specific effective dates, meaning its mandate would take effect immediately upon enactment.",
+  "prompt_tokens": 1613,
+  "completion_tokens": 386,
+  "total_tokens": 1999,
+  "cost_usd": 0.005894,
+  "latency_s": 2.788,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

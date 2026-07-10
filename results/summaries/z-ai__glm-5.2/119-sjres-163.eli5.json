@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-163",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill tells the President to remove United States military forces from any fighting within or against the country of Iran. Congress is the part of the government that has the power to declare war. Congress has not declared war on Iran. So, this bill says the President must pull troops out of fighting there unless Congress officially approves a war or specific military action.\n\nHowever, the bill makes clear what the military can still do. The President can still act to defend the United States, its citizens, and its buildings in other countries from attacks. The military can still gather and share information about threats from Iran. The U.S. can also help other countries that Iran has attacked since February 28, 2026. This help includes sharing information, helping to stop attacks on their land, and giving them defensive supplies.\n\nIf this bill becomes a law, the main change is that the U.S. military could not fight against Iran unless Congress agrees to it first. But the U.S. could still protect itself and help its friends defend themselves against Iran.",
+  "prompt_tokens": 972,
+  "completion_tokens": 972,
+  "total_tokens": 1944,
+  "cost_usd": 0.002199,
+  "latency_s": 32.025,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

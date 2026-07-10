@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "z-ai/glm-5.2",
+  "summary": "Sometimes people or businesses cannot pay their bills. A court process called bankruptcy helps sort out their money problems. A trustee is a person who helps manage these bankruptcy cases. This law changes how bankruptcy works in three main ways.\n\nFirst, it gives trustees a raise. Since 1994, trustees have been paid $60 for each case they handle. This law increases their pay to $120 per case. They still do not get paid if the court lets a person skip the filing fee.\n\nSecond, it changes some fees to pay for the bankruptcy system. The system is paid for by the people who use it, not by regular taxes. The law changes how much money goes into different government funds from these fees.\n\nThird, it keeps some temporary bankruptcy judges in their jobs longer. It extends their time as judges from 5 years to 10 years.\n\nThe new pay for trustees will start for cases that begin on or after October 1 following the law's approval. The fee changes start on the first day of the next three-month period after the law is approved.",
+  "prompt_tokens": 2951,
+  "completion_tokens": 1269,
+  "total_tokens": 4220,
+  "cost_usd": 0.003789,
+  "latency_s": 67.97,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

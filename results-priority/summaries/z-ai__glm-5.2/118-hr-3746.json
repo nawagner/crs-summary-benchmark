@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3746",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Fiscal Responsibility Act of 2023 temporarily suspends the public debt limit through January 1, 2025, and enacts various spending limits, rescissions, and policy changes.\n\nThe Act sets discretionary spending limits for fiscal years 2024 and 2025, dividing them into security and nonsecurity categories, and establishes budget enforcement mechanisms in the House and Senate, including restrictions on advance appropriations. It rescinds unobligated balances from numerous prior appropriations, including COVID-19 relief and infrastructure funds, and rescinds $1.389 billion from the Internal Revenue Service. It also establishes an administrative pay-as-you-go (PAYGO) system requiring agencies to offset discretionary administrative actions that increase direct spending, which expires on December 31, 2024.\n\nRegarding federal student loans, the Act terminates the suspension of payments and the waiver of interest 60 days after June 30, 2023. It modifies work requirements for the Temporary Assistance for Needy Families (TANF) and Supplemental Nutrition Assistance Program (SNAP) programs, including raising the age limit for SNAP work requirements to 55 and adding exemptions for homeless individuals, veterans, and former foster youth; these SNAP changes expire on October 1, 2030.\n\nThe Act amends the National Environmental Policy Act (NEPA) to streamline environmental reviews by establishing page limits, setting deadlines for environmental impact statements and assessments, and allowing agencies to adopt categorical exclusions from other agencies. It also directs the expedited approval of the Mountain Valley Pipeline, ratifies existing authorizations, and limits judicial review of these actions. Finally, it suspends the debt limit until January 1, 2025, with the limit adjusted on January 2, 2025, to account for obligations issued during the suspension period.",
+  "prompt_tokens": 27296,
+  "completion_tokens": 1438,
+  "total_tokens": 28734,
+  "cost_usd": 0.017371,
+  "latency_s": 9.591,
+  "ok": true,
+  "strategy": "single",
+  "level": "general"
+}

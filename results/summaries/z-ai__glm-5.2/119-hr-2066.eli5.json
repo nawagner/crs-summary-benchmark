@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law changes rules for companies that lend money to small businesses. The government calls these \"Small Business Investment Companies.\" The government lets these companies borrow money to help small businesses. This borrowing is called \"leverage.\"\n\nThe law changes the limit on how much these companies can borrow. One company can borrow up to $250 million if it makes regular interest payments. If it does not, the limit is $175 million. A group of companies working together can borrow up to $475 million if they make regular interest payments, or $350 million if they do not.\n\nThe law also says that money invested in certain small businesses does not count toward this borrowing limit. These businesses must be in low-income or rural areas, work on important technology, or be small factories. The amount that does not count is either half of the company's own money or $125 million, whichever is less. This rule only applies to investments made after May 19, 2026.\n\nFinally, the law says that money from the government does not count as the company's own money, with a few exceptions like college funds.",
+  "prompt_tokens": 1514,
+  "completion_tokens": 898,
+  "total_tokens": 2412,
+  "cost_usd": 0.002368,
+  "latency_s": 12.58,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

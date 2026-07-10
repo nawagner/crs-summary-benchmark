@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "openai/gpt-5.5",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act, Pub. L. No. 118-114, amends 38 U.S.C. § 6107 to require reissuance of certain Department of Veterans Affairs benefits that were misused by a fiduciary when the affected beneficiary dies before receiving the reissued payment.\n\nSection 2 amends 38 U.S.C. § 6107, which governs reissuance of benefits paid by the Secretary of Veterans Affairs and misused by fiduciaries. It redesignates existing subsections (c) and (d) as subsections (d) and (e), respectively, and inserts a new subsection (c), captioned “Reissuance of Amounts in the Case of a Deceased Beneficiary.” New § 6107(c)(1) provides that, if a beneficiary described in § 6107(a) predeceases a payment under § 6107(a) or § 6107(b), the Secretary “shall pay such benefits,” subject to § 6107(c)(2), to an individual or entity in accordance with 38 U.S.C. § 5121. Section 5121 governs payment of certain accrued benefits upon the death of a beneficiary. New § 6107(c)(2) establishes a limitation on that payment authority: the Secretary may not make a payment under new subsection (c) to a fiduciary who misused the beneficiary’s benefits.\n\nSection 2 also amends redesignated § 6107(e) by replacing the reference to “subsection (a) or (b)” with “this section,” thereby extending that provision’s reference across § 6107 as amended, including the newly added deceased-beneficiary reissuance authority.\n\nThe Act does not include a separate effective-date provision, sunset, authorization of appropriations, or direct appropriation. Its operative effect is a mandatory payment obligation within 38 U.S.C. § 6107, subject to the statutory payment framework of 38 U.S.C. § 5121 and the express exclusion of fiduciaries who misused the beneficiary’s benefits.",
+  "prompt_tokens": 738,
+  "completion_tokens": 691,
+  "total_tokens": 1429,
+  "cost_usd": 0.02442,
+  "latency_s": 13.751,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -12,6 +12,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
+import readability  # noqa: E402
+import summarize as S  # noqa: E402
 
 HUMAN_LABEL = "CRS (human)"
 
@@ -23,13 +25,70 @@ def label_for(cand_id: str, model_id: str | None) -> str:
 
 
 def gen_meta(slug: str, bill_id: str) -> dict:
-    """Cost/latency for a generated summary (empty for the human baseline)."""
+    """Cost/latency for a generated summary (empty for the human baseline). Also passes
+    through `strategy`/`n_chunks` (issue #7) when present in the record; old-style
+    records without them simply omit the keys."""
     path = C.SUMMARIES_DIR / slug / f"{bill_id}.json"
     if not path.exists():
         return {}
     rec = C.read_json(path)
-    return {"cost_usd": rec.get("cost_usd"), "latency_s": rec.get("latency_s"),
+    meta = {"cost_usd": rec.get("cost_usd"), "latency_s": rec.get("latency_s"),
             "summary": rec.get("summary", "")}
+    if "strategy" in rec:
+        meta["strategy"] = rec["strategy"]
+    if "n_chunks" in rec:
+        meta["n_chunks"] = rec["n_chunks"]
+    return meta
+
+
+def candidate_entry(slug: str, model_id: str | None, bill: dict, score: dict,
+                     cfg: dict, levels: list[dict]) -> dict:
+    """Build one candidate's entry within a bill's `candidates` dict: score summary,
+    generation meta, FK grade, and (for model candidates) any non-default reading-level
+    summaries that have been generated so far."""
+    meta = gen_meta(slug, bill["bill_id"])
+    summary = bill["crs_summary"] if slug == C.CRS_REFERENCE else meta.get("summary", "")
+    entry = {
+        "label": label_for(slug, model_id),
+        "is_human": slug == C.CRS_REFERENCE,
+        "summary": summary,
+        "meets_standard": score["meets_standard"],
+        "n_passed": score["n_passed"],
+        "n_applicable": score["n_applicable"],
+        "verdicts": score["verdicts"],
+        "cost_usd": meta.get("cost_usd"),
+        "latency_s": meta.get("latency_s"),
+        "fk_grade": readability.fk_grade(summary),
+    }
+    if "strategy" in meta:
+        entry["strategy"] = meta["strategy"]
+    if "n_chunks" in meta:
+        entry["n_chunks"] = meta["n_chunks"]
+    if score.get("judge_grounding"):
+        entry["judge_grounding"] = score["judge_grounding"]
+
+    if slug != C.CRS_REFERENCE:
+        levels_out = {}
+        for lvl in levels:
+            if lvl.get("default"):
+                continue
+            lvl_path = S.summary_path(slug, bill["bill_id"], lvl)
+            if not lvl_path.exists():
+                continue
+            lvl_rec = C.read_json(lvl_path)
+            lvl_summary = lvl_rec.get("summary", "")
+            if not lvl_summary:
+                continue
+            levels_out[lvl["id"]] = {
+                "summary": lvl_summary,
+                "fk_grade": readability.fk_grade(lvl_summary),
+                "cost_usd": lvl_rec.get("cost_usd"),
+                "latency_s": lvl_rec.get("latency_s"),
+            }
+        if levels_out:
+            entry["levels"] = levels_out
+
+    return entry
 
 
 def build_pavement_html(ordered, bills_out) -> str:
@@ -185,6 +244,7 @@ def main() -> None:
                        + [a["per_criterion"][cid] for cid in criteria_ids])
 
     # ---- docs/data/results.json (self-contained for the website) ----
+    levels = S.reading_levels(cfg)
     bills_out = []
     for bill in bills:
         cand_out = {}
@@ -193,19 +253,24 @@ def main() -> None:
             if not sp.exists():
                 continue
             score = C.read_json(sp)
-            meta = gen_meta(slug, bill["bill_id"])
-            summary = bill["crs_summary"] if slug == C.CRS_REFERENCE else meta.get("summary", "")
-            cand_out[slug] = {
-                "label": label_for(slug, model_id),
-                "is_human": slug == C.CRS_REFERENCE,
-                "summary": summary,
-                "meets_standard": score["meets_standard"],
-                "n_passed": score["n_passed"],
-                "n_applicable": score["n_applicable"],
-                "verdicts": score["verdicts"],
-                "cost_usd": meta.get("cost_usd"),
-                "latency_s": meta.get("latency_s"),
-            }
+            cand_out[slug] = candidate_entry(slug, model_id, bill, score, cfg, levels)
+        # unscored human reference baselines (issue #8): shown as cards, never judged,
+        # never on the leaderboard — detectable by the absence of `verdicts`.
+        ref_path = C.DATA_REFERENCES / f"{bill['bill_id']}.json"
+        if ref_path.exists():
+            ref = C.read_json(ref_path)
+            for kind, label in (("committee", "Committee report"), ("cbo", "CBO cost estimate")):
+                ref_summary = (ref.get(f"{kind}_summary") or "").strip()
+                if not ref_summary:
+                    continue
+                cand_out[f"{kind}_reference"] = {
+                    "label": label,
+                    "is_human": True,
+                    "reference_kind": kind,
+                    "summary": ref_summary,
+                    "source_url": ref.get(f"{kind}_url"),
+                    "fk_grade": readability.fk_grade(ref_summary),
+                }
         bills_out.append({
             "bill_id": bill["bill_id"],
             "congress": bill["congress"],
@@ -216,6 +281,7 @@ def main() -> None:
             "crs_version_code": bill.get("crs_version_code", ""),
             "bill_text_chars": bill.get("bill_text_chars"),
             "text_truncated": bill.get("text_truncated", False),
+            "long_text": bill.get("long_text", False),
             "actions_count": bill.get("actions_count"),
             "candidates": cand_out,
         })
@@ -236,6 +302,16 @@ def main() -> None:
             "judge": C.read_prompt(cfg["prompts"]["judge"]),
         },
     }
+    if cfg.get("reading_levels"):
+        results["reading_levels"] = [
+            {"id": lvl["id"], "label": lvl["label"],
+             **({"default": True} if lvl.get("default") else {}),
+             **({"target_fk_grade": lvl["target_fk_grade"]} if "target_fk_grade" in lvl else {})}
+            for lvl in levels
+        ]
+        results["prompts"]["summarize_levels"] = {
+            lvl["id"]: C.read_prompt(lvl["prompt"]) for lvl in levels
+        }
     C.write_json(C.RESULTS_JSON, results)
 
     print(f"Wrote {C.RESULTS / 'leaderboard.md'}, {C.RESULTS / 'scores.csv'}, {C.RESULTS_JSON}")

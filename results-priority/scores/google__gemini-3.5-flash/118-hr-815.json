@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-815",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Codification at 21 U.S.C. 2351-2355, the Defenseless Shields Act name, the 2030 sunset, and all figures verified correct."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (FDP rules, IEEPA/TWEA, 311 money-laundering framework) is accurate, not invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies emergency supplemental appropriations plus foreign-policy sanctions, AML, and export controls."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes new codified sanctions, amendments to IEEPA/TWEA and the Defenseless Shields Act, and EAR/FDP application."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dedicated 'Waivers and Exceptions' section covering intelligence, law-enforcement, UN-HQ, and humanitarian carveouts."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Division N's 90-day effective date, the December 31, 2030 sunset, seven-year sunsets, and the 90-day MAHSA determination."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Omits the Ukraine Security appropriations (Division B), Indo-Pacific (Division C), REPO (F), and the TikTok divestiture (Division H)."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Largely neutral; mild 'critical/urgent' phrasing tracks the bill's own emergency designation, not advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear headed structure and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Organized without notable padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "FEMA, Iron Dome/David's Sling, IEEPA/TWEA, and the Defenseless Shields Act all named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$5.2B/$4B/$1.2B, $4.4B, $801.4M, $198.6M, $2.44B, $390M, $5.655B, $150M ($100M WWSP) all verified."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

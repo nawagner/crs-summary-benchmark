@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-8 (H.J. Res. 42) is a joint resolution of congressional disapproval enacted pursuant to chapter 8 of title 5, United States Code, the Congressional Review Act. Its sole operative provision disapproves the Department of Energy rule titled “Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment,” published at 89 Fed. Reg. 81994 on October 9, 2024.\n\nBy operation of the resolution, Congress provides that the identified DOE rule “shall have no force or effect.” The measure does not amend the Energy Policy and Conservation Act, title 42, United States Code, title 5, United States Code, or any other statutory provision; it instead exercises the statutory congressional-review mechanism applicable to agency rules submitted under chapter 8 of title 5. The resolution contains no severability clause, exceptions, savings provisions, transition rules, or agency-specific implementation directives. It creates no new regulatory authority, imposes no affirmative duties apart from the legal consequence of disapproval, and includes neither an authorization of appropriations nor a direct appropriation.\n\nThe resolution was approved May 9, 2025. It specifies no delayed effective date or additional condition precedent beyond enactment.",
+  "prompt_tokens": 517,
+  "completion_tokens": 508,
+  "total_tokens": 1025,
+  "cost_usd": 0.017825,
+  "latency_s": 12.704,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

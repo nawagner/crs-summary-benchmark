@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2882",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified claims (MilPers/O&M billions matching index, HIDTA 51%/120 days, Turkish TPPD bar, Ukraine 50% cost match) are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; explanatory-statement date and rescission figures are accurate context."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it provides full-year FY2024 appropriations across six divisions plus other matters."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Head Start selection-criteria override, FLSA exemption, and rescissions of prior balances."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes national-security waivers, TPPD exceptions, and Ukraine cost-match conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites FY2024, rescission by Sept 30 2024, 60-day strategy, 120-day reporting."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Names all seven divisions; though Divisions C and E get only intro mention, no major provision is misrepresented."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "ONDCP/HIDTA, National Intelligence Program, TPPD, Nonrecurring Expenses Fund named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Billions-level figures match the section index exactly."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

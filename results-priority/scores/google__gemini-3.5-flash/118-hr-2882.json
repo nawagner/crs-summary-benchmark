@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2882",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Checked claims (Executive Residence $15,453,000, $25,000 deposit, Afghan SIV 38,500 to 50,500, Abkhazia/South Ossetia bar, FEMA totals) are accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; aggregate MilPers/O&M totals are reasonable sums of confirmed line items."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill funds federal departments for FY2024 with policy conditions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FLSA amendment, Afghan Allies Protection Act change, Head Start criteria, and rescissions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes ammunition-transfer exceptions, national-security waivers, conference caps, and Ukraine cost cap."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites FY end Sept 30 2024, two-year FLSA window, Afghan deadline Dec 31 2025, 15-day notification."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all six named divisions with principal figures and riders."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral despite formatting emphasis."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear headed structure, internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Focused bullets without significant padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "CISA, FEMA, OMB, DFC, Afghan Allies Protection Act named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified figures correct; aggregate totals plausible and uncontradicted."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

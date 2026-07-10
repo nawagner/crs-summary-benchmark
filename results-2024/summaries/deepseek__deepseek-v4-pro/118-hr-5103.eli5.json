@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the FISHES Act. It sets time limits for how the government gives out money to help fishing communities after a disaster, like a sudden drop in fish populations.\n\nWhen a fishery disaster is officially declared and funds are ready, the group asking for help must send a spend plan (a detailed plan for how they will use the money) within 120 days. The plan must explain their goals, the work they will do, and a budget.\n\nThe Secretary (a top government official) must check the plan within 10 days and tell the group if it is complete. If something is missing, the Secretary must clearly explain what else is needed.\n\nOnce a complete spend plan is received, the money must be given to the group within 90 days. The Office of Management and Budget (a White House office that oversees federal spending) may also review the plan at the same time, but it cannot make the 90-day deadline any longer.\n\nIn short, the law creates firm deadlines to speed up disaster aid for fisheries.",
+  "prompt_tokens": 908,
+  "completion_tokens": 793,
+  "total_tokens": 1701,
+  "cost_usd": 0.001085,
+  "latency_s": 10.218,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

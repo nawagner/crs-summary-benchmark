@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 119-5 (H.J. Res. 25) exercises congressional disapproval authority pursuant to chapter 8 of title 5, United States Code, to vacate a final rule promulgated by the Internal Revenue Service. The resolution's primary purpose is to nullify the IRS rule relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales,\" which was published at 89 Federal Register 106928 on December 30, 2024. \n\nThe operative mechanism of the joint resolution is a direct statutory repeal of the specified agency rule. The resolution provides that Congress disapproves the aforementioned rule and expressly stipulates that such rule \"shall have no force or effect.\" By invoking chapter 8 of title 5, U.S. Code, the enactment triggers the standard Congressional Review Act prohibitions, precluding the agency from issuing any new rule that is substantially the same as the disapproved rule unless authorized by subsequent statutory enactment.\n\nThe joint resolution was considered and passed by the House of Representatives on March 11, 2025, accompanied by House Report No. 119-7 from the Committee on Ways and Means, and subsequently considered and passed by the Senate on March 26, 2025. The resolution was approved on April 10, 2025, establishing the effective date of the rule's vacatur. The measure contains no appropriations, authorizations of appropriations, or additional substantive provisions beyond the express disapproval and nullification of the specified regulatory text.",
+  "prompt_tokens": 507,
+  "completion_tokens": 1514,
+  "total_tokens": 2021,
+  "cost_usd": 0.002875,
+  "latency_s": 25.478,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

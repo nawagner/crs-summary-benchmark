@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act. It was approved on November 25, 2024. \n\nThe bill gives permission to the Department of Veterans Affairs to build and fix medical buildings for veterans. Veterans are people who served in the U.S. military. \n\nIf this bill becomes law, the government can spend up to $3,354,048,000 in total on 11 big projects. These projects are in different states and Puerto Rico. \n\nHere are some of the things the money will buy:\n* New clinics, research buildings, and spinal cord injury centers.\n* Bigger parking lots and new utility plants.\n* Stronger buildings in Portland, San Diego, and San Juan to protect them from earthquakes. \n* Land to build new facilities in Texas and Nevada.\n\nEach project has a limit on how much money it can use. For example, the biggest project is a new health care center in El Paso, Texas, which can cost up to $759,200,000. The smallest project is in Dallas, Texas, for up to $93,100,000.",
+  "prompt_tokens": 1319,
+  "completion_tokens": 263,
+  "total_tokens": 1582,
+  "cost_usd": 0.004346,
+  "latency_s": 2.235,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

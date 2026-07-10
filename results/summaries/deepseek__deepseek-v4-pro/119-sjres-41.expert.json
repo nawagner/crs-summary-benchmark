@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S.J. Res. 41, introduced on March 27, 2025, is a joint resolution exercising the congressional disapproval mechanism under section 36(b) of the Arms Export Control Act (AECA) (22 U.S.C. 2776(b)). The resolution prohibits a specific proposed export of defense articles to Israel that was notified to Congress pursuant to the advance notice and review requirements of section 36(c) of the AECA (22 U.S.C. 2776(c)). The notification, Transmittal No. DDTC 23-077, was published as Executive Communication 510 in the Congressional Record on March 24, 2025.\n\nThe prohibited transaction covers firearms, parts, and components controlled under Category I (Firearms and Related Articles) of the United States Munitions List, with a total value of $1,000,000 or more. The items specified consist of 20,000 Colt Carbine rifles (11.5-inch barrel length, 5.56mm caliber, fully automatic). The proposed recipient is M.R.D. Efram Investments Ltd in Israel, and the articles are intended for ultimate end use by the Israel National Police.\n\nThe resolution contains no exceptions, waivers, conditions subsequent, or delegation of authority to modify or lift the prohibition. It establishes an absolute statutory bar. The joint resolution includes no authorization of appropriations, no sunset clause, and no independent effective date; it would take effect upon enactment. If enacted within the statutorily prescribed review period, the resolution would prevent the issuance of any export license or other approval for the described transaction.",
+  "prompt_tokens": 542,
+  "completion_tokens": 2430,
+  "total_tokens": 2972,
+  "cost_usd": 0.00235,
+  "latency_s": 28.611,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

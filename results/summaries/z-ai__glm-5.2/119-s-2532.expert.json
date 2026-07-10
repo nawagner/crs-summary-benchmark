@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Safe Response Act (S. 2532) reauthorizes and amends the first responder training program established under Section 546 of the Public Health Service Act (42 U.S.C. 290ee-1).\n\nThe bill makes four categories of amendments to Section 546. First, in subsection (a), it corrects capitalization by replacing \"tribes and tribal\" with \"Tribes and Tribal.\" Second, in subsections (a), (c), and (d), it expands the scope of covered products by replacing \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\" wherever that phrase appears, and it broadens the program's focus beyond opioids by striking \"opioid\" wherever it appears in those subsections. Third, in subsection (f), the bill similarly replaces \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\"; in paragraph (1), it strikes \"opioid\"; in paragraph (2), it replaces \"opioid and heroin\" with \"opioid, heroin, and other drug\" and replaces \"opioid overdose\" with \"overdose\"; and in paragraph (3), it strikes \"opioid and heroin.\" Fourth, in subsection (h), the bill reauthorizes the program's funding by replacing \"$36,000,000 for each of fiscal years 2019 through 2023\" with \"$57,000,000 for each of fiscal years 2026 through 2030.\"\n\nThe amendments collectively expand the program from an opioid-specific focus to a broader drug and overdose scope, broaden the category of covered products to include those \"otherwise legally marketed\" beyond FDA-approved or cleared products, and authorize appropriations of $57 million annually for fiscal years 2026 through 2030. The bill was introduced on July 30, 2025, and referred to the Senate Committee on Health, Education, Labor, and Pensions. No separate effective date is specified, meaning the amendments would take effect upon enactment. The bill authorizes appropriations but does not itself appropriate funds.",
+  "prompt_tokens": 713,
+  "completion_tokens": 443,
+  "total_tokens": 1156,
+  "cost_usd": 0.001149,
+  "latency_s": 4.57,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

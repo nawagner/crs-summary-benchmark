@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 38 is a joint resolution of disapproval introduced pursuant to the Congressional Review Act (CRA), codified at Chapter 8 of Title 5, United States Code. The primary purpose and operative mechanism of the joint resolution is to invoke the disapproval procedure under 5 U.S.C. § 801(a)(1) to render a specific federal agency rule null and void. \n\nSpecifically, the resolution declares that Congress disapproves the final rule submitted by the Federal Highway Administration (FHWA) within the Department of Transportation titled \"Waiver of Buy America Requirements for Electric Vehicle Chargers,\" published at 88 Fed. Reg. 10619 on February 21, 2023. \n\nUnder the operative statutory mechanism of the CRA (specifically 5 U.S.C. § 801(f)), the enactment of this joint resolution dictates that the specified FHWA rule shall have no force or effect. By operation of law under 5 U.S.C. § 801(b)(2), the rule may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless the reissue or new rule is specifically authorized by a law enacted after the date of the joint resolution's disapproval. \n\nThe text contains no appropriations, authorizations of appropriations, material exceptions, conditions precedent, or specific effective dates, meaning the disapproval would take effect immediately upon enactment.",
+  "prompt_tokens": 535,
+  "completion_tokens": 307,
+  "total_tokens": 842,
+  "cost_usd": 0.003566,
+  "latency_s": 2.353,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

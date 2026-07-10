@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the \"Preventing the Financing of Illegal Synthetic Drugs Act.\" It was approved on September 13, 2024. \n\nThe law says that a government office called the Comptroller General must do a special study. The Comptroller General is the head of a government group that investigates how money is spent and how laws are working. \n\nThis study will look at how illegal man-made drugs, like fentanyl and methamphetamine, are brought into the United States. It will also look at the illegal money behind these drugs. \n\nThe study must investigate:\n* How criminal groups make, move, and sell these drugs.\n* How these groups use social media and payment apps to sell drugs and collect money, especially from young people.\n* How drug selling connects to human trafficking, which is when people are forced or tricked into work.\n* How the United States government is working with other groups to stop this illegal money, and what tools the government is missing.\n\nThe Comptroller General has exactly one year from the day the law was passed to finish the study and give a report with the findings to Congress. Congress is the group of elected leaders who make laws for the country.",
+  "prompt_tokens": 1575,
+  "completion_tokens": 244,
+  "total_tokens": 1819,
+  "cost_usd": 0.004559,
+  "latency_s": 2.463,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

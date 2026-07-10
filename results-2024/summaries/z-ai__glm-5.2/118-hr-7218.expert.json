@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-142, cited as the \"BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024,\" amends title III of the Public Health Service Act to extend the authorization of appropriations for the program promoting public health knowledge and awareness of Alzheimer's disease and related dementias.\n\nThe Act's operative mechanism is a targeted amendment to Section 398B(e) of the Public Health Service Act (42 U.S.C. 280c-5(e)). Specifically, the amendment inserts the phrase \"and $33,000,000 for each of fiscal years 2025 through 2029\" before the period at the end of the subsection. This modification extends the authorization of appropriations for the specified public health program, authorizing $33,000,000 for each of fiscal years 2025 through 2029. The bill text does not specify any material exceptions or conditions precedent beyond the fiscal year limitations.\n\nThe Act was approved on December 11, 2024. It strictly provides an authorization of appropriations for the specified fiscal years and does not itself constitute an appropriation of funds. \n\nLegislatively, the measure originated as H.R. 7218, with a companion Senate bill designated S. 3775. The House Committee on Energy and Commerce issued House Report No. 118-515. The House of Representatives considered and passed the bill on September 17, 2024, and the Senate considered and passed it on November 20, 2024, as recorded in Congressional Record, Volume 170. The Act contains no additional sections, severability clauses, or separate effective date provisions beyond the date of approval.",
+  "prompt_tokens": 588,
+  "completion_tokens": 1502,
+  "total_tokens": 2090,
+  "cost_usd": 0.002898,
+  "latency_s": 11.021,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

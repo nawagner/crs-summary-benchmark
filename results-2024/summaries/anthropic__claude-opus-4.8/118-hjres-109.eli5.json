@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This resolution is a way for Congress to say \"no\" to a rule made by a government group.\n\nThe group is called the Securities and Exchange Commission. People often call it the SEC. Its job is to watch over how money and investments work in the country.\n\nThe SEC made a rule called \"Staff Accounting Bulletin No. 121.\" It came out on April 11, 2022. The rule was about how companies keep track of and report certain money things, like digital assets.\n\nCongress has a special power. It can look at rules made by government groups. If Congress does not like a rule, it can vote to cancel it.\n\nThis resolution does exactly that. It says Congress \"disapproves\" the SEC's rule. That means Congress does not want the rule to be used.\n\nIf this becomes law, the rule \"shall have no force or effect.\" In simple words, the rule would be turned off. Companies would not have to follow it anymore.\n\nThe paper also mentions a letter from another government group called the Government Accountability Office. That letter, from October 31, 2023, said the SEC's bulletin counts as a real rule. This matters because Congress can only cancel things that count as rules.\n\nThe House of Representatives passed this resolution on May 8, 2024. Then it went to the Senate, which received it on May 9, 2024.",
+  "prompt_tokens": 787,
+  "completion_tokens": 395,
+  "total_tokens": 1182,
+  "cost_usd": 0.01381,
+  "latency_s": 7.92,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

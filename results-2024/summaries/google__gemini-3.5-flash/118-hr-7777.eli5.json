@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This new law is called the Veterans' Compensation Cost-of-Living Adjustment Act of 2024. It gives more money to veterans. Veterans are people who served in the United States military. \n\nStarting on December 1, 2024, the government will raise the amount of money paid to veterans who got hurt or sick while serving their country. The law also raises the money sent to the families of veterans who have passed away. \n\nThe extra money helps pay for different things. This includes monthly disability payments, extra money for veterans with families, and money for clothing. \n\nThe amount of the pay raise will be a percentage. It will match the same percentage increase that Social Security receives on December 1, 2024. Social Security is a government program that helps older or disabled people. \n\nThe Secretary of Veterans Affairs is the leader of the government department that helps veterans. This leader must publish the new, higher payment amounts in an official government journal called the Federal Register.",
+  "prompt_tokens": 1239,
+  "completion_tokens": 208,
+  "total_tokens": 1447,
+  "cost_usd": 0.003731,
+  "latency_s": 2.001,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Safe Response Act.\" It was introduced in the Senate, which is one of the two groups of lawmakers in the United States Congress. \n\nThe bill changes a program that trains first responders. First responders are people like firefighters, police officers, and paramedics who help during emergencies. \n\nRight now, the training program focuses mostly on opioid drugs. Opioids are a specific type of strong medicine or drug. This bill would change the law so the training covers other types of drugs too, not just opioids. It also changes the rules so first responders can use any drug-treatment devices that are legally sold, not just ones that have a specific type of government approval. \n\nFinally, the bill changes how much money the government can spend on this training. Before, the law allowed $36 million each year from 2019 to 2023. This new bill would set the funding at $57 million each year from 2026 through 2030.",
+  "prompt_tokens": 747,
+  "completion_tokens": 209,
+  "total_tokens": 956,
+  "cost_usd": 0.003001,
+  "latency_s": 2.101,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -142,8 +142,17 @@ async def main_async(args) -> None:
     print(f"Have {len(existing)} bills already; target {target}.")
 
     by_activity = bool(cfg.get("select_by_activity"))
-    # pull a generous pool of summaries so we can skip bills whose text is unavailable
-    pool = max(cfg.get("activity_pool_cap", 320) * 5, 1500) if by_activity else max(target * 6, 120)
+    by_priority = bool(cfg.get("select_by_priority"))
+    allow_long = bool(cfg.get("allow_long_text"))
+    # pull a generous pool of summaries so we can skip bills whose text is unavailable.
+    # priority mode must page the (near-)full listing: its include_bills are specific
+    # bills that a recency-sorted slice would miss.
+    if by_priority:
+        pool = cfg.get("priority_pool_cap", 12000)
+    elif by_activity:
+        pool = max(cfg.get("activity_pool_cap", 320) * 5, 1500)
+    else:
+        pool = max(target * 6, 120)
     from_date = cfg.get("summary_from_date", "2025-01-03T00:00:00Z")
     to_date = cfg.get("summary_to_date") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     activity: dict[str, int] = {}
@@ -153,7 +162,25 @@ async def main_async(args) -> None:
             by_bill, versions = await collect_summaries(client, congress, btypes, pool, from_date, to_date)
             print(f"Found {len(by_bill)} bills with CRS summaries across {btypes}.")
 
-            if by_activity:
+            if by_priority:
+                # explicit audited list first (issue #7: appropriations/NDAA/known large
+                # bills), then title-pattern matches as fill, most summary versions first.
+                inc_keys = [f"{congress}-{x.strip().lower()}" for x in cfg.get("include_bills", [])]
+                ordered, seen = [], set()
+                for k in inc_keys:
+                    if k in by_bill:
+                        ordered.append((k, by_bill[k]))
+                        seen.add(k)
+                    else:
+                        print(f"  include_bills: {k} has no CRS summary in the listing; skipped")
+                pats = [p.lower() for p in cfg.get("priority_title_patterns", [])]
+                fill = [(k, s) for k, s in by_bill.items() if k not in seen and
+                        any(p in (s["bill"].get("title") or "").lower() for p in pats)]
+                fill.sort(key=lambda kv: versions.get(kv[0], 1), reverse=True)
+                ordered += fill
+                print(f"Priority selection: {len(inc_keys)} listed, "
+                      f"{len(ordered) - len(seen)} title-pattern fill candidates.")
+            elif by_activity:
                 # candidate pool = bills with the most CRS-summary versions (those that advanced),
                 # then rank those by total legislative actions and select the most active.
                 pool_cap = cfg.get("activity_pool_cap", 320)
@@ -192,13 +219,18 @@ async def main_async(args) -> None:
                     print(f"  skip {key}: no retrievable text")
                     continue
                 truncated = len(text) > cap
-                if truncated and by_activity:
+                if truncated and by_activity and not allow_long:
                     # keep the activity set fully readable: skip oversize bills (e.g. omnibus
                     # appropriations) rather than feed models only a truncated slice.
                     print(f"  skip {key}: full text {len(text)} chars > cap (kept fully-readable)")
                     continue
                 if truncated:
+                    # under allow_long_text the cap is a storage sanity limit (set it in the
+                    # multi-million range); bills over single_shot_char_cap are summarized
+                    # map-reduce rather than truncated to fit one prompt.
                     text = text[:cap]
+                long_text = allow_long and len(text) > int(
+                    cfg.get("single_shot_char_cap", 180000))
 
                 record = {
                     "bill_id": key,
@@ -216,10 +248,14 @@ async def main_async(args) -> None:
                     "bill_text_chars": len(text),
                     "bill_text_tokens_est": C.estimate_tokens(text),
                     "text_truncated": truncated,
+                    "long_text": long_text,
                     "text_url": text_url,
                     "actions_count": activity.get(key),
                     "summary_versions": versions.get(key),
                 }
+                if long_text:
+                    from chunking import split_sections
+                    record["sections_count"] = len(split_sections(text))
                 C.write_json(C.DATA_BILLS / f"{key}.json", record)
                 saved += 1
                 flag = " [truncated]" if truncated else ""

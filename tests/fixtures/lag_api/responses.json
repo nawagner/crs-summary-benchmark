@@ -1,0 +1,87 @@
+{
+  "bill/119/hr": {
+    "bills": [
+      {"number": 1, "latestAction": {"text": "Became Public Law No: 119-1."}},
+      {"number": 2, "latestAction": {"text": "Referred to the House Committee on the Judiciary."}},
+      {"number": 3, "latestAction": {"text": "Reported by the Committee on Armed Services. H. Rept. 119-5."}},
+      {"number": 4, "latestAction": {"text": "Referred to the Subcommittee on Health."}},
+      {"number": 5, "latestAction": {"text": "Placed on the Union Calendar, Calendar No. 12."}},
+      {"number": 6, "latestAction": {"text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote."}}
+    ],
+    "pagination": {"count": 6}
+  },
+  "bill/119/s": {
+    "bills": [
+      {"number": 1, "latestAction": {"text": "Read twice and referred to the Committee on Finance."}},
+      {"number": 2, "latestAction": {"text": "Committee on Finance. Ordered to be reported with an amendment favorably."}},
+      {"number": 3, "latestAction": {"text": "Passed Senate with an amendment by Unanimous Consent."}},
+      {"number": 4, "latestAction": {"text": "Sponsor introductory remarks on measure."}}
+    ],
+    "pagination": {"count": 4}
+  },
+  "summaries/119/hr": {
+    "summaries": [
+      {"bill": {"number": "1"}},
+      {"bill": {"number": "3"}},
+      {"bill": {"number": "4"}},
+      {"bill": {"number": "6"}}
+    ],
+    "pagination": {"count": 4}
+  },
+  "summaries/119/s": {
+    "summaries": [
+      {"bill": {"number": "2"}},
+      {"bill": {"number": "3"}}
+    ],
+    "pagination": {"count": 2}
+  },
+  "bill/119/hr/1": {"bill": {"introducedDate": "2025-01-09", "latestAction": {"text": "Became Public Law No: 119-1."}}},
+  "bill/119/hr/2": {"bill": {"introducedDate": "2025-01-15", "latestAction": {"text": "Referred to the House Committee on the Judiciary."}}},
+  "bill/119/hr/3": {"bill": {"introducedDate": "2025-02-03", "latestAction": {"text": "Reported by the Committee on Armed Services. H. Rept. 119-5."}}},
+  "bill/119/hr/4": {"bill": {"introducedDate": "2025-02-11", "latestAction": {"text": "Referred to the Subcommittee on Health."}}},
+  "bill/119/hr/5": {"bill": {"introducedDate": "2025-03-05", "latestAction": {"text": "Placed on the Union Calendar, Calendar No. 12."}}},
+  "bill/119/hr/6": {"bill": {"introducedDate": "2025-03-20", "latestAction": {"text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote."}}},
+  "bill/119/s/1": {"bill": {"introducedDate": "2025-01-22", "latestAction": {"text": "Read twice and referred to the Committee on Finance."}}},
+  "bill/119/s/2": {"bill": {"introducedDate": "2025-02-14", "latestAction": {"text": "Committee on Finance. Ordered to be reported with an amendment favorably."}}},
+  "bill/119/s/3": {"bill": {"introducedDate": "2025-03-12", "latestAction": {"text": "Passed Senate with an amendment by Unanimous Consent."}}},
+  "bill/119/s/4": {"bill": {"introducedDate": "2025-03-28", "latestAction": {"text": "Sponsor introductory remarks on measure."}}},
+  "bill/119/hr/1/actions": {"actions": [
+    {"text": "Became Public Law No: 119-1.", "type": "BecameLaw"},
+    {"text": "On passage Passed by the Yeas and Nays: 310 - 118 (Roll no. 20).", "type": "Vote"},
+    {"text": "Referred to the House Committee on Energy and Commerce.", "type": "IntroReferral"}
+  ]},
+  "bill/119/hr/2/actions": {"actions": [
+    {"text": "Referred to the House Committee on the Judiciary.", "type": "IntroReferral"}
+  ]},
+  "bill/119/hr/3/actions": {"actions": [
+    {"text": "Reported by the Committee on Armed Services. H. Rept. 119-5.", "type": "Committee"},
+    {"text": "Referred to the House Committee on Armed Services.", "type": "IntroReferral"}
+  ]},
+  "bill/119/hr/4/actions": {"actions": [
+    {"text": "Subcommittee Hearings Held.", "type": "Committee"},
+    {"text": "Referred to the Subcommittee on Health.", "type": "IntroReferral"}
+  ]},
+  "bill/119/hr/5/actions": {"actions": [
+    {"text": "Placed on the Union Calendar, Calendar No. 12.", "type": "Calendars"},
+    {"text": "Ordered to be Reported by voice vote.", "type": "Committee"},
+    {"text": "Referred to the House Committee on Natural Resources.", "type": "IntroReferral"}
+  ]},
+  "bill/119/hr/6/actions": {"actions": [
+    {"text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.", "type": "Floor"},
+    {"text": "Referred to the House Committee on Small Business.", "type": "IntroReferral"}
+  ]},
+  "bill/119/s/1/actions": {"actions": [
+    {"text": "Read twice and referred to the Committee on Finance.", "type": "IntroReferral"}
+  ]},
+  "bill/119/s/2/actions": {"actions": [
+    {"text": "Committee on Finance. Ordered to be reported with an amendment favorably.", "type": "Committee"},
+    {"text": "Read twice and referred to the Committee on Finance.", "type": "IntroReferral"}
+  ]},
+  "bill/119/s/3/actions": {"actions": [
+    {"text": "Passed Senate with an amendment by Unanimous Consent.", "type": "Floor"},
+    {"text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.", "type": "IntroReferral"}
+  ]},
+  "bill/119/s/4/actions": {"actions": [
+    {"text": "Sponsor introductory remarks on measure.", "type": "IntroReferral"}
+  ]}
+}

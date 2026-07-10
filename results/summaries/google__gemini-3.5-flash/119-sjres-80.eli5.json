@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the Senate and the House of Representatives. These are the two groups of people who make laws for our country. \n\nThis law stops a specific rule about land in Alaska. The rule was made by a government group called the Bureau of Land Management. It was called the \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.\" It was first created on April 25, 2022. Later, on July 24, 2025, another government group decided this plan counted as an official rule. \n\nCongress decided they do not agree with this rule. Because of this new law, Congress officially disapproves of it. This means the rule is canceled. It has no power, and it cannot be used anymore. The law was approved and finished on December 5, 2025.",
+  "prompt_tokens": 558,
+  "completion_tokens": 184,
+  "total_tokens": 742,
+  "cost_usd": 0.002493,
+  "latency_s": 2.061,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

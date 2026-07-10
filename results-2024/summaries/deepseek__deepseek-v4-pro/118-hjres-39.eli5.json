@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution that says Congress does not agree with a rule made by the Department of Commerce. The rule was about how to handle certain taxes on goods brought into the United States from other countries. These taxes are called duties. The rule explained the steps for pausing the final calculation of those duties and for collecting estimated duty payments when a special presidential order is in effect. (A presidential proclamation is an official announcement from the president that can change trade rules.)\n\nIf this resolution becomes law, that Commerce Department rule would be canceled. It would have no power and could not be enforced. The rule was published in the Federal Register, which is the daily journal of the U.S. government, on September 16, 2022. The House of Representatives passed this resolution on April 28, 2023. For it to become law, the Senate must also pass it and the president must sign it.",
+  "prompt_tokens": 418,
+  "completion_tokens": 978,
+  "total_tokens": 1396,
+  "cost_usd": 0.001033,
+  "latency_s": 10.205,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

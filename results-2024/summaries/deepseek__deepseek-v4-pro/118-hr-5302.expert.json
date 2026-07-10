@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 118-139, enacted December 11, 2024, as the “Michel O. Maceda Memorial Act,” is a freestanding designation statute. It does not amend the United States Code or any existing act. The Act’s sole operative provisions are in sections 3 and 4.\n\nSection 3 directs that the Air and Marine Operations Marine Unit of U.S. Customs and Border Protection located at 101 Km 18.5 in Cabo Rojo, Puerto Rico, “shall forever be known and designated as the ‘Michel O. Maceda Marine Unit.’” This is a permanent statutory naming command; the phrase “shall forever be known” imposes a continuing obligation on the agency and all federal entities to use the designated name.\n\nSection 4 provides a rule of reference: any reference in a law, map, regulation, document, paper, or other record of the United States to the marine unit identified in section 3 is deemed to be a reference to the “Michel O. Maceda Marine Unit.” This conforming provision operates prospectively and retrospectively, converting all existing and future official references to the designated name.\n\nSection 2 contains non-operative congressional findings reciting the service and death of Marine Interdiction Agent Michel O. Maceda. These findings do not create rights, duties, or causes of action.\n\nThe Act includes no authorization of appropriations, no exceptions or conditions precedent, no effective date other than the date of enactment, and no sunset or repeal. As a straightforward naming act, it carries no regulatory or funding implications.",
+  "prompt_tokens": 810,
+  "completion_tokens": 809,
+  "total_tokens": 1619,
+  "cost_usd": 0.001056,
+  "latency_s": 15.777,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

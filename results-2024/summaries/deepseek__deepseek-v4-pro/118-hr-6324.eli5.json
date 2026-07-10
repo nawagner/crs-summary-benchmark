@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a law that allows the Department of Veterans Affairs (VA) to start big construction projects at VA medical centers in 2024. The VA is the part of the government that helps people who served in the military. The law lists eleven separate projects around the country and sets a cost cap for each one. A cost cap is the highest amount that can be spent on a project.\n\nSome examples: In El Paso, Texas, up to $759.2 million can be used to build a new health care center and a utility plant. In Portland, Oregon, up to $613 million can go toward fixing buildings to resist earthquakes, building a new specialty care building, and improving roads and parking. In San Juan, Puerto Rico, up to $370.37 million can be spent on earthquake safety upgrades, a new office building, and more clinic space. Other projects are in American Lake, Washington; Dallas, Texas; Perry Point, Maryland; Reno, Nevada; San Diego and San Francisco, California; St. Louis, Missouri; and West Haven, Connecticut. They include work like new research labs, mental health clinics, parking garages, and replacing old buildings.\n\nThe total amount that Congress may later provide for all these projects combined is about $3.354 billion. This law only gives permission to plan and build; it does not hand over the money right away. A separate vote would be needed to actually supply the funds.",
+  "prompt_tokens": 1120,
+  "completion_tokens": 1088,
+  "total_tokens": 2208,
+  "cost_usd": 0.001434,
+  "latency_s": 21.732,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

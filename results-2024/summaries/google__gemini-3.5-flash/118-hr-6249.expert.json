@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Think Differently About Emergencies Act,\" Public Law 118-123, mandates reporting and review requirements for the Administrator of the Federal Emergency Management Agency (FEMA) and the Comptroller General of the United States regarding disaster assistance and resources provided to individuals with disabilities and their families. \n\nSection 2 establishes a reporting requirement. Not later than 120 days after the date of enactment (November 25, 2024), the FEMA Administrator must submit a report to the House Committee on Transportation and Infrastructure and the Senate Committee on Homeland Security and Governmental Affairs. The report must describe the assistance and resources provided directly to individuals with intellectual and developmental disabilities, and their families, who are impacted by major disasters declared under section 401 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5170), as well as to States, localities, and nonprofit organizations. Under subsection (b), the report must detail: available resources and best practices; the process for training and deploying personnel to coordinate with State, local, and nonprofit entities; the number of FEMA-administered programs supporting disaster preparation, recovery, and accommodation for these populations; FEMA outreach activities to State, local, and nonprofit experts; and areas for improvement in supporting these individuals and families.\n\nSection 3 imposes a joint review and recommendation mandate. Not later than one year after the date of enactment, the Comptroller General and the FEMA Administrator must each independently conduct a review of the assistance and resources provided to States, localities, nonprofit organizations, and individuals to assist those with intellectual, developmental, and physical disabilities, and their families. The reviewers must identify potential legal impediments to providing such assistance and resources. Finally, they must submit recommendations to Congress on improving assistance, enhancing coordination with external entities, streamlining the application and delivery processes for beneficiaries, and identifying necessary legislative reforms. \n\nThe Act contains no appropriations, authorizations of appropriations, or amendments to the United States Code. Its provisions are governed by the statutory deadlines of 120 days and one year from the date of enactment, respectively._",
+  "prompt_tokens": 1378,
+  "completion_tokens": 434,
+  "total_tokens": 1812,
+  "cost_usd": 0.005973,
+  "latency_s": 3.321,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

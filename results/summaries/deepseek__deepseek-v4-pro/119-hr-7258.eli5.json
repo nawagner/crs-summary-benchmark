@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill gives a new job to one of the Assistant Secretaries at the U.S. Department of Energy. An Assistant Secretary is a high-level official who helps the Secretary of Energy run the department.\n\nThe new job is to focus on energy emergencies and energy security. That means watching over energy systems like power plants, pipelines, and electric grids. It includes planning for emergencies, protecting against cyberattacks, and helping restore energy if something goes wrong. The Assistant Secretary can also help make sure the energy supply stays safe.\n\nIf a state, local, or Tribal government, or an energy company, asks for help, the Assistant Secretary can provide technical assistance and support. This support is meant to find, stop, and fix energy security threats or problems.\n\nThe bill says the Secretary of Energy must make sure this work is done in partnership with other federal agencies. The law does not change any amounts of money or set new deadlines.",
+  "prompt_tokens": 787,
+  "completion_tokens": 980,
+  "total_tokens": 1767,
+  "cost_usd": 0.001195,
+  "latency_s": 13.28,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

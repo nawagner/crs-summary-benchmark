@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "openai/gpt-5.5",
+  "summary": "The FISHES Act, Pub. L. No. 118-229, amends the fishery resource disaster assistance provisions of the Magnuson-Stevens Fishery Conservation and Management Act to impose procedural deadlines governing spend plans and the availability of disaster assistance funds.\n\nSection 1 designates the short title as the “Fishery Improvement to Streamline untimely regulatory Hurdles post Emergency Situation Act” or “FISHES Act.”\n\nSection 2 amends section 312(a)(6) of the Magnuson-Stevens Fishery Conservation and Management Act, 16 U.S.C. 1861a(a)(6). It revises subparagraph (D) to require a requester with an affirmative fishery resource disaster determination, in order to receive an allocation from funds available under section 312(a)(9), to submit a spend plan to the Secretary not more than 120 days after receiving notification that funds are available. The spend plan must include, if applicable, objectives and outcomes, with emphasis on addressing factors contributing to the fishery resource disaster and minimizing future uninsured losses; a statement of work; and budget details. The Secretary must review the submitted spend plan for completeness and provide notice within 10 days. If the Secretary determines the spend plan is incomplete, the notice must include a detailed description of the information necessary for the plan to be determined complete.\n\nSection 2 also revises section 312(a)(6)(F)(i) to require that funds be made available to grantees not later than 90 days after the Secretary receives a complete spend plan. Upon request, the Director of the Office of Management and Budget may review a completed spend plan concurrently with the Secretary, but the Director may not delay the 90-day timeline for making funds available. The Act does not itself appropriate funds; it establishes timing and review requirements for allocations from otherwise available funds under section 312(a)(9). The Act contains no express effective-date provision.",
+  "prompt_tokens": 941,
+  "completion_tokens": 688,
+  "total_tokens": 1629,
+  "cost_usd": 0.025345,
+  "latency_s": 14.047,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

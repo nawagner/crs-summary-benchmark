@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-2, exercises Congress's authority under the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (specifically 5 U.S.C. § 802), to disapprove and nullify a final rule promulgated by the Environmental Protection Agency (EPA).\n\nThe operative provision expresses congressional disapproval of the EPA rule titled \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions,\" published at 89 Fed. Reg. 91094 (November 18, 2024). Pursuant to the resolution and the CRA mechanism, the resolution provides that \"such rule shall have no force or effect.\"\n\nThe legal effect of enactment follows from 5 U.S.C. § 801(b) and (f): the disapproved rule is deprived of legal effect and is treated as though it had never taken effect. Additionally, under 5 U.S.C. § 801(b)(2), a rule that does not take effect (or is not continued in effect) by reason of a joint resolution of disapproval may not be reissued in substantially the same form, and a new rule that is substantially the same as the disapproved rule may not be issued, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution of disapproval. The resolution itself does not recite this reissuance bar; it arises by operation of the underlying CRA statute.\n\nThe resolution contains no amendment to the United States Code, no authorization or appropriation of funds, no sunset provision, and no conditions precedent beyond enactment. It is a freestanding measure of disapproval whose sole operative function is nullification of the identified agency rule.\n\nThe legislative history reflects that H.J. Res. 35 was considered and passed by the House on February 26, 2025, and considered and passed by the Senate on February 27, 2025. A companion measure, S.J. Res. 12, is noted. The resolution was approved March 14, 2025. Because CRA joint resolutions are subject to presentment, approval on that date reflects presidential signature; the disapproval takes effect upon enactment. The bill specifies no separate effective date, deadline, or delayed applicability provision.",
+  "prompt_tokens": 880,
+  "completion_tokens": 750,
+  "total_tokens": 1630,
+  "cost_usd": 0.02315,
+  "latency_s": 11.996,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

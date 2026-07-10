@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the Airport and Airway Extension Act of 2024. It mainly gives more time and money to keep airplane programs running. \n\nThe law says these programs and certain airplane taxes will end on March 8 or 9, 2024. This bill changes those end dates to May 10 or 11, 2024. If this bill becomes law, the government can keep spending money on airports and airplane safety for a few extra months.\n\nThe bill gives exact amounts of money for the time between October 1, 2023, and May 10, 2024. For example, it allows about $2 billion for airport improvements and about $7 billion for the Federal Aviation Administration. This is the government group that controls air traffic. It also gives money for airplane research and for airplane service to small towns.\n\nThe bill also extends taxes on airplane fuel and tickets. These taxes go into a special fund that pays for airport projects. Finally, it extends rules that let the government stop dangerous drones.",
+  "prompt_tokens": 3766,
+  "completion_tokens": 1207,
+  "total_tokens": 4973,
+  "cost_usd": 0.004127,
+  "latency_s": 12.964,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

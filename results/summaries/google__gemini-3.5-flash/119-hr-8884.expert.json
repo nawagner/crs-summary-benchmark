@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 8884, the \"Removing Barriers to Work for Disabled Americans Act,\" temporarily reauthorizes and amends the Social Security Administration’s authority to conduct disability insurance demonstration projects under Title II of the Social Security Act. \n\nSection 2(a) amends Section 234(d)(2) of the Social Security Act (42 U.S.C. § 434(d)(2)) to extend the initiation authority for demonstration projects from December 31, 2021, to December 31, 2030, and extends the corresponding termination date for carrying out such projects from December 31, 2022, to December 31, 2031. \n\nSection 2(b) amends Section 234(c) of the Act (42 U.S.C. § 434(c)) to extend the Commissioner’s authority to waive compliance with Title II benefit requirements from December 30, 2021, to December 31, 2030. It also increases the congressional notification period prior to the initiation of a project from 90 days to 120 days, and adds a statutory condition precedent requiring the Commissioner to include the evaluation metrics to be used for the project in the congressional notification.\n\nSection 2(c) amends Section 201(k) of the Act (42 U.S.C. § 401(k)) to restructure the funding mechanism for these projects. It mandates that administrative expenditures be paid from funds made available for the administration of Title II, and that benefits payable to or on behalf of participants be paid from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner.\n\nSection 2(d) amends Section 234(e) of the Act (42 U.S.C. § 434(e)) to establish a new statutory limitation, prohibiting any experiment or demonstration project that reduces a participant's total income. \n\nSection 2(e) executes technical amendments to Section 234 of the Act (42 U.S.C. § 434), correcting a reference in subsection (d)(1) and repealing subsection (f) in its entirety. \n\nPursuant to Section 2(f), all amendments made by the Act become effective on January 1, 2027.",
+  "prompt_tokens": 1345,
+  "completion_tokens": 532,
+  "total_tokens": 1877,
+  "cost_usd": 0.006805,
+  "latency_s": 3.369,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

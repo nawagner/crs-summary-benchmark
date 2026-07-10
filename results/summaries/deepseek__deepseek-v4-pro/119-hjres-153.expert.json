@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution directs the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that lack explicit congressional authorization, invoking expedited parliamentary procedures under existing law. Its operative mechanism relies on the directive authority codified at 50 U.S.C. § 1546a (section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985), and it is to be considered under the expedited procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth four congressional findings. It asserts Congress’s sole constitutional power to declare war under Article I, Section 8, Clause 11. It acknowledges the President’s responsibility to defend the United States, its territories, possessions, citizens, service members, and diplomats from attack. It declares that Congress has neither declared war upon Cuba nor enacted a specific statutory authorization for use of military force (AUMF) within or against Cuba. It states that any use of force by the Armed Forces—including a blockade or quarantine conducted by the Coast Guard—constitutes introduction of forces into hostilities under the War Powers Resolution, 50 U.S.C. § 1543(a).\n\nSection 2(a) contains the operative directive. Pursuant to 50 U.S.C. § 1546a and the expedited procedures referenced above, Congress directs the President to remove United States Armed Forces from hostilities within or against Cuba, unless explicitly authorized by a declaration of war or a specific AUMF. Subsection (b) provides a rule of construction: nothing in the section shall be construed to prevent the United States from defending itself from an armed attack, the threat of an imminent armed attack, or the lawful execution of counternarcotics operations. The resolution contains no effective date other than upon enactment; it creates no new appropriations or authorizations, and it does not amend permanent law.",
+  "prompt_tokens": 899,
+  "completion_tokens": 402,
+  "total_tokens": 1301,
+  "cost_usd": 0.000741,
+  "latency_s": 5.496,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

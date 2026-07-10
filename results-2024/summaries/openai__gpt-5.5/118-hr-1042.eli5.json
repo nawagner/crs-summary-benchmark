@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "openai/gpt-5.5",
+  "summary": "This law stops most imports of certain uranium from Russia into the United States. It applies to “unirradiated low-enriched uranium,” which is uranium prepared for nuclear use but not yet used in a reactor.\n\nThe ban starts 90 days after May 13, 2024. It covers uranium made in Russia or by a Russian company. It also covers uranium that was traded or swapped in a way meant to get around the ban.\n\nThere are some exceptions. The Secretary of Energy may allow an import if there is no other workable source to keep a nuclear reactor or U.S. nuclear energy company running, or if the import is in the national interest. The Secretary of Energy must talk with the Secretaries of State and Commerce first. Congress must be told when a waiver is given.\n\nEven with waivers, imports are limited to set amounts: 476,536 kilograms in 2024, 470,376 in 2025, 464,183 in 2026, and 459,083 in 2027. All waivers must end by January 1, 2028.\n\nThe ban does not apply to imports for the Department of Energy for national security or nonproliferation work. Nonproliferation means trying to stop the spread of nuclear weapons. It also does not apply to non-uranium isotopes. The ban ends on December 31, 2040.",
+  "prompt_tokens": 1942,
+  "completion_tokens": 463,
+  "total_tokens": 2405,
+  "cost_usd": 0.0236,
+  "latency_s": 7.836,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

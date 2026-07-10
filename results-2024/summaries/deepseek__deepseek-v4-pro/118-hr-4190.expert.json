@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Restoring Benefits to Defrauded Veterans Act (Public Law 118-114, enacted November 25, 2024) amends the misuse-of-benefits provisions in 38 U.S.C. § 6107 to require the Secretary of Veterans Affairs, under specified conditions, to reissue certain misused benefits to the estate of a deceased beneficiary. The Act does not authorize new appropriations, establish a sunset, or prescribe a delayed effective date; the amendments take effect upon enactment.\n\nSection 2 of the Act makes three changes to 38 U.S.C. § 6107. First, it redesignates existing subsections (c) and (d) as subsections (d) and (e), respectively. Second, it inserts a new subsection (c) entitled “Reissuance of Amounts in the Case of a Deceased Beneficiary.” Under new subsection (c)(1), if a beneficiary described in subsection (a)—i.e., a beneficiary whose VA benefits have been misused by a fiduciary—dies before a payment is made under subsection (a) (payment to the beneficiary or a successor fiduciary upon a misuse determination) or subsection (b) (payment upon the fiduciary’s failure to repay), the Secretary shall pay those benefits to an individual or entity in accordance with 38 U.S.C. § 5121, which governs the disposition of accrued benefits upon the death of a beneficiary. New subsection (c)(2) establishes a condition precedent and a payee restriction: the Secretary may not make a payment under this new subsection to a fiduciary who misused benefits of the deceased beneficiary. This precludes a misusing fiduciary from receiving the reissued funds even if that fiduciary would otherwise qualify to receive accrued benefits under section 5121. Third, in redesignated subsection (e) (which previously imposed a time limit for the Secretary’s duty to investigate misuse), the Act strikes the reference to “subsection (a) or (b)” and inserts “this section,” conforming the cross-reference to the expanded section.",
+  "prompt_tokens": 743,
+  "completion_tokens": 1179,
+  "total_tokens": 1922,
+  "cost_usd": 0.001349,
+  "latency_s": 15.694,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

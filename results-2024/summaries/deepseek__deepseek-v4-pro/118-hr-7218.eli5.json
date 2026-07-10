@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law continues a program that helps teach people about Alzheimer’s disease and related brain disorders called dementias. These conditions affect memory and thinking. The program shares information with the public so that more people understand these illnesses.\n\nBefore this law, the program’s funding was set to end. Now, the law provides money to keep it going. It gives the program $33 million for each government budget year from 2025 through 2029. That adds up to five years of funding at $33 million per year.\n\nThe law was signed on December 11, 2024. With this change, the program can keep working to spread knowledge and awareness about Alzheimer’s and similar dementias.",
+  "prompt_tokens": 552,
+  "completion_tokens": 1042,
+  "total_tokens": 1594,
+  "cost_usd": 0.001147,
+  "latency_s": 22.195,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

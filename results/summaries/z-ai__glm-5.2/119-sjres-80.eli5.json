@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by a government group called the Bureau of Land Management. A \"rule\" is an official government plan. The rule was about how to manage oil and gas activities in a large area in Alaska called the National Petroleum Reserve. The government group made this rule on April 25, 2022.\n\nBecause of this new law, Congress (the part of the government that makes laws) says it does not agree with the 2022 rule. The law says the old rule \"shall have no force or effect.\" This means the rule is canceled and cannot be used. \n\nThe President approved this new law on December 5, 2025. Now, the 2022 plan for the Alaska oil reserve is no longer in action.",
+  "prompt_tokens": 499,
+  "completion_tokens": 905,
+  "total_tokens": 1404,
+  "cost_usd": 0.001825,
+  "latency_s": 14.802,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

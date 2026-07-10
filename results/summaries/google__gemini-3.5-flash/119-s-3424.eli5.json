@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-3424",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Bankruptcy Administration Improvement Act of 2025 is a law about bankruptcy. Bankruptcy is a legal process that helps people or businesses who cannot pay their debts, which is money they owe. \n\nThis law does two main things. First, it gives a raise to trustees. Trustees are independent helpers who manage bankruptcy cases. Since 1994, these helpers only made $60 per case. This law raises their pay to $120 per case. This pay raise applies to new cases starting on or after October 1. However, the law does not raise the filing fee for people who need to use the bankruptcy court. \n\nSecond, the law keeps certain temporary bankruptcy judges in their jobs for longer. Judges are the officials who make decisions in court. The law extends the terms of these temporary judges from 5 years to 10 years so they can keep helping with court cases. \n\nTo pay for these changes, the law increases certain court fees for businesses in bankruptcy. It also changes how fee money is shared and extends these funding rules through the year 2031.",
+  "prompt_tokens": 3336,
+  "completion_tokens": 226,
+  "total_tokens": 3562,
+  "cost_usd": 0.007038,
+  "latency_s": 2.265,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

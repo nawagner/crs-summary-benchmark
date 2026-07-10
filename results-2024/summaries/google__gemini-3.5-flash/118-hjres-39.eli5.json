@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of bill that must be approved by both the House of Representatives and the Senate, and then signed by the President, to become a law. \n\nThis bill says that Congress does not agree with a specific rule made by the Department of Commerce. The Department of Commerce is a part of the government that helps handle trade and business. \n\nThe rule that Congress wants to stop is called \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414.\" This rule is about taxes, called duties, on certain imported goods. \n\nIf this bill becomes a law, it will completely stop that rule. The rule would have no power, and it would be as if the rule never existed.",
+  "prompt_tokens": 457,
+  "completion_tokens": 164,
+  "total_tokens": 621,
+  "cost_usd": 0.002162,
+  "latency_s": 1.64,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-7024",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill: CTC amounts, R&D expensing, section 179 figures, Taiwan rules, disaster and housing provisions, and ERTC deadline."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; added context (IRS as Treasury delegate, IRC amendments) is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies the bill as amending federal tax law across six titled areas."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes amendments to the child tax credit, section 179, section 894A, LIHTC, and information reporting rules."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Taiwan reciprocity contingency, wildfire eligibility window, and conditional 30% bond threshold."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 2023-2025 CTC years, wildfire 2020-2025, Jan 31 2024 ERTC deadline, and the general post-2022/2023 effective dates."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential operative effect of all six titles."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense and free of padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IRS, Treasury, President, section 894A, and ERTC are correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1,400/$1,800/$1,900/$2,000, $1,290,000/$3,220,000, $600 to $1,000, and Jan 31 2024 are all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

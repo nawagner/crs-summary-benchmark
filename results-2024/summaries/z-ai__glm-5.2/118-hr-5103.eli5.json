@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the FISHES Act. It changes rules about giving money to help after a fishery disaster. A fishery disaster is when fish or fishing businesses are badly hurt.\n\nWhen a disaster happens, groups can ask the government for money. To get the money, they must send a spend plan. A spend plan is a document explaining how they will use the money. They must send this plan within 120 days after being told the money is available. The plan must list their goals, the work they will do, and their budget.\n\nThe Secretary, a government official in charge of this, must check the plan within 10 days. If the plan is missing information, the Secretary must tell them exactly what is missing.\n\nOnce the Secretary gets a complete plan, the money must be given to the group within 90 days. The Office of Management and Budget, a government office that watches how money is spent, can also look at the plan. However, this office is not allowed to delay the 90-day deadline.",
+  "prompt_tokens": 909,
+  "completion_tokens": 1199,
+  "total_tokens": 2108,
+  "cost_usd": 0.002554,
+  "latency_s": 7.523,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

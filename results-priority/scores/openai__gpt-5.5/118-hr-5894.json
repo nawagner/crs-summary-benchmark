@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5894",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims including regional/community-college set-asides, rescissions, BARDA, NIH facility limits, and flags provision verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented claims; added context (statutes, trust funds) is correct."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by identifying FY2024 Labor-HHS-Education appropriations and associated conditions/rescissions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes WIOA, Title X, ACA risk corridor, and breast-cancer-recommendation provisions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes transfer caps, salary caps, conscience protections, and numerous conditions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 2025 availabilities, the 2028 obligation window, and specific deadlines."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensive across Labor, HHS, general provisions, riders, and rescissions; captures essential effect."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Organized and internally consistent despite high density."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but substantive, without filler or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies, programs, and statutes named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures including $11B and $9.774B rescissions verified."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

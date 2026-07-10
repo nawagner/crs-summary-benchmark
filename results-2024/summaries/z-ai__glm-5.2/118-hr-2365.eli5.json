@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law creates a big plan called the National Parkinson's Project. Its goal is to stop, find, treat, and cure Parkinson's, which is a brain disease. The government wants to help people who have it and their families.\n\nTo do this, the law tells the Secretary of Health and Human Services (a top government health leader) to make and update a national plan. The plan will help doctors find the disease early and share information across different government groups. \n\nThe law also sets up a group called the Advisory Council. This group has experts from the government and regular people, like patients, caregivers, and doctors. They will meet four times a year for the first two years. Their meetings are open to the public. They must write a report for Congress (the lawmaking part of the government) within 18 months of the law starting, and every year after that. The report will suggest ways to help patients and find out what causes the disease.\n\nThe government must check its progress within 24 months and every year after. This whole project will end at the close of the year 2035.",
+  "prompt_tokens": 2488,
+  "completion_tokens": 1417,
+  "total_tokens": 3905,
+  "cost_usd": 0.00379,
+  "latency_s": 18.795,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

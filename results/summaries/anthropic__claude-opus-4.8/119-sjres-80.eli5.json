@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This is a joint resolution. That is a kind of rule that Congress can pass together.\n\nThis resolution cancels a decision made by a government group. The group is called the Bureau of Land Management. They help take care of public land.\n\nThe decision they made was about a big piece of land in Alaska. It is called the National Petroleum Reserve in Alaska. This land has oil under it. The group's plan set rules for how the land could be used. They made this plan on April 25, 2022.\n\nCongress used a special power to say \"no\" to this plan. This power lets Congress review rules that government groups make. If Congress does not like a rule, they can vote to cancel it.\n\nA government watchdog group, called the Government Accountability Office, wrote a letter. They said the Alaska plan counted as a rule. That meant Congress was allowed to review it and vote on it.\n\nThe Senate voted to pass this on October 30, 2025. The House voted to pass it on November 18, 2025. It became law on December 5, 2025.\n\nBecause of this law, the Alaska land plan no longer works. The plan has \"no force or effect.\" That means the rules in the plan do not count anymore.",
+  "prompt_tokens": 810,
+  "completion_tokens": 359,
+  "total_tokens": 1169,
+  "cost_usd": 0.013025,
+  "latency_s": 6.872,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

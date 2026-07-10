@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is called the \"No Visas for Anti-Semitic Students Act.\" It tells the Secretary of State—the top U.S. official who deals with other countries—to cancel or refuse certain student visas. A visa is a special permission slip that lets someone from another country enter and stay in the United States for a reason, like studying. The visas affected are F and M visas, which are for students.\n\nIf this bill becomes law, a foreign student would lose their visa or not get one if they do two things. First, they must take part in what the bill calls \"prohibited antisemitic conduct.\" That means physically hurting, damaging property, or harassing a Jewish person, their property, a Jewish community center, or a religious building. The act must be done with the intent to scare or harm someone because they are Jewish. It also includes giving support—like money, planning help, or encouraging others—to someone, knowing that person plans to do those harmful acts.\n\nSecond, the Secretary of State must decide that the student's actions could cause serious problems for the United States' relationships with other countries. If both conditions are met, the visa must be taken away or denied. The bill uses a definition of antisemitism from a group called the International Holocaust Remembrance Alliance, which the U.S. belongs to. The rules would apply to actions that happen on or after the day the bill becomes law.",
+  "prompt_tokens": 1215,
+  "completion_tokens": 932,
+  "total_tokens": 2147,
+  "cost_usd": 0.001339,
+  "latency_s": 22.087,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

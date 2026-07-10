@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would tell the President to remove U.S. Armed Forces from fighting in or against Iran, unless Congress has clearly approved that fighting.\n\nThe bill says Congress has the power to declare war. It says the President can act to defend the United States, its people, service members, and diplomats from attack. It also says Congress has not declared war on Iran or passed a specific law allowing military force in or against Iran.\n\nThe bill says using military force in or against Iran would count as putting U.S. forces into “hostilities.” That means fighting or being in danger of fighting. It says this includes enforcing a naval blockade.\n\nThe bill would not stop the United States from defending itself if the United States, its people, or its facilities in other countries are attacked. It would also allow the United States to gather and share intelligence, which means security information, with partner countries attacked by Iran since February 28, 2026. The United States could also help those countries stop retaliatory attacks by Iran or its proxies, and give defensive supplies for those efforts.",
+  "prompt_tokens": 1115,
+  "completion_tokens": 259,
+  "total_tokens": 1374,
+  "cost_usd": 0.013345,
+  "latency_s": 5.172,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

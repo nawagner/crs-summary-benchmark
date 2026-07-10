@@ -1,0 +1,16 @@
+You are summarizing a bill introduced in the United States Congress for a young reader — explain it like the reader is about ten years old.
+
+Write a clear, honest summary of the bill text below. Your summary should:
+- Say what the bill mainly does, in everyday words.
+- Describe the big things it changes, and what would be different if it becomes law.
+- Mention important conditions, amounts, or dates, in plain terms.
+- Use short sentences and common words (aim for a 5th-grade reading level). Briefly explain any government word you must use.
+- Stay strictly neutral — no opinion, advocacy, or speculation.
+- Be faithful to the text — include nothing that is not in the bill.
+
+Write only the summary itself (no preamble, no headings). Aim for 100–250 words.
+
+BILL TEXT:
+---
+{bill_text}
+---

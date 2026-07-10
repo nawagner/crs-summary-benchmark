@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified figures accurate (Assets Forfeiture $20,514,000, STAG/SRF, NRC net, RMI grants); no contradictions."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed riders and program names are accurate context; nothing invented."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly frames it as an FY2024 omnibus across seven divisions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Good Neighbor Authority amendment, Compact amendments, VA and Medicaid changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Guantanamo carve-out, firearms exemption exclusions, Denali cost caps, and match requirements."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes 45-day LWCF allocation, sodium limits through SY2026-27, and other timing provisions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all seven divisions with essential appropriations and policy provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": false,
+      "why": "Summary is truncated, ending mid-list with a dangling empty '*   **' bullet."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": false,
+      "why": "Roughly triple the length of peer summaries, over-enumerating minor line items (e.g., $130,000 NHTSA reviews) and running to truncation."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and programs correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Stated figures match the bill text and index."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This is a joint resolution, which is a kind of law that Congress makes together.\n\nThis law cancels a rule. A rule is like a set of directions made by a government group. In this case, the group is the National Park Service. That group takes care of national parks in the United States.\n\nThe rule was about \"Glen Canyon National Recreation Area: Motor Vehicles.\" Glen Canyon is a big outdoor place where people can visit. The rule had to do with cars and other vehicles with motors in that area.\n\nCongress used a special power to say no to this rule. When Congress does this, the rule \"shall have no force or effect.\" That means the rule does not count anymore. It cannot be used.\n\nThe law was approved on May 23, 2025. The House of Representatives passed it on April 29, 2025. The Senate passed it in early May 2025.\n\nSo, if this becomes law (and it did), the National Park Service's rule about motor vehicles at Glen Canyon is gone. It will not be followed.",
+  "prompt_tokens": 701,
+  "completion_tokens": 306,
+  "total_tokens": 1007,
+  "cost_usd": 0.011155,
+  "latency_s": 6.088,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would cancel a rule made by the Bureau of Consumer Financial Protection. That agency helps protect people and businesses when they use financial services.\n\nThe rule is called “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B).” It was published on May 31, 2023.\n\nCongress is using a process that lets it reject certain agency rules. If this bill becomes law, Congress would disapprove the rule. The rule would then have “no force or effect.” That means it would not count as law and could not be used.\n\nThe bill does not create a new rule to replace it. It only says the small business lending rule from the Bureau of Consumer Financial Protection would be canceled.",
+  "prompt_tokens": 471,
+  "completion_tokens": 146,
+  "total_tokens": 617,
+  "cost_usd": 0.006735,
+  "latency_s": 3.18,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

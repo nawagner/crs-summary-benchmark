@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7305",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would keep a Department of Energy program going from 2027 through 2031. The program helps protect the U.S. energy system from cyber threats. The energy system includes things like electricity, oil, and gas.\n\nThe bill says the program should help the government and energy companies work together. They would share threat information, study possible attacks, send alerts, and suggest ways to reduce harm. This could include both classified information, which is secret government information, and unclassified information, which is not secret.\n\nThe bill would allow the Secretary of Energy to run this work through an Energy Threat Analysis Center. The center could be in one or more places.\n\nThe Secretary of Energy would decide who gets help or information. No company or government office would have a legal right to receive the same help.\n\nInformation shared through the program would not have to be released to the public under public records laws. The bill also lets the Secretary use contracts, grants, partnerships, and faster review steps to run the program.",
+  "prompt_tokens": 1614,
+  "completion_tokens": 276,
+  "total_tokens": 1890,
+  "cost_usd": 0.01635,
+  "latency_s": 5.767,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

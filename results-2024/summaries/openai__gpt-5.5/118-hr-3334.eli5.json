@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would make the President place sanctions on certain people and businesses linked to China. Sanctions are punishments, like freezing money or blocking travel.\n\nWithin 30 days after the bill becomes law, the President must sanction Chinese Communist Party Central Committee members, including alternate members, if the President decides they had a major role in policies that do certain things. These include weakening Hong Kong’s freedom to govern itself, threatening Taiwan, violating human rights in China, or trying to interfere in U.S. elections with false online information or propaganda.\n\nThe sanctions would also apply to adult family members of those officials. They would apply to Chinese state-owned businesses that illegally make or sell fentanyl, or knowingly make or sell chemicals used to make illegal fentanyl.\n\nThe sanctions would freeze property they have in the United States or controlled by U.S. people. They also could not get U.S. visas, and any current visas would be canceled.\n\nThe bill allows exceptions for United Nations duties and U.S. intelligence, law enforcement, or national security work. The President may pause sanctions for up to 60 days at a time if needed for U.S. national security, with notice to Congress. This waiver power ends after 2 years. The bill does not allow sanctions on importing goods.",
+  "prompt_tokens": 3494,
+  "completion_tokens": 444,
+  "total_tokens": 3938,
+  "cost_usd": 0.03079,
+  "latency_s": 8.962,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-3746",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States SNAP work-requirement age is raised 'to 54 by fiscal year 2025,' contradicting the bill's over-55 threshold for FY2025 and thereafter."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented entities or provisions; the age error is a misstatement rather than a fabrication."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies suspending the debt limit and setting spending limits as the primary purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Names BBEDCA and NEPA (Builder Act) amendments and program modifications."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes CR-triggered adjustment, PAYGO thresholds and waiver, and SNAP exemptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites debt window, Dec 31 2024 PAYGO sunset, SNAP Oct 1 2030 sunset, and student-loan timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all divisions including the NEPA page limits and MVP despite the SNAP age slip."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear headed structure that reads well."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Focused with no meaningful padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "OMB, NEPA, TANF, SNAP, Mountain Valley Pipeline named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "SNAP age threshold stated as 54 for FY2025; the bill sets it at over 55."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

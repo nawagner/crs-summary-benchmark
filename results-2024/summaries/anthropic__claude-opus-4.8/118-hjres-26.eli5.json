@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Washington, D.C. is the city where the U.S. government is located. It has its own local government called the Council. The Council makes laws for the city.\n\nIn January 2023, the D.C. Council passed a new set of rules about crimes. It was called the Revised Criminal Code Act of 2022. These rules would change how the city handles people who break the law.\n\nBut there is a special rule. When the D.C. Council makes a law, it must show that law to Congress first. Congress is the group of leaders who make laws for the whole country. Congress can say \"no\" to a D.C. law if it wants to.\n\nThis bill is Congress saying \"no\" to the D.C. Council's new crime rules. The word for saying \"no\" like this is \"disapproving.\" Because Congress disapproved it, the new crime rules do not become law.\n\nThe House of Representatives voted yes on February 9, 2023. The Senate voted yes on March 8, 2023. Both the House and the Senate are parts of Congress. The bill was approved on March 20, 2023.\n\nSo, the main thing this bill does is stop the D.C. Council's new crime rules from taking effect.",
+  "prompt_tokens": 706,
+  "completion_tokens": 352,
+  "total_tokens": 1058,
+  "cost_usd": 0.01233,
+  "latency_s": 5.905,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

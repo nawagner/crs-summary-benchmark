@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4190",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-114, the \"Restoring Benefits to Defrauded Veterans Act\" (H.R. 4190, enacted November 25, 2024), amends 38 U.S.C. § 6107 to establish a mechanism for reissuing certain benefit repayments to the estates of deceased beneficiaries whose Department of Veterans Affairs benefits were misused by their fiduciaries.\n\nSection 6107 currently obligates the Secretary of Veterans Affairs, under subsections (a) and (b), to repay amounts of benefits misused by a fiduciary. Section 2 of the Act effects three changes:\n\nFirst, it redesignates existing subsections (c) and (d) of § 6107 as subsections (d) and (e), respectively.\n\nSecond, it inserts a new subsection (c), governing \"Reissuance of Amounts in the Case of a Deceased Beneficiary.\" New paragraph (c)(1) provides that if a beneficiary described in subsection (a) predeceases a repayment owed under subsection (a) or (b), the Secretary shall pay such benefits to an individual or entity in accordance with 38 U.S.C. § 5121 (the accrued-benefits provision governing payment to survivors upon a beneficiary's death), subject to the limitation in paragraph (2). New paragraph (c)(2) prohibits the Secretary from making any such payment to a fiduciary who misused the beneficiary's benefits.\n\nThird, it makes a conforming amendment to newly redesignated subsection (e), striking the reference to \"subsection (a) or (b)\" and substituting \"this section,\" thereby extending that subsection's operation to encompass the newly added reissuance authority in subsection (c).\n\nThe Act contains a short-title provision (Section 1), codified as a note to 38 U.S.C. § 101. It includes no separate effective-date provision (the amendments therefore take effect upon enactment), no sunset, and no authorization or appropriation of funds; the repayment obligation operates through the existing statutory framework of § 6107 and the survivor-payment rules of § 5121.\n\nThe bill's legislative history reflects House passage on September 17, 2024, and Senate passage on September 25, 2024, accompanied by House Report No. 118-655 from the Committee on Veterans' Affairs.",
+  "prompt_tokens": 1268,
+  "completion_tokens": 755,
+  "total_tokens": 2023,
+  "cost_usd": 0.025215,
+  "latency_s": 9.949,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

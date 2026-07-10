@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4365",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Personnel/O&M amounts, Israeli programs ($500M), shipbuilding ($1,648,559,000), arbitration restriction, DNI transfer authority, and NIP provisions all verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented claims; context like David's Sling for SRBMD is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the bill appropriates FY2024 funds for DoD military functions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes NIP account-structure restrictions, notice-recipient additions, and statutory authorizations under 50 U.S.C. 3094."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers emergency caps, vetting, decommissioning bars, and reprogramming limits."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes availability until 9/30/2025 and 9/30/2024 and various timing conditions."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Broad coverage of personnel, O&M, procurement highlights, shipbuilding, and general provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Programs, ships, and statutes correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "All stated dollar amounts verified against the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

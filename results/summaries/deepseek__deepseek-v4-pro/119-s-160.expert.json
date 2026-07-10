@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 119-18, cited as the “Aerial Firefighting Enhancement Act of 2025,” amends section 2 of the Wildfire Suppression Aircraft Transfer Act of 1996 (Public Law 104-307; 10 U.S.C. 2576 note) to modify and reauthorize the Department of Defense’s authority to sell excess aircraft and parts for wildfire suppression. The Act makes five targeted amendments, effective upon enactment (June 12, 2025).\n\nFirst, subsection (a)(1) is amended to strike “a period” and insert “the period,” and to insert “or water” after “fire retardant,” thereby expanding the class of aircraft eligible for transfer to include those capable of dropping water in addition to fire retardant. Second, subsection (b) is amended to replace the existing use limitation with a single sentence: “sold under subsection (a) may be used only for the provision of aircraft services for wildfire suppression purposes.” This narrows and clarifies the permissible post-sale use. Third, subsection (c) is amended to insert “or water” after “fire retardant,” conforming that subsection to the expanded eligibility. Fourth, subsection (d)(1) is amended by striking a cross-reference to “subsection (a)(1)” and inserting “subsection (g),” correcting an outdated reference to align with the reauthorized sunset provision. Fifth, subsection (g) is struck in its entirety and replaced with a new subsection (g) that establishes a new period for exercise of the sale authority, beginning on the date of enactment of the Aerial Firefighting Enhancement Act of 2025 and ending on October 1, 2035. This provision operates as a reauthorization and sunset extension, superseding any prior termination date.\n\nThe Act does not authorize appropriations, create new spending authority, or impose new conditions precedent; it solely extends and modifies existing transfer authority. No regulatory or reporting requirements are added.",
+  "prompt_tokens": 771,
+  "completion_tokens": 1577,
+  "total_tokens": 2348,
+  "cost_usd": 0.001707,
+  "latency_s": 35.946,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

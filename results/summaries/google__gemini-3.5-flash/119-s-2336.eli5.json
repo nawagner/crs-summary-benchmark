@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Halting the Epidemic of Addiction and Loss Act of 2025.\" It is about medicine used to save people who have taken too much of a strong drug called an opioid. This kind of medicine is called an opioid overdose reversal drug. \n\nRight now, the government gives out grants to help communities fight drug problems. A grant is money given by the government for a special project. When the government writes rules for these grants, they often only name one specific medicine called naloxone. \n\nIf this bill becomes a law, it will change those rules. It says the Department of Health and Human Services must not list only naloxone. Instead, the rules must include any drug that is approved by the government to stop an opioid overdose. \n\nThe government would have one year to update its older rules for certain grant programs. These include State Opioid Response Grants, Tribal Opioid Response Grants, and other national prevention grants. This change ensures that people can use grant money for different approved medicines that save lives, not just one.",
+  "prompt_tokens": 898,
+  "completion_tokens": 216,
+  "total_tokens": 1114,
+  "cost_usd": 0.003291,
+  "latency_s": 2.286,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

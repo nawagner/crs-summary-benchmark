@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-20",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution (H.J. Res. 20), enacted as Public Law 119-6, effects a congressional disapproval under the Congressional Review Act (chapter 8 of title 5, U.S. Code, specifically the mechanism established at 5 U.S.C. § 802) of a final rule promulgated by the Department of Energy.\n\nThe operative mechanism is the CRA's expedited disapproval procedure, whereby Congress, through a joint resolution presented to and signed by the President, nullifies a covered agency rule. The single operative clause provides that Congress disapproves the identified rule and that \"such rule shall have no force or effect.\"\n\nThe targeted rule is the Department of Energy's \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters,\" published at 89 Fed. Reg. 105188 (December 26, 2024). This rule was issued under DOE's authority to prescribe energy conservation standards for consumer products under the Energy Policy and Conservation Act.\n\nThe legal consequence of enactment is twofold and follows automatically from the CRA framework (5 U.S.C. § 801): first, the disapproved rule is deprived of legal effect and is treated as though it had never taken effect; second, by operation of 5 U.S.C. § 801(b)(2), the agency is barred from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, absent subsequent statutory authorization enacted after the date of the disapproval resolution. The resolution itself contains no express language restating this reissuance bar; that limitation arises from the operation of the underlying CRA statute rather than from the text of the resolution.\n\nThe resolution contains no appropriation, no authorization of appropriations, no delegation of new rulemaking authority, no sunset provision, and no severability clause. It effects no amendment to the U.S. Code; its effect is limited to nullifying the specified agency rule.\n\nThe measure was considered and passed by the House on February 27, 2025, and considered and passed by the Senate on April 9 and 10, 2025 (the companion measure being S.J. Res. 4). It was approved by the President on May 9, 2025. As an enacted disapproval resolution, it takes effect upon approval; no deferred effective date or condition precedent is specified in the text.",
+  "prompt_tokens": 897,
+  "completion_tokens": 766,
+  "total_tokens": 1663,
+  "cost_usd": 0.023635,
+  "latency_s": 14.18,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

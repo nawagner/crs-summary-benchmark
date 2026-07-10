@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called a joint resolution. That means both parts of Congress must agree to it. It is about a fight between the United States military and the country of Iran.\n\nThe bill says that in the U.S. Constitution, only Congress can officially start a war. Congress has not voted to start a war with Iran. But the bill says the President began military action against Iran on February 28, 2026, without Congress saying yes.\n\nThe bill lists some facts. It says 13 U.S. service members have been killed and 380 hurt in this fight. It also mentions things the President said about the war.\n\nThe main thing the bill does is tell the President to stop U.S. military fighting in or against Iran. The only way the fighting could continue is if Congress officially declares war or passes a law that allows it.\n\nThe bill also says a few things are still okay to do. The U.S. can:\n- Defend itself if it is attacked.\n- Gather and share information about threats from Iran.\n- Help friendly countries block attacks from Iran, including giving them defense supplies.\n- Help U.S. citizens stay safe and leave the area.\n\nRight now, this is only a proposal. A Senator introduced it on April 13, 2026, and it was sent to a group called the Committee on Foreign Relations to study.",
+  "prompt_tokens": 2059,
+  "completion_tokens": 392,
+  "total_tokens": 2451,
+  "cost_usd": 0.020095,
+  "latency_s": 6.555,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

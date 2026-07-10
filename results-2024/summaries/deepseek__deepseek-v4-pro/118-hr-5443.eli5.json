@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill changes the rules for appraisers who work on land deals involving the U.S. Department of the Interior. An appraiser is a person who figures out what land or buildings are worth.\n\nBefore this law, an appraiser usually needed a license in the state where the land was located. Now, for these federal deals, an appraiser only needs a license from one state. They can work on a deal in any state without getting a new license.\n\nThe Department must first try to use an appraiser licensed in the state where the land is. But if that kind of appraiser is not available, not qualified, or costs too much, the Department can pick an appraiser from another state.\n\nThe Department must write a report for Congress each year for five years. The report must compare how many appraisal requests were made and how long they took before and after the law. It must list every time the new rule was used and explain why. The Department also has to put all its appraisal policies online within 90 days.\n\nOther state and federal laws still apply to appraisers, except that state laws requiring a license in that state do not apply to these specific federal land deals.",
+  "prompt_tokens": 1630,
+  "completion_tokens": 1347,
+  "total_tokens": 2977,
+  "cost_usd": 0.001881,
+  "latency_s": 32.121,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

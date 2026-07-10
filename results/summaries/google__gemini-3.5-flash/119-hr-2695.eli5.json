@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Communities of Recovery Reauthorization Act of 2025. It was introduced in the House of Representatives, which is one of the groups of lawmakers in Congress who write and vote on laws for the United States. \n\nThe bill wants to change an existing law called the Public Health Service Act. The main goal of this bill is to give more money to a program that helps build \"communities of recovery.\" These are groups that help people who are recovering from addiction to drugs or alcohol. \n\nRight now, the old law says the government can give $5 million each year for these programs. That money was for the years 2019 through 2023. \n\nIf this new bill becomes a law, it will change the amount of money and the years it is given. The government would spend $17 million each year instead of $5 million. This money would be given out from the year 2026 through the year 2030. This money is given as grants, which are awards of money from the government used to help communities. \n\nIn short, this bill would increase the yearly money for these recovery groups by $12 million and make sure the program keeps running for five more years._",
+  "prompt_tokens": 529,
+  "completion_tokens": 261,
+  "total_tokens": 790,
+  "cost_usd": 0.003142,
+  "latency_s": 2.633,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

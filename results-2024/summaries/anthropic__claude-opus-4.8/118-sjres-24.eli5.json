@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about a special kind of bat called the Northern Long-Eared Bat.\n\nA government group called the U.S. Fish and Wildlife Service made a rule. Their rule said this bat is \"endangered.\" Endangered means an animal is in danger of dying out and disappearing forever. When an animal is called endangered, there are special rules to help protect it.\n\nThis bill says Congress does not agree with that rule. Congress is the group of people who make laws for the country. When Congress \"disapproves\" a rule, it means they want to cancel it.\n\nIf this bill becomes law, the rule about the Northern Long-Eared Bat would be canceled. The bill says the rule \"shall have no force or effect.\" That means the rule would not count anymore, and the bat would not have that endangered label.\n\nThe rule was first written on November 30, 2022. The Senate, which is one part of Congress, voted to pass this bill on May 11, 2023.",
+  "prompt_tokens": 831,
+  "completion_tokens": 293,
+  "total_tokens": 1124,
+  "cost_usd": 0.01148,
+  "latency_s": 5.379,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

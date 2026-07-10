@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 118-68, the Winnebago Land Transfer Act of 2023, effects a transfer of administrative jurisdiction over certain federally owned lands from the Army Corps of Engineers to the Bureau of Indian Affairs and mandates that those lands be taken into trust for the benefit of the Winnebago Tribe of Nebraska. The Act is self-executing upon the date of enactment (July 12, 2024); it does not contain an authorization of appropriations or a separate appropriation.\n\nSection 2(a) operates as a present declaration and conveyance. Subject to all valid existing rights, it removes all right, title, and interest of the United States (including improvements and appurtenances) in the lands described in Section 2(b) from the public domain, declares those lands to be part of the Winnebago Reservation created by the 1865 Treaty between the United States and the Winnebago Tribe, and directs that they be held in trust by the United States for the Tribe under the identical terms and conditions set forth in that Treaty (Treaty with the Winnebago Tribe, 1865, 14 Stat. 671).\n\nSection 2(b) identifies the affected Federal lands by reference to three specific tracts recorded in federal condemnation proceedings rather than by metes and bounds in the statutory text: (1) a portion of Tract No. 119 (and accretion lands) located in Woodbury County, Iowa, as described in filings in United States District Court for the Northern District of Iowa (Western Division), Civil Case No. 70-C-3015-W, executed May 11, 1973; (2) Tract No. 210, as described in Schedule “A” of the declaration of taking and related judgment in that same civil case; and (3) Tract No. 113, as described in the judgment on declaration of taking filed in United States District Court for the District of Nebraska, Civ. No. 03498.\n\nSection 2(c) permanently prohibits Class II and Class III gaming, as those categories are defined in the Indian Gaming Regulatory Act (25 U.S.C. § 2701 et seq.), on the lands taken into trust under Section 2(a). No exceptions to this prohibition are provided, and the Act does not alter the applicability of the Indian Gaming Regulatory Act to other existing or future lands of the Tribe.\n\nThe Act does not amend the United States Code; its operative provisions stand as free-standing public law. It contains no sunset clause, no rulemaking requirement, and no delegation of authority beyond the statutorily mandated change in land status.",
+  "prompt_tokens": 979,
+  "completion_tokens": 1331,
+  "total_tokens": 2310,
+  "cost_usd": 0.001584,
+  "latency_s": 18.582,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill, called the Safe Response Act, renews and updates a training program for first responders. First responders are people like police officers, firefighters, and paramedics who help in emergencies.\n\nThe main change is that the training will no longer focus only on opioid drugs. It will now cover how to handle emergencies involving any kind of drug, including heroin and others. The bill also updates the language about the medicines first responders can use. It says they can be trained on drugs that are approved, cleared, or otherwise legally marketed by the government.\n\nAnother change fixes the spelling of \"Tribes\" to use a capital letter. The bill also sets new funding amounts. It provides $57,000,000 for the program each year from 2026 through 2030. This replaces the old funding of $36,000,000 per year, which had ended in 2023.\n\nIf this bill becomes law, first responders will get broader training and more money will be available to support that training for the next several years.",
+  "prompt_tokens": 677,
+  "completion_tokens": 208,
+  "total_tokens": 885,
+  "cost_usd": 0.000475,
+  "latency_s": 9.463,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

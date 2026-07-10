@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "google/gemini-3.5-flash",
+  "summary": "House Joint Resolution 39 is a joint resolution introduced pursuant to the Congressional Review Act (CRA), codified at 5 U.S.C. §§ 801–808. The primary purpose and operative mechanism of the resolution is the formal legislative disapproval of a specific federal agency rule, rendering it null and void. \n\nSpecifically, the resolution states that Congress disapproves the rule submitted by the Department of Commerce titled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,\" published at 87 Fed. Reg. 56868 (September 16, 2022). \n\nUnder the operative statutory framework of the CRA (specifically 5 U.S.C. § 801(f)), the enactment of this joint resolution mandates that the specified Department of Commerce rule shall have no force or effect. By operation of law under the CRA, the rule may not be implemented or enforced, and the Department of Commerce is prohibited from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the joint resolution of disapproval. \n\nThe resolution contains no appropriations, authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates; its legal effect is immediate upon enactment.",
+  "prompt_tokens": 490,
+  "completion_tokens": 288,
+  "total_tokens": 778,
+  "cost_usd": 0.003327,
+  "latency_s": 2.513,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

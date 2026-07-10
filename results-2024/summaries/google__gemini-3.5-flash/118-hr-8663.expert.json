@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024,\" or the \"DETECT Fentanyl and Xylazine Act of 2024\" (Public Law 118-186), amends Section 302 of the Homeland Security Act of 2002 (6 U.S.C. 182) to expand the statutory responsibilities of the Department of Homeland Security (DHS) Science and Technology Directorate. \n\nSpecifically, Section 2 of the Act adds a new paragraph (15) to 6 U.S.C. 182, directing the Under Secretary for Science and Technology, in coordination with the Drug Enforcement Administration (DEA), to conduct research, development, testing, evaluation, and cost-benefit analyses. This mandate aims to enhance the safety, effectiveness, and efficiency of detection equipment and reference libraries utilized by Federal, State, local, Tribal, and territorial law enforcement agencies to identify illicit drugs, such as fentanyl and xylazine. The scope of this research and development includes: (A) portable equipment requiring minimal or no sample handling; (B) equipment capable of separating complex mixtures with low drug concentrations and high cutting-agent concentrations to extract signatures for field identification; and (C) technologies leveraging machine learning or artificial intelligence—as defined in Section 5002 of the National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9401)—to predict whether sample substances constitute controlled substance analogues or new psychoactive substances absent from existing reference libraries.\n\nSection 3 establishes operational conditions and source-material dependencies for executing these duties. The Under Secretary must adhere to the recommendations, guidelines, and best practices of the National Institute of Standards and Technology (NIST) Artificial Intelligence Risk Management Framework (NIST AI 100-1) or its successor. Additionally, the Under Secretary must prioritize research, development, testing, evaluation, and cost-benefit analyses based on specific drug threats identified in the latest DHS Homeland Threat Assessment, the latest DEA State and Territory Report on Enduring and Emerging Threats, or their successor documents. \n\nSection 4 provides a rule of construction clarifying that the Act does not limit the existing authority of any agency currently managing, overseeing, or maintaining drug equipment and reference libraries. The Act contains no independent appropriations or authorization of appropriations.",
+  "prompt_tokens": 1327,
+  "completion_tokens": 500,
+  "total_tokens": 1827,
+  "cost_usd": 0.006491,
+  "latency_s": 3.808,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

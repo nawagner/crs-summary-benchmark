@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-81, the \"Royalty Resiliency Act,\" amends Section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982 (30 U.S.C. 1721(j)), as previously amended by the Federal Oil and Gas Royalty Simplification and Fairness Act of 1996, to reform the administrative process governing royalty payments during the pendency of production allocation determinations for units and communitization agreements. \n\nThe Act establishes a mandatory 120-day statutory deadline, running from the date of a request for determination, within which the Secretary of the Interior must issue all determinations of allocations of production for units and communitization agreements. Pending the Secretary’s final determination, the Act directs a lessee or its designee to report and pay royalties on oil and gas production for each production month based on the terms of the proposed allocation of production. \n\nUpon the Secretary’s issuance of the determination, the lessee or its designee must correct its monthly reports and royalty payments to conform to the approved allocation. The statutory deadline for these corrections is the end of the third month following the month in which the lessee or its designee receives the determination. \n\nThe Act further mandates that the Secretary waive interest due on obligations subject to the determination. This interest waiver is subject to a condition precedent: the lessee or its designee must make full and timely monthly royalty payments to all parties in accordance with the terms of the proposed allocation. If this condition is met, the interest waiver remains in effect until the end of the third month following the month in which the lessee or its designee receives the determination. \n\nBy way of a material exception to its scope, the Act explicitly provides that the amended subsection 111(j) does not apply to unit or communitization agreements containing Indian lands.",
+  "prompt_tokens": 919,
+  "completion_tokens": 380,
+  "total_tokens": 1299,
+  "cost_usd": 0.004799,
+  "latency_s": 2.793,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

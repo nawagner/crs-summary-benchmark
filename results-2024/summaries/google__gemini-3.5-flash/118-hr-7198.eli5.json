@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7198",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"Prove It Act of 2024.\" It is a proposed law to help small businesses when government agencies make new rules. \n\nAn agency is a government group that writes rules. Sometimes, these rules can cost small businesses a lot of money. Under this bill, agencies must look at the indirect, hidden costs their rules might place on small businesses. \n\nIf an agency claims a new rule will not hurt small businesses, a business can ask for a review. They do this by sending a petition, which is a formal written request, to a government official called the Chief Counsel for Advocacy of the Small Business Administration. \n\nIf the Chief Counsel decides to review the rule, they will hold a meeting with the agency and the business. If the Chief Counsel finds the rule will hurt small businesses, the agency must do a full study on the economic impact. If the agency refuses to help with the review, the rule will not apply to small businesses. \n\nAlso, agencies must review their rules every 10 years. If they fail to do this review, the rule stops working. This applies to rules made in the last five years and any new rules made in the future.",
+  "prompt_tokens": 3338,
+  "completion_tokens": 246,
+  "total_tokens": 3584,
+  "cost_usd": 0.007221,
+  "latency_s": 2.277,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

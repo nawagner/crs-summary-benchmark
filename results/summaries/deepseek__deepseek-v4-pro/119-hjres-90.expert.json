@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the Congressional Review Act (5 U.S.C. chapter 8) to disapprove a final guidance document issued by the Commodity Futures Trading Commission: “Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,” published at 89 Fed. Reg. 83378 on October 15, 2024. The resolution’s operative clause provides that Congress disapproves the rule and that the rule “shall have no force or effect.” It does not amend any title of the United States Code; rather, it exercises the legislative-veto mechanism codified at 5 U.S.C. 801–808. Upon enactment, the disapproved guidance is rendered void, and, consistent with 5 U.S.C. 801(b)(2), the Commission is prohibited from issuing a substantially similar rule absent a subsequent statutory authorization. The resolution contains no exceptions, delayed effective dates, sunset provisions, or severability clauses. It includes no authorization of appropriations, no direct spending, and no revenue provisions. As a joint resolution, it must be passed by both the House and the Senate and presented to the President to take legal effect. The measure was introduced on April 3, 2025, and referred to the Committee on Agriculture.",
+  "prompt_tokens": 493,
+  "completion_tokens": 2009,
+  "total_tokens": 2502,
+  "cost_usd": 0.001962,
+  "latency_s": 34.115,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

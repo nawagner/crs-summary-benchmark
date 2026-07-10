@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "openai/gpt-5.5",
+  "summary": "This law says that certain federal money for mothers and children may be used to help prevent stillbirth. A stillbirth is when a baby dies before being born.\n\nIt changes Title V of the Social Security Act. Title V is a federal program that gives money to states for health services for mothers, babies, and children. The law makes clear that this money can support programs and research to reduce stillbirths.\n\nThe law lists examples of what the money may support. These include helping parents track a baby’s movements before birth, improving the timing of births for pregnancies with risk factors, and sharing information about safer sleeping positions during pregnancy. It also includes checking if a baby is not growing enough, helping pregnant people stop smoking, and community programs that give home visits or other support.\n\nThe programs must be based on evidence, which means they use research or facts to guide what they do. The law was approved on July 12, 2024.",
+  "prompt_tokens": 653,
+  "completion_tokens": 363,
+  "total_tokens": 1016,
+  "cost_usd": 0.014155,
+  "latency_s": 7.366,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Accelerating Appraisals and Conservation Efforts Act.\" It is about people who figure out how much land is worth. These people are called appraisers. An appraiser looks at a piece of land and says how much money it is worth.\n\nBefore this law, an appraiser usually had to have a license (special permission) in each state where they wanted to work. This law changes that. Now an appraiser only needs a license in one state to help with land deals that the Secretary of the Interior is in charge of. The Secretary of the Interior is a government leader who takes care of a lot of the country's land.\n\nThe law says the Secretary should try hardest to use an appraiser who has a license in the same state as the land. But the Secretary can use an appraiser from another state if the local one is too busy, not qualified, or costs too much.\n\nEvery year for at least five years, the Secretary must send Congress a report. The report will show how many land deals happened, how long they took, and how the new rules are working.\n\nAlso, within 90 days after the law starts, the government must put its appraisal rules online so everyone can read them.\n\nThe law was approved on January 4, 2025.",
+  "prompt_tokens": 2730,
+  "completion_tokens": 352,
+  "total_tokens": 3082,
+  "cost_usd": 0.02245,
+  "latency_s": 6.227,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

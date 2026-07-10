@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would end a national emergency that the President declared on July 30, 2025.\n\nThat emergency was used to put duties on goods imported from Brazil. Duties are extra taxes or fees charged when products come into the United States from another country.\n\nIf this bill becomes law, that national emergency would be terminated. This means the emergency named in Executive Order 14323 would no longer be in effect. The bill uses a law called the National Emergencies Act. That law explains how Congress can end a national emergency.\n\nThe bill does not create new taxes or programs. It does not list specific Brazilian products. It only says that the national emergency used to impose duties on imports from Brazil must end.",
+  "prompt_tokens": 437,
+  "completion_tokens": 226,
+  "total_tokens": 663,
+  "cost_usd": 0.008965,
+  "latency_s": 4.715,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

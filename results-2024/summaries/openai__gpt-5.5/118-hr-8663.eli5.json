@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8663",
+  "model": "openai/gpt-5.5",
+  "summary": "This law tells the Science and Technology part of the Department of Homeland Security to work on better ways to find illegal drugs in very tiny amounts.\n\nIt focuses on drugs such as fentanyl and xylazine. It says this office must work with the Drug Enforcement Administration, also called the DEA. They must research, test, and compare tools that police and other law enforcement groups can use. This includes federal, state, local, Tribal, and territorial agencies.\n\nThe law covers portable tools that can find drugs with little or no touching of the sample. It also covers tools that can sort mixed substances, even when the drug amount is very small. It also includes technology that uses machine learning or artificial intelligence to help guess if a sample has a drug-like substance that is not yet listed in drug reference databases.\n\nThe office must follow federal guidance for safe use of artificial intelligence. It must set its work priorities using the latest threat reports from Homeland Security and the DEA.\n\nThe law does not take away any powers from other agencies that already manage drug detection tools or drug reference libraries.",
+  "prompt_tokens": 1134,
+  "completion_tokens": 262,
+  "total_tokens": 1396,
+  "cost_usd": 0.01353,
+  "latency_s": 5.994,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

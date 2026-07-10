@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-2073",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill makes rules to keep kids and teenagers safer on the internet. It also helps the government stop writing useless reports.\n\nIf this bill becomes law, websites and apps used by kids under 17 must protect them from harm. This includes stopping online bullying, addiction-like habits, and ads for drugs, alcohol, or tobacco. Websites must give kids and parents tools to limit screen time, control who can message them, and turn off location tracking. The safest settings would be turned on by default.\n\nBig websites with over 10 million users must write a public report every year about how they keep kids safe. Also, websites must let people choose to see content without secret computer programs, called algorithms, picking what they see.\n\nThe bill updates privacy rules to protect teenagers up to age 16, not just younger children. It stops companies from using a teen's personal information to show them targeted ads. Teens can ask companies to delete their data.\n\nFinally, government agencies must list old or repeated reports they send to Congress. They must suggest which ones to stop doing.\n\nMost of the online safety rules would start 18 months after the bill becomes a law. The rule about letting people see unmanipulated content starts after one year.",
+  "prompt_tokens": 24014,
+  "completion_tokens": 2405,
+  "total_tokens": 26419,
+  "cost_usd": 0.017239,
+  "latency_s": 33.168,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

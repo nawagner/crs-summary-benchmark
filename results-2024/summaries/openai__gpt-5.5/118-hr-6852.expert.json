@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "openai/gpt-5.5",
+  "summary": "The Holcombe Rucker Park National Commemorative Site Act, Pub. L. No. 118-235, designates Holcombe Rucker Park in Harlem, New York, as the “Holcombe Rucker Park National Commemorative Site.” Section 1 provides the short title and is codified as a note to 54 U.S.C. § 320101.\n\nSection 2(a) makes the federal commemorative designation. Section 2(b)(1) authorizes, but does not require, the Secretary of the Interior to enter into cooperative agreements with appropriate public or private entities, expressly including the Mayor of New York City or the Mayor’s designee, for interpretive and educational purposes related to the Commemorative Site. Authorized purposes include installing a plaque, interpretive exhibit, or other marker at the site, as appropriate, to memorialize Holcombe Rucker’s achievements and recognize Holcombe Rucker Park’s historic role in the development of basketball and many of its most talented players. Any such installation at the Commemorative Site is conditioned on the written consent of the site owner.\n\nSection 2(b)(2) provides that the Commemorative Site is not a unit of the National Park System. Section 2(b)(3) establishes limitations on the Act’s effect and the Secretary’s authority. The Act does not authorize the Secretary to interfere with any person’s private property rights or with any local zoning ordinance or land use plan of New York State or any political subdivision, including by prohibiting actions otherwise available to a property owner, including the owner of the Commemorative Site. The Act also does not affect administration of the Commemorative Site by New York City or New York State. Finally, it does not authorize the Secretary to acquire land or interests in land by condemnation or otherwise. The Act contains no appropriation, authorization of appropriations, sunset provision, or delayed effective date.",
+  "prompt_tokens": 856,
+  "completion_tokens": 390,
+  "total_tokens": 1246,
+  "cost_usd": 0.01598,
+  "latency_s": 6.198,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

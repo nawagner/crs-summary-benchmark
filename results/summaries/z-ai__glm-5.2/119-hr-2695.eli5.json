@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Communities of Recovery Reauthorization Act of 2025.\" It changes a law called the Public Health Service Act. The law gives money, called grants, to help build communities of recovery.\n\nRight now, the law says the government can spend $5 million each year for this from 2019 through 2023. This bill changes that amount. If this bill becomes a law, the government will be able to spend $17 million each year for five years, from 2026 through 2030.\n\nA \"fiscal year\" is the way the government counts its spending year, which starts in October and ends in September. A \"grant\" is money the government gives to groups to help them do good work.\n\nSo, the main thing this bill does is give more money—$17 million a year instead of $5 million—to help build communities of recovery for the years 2026 to 2030.",
+  "prompt_tokens": 471,
+  "completion_tokens": 1300,
+  "total_tokens": 1771,
+  "cost_usd": 0.002488,
+  "latency_s": 29.568,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

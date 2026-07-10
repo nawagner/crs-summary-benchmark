@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is a short law called a \"joint resolution.\" It cancels a rule made by the Federal Highway Administration. The rule was made on February 21, 2023. The rule allowed a \"waiver,\" or an exception, to \"Buy America Requirements.\" \"Buy America Requirements\" are rules that say things bought with government money must be made in the United States. The rule allowed an exception to these rules for electric vehicle chargers.\n\nIf this bill becomes law, the rule from February 21, 2023, will have \"no force or effect.\" This means the rule will be canceled and will no longer be used. The Senate passed this bill on November 8, 2023.",
+  "prompt_tokens": 458,
+  "completion_tokens": 1254,
+  "total_tokens": 1712,
+  "cost_usd": 0.002402,
+  "latency_s": 32.523,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

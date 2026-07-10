@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-3, exercises Congress's authority under the Congressional Review Act (chapter 8 of title 5, United States Code) to disapprove a final rule promulgated by an executive agency.\n\nThe resolution's sole operative provision states that Congress disapproves the rule submitted by the Bureau of Ocean Energy Management (BOEM) relating to \"Protection of Marine Archaeological Resources,\" published at 89 Fed. Reg. 71160 (September 3, 2024), and provides that \"such rule shall have no force or effect.\"\n\nThe mechanism is that of 5 U.S.C. § 801(b)(1), under which a rule shall not take effect (or continue in effect) if Congress enacts a joint resolution of disapproval. By operation of the Congressional Review Act, the disapproved rule is treated as though it had never taken effect. Additionally, under 5 U.S.C. § 801(b)(2), the agency is barred from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same as the disapproved rule, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution's enactment.\n\nThe resolution originated as S.J. Res. 11 in the 119th Congress. It was considered and passed by the Senate on February 25, 2025, and considered and passed by the House on March 6, 2025. It was approved (signed into law) on March 14, 2025.\n\nThe resolution contains no separate effective-date provision, no authorization of appropriations, and no amendment to any provision of the United States Code; its effect is confined to nullifying the identified BOEM rule and triggering the reissuance limitation attendant to Congressional Review Act disapprovals. The text specifies no conditions precedent, exceptions, or delegated implementing authority beyond the disapproval itself.",
+  "prompt_tokens": 793,
+  "completion_tokens": 613,
+  "total_tokens": 1406,
+  "cost_usd": 0.01929,
+  "latency_s": 9.341,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

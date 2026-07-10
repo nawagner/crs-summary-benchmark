@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "z-ai/glm-5.2",
+  "summary": "",
+  "prompt_tokens": 1240,
+  "completion_tokens": 0,
+  "total_tokens": 1240,
+  "cost_usd": 0.000677,
+  "latency_s": 44.266,
+  "ok": false,
+  "strategy": "single",
+  "level": "eli5"
+}

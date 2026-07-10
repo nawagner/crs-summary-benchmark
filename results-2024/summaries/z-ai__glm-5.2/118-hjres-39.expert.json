@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 39 is a joint resolution exercising Congress’s legislative authority to disapprove a final administrative rule issued by the Department of Commerce. The resolution's primary purpose is to nullify the rule titled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,\" published at 87 Fed. Reg. 56868. \n\nThe operative mechanism is contained within the single resolving clause, which provides that Congress disapproves the specified Department of Commerce rule and expressly declares that \"such rule shall have no force or effect.\" The resolution does not amend specific sections of the U.S. Code or explicitly cite a named act within its text; rather, it operates as a standalone legislative nullification of the identified administrative action. \n\nThe measure contains no material exceptions, conditions precedent, or express statutory deadlines. It does not include any authorizations of appropriations, direct spending, or revenue measures. The resolution does not specify a delayed effective date; by its terms, the nullification of the rule would take effect immediately upon enactment of the joint resolution. The text reflects the version passed by the House of Representatives on April 28, 2023, and received in the Senate on May 1, 2023, pending further legislative action.",
+  "prompt_tokens": 456,
+  "completion_tokens": 1757,
+  "total_tokens": 2213,
+  "cost_usd": 0.003264,
+  "latency_s": 32.663,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

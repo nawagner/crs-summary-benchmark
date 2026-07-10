@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Congenital Heart Futures Reauthorization Act of 2024.\" It became law on November 21, 2024.\n\nCongenital heart disease means a heart problem that some people are born with. This law keeps a program going that studies this disease, tracks how many people have it, and helps people learn more about it.\n\nThe law asks a government leader called the Secretary (the head of the Department of Health and Human Services) to write a report. The report is due within 2 years after the law starts. The report must tell:\n\n- What the government has done to teach people about heart disease.\n- What the government has done to train doctors and nurses about it.\n- How many doctors there are who treat grown-ups with this disease.\n\nAfter the report, within 1 more year, the Secretary must make a plan. The plan should help fill gaps in research, help train more doctors (since there may not be enough), and help groups work together and share what they learn. While making the plan, the Secretary will talk to patient groups, doctors, researchers, and other health agencies.\n\nThe law also keeps the program funded for the years 2025 through 2029, instead of the old years 2020 through 2024.",
+  "prompt_tokens": 1918,
+  "completion_tokens": 351,
+  "total_tokens": 2269,
+  "cost_usd": 0.018365,
+  "latency_s": 8.497,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5009",
+  "candidate": "openai__gpt-5.5",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Verified totals (O&M $294.464B, RDT&E $143.768B, Navy aircraft $16.176B, Army missiles $6.628B, CTR $209.858M) match the bill's funding tables."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Real-world context (PL 118-159, program names) is accurate and no fabricated claims were confirmed."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by stating the Act authorizes FY2025 defense appropriations and prescribes personnel policies."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes revisions to title 10 acquisition law and codification of new acquisition pathways."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes conditions like the 95% frigate design threshold, inventory restrictions, and Executive Schedule caps."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites multiple effective dates and sunsets (April 1 2025, Oct 1 2026, Dec 31 2028, Oct 1 2031)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Comprehensively covers funding, compensation, acquisition, space/cyber, milcon, DOE, and other divisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and factual throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized by topic and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but densely packed with substantive content and minimal padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Named bodies (Office of Expanded Competition, NNSA, DHS Northern Border Mission Center, USAID) are identified correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Spot-checked procurement/O&M/RDT&E and CTR figures are correct; other cited subtotals are consistent with the funding tables."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

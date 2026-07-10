@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law changes the rules for American Samoa. American Samoa is a United States territory. A territory is land that belongs to the U.S. but is not a state.\n\nThe law lets the people of American Samoa vote on changes to their own constitution. A constitution is the main set of rules for how a place is run. Before this law, an old rule stopped them from making these changes easily.\n\nNow, if a majority of the people vote for a change, it can happen. A majority means more than half. The United States Congress will not need to take extra action to approve it.\n\nThe President approved this law on January 4, 2025. It repeals, or cancels, the old rule that was in the way. This gives the people of American Samoa more control over their local rules.",
+  "prompt_tokens": 545,
+  "completion_tokens": 954,
+  "total_tokens": 1499,
+  "cost_usd": 0.001935,
+  "latency_s": 12.852,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

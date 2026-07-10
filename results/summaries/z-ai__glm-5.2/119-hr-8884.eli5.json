@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Removing Barriers to Work for Disabled Americans Act.\" It lets the government keep running test projects for the disability insurance program. Disability insurance is money the government pays to people who cannot work because of a disability.\n\nRight now, the power to start these test projects has expired. This bill would extend that power. The government could start new test projects until December 31, 2030. They could finish them until December 31, 2031. The changes would start on January 1, 2027.\n\nThe bill makes a few other changes to the test projects. It gives people 120 days to do something that used to take 90 days. It says the government must plan how it will measure if a test works. It also explains how to pay for the tests. The money for running the tests comes from one government fund. The money paid to the people in the tests comes from other government funds.\n\nFinally, the bill adds a new rule. If a person joins a test project, their total income cannot go down because of it.",
+  "prompt_tokens": 1153,
+  "completion_tokens": 824,
+  "total_tokens": 1977,
+  "cost_usd": 0.002044,
+  "latency_s": 21.985,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

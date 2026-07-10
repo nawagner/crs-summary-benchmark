@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 119-47, exercises Congress's disapproval authority under the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801 et seq.), to nullify an agency action of the Bureau of Land Management (BLM).\n\nThe resolution's sole operative provision disapproves the BLM action designated \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision,\" issued April 25, 2022, as a record of decision. Pursuant to the standard CRA mechanism under 5 U.S.C. § 801(b)(1), the resolution provides that the disapproved rule \"shall have no force or effect.\" By operation of 5 U.S.C. § 801(b)(2), a rule disapproved by enacted joint resolution may not be reissued in substantially the same form, nor may a new rule that is substantially the same be issued, absent subsequent statutory authorization.\n\nA notable feature of this resolution is its treatment of the underlying agency action as a \"rule\" subject to CRA review. The resolution expressly references a Government Accountability Office letter of opinion dated July 24, 2025, printed in the Congressional Record at pages S4768–S4770 (July 28, 2025), which concluded that the record of decision constitutes a \"rule\" within the meaning of the CRA. This GAO determination is the predicate for CRA applicability, as records of decision are not ordinarily processed as rules submitted under 5 U.S.C. § 801(a)(1); the GAO opinion effectively established the reviewability threshold and, under established CRA practice, can reset the periods for congressional action.\n\nThe resolution contains no amendments to the United States Code, no authorizations of appropriations, no appropriations, and no sunset provisions. Its legal effect is limited to the invalidation of the identified record of decision and the attendant statutory bar on substantially similar future action.\n\nThe measure was enacted through the CRA's expedited procedures. Legislative history reflects that S.J. Res. 80 was considered and passed by the Senate on October 30, 2025, and considered and passed by the House on November 18, 2025. It was approved December 5, 2025. The effective date is the date of enactment; the resolution takes effect upon approval, rendering the disapproved record of decision without force or effect as of that date.",
+  "prompt_tokens": 901,
+  "completion_tokens": 780,
+  "total_tokens": 1681,
+  "cost_usd": 0.024005,
+  "latency_s": 11.329,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law allows the federal government to transfer certain land around two Nebraska lakes—Swanson Reservoir and Hugh Butler Reservoir—to local counties. The land includes spots for cabins, a lodge, and public services, totaling about 77 acres. Hitchcock County and Frontier County can receive the land if they agree on a deal within three years.\n\nThe counties must pay the land’s fair market value, which means a fair price set by an expert. They also pay for surveys and paperwork. Once they own the land, they must use it for recreation, public access, wildlife habitat, or keeping its natural character. They cannot split the land into smaller pieces or sell it, except to other public groups like a city or a natural resources district, and only if the land stays open to everyone.\n\nThe transfer keeps existing rights in place, such as permits for docks or cabins. The government keeps the right to flood the land when needed to run the reservoirs. No new permanent buildings can be built below certain heights near the water—2,785 feet at Swanson and 2,628 feet at Hugh Butler. The counties agree not to blame the United States for flood damage. If no deal is reached in three years, the government will continue managing the land as before.",
+  "prompt_tokens": 4442,
+  "completion_tokens": 1501,
+  "total_tokens": 5943,
+  "cost_usd": 0.003238,
+  "latency_s": 28.054,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

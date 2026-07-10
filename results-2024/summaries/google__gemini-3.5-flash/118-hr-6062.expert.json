@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 118-232 (H.R. 6062), enacted on January 4, 2025, removes federal statutory restrictions on the amendment process of the Constitution of American Samoa, restoring the authority to approve constitutional amendments to the voters of American Samoa via majority vote without requiring subsequent congressional approval. \n\nTo achieve this purpose, Section 1 of the Act expressly repeals Section 12 of Public Law 98-213 (codified at 48 U.S.C. § 1662a). Prior to its repeal, 48 U.S.C. § 1662a prohibited any amendment or modification of the Constitution of American Samoa, as approved by the Secretary of the Interior, from taking effect unless and until it was approved by an Act of Congress. \n\nBy repealing this statutory restriction, the Act restores the constitutional amendment process to the framework established under the delegation of federal territorial administration to the President, and subsequently to the Secretary of the Interior pursuant to Executive Order 10264 (June 29, 1951). Under this framework, the Constitution of American Samoa may be amended through local democratic acts of self-determination based on majority rule, subject to the plenary authority of Congress under the Territorial Clause of the United States Constitution (Article IV, Section 3, Clause 2). \n\nThe Act contains no appropriations, authorizations of appropriations, conditions precedent, or delayed effective dates; the repeal of 48 U.S.C. § 1662a became effective immediately upon the bill's enactment on January 4, 2025.",
+  "prompt_tokens": 646,
+  "completion_tokens": 351,
+  "total_tokens": 997,
+  "cost_usd": 0.004128,
+  "latency_s": 2.734,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

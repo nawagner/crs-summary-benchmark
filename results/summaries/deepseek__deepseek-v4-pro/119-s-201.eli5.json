@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-201",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The ACES Act of 2025 tells the Department of Veterans Affairs (VA) to set up a study with a science group called the National Academies. The study will look at cancer in people who served in the military as aircrew members on fixed-wing airplanes. Fixed-wing airplanes are planes with wings that do not spin, like jets.\n\nThe study must find out what these crew members were exposed to during their jobs, such as chemicals. It must check if those exposures are linked to higher chances of getting certain cancers or dying from them. The cancers listed include brain, colon, rectal, kidney, lung, melanoma skin, pancreatic, prostate, testicular, thyroid, and bladder cancers, plus non-Hodgkin lymphoma.\n\nTo do this, the researchers will use data from the VA, the Defense Department, military services, and a national death record center.\n\nThe bill sets deadlines. The VA Secretary has 30 days after the law passes to start making an agreement with the National Academies. The agreement must be finished within 60 days after talks begin. If the Secretary misses the deadline, he must send a report to Congress explaining why and when he will finish. He must also give Congress updates every 60 days until the agreement is done. After the study, the National Academies will send a report with the results to the VA Secretary and Congress.",
+  "prompt_tokens": 1300,
+  "completion_tokens": 712,
+  "total_tokens": 2012,
+  "cost_usd": 0.001185,
+  "latency_s": 17.168,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

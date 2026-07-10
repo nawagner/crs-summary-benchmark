@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "H.J. Res. 39 is a joint resolution of disapproval invoking the expedited disapproval mechanism of the Congressional Review Act (CRA), 5 U.S.C. §§ 801–808. Its operative provision states that Congress disapproves the rule submitted by the Department of Commerce entitled \"Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414,\" published at 87 Fed. Reg. 56868, and provides that \"such rule shall have no force or effect.\"\n\nThe primary purpose of the resolution is to nullify the identified Commerce rule pursuant to the authority conferred on Congress under 5 U.S.C. § 802. The targeted rule concerns the administration of duties, estimated duties, and suspension of liquidation implementing Presidential Proclamation 10414, which addressed the treatment of certain solar cell and module imports (the two-year tariff moratorium relating to imports from specified Southeast Asian countries). The resolution does not amend the text of the rule or any provision of the U.S. Code; rather, it operates through the CRA's disapproval framework to render the rule void.\n\nUnder the CRA's substantive legal consequences, enactment of the resolution would give the rule no force or effect and would preclude the agency, by operation of 5 U.S.C. § 801(b)(2), from reissuing the rule in substantially the same form or issuing a new rule that is substantially the same, absent subsequent statutory authorization. The resolution contains no separate effective-date provision; the CRA's operative effect attaches upon enactment.\n\nThe document reflects the procedural posture of a measure that passed the House of Representatives on April 28, 2023, and was received in the Senate and ordered to be received on May 1, 2023. As a joint resolution, it would require passage by both chambers and presentment to the President under Article I, Section 7, and thus remains subject to potential presidential veto and the associated two-thirds override requirement.\n\nThe resolution contains no authorization of appropriations, makes no appropriation, imposes no reporting requirements, and creates no new administrative authority. Its legal effect is confined entirely to disapproving and voiding the specified agency rule and triggering the CRA's reissuance bar.",
+  "prompt_tokens": 793,
+  "completion_tokens": 747,
+  "total_tokens": 1540,
+  "cost_usd": 0.02264,
+  "latency_s": 11.519,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

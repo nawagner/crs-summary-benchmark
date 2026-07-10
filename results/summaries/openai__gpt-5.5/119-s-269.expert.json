@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "openai/gpt-5.5",
+  "summary": "The Ending Improper Payments to Deceased People Act amends section 205(r) of the Social Security Act, 42 U.S.C. 405(r), to expand and condition the Social Security Administration’s coordination with the Do Not Pay working system regarding death information, for the purpose of preventing and recovering improper Federal payments associated with deceased individuals.\n\nSection 1 provides the short title.\n\nSection 2(a) replaces section 205(r)(11), as amended by section 801(a)(7) of title VIII of division FF of the Consolidated Appropriations Act, 2021, with a new requirement that the Commissioner of Social Security, “to the extent feasible,” provide information furnished to the Commissioner under section 205(r)(1) to the agency operating the Do Not Pay working system described in 31 U.S.C. 3354(c). The information may be provided only for the authorized uses of the Do Not Pay working system, to help prevent improper payments of, and support recovery of improperly paid, benefits or other payments, through a cooperative arrangement with that agency. The arrangement must satisfy the requirements of section 205(r)(3)(A) and (B). While such data is being provided, the Commissioner and the Do Not Pay operating agency must enter into an agreement, based on an agreed methodology, covering the proportional share of State death data costs; the parties may periodically review that agreement. Section 2(a) also adds a new section 205(r)(12) prohibiting the Commissioner from recording a death to a record that may be provided under section 205(r) unless the Commissioner has found clear and convincing evidence supporting that the individual should be presumed deceased.\n\nSection 2(b) amends section 205(r)(7), as added by section 801(a)(4) of the Consolidated Appropriations Act, 2021, to require the Commissioner, when addressing an erroneous identification of an individual as deceased, to notify any agency that has a cooperative arrangement with the Commissioner under section 205(r)(3) or the new section 205(r)(11) of the error.\n\nSection 2(c) provides that the amendments made by section 2 take effect on December 27, 2026. The Act does not make an appropriation or expressly authorize appropriations.",
+  "prompt_tokens": 1081,
+  "completion_tokens": 861,
+  "total_tokens": 1942,
+  "cost_usd": 0.031235,
+  "latency_s": 15.61,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

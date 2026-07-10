@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Public Law 118-232 eliminates a prior congressional limitation on the amendment of the Constitution of American Samoa by repealing Section 12 of Public Law 98-213 (codified at 48 U.S.C. 1662a). The operative mechanism is a direct statutory repeal.\n\nThe repealed section had provided that no amendment to or modification of the Constitution of American Samoa could take effect without the express approval of the United States Congress. By striking this provision in its entirety, the Act removes the requirement for congressional approval of amendments to the territorial constitution, thereby restoring the authority of the people of American Samoa to approve such amendments through an act of self-determination by majority rule.\n\nThe Act does not alter the broader federal framework governing the territory. The authority for the administration of federal territorial law, delegated to the President and by Executive Order 10264 to the Secretary of the Interior, under which the Constitution of American Samoa was originally approved, remains in place. The Act explicitly acknowledges that Congress retains its plenary authority over the territories under the Territorial Clause of the United States Constitution (article IV, section 3, clause 2).\n\nThe bill contains no new authorizations, appropriations, conditions precedent, exceptions, or sunset provisions. The repeal took effect upon the date of enactment, January 4, 2025.",
+  "prompt_tokens": 565,
+  "completion_tokens": 459,
+  "total_tokens": 1024,
+  "cost_usd": 0.000645,
+  "latency_s": 10.871,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

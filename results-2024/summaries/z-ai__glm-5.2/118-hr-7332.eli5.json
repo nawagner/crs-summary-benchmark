@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law gives some federal land (land owned by the national government) to the state of Utah. Utah will add this land to three state parks: Antelope Island, Wasatch Mountain, and Fremont Indian State Park. The land will no longer belong to the United States government. It will belong to Utah.\n\nThe government must give the land to Utah within 180 days of December 23, 2024. Utah gets the land for free, but Utah must pay for the costs of surveys and paperwork.\n\nFor the Fremont Indian park, the government keeps the right to use roads and trails on the land. The government also gives Utah specific water rights for a campground and a historic site. Utah must pay for any survey costs for this park.\n\nUtah must use the land for public purposes, like parks, camping, recreation, or grazing farm animals. If Utah stops using the land for these public purposes, the federal government can take the land back.",
+  "prompt_tokens": 1688,
+  "completion_tokens": 1765,
+  "total_tokens": 3453,
+  "cost_usd": 0.00395,
+  "latency_s": 28.712,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

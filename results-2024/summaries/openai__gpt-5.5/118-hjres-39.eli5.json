@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-39",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution says Congress disapproves a rule from the Department of Commerce. A rule is a detailed instruction made by a government agency.\n\nThe rule is called “Procedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414.” It deals with pausing the final step for certain import tax decisions. “Duties” means taxes on goods brought into the United States.\n\nIf this resolution becomes law, that Commerce Department rule would have no legal power. It would not be used or enforced.\n\nThe rule was listed in the Federal Register, which is where the government publishes official rules, at 87 Fed. Reg. 56868. The House of Representatives passed this resolution on April 28, 2023. The Senate received it on May 1, 2023. The resolution does not create a new rule or set new tax amounts.",
+  "prompt_tokens": 414,
+  "completion_tokens": 602,
+  "total_tokens": 1016,
+  "cost_usd": 0.02013,
+  "latency_s": 12.67,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

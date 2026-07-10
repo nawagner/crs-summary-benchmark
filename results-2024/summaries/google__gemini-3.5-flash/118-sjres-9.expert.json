@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-9",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 9 is a joint resolution that provides for congressional disapproval of a federal agency rule pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe primary purpose and operative mechanism of the joint resolution is the invocation of 5 U.S.C. § 801(b) to invalidate a specific agency action. Specifically, the resolution declares that Congress disapproves the rule submitted by the United States Fish and Wildlife Service (USFWS) titled \"Endangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Section 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment\" (87 Fed. Reg. 72674 (November 25, 2022)). \n\nUnder the operative terms of the resolution, the specified USFWS rule \"shall have no force or effect.\" Pursuant to the governing statutory framework of the CRA, enactment of this joint resolution would not only render the rule null and void *ab initio*, but would also trigger the statutory prohibition under 5 U.S.C. § 801(b)(2), preventing the USFWS from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the joint resolution. The text contains no exceptions, conditions precedent, authorizations of appropriations, or delayed effective dates.",
+  "prompt_tokens": 633,
+  "completion_tokens": 319,
+  "total_tokens": 952,
+  "cost_usd": 0.003821,
+  "latency_s": 2.417,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

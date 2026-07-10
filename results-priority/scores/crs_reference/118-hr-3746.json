@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-3746",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Section-by-section account fully matches the enacted text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; program identifications are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opening sentence states the Act raises the debt limit, sets spending limits, rescinds funds, and expands work requirements."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Details amendments to BBEDCA, Social Security Act, Food and Nutrition Act, NEPA, and title 31."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes CR snapback, PAYGO exemptions/waivers, and SNAP/ABAWD exemptions in detail."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Provides student-loan timing, TANF 2024/2025, SNAP 90-day/Oct 1 2030 dates, and debt window."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Exhaustively covers every division and title."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout, attributing estimates to CBO without advocacy."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Structured and consistent section-by-section walkthrough."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but each section entry is substantive, not padded or repetitive."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "All agencies, programs, and statutes identified correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Age thresholds (51/53/55), 12%-to-8% cap, and $35 TANF figure are all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

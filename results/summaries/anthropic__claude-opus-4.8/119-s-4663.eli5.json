@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4663",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Florida Freeze Disaster Assistance Act.\" It is about helping farmers who lost money because of cold weather.\n\nThe bill sets aside $3.5 billion in government money. This money would go to the Secretary of Agriculture. The Secretary is the leader who is in charge of farming for the country.\n\nThe money would help pay farmers back for crops that got hurt or died because of a freeze or very cold weather. This includes fruit, trees, bushes, and vines. It also helps farmers who could not even plant their crops, and farmers who lost crops that grow over many years.\n\nBut there is a rule. The money can only help places that were named as disaster areas for cold weather on March 4, 2026. A disaster area is a place the government says was badly hurt by bad weather.\n\nTo get the money, a state's farming office has to ask for it first.\n\nThe Secretary must also write reports. The first report is due within 120 days after the bill becomes law. After that, the Secretary must keep sending reports every three months until all the money is used up.\n\nThe money would be ready starting in the budget year that ends on September 30, 2027. It can stay available until it is all spent.",
+  "prompt_tokens": 1280,
+  "completion_tokens": 363,
+  "total_tokens": 1643,
+  "cost_usd": 0.015475,
+  "latency_s": 7.301,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

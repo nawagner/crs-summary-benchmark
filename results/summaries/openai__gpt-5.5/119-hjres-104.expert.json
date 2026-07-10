@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-48 is a joint resolution of congressional disapproval enacted under chapter 8 of title 5, United States Code, the Congressional Review Act. Its sole operative purpose is to disapprove the Bureau of Land Management rule relating to the “Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment” and to render that rule without legal force or effect.\n\nThe resolution identifies the disapproved agency action as the record of decision and resource management plan amendment issued by the Bureau of Land Management on November 20, 2024, relating to the Miles City Field Office. It further references a June 25, 2025 letter of opinion from the Government Accountability Office, printed in the Congressional Record on June 26, 2025, at pages S3552–S3554, concluding that the record of decision and resource management plan amendment is a “rule” for purposes of the Congressional Review Act.\n\nThe operative clause provides that Congress disapproves the specified rule and that “such rule shall have no force or effect.” The public law does not amend any provision of the United States Code, does not establish any replacement land management direction, does not create new agency authority, and contains no express exceptions, transition rules, deadlines, authorizations of appropriations, or appropriations. The disapproval took effect upon approval of the joint resolution on December 11, 2025.",
+  "prompt_tokens": 553,
+  "completion_tokens": 619,
+  "total_tokens": 1172,
+  "cost_usd": 0.021335,
+  "latency_s": 13.723,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-11",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law cancels a rule made by a government office called the Bureau of Ocean Energy Management. This office watches over the ocean and its resources.\n\nThe rule was called \"Protection of Marine Archaeological Resources.\" Marine archaeological resources are old and important things found under the ocean, like shipwrecks or ancient objects. The office had made a rule about protecting these things back in September 2024.\n\nCongress is the part of the government that makes laws. Congress used a special power to say \"no\" to this rule. This law says the rule \"shall have no force or effect.\" That means the rule does not count anymore and no one has to follow it.\n\nThe Senate passed this on February 25, 2025. The House passed it on March 6, 2025. It became law on March 14, 2025.\n\nSo, if you were an ocean worker, you would no longer have to follow that particular rule about protecting old things under the sea.",
+  "prompt_tokens": 702,
+  "completion_tokens": 274,
+  "total_tokens": 976,
+  "cost_usd": 0.01036,
+  "latency_s": 6.86,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

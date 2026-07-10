@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Jamul Indian Village Land Transfer Act.\" It is about land for a Native American tribe in California called the Jamul Indian Village.\n\nThe law says the United States government will hold some land \"in trust\" for this tribe. Holding land in trust means the government owns the land officially, but it is kept for the tribe to use and benefit from.\n\nThe land is in San Diego County, California. In total, it is about 172 acres. That is like a big piece of land with several parts. The tribe already owns these parts, and this law makes them part of the tribe's land held in trust.\n\nThe law also says one more piece of land, about 1.1 acres, can be added later. This will happen only if that land is given to the United States for the tribe.\n\nOnce the land is held in trust, it becomes part of the tribe's reservation. A reservation is land set aside for a Native American tribe. The land will follow the normal rules for tribal trust land.\n\nThere is one important rule: this land cannot be used for gaming. Gaming means gambling activities, like casinos. The law clearly says no gambling is allowed on this land.\n\nThe law was approved on December 23, 2024.",
+  "prompt_tokens": 1790,
+  "completion_tokens": 357,
+  "total_tokens": 2147,
+  "cost_usd": 0.017875,
+  "latency_s": 6.258,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

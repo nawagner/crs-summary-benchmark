@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S. 4828, the \"Declaration of Independence Reaffirmation Act of 2026,\" is a bill introduced in the 119th Congress that seeks to formally reaffirm and re-adopt the Declaration of Independence as an Organic Law of the United States. The bill's primary purpose is symbolic and declaratory, establishing a legislative reaffirmation of the foundational principles of American sovereignty, natural rights, equal citizenship, and government by consent in commemoration of the 250th anniversary of American independence. \n\nThe bill does not amend or repeal any provisions of the United States Code, nor does it contain any authorizations of appropriations, sunsets, or administrative mandates. Instead, the operative mechanisms of the bill are contained in four sections:\n\n*   **Section 1** establishes the short title as the \"Declaration of Independence Reaffirmation Act of 2026.\"\n*   **Section 2** sets forth ten congressional findings. These findings outline the historical context of the Declaration of Independence, its status among the Organic Laws of the United States, the historical precedent of the Northwest Ordinance, and the relationship between the Declaration of Independence and the United States Constitution in establishing a sovereign political order.\n*   **Section 3** contains the primary operative declaration, stating that Congress \"reaffirms and re-adopts\" the Declaration of Independence as an Organic Law of the United States and as the nation's enduring charter of sovereignty, natural rights, equal citizenship, and consent-based governance.\n*   **Section 4** sets forth the complete, unabridged historical text of the July 4, 1776, Declaration of Independence within the body of the statute.\n\nThe bill contains no effective dates, conditions precedent, or exceptions, meaning it would take effect immediately upon enactment under standard rules of statutory construction.",
+  "prompt_tokens": 2870,
+  "completion_tokens": 376,
+  "total_tokens": 3246,
+  "cost_usd": 0.007689,
+  "latency_s": 2.913,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

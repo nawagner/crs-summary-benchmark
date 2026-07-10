@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the \"BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024.\" Alzheimer's disease is an illness that makes people lose their memory and have trouble thinking. The government has a program to teach people about this disease and similar illnesses. These illnesses are called \"dementias.\"\n\nThe main thing this law does is keep that program running for more years. It also gives the program money to do its work. The law says the program will get $33,000,000 each year. This money is for the years 2025 through 2029. A \"fiscal year\" is the government's financial year, which runs from October to September.\n\nBefore this law, the program might have stopped getting money. Now, the program has money to keep teaching people about Alzheimer's disease until 2029. The President approved this law on December 11, 2024.",
+  "prompt_tokens": 556,
+  "completion_tokens": 793,
+  "total_tokens": 1349,
+  "cost_usd": 0.001664,
+  "latency_s": 4.598,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

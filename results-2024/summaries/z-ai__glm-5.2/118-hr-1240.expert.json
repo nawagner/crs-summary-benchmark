@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-68, cited as the \"Winnebago Land Transfer Act of 2023,\" transfers administrative jurisdiction of certain Federal lands from the Army Corps of Engineers to the Bureau of Indian Affairs to be held in trust for the Winnebago Tribe of Nebraska. \n\nSection 2(a) provides the operative mechanism, declaring that, subject to all valid existing rights, all right, title, and interest of the United States in and to the Federal lands described in subsection (b) are part of the Winnebago Reservation created by the 1865 Treaty between the United States and the Winnebago Tribe. The lands shall be held in trust by the United States for the benefit of the Winnebago Tribe of Nebraska, subject to the same terms and conditions as those lands described in the Treaty with the Winnebago Tribe, 1865 (14 Stat. 671).\n\nSection 2(b) identifies the Federal lands subject to the transfer through specific legal descriptions tied to prior federal court judgments: Tract No. 119 (filed in the U.S. District Court for the Northern District of Iowa, Civil Case No. 70-C-3015-W), Tract No. 210 (also filed in the same Iowa case), and Tract No. 113 (filed in the U.S. District Court for the District of Nebraska, Civ. No. 03498).\n\nSection 2(c) establishes a material condition and prohibition on land use, providing that Class II and Class III gaming under the Indian Gaming Regulatory Act (25 U.S.C. 2701 et seq.) shall not be allowed at any time on the land taken into trust under subsection (a). \n\nThe Act was approved on July 12, 2024, which serves as its effective date. The Act contains no express appropriations or authorizations of funds.",
+  "prompt_tokens": 1002,
+  "completion_tokens": 1190,
+  "total_tokens": 2192,
+  "cost_usd": 0.002589,
+  "latency_s": 5.916,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

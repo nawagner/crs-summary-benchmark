@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "openai/gpt-5.5",
+  "summary": "This law is about security in some federal buildings. Federal buildings are places where the U.S. government works.\n\nThe Federal Protective Service, or FPS, helps protect these buildings. When FPS gives a security idea to a Facility Security Committee, the committee must answer within 90 days. A Facility Security Committee is a group of people from the federal offices in one building who make building security choices.\n\nThe committee must say if it will accept or reject the idea. It must also explain the costs and money effects. If it rejects the idea, it must explain why it is okay to accept the risk.\n\nThe Secretary of Homeland Security must create a way to track these ideas and answers. The Secretary must send Congress a report each year. The first report is due within 270 days after December 17, 2024. The report must list the security ideas, how many were accepted or rejected, late answers, reasons for rejections, costs, risk steps, and trends.\n\nWithin 180 days, the Secretary must also send Congress a full report on surveillance technology that FPS recommends and how it would be used.\n\nThe law gives no extra money for this work. It ends 5 years after December 17, 2024. It applies only to certain buildings protected by FPS.",
+  "prompt_tokens": 1548,
+  "completion_tokens": 331,
+  "total_tokens": 1879,
+  "cost_usd": 0.01767,
+  "latency_s": 5.861,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

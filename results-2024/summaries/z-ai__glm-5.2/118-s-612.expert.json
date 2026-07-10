@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-94, cited as the \"Lake Tahoe Restoration Reauthorization Act,\" reauthorizes the Lake Tahoe Restoration Act (Public Law 106-506). The Act's primary operative mechanism consists of two targeted amendments to the underlying statute that extend the duration of cooperative authorities and the corresponding authorization of appropriations.\n\nSection 2(a) amends section 4(f) of the Lake Tahoe Restoration Act. It strikes the phrase \"4 fiscal years following the date of enactment of the Water Resources Development Act of 2016\" and inserts in lieu thereof the phrase \"period beginning on the date of enactment of this subsection and ending on the date described in section 10(a).\" This amendment extends the temporal scope of the cooperative authorities conferred under section 4(f), tying their expiration to the authorization of appropriations endpoint established in section 10(a).\n\nSection 2(b) amends section 10(a) of the Lake Tahoe Restoration Act. It strikes \"for a period\" and all subsequent text through the terminal period and inserts \", to remain available until September 30, 2034.\" This modification extends the authorization of appropriations, specifying that funds authorized under the Act will remain available until September 30, 2034. This constitutes an extension of an authorization of appropriations rather than an actual appropriation of funds.\n\nThe Act was approved on October 1, 2024. The amendments made by section 2(a) take effect on the date of enactment, establishing the new period of authority from October 1, 2024, through September 30, 2034. The legislation contains no additional provisions, material exceptions, or separate effective dates beyond those specified in the text.",
+  "prompt_tokens": 626,
+  "completion_tokens": 921,
+  "total_tokens": 1547,
+  "cost_usd": 0.001922,
+  "latency_s": 16.038,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Introduced as S. 2532 in the 119th Congress, the \"Safe Response Act\" amends Section 546 of the Public Health Service Act (42 U.S.C. 290ee-1) to reauthorize, expand the scope of, and increase the funding authorization for the federal first responder training program. \n\nThe bill’s primary operative mechanism is the modification of statutory language to broaden the types of drug overdoses addressed by the program and the categories of permissible overdose reversal drugs, while extending the program's fiscal authorization. Specifically, the bill amends subsections (a), (c), (d), and (f) of Section 546 by striking the term \"opioid\" where it modifies drug reversal devices or overdoses, and by replacing the phrase \"approved or cleared\" with \"approved, cleared, or otherwise legally marketed\" each place it appears. This change expands the program's scope to encompass any legally marketed overdose reversal drug or device, rather than limiting it to Food and Drug Administration (FDA) approved or cleared opioid-specific antagonists.\n\nAdditionally, the bill amends the program's specific training and distribution requirements under subsection (f). In paragraph (1), it removes the word \"opioid.\" In paragraph (2), it strikes \"opioid and heroin\" and \"opioid overdose,\" inserting \"opioid, heroin, and other drug\" and \"overdose,\" respectively, thereby broadening the training focus to encompass non-opioid drug overdoses. In paragraph (3), it strikes \"opioid and heroin\" to conform the evaluation and dissemination requirements to this broader scope. \n\nThe bill also makes a technical amendment in subsection (a) to capitalize \"Tribes and Tribal.\"\n\nFinally, the bill amends the authorization of appropriations in subsection (h). It strikes the prior authorization of $36,000,000 for each of fiscal years 2019 through 2023, and inserts a new authorization of $57,000,000 for each of fiscal years 2026 through 2030. The bill does not appropriate funds directly, maintaining the distinction between authorization and appropriation. No effective dates or transition provisions are specified.",
+  "prompt_tokens": 780,
+  "completion_tokens": 469,
+  "total_tokens": 1249,
+  "cost_usd": 0.005391,
+  "latency_s": 3.658,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

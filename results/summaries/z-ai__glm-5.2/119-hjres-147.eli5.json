@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill ends a national emergency that the President started on July 30, 2025. The President used this emergency to put duties, which are special taxes, on items brought into the United States from Brazil. \n\nIf this bill becomes a law, that national emergency will be terminated. This means the emergency rules the President made to tax goods from Brazil would no longer be in effect. \n\nMembers of the House of Representatives introduced this bill on February 2, 2026. The bill uses a law called the National Emergencies Act. This law gives Congress the power to vote to end a national emergency that the President has declared.",
+  "prompt_tokens": 442,
+  "completion_tokens": 944,
+  "total_tokens": 1386,
+  "cost_usd": 0.001861,
+  "latency_s": 24.441,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

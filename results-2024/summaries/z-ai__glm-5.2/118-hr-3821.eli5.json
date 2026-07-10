@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Firefighter Cancer Registry Reauthorization Act of 2023. It keeps a government program running. This program collects information to study cancer in firefighters. A \"registry\" is a list or database where information is kept.\n\nThe law changes how much money the program gets. Before, the program got $2,500,000 each year from 2018 through 2022. Now, it will get $5,500,000 each year. This money will be given for each year from 2024 through 2028.\n\nIf this law is followed, the program will have more money to keep tracking firefighter cancer for five more years. The President approved this law on December 12, 2024.",
+  "prompt_tokens": 543,
+  "completion_tokens": 913,
+  "total_tokens": 1456,
+  "cost_usd": 0.001863,
+  "latency_s": 12.729,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

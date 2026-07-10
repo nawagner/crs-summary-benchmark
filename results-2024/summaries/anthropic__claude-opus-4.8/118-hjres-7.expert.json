@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution, enacted as Public Law 118-3 (H.J. Res. 7, 118th Congress), terminates the national emergency concerning the COVID-19 pandemic that was declared by the President on March 13, 2020, in Proclamation 9994 (85 Fed. Reg. 15337).\n\nThe operative mechanism is the congressional termination authority under section 202 of the National Emergencies Act, codified at 50 U.S.C. 1622. That provision permits Congress to terminate a declared national emergency by enacted joint resolution. The resolution invokes this authority to effect the termination of the specified emergency by operation of law upon approval.\n\nThe resolution contains a single operative clause and does not amend, repeal, or add any provision of the U.S. Code; it operates as a freestanding termination measure. It carries a statutory note reference to 50 U.S.C. 1621 (the provision authorizing presidential declaration of national emergencies), reflecting its relationship to the National Emergencies Act framework.\n\nThe resolution provides no separate effective date; it takes effect upon approval. It was approved April 10, 2023. The measure includes no appropriations, no authorizations of appropriations, no sunset provisions, no exceptions or conditions precedent, and no delegated rulemaking or implementing authority. Its legal effect is limited to terminating the identified national emergency declared under Proclamation 9994; it does not by its terms address other emergency declarations related to COVID-19 (including any declared under separate statutory authorities).\n\nLegislative history: the House considered and passed the resolution on February 1, 2023, and the Senate considered and passed it on March 29, 2023 (Cong. Rec., Vol. 169 (2023)).",
+  "prompt_tokens": 743,
+  "completion_tokens": 565,
+  "total_tokens": 1308,
+  "cost_usd": 0.01784,
+  "latency_s": 9.031,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

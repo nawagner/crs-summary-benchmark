@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4367",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "$2.104B barriers, over $2.1B rescission, border-crossing-fee ban, Canada drug import, marriage religious-liberty provision all verified."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; Sept 2021 guidelines context accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens identifying FY2024 DHS appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes rescissions of prior barrier appropriations and blocked rules."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes abortion exceptions (life/rape/incest) and barrier repair carve-out."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes funds available through Sep 30 2024, some longer as specified."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers funding plus the major policy riders and restrictions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral tone."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear, logically ordered paragraphs."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Substantive without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and officials correctly named."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$2.104B, over $2.1B, 41,500, $1, Sep 30 2024 all correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

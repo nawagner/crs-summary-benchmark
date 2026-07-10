@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This resolution is Congress saying it does not agree with a recent government rule. The rule was made by the Federal Highway Administration, the agency that helps build and fix highways. The rule would have created a waiver, or an exception, to \"Buy America\" rules for electric vehicle chargers. Buy America rules say that when the government pays for certain projects, the materials and products must be made in the United States. The waiver would have allowed chargers to be bought even if they were not made in America.\n\nThe rule was published on February 21, 2023. This resolution says Congress disapproves, or rejects, that rule. If the resolution passes both the Senate and the House of Representatives and is signed by the President, the rule will have no force or effect. That means the waiver would be canceled, and the Buy America requirements would stay in place for electric vehicle chargers. The Senate passed this resolution on November 8, 2023.",
+  "prompt_tokens": 454,
+  "completion_tokens": 819,
+  "total_tokens": 1273,
+  "cost_usd": 0.00091,
+  "latency_s": 21.832,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the \"Royalty Resiliency Act.\" It was approved on September 20, 2024. It changes how the United States government handles payments for oil and gas taken from public lands. \n\nWhen companies drill for oil and gas, they must pay a share of their money to the government. This payment is called a royalty. Sometimes, different pieces of land are grouped together. The government has to decide how to share the oil, gas, and money among these lands. \n\nUnder this law, a government leader called the Secretary must make this decision within 120 days after a company asks for it. While waiting for the decision, the company must pay royalties based on their own proposed plan. \n\nOnce the Secretary makes the final decision, the company has three months to fix their payments if they paid the wrong amount. If the company paid on time according to their plan, the government will not charge them extra interest fees during this waiting time. \n\nThis new law does not apply to any lands that belong to Native Americans.",
+  "prompt_tokens": 886,
+  "completion_tokens": 221,
+  "total_tokens": 1107,
+  "cost_usd": 0.003318,
+  "latency_s": 2.461,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

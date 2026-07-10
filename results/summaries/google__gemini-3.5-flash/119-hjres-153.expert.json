@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 153, introduced in the 119th Congress, is a joint resolution directing the President to remove United States Armed Forces from unauthorized hostilities within or against the Republic of Cuba. The resolution’s primary operative mechanism is a statutory directive to the President, enacted pursuant to section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a), and in accordance with the expedited legislative procedures set forth in section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 of the resolution sets forth congressional findings. Specifically, paragraph (4) establishes a statutory characterization that the use of force by the United States Armed Forces within or against Cuba—explicitly including the deployment of the United States Coast Guard or other Armed Forces components to conduct a blockade or quarantine of Cuba—constitutes the introduction of United States Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)). The findings further note that Congress has neither declared war nor enacted a specific statutory authorization for the use of military force within or against Cuba.\n\nSection 2(a) contains the mandate directing the President to remove the United States Armed Forces from hostilities within or against Cuba. This removal directive is subject to a condition precedent: it applies unless and until such hostilities are explicitly authorized by a declaration of war or a specific authorization for the use of military force. \n\nSection 2(b) establishes a rule of construction specifying that the removal mandate shall not be construed to prevent the United States from defending itself from an armed attack, defending itself from the threat of an imminent armed attack, or conducting the lawful execution of counternarcotics operations. The resolution contains no appropriations, authorizations of appropriations, or explicit effective dates, relying instead on standard enactment timelines.",
+  "prompt_tokens": 1020,
+  "completion_tokens": 429,
+  "total_tokens": 1449,
+  "cost_usd": 0.005391,
+  "latency_s": 3.236,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

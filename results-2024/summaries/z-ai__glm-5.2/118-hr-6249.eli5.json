@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the \"Think Differently About Emergencies Act.\" It was approved on November 25, 2024. It asks the government to study how it helps people with disabilities and their families after big disasters.\n\nThe Federal Emergency Management Agency, or FEMA, is the government group that helps people after disasters. Within 120 days (about four months) of this law, FEMA must write a report for Congress. Congress is the part of the government that makes laws. The report must explain how FEMA helps people with intellectual, developmental, and physical disabilities after a major disaster. It must list what help is given to states, towns, charities, and directly to people. It must also explain how FEMA trains its workers and what can be done better.\n\nWithin one year, FEMA and another government official called the Comptroller General must review this help. They must look for any laws that make it hard to give help. Then, they must tell Congress how to make the help better, work better with local groups, and make it easier to apply for help. They must also suggest any new laws needed to fix problems.",
+  "prompt_tokens": 1220,
+  "completion_tokens": 780,
+  "total_tokens": 2000,
+  "cost_usd": 0.002005,
+  "latency_s": 21.487,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

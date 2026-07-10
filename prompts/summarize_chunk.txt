@@ -1,0 +1,18 @@
+You are reading PART {part_i} of {part_n} of a long United States congressional bill titled "{bill_title}". This part covers: {heading_path}.
+
+Write dense, factual working notes on every operative provision in this part. For each provision capture:
+- its purpose and mechanism,
+- amounts appropriated or authorized (exact figures),
+- changes to existing law (named acts / U.S. Code sections),
+- material exceptions, conditions, deadlines, and effective dates.
+
+Rules:
+- Notes, not prose: terse bullets are ideal. Aim for 300–600 words.
+- Strictly factual and neutral; no opinion or speculation.
+- Include nothing that is not in the text below.
+- Do not mention that this is a partial excerpt, and do not guess at what other parts contain.
+
+TEXT OF THIS PART:
+---
+{chunk_text}
+---

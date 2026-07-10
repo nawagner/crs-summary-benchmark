@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill would stop the planned sale of a specific batch of firearms from the United States to Israel. The sale includes 20,000 fully automatic Colt Carbine rifles. These rifles have short 11.5-inch barrels and fire 5.56-millimeter bullets. They would be sent to a company in Israel and then used by the Israel National Police. The deal is worth one million dollars or more. The government already notified Congress about this sale on March 24, 2025, by publishing a notice in the Congressional Record (a daily record of what Congress does). If the bill becomes law, the export cannot happen.",
+  "prompt_tokens": 510,
+  "completion_tokens": 1308,
+  "total_tokens": 1818,
+  "cost_usd": 0.00136,
+  "latency_s": 26.743,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "z-ai/glm-5.2",
+  "summary": "The SECURE Grid Act (H.R. 7257) amends Section 366 of the Energy Policy and Conservation Act (42 U.S.C. 6326) to require States to incorporate the physical security, cybersecurity, and resilience of local distribution systems into their State energy security plans.\n\nSection 2 amends 42 U.S.C. 6326 through several operative changes. It adds a definition of \"local distribution system\" as energy infrastructure owned and operated by an electric utility at a voltage of 100 kilovolts or less (subsection (a)(3)). It expands the stakeholders consulted to include suppliers of equipment for the generation, transmission, and distribution of electricity (subsection (b)(2)). The bill revises the required contents of State energy security plans to explicitly address physical threats—including weather, physical attacks on local distribution and bulk-power systems, and electricity supply chain risks—and cybersecurity threats to local distribution systems that may impact the bulk-power system (subsection (c)(3)). It further requires plans to provide a risk mitigation approach to enhance reliability and end-use resilience, including methods for responding to, mitigating, and recovering from such hazards (subsection (c)(5)). \n\nThe amendment modifies subsection (d)(3) to include supplying electricity equipment as a qualifying activity. Subsection (e) is reorganized to clarify that a State's submission is not required to be approved by the Secretary. Subsection (f) is amended by changing \"may\" to \"shall,\" mandating certain assistance. Subsection (h) is amended to include \"local distribution system\" alongside \"electric utility\" for protected information purposes. Subsection (i) is repealed and replaced with a sunset provision stipulating that the section expires on September 30, 2031.\n\nSection 3 directs the Comptroller General to submit a report to the House Committee on Energy and Commerce and the Senate Committee on Energy and Natural Resources not later than September 30, 2030. The report must evaluate the efficacy of State energy security plans, including the use of Federal financial assistance under part D of title III of the EPCA (42 U.S.C. 6321 et seq.), and analyze the efficacy of the amended section 366. The report must be in a form available to the public, except that information protected from disclosure under 42 U.S.C. 6326(h) must be included in a non-public annex. The Act defines \"State energy security plan\" by reference to 42 U.S.C. 6326(a).",
+  "prompt_tokens": 1859,
+  "completion_tokens": 1698,
+  "total_tokens": 3557,
+  "cost_usd": 0.003929,
+  "latency_s": 10.08,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

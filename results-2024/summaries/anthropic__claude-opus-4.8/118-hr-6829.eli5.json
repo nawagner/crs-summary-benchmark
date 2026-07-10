@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"HEARTS Act of 2024.\" It became law on December 23, 2024. Its goal is to help schools and families learn about heart problems that can hurt kids, teens, and young adults.\n\nOne big heart problem it talks about is called cardiomyopathy. That is a disease of the heart muscle. Sometimes people feel tired or have an odd heartbeat. Sometimes they feel nothing at all.\n\nHere is what the law does:\n\nFirst, within 18 months, the government must make learning materials. These will teach teachers, coaches, families, and school workers about the warning signs of heart problems. The materials will also explain how to use an AED (a machine that shocks a stopped heart to start it again) and how to do CPR (pushing on the chest to help someone breathe and pump blood).\n\nWithin 30 months, the government must share these materials with schools, health offices, and doctors, and put them online.\n\nSecond, the government must study cardiomyopathy and make a risk checklist. This helps people and doctors see who might get the disease.\n\nThird, health researchers may study what causes the disease and how to treat it.\n\nFourth, the government may give money (grants) to public schools so they can buy AEDs, train people, and make emergency plans.\n\nThe law says no new money is set aside to pay for these things.",
+  "prompt_tokens": 5885,
+  "completion_tokens": 408,
+  "total_tokens": 6293,
+  "cost_usd": 0.039625,
+  "latency_s": 7.688,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

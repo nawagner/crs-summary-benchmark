@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill changes the deadline for a federal student aid form called the FAFSA. The FAFSA is a form that students and families fill out to ask for money from the government to help pay for college or job training.\n\nRight now, the law says the U.S. Department of Education must make the online FAFSA form available by January 1, and should try to have it ready around October 1 if possible. This new law replaces that with one hard deadline: the form must be ready no later than October 1 before the school year a student plans to enroll. That is earlier than the previous required date.\n\nThe bill also creates a new reporting rule. By September 1 each year, the Education Secretary must tell certain committees in Congress whether the department will meet the October 1 deadline. If the department cannot meet it, the Secretary must testify before those committees by September 30. In that testimony, the Secretary must explain why the deadline will be missed and what financial harm the delay could cause for students and families.\n\nThe law was approved on December 11, 2024.",
+  "prompt_tokens": 801,
+  "completion_tokens": 787,
+  "total_tokens": 1588,
+  "cost_usd": 0.001033,
+  "latency_s": 11.692,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

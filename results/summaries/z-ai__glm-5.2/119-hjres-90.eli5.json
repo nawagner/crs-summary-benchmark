@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill cancels a rule made by a government group called the Commodity Futures Trading Commission. This group watches over certain kinds of trading. \n\nThe rule they made gave advice on how to list \"voluntary carbon credit derivative contracts.\" A carbon credit is like a permission slip that lets a company put a certain amount of pollution into the air. A derivative contract is a deal to buy or sell something in the future based on its price. \n\nThe rule was published on October 15, 2024. If this bill becomes a law, Congress (the lawmakers of the United States) is saying they do not approve of that rule. Because of this, the rule would have no power. It would be as if the rule never existed. \n\nThis means the government group's advice on trading these carbon credit deals would no longer be an official rule.",
+  "prompt_tokens": 472,
+  "completion_tokens": 817,
+  "total_tokens": 1289,
+  "cost_usd": 0.00166,
+  "latency_s": 20.037,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

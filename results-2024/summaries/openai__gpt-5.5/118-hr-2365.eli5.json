@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-2365",
+  "model": "openai/gpt-5.5",
+  "summary": "This law creates a National Parkinson’s Project. Parkinson’s means Parkinson’s disease and some related brain diseases that get worse over time.\n\nThe Secretary of Health and Human Services, the leader of a federal health department, must run the project. The project must make and update a national plan to help prevent, find, treat, and cure Parkinson’s. It also aims to ease symptoms and slow or stop the disease.\n\nThe project must track federal work on Parkinson’s. It must estimate how much the federal government is spending now, and what more may be needed. It must help federal agencies work together. It must also look at how Parkinson’s affects people, caregivers, and families.\n\nWithin 24 months after July 2, 2024, and every year after that, the Secretary must check the nation’s progress and suggest top actions.\n\nThe law also creates an advisory council. It includes federal experts and 10 outside members, such as patient advocates, a caregiver, doctors, researchers, and nonprofit groups. Its meetings are open to the public. It must give Congress a yearly report. The council and this law’s main rules end after 2035.",
+  "prompt_tokens": 2546,
+  "completion_tokens": 416,
+  "total_tokens": 2962,
+  "cost_usd": 0.02521,
+  "latency_s": 12.096,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

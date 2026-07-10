@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 172, introduced in the 119th Congress, is a joint resolution directing the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nInvoking the statutory authority of section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. § 1546a), Section 2 of the resolution directs the President to remove U.S. Armed Forces from hostilities within or against Iran. This mandate is subject to a condition precedent: the removal is required unless and until Congress explicitly authorizes such involvement through a formal declaration of war or a specific authorization for the use of military force (AUMF). Pursuant to 50 U.S.C. § 1546a, the resolution is subject to the expedited legislative procedures set forth in section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 3 establishes four rules of construction to limit the scope of the directive. The resolution shall not be construed to prevent the United States from:\n1. Defending against attacks on the United States, its personnel, or its facilities located in other nations;\n2. Collecting, analyzing, or sharing intelligence—including with international organizations and partners such as the State of Israel—concerning threats from Iran or its proxies;\n3. Assisting partner countries attacked by Iran since February 28, 2026, and other nations, by supporting defensive measures to protect their territory from retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such measures; or\n4. Providing security, departure, and evacuation assistance to United States citizens affected by the hostilities.",
+  "prompt_tokens": 1549,
+  "completion_tokens": 392,
+  "total_tokens": 1941,
+  "cost_usd": 0.005851,
+  "latency_s": 2.696,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

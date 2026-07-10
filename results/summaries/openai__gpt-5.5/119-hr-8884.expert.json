@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "openai/gpt-5.5",
+  "summary": "The Removing Barriers to Work for Disabled Americans Act amends title II of the Social Security Act to temporarily reauthorize and modify the Commissioner of Social Security’s demonstration-project authority for the disability insurance program under section 234 of the Act, 42 U.S.C. 434.\n\nSection 2(a) amends section 234(d)(2) to extend the date after which no new demonstration project may be initiated from December 31, 2021, to December 31, 2030, and to extend the termination of authority to carry out such projects from December 31, 2022, to December 31, 2031.\n\nSection 2(b) amends section 234(c), governing the Commissioner’s authority to waive compliance with specified benefit requirements for experiments and demonstration projects. It extends the waiver-related deadline from December 30, 2021, to December 31, 2030; increases the advance period specified in that subsection from 90 days to 120 days; and requires inclusion of “evaluation metrics to be used with respect to the experiment or demonstration project” in the required information concerning expected annual and total costs.\n\nSection 2(c) rewrites section 201(k), 42 U.S.C. 401(k), to provide that administrative expenditures for experiments and demonstration projects under section 234 are to be paid from funds made available for administration of title II. Benefits payable to or on behalf of individuals by reason of participation in such projects are to be paid from the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner. The bill does not make a separate appropriation.\n\nSection 2(d) amends section 234(e) to add a new limitation requiring that an individual’s total income not be reduced due to participation in an experiment or demonstration project.\n\nSection 2(e) makes technical amendments to section 234, including correcting a cross-reference in subsection (d)(1) and striking subsection (f). Section 2(f) provides that all amendments made by section 2 take effect January 1, 2027.",
+  "prompt_tokens": 1172,
+  "completion_tokens": 773,
+  "total_tokens": 1945,
+  "cost_usd": 0.02905,
+  "latency_s": 15.097,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

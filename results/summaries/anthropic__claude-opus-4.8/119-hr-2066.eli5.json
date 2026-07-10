@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Investing in All of America Act of 2025.\" It changes rules about money for small businesses.\n\nFirst, here is a helpful idea. There are special companies called Small Business Investment Companies. They get money from the government to help small businesses grow. This borrowed money is called \"leverage.\"\n\nThe government limits how much of this borrowed money each company can get. This law changes those limits. Some numbers go up, and some go down. For example, one limit changes from $300 million to $200 million. Companies that make regular payments can get up to $250 million. Groups of connected companies can get up to $475 million.\n\nThe law also says these companies can leave out some of their money from the limit when they invest in certain businesses. This helps them invest more. The special businesses are:\n- Small businesses in poor areas or country (rural) areas.\n- Small businesses working on important technology.\n- Small businesses that make things (manufacturers).\n\nBut there is a cap. The amount left out cannot be more than half of the company's own money, or $125 million, whichever is smaller.\n\nThis rule only works for new investments made after the law starts.\n\nThe law says money from the government cannot count when asking for leverage, with a few exceptions.\n\nThe President approved this law on May 19, 2026.",
+  "prompt_tokens": 2434,
+  "completion_tokens": 385,
+  "total_tokens": 2819,
+  "cost_usd": 0.021795,
+  "latency_s": 6.955,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

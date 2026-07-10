@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution (Pub. L. 119-13, 139 Stat. 63) exercises the congressional review mechanism established under chapter 8 of title 5, United States Code (the Congressional Review Act). Its sole operative provision disapproves a specified final rule of the National Park Service, Department of the Interior, and mandates that the rule “shall have no force or effect.” The rule is identified by its Federal Register citation: “Glen Canyon National Recreation Area: Motor Vehicles,” published at 90 Fed. Reg. 2621.\n\nCongress acted under the expedited procedures set forth in 5 U.S.C. 801–808. The resolution’s legal effect is immediate upon the President’s approval, which occurred on May 23, 2025. By operation of the underlying statute (specifically 5 U.S.C. 801(b)(2)), a rule disapproved by a joint resolution enacted into law not only is void but also may not be reissued in substantially the same form absent subsequent specific statutory authorization; however, the resolution itself does not restate that prohibition.\n\nThe resolution contains no exceptions, delayed effective dates, authorization of appropriations, or severability clauses. It is a straightforward legislative veto enacted pursuant to the expedited legislative process of the Congressional Review Act, nullifying the entire rule described. The resolution originally passed the House on April 29, 2025, and the Senate on May 6 and 8, 2025, before presentment.",
+  "prompt_tokens": 454,
+  "completion_tokens": 984,
+  "total_tokens": 1438,
+  "cost_usd": 0.001054,
+  "latency_s": 17.179,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

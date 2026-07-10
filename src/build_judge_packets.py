@@ -15,11 +15,14 @@ import common as C
 
 BATCHES = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 OUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("/tmp/crs_judge_packets")
-TEXT_EXCERPT = 200000  # give judges the FULL bill text (this set's bills are all <180k)
 
 
 def main() -> None:
     cfg = C.load_config()
+    # Subagent judging is free (no API token cost), so long-bill packets can use the
+    # full configured grounding cap rather than a conservative default; short-bill
+    # datasets (text always <180k) just get the full text either way.
+    TEXT_EXCERPT = cfg.get("judge_text_char_cap", 200000)
     models = [C.model_slug(m) for m in cfg["models"]]
     candidates = models + [C.CRS_REFERENCE]
     bills = [C.read_json(p) for p in C.list_bill_files()]
@@ -35,10 +38,20 @@ def main() -> None:
                 sp = C.SUMMARIES_DIR / slug / f"{b['bill_id']}.json"
                 if sp.exists():
                     cands[slug] = C.read_json(sp).get("summary", "")
+        if len(b["bill_text"]) > TEXT_EXCERPT:
+            # long bill (issue #7): a packet can't carry the full text, so ground the
+            # judges the same way evaluate.py does — section index of the whole bill
+            # plus the sections relevant to ANY candidate summary in this packet.
+            from evaluate import grounded_bill_text
+            all_summaries = "\n\n".join(s for s in cands.values() if s)
+            text, grounding = grounded_bill_text(b, all_summaries, cfg, cap=TEXT_EXCERPT)
+        else:
+            text, grounding = b["bill_text"], "full"
         items.append({
             "bill_id": b["bill_id"],
             "title": b["title"],
-            "bill_text": b["bill_text"][:TEXT_EXCERPT],
+            "bill_text": text,
+            "judge_grounding": grounding,
             "crs_summary": b["crs_summary"],
             "candidates": cands,
         })

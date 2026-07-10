@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-60",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the National Park Service. The National Park Service is a government group that takes care of parks. The rule was about motor vehicles, like cars and trucks, at a place called Glen Canyon National Recreation Area.\n\nBecause of this law, the rule from the National Park Service will not happen. The law says the rule will have \"no force or effect,\" which means it is stopped and cannot be used. \n\nCongress passed this law on May 23, 2025. Congress is the part of the government that makes national laws. They used their power to say \"no\" to a rule made by a government agency. Now, the rules about motor vehicles at Glen Canyon will not include the changes that the National Park Service wanted to make.",
+  "prompt_tokens": 431,
+  "completion_tokens": 860,
+  "total_tokens": 1291,
+  "cost_usd": 0.001711,
+  "latency_s": 3.425,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"COCOA Act of 2024.\" It is about people called election observers. These observers watch how federal elections are run to make sure things work right.\n\nThe law says that states must let these special observers watch elections. This includes watching when votes are cast, counted, checked, and made official. The observers can watch before, during, and after election day. They can also ask questions to the workers who run the election.\n\nBut observers have rules to follow. They cannot touch ballots or voting machines. They cannot support any candidate. They cannot stop people from voting or get in the way of election workers.\n\nWho are these observers? They are workers for the House or Senate. Leaders of certain committees in Congress pick them in writing.\n\nIf an observer causes trouble, like trying to scare voters or mess up the counting, an election official can make them leave. But just being there is not a good enough reason to remove someone. If an observer is removed, the official must tell Congress leaders within 24 hours and explain why. Then Congress can send a new observer to take their place.\n\nThe word \"state\" here means all 50 states, Washington D.C., and some U.S. territories like Puerto Rico and Guam.\n\nThe law was approved on October 4, 2024.",
+  "prompt_tokens": 2881,
+  "completion_tokens": 371,
+  "total_tokens": 3252,
+  "cost_usd": 0.02368,
+  "latency_s": 6.906,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

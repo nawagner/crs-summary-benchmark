@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6852",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law names Holcombe Rucker Park in Harlem, New York, as a \"National Commemorative Site.\" The law was approved on January 4, 2025. \n\nThe law says the Secretary of the Interior (a government leader who watches over public lands) can make agreements with public or private groups. This includes the Mayor of New York City. They can work together to put up plaques or signs at the park. These signs will teach people about Holcombe Rucker and the park's history in basketball.\n\nThe law makes some rules about what this new name does not do. The park does not become part of the National Park System, which is the group of parks run by the federal government. The law does not let the government change how New York City or New York State runs the park. It also does not let the government tell property owners what to do with their land or change local land rules. Finally, the government cannot take the land away from its owners.",
+  "prompt_tokens": 832,
+  "completion_tokens": 900,
+  "total_tokens": 1732,
+  "cost_usd": 0.001999,
+  "latency_s": 13.218,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

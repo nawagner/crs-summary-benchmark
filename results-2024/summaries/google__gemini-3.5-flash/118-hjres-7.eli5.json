@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-7",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the House of Representatives and the Senate. These are the two groups of people who make laws for our country in Congress. \n\nThis law officially ends a national emergency. A national emergency is a special status that gives the President extra powers to handle a big crisis. The President first declared this specific emergency on March 13, 2020. \n\nBy passing this law, Congress used its power under a law called the National Emergencies Act to stop the emergency. If this law is passed, the national emergency is over right away. \n\nThe House of Representatives voted and passed this law on February 1, 2023. The Senate voted and passed it on March 29, 2023. It was officially approved on April 10, 2023.",
+  "prompt_tokens": 476,
+  "completion_tokens": 181,
+  "total_tokens": 657,
+  "cost_usd": 0.002343,
+  "latency_s": 1.736,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

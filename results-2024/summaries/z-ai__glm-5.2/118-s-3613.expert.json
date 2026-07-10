@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-157, cited as the \"Improving Federal Building Security Act of 2024\" (40 U.S.C. 1315 note), requires Facility Security Committees (FSCs) to respond to security recommendations issued by the Federal Protective Service (FPS). \n\nSection 2 establishes operative definitions, incorporating the definition of \"agency\" from 5 U.S.C. 551, and defines \"Facility Security Committee\" and \"Secretary\" as the Secretary of Homeland Security. Under Section 2(b), not later than 90 days after the FPS issues a security recommendation to an FSC, the FSC head or designee must respond to the Secretary indicating whether the FSC intends to adopt or reject the recommendation, describe the financial implications (including whether benefits outweigh costs), and, if rejecting the recommendation, provide a justification for accepting the risk. The Secretary is directed to develop a monitoring method and take reasonable action to ensure FSC responsiveness.\n\nSection 2(c) imposes an annual reporting requirement on the Secretary, with the initial report due not later than 270 days after enactment. The report, submitted in unclassified form with an optional classified annex to the Senate Committee on Homeland Security and Governmental Affairs and the House Committees on Homeland Security and Transportation and Infrastructure, must summarize FPS recommendations, adoption and rejection rates, non-response rates, rejection justifications, financial implications, risk mitigation steps, and trend analyses. The Secretary must also provide an annual briefing to these committees.\n\nSection 2(d) requires the Secretary to submit an unredacted report to the same committees not later than 180 days after enactment detailing all surveillance technology recommended by the FPS and its intended use.\n\nSection 2(e) specifies that no additional funds are authorized to be appropriated to carry out the Act. Section 2(f) provides a sunset provision, rendering the Act ineffective five years after enactment, and requires the Comptroller General to submit a report to Congress on the Act's effectiveness by that same deadline. Finally, Section 2(g) limits the Act's application to General Services Administration facilities under FPS protection and non-General Services Administration facilities that pay FPS fees for protection.",
+  "prompt_tokens": 1577,
+  "completion_tokens": 1499,
+  "total_tokens": 3076,
+  "cost_usd": 0.003433,
+  "latency_s": 30.004,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

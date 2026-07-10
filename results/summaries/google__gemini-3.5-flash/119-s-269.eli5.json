@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-269",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the \"Ending Improper Payments to Deceased People Act.\" It was approved on February 10, 2026, and will start to be used on December 27, 2026. \n\nThe main goal of the law is to stop the government from accidentally sending money to people who have died. To do this, the head of the Social Security Administration (the government agency that handles retirement and disability benefits) must share death records with a system called \"Do Not Pay.\" This system helps the government find and stop wrong payments. The two groups will share the costs of gathering this death information from the states.\n\nThe law also makes sure the government is careful. The Social Security Administration cannot mark someone as dead unless they have very clear proof. If they do make a mistake and list a living person as dead, they must quickly tell the other agencies they work with about the error.",
+  "prompt_tokens": 1194,
+  "completion_tokens": 191,
+  "total_tokens": 1385,
+  "cost_usd": 0.00351,
+  "latency_s": 1.899,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

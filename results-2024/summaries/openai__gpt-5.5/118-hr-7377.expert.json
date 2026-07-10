@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "openai/gpt-5.5",
+  "summary": "The Royalty Resiliency Act, Pub. L. No. 118-81, amends the Federal Oil and Gas Royalty Management Act of 1982 to prescribe procedures and deadlines for royalty reporting and payment while the Secretary determines allocations of production for oil and gas leases included in units or communitization agreements.\n\nSection 1 provides the short title and is codified as a note to 30 U.S.C. § 1701.\n\nSection 2 amends section 111(j) of the Federal Oil and Gas Royalty Management Act of 1982, 30 U.S.C. § 1721(j), as previously amended by the Federal Oil and Gas Royalty Simplification and Fairness Act of 1996, Pub. L. No. 104-185, by substituting a new subsection (j). The new subsection requires the Secretary to issue all determinations of allocations of production for units and communitization agreements within 120 days after a request for determination. Pending issuance of the determination, the lessee or its designee for a lease in the unit or communitization agreement must report and pay royalties on oil and gas production for each production month in accordance with the proposed allocation of production for the unit or communitization agreement.\n\nAfter the Secretary issues the determination, the lessee or its designee must, as necessary, correct the reports and royalty amounts paid on oil and gas production under the unit or communitization agreement no later than the end of the third month following the month in which the lessee or designee receives the Secretary’s determination. Subject to the full and timely monthly payment of royalties to all parties in accordance with the proposed allocation, the Secretary must waive interest due on obligations subject to the determination until the end of that same third-month period.\n\nThe amended subsection expressly excludes from its application unit or “communization” agreements containing Indian lands. The Act contains no authorization of appropriations or appropriation, and no special effective-date provision beyond enactment.",
+  "prompt_tokens": 835,
+  "completion_tokens": 670,
+  "total_tokens": 1505,
+  "cost_usd": 0.024275,
+  "latency_s": 12.033,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

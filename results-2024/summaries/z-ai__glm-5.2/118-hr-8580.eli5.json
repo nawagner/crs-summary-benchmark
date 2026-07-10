@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill decides how the government spends money for the year ending September 30, 2025. It gives money to the military and to veterans. Veterans are people who served in the military.\n\nThe bill gives billions of dollars to build and fix military bases and family homes. It also gives billions to the Department of Veterans Affairs (VA) to pay for doctors, hospitals, and benefits.\n\nThe bill has many rules on how the money is used. The military cannot use the money to close the base at Guantanamo Bay, Cuba. The VA cannot use the money for gender-affirming surgeries or abortions, unless the pregnancy threatens the mother's life or results from rape or incest. The VA must also stop using dogs, cats, and monkeys for research by March 2026. The government cannot use the money to buy certain computers from China. None of the money can be used for COVID-19 mask rules or diversity training.",
+  "prompt_tokens": 26203,
+  "completion_tokens": 1486,
+  "total_tokens": 27689,
+  "cost_usd": 0.016857,
+  "latency_s": 20.767,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the \"No Visas for Anti-Semitic Students Act.\" A visa is an official paper that lets a person from another country enter and stay in the United States. This bill is about student visas, which let students from other countries study at American schools. \n\nIf this bill becomes a law, the Secretary of State, who is a high-ranking government leader, must take away or deny student visas to certain students. This would happen to students who do things that are antisemitic. Antisemitism means hatred or unfair treatment of Jewish people. \n\nUnder this bill, bad actions include physical violence, damaging property, or bullying Jewish people, Jewish schools, or Jewish places of worship. It also includes giving money or help to people who do these bad things. \n\nFor a student to lose their visa, the Secretary of State must also decide that the student's actions could cause serious foreign policy problems for the United States. Foreign policy is how the United States government interacts with other countries. If the bill passes, these rules would apply to actions that happen on or after the day the bill becomes a law.",
+  "prompt_tokens": 1314,
+  "completion_tokens": 229,
+  "total_tokens": 1543,
+  "cost_usd": 0.004032,
+  "latency_s": 2.593,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

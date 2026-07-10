@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6062",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law, passed on January 4, 2025, removes an old rule about American Samoa’s local constitution. American Samoa is a U.S. territory in the Pacific Ocean.\n\nBefore this law, the people of American Samoa could vote on a change to their constitution. But the change could not take effect unless the United States Congress also approved it. That requirement was in Section 12 of a law from 1983 (Public Law 98‑213).\n\nThis new law repeals, or cancels, that section. Now, if a majority of voters in American Samoa approve an amendment, it can take effect right away. They do not have to wait for Congress to say yes. This lets them change their basic local laws through democratic voting.\n\nCongress does not lose its final authority over the territory. Under the U.S. Constitution, Congress still has power over all territories and can act if needed. But for ordinary changes to the territorial constitution, no separate approval from Congress is required anymore.",
+  "prompt_tokens": 533,
+  "completion_tokens": 1090,
+  "total_tokens": 1623,
+  "cost_usd": 0.00118,
+  "latency_s": 20.643,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

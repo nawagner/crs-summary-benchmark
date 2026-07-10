@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed Division A/C/G content (Canada firearms carve-out, VA FAS care, emergency-designation rule) verified accurate."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Claims are supported; explicitly declines to invent Medicaid detail rather than fabricating."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States it funds multiple departments for FY2024 across seven divisions with policy conditions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes title 38 VA amendment, Title XIX Medicaid, and USTR rescission/reappropriation."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Details Guantanamo carve-out, Canada firearms exceptions, pornography law-enforcement exception, and emergency-designation condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes current-fiscal-year availability and Sep 30 2024 USTR reappropriation timing."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": false,
+      "why": "Substantively covers only Divisions A, C, and G, omitting entirely the Agriculture, Energy-Water, Interior-Environment, and THUD appropriations divisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-written and internally consistent, though selective in scope."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "No padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and statutes named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The few figures stated ($500 threshold, dates) are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 11,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

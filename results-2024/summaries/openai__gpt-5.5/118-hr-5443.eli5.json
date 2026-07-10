@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5443",
+  "model": "openai/gpt-5.5",
+  "summary": "This law is about appraisals for land and buildings in deals handled by the Department of the Interior. An appraisal means estimating what property is worth.\n\nIt says an appraiser who is licensed or certified in one State may do appraisal work in any State, but only for a deal that the Secretary of the Interior has power over. The Secretary is the head of the Department of the Interior.\n\nIf the Department uses a non-federal appraiser, it should try to use a certified general appraiser licensed in the State where the property is. It may use an appraiser licensed in another State only if a local appraiser is not available soon enough, is not qualified for the job, or is not cost competitive.\n\nThe Department must report to Congress within 1 year after January 4, 2025. It must keep reporting every year for at least 4 more years. The reports must include numbers on appraisal requests, how long they take, staffing, use of this new rule, and any ideas for Congress.\n\nWithin 90 days after the law was passed, the Department must put its appraisal rules and guidance online and give them to people who ask. Existing laws still apply, except rules requiring a license in one specific State do not apply to these covered Interior Department deals.",
+  "prompt_tokens": 1637,
+  "completion_tokens": 403,
+  "total_tokens": 2040,
+  "cost_usd": 0.020275,
+  "latency_s": 9.082,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

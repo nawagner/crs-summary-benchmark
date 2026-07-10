@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Autism CARES Act of 2024.\" Autism is a condition that affects how people think, learn, talk, and act. This law keeps helping people with autism and updates older rules.\n\nHere is what the law mainly does:\n\nIt tells the National Institutes of Health (a big group of government health scientists) to keep studying autism. The study should cover people of all ages, from kids to older adults. It also looks at ways to help the people who take care of them, called caregivers.\n\nThe law says research should include all kinds of people with autism, even those who have other health problems too.\n\nIt asks for special reports to Congress. One report is about mental health for people with autism. Another is about young people growing up and moving from school help to adult help.\n\nThe law gives money for these programs for the years 2025 through 2029:\n- About $28 million each year for one part.\n- About $56 million each year for another part.\n- About $306 million each year for a bigger part.\n\nThe law lets the government help states and tribes learn how to use money to give people tools and technology to communicate, like devices that help people talk.\n\nOld dates that said the programs would end in December 2024 are changed to September 30, 2029, so the help keeps going.\n\nThis law was approved on December 23, 2024.",
+  "prompt_tokens": 6925,
+  "completion_tokens": 379,
+  "total_tokens": 7304,
+  "cost_usd": 0.0441,
+  "latency_s": 12.395,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

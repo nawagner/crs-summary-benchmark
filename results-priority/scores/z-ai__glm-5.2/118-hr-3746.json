@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-3746",
+  "candidate": "z-ai__glm-5.2",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims, including SNAP age raised to 55 and $1.389B IRS rescission, match the bill."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; context is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opens by identifying debt-limit suspension plus spending limits, rescissions, and policy changes."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Names NEPA amendments and TANF/SNAP program modifications."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes advance-appropriation restrictions, PAYGO offset requirement, and SNAP exemptions."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites Jan 1 2025 debt window, 60-days-after-June-30 student-loan date, Dec 31 2024, and SNAP Oct 1 2030 sunset."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures essential effect of all four divisions; omitted minor items (VA fund, transfer study) are non-essential."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Logically organized and consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IRS, NEPA, TANF, SNAP, Mountain Valley Pipeline named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$1.389B IRS rescission and age-55 threshold are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

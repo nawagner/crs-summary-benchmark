@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2866",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"No Visas for Anti-Semitic Students Act.\"\n\nA visa is special permission that lets someone from another country come to the United States. This bill is about visas for students who come here to study.\n\nThe bill says the Secretary of State (a top government leader who deals with other countries) must take away or refuse a student's visa if two things are true:\n\n1. The student did something called \"prohibited antisemitic conduct.\" This means hurting Jewish people or their property on purpose. It can be violence, breaking or damaging things, or bullying Jewish people or their buildings because they are Jewish. It also includes helping someone else do these things, like giving them money or telling them to do it.\n\n2. The Secretary of State decides the student's actions could cause serious problems for how the United States gets along with other countries.\n\nThe bill uses a meaning of \"antisemitism\" that comes from a group called the International Holocaust Remembrance Alliance, agreed on in 2016.\n\nThe rules would only apply to things a student does on or after the day the bill becomes law.\n\nIf both parts are true, the student cannot get a student visa, cannot keep it, and the Secretary of State must cancel it.",
+  "prompt_tokens": 1976,
+  "completion_tokens": 365,
+  "total_tokens": 2341,
+  "cost_usd": 0.019005,
+  "latency_s": 6.384,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

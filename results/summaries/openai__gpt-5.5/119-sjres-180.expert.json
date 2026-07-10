@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "openai/gpt-5.5",
+  "summary": "S.J. Res. 180 is a War Powers-related joint resolution directing the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent congressional authorization. It does not amend the U.S. Code, authorize the use of military force, or appropriate funds.\n\nSection 1 sets forth congressional findings. Among other things, it states Congress’s view that Congress has the sole constitutional power to declare war; that the President has constitutional responsibility to defend the United States and specified U.S. persons and interests from attack; that Congress has neither declared war on Iran or any person or organization within Iran nor enacted a specific statutory authorization for the use of military force within or against Iran; and that Operation Epic Fury, initiated February 28, 2026, introduced U.S. Armed Forces into hostilities against Iran. The findings further state that the President notified Congress on March 2, 2026, pursuant to the War Powers Resolution, of the initiation of military force against Iran; that additional forces were ordered to the region; and that the use of military force within or against Iran constitutes the introduction of U.S. Armed Forces into hostilities within the meaning of section 4(a) of the War Powers Resolution, 50 U.S.C. 1543(a). Section 1 also identifies section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, 50 U.S.C. 1546a, as providing for consideration of qualifying removal measures under the expedited procedures in section 601(b) of the International Security and Arms Export Control Act of 1976, Public Law 94-329.\n\nSection 2(a), invoking 50 U.S.C. 1546a and section 601(b) of Public Law 94-329, directs the President to remove U.S. Armed Forces from hostilities within or against Iran unless such hostilities are explicitly authorized by a declaration of war or a specific authorization for use of military force. Section 2(b) provides rules of construction preserving the ability of the United States to defend against attacks on the United States or its personnel or facilities in other nations; collect, analyze, or share intelligence concerning threats from Iran or its proxies; assist partner countries attacked by Iran since February 28, 2026, and other nations in intercepting retaliatory attacks or by providing defensive materiel support; and assist in the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1273,
+  "completion_tokens": 751,
+  "total_tokens": 2024,
+  "cost_usd": 0.028895,
+  "latency_s": 13.549,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the FAFSA Deadline Act. It changes the rules for the FAFSA, a form students use to get money for college. \n\nBefore this law, the government had to start processing these forms by January 1, or try to do it by October 1. Now, the government must start processing the forms no later than October 1 of the year before the student plans to go to college.\n\nThe law also adds new rules for the Secretary of Education. The Secretary is the head of the government office that handles this form. By September 1, the Secretary must tell Congress (the group that makes laws) if they will meet the October 1 deadline. If they will not meet it, the Secretary must talk to Congress by September 30. They must explain why they will miss the deadline. They must also explain how missing it will affect the money of students and their families.\n\nThis law was approved on December 11, 2024.",
+  "prompt_tokens": 801,
+  "completion_tokens": 1046,
+  "total_tokens": 1847,
+  "cost_usd": 0.002232,
+  "latency_s": 20.451,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

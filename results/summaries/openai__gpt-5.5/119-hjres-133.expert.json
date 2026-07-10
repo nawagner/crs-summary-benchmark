@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "openai/gpt-5.5",
+  "summary": "Public Law 119-46 is a joint resolution requesting executive action related to inaugural semiquincentennial commemorations in Washington, D.C. It does not amend the United States Code, create a mandatory statutory duty, authorize appropriations, or appropriate funds. Its operative mechanism is a congressional request directed to the Secretary of the Interior.\n\nThe resolution recites findings concerning the adoption of the Declaration of Independence, the forthcoming July 4, 2026, 250th anniversary of United States independence, the enactment and activities of the United States Semiquincentennial Commission under the United States Semiquincentennial Commission Act of 2016, 36 U.S.C. note preceding section 101 (Public Law 114-196), and prior commemorative uses of the National Mall and Washington Monument, including the 2019 Apollo 11 anniversary display.\n\nIn the resolving clause, paragraph (1) requests that the Secretary of the Interior “authorize unique and one-time arrangements” for displays in and around the vicinity of the National Mall, including projection onto the surface of the Washington Monument. The covered display materials include United States semiquincentennial materials and other significant artifacts, digital content, film footage, and associated audio and imagery. The requested authorization is temporally limited to the period beginning December 31, 2025, and ending January 5, 2026, and includes projection on the Washington Monument for five nights of public display.\n\nParagraph (2) requests that the Clerk of the House of Representatives transmit an enrolled copy of the resolution to the Secretary of the Interior and to the Chair of the United States Semiquincentennial Commission. The joint resolution was approved December 2, 2025.",
+  "prompt_tokens": 1175,
+  "completion_tokens": 490,
+  "total_tokens": 1665,
+  "cost_usd": 0.020575,
+  "latency_s": 9.91,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

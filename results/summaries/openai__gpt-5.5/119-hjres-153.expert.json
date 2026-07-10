@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-153",
+  "model": "openai/gpt-5.5",
+  "summary": "H.J. Res. 153 is a War Powers Resolution-related joint resolution directing the President to remove United States Armed Forces from hostilities within or against the Republic of Cuba absent congressional authorization. Its operative mechanism is § 2(a), which invokes § 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985, 50 U.S.C. § 1546a, and the expedited procedures referenced in § 601(b) of the International Security Assistance and Arms Export Control Act of 1976, Pub. L. No. 94-329, to require removal unless the hostilities are “explicitly authorized by a declaration of war or a specific authorization for use of military force.”\n\nSection 1 sets forth congressional findings. It recites Congress’s Article I power to declare war; acknowledges the President’s constitutional responsibility to defend the United States, its territories, possessions, citizens, service members, and diplomats from attack; states that Congress has neither declared war upon Cuba or any person or organization within Cuba nor enacted a specific statutory authorization for the use of military force within or against Cuba; and declares that the use of United States Armed Forces within or against Cuba, including use of the Coast Guard and other Armed Forces components to conduct a blockade or quarantine of Cuba, constitutes introduction of United States Armed Forces into hostilities within the meaning of § 4(a) of the War Powers Resolution, 50 U.S.C. § 1543(a). Section 1 also identifies 50 U.S.C. § 1546a as providing for expedited consideration of joint resolutions or bills requiring removal of Armed Forces from imminent engagement in hostilities without a declaration of war or specific statutory authorization.\n\nSection 2(b) provides a rule of construction preserving the ability of the United States to defend itself from an armed attack or the threat of an imminent armed attack, and preserving the lawful execution of counternarcotics operations. The joint resolution contains no amendments to existing statutory text, no authorization of appropriations, no appropriation, and no express effective date or deadline for compliance.",
+  "prompt_tokens": 905,
+  "completion_tokens": 662,
+  "total_tokens": 1567,
+  "cost_usd": 0.024385,
+  "latency_s": 15.144,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

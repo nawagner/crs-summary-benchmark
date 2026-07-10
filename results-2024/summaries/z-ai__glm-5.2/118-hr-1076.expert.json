@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-79, cited as the \"Preventing the Financing of Illegal Synthetic Drugs Act,\" directs the Comptroller General of the United States to conduct and report on a study concerning illicit financing related to synthetic drug trafficking. The Act does not amend existing provisions of the U.S. Code, nor does it authorize or appropriate funds.\n\nSection 3(a) mandates the Comptroller General to study illicit financing connected to the trafficking of synthetic drugs, specifically including fentanyl, methamphetamine, their related substances and precursors, and Captagon. The study must examine: (1) the business of synthetic drug trafficking and related illicit finance, including the involvement of transnational criminal organizations and terror syndicates, as well as source and transit countries; (2) the business models of these organizations, encompassing domestic and foreign precursor purchase or production, supply chain movement, manufacture, marketing, distribution, sales, and repatriation of proceeds; (3) the overlap between human trafficking and synthetic drug trafficking; (4) the use of online illicit drug markets and social media for marketing, sale, and payment; (5) financial methods used by these organizations, including payment, money laundering, and repatriation of proceeds; (6) the use of specific social media applications (Snapchat, Discord, Facebook) and payment applications (CashApp) to facilitate financial transactions, particularly among young people; and (7) U.S. Government activities to combat related illicit finance, assessing interagency, intergovernmental, and intersectoral collaboration with the private sector, and identifying gaps or resource deficiencies in these coordination efforts.\n\nUnder Section 3(b), the Comptroller General is required to issue a report to Congress containing all findings and determinations from the study. The report is subject to a statutory deadline: it must be issued not later than the end of the one-year period beginning on the date of enactment of the Act (September 13, 2024). The Act includes a findings section (Section 2) providing congressional findings regarding synthetic drug overdoses, the proliferation of new psychoactive substances, and the profitability of fentanyl trafficking, but imposes no operative requirements based on these findings.",
+  "prompt_tokens": 1455,
+  "completion_tokens": 1304,
+  "total_tokens": 2759,
+  "cost_usd": 0.003032,
+  "latency_s": 8.0,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

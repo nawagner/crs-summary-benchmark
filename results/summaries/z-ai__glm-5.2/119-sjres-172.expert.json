@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 172 directs the President to remove United States Armed Forces from hostilities within or against the Islamic Republic of Iran absent a congressional declaration of war or specific statutory authorization for the use of military force. The joint resolution invokes the expedited legislative procedures under section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329).\n\nSection 1 sets forth congressional findings, citing Article I, section 8, clause 11 of the Constitution and noting the absence of a declaration of war or specific statutory authorization for hostilities against Iran. It references the War Powers Resolution (50 U.S.C. 1541(a), 1542, and 1543(a)), details the initiation of Operation Epic Fury on February 28, 2026, subsequent American casualties, the closure and blockade of the Strait of Hormuz, a ceasefire effective April 8, 2026, and the applicability of expedited procedures under 50 U.S.C. 1546a.\n\nSection 2 constitutes the operative provision. Pursuant to 50 U.S.C. 1546a and Public Law 94-329, Congress directs the President to remove U.S. Armed Forces from hostilities within or against Iran, conditioned upon the absence of an explicit declaration of war or specific authorization for the use of military force.\n\nSection 3 establishes a rule of construction, specifying that the resolution does not prevent the United States from: (1) defending against attacks on the United States, its personnel, or its facilities abroad; (2) collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies with partners, allies (including the State of Israel), and international organizations; (3) assisting partner countries attacked by Iran since February 28, 2026, and other nations in taking defensive measures or providing defensive materiel support; and (4) providing assistance for the security, departure, and evacuation of U.S. citizens affected by the hostilities.",
+  "prompt_tokens": 1377,
+  "completion_tokens": 1482,
+  "total_tokens": 2859,
+  "cost_usd": 0.003295,
+  "latency_s": 12.761,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

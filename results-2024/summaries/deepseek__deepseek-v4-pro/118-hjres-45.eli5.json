@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-45",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This resolution cancels a rule made by the Department of Education. The rule was about forgiving and making changes to federal student loans. It included a plan called \"One-Time Federal Student Loan Debt Relief.\" Under that plan, some people who owed money for college could have part of their debt erased. The rule was published in the Federal Register on October 12, 2022. \n\nCongress is using a law called the Congressional Review Act, which lets Congress review new rules from government agencies and overturn them. This resolution says Congress disapproves the student loan rule. If the resolution becomes law, the rule would have no force—it would be blocked and could not go into effect. \n\nThe House of Representatives passed the resolution on May 24, 2023. It was then sent to the Senate.",
+  "prompt_tokens": 534,
+  "completion_tokens": 1351,
+  "total_tokens": 1885,
+  "cost_usd": 0.001408,
+  "latency_s": 27.403,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

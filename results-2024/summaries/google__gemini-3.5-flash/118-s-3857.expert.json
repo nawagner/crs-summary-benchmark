@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The Jamul Indian Village Land Transfer Act, Pub. L. 118-199, 138 Stat. 2684 (2024), mandates the transfer of certain real property in San Diego County, California, into trust for the benefit of the Jamul Indian Village of California, and establishes the regulatory framework for its administration. \n\nSection 2(a) and (b) of the Act declare that approximately 172.10 acres of land, comprising four distinct parcels, are held in trust by the United States for the benefit of the Tribe. These parcels, currently held in fee by the Tribe, are legally described in the Official Records of the Office of the Recorder of San Diego County, California, as follows:\n*   **Parcel 1:** Approximately 161.23 acres, recorded January 7, 2022, as Document No. 2022-0010260.\n*   **Parcel 2:** Approximately 6 acres, recorded July 29, 2021, as Document No. 2021-0540770.\n*   **Parcel 3:** Approximately 4.03 acres, recorded January 15, 1998, as Document No. 1998-0020339.\n*   **Parcel 4:** Approximately 0.84 acres, recorded September 7, 2017, as Document No. 2017-0410384.\n\nSection 2(c) establishes a conditional mandate for an additional trust acquisition. It directs the Secretary of the Interior to accept title to, and place into trust for the benefit of the Tribe, approximately 1.1 acres of land depicted as \"Proposed 1.1. acres\" on the California Department of Fish and Wildlife map entitled \"Amended Acres Proposal\" (dated May 2023). The Secretary’s obligation is subject to the condition precedent that the land is conveyed or otherwise transferred to the United States by, or on behalf of, the Tribe.\n\nPursuant to Section 2(d), all lands taken into trust under subsections (a) and (c) are designated as part of the reservation of the Jamul Indian Village of California and must be administered in accordance with federal laws and regulations generally applicable to Indian trust property. \n\nSection 2(e) imposes a strict statutory prohibition on gaming, specifying that none of the lands described in subsections (b) and (c) may be used for class II gaming or class III gaming as defined under Section 4 of the Indian Gaming Regulatory Act (25 U.S.C. § 2703).",
+  "prompt_tokens": 1319,
+  "completion_tokens": 585,
+  "total_tokens": 1904,
+  "cost_usd": 0.007243,
+  "latency_s": 3.294,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

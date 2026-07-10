@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would let Social Security run test programs for disability insurance again. These test programs are called “demonstration projects.” They try out different ways to run benefits for people with disabilities.\n\nThe bill would extend the time for these projects. New projects could be started through December 31, 2030. The power to carry them out would end on December 31, 2031.\n\nThe bill would also let the Social Security Commissioner, who leads the Social Security agency, waive some benefit rules for these tests through December 31, 2030. Before doing that, the agency would have to give notice 120 days ahead of time instead of 90 days. The notice would also have to include how the project will be measured.\n\nMoney to run the projects would come from Social Security’s administration funds. Benefit payments for people in the projects would come from the old-age and survivors trust fund or the disability insurance trust fund, as the Commissioner decides. A trust fund is a government account used for certain payments.\n\nThe bill says a person’s total income cannot be reduced because they take part in a test project. These changes would start on January 1, 2027.",
+  "prompt_tokens": 1140,
+  "completion_tokens": 475,
+  "total_tokens": 1615,
+  "cost_usd": 0.01995,
+  "latency_s": 10.187,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

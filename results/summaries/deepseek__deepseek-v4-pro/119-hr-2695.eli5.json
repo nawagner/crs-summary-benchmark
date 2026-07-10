@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill would extend a program that gives money to groups that help people recover from addiction. These groups are called \"communities of recovery.\" They offer support, like peer counseling, to help people stay healthy after addiction treatment.\n\nRight now, the law says the program can get up to $5 million each year. That amount was set for the years 2019 through 2023. This bill would replace those old numbers with new ones. It would allow the program to get up to $17 million each year starting in 2026 and continuing through 2030. A fiscal year is the government's budget year, which runs from October 1 to September 30.\n\nIf this bill becomes law, the grant program would be able to give out more money to local recovery organizations during those future years. The language in the bill only changes the dollar amount and the years. It does not change what the program does or add any new rules. The bill simply says the program may receive $17,000,000 per fiscal year from 2026 to 2030.",
+  "prompt_tokens": 469,
+  "completion_tokens": 700,
+  "total_tokens": 1169,
+  "cost_usd": 0.000813,
+  "latency_s": 13.084,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

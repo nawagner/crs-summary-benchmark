@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Lake Tahoe Restoration Reauthorization Act. It became a law on October 1, 2024. \n\nThe main goal of this law is to keep protecting Lake Tahoe. Lake Tahoe is a famous, large lake in the United States. In the past, Congress (the group of people who make laws for our country) passed a law to help take care of the lake. This new law extends that older law so the protection work can continue. \n\nIf this law did not pass, the old plan to help the lake would have run out of time. Now, because of this new law, the government can keep using money and working with partners to protect Lake Tahoe. The law says that the money for this work will be available until September 30, 2034.",
+  "prompt_tokens": 665,
+  "completion_tokens": 167,
+  "total_tokens": 832,
+  "cost_usd": 0.002501,
+  "latency_s": 1.695,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

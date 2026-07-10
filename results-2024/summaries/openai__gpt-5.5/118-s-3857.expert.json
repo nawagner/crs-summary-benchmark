@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "openai/gpt-5.5",
+  "summary": "The Jamul Indian Village Land Transfer Act, Pub. L. No. 118-199, takes specified lands in San Diego County, California, into trust for the benefit of the Jamul Indian Village of California and provides for an additional mandatory trust acquisition upon transfer to the United States.\n\nSection 1 provides the short title. Section 2(a) declares that approximately 172.10 acres described in section 2(b) “is held in trust by the United States” for the benefit of the Jamul Indian Village of California, thereby effecting the trust status by operation of law. Section 2(b) identifies four parcels: approximately 161.23 acres held in fee by the Tribe and described in San Diego County Recorder Document No. 2022-0010260; approximately 6 acres held in fee by the Tribe and described in Document No. 2021-0540770; approximately 4.03 acres described in Document No. 1998-0020339; and approximately 0.84 acres described in Document No. 2017-0410384.\n\nSection 2(c) creates a mandatory acquisition duty for the Secretary of the Interior: the Secretary “shall accept title in and to, and place into trust” for the Tribe the land depicted as “Proposed 1.1. acres” on the California Department of Fish and Wildlife map entitled “Amended Acres Proposal,” dated May 2023, if that land is conveyed or otherwise transferred to the United States by, or on behalf of, the Tribe. This provision is conditioned on such conveyance or transfer.\n\nSection 2(d) provides that land taken into trust under sections 2(a) and 2(c) shall be part of the Tribe’s reservation and administered under the laws and regulations generally applicable to property held in trust by the United States for the benefit of an Indian Tribe. Section 2(e) prohibits the use of all land described in sections 2(b) and 2(c) for any class II gaming or class III gaming under the Indian Gaming Regulatory Act, 25 U.S.C. 2701 et seq., using the definitions in IGRA section 4, 25 U.S.C. 2703. The Act contains no authorization of appropriations and makes no amendments to the United States Code.",
+  "prompt_tokens": 1156,
+  "completion_tokens": 540,
+  "total_tokens": 1696,
+  "cost_usd": 0.02198,
+  "latency_s": 9.778,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 185, introduced in the 119th Congress, directs the President to remove United States Armed Forces from unauthorized hostilities within or against the Islamic Republic of Iran. \n\nOperating pursuant to the statutory framework of section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a), and the expedited legislative procedures of section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329), Section 2(a) of the joint resolution mandates the removal of U.S. Armed Forces from hostilities within or against Iran. This removal mandate is subject to a condition precedent: it applies unless and until Congress explicitly authorizes such involvement via a declaration of war or a specific authorization for use of military force (AUMF). Section 1(4) of the resolution explicitly defines the introduction of United States Armed Forces into hostilities under section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)) to include the enforcement of a naval blockade.\n\nSection 2(b) establishes several rules of construction that limit the scope of the removal mandate. Specifically, the resolution does not prevent the United States from:\n1. Defending against attacks on the United States, its personnel, or its facilities located in other nations;\n2. Collecting, analyzing, or sharing intelligence regarding threats from Iran or its proxies with international organizations, other nations, and partner countries that have been attacked by Iran since February 28, 2026; and\n3. Assisting partner countries attacked by Iran since February 28, 2026, and other nations, by intercepting retaliatory attacks by Iran or its proxies, or by providing defensive materiel support for such defensive measures.",
+  "prompt_tokens": 1295,
+  "completion_tokens": 411,
+  "total_tokens": 1706,
+  "cost_usd": 0.005641,
+  "latency_s": 2.633,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

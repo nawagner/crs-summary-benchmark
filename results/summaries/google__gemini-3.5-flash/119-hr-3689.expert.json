@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Treatment, Recovery, Education, Awareness, and Training for Youth Act\" or the \"TREAT Youth Act\" (H.R. 3689) is a bipartisan bill that reauthorizes a youth prevention and recovery initiative under the Substance Use-Disorder Prevention that Promotes Opioid Recovery and Treatment for Patients and Communities Act (SUPPORT for Patients and Communities Act). \n\nThe sole operative mechanism of the bill is Section 2, which amends Section 7102(c)(9) of the SUPPORT for Patients and Communities Act (codified at 42 U.S.C. § 290bb-7a(c)(9)). Specifically, the bill strikes the existing paragraph (9) and substitutes a new authorization of appropriations to carry out the youth prevention and recovery program under subsection (c). \n\nThe bill establishes a five-year authorization of appropriations, escalating annually from fiscal year 2026 through fiscal year 2030. The specific authorized funding levels are structured as follows:\n* $10,000,000 for fiscal year 2026;\n* $12,000,000 for fiscal year 2027;\n* $13,000,000 for fiscal year 2028;\n* $14,000,000 for fiscal year 2029; and\n* $15,000,000 for fiscal year 2030.\n\nThe bill does not make any direct appropriations, establish conditions precedent, create material exceptions, or alter the underlying substantive authority or administration of the youth prevention and recovery program. No specific effective date is provided, meaning the legislation would take effect upon enactment.",
+  "prompt_tokens": 725,
+  "completion_tokens": 375,
+  "total_tokens": 1100,
+  "cost_usd": 0.004462,
+  "latency_s": 2.8,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

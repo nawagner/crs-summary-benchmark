@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the Autism CARES Act of 2024. It updates and continues United States government programs that help people with autism. Autism is a condition that affects how a person learns, communicates, and interacts with others.\n\nIf this bill becomes a law, it changes a few big things. It makes the government study autism across a person's whole life, including older adults. It also makes the government study how to help caregivers. The law increases the number of special autism research centers from five to seven. It lets the public share their ideas about autism research.\n\nThe bill says the government must write reports about the mental health needs of people with autism. It also requires a report within two years about the challenges young adults face when they grow up. The law lets the government help states and tribes get tools that help people with autism communicate.\n\nThe law allows more money to be spent on these programs. It allows $28.1 million, $56.344 million, and $306 million each year from 2025 through 2029. It extends the end date for many of these programs from December 2024 to September 30, 2029. Congress, which is the part of the government that makes laws, will receive updates on how the programs are doing.",
+  "prompt_tokens": 4144,
+  "completion_tokens": 2367,
+  "total_tokens": 6511,
+  "cost_usd": 0.006324,
+  "latency_s": 54.852,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

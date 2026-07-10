@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2670",
+  "candidate": "google__gemini-3.5-flash",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": false,
+      "why": "States up to 13 Block VI Virginia-class submarines; enacted Sec. 123 authorizes 10."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented provisions; cited statutes and figures (O&M branch totals, ERCIP) verified against the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Explicit 'Primary Purpose' section identifies the FY2024 NDAA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Names numerous amended provisions (10 U.S.C. 8062(e), 986, 989; 37 U.S.C. 356; 50 U.S.C. 1431; Defense Production Act)."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes national-security certifications, waivers up to 5 years, and numerical floors/carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites deadlines and effective dates (Aug. 31, 2024; Sept. 30, 2028; Oct. 1, 2029; 180 days after enactment)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Detailed coverage across appropriations, personnel, foreign, cyber/AI, and intelligence provisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear headed structure, internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Lengthy but substantive; organized without filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Statutory citations and programs verified (e.g., 37 U.S.C. 356 continuation pay, 50 U.S.C. 1431 inflation authority)."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": false,
+      "why": "Says up to 13 Virginia-class submarines; enacted figure is 10 (dollar figures otherwise verified)."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 10,
+  "meets_standard": false,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

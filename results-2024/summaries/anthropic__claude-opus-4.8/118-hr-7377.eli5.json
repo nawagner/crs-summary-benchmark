@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Royalty Resiliency Act.\" It became law on September 20, 2024.\n\nFirst, some background. Companies drill for oil and gas on land owned by the government. When they do, they must pay money to the government. This money is called a \"royalty.\" Sometimes companies join together and share a piece of land. When they do, the government has to decide how much oil and gas each company took. This is called an \"allocation.\"\n\nHere is what the law changes:\n\nThe government (led by the Secretary, a top official) must decide these allocations within 120 days after someone asks. That means about four months.\n\nWhile the government is still deciding, companies must keep paying their royalties every month. They pay based on the plan they proposed.\n\nAfter the government makes its decision, companies must fix their reports and payments if needed. They have until the end of the third month after they get the answer.\n\nThe law also talks about \"interest.\" Interest is extra money you owe when a payment is late. If companies pay their monthly royalties fully and on time, the government will not charge them this extra interest. This break lasts until the end of the third month after they get the decision.\n\nOne important rule: this law does not apply to agreements that include Indian lands.",
+  "prompt_tokens": 1307,
+  "completion_tokens": 357,
+  "total_tokens": 1664,
+  "cost_usd": 0.01546,
+  "latency_s": 6.825,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

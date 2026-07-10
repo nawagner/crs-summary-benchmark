@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is about government programs that help people who are addicted to opioids. Opioids are very strong pain medicines that can be dangerous if someone takes too much. There are special medicines called opioid overdose reversal drugs. They can quickly stop an overdose and save a person’s life. One well‑known reversal drug is called naloxone.\n\nThe bill tells the Department of Health and Human Services to change the way it writes rules for certain grant programs. (A grant program gives money to states or tribes to help people.) These grant programs fight opioid misuse and addiction. The new rule says that whenever the Department’s written materials mention an overdose reversal drug, they cannot talk only about naloxone. They must include any reversal drug that the Food and Drug Administration (FDA) has approved for emergency treatment of an opioid overdose.\n\nThe bill also says that for two specific grant programs, the Department must update any older rules within one year. The programs are the State and Tribal Opioid Response Grants and a grant program for important substance use prevention needs. After the update, those older rules will also refer to any FDA‑approved overdose reversal drug, not just naloxone. This makes the rules more flexible as new medicines are approved.",
+  "prompt_tokens": 814,
+  "completion_tokens": 1155,
+  "total_tokens": 1969,
+  "cost_usd": 0.001359,
+  "latency_s": 26.578,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7757",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is called the \"Kids Internet and Digital Safety Act,\" or \"KIDS Act.\" It tries to make the internet safer for kids under 17. Here are the big parts:\n\n**Blocking bad content:** Websites where more than one-third of the content is sexual and harmful to kids must use technology to check if a user is a minor. They must block minors from seeing that content. This starts one year after the law passes. Kids won't have to show a government ID.\n\n**Safety on apps and social media:** Big platforms must make tools to protect kids. Kids get the safest settings by default. Parents get tools to manage settings, limit screen time, and control spending. Platforms must let people report harm to a kid and answer within 10 days. They cannot advertise drugs, alcohol, tobacco, or gambling to kids.\n\n**Safer messaging:** Kids under 13 can't use direct messaging on these platforms. Disappearing messages are banned for all minors. Teens (13–16) get parent controls for messaging.\n\n**Video games:** Online games must give parents tools to limit who can talk to their kids.\n\n**AI chatbots:** Chatbots must tell kids they are not real people. They must share a crisis hotline if a kid talks about suicide. They must tell kids to take a break after 3 hours.\n\n**Studies and teaching:** The government will study social media, fentanyl sales, and chatbots, and teach families about online safety.\n\nThe Federal Trade Commission and states can enforce these rules.",
+  "prompt_tokens": 29561,
+  "completion_tokens": 476,
+  "total_tokens": 30037,
+  "cost_usd": 0.159705,
+  "latency_s": 8.099,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

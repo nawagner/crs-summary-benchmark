@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7332",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Utah State Parks Adjustment Act. It became a law on December 23, 2024. \n\nThe main goal of this law is to give certain pieces of land owned by the United States government to the state of Utah. This land will be added to three state parks: Antelope Island State Park, Wasatch Mountain State Park, and Fremont Indian State Park. \n\nThe government must give this land to Utah within 180 days of the law being passed. Utah does not have to pay for the land itself. However, the state must pay for any costs to measure the land, which is called a survey. \n\nFor the Fremont Indian State Park land, the government will keep rights to use the roads and trails. The government will also give Utah three specific water rights for a campground and a historic station. \n\nUtah must use all of this new land for public activities. This includes parks, campgrounds, outdoor fun, and allowed animal grazing. If Utah stops using the land for these public purposes, the United States government can take the land back.",
+  "prompt_tokens": 1836,
+  "completion_tokens": 224,
+  "total_tokens": 2060,
+  "cost_usd": 0.00477,
+  "latency_s": 2.248,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the FISHES Act. It is a new law to help people who work in the fishing industry after a disaster, like a bad storm. \n\nWhen a fishery disaster happens, the government can give money to help. To get this money, a group must write a \"spend plan.\" This plan is a paper that shows how they will use the money, what their goals are, and how much things will cost. \n\nUnder this law, the group must send their plan to a government leader called the Secretary within 120 days of learning that money is ready. The Secretary has 10 days to check the plan. If the plan is missing information, the Secretary must tell the group exactly what is missing. \n\nOnce the plan is complete, the government must give the money to the group within 90 days. Another government office, called the Office of Management and Budget, can look at the plan at the same time. However, they are not allowed to delay the 90-day deadline. This law makes sure the money gets to the people who need it without taking too long.",
+  "prompt_tokens": 1016,
+  "completion_tokens": 229,
+  "total_tokens": 1245,
+  "cost_usd": 0.003585,
+  "latency_s": 1.845,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "In 2025, Congress passed a law to cancel a rule from the Department of Energy. The Department of Energy is a part of the government that works on energy issues. The rule was about saving energy in certain appliances and commercial equipment. It would have set new rules for how companies prove that their products use energy efficiently, how they label the products, and how the government checks that the rules are followed. The rule was published on October 9, 2024. This law says Congress does not approve the rule. Because of that, the rule has no power and cannot be enforced. The law was approved on May 9, 2025.",
+  "prompt_tokens": 482,
+  "completion_tokens": 764,
+  "total_tokens": 1246,
+  "cost_usd": 0.000874,
+  "latency_s": 11.294,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

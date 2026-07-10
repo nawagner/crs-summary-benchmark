@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill would order the President to remove American troops from fighting in or against Iran, unless Congress has officially declared war or passed a law that specifically allows military force. The bill reminds everyone that under the Constitution, only Congress has the power to declare war, and it has not done so for this conflict.\n\nThe fighting, called Operation Epic Fury, began on February 28, 2026. By April 8, 2026, 13 U.S. service members had been killed and 380 wounded. The President told Congress that the full scope and length of the operations were unknown.\n\nIf the bill becomes law, the removal of troops would have to happen. But the bill also says the United States could still:\n- defend itself or its people and facilities in other countries if attacked,\n- collect and share intelligence with allies who were attacked by Iran after February 28, 2026,\n- help those allies defend against attacks from Iran or its proxies, including giving defensive equipment, and\n- help American citizens leave the area safely.\n\nThese exceptions mean the United States would not have to stop all military activity—just the fighting that Congress has not approved.",
+  "prompt_tokens": 1232,
+  "completion_tokens": 1236,
+  "total_tokens": 2468,
+  "cost_usd": 0.001611,
+  "latency_s": 15.82,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

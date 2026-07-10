@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-172",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill tells the President to pull United States soldiers out of fighting in or against Iran. Congress (the part of the government that makes laws) has not officially declared war on Iran. The bill says that on February 28, 2026, the United States started a military campaign against Iran. By April 8, 2026, 13 American soldiers had died and 380 were hurt. A ceasefire, which is a stop in fighting, started that same day. But the United States then announced a blockade, which means blocking ships from passing through.\n\nIf this bill becomes a law, the President must remove the troops unless Congress officially votes to declare war or allows the use of military force. However, the bill makes clear that the United States can still do a few things. The military can still defend against attacks on the United States or its people. The country can still share information with allies like Israel. The United States can still help other countries defend themselves from Iran. Finally, the government can still help American citizens leave the area safely.",
+  "prompt_tokens": 1345,
+  "completion_tokens": 991,
+  "total_tokens": 2336,
+  "cost_usd": 0.002435,
+  "latency_s": 14.771,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "openai/gpt-5.5",
+  "summary": "The MATE Improvement Act amends the Controlled Substances Act to clarify and expand the entities, accrediting bodies, and professional-school curricula that may satisfy the training requirement applicable to prescribers of controlled substances under section 303 of the Controlled Substances Act, 21 U.S.C. 823.\n\nSection 2(a) first corrects the codification of section 303 by redesignating the second subsection designated as subsection (l) as subsection (m). It then amends section 303(m)(1), as redesignated, which contains the required training provisions for covered practitioners seeking or maintaining registration to dispense controlled substances.\n\nIn section 303(m)(1)(A)(iv)(I), the bill adds the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, and the American Optometric Association to the list of organizations whose training may qualify, and adds the Council on Podiatric Medical Education to the list of accrediting or approving bodies referenced in that clause. It also makes conforming punctuation changes. In section 303(m)(1)(A)(iv)(III), it adds the American Academy of Family Physicians to the referenced organizations. In section 303(m)(1)(A)(v), the bill expands the relevant professional education pathway by adding “podiatric medicine” to the enumerated degree programs and by referring to “dental or podiatric medicine curriculum” rather than only “dental medicine curriculum.”\n\nSection 2(a) also amends section 303(m)(1)(B). In clause (i), it adds the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians to the listed organizations, and separately adds the American Academy of Family Physicians to the list preceding the Accreditation Council reference. In clause (ii), it revises the school-based formulation to include “an accredited school” and expressly adds “an accredited school of pharmacy” in the United States.\n\nSection 2(b) provides that all amendments made by section 2(a) take effect as if enacted on December 29, 2022. The bill contains no authorization of appropriations, direct appropriation, sunset, or separate implementation deadline.",
+  "prompt_tokens": 934,
+  "completion_tokens": 1474,
+  "total_tokens": 2408,
+  "cost_usd": 0.04889,
+  "latency_s": 35.08,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

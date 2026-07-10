@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The bill, cited as the “FAFSA Deadline Act,” amends section 483(d)(4) of the Higher Education Act of 1965 (20 U.S.C. 1090(d)(4)) to establish an earlier, mandatory deadline for the Free Application for Federal Student Aid (FAFSA) application processing cycle and to impose new certification and testimony requirements on the Secretary of Education.\n\nSection 2 amends the existing statutory deadline by striking the language that required the Secretary to make the FAFSA application available “not later than January 1 of the applicant's planned year of enrollment, to the maximum extent practicable, on or around October 1 prior to the applicant's planned year of enrollment” and inserting a fixed deadline of “not later than October 1 prior to the applicant's planned year of enrollment.” This change eliminates the January 1 backstop and the “maximum extent practicable” qualifier, making October 1 the sole statutory deadline.\n\nSection 3 further amends section 483(d)(4) by designating the existing text as subparagraph (A) under the heading “In general” and adding a new subparagraph (B) titled “Certification and testimony requirements.” Under new subparagraph (B), the Secretary must, prior to the initiation of each application processing cycle, take the following actions: not later than September 1, certify to the authorizing committees either that the Department will meet the October 1 deadline or that it will not meet the deadline; and, in the case of a certification of anticipated failure, not later than September 30, testify before the authorizing committees on the anticipated failure and its financial impact on students and families. The term “authorizing committees” is not defined in the bill. The Act contains no authorization of appropriations, no sunset provision, and no delayed effective date; it took effect upon enactment on December 11, 2024.",
+  "prompt_tokens": 833,
+  "completion_tokens": 389,
+  "total_tokens": 1222,
+  "cost_usd": 0.000701,
+  "latency_s": 14.494,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

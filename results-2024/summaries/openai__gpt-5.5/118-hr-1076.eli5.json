@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "openai/gpt-5.5",
+  "summary": "This law tells the Comptroller General to study how illegal synthetic drugs are brought into the United States and how the money behind that trade works. The Comptroller General leads the Government Accountability Office, or GAO. GAO checks how the government is doing its work.\n\nThe study must look at drugs such as fentanyl, methamphetamine, Captagon, related substances, and chemicals used to make fentanyl and methamphetamine. It must study criminal groups, possible terror groups, the countries and routes they use, and how they buy supplies, make drugs, sell them, and move the money.\n\nThe study must also look at how drug trafficking may connect with human trafficking. It must look at online drug markets, social media, and payment apps, including Snapchat, Discord, Facebook, and Cash App, especially when young people are involved.\n\nGAO must also review what the U.S. Government is doing to fight this illegal money activity. This includes how agencies work together, how they work with state or local governments, and how they work with private groups. GAO must point out any gaps or missing resources.\n\nGAO must give Congress a report with its findings within one year after September 13, 2024.",
+  "prompt_tokens": 1413,
+  "completion_tokens": 368,
+  "total_tokens": 1781,
+  "cost_usd": 0.018105,
+  "latency_s": 8.185,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

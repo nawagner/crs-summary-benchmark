@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "Congress passed a law to cancel a new government rule about energy savings. The rule was made by the Department of Energy, which is a part of the government that deals with how we use power. The rule would have set energy-saving standards for walk-in coolers and walk-in freezers. These are large refrigerated rooms that people can walk into, like the cold storage rooms in grocery stores or restaurants.\n\nThe rule was published on December 23, 2024. It was meant to make these coolers and freezers use less energy. But Congress used a special process to disapprove, or reject, the rule. This law says that the rule will have no force or effect. That means the rule is canceled and cannot be enforced.\n\nThe cancellation became law on May 9, 2025, when the President approved it. As a result, the energy standards from that rule will not happen. The old rules, if any, stay in place.",
+  "prompt_tokens": 465,
+  "completion_tokens": 660,
+  "total_tokens": 1125,
+  "cost_usd": 0.000776,
+  "latency_s": 15.292,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

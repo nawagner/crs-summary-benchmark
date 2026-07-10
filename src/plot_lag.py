@@ -1,7 +1,16 @@
-"""Render docs/data/lag.json as a polished chart image (docs/assets/crs-lag.png).
+"""Render docs/data/lag.json as polished chart images.
 
-Keeps the website dependency-free: matplotlib draws the chart here, the site just shows
-the resulting PNG. Run after analyze_lag.py.
+Two charts, so each tells one clean story instead of overloading a single plot:
+- docs/assets/crs-lag.png        — coverage by month of introduction (the timing lag),
+                                    from the random sample.
+- docs/assets/crs-lag-stages.png — coverage by furthest legislative stage reached
+                                    (introduced / committee / floor), from the FULL
+                                    census. This is the reliable "CRS covers what moves"
+                                    signal; the per-month sample is too thin to show it
+                                    over time, so it lives in its own bar chart.
+
+Keeps the website dependency-free: matplotlib draws the charts here, the site just shows
+the resulting PNGs. Run after analyze_lag.py.
 """
 from __future__ import annotations
 
@@ -28,6 +37,13 @@ GRID = "#eaedf1"
 # light slate -> deep navy, so taller (better-covered) bars read darker
 CMAP = LinearSegmentedColormap.from_list("crsnavy", ["#bcd0e4", "#2b6aa3", "#173a5e"])
 
+# stage-chart rows, top to bottom (furthest-advanced first)
+STAGE_ROWS = [
+    ("floor", "Reached the floor"),
+    ("committee", "Committee action"),
+    ("introduced", "Introduced only"),
+]
+
 for fam in ("Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"):
     if any(fam in f.name for f in font_manager.fontManager.ttflist):
         plt.rcParams["font.family"] = fam
@@ -47,8 +63,73 @@ def rounded_bars(ax, xs, vals, width=0.66, radius=0.10):
             facecolor=CMAP(min(1.0, v / 95)), zorder=3))
 
 
-def main() -> None:
-    d = json.load(open(C.DOCS_DATA / "lag.json"))
+def plot_stages(d: dict, out_path: Path) -> plt.Figure | None:
+    """Horizontal bar chart of CRS coverage by furthest legislative stage reached.
+
+    Uses the full-census `stages` block (every hr/s bill classified), not the monthly
+    sample — this is the clean "CRS covers what moves" signal. Returns None (writes
+    nothing) if the data has no stages block, so old lag.json files are unaffected.
+    """
+    stages = d.get("stages")
+    if not stages:
+        return None
+    rows = [(label, stages[key]) for key, label in STAGE_ROWS if stages.get(key)]
+    if not rows:
+        return None
+
+    fig, ax = plt.subplots(figsize=(9.6, 2.7), dpi=200)
+    fig.patch.set_facecolor("white")
+    ax.set_facecolor("white")
+
+    ys = list(range(len(rows)))[::-1]  # first row (floor) on top
+    for y, (label, s) in zip(ys, rows):
+        pct = (s.get("pct") or 0) * 100
+        ax.add_patch(FancyBboxPatch(
+            (0, y - 0.28), max(pct, 0.4), 0.56,
+            boxstyle="round,pad=0,rounding_size=0.11",
+            mutation_aspect=0.5, linewidth=0,
+            facecolor=CMAP(min(1.0, pct / 95)), zorder=3))
+        # value + count stacked just past the bar end; clip_on=False lets the long
+        # floor bar's label render into the right margin instead of being cut off.
+        ax.text(pct + 2, y + 0.10, f"{round(pct)}%", ha="left", va="center",
+                fontsize=13, color=INK, fontweight="bold", clip_on=False)
+        summ, total = s.get("summarized", 0), s.get("total", 0)
+        ax.text(pct + 2.2, y - 0.24, f"{summ:,} of {total:,}", ha="left", va="center",
+                fontsize=8, color=FAINT, clip_on=False)
+
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-0.6, len(rows) - 0.4)
+    ax.set_yticks(ys)
+    ax.set_yticklabels([label for label, _ in rows], fontsize=11, color=INK)
+    ax.set_xticks([0, 25, 50, 75, 100])
+    ax.set_xticklabels(["0", "25", "50", "75", "100%"], fontsize=9, color=FAINT)
+    ax.tick_params(length=0)
+    ax.grid(axis="x", color=GRID, linewidth=1.1, zorder=0)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    asof = d.get("generated_at", "").split(" ")[0]
+    ax.text(0.0, -0.32,
+            f"119th Congress · every House + Senate bill classified by furthest stage "
+            f"reached (full census) · as of {asof}",
+            transform=ax.transAxes, ha="left", va="top", fontsize=8.5, color=FAINT)
+
+    fig.subplots_adjust(top=0.96, bottom=0.22, left=0.17, right=0.90)
+    fig.savefig(out_path, facecolor="white")
+    print(f"wrote {out_path}")
+    return fig
+
+
+def main(data_path: Path | None = None, out_path: Path | None = None,
+         stages_out: Path | None = None) -> plt.Figure:
+    if data_path is None:
+        data_path = C.DOCS_DATA / "lag.json"
+    if out_path is None:
+        out_path = C.ROOT / "docs" / "assets" / "crs-lag.png"
+    if stages_out is None:
+        stages_out = C.ROOT / "docs" / "assets" / "crs-lag-stages.png"
+
+    d = json.load(open(data_path))
     months = d["months"]
     labels = [datetime.strptime(m["month"], "%Y-%m").strftime("%b '%y") for m in months]
     cov = [m["coverage"] * 100 for m in months]
@@ -90,10 +171,24 @@ def main() -> None:
             transform=ax.transAxes, ha="center", va="top", fontsize=8.5, color=FAINT)
 
     fig.subplots_adjust(top=0.94, bottom=0.16, left=0.06, right=0.985)
-    out = C.ROOT / "docs" / "assets" / "crs-lag.png"
-    fig.savefig(out, facecolor="white")
-    print(f"wrote {out}")
+    fig.savefig(out_path, facecolor="white")
+    print(f"wrote {out_path}")
+
+    # second chart: coverage by legislative stage (from the census). No-op on old data.
+    plot_stages(d, stages_out)
+    return fig
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data", type=Path, default=C.DOCS_DATA / "lag.json",
+                         help="path to lag.json (default: docs/data/lag.json)")
+    parser.add_argument("--out", type=Path, default=C.ROOT / "docs" / "assets" / "crs-lag.png",
+                         help="path to write the monthly chart PNG (default: docs/assets/crs-lag.png)")
+    parser.add_argument("--stages-out", type=Path,
+                         default=C.ROOT / "docs" / "assets" / "crs-lag-stages.png",
+                         help="path to write the stage-coverage chart PNG")
+    args = parser.parse_args()
+    main(args.data, args.out, args.stages_out)

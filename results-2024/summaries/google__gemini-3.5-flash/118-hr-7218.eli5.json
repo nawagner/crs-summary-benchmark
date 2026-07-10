@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the \"BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024.\" \n\nThe main goal of this law is to help people learn more about Alzheimer’s disease and dementia. Alzheimer’s and dementia are illnesses that affect the brain, making it hard for people to remember things as they grow older. \n\nTo help with this, the government has a special program. This program shares important health facts and teaches the public about these brain illnesses. \n\nIf this law passes, it will keep the program running for five more years. Specifically, the government will give $33,000,000 each year from 2025 through 2029 to pay for this work. This money will help doctors, scientists, and teachers continue to share helpful information with families across the country.",
+  "prompt_tokens": 640,
+  "completion_tokens": 177,
+  "total_tokens": 817,
+  "cost_usd": 0.002553,
+  "latency_s": 1.699,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

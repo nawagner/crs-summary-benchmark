@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The \"Medication Access and Training Expansion Improvement Act\" or the \"MATE Improvement Act\" (S. 946) amends Section 303 of the Controlled Substances Act (21 U.S.C. 823) to expand and clarify the qualifying training and educational pathways required for practitioners registering or renewing registrations to prescribe controlled substances. \n\nSection 2(a)(1) of the bill executes a technical amendment by redesignating the second subsection designated as subsection (l) of 21 U.S.C. 823 as subsection (m). Section 2(a)(2) amends the newly redesignated subsection (m)(1), which governs the training requirements for practitioners. \n\nSpecifically, the bill amends the list of approved organizations authorized to provide the requisite training under 21 U.S.C. 823(m)(1)(A)(iv)(I) to include the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, the American Optometric Association, and the Council on Podiatric Medical Education. It also amends subclause (III) of that clause to permit the American Academy of Family Physicians to approve training modules. \n\nFurthermore, Section 2(a)(2)(A)(ii) amends 21 U.S.C. 823(m)(1)(A)(v) to permit practitioners to satisfy the training requirement by graduating in good standing from an accredited school of podiatric medicine, or a podiatric medicine curriculum, within five years of their registration application. \n\nFor non-physician practitioners, Section 2(a)(2)(B) amends 21 U.S.C. 823(m)(1)(B)(i) to add the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians to the list of organizations authorized to provide qualifying training. Finally, Section 2(a)(2)(B)(ii) amends 21 U.S.C. 823(m)(1)(B)(ii) to allow these practitioners to satisfy the training requirement by graduating in good standing from an accredited school of pharmacy within five years of application.\n\nPursuant to Section 2(b), the effective date for all amendments made by subsection (a) is retroactive, taking effect as if enacted on December 29, 2022.",
+  "prompt_tokens": 1012,
+  "completion_tokens": 520,
+  "total_tokens": 1532,
+  "cost_usd": 0.006198,
+  "latency_s": 3.381,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

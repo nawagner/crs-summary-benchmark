@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.J. Res. 27 is a joint resolution that invokes the legislative disapproval mechanism of the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. The primary operative purpose of the resolution is to nullify the joint administrative rule promulgated by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency regarding the \"Revised Definition of 'Waters of the United States'\" (88 Fed. Reg. 3004 (January 18, 2023)). \n\nUnder the sole operative clause of the resolution, Congress declares its disapproval of the specified rule and mandates that the rule \"shall have no force or effect.\" Pursuant to the statutory framework of the CRA (specifically 5 U.S.C. § 801(b)(2)), the enactment of this joint resolution would prevent the rule from taking effect or continuing in effect, and would prohibit the agencies from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the joint resolution. \n\nThe text contains no appropriations, authorizations of appropriations, sunsets, exceptions, or conditions precedent. The resolution passed the House of Representatives on March 9, 2023, and was received in the Senate on March 14, 2023.",
+  "prompt_tokens": 519,
+  "completion_tokens": 297,
+  "total_tokens": 816,
+  "cost_usd": 0.003452,
+  "latency_s": 2.43,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

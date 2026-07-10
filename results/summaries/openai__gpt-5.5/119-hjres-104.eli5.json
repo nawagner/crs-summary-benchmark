@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels a rule from the Bureau of Land Management, or BLM. BLM is a government agency that manages some public lands.\n\nThe rule was about the “Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.” It was issued on November 20, 2024. A resource management plan is a plan for how certain public lands may be used or managed.\n\nCongress used the Congressional Review Act. This is a law that lets Congress review and reject some agency rules. The Government Accountability Office, a government office that checks federal work, said on June 25, 2025, that this BLM action counted as a rule under that law.\n\nBecause Congress disapproved it, the rule has “no force or effect.” This means the rule is canceled and cannot be used as law or policy.\n\nThe House passed the measure on September 3, 2025. The Senate passed it on October 8, 2025. It was approved on December 11, 2025.",
+  "prompt_tokens": 521,
+  "completion_tokens": 445,
+  "total_tokens": 966,
+  "cost_usd": 0.015955,
+  "latency_s": 9.688,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

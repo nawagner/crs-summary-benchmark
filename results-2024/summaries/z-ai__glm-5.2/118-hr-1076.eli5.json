@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the \"Preventing the Financing of Illegal Synthetic Drugs Act.\" It orders a government official called the Comptroller General to do a big study. The Comptroller General is the person who checks how the government works and spends money.\n\nThe study will look at how criminals make and sell illegal synthetic drugs, like fentanyl. It will focus on how these criminals get paid and move their money. The study will look at how criminal groups run their business. This includes how they use social media apps like Snapchat, Discord, and Facebook, and payment apps like CashApp to sell drugs. It will also check if human trafficking is connected to this drug trafficking. Finally, it will see what the United States government is doing to stop this illegal money and find out if they need more help.\n\nThe Comptroller General must finish this study and write a report. The report is due to Congress within one year after the law started on September 13, 2024. Congress is the group of lawmakers who make the rules for the country. The report will share everything they learn about this illegal drug money.",
+  "prompt_tokens": 1423,
+  "completion_tokens": 1013,
+  "total_tokens": 2436,
+  "cost_usd": 0.002515,
+  "latency_s": 19.187,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

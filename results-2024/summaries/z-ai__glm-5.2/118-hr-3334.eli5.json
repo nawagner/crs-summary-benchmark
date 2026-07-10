@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3334",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"STOP CCP Act.\" It tells the President to punish certain leaders in China's ruling group, the Chinese Communist Party. The President must do this within 30 days after the bill becomes a law.\n\nThe punishments, called sanctions, would apply to party leaders who help make rules that harm people in Hong Kong or Taiwan, hurt the human rights of groups like Uyghur Muslims, or try to interfere with U.S. elections. The sanctions also apply to their adult family members and to Chinese government-owned businesses that illegally make or sell fentanyl, a dangerous drug.\n\nIf this law passes, these people would have any money or property they own in the United States frozen. They would also not be allowed to enter the United States, and any current visas (travel passes) would be canceled. \n\nThe President can pause these punishments for up to 60 days if it is needed for national security. The President can stop the punishments if China stops the harmful actions, like ending the abuse of Uyghur Muslims or stopping threats against Taiwan, or if the person leaves the Communist Party. The President's power to pause these punishments ends two years after the law passes. The law does not stop goods from being imported into the United States.",
+  "prompt_tokens": 3517,
+  "completion_tokens": 1212,
+  "total_tokens": 4729,
+  "cost_usd": 0.004,
+  "latency_s": 6.268,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

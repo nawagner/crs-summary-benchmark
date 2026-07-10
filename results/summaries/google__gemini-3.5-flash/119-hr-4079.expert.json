@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-4079",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Introduced as H.R. 4079, the \"Safer Response Act of 2025,\" this bill amends Section 546 of the Public Health Service Act (42 U.S.C. § 290ee-1) to reauthorize and expand the scope of the First Responder Training Program. \n\nThe bill’s primary operative mechanism is the modification of statutory language to broaden the types of drugs and overdose reversal devices covered under the grant program, alongside an increase in authorized funding. Specifically, Section 2 of the bill amends subsections (a), (c), (d), and (f) of 42 U.S.C. § 290ee-1 by striking the term \"approved or cleared\" each place it appears and inserting \"approved, cleared, or otherwise legally marketed.\" This change expands the scope of eligible overdose reversal devices to include those that are legally marketed under other regulatory pathways. \n\nAdditionally, the bill broadens the clinical scope of the training program by removing the restrictive modifier \"opioid\" from subsections (a), (c), (d), and (f)(1). It further amends subsection (f)(2) to strike \"opioid and heroin\" and insert \"opioid, heroin, and other drug,\" and to strike \"opioid overdose\" and insert \"overdose.\" Subsection (f)(3) is similarly amended to strike \"opioid and heroin.\" These changes collectively expand the program's focus from opioid-specific overdoses to drug overdoses more generally. Section 2(1) also makes a technical amendment to subsection (a) by capitalizing \"tribes and tribal\" to read \"Tribes and Tribal.\"\n\nFinally, Section 2(4) amends the program's authorization of appropriations in subsection (h). It strikes the prior authorization of $36,000,000 for each of fiscal years 2019 through 2023, and inserts a new authorization of $57,000,000 for each of fiscal years 2026 through 2030. The bill does not appropriate funds directly, maintaining the distinction between authorized levels and subsequent discretionary appropriations. No effective dates, conditions precedent, or sunsets are otherwise specified.",
+  "prompt_tokens": 795,
+  "completion_tokens": 475,
+  "total_tokens": 1270,
+  "cost_usd": 0.005468,
+  "latency_s": 3.573,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

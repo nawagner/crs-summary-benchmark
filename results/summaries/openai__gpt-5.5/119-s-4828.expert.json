@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "openai/gpt-5.5",
+  "summary": "The Declaration of Independence Reaffirmation Act of 2026 is a standalone enactment whose primary purpose is to reaffirm and re-adopt the Declaration of Independence as an Organic Law of the United States. The bill does not amend the United States Code, repeal existing law, create an administrative program, confer rulemaking authority, authorize appropriations, or make an appropriation.\n\nSection 1 provides the short title, “Declaration of Independence Reaffirmation Act of 2026.”\n\nSection 2 sets forth congressional findings concerning the adoption and legal-political significance of the Declaration of Independence; its recognition among the Organic Laws of the United States; the adoption of the Northwest Ordinance by the Congress of the Confederation in 1787 and its reenactment by the First Congress in 1789; Congress’s asserted authority to recognize, reaffirm, and carry forward foundational laws and principles of the American political order; and the relationship between the Declaration of Independence and the Constitution of the United States. The findings also state that the 250th anniversary of American independence calls for congressional reaffirmation of the Declaration as the charter of American sovereignty, natural rights, equal citizenship, and government by consent.\n\nSection 3 contains the bill’s operative reaffirmation clause. It provides that Congress “reaffirms and re-adopts” the Declaration of Independence as an Organic Law of the United States and as the enduring charter of American independence, national sovereignty, natural rights, equal citizenship, and government by consent.\n\nSection 4, in commemoration of the 250th anniversary of American independence, sets forth the full text of the Declaration of Independence. This section is declaratory and commemorative in form; it does not specify codification instructions or direct any executive officer or agency to take implementation action.\n\nThe bill contains no express effective date, sunset, reporting requirement, condition precedent, enforcement mechanism, or limitation on the legal effect of the reaffirmation.",
+  "prompt_tokens": 2688,
+  "completion_tokens": 487,
+  "total_tokens": 3175,
+  "cost_usd": 0.02805,
+  "latency_s": 13.317,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

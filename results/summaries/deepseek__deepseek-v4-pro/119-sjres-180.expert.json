@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-180",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "S.J. Res. 180 directs the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress. The operative mechanism invokes section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a) and section 601(b) of the International Security Assistance and Arms Export Control Act of 1976 (Public Law 94-329), thereby triggering expedited congressional procedures for a joint resolution requiring such removal.\n\nSection 1 sets forth nine congressional findings. These findings assert Congress’s exclusive constitutional power to declare war under article I, section 8, clause 11; note the absence of a declaration of war or specific statutory authorization for use of military force against Iran; reference the President’s March 2, 2026 War Powers Resolution notification (50 U.S.C. 1543(a)) regarding Operation Epic Fury, which commenced February 28, 2026; and characterize the introduction of forces into hostilities as falling within section 4(a) of the War Powers Resolution (50 U.S.C. 1543(a)). The findings also cite the expedited consideration provision in section 1013 of the Department of State Authorization Act, Fiscal Years 1984 and 1985 (50 U.S.C. 1546a).\n\nSection 2(a) directs the President to remove United States Armed Forces from hostilities within or against Iran, unless such hostilities are explicitly authorized by a declaration of war or a specific authorization for use of military force. Section 2(b) contains a rule of construction preserving the authority to: (1) defend against an attack on the United States or its personnel or facilities in other nations; (2) collect, analyze, or share intelligence related to defending against threats from Iran or its proxies, including with partner countries attacked by Iran since February 28, 2026; (3) assist partner countries attacked by Iran since February 28, 2026, in intercepting retaliatory attacks or by providing defensive materiel support for such defensive measures; and (4) provide assistance for the security, departure, and evacuation of United States citizens affected by the hostilities.\n\nThe resolution does not contain an authorization of appropriations, an effective date provision, or a sunset clause. It operates as a binding statutory directive contingent upon the absence of a declaration of war or specific statutory authorization for the use of military force.",
+  "prompt_tokens": 1264,
+  "completion_tokens": 503,
+  "total_tokens": 1767,
+  "cost_usd": 0.000987,
+  "latency_s": 18.814,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

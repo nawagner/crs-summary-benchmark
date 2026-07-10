@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-94, the \"Lake Tahoe Restoration Reauthorization Act\" (S. 612), enacted October 1, 2024, extends the temporal availability of two authorities under the Lake Tahoe Restoration Act (Public Law 106-506). The Act's primary purpose is reauthorization; its operative mechanism consists of two conforming amendments to existing statutory text.\n\nSection 2(a) amends Section 4(f) of the Lake Tahoe Restoration Act, which governs cooperative authorities. It strikes the existing durational limitation—\"4 fiscal years following the date of enactment of the Water Resources Development Act of 2016\"—and substitutes a period \"beginning on the date of enactment of this subsection and ending on the date described in section 10(a).\" This ties the sunset of the cooperative authorities to the appropriations availability date fixed by the second amendment, rather than to a fixed number of fiscal years measured from the 2016 WRDA.\n\nSection 2(b) amends Section 10(a) of the Lake Tahoe Restoration Act, the authorization of appropriations provision. It strikes the phrase \"for a period\" and all subsequent text through the period at the end, inserting in lieu thereof \", to remain available until September 30, 2034.\" The effect is to establish a period of availability for appropriated funds running through the end of fiscal year 2034.\n\nThe Act does not itself appropriate funds; it operates solely on the authorization and availability framework of the underlying statute. It contains no new grant of substantive authority beyond the extension of the existing cooperative authorities under Section 4(f), and it specifies no additional exceptions, conditions precedent, or deadlines beyond the September 30, 2034 availability terminus that now anchors both amended provisions. No separate effective date is provided; the amendments take effect upon enactment on October 1, 2024.\n\nLegislative history reflects Senate passage on July 10, 2024, and House passage on September 24, 2024, with committee reports from the Senate Committee on Energy and Natural Resources (S. Rep. No. 118-55) and the House Committee on Natural Resources (H.R. Rep. No. 118-702, Pt. 1).",
+  "prompt_tokens": 1074,
+  "completion_tokens": 724,
+  "total_tokens": 1798,
+  "cost_usd": 0.02347,
+  "latency_s": 9.678,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

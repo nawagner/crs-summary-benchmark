@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, cited as the Communities of Recovery Reauthorization Act of 2025, serves the primary purpose of reauthorizing and increasing the authorization of appropriations for grants established to build communities of recovery. The operative mechanism is a targeted amendment to the Public Health Service Act. \n\nSection 2 of the bill amends Section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f)). The amendment is effectuated by striking the phrase \"$5,000,000 for each of fiscal years 2019 through 2023\" and inserting in its place the phrase \"$17,000,000 for each of fiscal years 2026 through 2030.\" Consequently, the legislation modifies the existing authorization of appropriations by both increasing the annual authorized amount from $5,000,000 to $17,000,000 and shifting the authorization window forward to cover fiscal years 2026 through 2030.\n\nAs a matter of statutory construction, this provision constitutes an authorization of appropriations. It does not itself appropriate funds, meaning actual discretionary funding remains subject to the subsequent annual appropriations process. The bill text contains no material exceptions, conditions precedent, or express statutory effective dates. Absent a specified effective date, the amendment would take effect upon enactment pursuant to standard statutory construction. The legislation contains no other substantive provisions beyond the short title established in Section 1 and the reauthorization amendment executed in Section 2.",
+  "prompt_tokens": 503,
+  "completion_tokens": 1495,
+  "total_tokens": 1998,
+  "cost_usd": 0.00284,
+  "latency_s": 21.013,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Energy Emergency Leadership Act.\" It changes the rules for the Department of Energy. \n\nRight now, the Department of Energy has Assistant Secretaries who help run the agency. This bill gives one of them a new job. The new job is to handle energy emergency and energy security tasks. \n\nIf this bill becomes a law, this Assistant Secretary will be in charge of protecting energy systems, like power grids. They will plan for emergencies and deal with threats, including computer hacking, which is also called cybersecurity. \n\nThe bill also says that if a state, city, Native American tribe, or energy company asks for help, the Assistant Secretary must help them. They will give advice and support to find and respond to energy dangers. \n\nFinally, the head of the Department of Energy, who is called the Secretary, must make sure this Assistant Secretary works together with other parts of the government to do these jobs.",
+  "prompt_tokens": 792,
+  "completion_tokens": 838,
+  "total_tokens": 1630,
+  "cost_usd": 0.00187,
+  "latency_s": 10.569,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

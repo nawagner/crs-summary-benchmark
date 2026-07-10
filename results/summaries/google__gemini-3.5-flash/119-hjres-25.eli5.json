@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-25",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a decision made by both the House of Representatives and the Senate, which are the two parts of the United States Congress. When the President signs it, it becomes a law. \n\nThis law stops a specific rule made by the Internal Revenue Service, which is also called the IRS. The IRS is the government agency that collects taxes. \n\nThe IRS rule was called \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales.\" It was published on December 30, 2024. This rule was about how brokers, who are people or businesses that help others buy and sell things, must report money made from selling digital assets. Digital assets can include things like cryptocurrency, which is digital money. \n\nBecause of this new law, Congress officially disapproves of that IRS rule. The law states that the IRS rule will have no force or effect. This means the rule is canceled, and people do not have to follow it. This law was approved on April 10, 2025.",
+  "prompt_tokens": 523,
+  "completion_tokens": 221,
+  "total_tokens": 744,
+  "cost_usd": 0.002773,
+  "latency_s": 2.577,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

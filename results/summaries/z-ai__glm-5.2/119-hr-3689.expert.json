@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.R. 3689, the “Treatment, Recovery, Education, Awareness, and Training for Youth Act” or the “TREAT Youth Act,” amends the SUPPORT for Patients and Communities Act to reauthorize a youth prevention and recovery initiative. \n\nThe bill’s operative mechanism is an amendment to Section 7102(c)(9) of the SUPPORT for Patients and Communities Act (42 U.S.C. 290bb-7a(c)(9)). Specifically, the bill strikes and replaces the existing authorization of appropriations provision with new authorization levels to carry out the subsection. The amended provision authorizes the appropriation of $10,000,000 for fiscal year 2026, $12,000,000 for fiscal year 2027, $13,000,000 for fiscal year 2028, $14,000,000 for fiscal year 2029, and $15,000,000 for fiscal year 2030. \n\nThe bill provides authorizations of appropriations only; it does not appropriate funds. No specific effective date is provided, meaning the amendment would take effect upon enactment. The bill contains no additional provisions, exceptions, or conditions precedent.",
+  "prompt_tokens": 635,
+  "completion_tokens": 450,
+  "total_tokens": 1085,
+  "cost_usd": 0.001119,
+  "latency_s": 3.455,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

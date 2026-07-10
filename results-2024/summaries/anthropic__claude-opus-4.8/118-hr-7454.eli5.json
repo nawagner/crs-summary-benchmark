@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is called the \"Airport and Airway Extension Act of 2024.\" Its main job is to keep money and rules flowing for airports and air travel for a little longer.\n\nHere's the big idea. Many airport programs were set to end on March 8, 2024. This law pushes many of those end dates to May 10 or May 11, 2024. So it gives everyone more time before Congress makes a bigger, longer plan.\n\nThe law also gives money to different airplane and airport programs. It sets dollar amounts for the time from October 1, 2023, to May 10, 2024. Here are some examples:\n- About $2 billion to help fix and improve airports.\n- About $7.2 billion to run the Federal Aviation Administration (the FAA is the group in charge of air travel safety).\n- Money to help small towns keep their airplane service.\n- Money for weather reporting and airport safety research.\n\nThe law also keeps certain taxes going, like taxes on plane fuel and on plane tickets. These taxes pay into a special money pot called the Airport and Airway Trust Fund. The law extends the right to collect these taxes and to spend from that fund.\n\nFinally, it extends rules for drones (small unmanned aircraft) and for keeping airports safe.\n\nIn short, this law does not make big new changes. It mostly extends old rules and money for a short time.",
+  "prompt_tokens": 5778,
+  "completion_tokens": 425,
+  "total_tokens": 6203,
+  "cost_usd": 0.039515,
+  "latency_s": 8.133,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

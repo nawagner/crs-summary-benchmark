@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 109 is a joint resolution providing for congressional disapproval, pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act), of a rule submitted by the Securities and Exchange Commission (SEC) relating to \"Staff Accounting Bulletin No. 121.\" \n\nThe resolution's operative mechanism formally enacts Congress's disapproval of the specified SEC rule and provides that such rule \"shall have no force or effect.\" \n\nThe resolution identifies the disapproved rule by its publication in the Federal Register at 87 Fed. Reg. 21015 (April 11, 2022). Additionally, the text references a letter of opinion from the Government Accountability Office (GAO) dated October 31, 2023, which was printed in the Congressional Record on November 1, 2023, at pages S5310-5312. The GAO letter concluded that Staff Accounting Bulletin No. 121 constitutes a \"rule\" for the purposes of chapter 8 of title 5, United States Code. This GAO opinion serves as the statutory predicate for the exercise of congressional disapproval authority under the Congressional Review Act, satisfying the procedural requirements for the review of agency rules.\n\nUpon enactment, the resolution effects the invalidation of Staff Accounting Bulletin No. 121, rendering it without force or effect. The resolution contains no additional provisions, exceptions, authorizations, or appropriations. It passed the House of Representatives on May 8, 2024, and was received in the Senate on May 9, 2024.",
+  "prompt_tokens": 515,
+  "completion_tokens": 1337,
+  "total_tokens": 1852,
+  "cost_usd": 0.002575,
+  "latency_s": 19.993,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

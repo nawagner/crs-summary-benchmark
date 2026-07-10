@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8772",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Legislative Branch Appropriations Act, 2025. An \"appropriation\" is a law that gives government groups permission to spend money. This bill sets the budget for the part of the government that makes laws, which is called the Legislative Branch. \n\nIf this bill becomes a law, it will give money to several groups for the year ending September 30, 2025. Here are some of the main amounts it sets aside:\n*   **House of Representatives:** $1,932,655,000 for salaries and expenses. This includes money to pay interns and to pay $174,000 to Beatrice Y. Payne, the widow of a late Representative.\n*   **Capitol Police:** $619,257,000 for salaries and $213,158,000 for general expenses to keep the Capitol safe.\n*   **Library of Congress:** $617,000,000 to run the library and care for its buildings.\n*   **Government Accountability Office:** $896,700,000 to help investigate how the government spends money.\n\nThe bill also makes new rules. It says the government cannot buy drones or phone equipment from certain Chinese companies. It stops the government from using this money for diversity, equity, and inclusion training that promotes divisive ideas about race or sex. It also says that members of Congress will not get a pay raise in 2025.",
+  "prompt_tokens": 13859,
+  "completion_tokens": 324,
+  "total_tokens": 14183,
+  "cost_usd": 0.023705,
+  "latency_s": 2.95,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

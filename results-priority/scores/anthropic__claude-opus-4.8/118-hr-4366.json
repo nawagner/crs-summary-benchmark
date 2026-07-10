@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4366",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures and provisions verified against bill text (MilCon accounts, HUD PBRA $15.61B/$2B emergency, RMI Compact grants, EPA STAG)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "Added context (public law number, agency/statute names) is accurate; no invented claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies it as FY2024 appropriations across seven divisions with policy conditions and legal amendments."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes new SSA Section 1948, IMD state option, Compact amendments, and title 38 changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency-designation condition, Guantanamo carve-out, planning-and-design caps, and law-enforcement exception."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes Sep 30 2028 availability, 18-month and 24-month deadlines, and Jan 1 2026 incarceration provision."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures all seven divisions and their essential appropriations and policy effects."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by division, internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but non-repetitive; every clause conveys distinct content."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies, programs, and statutes correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar figures match bill text and section index."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

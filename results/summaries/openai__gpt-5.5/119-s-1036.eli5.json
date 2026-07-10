@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would change the Public Health Service Act. That is a federal law about health programs.\n\nIt would update the Minority Fellowship Program. A fellowship is help for training, often money or support for people learning a job. The bill says this program may give fellowships for training in addiction medicine. Addiction medicine is health care that helps people with drug or alcohol addiction.\n\nThe bill also adds “diagnosis” to the kinds of work the program can support. Diagnosis means figuring out what health problem a person has.\n\nIf the bill becomes law, professionals training in addiction medicine could be included in this fellowship program, along with fields already listed, such as psychiatry. The bill does not list a new funding amount or set a special start date.",
+  "prompt_tokens": 493,
+  "completion_tokens": 427,
+  "total_tokens": 920,
+  "cost_usd": 0.015275,
+  "latency_s": 8.861,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

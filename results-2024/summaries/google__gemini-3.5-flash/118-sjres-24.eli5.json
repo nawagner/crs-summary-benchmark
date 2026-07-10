@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of proposal that can become a law if Congress passes it and the president signs it. \n\nThe bill is about a small animal called the northern long-eared bat. In November 2022, a government group called the United States Fish and Wildlife Service made a rule. This rule labeled the northern long-eared bat as an endangered species. An endangered species is an animal or plant that is in danger of dying out completely. \n\nIf this bill becomes a law, it would officially cancel that rule. The bill states that Congress disapproves of the rule. It says the rule would have no force or effect. This means the government would not be allowed to use the rule to protect the northern long-eared bat anymore. The Senate passed this bill on May 11, 2023.",
+  "prompt_tokens": 532,
+  "completion_tokens": 178,
+  "total_tokens": 710,
+  "cost_usd": 0.0024,
+  "latency_s": 1.776,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

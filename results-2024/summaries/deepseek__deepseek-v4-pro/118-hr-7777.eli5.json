@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill gives a raise to certain payments from the Department of Veterans Affairs (VA). The raise starts on December 1, 2024. It affects two main kinds of payments:\n\nFirst, it increases disability compensation. This is money paid to veterans who have an injury or illness connected to their military service. The bill also raises extra amounts some veterans get for their dependents (like a spouse or child) and a yearly clothing allowance for veterans who use special clothing because of their disability.\n\nSecond, it increases dependency and indemnity compensation. This is money paid to the surviving spouse or children of a veteran who died from a service-connected condition.\n\nThe raise is not a fixed dollar amount. Instead, each payment goes up by the same percentage that Social Security benefits go up for the cost of living in 2024. The VA Secretary must figure out the new dollar amounts and publish them in the Federal Register, which is a daily government publication of rules and notices. The publication must happen by the same deadline that applies to the Social Security cost-of-living announcement for that year.",
+  "prompt_tokens": 1075,
+  "completion_tokens": 593,
+  "total_tokens": 1668,
+  "cost_usd": 0.000984,
+  "latency_s": 17.753,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

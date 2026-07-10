@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3613",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law makes building safety groups answer security advice from a federal protection team. A Facility Security Committee is a group that takes care of safety in a government building where different agencies work. The Federal Protective Service gives these groups ideas to make buildings safer.\n\nUnder the new rule, when the Federal Protective Service suggests a safety change, the building group must reply within 90 days. They have to say whether they plan to follow the advice or not. They also have to share what it would cost and whether the good results are worth the cost. If they say no, they must explain why they think the risk is acceptable.\n\nThe Secretary of Homeland Security will keep track of all the suggestions and answers. Every year, a report will go to Congress. It will list how many suggestions were accepted or rejected, what reasons were given for saying no, and any patterns that show up. A separate report on security camera and surveillance technology suggestions is due within 180 days.\n\nThe law does not give extra money to do this work. It only covers certain buildings protected by the Federal Protective Service, such as General Services Administration buildings and others that pay for that protection. The whole law stops working after five years. Before it ends, a government watchdog will study how well it worked and report to Congress.",
+  "prompt_tokens": 1544,
+  "completion_tokens": 1064,
+  "total_tokens": 2608,
+  "cost_usd": 0.001597,
+  "latency_s": 18.678,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

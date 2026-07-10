@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6829",
+  "model": "google/gemini-3.5-flash",
+  "summary": "The HEARTS Act of 2024 is a law designed to help schools and families learn about cardiomyopathy. Cardiomyopathy is a serious disease that affects the heart muscle and can cause sudden heart attacks in young people. \n\nUnder this law, the government must create educational materials about heart disease symptoms within 18 months. Within 30 months, these materials must be shared with schools, families, and doctors. The government will also create a risk assessment worksheet to help people figure out if they are at risk for heart disease. \n\nAdditionally, the law allows the government to give grants—which are special blocks of money—to public schools. Schools can use this money to buy automated external defibrillators (AEDs), which are machines used to help restart a heart. They can also use the money to pay for CPR training and to create emergency plans. \n\nFinally, the law asks government health groups to study cardiomyopathy and write reports on their research within 18 months. The law does not add any new funding to pay for these programs.",
+  "prompt_tokens": 3727,
+  "completion_tokens": 215,
+  "total_tokens": 3942,
+  "cost_usd": 0.007526,
+  "latency_s": 2.4,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

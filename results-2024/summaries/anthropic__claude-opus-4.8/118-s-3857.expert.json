@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-3857",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "Public Law 118-199, the \"Jamul Indian Village Land Transfer Act\" (S. 3857), effects a statutory taking of land into trust by the United States for the benefit of the Jamul Indian Village of California, in San Diego County, California. Rather than proceeding through the discretionary administrative fee-to-trust process under 25 U.S.C. 5108 and 25 C.F.R. Part 151, the Act directly mandates trust status by operation of law.\n\nSection 2(a) provides that approximately 172.10 acres described in subsection (b) \"is held in trust\" by the United States for the Tribe. Subsection (b) enumerates four parcels by recorded document number in the Official Records of the San Diego County Recorder: Parcel 1 (approximately 161.23 acres, Doc. No. 2022-0010260, recorded January 7, 2022); Parcel 2 (approximately 6 acres, Doc. No. 2021-0540770, recorded July 29, 2021); Parcel 3 (approximately 4.03 acres, Doc. No. 1998-0020339, recorded January 15, 1998); and Parcel 4 (approximately 0.84 acres, Doc. No. 2017-0410384, recorded September 7, 2017). Parcels 1 and 2 are identified as held in fee by the Tribe.\n\nSection 2(c) directs the Secretary of the Interior to accept title to and place into trust an additional approximately 1.1-acre parcel depicted on the California Department of Fish and Wildlife map \"Amended Acres Proposal\" (dated May 2023). This additional trust acquisition is subject to a condition precedent: it applies only \"if that land is conveyed or otherwise transferred to the United States by, or on behalf of,\" the Tribe.\n\nSection 2(d) provides that land taken into trust under both subsections (a) and (c) shall be part of the Tribe's reservation and administered under the laws and regulations generally applicable to trust property held for an Indian Tribe.\n\nSection 2(e) imposes a gaming prohibition: land described in subsections (b) and (c) shall not be used for any class II or class III gaming under the Indian Gaming Regulatory Act (25 U.S.C. 2701 et seq.), applying the definitions in section 4 of that Act (25 U.S.C. 2703). The Act does not reference the class III gaming compact framework or the section 20 exceptions.\n\nThe Act contains no appropriation, authorization of appropriations, sunset provision, or specified effective date; the trust status conferred by subsection (a) operates upon enactment. Approved December 23, 2024.",
+  "prompt_tokens": 1881,
+  "completion_tokens": 865,
+  "total_tokens": 2746,
+  "cost_usd": 0.03103,
+  "latency_s": 11.173,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

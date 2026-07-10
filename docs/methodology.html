@@ -32,7 +32,8 @@
   is the human reference. Crucially, the CRS summaries are <strong>also graded</strong> on the identical criteria
   (shown as the <em>CRS (human)</em> row) — a calibration check on the judge.
 
-  <p><strong>Two datasets</strong> (switch between them with the toggle on the leaderboard):</p>
+  <p><strong>Two datasets today, a third when it's generated</strong> (switch between them with the toggle on
+  the leaderboard — a dataset's button only appears once its results file exists):</p>
   <ul>
     <li><strong>119th Congress</strong> — 50 recent bills (2025–26), sampled by most-recently-updated and
     interleaved across chambers (House/Senate bills and joint resolutions). A mix of activity levels.</li>
@@ -45,13 +46,41 @@
     each (shown as an "<em>N actions</em>" badge on every bill). One filter is applied: bills whose full text
     exceeds the model input budget (~180k characters) are skipped, so every summary is graded on text the models
     read in full — this excludes the largest omnibus appropriations bills, which would otherwise top the list.</li>
+    <li><strong>Priority · long bills</strong> — the bills the 2024 set excludes: appropriations, the NDAA, and
+    other bills over the ~180k-character budget. See section 4 for how these are summarized and judged
+    differently.</li>
   </ul></div>
 
   <h2>2. Models under test</h2>
   <div class="card">Each model receives the same neutral summarization prompt and the bill text, with no
   CRS-specific coaching. Models tested: <span id="m-models">…</span>. All are called through OpenRouter.</div>
 
-  <h2>3. The grading rubric — binary criteria</h2>
+  <h2>3. Reading levels</h2>
+  <div class="card">Where available, each bill is also summarized at multiple <strong>reading levels</strong> —
+  the prompt varies (see the per-level prompt variants in section 8), not the model or the bill text. Levels are
+  prompt variants: same bill, same model, different target register — for example a grade-5 explainer versus an
+  expert/JD-level summary. <strong>Only the default level is graded</strong> against the rubric; the published
+  per-criterion verdicts always reflect the default-level summary, even when you switch levels in the bill
+  browser. Every summary also reports its own <strong>Flesch-Kincaid grade level</strong> (a standard readability
+  metric based on sentence and word length) next to that level's target grade, so you can see how closely the
+  writing lands on the intended register.</div>
+
+  <h2>4. Long bills (priority dataset)</h2>
+  <div class="card">Appropriations bills, the NDAA, and other very large measures routinely exceed the ~180k-character
+  single-prompt budget used for the other datasets — which is why the <strong>2024 · high-activity</strong> set
+  excludes them. The <strong>priority</strong> dataset (when published) covers these bills instead of skipping
+  them, summarized <strong>hierarchically</strong>: the full bill text is split into structure-aware chunks, each
+  chunk is summarized independently, and the chunk notes are merged into a final summary (map-reduce). No
+  truncation — the model reads the entire bill, just not in a single prompt (flagged per-summary as
+  <code>strategy: "map_reduce"</code> with an <code>n_chunks</code> count).
+  <p style="margin-bottom:0">Grading these summaries against the full bill text the same way as the other
+  datasets isn't practical at this scale, so judging is <strong>sectional</strong>: the judge is given a
+  deterministic section index of the bill plus the sections most lexically relevant to each summary, rather than
+  the full text. This is recorded as <code>judge_grounding: "sectional"</code> in the data and is a
+  <strong>weaker grounding</strong> than the full-text judging used on the other two datasets — treat verdicts on
+  this dataset with that caveat in mind.</p></div>
+
+  <h2>5. The grading rubric — binary criteria</h2>
   <p class="lede">The headline metric, <strong>"passes all criteria,"</strong> counts a summary only if it
   satisfies <strong>every applicable</strong> criterion below. Criteria marked <em>conditional</em> are
   auto-passed when the judge decides they don't apply to a given bill (e.g. a bill with no dollar figures
@@ -60,7 +89,7 @@
   standard or determination. We make no claim to define what CRS considers acceptable.</p>
   <div class="card"><ul class="crit-list" id="m-criteria">…</ul></div>
 
-  <h2>4. The judge</h2>
+  <h2>6. The judge</h2>
   <div class="card">A single strong model, <span id="m-judge">…</span>, scores each summary against the bill
   text (the ground truth) and returns a pass/fail plus a one-line reason per criterion.
   <p><strong>Known limitation — not validated against human judgments.</strong> The pass/fail verdicts here are
@@ -92,7 +121,7 @@
   summaries and 44 CRS summaries via Claude Code. Every per-bill verdict and reason is published so anyone can
   check them.</p>
 
-  <h2>5. Re-runs &amp; corrections</h2>
+  <h2>7. Re-runs &amp; corrections</h2>
   <div class="card">In the spirit of full transparency, the substantive changes made after the first run:
   <ul>
     <li><strong>Output-length fix.</strong> The first run capped model output at 1,500 tokens, which truncated
@@ -107,13 +136,14 @@
   rubric the current models are uniformly thorough and accurate, and the rubric flags the rare CRS omission or
   misstatement. It does <em>not</em> mean the models are "better than CRS" at CRS's actual job.</div>
 
-  <h2>6. Prompts (verbatim)</h2>
+  <h2>8. Prompts (verbatim)</h2>
   <h3 style="font-size:16px;margin-bottom:6px">Summarization prompt</h3>
   <pre id="m-summarize">…</pre>
+  <div id="m-summarize-levels"></div>
   <h3 style="font-size:16px;margin:18px 0 6px">Judge prompt</h3>
   <pre id="m-judge-prompt">…</pre>
 
-  <h2>7. Reproduce it</h2>
+  <h2>9. Reproduce it</h2>
   <div class="card">The full pipeline is open source:
   <code>fetch_bills.py</code> → <code>run_models.py</code> → <code>evaluate.py</code> → <code>report.py</code>.
   The criteria live in an editable <code>criteria.yaml</code>; models and the judge live in <code>config.yaml</code>.

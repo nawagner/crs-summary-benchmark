@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the House of Representatives and the Senate. These two groups make up the United States Congress, the lawmakers for the whole country. \n\nThis law stops a local law in Washington, D.C. from going into effect. Washington, D.C. is the capital of the United States. It has its own local government, called the District of Columbia Council, which makes rules for the city. In January 2023, the Council passed a new set of rules for crimes, called the Revised Criminal Code Act of 2022. \n\nUnder a law called the District of Columbia Home Rule Act, Congress has the power to review and reject laws made by Washington, D.C. Congress decided they did not approve of the city's new crime rules. \n\nBecause Congress passed this resolution, and it was approved on March 20, 2023, the city's new crime rules cannot become law. The big change is that Washington, D.C. must keep its old laws instead of using the new ones.",
+  "prompt_tokens": 504,
+  "completion_tokens": 230,
+  "total_tokens": 734,
+  "cost_usd": 0.002826,
+  "latency_s": 2.545,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

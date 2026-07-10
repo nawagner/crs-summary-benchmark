@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill asks a government leader called the Secretary of the Interior to allow special displays in Washington, D.C. The Secretary takes care of national parks and monuments. The displays are to celebrate the 250th birthday of the United States. This event is called the semiquincentennial.\n\nThe displays would happen on the National Mall and the Washington Monument. They would start on December 31, 2025, and end on January 5, 2026. The bill asks for a one-time setup of items, digital content, film footage, and sounds. It also asks to project images onto the Washington Monument for five nights.\n\nIf this bill becomes a law, people visiting Washington, D.C., during these dates would see these special shows. The bill also asks for a copy of the rules to be sent to the Secretary of the Interior and the leader of the group planning the 250th anniversary. This bill does not force the displays to happen, but it makes a formal request from Congress to allow them.",
+  "prompt_tokens": 1149,
+  "completion_tokens": 1159,
+  "total_tokens": 2308,
+  "cost_usd": 0.002616,
+  "latency_s": 14.257,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

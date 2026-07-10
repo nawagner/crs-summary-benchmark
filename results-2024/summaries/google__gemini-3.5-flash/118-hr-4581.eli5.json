@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the Maternal and Child Health Stillbirth Prevention Act of 2024. It was approved on July 12, 2024. \n\nA stillbirth is when a baby dies in the mother's womb before being born. This law changes an older law called the Social Security Act. It makes it clear that the government can spend existing health funds to help prevent stillbirths and do research on why they happen. \n\nIf this law is passed, government money can be used for special programs to help pregnant mothers and their babies. These programs include:\n* Tracking how the baby moves inside the mother.\n* Helping doctors know the best time for a baby to be born if there are risks.\n* Teaching mothers about safe sleeping positions during pregnancy.\n* Helping pregnant mothers stop smoking.\n* Sending nurses or helpers to visit pregnant mothers at their homes.\n* Doing more research to find other ways to save babies' lives.",
+  "prompt_tokens": 749,
+  "completion_tokens": 202,
+  "total_tokens": 951,
+  "cost_usd": 0.002941,
+  "latency_s": 1.981,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

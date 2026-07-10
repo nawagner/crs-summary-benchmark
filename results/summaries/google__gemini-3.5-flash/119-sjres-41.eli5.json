@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-41",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution. A joint resolution is a type of proposal that must be approved by both the Senate and the House of Representatives, which are the two parts of the United States Congress. \n\nIf this bill becomes a law, it would stop the United States from sending certain weapons to Israel. Specifically, it blocks a planned sale of 20,000 Colt Carbine rifles. These are fully automatic rifles with 11.5-inch barrels. The weapons are worth $1,000,000 or more. \n\nThe bill names a specific company in Israel called M.R.D. Efram Investments Ltd. This company would have received the rifles so they could be used by the Israel National Police. If this law passes, the United States government would not be allowed to let this shipment of guns go to Israel.",
+  "prompt_tokens": 583,
+  "completion_tokens": 177,
+  "total_tokens": 760,
+  "cost_usd": 0.002468,
+  "latency_s": 1.838,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

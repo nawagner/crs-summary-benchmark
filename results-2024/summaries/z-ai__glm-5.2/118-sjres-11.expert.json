@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "z-ai/glm-5.2",
+  "summary": "S.J. Res. 11 is a joint resolution providing for congressional disapproval, pursuant to chapter 8 of title 5, United States Code, of a final rule promulgated by the Administrator of the Environmental Protection Agency (EPA). The targeted rule, titled \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,\" was published in the Federal Register on January 24, 2023 (88 Fed. Reg. 4296).\n\nThe resolution's operative mechanism invokes the congressional disapproval process established under chapter 8 of title 5, U.S. Code. The sole operative provision resolves that Congress disapproves the specified EPA rule and provides that such rule \"shall have no force or effect.\" By utilizing the procedures and authority of chapter 8 of title 5, U.S. Code, enactment of this joint resolution would repeal the specified rule. Under the statutory framework of chapter 8 of title 5, a rule disapproved under this chapter may not be reissued in substantially the same form, and a new rule that is substantially the same as the disapproved rule may not be issued, unless the reissued or new rule is specifically authorized by a subsequent law enacted by Congress.\n\nThe resolution contains no material exceptions, conditions precedent, or appropriations. It does not specify an effective date beyond the standard operation of law upon enactment. The engrossed text reflects that the joint resolution was passed by the Senate on April 26, 2023.",
+  "prompt_tokens": 511,
+  "completion_tokens": 1640,
+  "total_tokens": 2151,
+  "cost_usd": 0.003093,
+  "latency_s": 23.298,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

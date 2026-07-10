@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the MATE Improvement Act. It is a proposal, which is a plan that Congress must vote on to make it a law. \n\nThe bill changes the rules about who can train doctors and other healthcare workers. These workers need special training before they can prescribe certain strong medicines, called controlled substances. \n\nIf this bill becomes a law, it will add new groups to the list of approved trainers. These groups include the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, and the American Optometric Association. It also adds groups for pharmacists and nurses, like the American Pharmacists Association and the American Psychiatric Nurses Association. \n\nThe bill also allows schools of pharmacy and podiatric medicine to teach these training courses. \n\nIf this bill passes, these changes will count as if they started on December 29, 2022.",
+  "prompt_tokens": 979,
+  "completion_tokens": 183,
+  "total_tokens": 1162,
+  "cost_usd": 0.003116,
+  "latency_s": 1.98,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

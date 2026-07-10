@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2066",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Investing in All of America Act of 2025 (Pub. L. 119–92, May 19, 2026) amends the Small Business Investment Act of 1958 (SBIA) to recalibrate the maximum leverage limits for small business investment companies (SBICs) and broaden the categories of investments that may be excluded from the calculation of outstanding leverage. \n\nSection 2(a) amends the definition of “private capital” in section 103(9) of the SBIA (15 U.S.C. 662(9)) by striking the temporal limitation on pension plans and expanding the list of permissible institutional fund sources to include foundations, endowments, or trusts of any college or university. It further adds a new subparagraph (C) that excludes from “private capital”—for purposes of leverage approval—any funds obtained directly or indirectly from a Federal, State, or local government or any government agency or instrumentality, except for the institutional funds enumerated in subclauses (I) through (III) of subparagraph (B)(iii).\n\nSection 2(b) amends the maximum leverage provisions in section 303(b)(2) of the SBIA (15 U.S.C. 683(b)(2)). For a single SBIC, clause (i) is reduced from $300,000,000 to $200,000,000, and clause (ii) is replaced with a bifurcated cap: $250,000,000 for a company that makes quarterly or semiannual interest payments, or $175,000,000 for any other company licensed under section 301(c). Commonly controlled group ceilings are adjusted to $475,000,000 (for such interest-paying companies) and $350,000,000 (for others). Subparagraph (C) is amended to extend the leverage exclusion beyond low-income geographic areas to also encompass investments in small business concerns located in rural areas, those operating primarily in a covered technology category (as defined in 10 U.S.C. 149(e)), and small manufacturers (as defined in SBIA section 501(e)(6)). The exclusion is no longer limited to equity investments; it applies to the total amount invested and is available for purposes of both the individual and commonly controlled leverage caps. The aggregate exclusion for a company or companies may not exceed the lesser of 50 percent of private capital or $125,000,000. Only investments made after the date of enactment are eligible for the exclusion.",
+  "prompt_tokens": 1559,
+  "completion_tokens": 3514,
+  "total_tokens": 5073,
+  "cost_usd": 0.003735,
+  "latency_s": 46.359,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

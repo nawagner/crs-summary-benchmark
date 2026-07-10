@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4828",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Declaration of Independence Reaffirmation Act of 2026. It was introduced in the United States Senate on June 18, 2026. \n\nThe main goal of this bill is to officially state again, or reaffirm, that the Declaration of Independence is an \"organic law\" of the United States. Organic laws are the most basic and important laws that set up how a government is run. \n\nIf this bill becomes law, it will not change how the government works day-to-day. Instead, it officially reminds everyone of the ideas from July 4, 1776. These ideas include that all people are created equal, that they have natural rights like life and liberty, and that the people must agree to how they are governed. \n\nThe bill is timed to celebrate the 250th anniversary of American independence. Because of this special birthday, the bill also prints the entire original text of the Declaration of Independence. This text includes the famous opening words and the long list of complaints the colonists had against the King of Great Britain.",
+  "prompt_tokens": 2837,
+  "completion_tokens": 226,
+  "total_tokens": 3063,
+  "cost_usd": 0.006289,
+  "latency_s": 2.777,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

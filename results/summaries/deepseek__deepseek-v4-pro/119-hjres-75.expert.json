@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-75",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution, enacted as Public Law 119-9, disapproves under the Congressional Review Act (5 U.S.C. chapter 8) the final rule promulgated by the Office of Energy Efficiency and Renewable Energy, Department of Energy, entitled “Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers,” published at 90 Fed. Reg. 7464 (January 21, 2025). Pursuant to the resolution, Congress exercises its authority under 5 U.S.C. § 802 to enact a joint resolution of disapproval, providing that the specified rule “shall have no force or effect.” The operative mechanism is the Congressional Review Act’s expedited legislative procedure, which renders the disapproved rule void and precludes the agency from reissuing the same or a substantially similar rule absent subsequent statutory authorization. The resolution does not amend the underlying substantive statutes—the Energy Policy and Conservation Act (42 U.S.C. § 6291 et seq.)—but rather nullifies the specific regulatory action. There are no exceptions, conditions precedent, or sunset provisions; the disapproval is self-executing upon the date of enactment, May 9, 2025. The resolution contains no authorization of appropriations or spending authority.",
+  "prompt_tokens": 533,
+  "completion_tokens": 831,
+  "total_tokens": 1364,
+  "cost_usd": 0.000955,
+  "latency_s": 16.746,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

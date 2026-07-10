@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8752",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Department of Homeland Security Appropriations Act, 2025. An \"appropriations act\" is a law that gives government agencies money to spend. This bill gives money to the Department of Homeland Security, which is the part of the government that keeps the country safe. The money is for the budget year that ends on September 30, 2025.\n\nThe bill shares billions of dollars among different groups. It gives over $16.5 billion to Customs and Border Protection to watch the nation's borders. It gives over $10.4 billion to Immigration and Customs Enforcement (ICE) to enforce immigration laws. It also gives over $10.8 billion to the Transportation Security Administration (TSA) to protect travel, and over $10.5 billion to the Coast Guard. The Secret Service gets over $3 billion, and the Federal Emergency Management Agency (FEMA) gets billions of dollars to help with natural disasters.\n\nIf this bill becomes law, it will make several changes. It says that at least $600 million must be used to build physical border barriers, like steel walls. It also says ICE must keep at least 50,000 detention beds ready for people who are held for immigration reasons. Finally, the bill stops the government from spending money on certain things, like buying electric vehicles or enforcing COVID-19 mask rules.",
+  "prompt_tokens": 32258,
+  "completion_tokens": 290,
+  "total_tokens": 32548,
+  "cost_usd": 0.050997,
+  "latency_s": 3.044,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

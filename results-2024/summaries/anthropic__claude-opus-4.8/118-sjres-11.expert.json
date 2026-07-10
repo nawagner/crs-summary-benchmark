@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "S.J. Res. 11 is a joint resolution of congressional disapproval invoking the procedures of the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (specifically 5 U.S.C. § 802). Its sole operative purpose is to nullify a final rule promulgated by the Administrator of the Environmental Protection Agency titled \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,\" as published at 88 Fed. Reg. 4296 (January 24, 2023).\n\nThe resolution's single enacting clause provides that \"Congress disapproves\" the identified rule and that \"such rule shall have no force or effect.\" This is the standard statutory formulation prescribed by 5 U.S.C. § 802(a) for a CRA disapproval resolution. Upon enactment (i.e., passage by both chambers and presentment to and signature by the President, or override of a veto), the rule is deprived of legal effect.\n\nBy operation of the CRA framework that the resolution invokes—rather than by any text within the resolution itself—two collateral consequences attach. First, under 5 U.S.C. § 801(b)(1), a rule disapproved by enactment of such a joint resolution is treated as though it had never taken effect. Second, under 5 U.S.C. § 801(b)(2), the agency may not reissue the rule in substantially the same form, nor issue a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted after the date of the joint resolution's enactment. The resolution does not itself recite these limitations; they arise from the incorporated CRA machinery.\n\nThe document reflects that the resolution was passed by the Senate on April 26, 2023 (Engrossed in Senate). It therefore represents one-chamber passage and had not, as of this text, been enacted.\n\nThe resolution contains no amendments to the United States Code, no new grants of regulatory authority, no authorizations or appropriations of funds, no sunset provisions, and no delayed or conditional effective date. Its legal effect, if enacted, is immediate upon becoming law. No exceptions, savings clauses, or conditions precedent are stated in the text beyond the CRA procedures it invokes by reference.",
+  "prompt_tokens": 919,
+  "completion_tokens": 753,
+  "total_tokens": 1672,
+  "cost_usd": 0.02342,
+  "latency_s": 11.546,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

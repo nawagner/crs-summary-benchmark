@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "openai/gpt-5.5",
+  "summary": "This law keeps money going for work on the Great Lakes Basin. The Great Lakes Basin means the Great Lakes and the land and water that drain into them.\n\nThe money is used to monitor, assess, and research the area. “Monitor” means to watch and collect information. “Assess” means to study the condition of something. This work focuses on fishery research in the Great Lakes.\n\nBefore this law, the funding was set to last through 2025. This law changes that end date to 2030. That means the funding is reauthorized, or approved again, for five more years.\n\nThe law was approved on December 26, 2025. It is called the “Great Lakes Fishery Research Reauthorization Act.”",
+  "prompt_tokens": 479,
+  "completion_tokens": 152,
+  "total_tokens": 631,
+  "cost_usd": 0.006955,
+  "latency_s": 3.664,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

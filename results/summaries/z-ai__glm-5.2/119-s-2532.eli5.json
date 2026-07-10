@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2532",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the \"Safe Response Act.\" It keeps a training program for first responders running. First responders are people like emergency medical workers who help in emergencies.\n\nThe bill makes a few changes to the rules of this program. It updates the words used in the law. For example, it changes the wording to include medical products that are \"otherwise legally marketed,\" not just \"approved or cleared.\" It also changes the focus from only \"opioid\" drugs to \"opioid, heroin, and other drug\" overdoses. This means the training can cover more types of drug emergencies.\n\nThe bill also changes the money given to this program. The old law said the program gets $36,000,000 each year from 2019 through 2023. If this bill becomes a law, the program would get $57,000,000 each year from 2026 through 2030. This gives the program more money and funds it for five more years.",
+  "prompt_tokens": 681,
+  "completion_tokens": 936,
+  "total_tokens": 1617,
+  "cost_usd": 0.001978,
+  "latency_s": 13.36,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

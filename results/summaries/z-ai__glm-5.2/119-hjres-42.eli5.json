@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law cancels a rule made by the Department of Energy. The Department of Energy is a part of the government that makes rules about how things use power. \n\nThe rule was about saving energy with appliances. Appliances are machines like refrigerators or washing machines. The rule said companies had to prove their products saved energy. It also had rules about labels on these products and how to enforce the rules. \n\nBecause of this new law, the old rule will have \"no force or effect.\" This means the rule is canceled and cannot be used. The government will not make companies follow the rules from October 2024. \n\nThe old rule was made on October 9, 2024. Congress passed this law to cancel it. The President approved the law on May 9, 2025.",
+  "prompt_tokens": 493,
+  "completion_tokens": 768,
+  "total_tokens": 1261,
+  "cost_usd": 0.001587,
+  "latency_s": 23.593,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

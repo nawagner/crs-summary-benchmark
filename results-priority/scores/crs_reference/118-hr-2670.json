@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2670",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Section-by-section claims align with the bill; correctly states 10 Virginia-class submarines under Sec. 123."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all provisions traceable to the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Opening paragraph states the bill authorizes FY2024 appropriations and policies for DOD, DOE, MARAD, State, and CIA."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Repeatedly describes how sections amend or modify existing programs and requirements."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes certifications, floors, and conditions (e.g., E-3 fleet-size conditions, T-1A certification)."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites timing and deadlines throughout (e.g., end of FY2028 for RQ-4)."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Exhaustive title-by-title coverage of all divisions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral reference-style prose."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Systematically organized by title and section."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Long but every line is substantive; no filler or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Programs, systems, and agencies correctly identified."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Figures used (e.g., 10 submarines, fleet floors) are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

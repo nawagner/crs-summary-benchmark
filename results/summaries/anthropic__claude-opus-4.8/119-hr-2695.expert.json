@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-2695",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Communities of Recovery Reauthorization Act of 2025 (H.R. 2695), introduced in the House on April 7, 2025 by Representatives Pettersen and Nunn and referred to the Committee on Energy and Commerce, is a single-purpose measure to reauthorize the \"building communities of recovery\" grant program under the Public Health Service Act.\n\nSection 1 sets the short title.\n\nSection 2 amends section 547(f) of the Public Health Service Act (42 U.S.C. 290ee-2(f)), the authorization-of-appropriations subsection for the grant program established under section 547. The amendment operates by striking the existing authorization figure and period—\"$5,000,000 for each of fiscal years 2019 through 2023\"—and inserting in its place \"$17,000,000 for each of fiscal years 2026 through 2030.\"\n\nThe effect is twofold: it increases the annual authorized funding level from $5,000,000 to $17,000,000, and it extends the authorization period, which had lapsed after fiscal year 2023, to cover fiscal years 2026 through 2030. The bill does not authorize funding for the intervening fiscal years 2024 and 2025.\n\nThe amendment is confined to the authorization-of-appropriations provision; it makes no changes to the substantive grant authority, eligibility criteria, permissible uses of funds, or administrative structure of the underlying section 547 program. Consistent with its character as an authorization of appropriations, the provision does not itself appropriate funds; actual funding would remain contingent on subsequent appropriations Acts.\n\nThe bill contains no separate effective-date provision, so its provisions take effect upon enactment. It includes no sunset provision beyond the terminal fiscal year (2030) of the authorization period, and no conditions precedent, exceptions, or reporting requirements.",
+  "prompt_tokens": 863,
+  "completion_tokens": 599,
+  "total_tokens": 1462,
+  "cost_usd": 0.01929,
+  "latency_s": 8.723,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

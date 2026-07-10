@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "openai/gpt-5.5",
+  "summary": "This joint resolution provides for congressional disapproval, under the Congressional Review Act, chapter 8 of title 5, United States Code, of the Bureau of Consumer Financial Protection rule entitled “Small Business Lending Under the Equal Credit Opportunity Act (Regulation B),” published at 88 Fed. Reg. 35150 on May 31, 2023.\n\nThe resolution’s sole operative provision states that Congress disapproves the submitted rule and that the rule “shall have no force or effect.” The mechanism is a joint resolution of disapproval under 5 U.S.C. §§ 801–808. The text does not amend any provision of the United States Code, create any new regulatory authority, authorize appropriations, make appropriations, establish implementation deadlines, or include exceptions, conditions precedent, savings clauses, or separate effective-date provisions.",
+  "prompt_tokens": 503,
+  "completion_tokens": 172,
+  "total_tokens": 675,
+  "cost_usd": 0.007675,
+  "latency_s": 5.436,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,16 @@
+You are producing the final summary of a long United States congressional bill titled "{bill_title}", for a general audience that needs to understand what the bill does. You have ordered working notes covering every part of the bill, prepared from the full text.
+
+Write a clear, objective summary from these notes. Your summary should:
+- State the bill's primary purpose.
+- Describe its major provisions across ALL parts, including how it changes existing law — weight coverage by importance, not by note length.
+- Preserve exact figures for the largest appropriations or authorizations.
+- Note material exceptions, conditions, and any effective dates or deadlines.
+- Stay strictly neutral — no opinion, advocacy, or speculation.
+- Be faithful to the notes — include nothing that is not in them.
+
+Write only the summary itself (no preamble, no headings, no bullet list unless it aids clarity). Aim for {word_target} words.
+
+WORKING NOTES (in bill order):
+---
+{chunk_notes}
+---

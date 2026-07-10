@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is a joint resolution, which is a decision made by both the House of Representatives and the Senate. In this law, Congress stops a specific rule created by a government group called the Bureau of Land Management. \n\nThe rule that Congress stopped is called the \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.\" The Bureau of Land Management first made this rule on November 20, 2024. Later, on June 25, 2025, another government group called the Government Accountability Office decided that this plan counted as an official rule. \n\nBecause Congress passed this law, and it was approved on December 11, 2025, the Bureau of Land Management's rule is rejected. The rule will have no force or effect. This means the rule is canceled, and it cannot be used or followed anymore.",
+  "prompt_tokens": 591,
+  "completion_tokens": 181,
+  "total_tokens": 772,
+  "cost_usd": 0.002515,
+  "latency_s": 3.653,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

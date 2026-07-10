@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7189",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Congenital Heart Futures Reauthorization Act of 2024. It was signed into law on November 21, 2024. \n\nSome babies are born with heart problems. This is called congenital heart disease. This law helps a government program that studies this disease and teaches people about it. The law keeps this program running and funded from the year 2025 through 2029. \n\nThe law also asks a government leader, the Secretary of Health and Human Services, to do two main things:\n\nFirst, within two years, the Secretary must write a report for Congress. Congress is the group of people who make laws for our country. This report will show what the government is doing to help patients and train doctors. It will also look at how many doctors we have who can treat adults with this heart disease. \n\nSecond, one year after the report, the Secretary must make a plan. This plan will help teach the public and train more doctors. To make this plan, the Secretary will talk with doctors, researchers, and patient groups.",
+  "prompt_tokens": 1258,
+  "completion_tokens": 228,
+  "total_tokens": 1486,
+  "cost_usd": 0.003939,
+  "latency_s": 2.321,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

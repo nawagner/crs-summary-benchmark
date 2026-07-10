@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This law is called the Swanson and Hugh Butler Reservoirs Land Conveyances Act. It was approved on December 23, 2024. \n\nThe law tells the Secretary of the Interior—a government leader who looks after public lands—to sell certain pieces of federal land in Nebraska. Federal land is land owned by the United States government. This land is located around two lakes called the Swanson Reservoir and the Hugh Butler Reservoir. \n\nThe government must try to make agreements within three years to sell this land to Hitchcock County and Frontier County in Nebraska. The land includes cabin areas and public concession areas, which are places where businesses can sell things to visitors. \n\nIf the counties buy the land, they must follow these rules:\n* They must pay the fair market value, which is the normal selling price of the land.\n* They must pay for all the mapping and paperwork costs.\n* They cannot split the land into smaller pieces.\n* They must keep using the land for the same things, like parks, public access, and wildlife habitats.\n* They cannot sell the land again, unless they give it for free to another local government group that promises to protect it.\n* They cannot build new permanent buildings below certain water levels.\n\nThe money the government gets from these sales will be used to help run both reservoirs.",
+  "prompt_tokens": 4887,
+  "completion_tokens": 274,
+  "total_tokens": 5161,
+  "cost_usd": 0.009796,
+  "latency_s": 2.848,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

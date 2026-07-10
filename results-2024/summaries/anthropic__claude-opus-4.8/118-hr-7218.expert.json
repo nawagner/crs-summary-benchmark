@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7218",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The BOLD Infrastructure for Alzheimer's Reauthorization Act of 2024 (Pub. L. 118-142, enacted December 11, 2024, originating as H.R. 7218) is a short reauthorization measure amending title III of the Public Health Service Act to extend appropriations authorization for the existing program promoting public health knowledge and awareness of Alzheimer's disease and related dementias.\n\nSection 1 provides the short title (codified as a note at 42 U.S.C. 201).\n\nSection 2, the sole operative provision, amends section 398B(e) of the Public Health Service Act (42 U.S.C. 280c-5(e)) by inserting the phrase \"and $33,000,000 for each of fiscal years 2025 through 2029\" before the period at the end of the subsection. This is an authorization of appropriations—not an appropriation—extending the funding authorization for the program established under section 398B for a five-year period (FY 2025 through FY 2029) at $33,000,000 per fiscal year. The amendment operates by adding to the existing enumerated authorization amounts in subsection (e) rather than replacing or repealing prior-year figures.\n\nThe Act contains no separate effective-date provision (thus taking effect upon enactment), no sunset clause beyond the terminal FY 2029 authorization period, and no substantive amendment to the scope, eligibility, or administration of the underlying program itself. It effects no repeal and creates no new statutory authority beyond the extended appropriations authorization.",
+  "prompt_tokens": 1028,
+  "completion_tokens": 494,
+  "total_tokens": 1522,
+  "cost_usd": 0.01749,
+  "latency_s": 7.958,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

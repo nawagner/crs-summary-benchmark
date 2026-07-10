@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6249",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law asks FEMA, the government agency that helps after big disasters like hurricanes or floods, to take a closer look at how it helps people with disabilities and their families.\n\nFirst, FEMA has 120 days (about four months) to write a report for Congress. The report must describe the help and resources FEMA gives to people with intellectual or developmental disabilities and their families after a major disaster. It must explain how FEMA trains its workers, how it works with states, local governments, and nonprofits, and what programs it runs. It also must look for ways to do better.\n\nNext, within one year, two groups must each do a full review: the head of FEMA and the Comptroller General of the United States (a government official who checks how well programs work). This review covers a wider group—people with intellectual, developmental, or physical disabilities, and their families. They will study what help is given, find any legal problems that get in the way, and suggest how to improve. They will look at making the application process easier and whether new laws are needed.\n\nThe law does not create new programs or change funding. It only requires these reports and reviews so that leaders can better understand and improve disaster help for people with disabilities.",
+  "prompt_tokens": 1210,
+  "completion_tokens": 635,
+  "total_tokens": 1845,
+  "cost_usd": 0.001079,
+  "latency_s": 14.647,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

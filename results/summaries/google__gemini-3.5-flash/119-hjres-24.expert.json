@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-7 (H.J. Res. 24), enacted on May 9, 2025, is a joint resolution that invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to disapprove a federal agency rule. \n\nThe primary operative mechanism of the joint resolution is the express disapproval of the final rule submitted by the Department of Energy titled \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers,\" which was published in the Federal Register at 89 Fed. Reg. 104616 on December 23, 2024. \n\nPursuant to the statutory framework of the CRA, specifically 5 U.S.C. § 801(f), the enactment of this joint resolution dictates that the specified Department of Energy rule \"shall have no force or effect.\" Under the operation of 5 U.S.C. § 801(b)(2), the rule may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the date of the joint resolution's disapproval. \n\nThe text of Public Law 119-7 contains no authorizations of appropriations, no amendments to other provisions of the United States Code, no material exceptions, and no delayed effective dates, rendering the disapproval effective immediately upon the President's signature on May 9, 2025.",
+  "prompt_tokens": 559,
+  "completion_tokens": 335,
+  "total_tokens": 894,
+  "cost_usd": 0.003854,
+  "latency_s": 2.925,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

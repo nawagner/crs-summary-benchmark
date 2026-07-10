@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8932",
+  "model": "openai/gpt-5.5",
+  "summary": "This law is about the FAFSA. The FAFSA is the form students fill out to ask for federal money to help pay for college.\n\nThe law says the Education Department must make the FAFSA ready to process no later than October 1 before the school year when the student plans to go to college. Before, the law said it should be ready by January 1, and around October 1 if possible. Now October 1 is the firm deadline.\n\nThe law also adds new check-ins for each FAFSA cycle. Before the cycle starts, the Secretary of Education, who leads the Education Department, must tell certain committees in Congress by September 1 whether the Department will meet the October 1 deadline.\n\nIf the Department says it will not meet the deadline, the Secretary must speak to those committees by September 30. The Secretary must explain why the deadline will likely be missed and what money effects that may have on students and families.\n\nThe law is called the “FAFSA Deadline Act.” It was approved on December 11, 2024.",
+  "prompt_tokens": 797,
+  "completion_tokens": 212,
+  "total_tokens": 1009,
+  "cost_usd": 0.010345,
+  "latency_s": 5.101,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

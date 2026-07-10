@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7213",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Autism CARES Act of 2024 renews and updates federal programs for autism research and services. It tells the National Institutes of Health (NIH) to study autism in people of all ages, including older adults and caregivers. NIH must also include people with other conditions and focus on safety and well‑being. The number of special research centers grows from five to seven. NIH will ask the public for ideas and guide centers on listening to many different voices.\n\nThe law continues a program that tracks autism and supports early diagnosis and education. Information and services must respect different cultures and languages. Research can include community‑based approaches and tools for screening and diagnosis.\n\nThe government may spend money through the year 2029. Up to about $28.1 million a year goes to tracking, $56.3 million to education, and $306 million to research and coordination. NIH must send a yearly budget plan to the President and Congress.\n\nThe Health Department can train states and tribes on using grants for communication tools. Reports will cover progress, mental health needs, and challenges young adults face when leaving school‑based services. A committee that coordinates autism efforts across the government will keep sharing updates and a strategic plan.",
+  "prompt_tokens": 4132,
+  "completion_tokens": 2091,
+  "total_tokens": 6223,
+  "cost_usd": 0.003617,
+  "latency_s": 48.263,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

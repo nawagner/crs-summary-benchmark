@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2882",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All checked figures (MilPers, O&M Defense-Wide $52,599,068,000, HIDTA $298,579,000, FEMA $3,497,019,369, Afghan SIV 50,500) and context (P.L. 118-47, March 23 2024) match the grounding."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; added context like program administrators and public-law number is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly identifies it as FY2024 consolidated appropriations across seven divisions."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes FLSA overtime amendment, Afghan Allies Protection Act extension, Head Start rule changes, and rescissions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes emergency-designation contingency, advance-notification conditions, overtime caps, and UNRWA limitation."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites FY ending Sept 30 2024, HIDTA through Sept 30 2025, two-year FLSA exemption, Afghan visas through Dec 31 2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Covers all seven divisions and their principal appropriations and riders."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, descriptive throughout."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized division-by-division and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but appropriate to a bill of this scope, without padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Agencies and programs (AFRICOM/SOUTHCOM, CISA, FEMA, Udall Foundation, DFC) are named correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dollar amounts verified against the index/excerpts are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

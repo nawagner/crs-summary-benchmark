@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-181",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill tells the President to pull U.S. troops out of fighting in or against Iran unless Congress gives its approval. Congress is the part of the government that makes laws. The Constitution says only Congress can declare war. The bill finds that Congress has not declared war on Iran or passed a law allowing the use of military force there.\n\nIn February 2026, the Trump administration began a military campaign called Operation Epic Fury against Iran. The fighting caused Iran to close the Strait of Hormuz, a narrow waterway where much of the world’s oil travels. This closure pushed oil prices above $100 a barrel and threatened food supplies because fertilizer is shipped through that strait. The President threatened large-scale destruction if Iran did not reopen it, but he did not ask Congress for a war declaration or permission to use force. According to the bill, more than 50,000 U.S. service members have taken part, seven have died in combat, and 381 have been wounded.\n\nIf the bill becomes law, the President must remove U.S. forces from these hostilities unless Congress formally declares war or passes a specific authorization for military force. However, the removal would not prevent three things: defending the United States or its people and bases in other nations; collecting and sharing intelligence about threats from Iran; and helping Israel and other partner countries defend themselves if Iran attacks them. That includes giving defensive equipment and support.",
+  "prompt_tokens": 1752,
+  "completion_tokens": 889,
+  "total_tokens": 2641,
+  "cost_usd": 0.001536,
+  "latency_s": 15.92,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

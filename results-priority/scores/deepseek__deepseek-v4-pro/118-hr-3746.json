@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-3746",
+  "candidate": "deepseek__deepseek-v4-pro",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All claims match the bill, including caseload-credit year change to 2015, 8% SNAP exemption cap, and 21-day MVP permit deadline."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No invented content; added context is accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies debt-limit suspension, spending caps, rescissions, and policy changes as the purpose."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Names NEPA amendments, TANF caseload-credit baseline change, and SNAP exemption changes."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes rescission exceptions, PAYGO waivers, SNAP exemptions, and cash-reserve bar."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites debt window, end-of-2024 PAYGO sunset, student-loan timing, SNAP 2030 sunset, and TANF 2024/2025."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Thoroughly covers all divisions and key mechanics."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and descriptive."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized and internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but free of padding."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "IRS, IRA, SNAP, TANF, NEPA, Mountain Valley Pipeline all correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "$886B/$704B caps, $1.39B rescission, 8% cap, 21-day deadline, and 2015 baseline year are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

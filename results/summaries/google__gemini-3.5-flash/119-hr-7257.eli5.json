@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the SECURE Grid Act. It is a proposed law to help protect the systems that bring electricity to our homes and businesses. \n\nRight now, each state must have an energy security plan. This is a plan to keep power running safely. This bill would change the rules to make sure states focus on protecting local power systems. These are the smaller power lines and equipment that carry electricity under 100 kilovolts. \n\nUnder this bill, states must plan for different kinds of dangers. These include physical threats, like bad weather or attacks on power equipment. They also include cyberattacks, which are attacks by hackers using computers. States must also plan for supply chain problems, which happen when it is hard to get the parts needed to build or fix power systems. \n\nIf this bill becomes a law, states will have to show how they will prevent, respond to, and recover from these problems. The Secretary of Energy, who is a leader in the government, does not need to approve these state plans. \n\nFinally, a government watchdog group must write a report by September 30, 2030, to see if these plans are working. This law would end on September 30, 2031.",
+  "prompt_tokens": 2039,
+  "completion_tokens": 258,
+  "total_tokens": 2297,
+  "cost_usd": 0.00538,
+  "latency_s": 2.48,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

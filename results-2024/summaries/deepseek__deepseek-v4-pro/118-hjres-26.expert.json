@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-26",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution exercises the congressional authority of the United States under the District of Columbia Home Rule Act (Public Law 93-198, as amended) to disapprove a specific enactment of the Council of the District of Columbia. The operative clause states that Congress disapproves the action of the District of Columbia Council described as the Revised Criminal Code Act of 2022 (D.C. Act 24‑789). The resolution identifies the D.C. Act by its local designation, its enactment date of January 17, 2023, by the Council, and its transmittal to Congress on January 27, 2023, pursuant to section 602(c)(1) of the District of Columbia Home Rule Act. No amendments to the United States Code, no appropriations, and no authorizations of funds are effected; the resolution is purely a legislative veto. Upon the President’s approval on March 20, 2023 (the resolution becoming Public Law 118‑1), the D.C. Revised Criminal Code Act of 2022 was rendered without legal effect, consistent with the congressional disapproval mechanism provided in the Home Rule Act. The resolution contains no substantive criminal law provisions, no regulatory directives, and no severability or effective-date clauses beyond its own operative disapproval.",
+  "prompt_tokens": 468,
+  "completion_tokens": 1404,
+  "total_tokens": 1872,
+  "cost_usd": 0.001425,
+  "latency_s": 28.201,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

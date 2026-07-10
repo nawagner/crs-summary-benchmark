@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-24",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 119-7 (H.J. Res. 24) is a joint resolution enacted pursuant to chapter 8 of title 5, United States Code, providing for congressional disapproval of a specified administrative rule. \n\nThe resolution's primary purpose is to statutorily nullify the final rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Walk-In Coolers and Walk-In Freezers,\" which was published at 89 Fed. Reg. 104616 on December 23, 2024. \n\nThe operative mechanism is a formal congressional declaration of disapproval. The resolution expressly provides that the aforementioned rule \"shall have no force or effect.\" By invoking chapter 8 of title 5, U.S.C. (commonly known as the Congressional Review Act), Congress exercises its statutory authority to overturn an agency rule via joint resolution, thereby legally preventing the specified energy conservation standards from taking or continuing in effect. The text contains no material exceptions, conditions precedent, or authorization or appropriation provisions.\n\nThe joint resolution was approved by the President on May 9, 2025, which establishes the effective date of the statutory disapproval. The legislative history indicates that the resolution was considered and passed by the House of Representatives on March 27, 2025, and considered and passed by the Senate on April 2 and 3, 2025.",
+  "prompt_tokens": 506,
+  "completion_tokens": 1365,
+  "total_tokens": 1871,
+  "cost_usd": 0.002619,
+  "latency_s": 28.031,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

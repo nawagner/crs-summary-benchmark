@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-4365",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly lists the bill's appropriations titles and the excluded categories (milcon, family housing, civil works, nuclear warheads)."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated content; all listed categories and related agencies are accurate."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the bill provides FY2024 appropriations to DoD for military activities."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the bill sets forth requirements and restrictions for using funds under this and other appropriations acts."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Identifies the carve-out of categories funded in other appropriations bills."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "States the FY2024 appropriation period."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Enumerates all major appropriations titles and related-agency accounts at a faithful high level."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral and non-partisan."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Very concise, no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Correctly names accounts such as the CIA Retirement and Disability System Fund and the Intelligence Community Management Account."
+    },
+    "correct_figures": {
+      "applicable": false,
+      "pass": true,
+      "why": "States no dollar figures, so this criterion does not apply."
+    }
+  },
+  "n_applicable": 11,
+  "n_passed": 11,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

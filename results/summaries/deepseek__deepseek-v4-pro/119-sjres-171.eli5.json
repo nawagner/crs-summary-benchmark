@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-171",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a resolution from Congress. It tells the President to remove U.S. troops from any fighting in or against Iran, unless Congress has officially declared war or passed a specific law allowing military force there.\n\nThe bill explains why this matters. The Constitution gives Congress the power to declare war, and Congress has not declared war on Iran. It points out that the President and other top officials have called the current operation a “war.” As of April 10, 2026, the fighting has killed 13 American service members and wounded at least 350.\n\nIf the bill becomes law, the President must stop the fighting. But the bill does not stop the United States from doing certain things. The military can still defend the U.S. or its people if they are attacked. The government can still collect and share intelligence to help protect against threats from Iran. The U.S. can also help Israel and other nations defend themselves from Iranian attacks, including giving them defensive supplies. Finally, the U.S. can help American citizens leave the danger zone safely.",
+  "prompt_tokens": 1391,
+  "completion_tokens": 877,
+  "total_tokens": 2268,
+  "cost_usd": 0.001368,
+  "latency_s": 19.996,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

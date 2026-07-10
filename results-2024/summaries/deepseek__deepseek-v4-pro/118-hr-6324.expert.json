@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6324",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "The Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act (Public Law 118-124) authorizes the Secretary of Veterans Affairs to carry out eleven specified major medical facility projects during fiscal year 2024. Section 2(a) enumerates each project by location, scope, and a maximum obligational ceiling: (1) American Lake, Washington—specialty care building, renovation, parking expansion ($155,600,000); (2) Dallas, Texas—mental health clinical space expansion, parking, land acquisition ($93,100,000); (3) El Paso, Texas—new health care center and utility plant ($759,200,000); (4) Perry Point, Maryland—community living center replacement, parking expansion ($274,310,000); (5) Portland, Oregon—seismic retrofit, renovation, specialty care facility, demolition, parking ($613,000,000); (6) Reno, Nevada—initiation of medical center replacement, land acquisition, preliminary site work ($223,800,000); (7) San Diego, California—spinal cord injury building, renovation, parking, utility plant upgrades, seismic retrofit ($311,700,000); (8) San Francisco, California—research facility, parking structure, demolition ($264,500,000); (9) San Juan, Puerto Rico—seismic corrections, administrative building, outpatient clinic and parking expansion ($370,370,000); (10) St. Louis, Missouri—Phase 1 bed tower replacement, clinical building expansion, consolidation, utility plant, parking garages ($135,340,000); and (11) West Haven, Connecticut—surgical and clinical space tower, renovation, demolition ($153,128,000). Section 2(b) contains an authorization of appropriations—not a direct appropriation—of $3,354,048,000 to the Secretary for the Construction, Major Projects account, available for fiscal year 2024 or the year in which funds are appropriated. The Act contains no substantive amendments to the United States Code, no sunset provisions, and no conditions precedent beyond the specified cost caps. It took effect upon enactment on November 25, 2024.",
+  "prompt_tokens": 1152,
+  "completion_tokens": 935,
+  "total_tokens": 2087,
+  "cost_usd": 0.001315,
+  "latency_s": 11.689,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

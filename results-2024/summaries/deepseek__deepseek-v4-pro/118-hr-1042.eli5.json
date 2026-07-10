@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "A new law called the Prohibiting Russian Uranium Imports Act stops most imports of a certain type of uranium fuel from Russia. The fuel is unirradiated low-enriched uranium—uranium that has been processed for nuclear power plants but not yet used. The ban also covers uranium that is traded or swapped to try to get around the rule.\n\nThe ban begins 90 days after the law was signed on May 13, 2024. It will end on December 31, 2040, unless Congress changes it.\n\nThere are a few exceptions. The Secretary of Energy (a top government energy official) can give special permission to import the fuel if no other usable supply is available to keep a nuclear reactor or a U.S. nuclear company running, or if importing it is in the national interest. The government must limit how much is brought in under these permissions: up to 476,536 kilograms in 2024, 470,376 kilograms in 2025, 464,183 kilograms in 2026, and 459,083 kilograms in 2027. Any special permission must end by January 1, 2028. Congress must be told when a permission is given and who receives it.\n\nThe ban does not apply to imports by the Department of Energy for national security or nonproliferation purposes. It also does not cover non-uranium isotopes.",
+  "prompt_tokens": 1944,
+  "completion_tokens": 1781,
+  "total_tokens": 3725,
+  "cost_usd": 0.002395,
+  "latency_s": 31.708,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

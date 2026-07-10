@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-42",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law cancels a rule made by the Department of Energy. The Department of Energy is the part of the government that deals with things like power and electricity.\n\nThe rule was about appliances. Appliances are machines like fridges, ovens, or other equipment people and businesses use. The rule set some requirements. It told companies to check and prove how much energy their products use. It also had rules for labels and for making sure companies followed the rules.\n\nCongress used a special power to say \"no\" to this rule. When Congress does this, the rule is thrown out. It \"shall have no force or effect.\" That means the rule does not count anymore, and no one has to follow it.\n\nHere are some important dates. The House of Representatives passed this on March 5, 2025. The Senate passed it on April 29 and 30, 2025. The President approved it on May 9, 2025.\n\nSo, if you are wondering what changes: the energy rule about appliances is gone. The requirements it set up no longer apply.",
+  "prompt_tokens": 845,
+  "completion_tokens": 297,
+  "total_tokens": 1142,
+  "cost_usd": 0.01165,
+  "latency_s": 8.179,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

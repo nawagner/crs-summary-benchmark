@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-160",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the Aerial Firefighting Enhancement Act of 2025. It was signed into law on June 12, 2025.\n\nThe law lets the Department of Defense (the part of the government that runs the military) sell old airplanes and airplane parts to groups that fight wildfires. This is not a new idea. A law from 1996 already allowed this, but the permission had expired. This bill brings that permission back.\n\nThe bill makes a few changes to the old law. First, it says the aircraft can drop water on fires, not just fire retardant (a special chemical used to slow fires down). Second, it makes clear that any aircraft sold under this law can only be used to help fight wildfires. Third, it sets a time limit. The military can keep selling these aircraft and parts from June 12, 2025, through October 1, 2035. After that date, this permission would end unless Congress passes another law to extend it.\n\nIn short, if this law is in place, groups that fight wildfires from the air can buy surplus military planes and parts to help put out fires for about ten years.",
+  "prompt_tokens": 742,
+  "completion_tokens": 499,
+  "total_tokens": 1241,
+  "cost_usd": 0.001261,
+  "latency_s": 9.944,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

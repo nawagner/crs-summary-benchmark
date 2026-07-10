@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-2882",
+  "candidate": "crs_reference",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "Accurately describes the 6 included appropriations bills, funded entities, extensions, and UNRWA limitation."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states it provides FY2024 appropriations and extends expiring authorities."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes extension of NFIP, Udall Foundation Trust Fund, and immigration authorities."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the prohibition on UNRWA payments as a material condition."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Cites FY2024 and the March 25, 2025 UNRWA payment cutoff."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the essential effect: which appropriations bills and departments are funded plus key extensions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral baseline summary."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clear and well-structured."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Compact with no filler."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "Departments, NFIP, Udall Foundation, and UNRWA identified correctly."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "The '6 of the 12' count and March 25, 2025 date are correct."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "sectional"
+}

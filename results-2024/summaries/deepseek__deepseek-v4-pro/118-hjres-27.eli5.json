@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a joint resolution, which is a type of law that must pass both the House of Representatives and the Senate, and then be signed by the President. It says Congress cancels a specific rule made by two government agencies: the Army Corps of Engineers and the Environmental Protection Agency (EPA). The rule was about deciding which lakes, rivers, streams, and wetlands count as “waters of the United States.” That definition is important because it helps decide which waters are protected under the Clean Water Act. The rule was published on January 18, 2023, in the Federal Register, which is the daily newspaper of the U.S. government where new rules are announced. If this resolution becomes law, that rule would be wiped out and have no effect at all. The House of Representatives already passed the resolution on March 9, 2023. The Senate received it on March 14, 2023. For the cancellation to happen, the Senate must also pass it and the President must sign it.",
+  "prompt_tokens": 441,
+  "completion_tokens": 958,
+  "total_tokens": 1399,
+  "cost_usd": 0.001025,
+  "latency_s": 11.48,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

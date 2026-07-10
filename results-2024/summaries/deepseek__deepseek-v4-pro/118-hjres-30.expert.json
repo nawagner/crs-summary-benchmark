@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code, to disapprove and nullify a final rule issued by the Department of Labor. The resolution provides that the rule entitled “Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights,” published at 87 Federal Register 73822 on December 1, 2022, “shall have no force or effect.” The operative mechanism is a legislative veto under the CRA’s expedited procedures (5 U.S.C. §§ 801–808); if enacted, the resolution would not only void the rule retroactively but also bar the agency from reissuing the rule in substantially the same form absent subsequent statutory authorization (5 U.S.C. § 801(b)(2)), though that prohibition is a statutory consequence of the CRA rather than an express provision of the resolution text.\n\nThe resolution consists of a single resolving clause. It identifies the subject rule by its formal title and Federal Register citation, satisfying the CRA’s requirement that a disapproval resolution reference the specific rule. The text contains no exceptions, conditions precedent, or delayed effective dates; disapproval is immediate upon enactment of the joint resolution. The measure is a joint resolution, requiring presentment to the President and either signature or a veto override, consistent with the CRA’s mechanism for congressional override of agency rulemaking. As introduced in the Senate after passage by the House of Representatives, the resolution reflects the exercise of Congress’s authority under Article I of the Constitution and the statutorily created CRA framework to invalidate executive branch regulations through bicameral action.",
+  "prompt_tokens": 452,
+  "completion_tokens": 965,
+  "total_tokens": 1417,
+  "cost_usd": 0.001036,
+  "latency_s": 19.187,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

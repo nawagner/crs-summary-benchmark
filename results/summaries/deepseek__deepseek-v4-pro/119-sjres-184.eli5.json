@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-184",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill would order the President to remove U.S. troops from fighting in or against Iran, unless Congress has declared war or passed a law giving specific permission to use force. It relies on the War Powers Resolution, a rule that says the President must stop military actions after 60 days if Congress does not approve them. The President told Congress on March 2, 2026, that U.S. forces began fighting Iran on February 28, 2026. The 60-day deadline is May 1, 2026. The bill directs the President to pull troops out by that deadline, or earlier if required.\n\nEven if the bill becomes law, the United States could still defend itself or its people and property in other countries if attacked. It could gather and share intelligence (spy information) to help defend against threats from Iran or its proxy groups. It could help Israel and other nations defend themselves from attacks by Iran or its proxies, including giving them defensive supplies. It could also help U.S. citizens leave the area safely. The bill does not stop these defensive actions. It only requires the President to end offensive fighting in or against Iran without Congress’s approval.",
+  "prompt_tokens": 1371,
+  "completion_tokens": 1826,
+  "total_tokens": 3197,
+  "cost_usd": 0.002185,
+  "latency_s": 22.4,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

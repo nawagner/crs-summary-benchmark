@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1240",
+  "model": "openai/gpt-5.5",
+  "summary": "This law moves certain federal lands from the Army Corps of Engineers to the Bureau of Indian Affairs. The Bureau of Indian Affairs is a federal agency that works with Native tribes.\n\nThe land will become part of the Winnebago Reservation, which was created by an 1865 treaty between the United States and the Winnebago Tribe. The United States will hold the land “in trust” for the Winnebago Tribe of Nebraska. This means the U.S. government legally holds the land for the Tribe’s benefit.\n\nThe law covers specific federal tracts of land listed in court records. Some of the land is in Woodbury County, Iowa. Another tract is listed in a Nebraska court record.\n\nThe land transfer is subject to any valid existing rights. This means legal rights that already exist on the land are not erased by this law.\n\nThe law also says that Class II and Class III gaming may never happen on this land. These are types of gambling covered by federal Indian gaming law, including bingo-style and casino-style gaming.\n\nThe law was approved on July 12, 2024.",
+  "prompt_tokens": 952,
+  "completion_tokens": 579,
+  "total_tokens": 1531,
+  "cost_usd": 0.02213,
+  "latency_s": 12.126,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

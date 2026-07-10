@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-s-612",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the Lake Tahoe Restoration Reauthorization Act. It mainly extends the time the government can spend money to help fix and protect Lake Tahoe.\n\nBefore this bill, there was a different end date for spending this money. Now, the government can keep spending the money until September 30, 2034. This means the groups working to clean up and restore the lake have more time to use the funds.\n\nThe bill was approved on October 1, 2024. It changes the rules of an older law called the Lake Tahoe Restoration Act. An \"Act\" is a law made by Congress. By updating the old law, this bill makes sure the work to help Lake Tahoe can continue for several more years.",
+  "prompt_tokens": 594,
+  "completion_tokens": 669,
+  "total_tokens": 1263,
+  "cost_usd": 0.001472,
+  "latency_s": 8.594,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

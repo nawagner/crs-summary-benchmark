@@ -97,6 +97,36 @@ quick smoke test. Preview the site locally:
 python -m http.server -d docs 8000   # → http://localhost:8000
 ```
 
+## Regenerating data (requires API keys)
+
+The site's committed data files are regenerated offline-safe where possible (`report.py` and
+`build_perspectives.py` need no keys); everything else needs `.env` keys, and the model/judge steps
+spend OpenRouter credit. Run `pip install -r requirements-dev.txt && pytest tests/` first — the
+pipeline's pure logic (stage classification, chunking, retrieval, readability, extractors) is fully
+tested offline.
+
+- **CRS lag page** (issue #6): `python src/analyze_lag.py && python src/plot_lag.py` — now also runs
+  a latest-action census of every hr/s bill (~60 list requests) plus the sampled bills' action
+  histories (~1.1k requests) to produce per-stage coverage (floor / committee / introduced).
+  `plot_lag.py` writes two charts: `crs-lag.png` (coverage by month) and `crs-lag-stages.png`
+  (coverage by legislative stage, from the census).
+- **Reading levels** (issue #10): `python src/run_models.py --levels eli5,expert` then
+  `python src/report.py` (per dataset, with the usual `CRS_DATASET`/`CRS_CONFIG` pair) — ~500
+  generation calls per dataset for the two extra levels; no re-judging needed (only the default
+  level is judged; Flesch-Kincaid grades are computed locally).
+- **Priority / long-bill dataset** (issue #7): the full pipeline under
+  `CRS_DATASET=priority CRS_CONFIG=config-priority.yaml` — appropriations/NDAA-scale bills are
+  summarized map-reduce (~25 chunks per omnibus per model; a full run is roughly 2,500 map calls
+  plus merges and judging — **estimate $50–150**; start with `--limit 2`). Long-bill judging is
+  grounded in a section index + relevant excerpts (`judge_grounding: "sectional"`), and
+  `build_judge_packets.py` produces equivalently-grounded packets for the subagent-judging route.
+  Review the audited bill list in `config-priority.yaml` before running.
+- **Committee/CBO reference baselines** (issue #8, spike): `python src/fetch_references.py` then
+  `report.py` — adds unscored "Committee report" / "CBO cost estimate" cards to the bill pages
+  where those documents exist. See `research/issue-8-committee-cbo-spike.md`.
+- **Perspectives** (issue #9, prototype): hand-curate verbatim quotes in `perspectives.yaml`, then
+  `python src/build_perspectives.py` (validates and compiles `docs/data/perspectives.json`).
+
 ## The website (`docs/`, served via GitHub Pages)
 
 - **Leaderboard** — sortable by quality, cost, and latency, plus a per-criterion pass-rate heatmap and
@@ -104,12 +134,17 @@ python -m http.server -d docs 8000   # → http://localhost:8000
 - **Bills** — every bill, filterable by summarizer / criterion / outcome / type, with a per-bill
   drill-down showing all summaries side by side and the judge's per-criterion verdicts.
 - **Methodology** — the criteria, prompts, judge, and caveats, in full.
-- **Dataset toggle** — switch between the two datasets on the leaderboard and bills pages.
+- **Dataset toggle** — switch datasets on the leaderboard and bills pages (the priority/long-bill
+  dataset appears automatically once its results file is generated and committed).
+- **Reading-level toggle** — on the bill drill-down, dial each summary between Grade-5 / general /
+  expert registers once the extra levels are generated; every summary shows its measured
+  Flesch-Kincaid grade.
 
 ## Configuration
 
-- **`config.yaml`** / **`config-2024.yaml`** — summarizer models, `judge_model`, congress, bill types,
-  corpus size, text cap, and prompts for each dataset.
+- **`config.yaml`** / **`config-2024.yaml`** / **`config-priority.yaml`** — summarizer models,
+  `judge_model`, congress, bill types, corpus size, text caps, reading levels, and prompts for each
+  dataset.
 - **`criteria.yaml`** — the binary grading criteria. Add, remove, or reword them freely; the judge and
   the site update automatically.
 - **`prompts/`** — the exact summarization and judge prompts.

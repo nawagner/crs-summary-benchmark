@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-4581",
+  "model": "z-ai/glm-5.2",
+  "summary": "Public Law 118-69, cited as the \"Maternal and Child Health Stillbirth Prevention Act of 2024,\" amends title V of the Social Security Act to clarify that federal funds authorized under the Maternal and Child Health Services Block Grant may be used for stillbirth prevention activities and research. \n\nThe Act's operative mechanism is a targeted amendment to Section 501(a) of the Social Security Act (42 U.S.C. 701(a)). Specifically, Section 2 of the Act modifies paragraph (1)(B) of Section 501(a) by inserting the phrase \"to reduce the incidence of stillbirth,\" immediately following the phrase \"among children,\". This addition explicitly incorporates stillbirth reduction within the scope of authorized purposes for which appropriations under this section may be expended.\n\nAdditionally, Section 2 amends paragraph (2) of Section 501(a) by inserting a new clause immediately after the phrase \"follow-up services\". This clause authorizes the use of funds for \"evidence-based programs and activities and outcome research to reduce the incidence of stillbirth.\" The amendment enumerates specific permissible programs and activities, including: tracking and awareness of fetal movements; improvement of birth timing for pregnancies with risk factors; initiatives that encourage safe sleeping positions during pregnancy; screening and surveillance for fetal growth restriction; efforts to achieve smoking cessation during pregnancy; community-based programs that provide home visits or other types of support; and any other research or evidence-based programming to prevent stillbirths.\n\nThe Act was approved on July 12, 2024, and contains no delayed effective date, meaning the amendments to 42 U.S.C. 701(a) take effect upon enactment. The Act does not enact a new appropriation but rather clarifies and expands the permissible uses of existing authorized funding under the Maternal and Child Health Services Block Grant. No material exceptions, conditions precedent, or sunset provisions are included in the enacted text.",
+  "prompt_tokens": 696,
+  "completion_tokens": 1128,
+  "total_tokens": 1824,
+  "cost_usd": 0.002316,
+  "latency_s": 6.577,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

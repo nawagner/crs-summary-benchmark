@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Firefighter Cancer Registry Reauthorization Act of 2023. It is a new law that helps firefighters who get sick. \n\nFirefighters do dangerous work. Sometimes, the smoke and chemicals they breathe can cause a disease called cancer. To help them, the government has a special list called a registry. This registry keeps track of how many firefighters get cancer and why. \n\nThe government used to spend 2.5 million dollars each year on this list. This bill changes that amount. Now, the government will spend 5.5 million dollars each year to keep the registry going. This money will be spent every year from 2024 through 2028. \n\nWith this law, scientists will have more money to study firefighter health. This can help them find better ways to keep our brave firefighters safe.",
+  "prompt_tokens": 627,
+  "completion_tokens": 176,
+  "total_tokens": 803,
+  "cost_usd": 0.002525,
+  "latency_s": 1.814,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

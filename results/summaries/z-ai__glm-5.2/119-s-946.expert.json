@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "z-ai/glm-5.2",
+  "summary": "The bill, cited as the “Medication Access and Training Expansion Improvement Act” or the “MATE Improvement Act,” clarifies and expands the training requirements for prescribers of controlled substances by amending the Controlled Substances Act (CSA). \n\nSection 2(a) amends Section 303 of the CSA (21 U.S.C. 823) by redesignating the second subsection designated as subsection (l) as subsection (m). It subsequently modifies subsection (m)(1) to expand the enumerated professional organizations and accrediting bodies whose training curricula satisfy federal prescriber training requirements. \n\nSpecifically, in subsection (m)(1)(A), the bill adds the American Academy of Family Physicians, the American Podiatric Medical Association, the Academy of General Dentistry, and the American Optometric Association to the list of recognized organizations, and adds the Council on Podiatric Medical Education as a recognized accrediting body. It also inserts the American Academy of Family Physicians into a subsequent list of qualifying organizations. Furthermore, the amendment expands the scope of recognized medical curricula to include \"podiatric medicine\" alongside osteopathic medicine and dental surgery, and \"podiatric medicine curriculum\" alongside dental medicine curriculum.\n\nIn subsection (m)(1)(B), the bill adds the American Pharmacists Association, the Accreditation Council on Pharmacy Education, the American Psychiatric Nurses Association, the American Academy of Nursing, and the American Academy of Family Physicians to the list of recognized organizations. It also modifies the statutory text regarding accredited schools to include \"an accredited school of pharmacy.\"\n\nSection 2(b) establishes the effective date, providing that the amendments made by subsection (a) shall take effect as if enacted on December 29, 2022, thereby retroactively applying the expanded training recognition criteria to that date.",
+  "prompt_tokens": 935,
+  "completion_tokens": 1171,
+  "total_tokens": 2106,
+  "cost_usd": 0.00252,
+  "latency_s": 10.887,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-6513",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the Confirmation Of Congressional Observer Access Act of 2024. It was approved on October 4, 2024. The law says that states must let special workers from Congress watch how federal elections are run. These workers are called designated congressional election observers. They are chosen by leaders of certain congressional committees, which are groups of lawmakers.\n\nThe observers must be allowed to watch all parts of the election process. This includes where people vote and where ballots are counted, checked, or certified. They can watch before and after election day.\n\nThere are rules for what observers can and cannot do. They cannot touch ballots or voting machines. They cannot try to get people to vote a certain way. They cannot bother voters or stop election workers from doing their jobs. However, they are allowed to ask questions.\n\nIf an observer breaks these rules or causes trouble, an election official can make them leave. But just being there is not a good enough reason to make them leave. If an observer is removed, the official must tell the congressional committees in writing within 24 hours. The committees can then send a new observer to take their place. This law applies to all 50 states, Washington D.C., and U.S. territories.",
+  "prompt_tokens": 1743,
+  "completion_tokens": 1665,
+  "total_tokens": 3408,
+  "cost_usd": 0.003809,
+  "latency_s": 36.023,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

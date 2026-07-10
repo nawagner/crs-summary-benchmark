@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-4663",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Florida Freeze Disaster Assistance Act. It was created to help farmers who lost money because of freezing temperatures and cold weather. \n\nIf this bill becomes a law, the United States government will set aside $3.5 billion. This money will go to the Secretary of Agriculture, who is the leader of the government department that helps farmers. The Secretary will give this money to states as \"block grants,\" which are large chunks of money used for specific projects. \n\nThe states will use the money to help farmers who lost crops, trees, bushes, or vines because of the cold. It also helps farmers who could not plant their crops at all. \n\nThere are a few rules for this money:\n* It can only go to counties that the Secretary of Agriculture officially declared as freeze disaster areas on March 4, 2026.\n* A state agency, like a state department of agriculture, must ask for the money.\n* Every three months, the Secretary must send a report to Congress to explain how the money is being used. \n\nCongress is calling this money an emergency requirement, which means it is for an urgent crisis.",
+  "prompt_tokens": 854,
+  "completion_tokens": 238,
+  "total_tokens": 1092,
+  "cost_usd": 0.003423,
+  "latency_s": 2.14,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

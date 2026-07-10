@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-946",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill changes rules about training for health care workers who prescribe “controlled substances.” These are medicines or drugs with special federal rules because they can be misused.\n\nThe bill says more kinds of training can count toward the federal training requirement. It adds more approved groups that can provide or approve the training. These include groups for family doctors, foot doctors, dentists, eye doctors, pharmacists, nurses, and others.\n\nIt also says training from certain schools can count. This includes schools of podiatric medicine, which train foot doctors, and schools of pharmacy, which train pharmacists. The bill also adds podiatric medicine to the list of medical school programs that may meet the requirement.\n\nThe bill mostly clarifies which organizations and schools are allowed under the training rule. It does not create a new dollar amount or payment program.\n\nThese changes would count as if they had been in place since December 29, 2022.",
+  "prompt_tokens": 902,
+  "completion_tokens": 364,
+  "total_tokens": 1266,
+  "cost_usd": 0.01543,
+  "latency_s": 7.371,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

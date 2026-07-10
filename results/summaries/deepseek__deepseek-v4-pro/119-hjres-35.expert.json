@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution (Public Law 119-2, approved March 14, 2025) exercises congressional authority under the Congressional Review Act (5 U.S.C. chapter 8) to disapprove a final rule of the Environmental Protection Agency. The resolution provides that Congress disapproves the rule entitled “Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions,” published at 89 Fed. Reg. 91094 (November 18, 2024), and that such rule “shall have no force or effect.” The resolution does not amend any provision of the United States Code; its operative mechanism is the disapproval itself, which triggers the legal consequences set forth in 5 U.S.C. § 801(b). By operation of that subsection, the disapproved rule is treated as though it had never taken effect, and the Environmental Protection Agency may not reissue the rule in substantially the same form, or issue a new rule that is substantially the same, unless a subsequently enacted statute specifically authorizes such action. The resolution contains no separate authorization of appropriations, no regulatory mandate, and no delayed effective date; it took effect upon the President’s signature. No exceptions, conditions precedent, or sunset provisions are included.",
+  "prompt_tokens": 496,
+  "completion_tokens": 1143,
+  "total_tokens": 1639,
+  "cost_usd": 0.00121,
+  "latency_s": 25.813,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

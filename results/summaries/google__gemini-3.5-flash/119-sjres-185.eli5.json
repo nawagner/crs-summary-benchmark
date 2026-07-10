@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-185",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of proposal that can become a law. It was introduced in the United States Senate in April 2026. \n\nThe main goal of this bill is to stop the United States military from fighting in or against the country of Iran. Under the U.S. Constitution, only Congress has the power to declare war. The bill says that Congress has not declared war on Iran. Because of this, the bill orders the President to remove U.S. soldiers from any fighting against Iran. \n\nHowever, the bill does allow the U.S. military to do a few things. The military can still defend the United States, its people, and its buildings from attacks. The U.S. can also share secret information, called intelligence, with partner countries that Iran has attacked since February 28, 2026. Finally, the U.S. can help these partner countries stop attacks from Iran and give them defensive supplies to protect themselves.",
+  "prompt_tokens": 1262,
+  "completion_tokens": 207,
+  "total_tokens": 1469,
+  "cost_usd": 0.003756,
+  "latency_s": 2.441,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

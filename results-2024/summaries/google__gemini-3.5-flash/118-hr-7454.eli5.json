@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7454",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is called the Airport and Airway Extension Act of 2024. It is a law that keeps United States aviation programs running for a little while longer. Aviation means anything having to do with flying airplanes and running airports. \n\nThe main thing this law does is change expiration dates. Many government programs for airports were supposed to end in early March 2024. This law moves those end dates to May 10 or May 11, 2024. \n\nBy changing these dates, the law allows the government to keep collecting taxes on airplane tickets and jet fuel. This tax money goes into a special fund to pay for airport projects. \n\nThe law also sets aside specific amounts of money to keep things running through May 10, 2024. This includes:\n*   About $2.04 billion for improving airports.\n*   About $7.26 billion for Federal Aviation Administration (FAA) operations. The FAA is the government group that watches over flying.\n*   About $1.79 billion for air navigation tools and equipment.\n*   About $155 million for research and development.\n*   About $216 million to help small communities keep their air service.\n\nFinally, the law extends rules for drone safety and airport insurance through the new May dates.",
+  "prompt_tokens": 4471,
+  "completion_tokens": 281,
+  "total_tokens": 4752,
+  "cost_usd": 0.009236,
+  "latency_s": 2.62,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

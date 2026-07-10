@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-201",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law is called the ACES Act of 2025. It orders a study on cancer among people who flew in military planes. \n\nThe Secretary of Veterans Affairs (the person in charge of helping former soldiers) must ask a group of scientists to do the study. They have 30 days to ask, and 60 days to finish the agreement. If they miss the deadline, they must tell Congress why and give updates every 60 days.\n\nThe study will look at people who served as aircrew on fixed-wing aircraft (planes with wings that do not move) in the Army, Navy, Air Force, or Marine Corps. This includes pilots, navigators, and other crew members who flew regularly.\n\nThe scientists will study what chemicals or other things these crew members were exposed to during their jobs. They will check if these exposures caused certain types of cancer, like brain, lung, skin, and prostate cancer. They will use health records from the military and the government to see how many people got cancer or died from it.\n\nWhen the study is done, the scientists must write a report with their findings. They will give this report to the Secretary of Veterans Affairs and to Congress.",
+  "prompt_tokens": 1318,
+  "completion_tokens": 1038,
+  "total_tokens": 2356,
+  "cost_usd": 0.002501,
+  "latency_s": 6.394,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

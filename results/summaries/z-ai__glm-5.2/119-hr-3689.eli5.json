@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-3689",
+  "model": "z-ai/glm-5.2",
+  "summary": "This bill is called the TREAT Youth Act. It changes an older law called the SUPPORT for Patients and Communities Act. The main thing this bill does is allow the government to keep funding a program that helps young people stay away from drugs and helps them recover if they need to.\n\nIf this bill becomes a law, it sets exact amounts of money that Congress (the part of the government that makes laws) is allowed to approve for this program each year. The amounts go up a little bit each year. For the year 2026, it allows $10 million. For 2027, it allows $12 million. For 2028, it allows $13 million. For 2029, it allows $14 million. For 2030, it allows $15 million.\n\nThe bill gives permission for these amounts to be spent. It helps make sure the youth program can continue for several more years.",
+  "prompt_tokens": 603,
+  "completion_tokens": 874,
+  "total_tokens": 1477,
+  "cost_usd": 0.001829,
+  "latency_s": 32.299,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

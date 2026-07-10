@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This joint resolution (Public Law 119-48, originating as H.J. Res. 104) exercises Congress's disapproval authority under the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code (5 U.S.C. §§ 801 et seq.), to nullify an agency rule.\n\nThe operative mechanism is the CRA's expedited disapproval procedure under 5 U.S.C. § 802. The resolution provides that Congress disapproves the rule submitted by the Bureau of Land Management (BLM) titled \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment,\" issued November 20, 2024, as a record of decision and resource management plan amendment. Pursuant to 5 U.S.C. § 801(b)(1), the resolution declares that the rule \"shall have no force or effect.\"\n\nThe resolution specifically references, as a predicate to its treatment of the BLM action as a reviewable \"rule,\" a Government Accountability Office letter of opinion dated June 25, 2025, printed in the Congressional Record of June 26, 2025, at pages S3552–S3554. That GAO opinion concluded that the record of decision and resource management plan amendment constitutes a \"rule\" within the meaning of the CRA, thereby establishing the instrument's amenability to congressional review notwithstanding its form as a record of decision rather than a rule promulgated through notice-and-comment rulemaking.\n\nThe legal consequence of enactment is twofold under the CRA framework. First, the disapproved rule is deprived of legal effect. Second, by operation of 5 U.S.C. § 801(b)(2), the rule may not be reissued in substantially the same form, and a new rule that is substantially the same may not be issued, unless specifically authorized by a law enacted after the date of the joint resolution's approval. The resolution itself contains no express provision restating this reissuance bar; that limitation arises by operation of the underlying CRA statute.\n\nThe resolution contains no authorization of appropriations, no severability clause, and no separate effective-date provision; it takes effect upon approval. It was passed by the House on September 3, 2025, and by the Senate on October 7 and 8, 2025, and was approved December 11, 2025. A companion measure, S.J. Res. 61, is noted in the legislative history.\n\nThe measure is confined to disapproval of the single identified BLM action and effects no amendment to the United States Code or to any named Act beyond invoking the CRA's disapproval procedure.",
+  "prompt_tokens": 936,
+  "completion_tokens": 826,
+  "total_tokens": 1762,
+  "cost_usd": 0.02533,
+  "latency_s": 11.717,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

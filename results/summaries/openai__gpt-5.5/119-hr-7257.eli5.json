@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7257",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill changes the rules for State energy security plans. These are plans States make to prepare for problems with energy, like power outages or attacks on the electric system.\n\nThe bill says State plans must include local distribution systems. These are smaller parts of the electric grid owned and run by electric utilities, using 100 kilovolts or less. States would have to look at risks to these systems, including bad weather, physical attacks, cyberattacks, and problems getting needed electric equipment.\n\nThe bill also adds equipment suppliers to the groups that may be involved in these plans. That means States would consider risks in the supply chain for equipment used to make, move, and deliver electricity.\n\nStates would need to explain how they will lower risks and recover from energy problems. The Secretary of Energy would be required to give help, instead of only being allowed to give help. State plan submissions would not need approval from the Secretary.\n\nThis part of the law would end on September 30, 2031.\n\nBy September 30, 2030, the Government Accountability Office, a government watchdog agency, must report to Congress on how well these State plans are working. Some protected information would not be made public.",
+  "prompt_tokens": 1821,
+  "completion_tokens": 580,
+  "total_tokens": 2401,
+  "cost_usd": 0.026505,
+  "latency_s": 13.157,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

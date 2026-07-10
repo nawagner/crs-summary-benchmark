@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-27",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This joint resolution invokes the expedited procedures of the Congressional Review Act (5 U.S.C. §§ 801–808) to disapprove a final rule. Its operative mechanism is a legislative veto under 5 U.S.C. chapter 8: upon enactment, the identified rule is rendered null and of no force or effect, and the agencies are barred from reissuing the rule in substantially the same form absent subsequent statutory authorization.\n\nThe sole substantive provision states that Congress disapproves the rule titled “Revised Definition of ‘Waters of the United States,’” jointly submitted by the Department of the Army, Corps of Engineers, Department of Defense, and the Environmental Protection Agency, and published at 88 Fed. Reg. 3004 (January 18, 2023). The resolution mandates that the rule “shall have no force or effect.” This language tracks the statutory effect provided under 5 U.S.C. § 801(b)(1) (rule not taking effect, or treated as though it had never taken effect, upon enactment of a joint resolution of disapproval).\n\nThe joint resolution contains no exceptions, severability provisions, delayed effective dates, or additional directives. Its force is contingent on passage by both Houses and presentment to the President (or veto override), consistent with the bicameral presentment requirements of the Congressional Review Act and Article I. The bill text notes passage by the House of Representatives on March 9, 2023, and receipt in the Senate on March 14, 2023. The resolution does not authorize or appropriate any funds.",
+  "prompt_tokens": 473,
+  "completion_tokens": 628,
+  "total_tokens": 1101,
+  "cost_usd": 0.000752,
+  "latency_s": 16.091,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

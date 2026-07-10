@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-104",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-48 (H.J. Res. 104), enacted December 11, 2025, is a joint resolution providing for congressional disapproval of a federal agency rule pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe primary operative mechanism of the joint resolution is the express disapproval of the rule submitted by the Bureau of Land Management (BLM) titled \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment.\" Under the statutory mandate of 5 U.S.C. § 801 et seq., the joint resolution declares that the specified rule shall have \"no force or effect.\" \n\nThe scope of the disapproval encompasses the agency action issued on November 20, 2024, as a record of decision and resource management plan amendment. The joint resolution explicitly references a Government Accountability Office (GAO) letter of opinion dated June 25, 2025 (printed in the Congressional Record on June 26, 2025, at pages S3552-S3554), which concluded that the record of decision and resource management plan amendment constitutes a \"rule\" for the purposes of the CRA. \n\nBy operation of the CRA, the enactment of this joint resolution not only invalidates the specified rule but also triggers the statutory prohibition under 5 U.S.C. § 801(b)(2), preventing the Bureau of Land Management from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless specifically authorized by a subsequent law. The joint resolution contains no authorizations of appropriations, exceptions, or delayed effective dates, rendering the disapproval effective immediately upon enactment on December 11, 2025.",
+  "prompt_tokens": 624,
+  "completion_tokens": 387,
+  "total_tokens": 1011,
+  "cost_usd": 0.004419,
+  "latency_s": 2.846,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

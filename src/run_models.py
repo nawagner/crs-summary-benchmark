@@ -1,19 +1,21 @@
 """Generate a summary of each bill with each model under test, via OpenRouter.
 
-Saves one JSON per (model, bill) with the summary text plus latency, token counts,
-and USD cost. Resumable: existing results are skipped.
+Saves one JSON per (model, bill, reading level) with the summary text plus latency,
+token counts, and USD cost. Resumable: existing results are skipped. The generation
+itself (single-shot vs map-reduce for long bills, reading-level prompt selection)
+lives in summarize.py.
 """
 from __future__ import annotations
 
 import argparse
 import sys
-import time
 from pathlib import Path
 
 import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
+import summarize as S  # noqa: E402
 
 
 def load_pricing() -> dict[str, tuple[float, float]]:
@@ -35,43 +37,26 @@ def load_pricing() -> dict[str, tuple[float, float]]:
     return pricing
 
 
-def summarize_one(client, model: str, prompt: str, cfg: dict, pricing) -> dict:
-    t0 = time.time()
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=cfg.get("summarize_temperature", 0.3),
-        max_tokens=cfg.get("max_output_tokens", 1500),
-    )
-    latency = time.time() - t0
-    summary = (resp.choices[0].message.content or "").strip()
-    usage = resp.usage
-    pt = getattr(usage, "prompt_tokens", 0) or 0
-    ct = getattr(usage, "completion_tokens", 0) or 0
-    pp, cp = pricing.get(model, (0.0, 0.0))
-    cost = pt * pp + ct * cp
-    return {
-        "summary": summary,
-        "prompt_tokens": pt,
-        "completion_tokens": ct,
-        "total_tokens": pt + ct,
-        "cost_usd": round(cost, 6),
-        "latency_s": round(latency, 3),
-        "ok": bool(summary),
-    }
-
-
 def main() -> None:
     ap = argparse.ArgumentParser(description="Generate model summaries via OpenRouter.")
     ap.add_argument("--limit", type=int, default=None, help="only the first N bills")
     ap.add_argument("--models", type=str, default=None, help="comma-separated model override")
+    ap.add_argument("--levels", type=str, default=None,
+                    help="comma-separated reading-level ids (default: all configured)")
     ap.add_argument("--retries", type=int, default=2)
     args = ap.parse_args()
 
     C.load_env()
     cfg = C.load_config()
     models = args.models.split(",") if args.models else cfg["models"]
-    template = C.read_prompt(cfg["prompts"]["summarize"])
+    levels = S.reading_levels(cfg)
+    if args.levels:
+        want = {x.strip() for x in args.levels.split(",")}
+        unknown = want - {lvl["id"] for lvl in levels}
+        if unknown:
+            sys.exit(f"Unknown reading level(s) {sorted(unknown)}; "
+                     f"configured: {[lvl['id'] for lvl in levels]}")
+        levels = [lvl for lvl in levels if lvl["id"] in want]
     client = C.openrouter_client()
     pricing = load_pricing()
 
@@ -81,38 +66,37 @@ def main() -> None:
     if not bills:
         sys.exit("No bills found. Run fetch_bills.py first.")
 
-    print(f"{len(bills)} bills x {len(models)} models")
+    print(f"{len(bills)} bills x {len(models)} models x {len(levels)} level(s)")
     for model in models:
         slug = C.model_slug(model)
         ok = 0
+        goal = len(bills) * len(levels)
         for bf in bills:
             bill = C.read_json(bf)
-            out_path = C.SUMMARIES_DIR / slug / f"{bill['bill_id']}.json"
-            if out_path.exists():
-                ok += 1
-                continue
-            prompt = template.replace("{bill_text}", bill["bill_text"])
-            result = None
-            for attempt in range(args.retries + 1):
+            for level in levels:
+                out_path = S.summary_path(slug, bill["bill_id"], level)
+                if out_path.exists():
+                    ok += 1
+                    continue
                 try:
-                    result = summarize_one(client, model, prompt, cfg, pricing)
-                    break
+                    result = S.generate_summary(client, model, bill, level, cfg, pricing,
+                                                retries=args.retries)
                 except Exception as e:  # noqa: BLE001
-                    if attempt < args.retries:
-                        time.sleep(2 * (attempt + 1))
-                    else:
-                        result = {"summary": "", "ok": False, "error": str(e),
-                                  "cost_usd": 0, "latency_s": 0,
-                                  "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
-            record = {"bill_id": bill["bill_id"], "model": model, **result}
-            C.write_json(out_path, record)
-            if result.get("ok"):
-                ok += 1
-                print(f"  {model} {bill['bill_id']}: "
-                      f"{result['latency_s']}s ${result['cost_usd']:.4f}")
-            else:
-                print(f"  {model} {bill['bill_id']}: FAILED {result.get('error','')[:80]}")
-        print(f"{model}: {ok}/{len(bills)} done")
+                    result = {"summary": "", "ok": False, "error": str(e),
+                              "cost_usd": 0, "latency_s": 0, "level": level["id"],
+                              "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+                record = {"bill_id": bill["bill_id"], "model": model, **result}
+                C.write_json(out_path, record)
+                tag = "" if level.get("default") else f" [{level['id']}]"
+                if result.get("ok"):
+                    ok += 1
+                    extra = (f" map-reduce/{result['n_chunks']}ch"
+                             if result.get("strategy") == "map_reduce" else "")
+                    print(f"  {model} {bill['bill_id']}{tag}: "
+                          f"{result['latency_s']}s ${result['cost_usd']:.4f}{extra}")
+                else:
+                    print(f"  {model} {bill['bill_id']}{tag}: FAILED {result.get('error','')[:80]}")
+        print(f"{model}: {ok}/{goal} done")
 
 
 if __name__ == "__main__":

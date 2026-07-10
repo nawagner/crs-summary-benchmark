@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-109",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill is a joint resolution, which is a special kind of proposal that must pass both the House and the Senate and be signed by the President to take effect. It targets a rule from the Securities and Exchange Commission (SEC), a government agency that oversees stock markets and investments. The rule is called Staff Accounting Bulletin No. 121.\n\nThe Government Accountability Office (GAO), a watchdog agency that reviews government actions, decided that this bulletin counts as a “rule” under a law known as the Congressional Review Act. That law gives Congress a way to cancel new rules made by federal agencies.\n\nIf this resolution becomes law, the SEC’s bulletin would have no force or effect—meaning it would be wiped away and could not be enforced. The House of Representatives passed the resolution on May 8, 2024, and it was sent to the Senate for consideration.",
+  "prompt_tokens": 475,
+  "completion_tokens": 1133,
+  "total_tokens": 1608,
+  "cost_usd": 0.001192,
+  "latency_s": 27.118,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

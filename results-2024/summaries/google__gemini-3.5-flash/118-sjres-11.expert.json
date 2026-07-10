@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-11",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Senate Joint Resolution 11, 118th Congress, is a joint resolution of disapproval introduced pursuant to the Congressional Review Act (CRA), codified at Chapter 8 of Title 5, United States Code. The primary purpose and operative mechanism of the resolution is to invoke 5 U.S.C. § 801(b)(1) to prevent the executive branch from implementing a specific administrative rule. \n\nSpecifically, the resolution declares that Congress disapproves the final rule submitted by the Administrator of the Environmental Protection Agency (EPA) titled \"Control of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards,\" published at 88 Fed. Reg. 4296 (January 24, 2023). Under the operative statutory mechanism of the CRA, the resolution mandates that the specified rule \"shall have no force or effect.\" \n\nBy operation of law under 5 U.S.C. § 801(b)(2), enactment of this joint resolution would not only invalidate the designated rule but would also prohibit the EPA from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissue or new rule is specifically authorized by a law enacted subsequent to the joint resolution of disapproval. The text of the resolution contains no exceptions, conditions precedent, authorizations of appropriations, or delayed effective dates, rendering the disapproval effective immediately upon enactment.",
+  "prompt_tokens": 552,
+  "completion_tokens": 298,
+  "total_tokens": 850,
+  "cost_usd": 0.00351,
+  "latency_s": 2.506,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

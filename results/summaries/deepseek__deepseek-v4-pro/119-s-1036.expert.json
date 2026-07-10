@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-1036",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "",
+  "prompt_tokens": 522,
+  "completion_tokens": 4001,
+  "total_tokens": 4523,
+  "cost_usd": 0.003708,
+  "latency_s": 50.065,
+  "ok": false,
+  "strategy": "single",
+  "level": "expert"
+}

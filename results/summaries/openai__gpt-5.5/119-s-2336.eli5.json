@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2336",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill is called the “Halting the Epidemic of Addiction and Loss Act of 2025.”\n\nIt tells the Department of Health and Human Services, or HHS, how to talk about medicines that can reverse an opioid overdose. An opioid overdose can happen when someone takes too much of a drug like heroin or some pain medicines.\n\nSome HHS grant programs now name naloxone. Naloxone is a medicine used in emergencies to reverse opioid overdoses. This bill says HHS should not treat naloxone as the only option. When HHS writes rules or guidance for certain grant programs about opioid misuse or opioid use disorders, any mention of an overdose reversal drug must include any drug approved for emergency treatment of a known or suspected opioid overdose.\n\nA grant is money the government gives to help pay for certain work. This bill applies to grant programs run by HHS that deal with opioid problems.\n\nThe bill also says HHS must update older rules and guidance within one year after the bill becomes law. The updates must cover overdose reversal drugs approved or otherwise allowed by the Food and Drug Administration, or FDA. This applies to State and Tribal Opioid Response Grants and another grant program for important substance use disorder prevention needs.",
+  "prompt_tokens": 815,
+  "completion_tokens": 250,
+  "total_tokens": 1065,
+  "cost_usd": 0.011575,
+  "latency_s": 5.219,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

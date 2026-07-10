@@ -1,0 +1,73 @@
+{
+  "bill_id": "118-hr-5894",
+  "candidate": "anthropic__claude-opus-4.8",
+  "verdicts": {
+    "accurate": {
+      "applicable": true,
+      "pass": true,
+      "why": "All figures and provisions (Labor ETA line items, HHS Office of Secretary amounts, section/EO numbers) verified against the bill text."
+    },
+    "no_hallucinations": {
+      "applicable": true,
+      "pass": true,
+      "why": "No fabricated claims; the sec. 229/border-health framing is loose but both entities are named in the bill."
+    },
+    "states_purpose": {
+      "applicable": true,
+      "pass": true,
+      "why": "Clearly states the bill provides FY2024 Labor-HHS-Education appropriations."
+    },
+    "changes_to_existing_law": {
+      "applicable": true,
+      "pass": true,
+      "why": "Describes redefined farmworker 'low-income' eligibility under WIOA and Title X/Medicare Advantage conditions."
+    },
+    "exceptions_conditions": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes NIH salary-cap exemption, transfer caps, 15-day notice, and rider carve-outs."
+    },
+    "effective_dates": {
+      "applicable": true,
+      "pass": true,
+      "why": "Notes the Sept 30, 2024 fiscal year, multi-year availabilities, and Sec. 529's 2028 obligation window."
+    },
+    "major_provisions_covered": {
+      "applicable": true,
+      "pass": true,
+      "why": "Captures the appropriations purpose plus the distinctive policy riders; faithful high-level coverage though it omits Education titles and the large rescissions."
+    },
+    "objective_tone": {
+      "applicable": true,
+      "pass": true,
+      "why": "Neutral, factual description of a politically charged bill."
+    },
+    "coherent": {
+      "applicable": true,
+      "pass": true,
+      "why": "Well-organized by title and section, internally consistent."
+    },
+    "concise": {
+      "applicable": true,
+      "pass": true,
+      "why": "Dense but no padding or repetition."
+    },
+    "correct_entities": {
+      "applicable": true,
+      "pass": true,
+      "why": "WIOA, National Apprenticeship Act, Trade Act, EO numbers, and section numbers all correct."
+    },
+    "correct_figures": {
+      "applicable": true,
+      "pass": true,
+      "why": "Every dollar figure stated matches the bill text."
+    }
+  },
+  "n_applicable": 12,
+  "n_passed": 12,
+  "meets_standard": true,
+  "judge_cost_usd": 0.0,
+  "judge_latency_s": 0.0,
+  "judged_via": "claude-opus-4-8 via parallel Claude Code subagents (sectional grounding for bills >400k chars, full text otherwise)",
+  "judge_grounding": "full"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5103",
+  "model": "openai/gpt-5.5",
+  "summary": "This law changes the rules for giving federal money after a fishery disaster. A fishery disaster is a serious problem that hurts fish, fishing, or fishing communities.\n\nA person or group that has been approved for fishery disaster help must send in a “spend plan.” A spend plan explains how the money will be used. It must be sent no later than 120 days after the group is told that money is available.\n\nThe spend plan must include, when it applies, the goals and results the group wants, how it will deal with the causes of the disaster, how it may reduce future losses that are not covered by insurance, the work to be done, and budget details.\n\nThe Secretary must check if the spend plan is complete and give notice within 10 days. If it is not complete, the Secretary must explain what information is missing.\n\nOnce the Secretary gets a complete spend plan, the money must be made available to the grantees within 90 days. A grantee is a person or group receiving the money. The Office of Management and Budget may review the plan at the same time, if asked, but it may not slow down the 90-day deadline.",
+  "prompt_tokens": 909,
+  "completion_tokens": 368,
+  "total_tokens": 1277,
+  "cost_usd": 0.015585,
+  "latency_s": 8.005,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-133",
+  "model": "google/gemini-3.5-flash",
+  "summary": "Public Law 119-46 (H.J. Res. 133), a joint resolution approved on December 2, 2025, requests that the Secretary of the Interior authorize unique, one-time arrangements for public commemorative displays on the National Mall and the Washington Monument. The primary purpose of the resolution is to initiate celebrations for the semiquincentennial (250th anniversary) of the founding of the United States, referencing the planning and coordination framework established under the United States Semiquincentennial Commission Act of 2016 (36 U.S.C. note prec. 101; Public Law 114-196).\n\nOperatively, the resolution does not amend the United States Code, nor does it create mandatory statutory duties, establish new regulatory authority, or appropriate funds. Instead, it functions as a formal legislative request directed at the Executive Branch. \n\nUnder paragraph (1), Congress requests the Secretary of the Interior to exercise existing administrative authority to permit the display of United States semiquincentennial materials, significant artifacts, digital content, film footage, and associated audio and imagery. The resolution specifies that these displays are to occur in and around the vicinity of the National Mall, to include projections onto the surface of the Washington Monument. \n\nThe resolution establishes two explicit temporal conditions for the requested displays:\n1. They must occur during a specific six-day window beginning on December 31, 2025, and ending on January 5, 2026; and\n2. The public projection displays on the Washington Monument are limited to a duration of five nights.\n\nAdditionally, paragraph (2) directs the Clerk of the House of Representatives to transmit enrolled copies of the joint resolution to the Secretary of the Interior and the Chair of the United States Semiquincentennial Commission.",
+  "prompt_tokens": 1312,
+  "completion_tokens": 384,
+  "total_tokens": 1696,
+  "cost_usd": 0.005424,
+  "latency_s": 3.042,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

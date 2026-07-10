@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8580",
+  "model": "openai/gpt-5.5",
+  "summary": "This bill would give federal money, called appropriations, for the budget year that ends on September 30, 2025. It mainly funds military building projects, veterans’ programs, and a few related agencies.\n\nIt would give billions of dollars to build, repair, plan, and equip Army, Navy, Marine Corps, Air Force, National Guard, and Reserve facilities. It also funds military family housing, NATO security projects, and base closure costs. Much of this building money could be used until September 30, 2029.\n\nThe bill gives very large amounts to the Department of Veterans Affairs, or VA. This includes money for disability payments, pensions, education and job training benefits, home loans, medical care, community care outside VA hospitals, medical research, cemeteries, and building VA facilities. It also provides $22.8 billion, starting October 1, 2025, for health care and benefits tied to toxic exposures.\n\nThe bill gives $894 million for the VA electronic health record system. One-fourth of that money cannot be used until July 1, 2025, unless VA gives Congress required reports and certifications.\n\nThe bill sets many rules on how money may be used. It limits transfers of funds without telling or getting approval from Congress. It blocks money for some activities, including closing Guantanamo Bay, certain VA abortion services except in listed cases, gender-affirming surgeries or hormones, DEI training, and some COVID-19 mandates.",
+  "prompt_tokens": 26090,
+  "completion_tokens": 821,
+  "total_tokens": 26911,
+  "cost_usd": 0.15508,
+  "latency_s": 15.217,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

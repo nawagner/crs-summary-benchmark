@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "google/gemini-3.5-flash",
+  "summary": "H.R. 7258, the \"Energy Emergency Leadership Act,\" amends Section 203(a) of the Department of Energy Organization Act (42 U.S.C. 7133(a)) to explicitly assign energy emergency and energy security functions to the Department of Energy’s Assistant Secretaries. \n\nSpecifically, Section 2(a) of the bill appends a new paragraph (12) to 42 U.S.C. 7133(a), expanding the statutory responsibilities of the Assistant Secretaries to encompass:\n*   Formulating and executing responsibilities concerning energy infrastructure, security and resilience, emerging threats, cybersecurity, supply, and emergency planning, preparedness, coordination, response, and restoration; and\n*   Providing technical assistance and support to protect against, detect, and respond to energy security threats, risks, and incidents. \n\nThe provision of technical assistance and support under the newly created subparagraph (12)(B) is subject to a condition precedent: it must be requested by a State, local, or Tribal government, or an energy sector entity. Furthermore, such assistance must be executed in coordination with other Federal agencies as appropriate.\n\nSection 2(b) establishes a non-delegable mandate directing the Secretary of Energy to ensure that the execution of these newly codified functions under paragraph (12) is performed in coordination with all relevant Federal agencies. \n\nThe bill contains no authorizations of appropriations, sunsets, or specified effective dates, thereby defaulting to standard statutory enactment timelines upon passage.",
+  "prompt_tokens": 913,
+  "completion_tokens": 320,
+  "total_tokens": 1233,
+  "cost_usd": 0.004249,
+  "latency_s": 2.44,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

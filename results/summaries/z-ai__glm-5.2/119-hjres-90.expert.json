@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-90",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 90 is a joint resolution providing for congressional disapproval of a specified rule issued by the Commodity Futures Trading Commission (CFTC) pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act). The primary purpose of the resolution is to invalidate the CFTC's final guidance titled \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts,\" published at 89 Federal Register 83378 on October 15, 2024.\n\nThe operative mechanism of the resolution is a joint resolution of disapproval under 5 U.S.C. § 802. The resolution resolves that Congress disapproves the cited final guidance and provides that \"such rule shall have no force or effect.\" Upon enactment, the resolution would repeal the CFTC guidance, rendering it null and void and preventing it from being implemented or enforced. Furthermore, under the statutory framework of 5 U.S.C. § 801(f)(1)(A), the resolution would prohibit the CFTC from reissuing a substantially similar rule in the future unless authorized to do so by a subsequent enacted law.\n\nThe resolution was introduced in the House of Representatives on April 3, 2025, and referred to the Committee on Agriculture. The text contains no additional provisions, exceptions, conditions precedent, or authorizations or appropriations of funds. The effective date of the disapproval is governed by the standard operation of the Congressional Review Act upon the resolution's enactment.",
+  "prompt_tokens": 504,
+  "completion_tokens": 1111,
+  "total_tokens": 1615,
+  "cost_usd": 0.002182,
+  "latency_s": 18.688,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

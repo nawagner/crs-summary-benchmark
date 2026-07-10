@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-32",
+  "model": "google/gemini-3.5-flash",
+  "summary": "S.J. Res. 32 is a joint resolution that provides for congressional disapproval of a federal agency rule pursuant to the Congressional Review Act (CRA), codified at chapter 8 of title 5, United States Code. \n\nThe primary purpose and operative mechanism of the joint resolution is the solemn disapproval of the final rule submitted by the Bureau of Consumer Financial Protection (CFPB) titled \"Small Business Lending Under the Equal Credit Opportunity Act (Regulation B)\" (88 Fed. Reg. 35150 (May 31, 2023)). \n\nUnder the express terms of the resolution, and in accordance with the statutory framework of the CRA (specifically 5 U.S.C. § 801(b)(1)), the specified rule \"shall have no force or effect.\" By operation of the CRA, enactment of this joint resolution would not only invalidate the designated rule but would also prohibit the CFPB from reissuing the rule in substantially the same form, or issuing a new rule that is substantially the same, unless the reissued or new rule is specifically authorized by a law enacted subsequent to the joint resolution.\n\nThe resolution contains no appropriations, authorizations of appropriations, exceptions, conditions precedent, or delayed effective dates. It operates as a singular, non-amendatory legislative action to nullify the targeted administrative rule immediately upon enactment.",
+  "prompt_tokens": 548,
+  "completion_tokens": 283,
+  "total_tokens": 831,
+  "cost_usd": 0.003369,
+  "latency_s": 2.333,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

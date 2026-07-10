@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "The Great Lakes Fishery Research Reauthorization Act (Pub. L. 119-67, S. 2878), enacted December 26, 2025, is a single-purpose measure extending the authorization of appropriations for activities to monitor, assess, and research the Great Lakes Basin.\n\nThe operative mechanism is a technical amendment. Section 2 amends Section 201(d) of title II of division P of the Further Consolidated Appropriations Act, 2020 (codified at 16 U.S.C. 941h(d)) by striking \"2025\" and inserting \"2030.\" This extends the terminal fiscal year of the existing authorization of appropriations by five years, through fiscal year 2030. The amendment does not alter the dollar amounts authorized, the substantive scope of the monitoring, assessment, and research activities, or the administering authority under the underlying provision; it effects only a date change to the sunset of the authorization.\n\nSection 1 provides the short title and designates it as a note to 16 U.S.C. 941.\n\nThe Act constitutes a reauthorization of budget authority (an authorization of appropriations) rather than an appropriation of funds; no new sums are appropriated by its terms, and actual funding remains contingent on subsequent appropriations Acts. The measure contains no separate effective-date provision, taking effect upon approval on December 26, 2025. No exceptions, conditions precedent, or additional deadlines are established.\n\nLegislative history: S. 2878 passed the Senate on November 19, 2025, and the House on December 15, 2025.",
+  "prompt_tokens": 894,
+  "completion_tokens": 504,
+  "total_tokens": 1398,
+  "cost_usd": 0.01707,
+  "latency_s": 8.222,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7377",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill creates a faster process for oil and gas companies that drill on federal land. When several companies share a drilling area, they must agree on how to split the oil or gas they produce. This agreement is called an allocation. The government must approve this split so each company pays the correct royalties, which are payments to the government for using the land.\n\nRight now, getting that government approval can take a long time. This bill sets a firm deadline: the government must make its decision within 120 days after a company asks for it. While waiting for the decision, the company will pay royalties based on its own proposed split. Once the government makes its final decision, the company has until the end of the third month after receiving it to fix any reports or payments if needed.\n\nIf the company has been paying on time each month based on its proposal, the government will not charge extra interest on any corrected amounts during that waiting and correction period. These new rules do not apply to drilling agreements that include Native American lands.",
+  "prompt_tokens": 807,
+  "completion_tokens": 205,
+  "total_tokens": 1012,
+  "cost_usd": 0.000529,
+  "latency_s": 14.216,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

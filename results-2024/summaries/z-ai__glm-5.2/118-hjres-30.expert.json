@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 30 provides for congressional disapproval, pursuant to chapter 8 of title 5, United States Code (the Congressional Review Act), of the final rule submitted by the Department of Labor relating to \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights\" (87 Fed. Reg. 73822, published December 1, 2022).\n\nThe joint resolution's operative mechanism is a joint resolution of disapproval under section 802 of title 5, United States Code. The resolution's sole substantive provision states that Congress disapproves the specified Department of Labor rule and declares that such rule \"shall have no force or effect.\" This statutory language effectuates the nullification of the rule as provided under section 801(b) of title 5, United States Code. Under the Congressional Review Act, the enactment of a joint resolution of disapproval prohibits the rule from taking effect or continuing in effect, and further precludes the issuing agency from reissuing a rule that is substantially the same unless specifically authorized by a subsequent law enacted after the date of the joint resolution.\n\nThe resolution does not include any exceptions, conditions precedent, or specific effective dates beyond the standard operation of the Congressional Review Act, under which the disapproval takes effect upon enactment. The measure contains no new authorizations, appropriations, or amendments to existing statutory text outside the operation of chapter 8 of title 5, United States Code. \n\nThe resolution was passed by the House of Representatives on February 28, 2023, and received in the Senate on March 1, 2023.",
+  "prompt_tokens": 465,
+  "completion_tokens": 1239,
+  "total_tokens": 1704,
+  "cost_usd": 0.00238,
+  "latency_s": 16.083,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

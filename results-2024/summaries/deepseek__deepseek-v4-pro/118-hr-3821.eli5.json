@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-3821",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This bill continues a program that keeps a list of firefighters who have or had cancer. The list is voluntary—firefighters choose whether to share their health information. Doctors and scientists use the list to study cancer in firefighters and look for ways to help.\n\nThe old law set aside money for this list from 2018 through 2022. That money was $2.5 million each year. This new law changes the amount and the years. Starting in 2024, the program will get $5.5 million each year. The funding will last through 2028. The law does not change anything else about how the list works.\n\nIn short, the law gives the cancer list more money per year and extends it to 2028, so researchers can keep studying cancer in firefighters.",
+  "prompt_tokens": 539,
+  "completion_tokens": 789,
+  "total_tokens": 1328,
+  "cost_usd": 0.000921,
+  "latency_s": 12.616,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

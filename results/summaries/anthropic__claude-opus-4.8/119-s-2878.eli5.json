@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-s-2878",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law is about the Great Lakes. The Great Lakes are five big lakes in the middle of North America. They have lots of fish and water life.\n\nThe law is called the \"Great Lakes Fishery Research Reauthorization Act.\" It lets the government keep spending money to watch over and study the Great Lakes area. This means scientists can check on the lakes, look at how they are doing, and learn more about them.\n\nAn older law already said the government could spend money for this job. But that money was set to stop after the year 2025. This new law changes the date. Now the money can keep going until the year 2030.\n\nSo the main thing this law does is give five more years of funding. Nothing else changes about the work. It just lets the studying and checking of the Great Lakes continue.\n\nThe law was passed by the Senate on November 19, 2025, and by the House on December 15, 2025. It was signed and became law on December 26, 2025.",
+  "prompt_tokens": 803,
+  "completion_tokens": 280,
+  "total_tokens": 1083,
+  "cost_usd": 0.011015,
+  "latency_s": 5.371,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

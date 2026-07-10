@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hjres-30",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is a way for Congress to cancel a rule made by a part of the government.\n\nFirst, here is some background. The Department of Labor is the part of the government that deals with jobs and workers. It made a new rule called \"Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights.\" This rule is about how people who take care of workers' retirement savings (money saved for when workers stop working) should pick where to put that money.\n\nCongress has the power to say \"no\" to rules like this. This bill uses that power.\n\nIf this bill becomes law, the Department of Labor's rule would be canceled. The bill says the rule \"shall have no force or effect.\" That means it would be like the rule never happened. People would not have to follow it.\n\nHere are some key facts from the bill:\n- The rule was published on December 1, 2022.\n- The House of Representatives already voted yes on this bill on February 28, 2023.\n- The Senate got the bill on March 1, 2023.\n\nFor this to become law, the Senate would also need to say yes, and then the President would need to sign it.\n\nThat is the whole bill. It does one thing: it tries to stop that one rule from the Department of Labor.",
+  "prompt_tokens": 710,
+  "completion_tokens": 372,
+  "total_tokens": 1082,
+  "cost_usd": 0.01285,
+  "latency_s": 6.972,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-35",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a joint resolution, which is a type of decision made by Congress and signed by the president to become a law. \n\nThe bill stops a specific rule made by a government group called the Environmental Protection Agency, or the EPA. The EPA is in charge of protecting the air, water, and land. \n\nThe EPA rule that this bill stops was created on November 18, 2024. That rule was about a fee, or charge, for waste emissions from oil and natural gas systems. Emissions are gases released into the air. The EPA rule also had guidelines for how companies could follow the rules and get exemptions, which means being allowed to skip some of the rules. \n\nBecause this bill was approved on March 14, 2025, the EPA rule is canceled. The bill states that the rule will have no force or effect. This means the rule is no longer a law, and no one has to follow it.",
+  "prompt_tokens": 522,
+  "completion_tokens": 199,
+  "total_tokens": 721,
+  "cost_usd": 0.002574,
+  "latency_s": 2.437,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

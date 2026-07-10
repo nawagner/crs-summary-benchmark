@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1076",
+  "model": "deepseek/deepseek-v4-pro",
+  "summary": "This law orders a government watchdog office to study the money behind illegal synthetic drugs. The watchdog is led by an official called the Comptroller General. The study must focus on drugs like fentanyl and methamphetamine, which are made in labs and often very dangerous. It will look at how criminal groups pay for, make, sell, and profit from these drugs. The study will check how they use social media apps (such as Snapchat, Discord, and Facebook) and payment apps (such as CashApp) to market and sell drugs, especially to young people. It will also examine whether these drug networks are connected to human trafficking. In addition, the watchdog will review how U.S. agencies, other countries, businesses, and nonprofit groups work together to stop drug money from moving around. The study must find out where more help, coordination, or resources are needed. Within one year of the law’s start date—September 13, 2024—the watchdog must give a written report to Congress with all findings. The law does not create new crimes or penalties. It only requires research and a report.",
+  "prompt_tokens": 1403,
+  "completion_tokens": 1115,
+  "total_tokens": 2518,
+  "cost_usd": 0.00158,
+  "latency_s": 17.388,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-sjres-80",
+  "model": "openai/gpt-5.5",
+  "summary": "This law cancels a rule from the Bureau of Land Management. That agency helps manage public lands.\n\nThe rule was about a plan for the National Petroleum Reserve in Alaska. This is a large area of federal land in Alaska. The plan was called the “National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision.” It was issued on April 25, 2022.\n\nCongress used a law called the Congressional Review Act. This law lets Congress review and reject certain agency rules. A government office called the Government Accountability Office said on July 24, 2025, that this record of decision counts as a rule under that law.\n\nBecause Congress disapproved it, the rule has “no force or effect.” That means it is not in effect and cannot be used as a rule.\n\nThe Senate passed this measure on October 30, 2025. The House passed it on November 18, 2025. It became law on December 5, 2025.",
+  "prompt_tokens": 492,
+  "completion_tokens": 327,
+  "total_tokens": 819,
+  "cost_usd": 0.01227,
+  "latency_s": 8.391,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

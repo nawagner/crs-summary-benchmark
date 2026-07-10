@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-1042",
+  "model": "z-ai/glm-5.2",
+  "summary": "The Prohibiting Russian Uranium Imports Act (Public Law 118-62) prohibits the importation of unirradiated low-enriched uranium produced in the Russian Federation or by a Russian entity. The Act amends Section 3112A of the USEC Privatization Act (42 U.S.C. 2297h-10a) by adding a new subsection (d).\n\nEffective 90 days after enactment, subsection (d)(1) prohibits the importation of unirradiated low-enriched uranium produced in the Russian Federation or by a Russian entity, as well as uranium exchanged, swapped, or obtained in lieu of such uranium in a manner designed to circumvent the prohibition. \n\nSubsection (d)(2) authorizes the Secretary of Energy, in consultation with the Secretaries of State and Commerce, to waive the prohibition if the Secretary determines that no alternative viable source exists to sustain a nuclear reactor or a U.S. nuclear energy company, or that importation is in the national interest. Waived imports are subject to annual quantity limitations for calendar years 2024 through 2027, decreasing from 476,536 kilograms in 2024 to 459,083 kilograms in 2027. The Secretary of Commerce is directed to administer and enforce these limits in accordance with the Suspension Agreement while minimizing burdens on the commercial nuclear industry. Any waiver issued must terminate by January 1, 2028. Upon issuing a waiver, the Secretary of Energy must notify specified congressional committees, including the recipient of the waiver.\n\nSubsection (d)(3) exempts from the prohibition imports by or under contract to the Department of Energy for national security or nonproliferation purposes, and imports of non-uranium isotopes. The provisions of subsection (d) sunset on December 31, 2040. Subsection (d)(5) defines \"Russian entity\" as an entity organized under the laws of or otherwise subject to the jurisdiction of the Government of the Russian Federation.\n\nSection 2(b) makes conforming amendments to Section 3112A(c) of the USEC Privatization Act, including striking clauses (xi) through (xxvii) of paragraph (2)(A), striking paragraph (5), redesignating subsequent paragraphs, and updating internal cross-references. The amendment striking section 3112A(c)(2)(A)(xi) takes effect 90 days after the date of enactment.",
+  "prompt_tokens": 1963,
+  "completion_tokens": 1614,
+  "total_tokens": 3577,
+  "cost_usd": 0.003841,
+  "latency_s": 10.991,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

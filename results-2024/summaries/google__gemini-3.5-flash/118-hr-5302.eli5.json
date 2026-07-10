@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "google/gemini-3.5-flash",
+  "summary": "This bill is a new law called the Michel O. Maceda Memorial Act. It was approved on December 11, 2024. \n\nThe main goal of the bill is to rename a government building to honor a brave worker. The building is a U.S. Customs and Border Protection marine unit. This unit is located in Cabo Rojo, Puerto Rico. If this bill becomes law, the building will officially be named the \"Michel O. Maceda Marine Unit.\" From then on, all government maps, laws, and papers must use this new name.\n\nThe bill explains why Congress chose to honor Michel O. Maceda. Congress is the group of people elected to make laws for the country. Maceda was a soldier in the U.S. Army. Later, he became a Marine Interdiction Agent. This means he worked on boats to stop illegal activities. On November 17, 2022, Agent Maceda and two other agents stopped a boat to look for illegal drugs near Puerto Rico. While boarding the boat, someone shot at the agents. Agent Maceda was hurt and died from his wounds. He left behind his daughter, brother, and parents.",
+  "prompt_tokens": 878,
+  "completion_tokens": 244,
+  "total_tokens": 1122,
+  "cost_usd": 0.003513,
+  "latency_s": 2.422,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

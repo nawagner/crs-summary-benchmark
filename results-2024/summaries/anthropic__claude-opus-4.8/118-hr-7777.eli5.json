@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-7777",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law helps veterans get more money. Veterans are people who served in the military. Some of them got hurt or sick while serving. The government gives them money every month to help. This money is called disability compensation.\n\nThe law also helps the families of some veterans who died. This help is called dependency and indemnity compensation. It can go to husbands, wives, and children.\n\nThe main thing this law does is make these payments bigger. This is called a cost-of-living adjustment. That means the money goes up so it keeps up with rising prices. When things cost more, the payments go up too.\n\nThe new, higher amounts start on December 1, 2024.\n\nHow much bigger will the payments be? They will go up by the same amount that Social Security payments go up. Social Security is money the government pays to older people and some others. So if Social Security goes up a certain amount, veterans' payments go up that same amount.\n\nThe law also raises the clothing allowance. That is extra money some disabled veterans get for clothes.\n\nThe person in charge of this is the Secretary of Veterans Affairs. That is the leader who helps veterans. This leader must also share the new payment amounts in a public record called the Federal Register so people can see them.\n\nThe law was approved on November 25, 2024.",
+  "prompt_tokens": 1754,
+  "completion_tokens": 379,
+  "total_tokens": 2133,
+  "cost_usd": 0.018245,
+  "latency_s": 6.635,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

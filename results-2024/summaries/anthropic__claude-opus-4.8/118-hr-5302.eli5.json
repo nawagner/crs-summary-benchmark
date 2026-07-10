@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-5302",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This law gives a special name to a building. The building is a Marine Unit of U.S. Customs and Border Protection. That is a part of the government that helps guard the country's borders and coasts. This Marine Unit is in Cabo Rojo, Puerto Rico.\n\nThe law names the building after a man named Michel O. Maceda. He will be honored with the name \"Michel O. Maceda Marine Unit.\"\n\nMichel O. Maceda was an agent who helped protect the country. First he served in the United States Army. Then he joined the Border Patrol in Arizona in 2016. In 2021 he became a Marine Interdiction Agent in Puerto Rico. That means he helped stop illegal things, like drugs, from coming in by boat.\n\nOn November 17, 2022, Agent Maceda and two other agents stopped a boat to check it. During the stop, someone on the boat shot Agent Maceda, and he died. He left behind his daughter, his brother, and his parents.\n\nThe law says the building will \"forever\" carry his name. It also says that any government paper, map, or record that talks about this building will now mean the \"Michel O. Maceda Marine Unit.\"\n\nThe law was approved on December 11, 2024.",
+  "prompt_tokens": 1319,
+  "completion_tokens": 385,
+  "total_tokens": 1704,
+  "cost_usd": 0.01622,
+  "latency_s": 6.426,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

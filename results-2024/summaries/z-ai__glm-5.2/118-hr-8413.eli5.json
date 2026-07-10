@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-hr-8413",
+  "model": "z-ai/glm-5.2",
+  "summary": "This law lets the United States government sell some of its land in Nebraska to two local counties. The land is near two lakes called Swanson Reservoir and Hugh Butler Reservoir. It includes spots for cabins and places that sell things to the public.\n\nThe counties must pay the fair market value, which means the normal price the land would sell for. They must also pay for the costs to measure and transfer the land. The counties have to keep the land whole and cannot split it into smaller pieces. They must use the land for recreation, public access, or wildlife. They also have to follow safety and health rules within two years.\n\nThe counties cannot sell the land to anyone else later, unless they give it for free to another public group in Nebraska. The government must keep the right to operate the dams and lakes for flood control. The counties must promise not to blame the government if the land floods. The government and the counties have three years from December 23, 2024, to finish the deal. If they do not agree in time, the government will keep managing the land.",
+  "prompt_tokens": 4541,
+  "completion_tokens": 820,
+  "total_tokens": 5361,
+  "cost_usd": 0.003887,
+  "latency_s": 16.993,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

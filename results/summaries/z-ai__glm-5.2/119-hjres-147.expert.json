@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hjres-147",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.J. Res. 147 is a joint resolution introduced in the House of Representatives on February 2, 2026, by Mr. Meeks, along with Ms. Kamlager-Dove, Mr. Castro of Texas, Ms. Titus, Mr. Stanton, Mr. Amo, and Mr. Casar, and was subsequently referred to the Committee on Foreign Affairs. The primary purpose of the resolution is to terminate the national emergency declared by the President on July 30, 2025, via Executive Order 14323 (90 Fed. Reg. 37739), which was declared to impose duties on articles imported from Brazil.\n\nThe operative mechanism of the resolution is a joint resolution of Congress enacted pursuant to section 202 of the National Emergencies Act (50 U.S.C. 1622). The resolution provides that the aforementioned national emergency is terminated. \n\nThe text contains a single operative provision directing the termination of the specified executive order's underlying emergency. The resolution does not include any material exceptions, conditions precedent, or alternative effective dates; the termination is effective upon enactment as provided by the underlying statute. Furthermore, the measure contains no new authorizations, appropriations, or repeals of existing statutory text beyond the termination of the specified national emergency. The resolution strictly exercises Congress's statutory authority under the National Emergencies Act to terminate a presidentially declared national emergency.",
+  "prompt_tokens": 474,
+  "completion_tokens": 1342,
+  "total_tokens": 1816,
+  "cost_usd": 0.002562,
+  "latency_s": 21.472,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

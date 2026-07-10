@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-7258",
+  "model": "openai/gpt-5.5",
+  "summary": "The Energy Emergency Leadership Act amends section 203(a) of the Department of Energy Organization Act, 42 U.S.C. § 7133(a), to add energy emergency and energy security functions to the functions assigned to Assistant Secretaries of Energy.\n\nSection 2(a) adds a new paragraph (12) to 42 U.S.C. § 7133(a). The new paragraph specifies that the covered functions include responsibilities relating to energy infrastructure, security and resilience, emerging threats, cybersecurity, supply, and emergency planning and preparedness, coordination, response, and restoration, “as appropriate.” It also includes, upon request of a State, local, or Tribal government or an energy sector entity, the provision of technical assistance and support to protect against, detect, and respond to energy security threats, risks, and incidents. Such technical assistance and support must be provided in coordination with other Federal agencies “as appropriate.”\n\nSection 2(b) imposes an additional coordination requirement on the Secretary of Energy, directing the Secretary to ensure that the functions described in new section 203(a)(12) are performed in coordination with relevant Federal agencies.\n\nThe bill creates no express authorization of appropriations, makes no direct appropriation, establishes no new office by name, and contains no stated effective date, sunset, reporting requirement, or deadline.",
+  "prompt_tokens": 811,
+  "completion_tokens": 355,
+  "total_tokens": 1166,
+  "cost_usd": 0.014705,
+  "latency_s": 7.548,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

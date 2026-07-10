@@ -1,0 +1,13 @@
+{
+  "bill_id": "118-sjres-38",
+  "model": "anthropic/claude-opus-4.8",
+  "summary": "This bill is about a rule made by a government group called the Federal Highway Administration. That group helps take care of roads in the country.\n\nFirst, here is some background. There is a law called \"Buy America.\" It says that some things paid for by the government should be made in the United States. This helps American workers and factories.\n\nThe Federal Highway Administration made a rule in February 2023. That rule let some electric vehicle chargers skip the \"Buy America\" rules. Electric vehicle chargers are the machines that fill up cars that run on electricity, kind of like a gas pump but for power. Skipping the rule means those chargers would not have to be made in America.\n\nCongress is the group of people who make laws for the country. This bill says Congress does not agree with that rule. If this bill becomes law, the rule would be canceled. It would have no power at all. That means the \"Buy America\" requirements would still apply to electric vehicle chargers.\n\nThe bill passed the Senate on November 8, 2023. The Senate is one of the two parts of Congress. For this to fully become law, it would still need more steps.",
+  "prompt_tokens": 779,
+  "completion_tokens": 333,
+  "total_tokens": 1112,
+  "cost_usd": 0.01222,
+  "latency_s": 6.789,
+  "ok": true,
+  "strategy": "single",
+  "level": "eli5"
+}

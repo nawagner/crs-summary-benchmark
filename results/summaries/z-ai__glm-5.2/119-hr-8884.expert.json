@@ -1,0 +1,13 @@
+{
+  "bill_id": "119-hr-8884",
+  "model": "z-ai/glm-5.2",
+  "summary": "H.R. 8884, the \"Removing Barriers to Work for Disabled Americans Act,\" amends title II of the Social Security Act to temporarily reauthorize and modify the demonstration project authority for the disability insurance program. \n\nSection 2(a) amends Section 234(d)(2) of the Social Security Act (42 U.S.C. 434(d)(2)) to extend the deadline for initiating experiments and demonstration projects from December 31, 2021, to December 31, 2030, and the termination date for carrying out such projects from December 31, 2022, to December 31, 2031.\n\nSection 2(b) amends Section 234(c) of the Act (42 U.S.C. 434(c)) to extend the Commissioner of Social Security's authority to waive compliance with benefit requirements from December 30, 2021, to December 31, 2030. It increases the required notice period for such waivers from 90 to 120 days. Additionally, it adds a requirement that the Commissioner specify \"evaluation metrics to be used with respect to the experiment or demonstration project\" alongside the expected annual and total costs.\n\nSection 2(c) amends Section 201(k) of the Act (42 U.S.C. 401(k)) to provide that administrative expenditures for experiments and demonstration projects under section 234 shall be paid from funds made available for the administration of title II. It further provides that benefits payable to or on behalf of individuals by reason of their participation in such projects shall be made from either the Federal Old-Age and Survivors Insurance Trust Fund or the Federal Disability Insurance Trust Fund, as determined appropriate by the Commissioner of Social Security.\n\nSection 2(d) amends Section 234(e) of the Act (42 U.S.C. 434(e)) to add a new limitation providing that the total income of an individual will not be reduced due to the individual's participation in an experiment or demonstration project.\n\nSection 2(e) makes technical amendments to Section 234 of the Act (42 U.S.C. 434) by correcting a cross-reference in subsection (d)(1) from \"subsection\" to \"section\" and repealing subsection (f).\n\nSection 2(f) establishes that the amendments made by the bill shall take effect on January 1, 2027.",
+  "prompt_tokens": 1185,
+  "completion_tokens": 965,
+  "total_tokens": 2150,
+  "cost_usd": 0.002303,
+  "latency_s": 7.561,
+  "ok": true,
+  "strategy": "single",
+  "level": "expert"
+}

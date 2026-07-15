@@ -105,6 +105,10 @@ spend OpenRouter credit. Run `pip install -r requirements-dev.txt && pytest test
 pipeline's pure logic (stage classification, chunking, retrieval, readability, extractors) is fully
 tested offline.
 
+- **Reauthorization analysis** (issue #14): `python src/analyze_reauth.py && python src/plot_reauth.py`
+  — **fully offline, no API keys**: classifies every stored bill (amendatory/reauthorization vs.
+  appropriations vs. CRA disapproval vs. standalone) from its title and text, re-slices the
+  committed verdicts by category, and writes `docs/data/reauth.json` plus two charts.
 - **CRS lag page** (issue #6): `python src/analyze_lag.py && python src/plot_lag.py`. Everything
   displayed is the exact full population: a latest-action census of every hr/s bill for per-stage
   coverage (floor / committee / introduced), and every bill's exact `introducedDate` from the
@@ -135,6 +139,8 @@ tested offline.
   a [pavement-plot](https://planspace.org/pavement/) of each summarizer's summary-length distribution.
 - **Bills** — every bill, filterable by summarizer / criterion / outcome / type, with a per-bill
   drill-down showing all summaries side by side and the judge's per-criterion verdicts.
+- **Reauthorization** — are amendatory/reauthorization bills harder? Pass rates, failure modes, and
+  judge-consistency checks by bill category, re-sliced offline from the committed verdicts.
 - **Methodology** — the criteria, prompts, judge, and caveats, in full.
 - **Dataset toggle** — switch datasets on the leaderboard and bills pages (the priority/long-bill
   dataset appears automatically once its results file is generated and committed).

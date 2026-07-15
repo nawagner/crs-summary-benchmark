@@ -1,0 +1,123 @@
+{
+  "generated_at": "2099-01-01 00:00:00 UTC",
+  "dataset_id": "mini",
+  "judge_model": "stub-judge",
+  "congress": 900,
+  "model_ids": ["model/x"],
+  "criteria": [
+    {"id": "accurate", "name": "Accurate", "applicability": "always"},
+    {"id": "changes_to_existing_law", "name": "Changes to existing law", "applicability": "conditional"},
+    {"id": "effective_dates", "name": "Effective dates & timing", "applicability": "conditional"},
+    {"id": "concise", "name": "Concise", "applicability": "always"}
+  ],
+  "bills": [
+    {
+      "bill_id": "900-hjres-1",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Widget Safety Administration",
+      "bill_text_chars": 260,
+      "candidates": {
+        "model__x": {
+          "label": "model/x", "is_human": false, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 4,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": true, "pass": true, "why": "nullification described"},
+            "effective_dates": {"applicable": false, "pass": true, "why": "no dates"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        },
+        "crs_reference": {
+          "label": "CRS (human)", "is_human": true, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 4,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": true, "pass": true, "why": "ok"},
+            "effective_dates": {"applicable": false, "pass": true, "why": "no dates"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        }
+      }
+    },
+    {
+      "bill_id": "900-hr-2",
+      "title": "Department of Widgets Appropriations Act, 2099",
+      "bill_text_chars": 470,
+      "candidates": {
+        "model__x": {
+          "label": "model/x", "is_human": false, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 4,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": false, "pass": true, "why": "appropriates only"},
+            "effective_dates": {"applicable": true, "pass": true, "why": "fiscal year noted"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        },
+        "crs_reference": {
+          "label": "CRS (human)", "is_human": true, "meets_standard": false,
+          "n_passed": 3, "n_applicable": 4,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": false, "pass": true, "why": "appropriates only"},
+            "effective_dates": {"applicable": true, "pass": false, "why": "omits the availability period"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        }
+      }
+    },
+    {
+      "bill_id": "900-hr-3",
+      "title": "Widget Safety Reauthorization Act of 2099",
+      "bill_text_chars": 300,
+      "candidates": {
+        "model__x": {
+          "label": "model/x", "is_human": false, "meets_standard": false,
+          "n_passed": 3, "n_applicable": 4,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": true, "pass": false, "why": "Describes the striking mechanics but not the substantive effect of the amendment."},
+            "effective_dates": {"applicable": true, "pass": true, "why": "effective date stated"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        },
+        "crs_reference": {
+          "label": "CRS (human)", "is_human": true, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 3,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": true, "pass": true, "why": "extension described"},
+            "effective_dates": {"applicable": false, "pass": true, "why": "judge marked N/A here"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        }
+      }
+    },
+    {
+      "bill_id": "900-s-4",
+      "title": "A bill to establish the National Widget Commission",
+      "bill_text_chars": 250,
+      "candidates": {
+        "model__x": {
+          "label": "model/x", "is_human": false, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 3,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": false, "pass": true, "why": "self-contained"},
+            "effective_dates": {"applicable": false, "pass": true, "why": "no dates"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        },
+        "crs_reference": {
+          "label": "CRS (human)", "is_human": true, "meets_standard": true,
+          "n_passed": 4, "n_applicable": 3,
+          "verdicts": {
+            "accurate": {"applicable": true, "pass": true, "why": "ok"},
+            "changes_to_existing_law": {"applicable": false, "pass": true, "why": "self-contained"},
+            "effective_dates": {"applicable": false, "pass": true, "why": "no dates"},
+            "concise": {"applicable": true, "pass": true, "why": "ok"}
+          }
+        }
+      }
+    }
+  ]
+}

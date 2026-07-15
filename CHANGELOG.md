@@ -2,6 +2,40 @@
 
 All notable changes to this project are documented here. Dates are UTC.
 
+## [Unreleased] — branch `claude/crs-expert-meeting-prep-om78qq`
+
+### #14 — Reauthorization-bill analysis (fully offline)
+
+Do reauthorization/amendatory bills — which mostly modify existing law rather than
+state self-contained provisions — score differently? Answered without a single new
+model call, by re-slicing the committed verdicts:
+
+- **New `src/reauth.py`**: pure classifier (pattern tables, like `stages.py`). A bill
+  is `amendatory` if its title says reauthorization/extension or its text has ≥ 0.5
+  amendatory operations ("is amended", "by striking", …) per 1,000 chars — calibrated
+  bimodal across all 110 corpus bills (NDAAs 0.64–0.68 at 2.9M chars; CRA and pure
+  appropriations bills ≤ ~0.2). `appropriations` and `cra_disapproval` are separate
+  categories (different failure modes); everything else is `standalone`.
+- **New `src/analyze_reauth.py`**: joins labels to the committed per-criterion verdicts
+  across all three datasets → `docs/data/reauth.json` (group counts, verbatim failure
+  reasons, and judge-consistency proxies). **New `src/plot_reauth.py`** renders
+  `docs/assets/reauth-pass-rates.png` / `reauth-failure-criteria.png` ("x of y" on
+  every bar — per-category n is small). **New `docs/reauth.html`** + `initReauth()`
+  + nav links on every page.
+- **Findings (real data):** amendatory bills are measurably but mildly harder on the
+  short-bill sets — models pooled pass **144/155 (93%)** of amendatory summaries vs.
+  **222/225 (99%)** of standalone; the human CRS baseline passes 27/31 on the same
+  amendatory bills. Failures concentrate in **accuracy (12) and figures (11)**, not in
+  amendment-tracing itself (`changes_to_existing_law` fails once, and on the human
+  baseline). Judge cross-validation: `changes_to_existing_law` was marked applicable on
+  **186/186** amendatory-bill verdicts with zero within-bill applicability disagreement
+  (vs. 12 disagreeing bills among 119th standalone bills) — the judge treats the
+  category consistently; several human-baseline failures trace to the known corpus
+  mismatches (`118-hr-5009`, `118-s-2073`), not to CRS analysts.
+- Tests: `tests/test_reauth.py` (boundary-parametrized classifier) and
+  `tests/test_analyze_reauth.py` (fixture corpus with planted disagreement/failure);
+  unscored reference cards (issue #8) are excluded from all aggregates.
+
 ## [Unreleased] — branch `claude/open-issues-plan-8syw76` (PR #11)
 
 Closes the five open enhancement issues (#6–#10). Every feature ships with **real

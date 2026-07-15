@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reauthorization bills · CRS Summary Benchmark</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CRS Summary Benchmark</a>
+      <small>Frontier LLMs vs. real Congressional Research Service summaries</small></div>
+    <nav class="site">
+      <a href="index.html">Leaderboard</a>
+      <a href="bills.html">Bills</a>
+      <a href="lag.html">CRS lag</a>
+      <a href="reauth.html" class="active">Reauthorization</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<main><div class="wrap">
+  <h1>Are reauthorization bills harder?</h1>
+  <p class="lede">Reauthorization and other amendatory bills mostly <em>modify existing law</em> —
+  "strike '2024' and insert '2029'" — so the meaning lives in the statute being amended, not in the
+  bill text itself. That could make them harder to summarize and harder to judge. This page slices
+  the benchmark's existing verdicts three ways: do amendatory bills score differently, what actually
+  fails on them, and does the judge behave consistently on them? Every bill is classified from its
+  stored title and text (categories: amendatory/reauthorization, appropriations, CRA disapproval,
+  standalone), and every count below is auditable.</p>
+
+  <p class="count" id="reauth-meta">Loading…</p>
+  <div id="reauth-stats" class="stat-grid"></div>
+
+  <h2>Pass rates by bill category</h2>
+  <p style="margin:0 0 12px;color:var(--muted)">Share of summaries passing every applicable
+  criterion, models (pooled) vs. the human CRS baseline, per dataset. Counts are shown on every
+  bar — per-category n is small, so read the counts, not just the rates.</p>
+  <div class="card" style="padding:16px 18px">
+    <img src="assets/reauth-pass-rates.png" alt="Grouped horizontal bar chart of meets-standard rates by bill category for three datasets. 119th Congress: models pass 69 of 70 amendatory, 60 of 60 CRA disapproval, 120 of 120 standalone summaries; the human CRS baseline passes 13 of 14, 12 of 12, and 22 of 24. 2024 high-activity: models 66 of 70 amendatory, 20 of 20 appropriations, 58 of 60 CRA, 98 of 100 standalone; CRS 13 of 14, 4 of 4, 12 of 12, 20 of 20. 118th appropriations and NDAA set: models 9 of 15 amendatory, 20 of 30 appropriations, 4 of 5 standalone; CRS 1 of 3, 4 of 6, 1 of 1." style="width:100%;height:auto;display:block">
+  </div>
+  <div id="reauth-tables"></div>
+
+  <h2>What fails on amendatory bills</h2>
+  <p style="margin:0 0 12px;color:var(--muted)">Every failing judge verdict on an amendatory bill,
+  counted by criterion. The amendment-tracing criterion itself (<em>changes to existing law</em>)
+  almost never fails — failures concentrate in accuracy and figures, and on the largest bills.</p>
+  <div class="card" style="padding:16px 18px">
+    <img src="assets/reauth-failure-criteria.png" alt="Stacked horizontal bar chart of failing verdicts on amendatory bills by criterion, split into model failures (blue) and human CRS baseline failures (amber): accurate 12, correct figures 11, no hallucinations 6, correct entities 3, states purpose 2, major provisions covered 2, changes to existing law 1, effective dates 1. Model failures dominate accuracy and figures; the human baseline accounts for the purpose, provisions, and amendment-tracing failures." style="width:100%;height:auto;display:block">
+  </div>
+  <div id="reauth-failures"></div>
+
+  <h2>Judge consistency by category</h2>
+  <p style="margin:0 0 12px;color:var(--muted)">Three consistency/harshness proxies (not accuracy
+  measures): how often the judge passes the human CRS gold summary; how often it marks
+  <em>changes to existing law</em> applicable (on amendatory bills this should approach 100% — the
+  classifier and the judge cross-validate); and on how many bills it marked a conditional criterion
+  applicable for some candidates but not others on the same bill.</p>
+  <div id="reauth-reliability"></div>
+
+  <h2>Caveats</h2>
+  <div class="card">
+    <ul style="margin:0">
+      <li><strong>Small n.</strong> Amendatory bills number 14, 14, and 3 per dataset — differences
+      of one or two bills move the rates a lot. That's why every figure carries its count.</li>
+      <li><strong>The 119th set is saturated.</strong> All five models pass ~everything there, so
+      category differences can only show up in the 2024 and long-bill datasets.</li>
+      <li><strong>Categories are heuristic.</strong> A bill is "amendatory" if its title says
+      reauthorization/extension or its text has ≥ 0.5 amendatory operations ("is amended", "by
+      striking", …) per 1,000 characters — thresholds and per-bill labels are published in
+      <code>data/reauth.json</code> for audit. Appropriations and CRA disapproval bills are kept
+      separate because they fail differently (or barely amend law at all).</li>
+      <li><strong>Known corpus quirks inflate the human failures.</strong> Two amendatory-bill CRS
+      baselines describe a different bill than the stored text (<code>118-hr-5009</code>,
+      <code>118-s-2073</code> — documented in the changelog); several of the human baseline's
+      purpose/coverage failures trace to these mismatches, not to CRS analysts.</li>
+      <li><strong>Pooling mixes pipelines.</strong> The three datasets were judged by different
+      routes (API judge with web search vs. Claude Code subagents; full text vs. sectional
+      grounding), so cross-dataset totals are indicative only.</li>
+    </ul>
+  </div>
+
+  <h2>How it's measured</h2>
+  <div class="card">
+    <p style="margin-top:0">Entirely offline — no new model calls. <code>src/reauth.py</code>
+    classifies every stored bill from its title and text; <code>src/analyze_reauth.py</code> joins
+    the labels to the committed per-criterion verdicts in <code>docs/data/results*.json</code> and
+    writes <code>docs/data/reauth.json</code>; <code>src/plot_reauth.py</code> renders the charts.
+    Reproduce with <code>python src/analyze_reauth.py &amp;&amp; python src/plot_reauth.py</code>.</p>
+  </div>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  Bill data from the <a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov API</a> ·
+  <a href="https://github.com/nawagner/crs-summary-benchmark" target="_blank" rel="noopener">source &amp; data on GitHub</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+<script>initReauth();</script>
+</body>
+</html>

@@ -519,3 +519,130 @@ async function initLag() {
     `<div class="stat"><div class="stat-v">${c.v}</div><div class="stat-l">${esc(c.l)}</div>` +
     `<div class="stat-sub">${esc(c.sub)}</div></div>`).join("");
 }
+
+/* ------------------------------------------------- reauthorization (issue #14) */
+const REAUTH_CATS = [
+  ["amendatory", "Amendatory / reauthorization"],
+  ["appropriations", "Appropriations"],
+  ["cra_disapproval", "CRA disapproval"],
+  ["standalone", "Standalone"],
+];
+
+function reauthPool(groups, cat, human) {
+  // pooled [passed, n] over one category's candidates (models or the human baseline)
+  const g = groups[cat];
+  let c = 0, n = 0;
+  if (g) for (const cand of Object.values(g.candidates)) {
+    if (Boolean(cand.is_human) !== human) continue;
+    c += cand.meets_standard_count; n += cand.n_bills;
+  }
+  return [c, n];
+}
+
+async function initReauth() {
+  const meta = document.getElementById("reauth-meta");
+  const grid = document.getElementById("reauth-stats");
+  let d;
+  try { d = await (await fetch("data/reauth.json", { cache: "no-store" })).json(); }
+  catch (e) { return fail(grid, new Error("reauth.json not found (run analyze_reauth.py)")); }
+
+  const dss = Object.values(d.datasets);
+  const totalBills = dss.reduce((a, ds) => a + ds.n_bills, 0);
+  meta.textContent = `${totalBills} bills across ${dss.length} datasets, re-sliced from the ` +
+    `committed verdicts · as of ${d.generated_at}`;
+
+  // pooled headline counts across datasets
+  const pool = (cat, human) => dss.reduce((a, ds) => {
+    const [c, n] = reauthPool(ds.groups, cat, human);
+    return [a[0] + c, a[1] + n];
+  }, [0, 0]);
+  const [mAc, mAn] = pool("amendatory", false);
+  const [mSc, mSn] = pool("standalone", false);
+  const [hAc, hAn] = pool("amendatory", true);
+  const [chC, chN] = dss.reduce((a, ds) => {
+    const r = (ds.reliability.per_category.amendatory || {}).changes_applicable;
+    return r ? [a[0] + r.count, a[1] + r.n] : a;
+  }, [0, 0]);
+
+  const cards = [
+    { v: pct(mAc / mAn), l: "model summaries of amendatory bills meet the standard",
+      sub: `${mAc} of ${mAn} summaries (all datasets pooled)` },
+    { v: pct(mSc / mSn), l: "of standalone bills — amendatory bills are slightly harder",
+      sub: `${mSc} of ${mSn} summaries` },
+    { v: pct(hAc / hAn), l: "for the human CRS baseline on the same amendatory bills",
+      sub: `${hAc} of ${hAn} summaries` },
+    { v: pct(chN ? chC / chN : null), l: "of amendatory-bill verdicts marked “changes to existing law” applicable",
+      sub: `${chC} of ${chN} — the classifier and the judge agree` },
+  ];
+  grid.innerHTML = cards.map((c) =>
+    `<div class="stat"><div class="stat-v">${c.v}</div><div class="stat-l">${esc(c.l)}</div>` +
+    `<div class="stat-sub">${esc(c.sub)}</div></div>`).join("");
+
+  // per-dataset category × candidate tables
+  const tables = document.getElementById("reauth-tables");
+  tables.innerHTML = Object.entries(d.datasets).map(([dsId, ds]) => {
+    const cats = REAUTH_CATS.filter(([k]) => ds.groups[k]);
+    const candIds = [];
+    for (const [k] of cats)
+      for (const id of Object.keys(ds.groups[k].candidates))
+        if (!candIds.includes(id)) candIds.push(id);
+    const labels = {};
+    for (const [k] of cats)
+      for (const [id, c] of Object.entries(ds.groups[k].candidates)) labels[id] = c;
+    const head = `<th>Category</th><th class="num">Bills</th>` + candIds.map((id) =>
+      `<th class="num">${esc(labels[id].label)}${labels[id].is_human ? '<span class="tag-human">human</span>' : ""}</th>`).join("");
+    const body = cats.map(([k, lbl]) => {
+      const g = ds.groups[k];
+      const cells = candIds.map((id) => {
+        const c = g.candidates[id];
+        if (!c) return `<td class="num">—</td>`;
+        return `<td class="heat" style="background:${heatColor(c.meets_standard_count / c.n_bills)}">` +
+          `${c.meets_standard_count}/${c.n_bills}</td>`;
+      }).join("");
+      return `<tr><td class="candidate-name">${esc(lbl)}</td><td class="num">${g.n_bills}</td>${cells}</tr>`;
+    }).join("");
+    return `<h3 style="margin:18px 0 8px">${esc(ds.label)}</h3>` +
+      `<div class="table-scroll"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  }).join("");
+
+  // failure examples, grouped by criterion, judge's reason verbatim
+  const failBox = document.getElementById("reauth-failures");
+  const byCrit = {};
+  for (const it of d.failure_examples.items) (byCrit[it.criterion] ||= []).push(it);
+  const shown = d.failure_examples.items.length, total = d.failure_examples.n_total;
+  failBox.innerHTML =
+    `<p style="margin:14px 0 8px;color:var(--muted)">The judge's verbatim reasons` +
+    (shown < total ? ` (showing ${shown} of ${total})` : ` (all ${total})`) + `:</p>` +
+    Object.entries(byCrit).map(([crit, items]) =>
+      `<div class="card" style="margin-bottom:12px"><h3 style="margin:0 0 8px">${esc(crit.replace(/_/g, " "))}` +
+      ` <span style="color:var(--muted);font-weight:400">· ${items.length}</span></h3>` +
+      items.map((it) =>
+        `<p style="margin:6px 0"><strong>${esc(it.candidate)}</strong>` +
+        (it.is_human ? '<span class="tag-human">human</span>' : "") +
+        ` on <em>${esc(it.title.length > 90 ? it.title.slice(0, 90) + "…" : it.title)}</em>` +
+        ` <span style="color:var(--muted)">(${esc(it.dataset)} · ${esc(it.bill_id)})</span><br>` +
+        `<span style="color:var(--muted)">“${esc(it.why)}”</span></p>`).join("") +
+      `</div>`).join("");
+
+  // judge-consistency table
+  const rel = document.getElementById("reauth-reliability");
+  rel.innerHTML = Object.entries(d.datasets).map(([dsId, ds]) => {
+    const rows = REAUTH_CATS.filter(([k]) => ds.reliability.per_category[k]).map(([k, lbl]) => {
+      const r = ds.reliability.per_category[k];
+      const dis = r.applicability_disagreement;
+      const disCells = ["changes_to_existing_law", "exceptions_conditions", "effective_dates"]
+        .map((c) => `<td class="num">${dis[c].bills_with_disagreement}/${dis[c].n_bills}</td>`).join("");
+      return `<tr><td class="candidate-name">${esc(lbl)}</td>` +
+        `<td class="num">${r.crs_pass.count}/${r.crs_pass.n}</td>` +
+        `<td class="num">${r.changes_applicable.count}/${r.changes_applicable.n}</td>` + disCells + `</tr>`;
+    }).join("");
+    return `<h3 style="margin:18px 0 8px">${esc(ds.label)}</h3>` +
+      `<div class="table-scroll"><table><thead><tr><th>Category</th>` +
+      `<th class="num" title="how often the judge passes the human CRS gold summary">CRS passes</th>` +
+      `<th class="num" title="verdicts marking changes_to_existing_law applicable">“Changes” applicable</th>` +
+      `<th class="num">Disagree: changes</th><th class="num">Disagree: exceptions</th>` +
+      `<th class="num">Disagree: dates</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }).join("") +
+  `<p style="margin:10px 0 0;color:var(--muted);font-size:13px">“Disagree” = bills where the judge marked the
+   criterion applicable for some candidates but not others on the same bill (within-bill inconsistency).</p>`;
+}
